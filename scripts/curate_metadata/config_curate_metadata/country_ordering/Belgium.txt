@@ -1,0 +1,3379 @@
+### Wallonia
+### Vlaanderen
+
+### Antwerpen
+
+# Antwerpen
+Aartselaar
+	Aartselaar
+Antwerpen
+	Antwerpen
+	Berchem
+	Berendrecht - Zandvliet - Lillo
+	Borgerhout
+	Deurne
+	Ekeren
+	Hoboken
+	Merksem
+	Wilrijk
+Boechout
+	Boechout
+	Vremde
+Boom
+	Boom
+Borsbeek
+	Borsbeek
+Brasschaat
+	Brasschaat
+Brecht
+	Brecht
+	Sint-Job-in-'t-Goor
+	Sint-Lenaarts
+Edegem
+	Edegem
+Essen BE
+	Essen BE
+Hemiksem
+	Hemiksem
+Hove
+	Hove
+Kalmthout
+	Kalmthout
+Kapellen
+	Kapellen
+Kontich
+	Kontich
+	Waarloos
+Lint
+	Lint
+Malle
+	Oostmalle
+	Westmalle
+Mortsel
+	Mortsel
+Niel
+	Niel
+Ranst
+	Broechem
+	Emblem
+	Oelegem
+	Ranst
+Rumst
+	Reet
+	Rumst
+	Terhagen
+Schelle
+	Schelle
+Schilde
+	Schilde
+	's-Gravenwezel
+Schoten
+	Schoten
+Stabroek
+	Hoevenen
+	Stabroek
+Wijnegem
+	Wijnegem
+Wommelgem
+	Wommelgem
+Wuustwezel
+	Loenhout
+	Wuustwezel
+Zandhoven
+	Massenhoven
+	Pulderbos
+	Pulle
+	Viersel
+	Zandhoven
+Zoersel
+	Zoersel
+Zwijndrecht
+	Burcht
+	Zwijndrecht
+
+# Mechelen
+Berlaar
+	Gestel
+	Berlaar
+Bonheiden
+	Bonheiden
+	Rijmenam
+Bornem
+	Bornem
+	Hingene
+	Mariekerke
+	Weert BE
+Duffel
+	Duffel
+Heist-op-den-Berg
+	Booischot
+	Hallaar
+	Heist-Op-Den-Berg
+	Itegem
+	Schriek
+	Wiekevorst
+Lier
+	Koningshooikt
+	Lier
+Mechelen
+	Heffen
+	Hombeek
+	Leest
+	Mechelen
+	Muizen
+	Walem
+Nijlen
+	Bevel
+	Kessel
+	Nijlen
+Putte
+	Beerzel
+	Putte
+Puurs-Sint-Amands
+	Breendonk
+	Liezele
+	Lippelo
+	Oppuurs
+	Puurs
+	Sint-Amands
+Sint-Katelijne-Waver
+	Onze-Lieve-Vrouw-Waver
+	Sint-Katelijne-Waver
+Willebroek
+	Blaasveld
+	Heindonk
+	Tisselt
+	Willebroek
+
+# Turnhout
+Arendonk
+	Arendonk
+Baarle-Hertog
+	Baarle-Hertog
+Balen
+	Balen
+	Olmen
+Beerse
+	Beerse
+	Vlimmeren
+Dessel
+	Dessel
+Geel
+	Geel
+	Ten Aard
+Grobbendonk
+	Bouwel
+	Grobbendonk
+Herentals
+	Herentals
+	Morkhoven
+	Noorderwijk
+Herenthout
+	Herenthout
+Herselt
+	Herselt
+	Ramsel
+Hoogstraten
+	Hoogstraten
+	Meer
+	Meerle
+	Minderhout
+	Wortel
+Hulshout
+	Houtvenne
+	Hulshout
+	Westmeerbeek
+Kasterlee
+	Kasterlee
+	Lichtaart
+	Tielen
+Laakdal
+	Eindhout
+	Varendonk
+	Veerle
+	Vorst
+Lille BE
+	Gierle
+	Lille BE
+	Poederlee
+	Wechelderzande
+Meerhout
+	Meerhout
+Merksplas
+	Merksplas
+	Geheul
+Mol
+	Mol
+Olen
+	Olen
+Oud-Turnhout
+	Oud-Turnhout
+Ravels
+	Poppel
+	Ravels
+	Weelde
+Retie
+	Retie
+Rijkevorsel
+	Rijkevorsel
+Turnhout
+	Turnhout
+Vorselaar
+	Vorselaar
+Vosselaar
+	Vosselaar
+Westerlo
+	Oevel
+	Tongerlo
+	Westerlo
+	Zoerle-Parwijs
+
+
+---------------
+
+### Brabant Wallon
+
+# Nivelles
+Argenteuil BE
+Beauvechain
+	Beauvechain
+	Hamme-Mille
+	L'Écluse
+	Nodebais
+	Tourinnes-la-Grosse
+Braine-l'Alleud
+	Braine-l'Alleud
+	Lillois-Witterzée
+	Ophain-Bois-Seigneur-Isaac
+Braine-le-Château
+	Braine-le-Château
+	Wauthier-Braine
+Chastre
+	Chastre-Villeroux-Blanmont
+	Cortil-Noirmont
+	Gentinnes
+	Saint-Géry
+Chaumont-Gistoux
+	Bonlez
+	Chaumont-Gistoux
+	Corroy-le-Grand
+	Dion-le-Mont
+	Dion-le-Val
+	Longueville
+Court-Saint-Étienne
+	Court-Saint-Étienne
+Genappe
+	Baisy-Thy
+	Bousval
+	Genappe
+	Glabais
+	Houtain-le-Val
+	Loupoigne
+	Vieux-Genappe
+	Ways
+Grez-Doiceau
+	Archennes
+	Biez
+	Bossut-Gottechain
+	Grez-Doiceau
+	Nethen
+	Pécrot
+Hélécine
+	Linsmeau
+	Neerheylissem
+	Opheylissem
+Incourt
+	Glimes
+	Incourt
+	Opprebais
+	Piétrebais
+	Roux-Miroir
+Ittre
+	Haut-Ittre
+	Ittre
+	Virginal-Samme
+Jodoigne
+	Dongelberg
+	Jauchelette
+	Jodoigne
+	Jodoigne-Souveraine
+	Lathuy
+	Mélin
+	Piétrain
+	Saint-Jean-Geest
+	Saint-Remy-Geest
+	Zétrud-Lumay
+La Hulpe
+	La Hulpe
+Lasne
+	Couture-Saint-Germain
+	Lasne-Chapelle-Saint-Lambert
+	Maransart
+	Ohain
+	Plancenoit
+Mont-Saint-Guibert
+	Corbais
+	Hévillers
+	Mont-Saint-Guibert
+Nivelles
+	Baulers
+	Bornival
+	Monstreux
+	Nivelles
+	Thines
+Orp-Jauche
+	Énines
+	Folx-les-Caves
+	Jandrain-Jandrenouille
+	Jauche
+	Marilles
+	Noduwez
+	Orp-le-Grand
+Ottignies-Louvain-la-Neuve
+	Céroux-Mousty
+	Limelette
+	Ottignies-Louvain-la-Neuve
+	Ottignies
+Perwez
+	Malèves-Sainte-Marie-Wastines
+	Orbais
+	Perwez
+	Thorembais-les-Béguines
+	Thorembais-Saint-Trond
+Ramillies
+	Autre-Église
+	Bomal
+	Geest-Gérompont-Petit-Rosière
+	Grand-Rosière-Hottomont
+	Huppaye
+	Mont-Saint-André
+	Ramillies-Offus
+Rebecq
+	Bierghes
+	Quenast
+	Rebecq-Rognon
+	Wisbecq
+Rixensart
+	Genval
+	Rixensart
+	Rosières
+Tubize
+	Clabecq
+	Oisquercq
+	Saintes
+	Tubize
+Villers-la-Ville
+	Marbais
+	Mellery
+	Sart-Dames-Avelines
+	Tilly
+	Villers-La-Ville
+Walhain
+	Nil-Saint-Vincent-Saint-Martin
+	Tourinnes-Saint-Lambert
+	Walhain-Saint-Paul
+Waterloo
+	Waterloo
+Wavre
+	Bierges
+	Limal
+	Wavre
+
+
+---------------
+
+### Hainaut
+
+# Ath
+Ath
+	Arbre
+	Ath
+	Bouvignies
+	Ghislenghien
+	Gibecq
+	Houtaing
+	Irchonwelz
+	Isières
+	Lanquesaint
+	Ligne
+	Maffle
+	Mainvault
+	Meslin-l'Évêque
+	Moulbaix
+	Ormeignies
+	Ostiches
+	Rebaix
+	Villers-Notre-Dame
+	Villers-Saint-Amand
+Belœil
+	Aubechies
+	Basècles
+	Beloeil
+	Ellignies-Sainte-Anne
+	Quevaucamps
+	Ramegnies
+	Grandglise
+	Stambruges
+	Thumaide
+	Wadelincourt
+Bernissart
+	Harchies
+	Bernissart
+	Blaton
+	Ville-Pommerœul
+	Pommerœul
+Brugelette
+	Attre
+	Brugelette
+	Cambron-Casteau
+	Gages
+	Mévergnies-lez-Lens
+Chièvres
+	Chièvres
+	Grosage
+	Huissignies
+	Ladeuze
+	Tongre-Notre-Dame
+	Tongre-Saint-Martin
+Ellezelles
+	Ellezelles
+	Lahamaide
+	Wodecq
+Enghien
+	Enghien
+	Marcq
+	Lettelingen
+	Petit-Enghien
+Flobecq
+	Flobecq
+Frasnes-lez-Anvaing
+	Ellignies-lez-Frasnes
+	Anvaing
+	Arc-Ainières
+	Buissenal
+	Cordes
+	Dergneau
+	Frasnes-lez-Buissenal
+	Hacquegnies
+	Herquegies
+	Montrœul-au-Bois
+	Moustier
+	Œudeghien
+	Saint-Sauveur
+	Wattripont
+Lessines
+	Bois-de-Lessines
+	Deux-Acren
+	Ghoy
+	Lessines
+	Ogy
+	Ollignies
+	Wannebecq
+	Papignies
+Silly
+	Bassilly
+	Fouleng
+	Gondregnies
+	Graty
+	Hellebecq
+	Hoves
+	Silly
+	Thoricourt
+
+# Charleroi
+Aiseau-Presles
+	Aiseau
+	Pont-de-Loup
+	Presles
+	Roselies
+Chapelle-lez-Herlaimont
+	Chapelle-Lez-Herlaimont
+	Godarville
+	Piéton
+Charleroi
+	Charleroi
+	Couillet
+	Dampremy
+	Gilly
+	Gosselies
+	Goutroux
+	Jumet
+	Lodelinsart
+	Marchienne-au-Pont
+	Marcinelle
+	Monceau-sur-Sambre
+	Montignies-sur-Sambre
+	Mont-sur-Marchienne
+	Ransart
+	Roux
+Châtelet
+	Bouffioulx
+	Châtelet
+	Châtelineau
+Courcelles
+	Courcelles
+	Gouy-lez-Piéton
+	Souvret
+	Trazegnies
+Farciennes
+	Farciennes
+	Pironchamps
+Fleurus
+	Brye
+	Fleurus
+	Heppignies
+	Lambusart
+	Saint-Amand
+	Wagnelée
+	Wanfercée-Baulet
+	Wangenies
+Fontaine-l'Évêque
+	Fontaine-l'Évêque
+	Forchies-la-Marche
+	Leernes
+Gerpinnes
+	Acoz
+	Gerpinnes
+	Gougnies
+	Joncret
+	Loverval
+	Villers-Poterie
+Les Bons Villers
+	Frasnes-lez-Gosselies
+	Mellet
+	Rèves
+	Villers-Perwin
+	Wayaux
+Montigny-le-Tilleul
+	Landelies
+	Montigny-le-Tilleul
+Pont-à-Celles
+	Buzet
+	Liberchies
+	Luttre
+	Obaix
+	Pont-à-Celles
+	Thiméon
+	Viesville
+
+# La Louvière
+Binche
+	Battignies
+	Binche
+	Bray
+	Buvrinnes
+	Épinois
+	Leval-Trahegnies
+	Péronnes-lez-Binche
+	Ressaix
+	Waudrez
+Estinnes
+	Croix-lez-Rouveroy
+	Estinnes-au-Mont
+	Estinnes-au-Val
+	Fauroeulx
+	Haulchin
+	Peissant
+	Rouveroy
+	Vellereille-les-Brayeux
+	Vellereille-le-Sec
+La Louvière
+	Besonrieux
+	Boussoit
+	Haine-Saint-Paul
+	Haine-Saint-Pierre
+	Houdeng-Aimeries
+	Houdeng-Goegnies
+	La Louvière
+	Maurage
+	Saint-Vaast
+	Strépy-Bracquegnies
+	Trivières
+Morlanwelz
+	Carnières
+	Mont-Sainte-Aldegonde
+	Morlanwelz-Mariemont
+
+# Mons
+Boussu
+	Boussu
+	Hornu
+Colfontaine
+	Pâturages
+	Warquignies
+	Wasmes
+Dour
+	Blaugies
+	Dour
+	Élouges
+	Wihéries
+Frameries
+	Eugies
+	Frameries
+	La Bouverie
+	Noirchain
+	Sars-la-Bruyère
+Hensies
+	Hainin
+	Hensies
+	Montrœul-sur-Haine
+	Thulin
+Honnelles
+	Angre
+	Angreau
+	Athis
+	Autreppe
+	Erquennes
+	Fayt-le-Franc
+	Marchipont
+	Montignies-sur-Roc
+	Onnezies
+	Roisin
+Jurbise
+	Erbaut
+	Erbisœul
+	Herchies
+	Jurbise
+	Masnuy-Saint-Jean
+	Masnuy-Saint-Pierre
+Lens BE
+	Bauffe
+	Cambron-Saint-Vincent
+	Lens BE
+	Lombise
+	Montignies-lez-Lens
+Mons
+	Ciply
+	Cuesmes
+	Flénu
+	Ghlin
+	Harmignies
+	Harveng
+	Havré
+	Hyon
+	Jemappes
+	Maisières
+	Mesvin
+	Mons
+	Nimy
+	Nouvelles
+	Saint-Denis (Mons)
+	Obourg
+	Saint-Symphorien
+	Spiennes
+	Villers-Saint-Ghislain
+Quaregnon
+	Quaregnon
+	Wasmuel
+Quévy
+	Asquillies
+	Aulnois
+	Blaregnies
+	Bougnies
+	Genly
+	Givry
+	Goegnies-Chaussée
+	Havay
+	Quévy-le-Grand
+	Quévy-le-Petit
+Quiévrain
+	Audregnies
+	Baisieux
+	Quiévrain
+Saint-Ghislain
+	Baudour
+	Hautrage
+	Neufmaison
+	Saint-Ghislain
+	Sirault
+	Tertre
+	Villerot
+Saisinne
+
+# Soignies
+Braine-le-Comte
+	Braine-Le-Comte
+	Hennuyères
+	Henripont
+	Petit-Rœulx-lez-Braine
+	Ronquières
+	Steenkerque
+Écaussinnes
+	Écaussinnes-d'Enghien
+	Écaussinnes-Lalaing
+	Marche-lez-Écaussinnes
+Le Rœulx
+	Le Roeulx
+	Mignault
+	Thieu
+	Gottignies
+	Ville-sur-Haine
+Manage
+	Bellecourt
+	Bois-d'Haine
+	Fayt-lez-Manage
+	La Hestre
+	Manage
+Seneffe
+	Arquennes
+	Familleureux
+	Feluy
+	Petit-Rœulx-lez-Nivelles
+	Seneffe
+Soignies
+	Casteau
+	Chaussée-Notre-Dame-Louvignies
+	Horrues
+	Naast
+	Neufvilles
+	Soignies
+	Thieusies
+
+# Thuin
+Anderlues
+	Anderlues
+Beaumont BE
+	Barbençon
+	Beaumont BE
+	Leugnies
+	Leval-Chaudeville
+	Renlies
+	Solre-Saint-Géry
+	Strée
+	Thirimont
+Chimay
+	Baileux
+	Bailièvre
+	Bourlers
+	Chimay
+	Forges
+	L'Escaillère
+	Lompret
+	Rièzes
+	Robechies
+	Saint-Remy
+	Salles
+	Vaulx
+	Villers-la-Tour
+	Virelles
+Erquelinnes
+	Bersillies-l'Abbaye
+	Erquelinnes
+	Grand-Reng
+	Hantes-Wihéries
+	Montignies-Saint-Christophe
+	Solre-sur-Sambre
+Froidchapelle
+	Boussu-lez-Walcourt
+	Erpion
+	Fourbechies
+	Froidchapelle
+	Vergnies
+Ham-sur-Heure-Nalinnes
+	Cour-sur-Heure
+	Ham-sur-Heure
+	Jamioulx
+	Marbaix-la-Tour
+	Nalinnes
+Lobbes
+	Bienne-lez-Happart
+	Lobbes
+	Mont-Sainte-Geneviève
+	Sars-la-Buissière
+Merbes-le-Château
+	Fontaine-Valmont
+	Labuissière
+	Merbes-le-Château
+	Merbes-Sainte-Marie
+Momignies
+	Beauwelz
+	Forge-Philippe
+	Macon
+	Macquenoise
+	Momignies
+	Monceau-Imbrechies
+	Seloignes
+Sivry-Rance
+	Grandrieu
+	Montbliart
+	Rance
+	Sautin
+	Sivry
+Thuin
+	Biercée
+	Biesme-sous-Thuin
+	Donstiennes
+	Gozée
+	Leers-et-Fosteau
+	Ragnies
+	Thuillies
+	Thuin
+
+# Tournai-Mouscron
+Antoing
+	Antoing
+	Bruyelle
+	Calonne
+	Fontenoy
+	Maubray
+	Péronnes-lez-Antoing
+Brunehaut
+	Bléharies
+	Guignies
+	Hollain
+	Howardries
+	Jollain-Merlin
+	Laplaigne
+	Lesdain
+	Rongy
+	Wez-Velvain
+Celles
+	Celles
+	Escanaffles
+	Molenbaix
+	Popuelles
+	Pottes
+	Velaines
+Comines-Warneton
+	Bas-Warneton
+	Comines
+	Houthem
+	Ploegsteert
+	Warneton
+Estaimpuis
+	Bailleul
+	Estaimbourg
+	Estaimpuis
+	Évregnies
+	Leers-Nord
+	Néchin
+	Saint-Léger
+Leuze-en-Hainaut
+	Blicquy
+	Chapelle-à-Oie
+	Chapelle-à-Wattines
+	Gallaix
+	Grandmetz
+	Leuze-en-Hainaut
+	Pipaix
+	Thieulain
+	Tourpes
+	Willaupuis
+Mont-de-l'Enclus
+	Amougies
+	Anserœul
+	Orroir
+	Russeignies
+Mouscron
+	Dottignies
+	Herseaux
+	Luingne
+	Mouscron
+Pecq
+	Esquelmes
+	Hérinnes
+	Obigies
+	Pecq
+	Warcoing
+Péruwelz
+	Baugnies
+	Bon-Secours
+	Braffe
+	Brasménil
+	Bury
+	Callenelle
+	Péruwelz
+	Roucourt
+	Wasmes-Audemez-Briffœil
+	Wiers
+Rumes
+	La Glanerie
+	Rumes
+	Taintignies
+Tournai
+	Barry - Maulde
+	Béclers - Thimougies
+	Blandain
+	Chercq
+	Esplechin
+	Froyennes
+	Gaurain-Ramecroix
+	Havinnes
+	Kain
+	Melles - Quartes
+	Orcq - Marquain - Lamain
+	Ramegnies-Chin
+	Rumillies - Mourcourt
+	Ere
+	Templeuve
+	Tournai
+	Vaulx
+	Vezon
+	Warchin
+	Willemeau - Froidmont
+	Hertain
+
+
+---------------
+
+### Liège
+
+# Huy
+Amay
+	Amay
+	Ampsin
+	Flône
+	Jehay-Bodegnée
+	Ombret-Rawsa
+Anthisnes
+	Anthisnes
+	Hody
+	Tavier
+	Villers-aux-Tours
+Burdinne
+	Burdinne
+	Hannêche
+	Lamontzée
+	Marneffe
+	Vissoul
+	Oteppe
+Clavier
+	Bois-et-Borsu
+	Clavier
+	Les Avins
+	Ocquier
+	Pailhe
+	Terwagne
+Engis
+	Clermont-sous-Huy
+	Éhein-Bas
+	Engis
+	Hermalle-sous-Huy
+Ferrières
+	Ferrières
+	My
+	Vieuxville
+	Werbomont
+	Xhoris
+Hamoir
+	Comblain-Fairon
+	Filot
+	Hamoir
+Héron
+	Couthuin
+	Héron
+	Lavoir
+	Waret-l'Évêque
+Huy
+	Ben-Ahin
+	Huy
+	Neuville-sous-Huy
+	Tihange
+Marchin
+	Marchin
+	Vyle-et-Tharoul
+Modave
+	Linchet
+	Modave
+	Outrelouxhe
+	Strée
+	Vierset-Barse
+Nandrin
+	Nandrin
+	Saint-Séverin
+	Villers-le-Temple
+	Yernée-Fraineux
+Ouffet
+	Ellemelle
+	Ouffet
+	Warzée
+Tinlot
+	Abée
+	Fraiture
+	Ramelot
+	Seny
+	Soheit-Tinlot
+Verlaine
+	Bodegnée
+	Chapon-Seraing
+	Seraing-le-Château
+	Verlaine
+Villers-le-Bouillet
+	Fize-Fontaine
+	Vaux-et-Borset
+	Vieux-Waleffe
+	Villers-Le-Bouillet
+	Warnant-Dreye
+Wanze
+	Antheit
+	Bas-Oha
+	Huccorgne
+	Moha
+	Vinalmont
+	Wanze
+
+# Liège
+Ans
+	Alleur
+	Ans
+	Loncin
+	Xhendremael
+Awans
+	Awans
+	Fooz
+	Hognoul
+	Othée
+	Villers-l'Évêque
+Aywaille
+	Aywaille
+	Ernonheid
+	Harzé
+	Sougné-Remouchamps
+Bassenge
+	Bassenge
+	Boirs
+	Ében-Émael
+	Glons
+	Roclenge-sur-Geer
+	Wonck
+Beyne-Heusay
+	Bellaire
+	Beyne-Heusay
+	Queue-du-Bois
+Blegny
+	Barchon
+	Housse
+	Mortier
+	Saint-Remy
+	Saive
+	Trembleur
+Chaudfontaine
+	Beaufays
+	Chaudfontaine
+	Embourg
+	Vaux-sous-Chèvremont
+Comblain-au-Pont
+	Comblain-au-Pont
+	Poulseur
+Dalhem
+	Berneau
+	Bombaye
+	Dalhem
+	Feneur
+	Mortroux
+	Saint-André
+	Warsage
+Esneux
+	Esneux
+	Tilff
+Flémalle
+	Gleixhe
+	Awirs
+	Flémalle-Grande
+	Chokier
+	Flémalle-Haute
+	Ivoz-Ramet
+	Mons-lez-Liège
+Fléron
+	Fléron
+	Magnée
+	Retinne
+	Romsée
+Grâce-Hollogne
+	Bierset
+	Grâce-Berleur
+	Hollogne-aux-Pierres
+	Horion-Hozémont
+	Velroux
+Herstal
+	Herstal
+	Liers
+	Milmort
+	Vottem
+Juprelle
+	Fexhe-Slins
+	Juprelle
+	Lantin
+	Paifve
+	Slins
+	Villers-Saint-Siméon
+	Voroux-lez-Liers
+	Wihogne
+Liège
+	Angleur
+	Bressoux
+	Chênée
+	Glain
+	Grivegnée
+	Jupille-sur-Meuse
+	Liège
+	Rocourt
+	Wandre
+Neupré
+	Éhein-Haut
+	Neuville-en-Condroz
+	Plainevaux
+	Rotheux-Rimière
+Oupeye
+	Haccourt
+	Hermalle-sous-Argenteau
+	Hermée
+	Heure-le-Romain
+	Houtain-Saint-Siméon
+	Oupeye
+	Vivegnis
+Saint-Nicolas
+	Montegnée
+	Saint-Nicolas
+	Tilleur
+Seraing
+	Boncelles
+	Jemeppe-sur-Meuse
+	Ougrée
+	Seraing
+Soumagne
+	Ayeneux
+	Cerexhe-Heuseux
+	Evegnée - Tignée
+	Melen
+	Micheroux
+	Soumagne
+Sprimont
+	Dolembreux
+	Gomzé-Andoumont
+	Louveigné
+	Rouvreux
+	Sprimont
+Trooz
+	Forêt
+	Fraipont
+	Nessonvaux
+Visé
+	Argenteau
+	Cheratte
+	Lanaye
+	Lixhe
+	Richelle
+	Visé
+
+# Verviers
+Amel
+	Amel
+	Born
+	Heppenbach
+	Meyerode
+Aubel
+	Aubel
+Baelen
+	Baelen
+	Membach
+Büllingen
+	Büllingen
+	Manderfeld
+	Medendorf
+	Rocherath
+Burg-Reuland
+	Reuland
+	Thommen
+Bütgenbach
+	Bütgenbach
+	Elsenborn
+Dison
+	Andrimont
+	Dison
+Eupen
+	Eupen
+	Kettenis
+Herve
+	Battice
+	Bolland
+	Chaineux
+	Charneux
+	Grand-Rechain
+	Herve
+	Julémont
+	Xhendelesse
+Jalhay
+	Jalhay
+	Sart
+Kelmis
+	Hergenrath
+	Kelmis
+	Neu-Moresnet
+Lierneux
+	Arbrefontaine
+	Bra
+	Lierneux
+Limbourg BE
+	Bilstain
+	Goé
+	Limbourg BE
+Lontzen
+	Lontzen
+	Walhorn
+Malmedy
+	Bellevaux-Ligneuville
+	Bévercé
+	Malmedy
+Olne
+	Olne
+Pepinster
+	Cornesse
+	Pepinster
+	Soiron
+	Wegnez
+Plombières
+	Gemmenich
+	Hombourg
+	Montzen
+	Moresnet
+	Sippenaeken
+Raeren
+	Eynatten
+	Hauset
+	Raeren
+Sankt Vith
+	Crombach
+	Lommersweiler
+	Recht
+	Sankt Vith
+	Schönberg
+	Wallerode
+Spa
+	Spa
+Stavelot
+	Francorchamps
+	Stavelot
+Stoumont
+	Chevron
+	La Gleize
+	Lorcé
+	Rahier
+	Stoumont
+Theux
+	La Reid
+	Polleur
+	Theux
+Thimister-Clermont
+	Clermont-sur-Berwinne
+	Thimister
+Trois-Ponts
+	Basse-Bodeux
+	Fosse
+	Wanne
+Verviers
+	Ensival
+	Heusy
+	Lambermont
+	Petit-Rechain
+	Polleur
+	Stembert
+	Verviers
+Waimes
+	Faymonville
+	Robertville
+	Waimes
+Welkenraedt
+	Henri-Chapelle
+	Welkenraedt
+
+# Waremme
+Berloz
+	Berloz
+	Corswarem
+	Rosoux-Crenwick
+Braives
+	Avennes
+	Braives
+	Ciplet
+	Fallais
+	Fumal
+	Latinne
+	Tourinne
+	Ville-en-Hesbaye
+Crisnée
+	Fize-le-Marsal
+	Kemexhe
+	Odeur
+	Thys
+	Crisnée
+Donceel
+	Donceel
+	Haneffe
+	Jeneffe
+	Limont
+Faimes
+	Aineffe
+	Borlez
+	Celles
+	Les Waleffes
+	Viemme
+Fexhe-le-Haut-Clocher
+	Freloux
+	Noville
+	Roloux
+	Voroux-Goreux
+	Fexhe-le-Haut-Clocher
+Geer
+	Boëlhe
+	Darion
+	Geer
+	Hollogne-sur-Geer
+	Lens-Saint-Servais
+	Ligney
+	Omal
+Hannut
+	Abolens
+	Avernas-le-Bauduin
+	Avin
+	Bertrée
+	Blehen
+	Cras-Avernas
+	Crehen
+	Petit-Hallet
+	Wansin
+	Grand-Hallet
+	Hannut
+	Lens-Saint-Remy
+	Merdorp
+	Moxhe
+	Poucet
+	Thisnes
+	Trognée
+	Villers-le-Peuplier
+Lincent
+	Lincent
+	Pellaines
+	Racour
+Oreye
+	Bergilers
+	Grandville
+	Lens-sur-Geer
+	Otrange
+	Oreye
+Remicourt
+	Hodeige
+	Lamine
+	Momalle
+	Pousset
+	Remicourt
+Saint-Georges-sur-Meuse
+	Saint-Georges-sur-Meuse
+Waremme
+	Bettincourt
+	Bleret
+	Bovenistier
+	Grand-Axhe
+	Lantremange
+	Oleye
+	Waremme
+Wasseiges
+	Acosse
+	Ambresin
+	Meeffe
+	Wasseiges
+
+
+---------------
+
+### Limburg BE
+
+# Hasselt
+As
+	As
+	Niel-bij-As
+Beringen
+	Beringen
+	Beverlo
+	Koersel
+	Paal
+Diepenbeek
+	Diepenbeek
+Genk
+	Genk
+	Waterschei-Zwartberg
+Gingelom
+	Boekhout
+	Borlo
+	Buvingen
+	Gingelom
+	Jeuk
+	Kortijs
+	Mielen-boven-Aalst
+	Montenaken
+	Niel-bij-Sint-Truiden
+	Vorsen
+Halen
+	Loksbergen
+	Halen
+	Zelem
+Ham
+	Kwaadmechelen
+	Oostham
+Hasselt
+	Hasselt
+	Kermt
+	Kuringen
+	Sint-Lambrechts-Herk
+	Spalbeek
+	Stevoort
+	Stokrooie
+	Wimmertingen
+Herk-de-Stad
+	Berbroek
+	Donk
+	Herk-De-Stad
+	Schulen
+Heusden-Zolder
+	Heusden
+	Zolder
+Leopoldsburg
+	Heppen
+	Leopoldsburg
+Lummen
+	Linkhout
+	Lummen
+Nieuwerkerken
+	Binderveld
+	Kozen
+	Nieuwerkerken
+	Wijer
+Sint-Truiden
+	Brustem
+	Duras
+	Engelmanshoven
+	Gelinden
+	Gorsem
+	Groot-Gelmen
+	Halmaal
+	Kerkom-bij-Sint-Truiden
+	Ordingen
+	Runkelen
+	Sint-Truiden
+	Velm
+	Wilderen
+	Zepperen
+Tessenderlo
+	Tessenderlo
+Zonhoven
+	Zonhoven
+Zutendaal
+	Zutendaal
+
+# Maaseik
+Bocholt
+	Bocholt
+	Kaulille
+	Reppel
+Bree
+	Beek
+	Gerdingen
+	Bree
+	Opitter
+	Tongerlo
+Dilsen-Stokkem
+	Dilsen
+	Elen
+	Lanklaar
+	Rotem
+	Stokkem
+Hamont-Achel
+	Achel
+	Hamont
+Hechtel-Eksel
+	Eksel
+	Hechtel
+Houthalen-Helchteren
+	Helchteren
+	Houthalen
+Kinrooi
+	Kessenich
+	Kinrooi
+	Molenbeersel
+	Ophoven
+Lommel
+	Lommel
+Maaseik
+	Maaseik
+	Neeroeteren
+	Opoeteren
+Oudsbergen
+	Ellikom
+	Meeuwen-Gruitrode
+	Neerglabbeek
+	Opglabbeek
+	Wijshagen
+Peer
+	Grote-Brogel
+	Kleine-Brogel
+	Peer
+	Wijchmaal
+Pelt
+	Neerpelt
+	Overpelt
+	Sint-Huibrechts-Lille
+
+# Tongeren
+Alken
+	Alken
+Bilzen
+	Beverst
+	Bilzen
+	Eigenbilzen
+	Grote-Spouwen
+	Hees
+	Hoelbeek
+	Kleine-Spouwen
+	Martenslinde
+	Mopertingen
+	Munsterbilzen
+	Rijkhoven
+	Rosmeer
+	Waltwilder
+Borgloon
+	Bommershoven
+	Borgloon
+	Broekom
+	Gors-Opleeuw
+	Gotem
+	Groot-Loon
+	Hendrieken
+	Hoepertingen
+	Jesseren - Haaren
+	Kerniel
+	Kuttekoven
+	Rijkel
+	Voort
+Heers
+	Batsheers
+	Gutschoven
+	Heers
+	Heks
+	Horpmaal
+	Klein-Gelmen
+	Mechelen-Bovelingen
+	Mettekoven
+	Opheers
+	Rukkelingen-Loon
+	Vechmaal
+	Veulen
+Herstappe
+	Herstappe
+Hoeselt
+	Hoeselt
+	Romershoven
+	Schalkhoven
+	Sint-Huibrechts-Hern
+	Werm
+Kortessem
+	Guigoven
+	Kortessem
+	Vliermaal
+	Vliermaalroot
+	Wintershoven
+Lanaken
+	Gellik
+	Lanaken
+	Neerharen
+	Rekem
+	Veldwezelt
+Maasmechelen
+	Boorsem
+	Eisden
+	Leut
+	Mechelen-aan-de-Maas
+	Meeswijk
+	Opgrimbie
+	Uikhoven
+	Vucht
+Riemst
+	Genoelselderen
+	Herderen
+	Kanne
+	Membruggen
+	Millen
+	Riemst
+	Val-Meer
+	Vlijtingen
+	Vroenhoven
+	Zichen-Zussen-Bolder
+Tongeren
+	Henis
+	Koninksem
+	Lauw
+	Mal
+	Neerrepen
+	Nerem
+	Kolmont
+	Overrepen
+	Piringen
+	Riksingen
+	Rutten
+	's Herenelderen
+	Sluizen
+	Tongeren
+	Diets-Heur
+	Vreren
+	Widooie
+Voeren
+	Moelingen
+	Remersdaal
+	's-Gravenvoeren
+	Sint-Martens-Voeren
+	Sint-Pieters-Voeren
+	Teuven
+Wellen
+	Berlingen
+	Herten
+	Ulbeek
+	Wellen
+
+
+---------------
+
+### Luxembourg BE
+
+# Arlon
+Arlon
+	Arlon
+	Autelbas
+	Bonnert
+	Guirsch
+	Heinsch
+	Toernich
+Attert
+	Attert
+	Nobressart
+	Nothomb
+	Thiaumont
+	Tontelange
+Aubange
+	Athus
+	Aubange
+	Halanzy
+	Rachecourt
+Martelange
+	Martelange
+Messancy
+	Habergy
+	Hondelange
+	Messancy
+	Sélange
+	Wolkrange
+
+# Bastogne
+Bastogne
+	Bastogne
+	Longvilly
+	Noville
+	Villers-la-Bonne-Eau
+	Wardin
+Bertogne
+	Bertogne
+	Flamierge
+	Longchamps
+Fauvillers
+	Fauvillers
+	Hollange
+	Tintange
+Gouvy
+	Beho
+	Bovigny
+	Cherain
+	Limerlé
+	Montleban
+Houffalize
+	Houffalize
+	Mabompré
+	Mont
+	Nadrin
+	Tailles
+	Tavigny
+	Wibrin
+Sainte-Ode
+	Amberloup
+	Lavacherie
+	Tillet
+Vaux-sur-Sûre
+	Hompré
+	Juseret
+	Morhet
+	Nives
+	Sibret
+	Vaux-lez-Rosières
+Vielsalm
+	Bihain
+	Grand-Halleux
+	Petit-Thier
+	Vielsalm
+
+# Marche-en-Famenne
+Durbuy
+	Barvaux
+	Bende
+	Bomal
+	Borlon
+	Durbuy
+	Grandhan
+	Heyd
+	Izier
+	Septon
+	Tohogne
+	Villers-Sainte-Gertrude
+	Wéris
+Érezée
+	Amonines
+	Érezée
+	Mormont
+	Soy
+Hotton
+	Fronville
+	Hampteau
+	Hotton
+	Marenne
+La Roche-en-Ardenne
+	Beausaint
+	Halleux
+	Hives
+	La Roche-en-Ardenne
+	Ortho
+	Samrée
+Manhay
+	Dochamps
+	Grandmenil
+	Harre
+	Malempré
+	Odeigne
+	Vaux-Chavanne
+Marche-en-Famenne
+	Aye
+	Hargimont
+	Humain
+	Marche-en-Famenne
+	On
+	Roy
+	Waha
+Nassogne
+	Ambly
+	Bande
+	Forrières
+	Grune
+	Harsin
+	Lesterny
+	Masbourg
+	Nassogne
+Rendeux
+	Beffe
+	Hodister
+	Marcourt
+	Rendeux
+Tenneville
+	Champlon
+	Erneuville
+	Tenneville
+
+# Neufchâteau
+Bertrix
+	Auby-sur-Semois
+	Bertrix
+	Cugnon
+	Jehonville
+	Orgeo
+Bouillon
+	Bellevaux
+	Bouillon
+	Corbion
+	Dohan
+	Les Hayons
+	Noirefontaine
+	Poupehan
+	Rochehaut
+	Sensenruth
+	Ucimont
+	Vivy
+Daverdisse
+	Daverdisse
+	Gembes
+	Haut-Fays
+	Porcheresse
+Herbeumont
+	Herbeumont
+	Saint-Médard
+	Straimont
+Léglise
+	Assenois
+	Ébly
+	Léglise
+	Mellier
+	Witry
+Libin
+	Anloy
+	Libin
+	Ochamps
+	Redu
+	Smuid
+	Transinne
+	Villance
+Libramont-Chevigny
+	Bras
+	Freux
+	Libramont
+	Moircy
+	Recogne
+	Remagne
+	Sainte-Marie-Chevigny
+	Saint-Pierre
+Neufchâteau
+	Grandvoir
+	Grapfontaine
+	Hamipré
+	Longlier
+	Neufchâteau
+	Tournay
+Paliseul
+	Carlsbourg
+	Fays-les-Veneurs
+	Framont
+	Maissin
+	Nollevaux
+	Offagne
+	Opont
+	Paliseul
+Saint-Hubert
+	Arville
+	Awenne
+	Hatrival
+	Mirwart
+	Saint-Hubert
+	Vesqueville
+Tellin
+	Bure
+	Grupont
+	Resteigne
+	Tellin
+Wellin
+	Chanly
+	Halma
+	Lomprez
+	Sohier
+	Wellin
+
+# Virton
+Chiny
+	Chiny
+	Izel
+	Jamoigne
+	Les Bulles
+	Suxy
+	Termes
+	Valansart
+Étalle
+	Buzenol
+	Chantemelle
+	Étalle
+	Sainte-Marie
+	Vance
+	Villers-sur-Semois
+Florenville
+	Chassepierre
+	Florenville
+	Fontenoille
+	Lacuisine
+	Muno
+	Sainte-Cécile
+	Villers-devant-Orval
+Habay
+	Anlier
+	Habay-la-Neuve
+	Habay-la-Vieille
+	Hachy
+	Houdemont
+	Marbehan
+	Rulles
+Meix-devant-Virton
+	Gérouville
+	Meix-Devant-Virton
+	Robelmont
+	Sommethonne
+	Villers-la-Loue
+Musson
+	Musson
+	Mussy-la-Ville
+Rouvroy
+	Dampicourt
+	Harnoncourt
+	Lamorteau
+	Torgny
+Saint-Léger
+	Châtillon
+	Meix-le-Tige
+	Saint-Léger
+Tintigny
+	Bellefontaine
+	Rossignol
+	Saint-Vincent
+	Tintigny
+Virton
+	Bleid
+	Ethe
+	Latour
+	Ruette
+	Saint-Mard
+	Virton
+
+
+---------------
+
+### Namur
+
+# Dinant
+Anhée
+	Haut-le-Wastia
+	Salet
+	Warnant
+	Anhée
+	Annevoie-Rouillon
+	Bioul
+	Denée
+	Madredet
+	Sosoye
+Beauraing
+	Baronville
+	Beauraing
+	Dion
+	Felenne
+	Feschaux
+	Focant
+	Froidfontaine
+	Honnay
+	Javingue
+	Martouzin-Neuville
+	Pondrôme
+	Vonêche
+	Wancennes
+	Wiesme
+	Winenne
+Bièvre
+	Bièvre
+	Graide
+	Bellefontaine
+	Petit-Fays
+	Monceau-en-Ardenne
+	Naomé
+	Baillamont
+	Cornimont
+	Gros-Fays
+	Oizy
+Ciney
+	Achêne
+	Braibant
+	Chevetogne
+	Ciney
+	Conneux
+	Leignon
+	Pessoux
+	Serinchamps
+	Sovet
+Dinant
+	Anseremme
+	Bouvignes-sur-Meuse
+	Dréhance
+	Dinant
+	Falmagne
+	Falmignoul
+	Foy-Notre-Dame
+	Furfooz
+	Lisogne
+	Sorinnes
+	Thynes
+Gedinne
+	Bourseigne-Neuve
+	Bourseigne-Vieille
+	Gedinne
+	Houdremont
+	Louette-Saint-Denis
+	Louette-Saint-Pierre
+	Malvoisin
+	Patignies
+	Rienne
+	Sart-Custinne
+	Vencimont
+	Willerzie
+Hamois
+	Achet
+	Emptinne
+	Hamois
+	Mohiville
+	Natoye
+	Schaltin
+	Scy
+Hastière
+	Agimont
+	Blaimont
+	Hastière-Lavaux
+	Hastière-par-delà
+	Heer
+	Hermeton-sur-Meuse
+	Waulsort
+Havelange
+	Barvaux-Condroz
+	Flostoy
+	Havelange
+	Jeneffe
+	Maffe
+	Méan
+	Miécret
+	Porcheresse
+	Verlée
+Houyet
+	Celles
+	Ciergnon
+	Custinne
+	Finnevaux
+	Hour
+	Houyet
+	Hulsonniaux
+	Mesnil-Église
+	Mesnil-Saint-Blaise
+	Wanlin
+Onhaye
+	Anthée
+	Falaën
+	Gerin
+	Onhaye
+	Serville
+	Sommière
+	Weillen
+Rochefort BE
+	Ave-et-Auffe
+	Buissonville
+	Éprave
+	Han-sur-Lesse
+	Jemelle
+	Lavaux-Sainte-Anne
+	Lessive
+	Mont-Gauthier
+	Rochefort BE
+	Villers-sur-Lesse
+	Wavreille
+Somme-Leuze
+	Baillonville
+	Bonsin
+	Heure
+	Hogne
+	Nettinne
+	Noiseux
+	Sinsin
+	Somme-Leuze
+	Waillet
+Vresse-sur-Semois
+	Chairière
+	Mouzaive
+	Alle
+	Bohan
+	Nafraiture
+	Orchimont
+	Bagimont
+	Pussemange
+	Sugny
+	Laforêt
+	Membre
+	Vresse
+Yvoir
+	Dorinne
+	Durnal
+	Mont
+	Godinne
+	Purnode
+	Spontin
+	Evrehailles
+	Houx
+	Yvoir
+
+# Namur
+Andenne
+	Andenne
+	Bonneville
+	Coutisse
+	Landenne
+	Maizeret
+	Namêche
+	Sclayn
+	Seilles
+	Thon
+	Vezin
+Assesse
+	Assesse
+	Courrière
+	Crupet
+	Florée
+	Maillen
+	Sart-Bernard
+	Sorinne-la-Longue
+Éghezée
+	Aische-en-Refail
+	Bolinne
+	Boneffe
+	Branchon
+	Dhuy
+	Éghezée
+	Hanret
+	Leuze
+	Liernu
+	Longchamps
+	Mehaigne
+	Noville-sur-Mehaigne
+	Saint-Germain
+	Taviers
+	Upigny
+	Waret-la-Chaussée
+Fernelmont
+	Bierwart
+	Cortil-Wodon
+	Forville
+	Franc-Waret
+	Hemptinne
+	Hingeon
+	Marchovelette
+	Noville-les-Bois
+	Pontillas
+	Tillier
+Floreffe
+	Floreffe
+	Floriffoux
+	Franière
+	Soye
+Fosses-la-Ville
+	Aisemont
+	Fosses-La-Ville
+	Le Roux
+	Sart-Eustache
+	Sart-Saint-Laurent
+	Vitrival
+Gembloux
+	Beuzet
+	Bossière
+	Bothey
+	Corroy-le-Château
+	Ernage
+	Grand-Manil
+	Lonzée
+	Sauvenière
+	Gembloux
+	Grand-Leez
+	Isnes
+	Mazy
+Gesves
+	Faulx-les-Tombes
+	Gesves
+	Haltinne
+	Mozet
+	Sorée
+Jemeppe-sur-Sambre
+	Balâtre
+	Ham-sur-Sambre
+	Jemeppe-sur-Sambre
+	Mornimont
+	Moustier-sur-Sambre
+	Onoz
+	Saint-Martin
+	Spy
+La Bruyère
+	Bovesse
+	Émines
+	Meux
+	Rhisnes
+	Saint-Denis (La Bruyère)
+	Villers-lez-Heest
+	Warisoulx
+Mettet
+	Biesme
+	Biesmerée
+	Ermeton-sur-Biert
+	Furnaux
+	Graux
+	Mettet
+	Oret
+	Saint-Gérard
+	Stave
+Namur
+	Beez
+	Belgrade
+	Boninne - Gelbressée
+	Bouge
+	Champion
+	Dave
+	Erpent
+	Flawinne
+	Jambes
+	Lives-sur-Meuse
+	Loyers
+	Malonne
+	Marche-les-Dames
+	Namur
+	Naninne
+	Saint-Marc
+	Saint-Servais
+	Suarlée
+	Temploux
+	Vedrin - Daussoulx
+	Wépion
+	Wierde
+Ohey
+	Évelette
+	Goesnes
+	Haillot
+	Jallet
+	Ohey
+Profondeville
+	Arbre
+	Bois-de-Villers
+	Lesve
+	Lustin
+	Profondeville
+	Rivière
+Sambreville
+	Arsimont
+	Auvelais
+	Falisolle
+	Keumiée
+	Moignelée
+	Tamines
+	Velaine
+Sombreffe
+	Boignée
+	Ligny
+	Sombreffe
+	Tongrinne
+
+# Philippeville
+Cerfontaine
+	Cerfontaine
+	Daussois
+	Senzeille
+	Silenrieux
+	Soumoy
+	Villers-Deux-Églises
+Couvin
+	Aublain
+	Boussu-en-Fagne
+	Brûly
+	Brûly-de-Pesche
+	Couvin
+	Cul-des-Sarts
+	Dailly
+	Frasnes-lez-Couvin
+	Gonrieux
+	Mariembourg
+	Pesche
+	Petigny
+	Petite-Chapelle
+	Presgaux
+Doische
+	Doische
+	Gimnée
+	Gochenée
+	Matagne-la-Grande
+	Matagne-la-Petite
+	Niverlée
+	Romerée
+	Soulme
+	Vaucelles
+	Vodelée
+Florennes
+	Corenne
+	Flavion
+	Florennes
+	Hanzinelle
+	Hanzinne
+	Hemptinne
+	Morialmé
+	Morville
+	Rosée
+	Saint-Aubin
+	Thy-le-Bauduin
+Philippeville
+	Fagnolle
+	Franchimont
+	Jamagne
+	Jamiolle
+	Merlemont
+	Neuville
+	Omezée
+	Philippeville
+	Roly
+	Romedenne
+	Samart
+	Sart-en-Fagne
+	Sautour
+	Surice
+	Villers-en-Fagne
+	Villers-le-Gambon
+	Vodecée
+Viroinval
+	Dourbes
+	Le Mesnil
+	Mazée
+	Nismes
+	Oignies-en-Thiérache
+	Olloy-sur-Viroin
+	Treignes
+	Vierves-sur-Viroin
+Walcourt
+	Berzée
+	Castillon
+	Chastrès
+	Clermont
+	Fontenelle
+	Fraire
+	Gourdinne
+	Laneffe
+	Pry
+	Rognée
+	Somzée
+	Tarcienne
+	Thy-le-Château
+	Vogenée
+	Walcourt
+	Yves-Gomezée
+
+
+---------------
+
+### Oost-Vlaanderen
+
+# Aalst
+Aalst
+	Aalst
+	Baardegem
+	Erembodegem
+	Gijzegem
+	Herdersem
+	Hofstade
+	Moorsel
+Denderleeuw
+	Denderleeuw
+	Iddergem
+	Welle
+Erpe-Mere
+	Aaigem
+	Bambrugge
+	Burst
+	Erondegem
+	Erpe
+	Mere
+	Ottergem
+	Vlekkem
+Geraardsbergen
+	Geraardsbergen
+	Goeferdinge
+	Grimminge
+	Idegem
+	Moerbeke
+	Nederboelare
+	Nieuwenhove
+	Onkerzele
+	Ophasselt
+	Overboelare
+	Schendelbeke
+	Smeerebbe-Vloerzegem
+	Viane
+	Waarbeke
+	Zandbergen
+	Zarlardinge
+Haaltert
+	Denderhoutem
+	Haaltert
+	Heldergem
+	Kerksken
+Herzele
+	Borsbeke
+	Herzele
+	Hillegem
+	Ressegem
+	Sint-Antelinks
+	Sint-Lievens-Esse
+	Steenhuize-Wijnhuize
+	Woubrechtegem
+Lede
+	Impe
+	Lede
+	Oordegem
+	Smetlede
+	Wanzele
+Ninove
+	Appelterre-Eichem
+	Aspelare
+	Denderwindeke
+	Lieferinge
+	Meerbeke
+	Nederhasselt
+	Neigem
+	Ninove
+	Okegem
+	Outer
+	Pollare
+	Voorde
+Sint-Lievens-Houtem
+	Bavegem
+	Letterhoutem
+	Sint-Lievens-Houtem
+	Vlierzele
+	Zonnegem
+Zottegem
+	Elene - Oombergen
+	Erwetegem
+	Godveerdegem
+	Grotenberge
+	Leeuwergem
+	Sint-Goriks-Oudenhove
+	Sint-Maria-Oudenhove
+	Strijpen
+	Velzeke-Ruddershove
+	Zottegem
+
+# Dendermonde
+Berlare
+	Berlare
+	Overmere
+	Uitbergen
+Buggenhout
+	Opdorp
+	Buggenhout
+Dendermonde
+	Appels
+	Baasrode
+	Dendermonde
+	Grembergen
+	Mespelare
+	Oudegem
+	Schoonaarde
+	Sint-Gillis-bij-Dendermonde
+Hamme
+	Hamme
+	Moerzeke
+Laarne
+	Kalken
+	Laarne
+Lebbeke
+	Denderbelle
+	Lebbeke
+	Wieze
+Waasmunster
+	Waasmunster
+Wetteren
+	Massemen
+	Westrem
+	Wetteren
+Wichelen
+	Schellebelle
+	Serskamp
+	Wichelen
+Zele
+	Zele
+
+# Eeklo
+Assenede
+	Assenede
+	Bassevelde
+	Boekhoute
+	Oosteeklo
+Eeklo
+	Eeklo
+Kaprijke
+	Kaprijke
+	Lembeke
+Maldegem
+	Adegem
+	Maldegem
+	Middelburg BE
+Sint-Laureins
+	Sint-Jan-in-Eremo
+	Sint-Laureins
+	Sint-Margriete
+	Waterland-Oudeman
+	Watervliet
+Zelzate
+	Zelzate
+
+# Gent
+Aalter
+	Aalter
+	Bellem
+	Knesselare
+	Lotenhulle
+	Poeke
+	Ursel
+De Pinte
+	De Pinte
+	Zevergem
+Deinze
+	Astene
+	Bachte-Maria-Leerne
+	Deinze
+	Gottem
+	Grammene
+	Hansbeke
+	Landegem
+	Meigem
+	Merendree
+	Nevele
+	Petegem-aan-de-Leie
+	Poesele
+	Sint-Martens-Leerne
+	Vinkt
+	Vosselare
+	Wontergem
+	Zeveren
+Destelbergen
+	Destelbergen
+	Heusden
+Evergem
+	Kluizen
+	Ertvelde
+	Evergem
+	Sleidinge
+Gavere
+	Asper
+	Baaigem
+	Dikkelvenne
+	Gavere
+	Semmerzake
+	Vurste
+Gent
+	Drongen
+	Gent
+	Gentbrugge
+	Ledeberg
+	Mariakerke
+	Oostakker - Desteldonk - Mendonk - Sint-Kruis-Winkel
+	Sint-Amandsberg
+	Sint-Denijs-Westrem - Afsnee
+	Wondelgem
+	Zwijnaarde
+	Desteldonk
+Lievegem
+	Lovendegem
+	Oostwinkel
+	Ronsele
+	Vinderhoute
+	Waarschoot
+	Zomergem
+Lochristi
+	Beervelde
+	Lochristi
+	Zaffelare
+	Zeveneken
+Melle
+	Gontrode
+	Melle
+Merelbeke
+	Bottelare
+	Melsen
+	Lemberge
+	Merelbeke
+	Munte
+	Schelderode
+Moerbeke
+	Moerbeke
+Nazareth
+	Eke
+	Nazareth
+Oosterzele
+	Balegem
+	Gijzenzele
+	Landskouter
+	Moortsele
+	Oosterzele
+	Scheldewindeke
+Sint-Martens-Latem
+	Deurle
+	Sint-Martens-Latem
+Wachtebeke
+	Wachtebeke
+Zulte
+	Machelen
+	Olsene
+	Zulte
+
+# Oudenaarde
+Brakel
+	Elst
+	Everbeek
+	Michelbeke
+	Nederbrakel
+	Opbrakel
+	Parike
+	Zegelsem
+Horebeke
+	Sint-Kornelis-Horebeke
+	Sint-Maria-Horebeke
+Kluisbergen
+	Kwaremont
+	Ruien
+	Zulzeke
+Kruisem
+	Huise
+	Kruishoutem
+	Lozer
+	Nokere
+	Ouwegem
+	Wannegem-Lede
+	Zingem
+Lierde
+	Deftinge
+	Hemelveerdegem
+	Sint-Maria-Lierde
+	Sint-Martens-Lierde
+Maarkedal
+	Etikhove
+	Maarke-Kerkem
+	Nukerke
+	Schorisse
+Oudenaarde
+	Heurne
+	Mater
+	Melden
+	Mullem
+	Bevere
+	Edelare
+	Eine
+	Ename
+	Leupegem
+	Nederename
+	Volkegem
+	Oudenaarde
+	Welden
+Ronse
+	Ronse
+Wortegem-Petegem
+	Elsegem
+	Moregem - Ooike
+	Petegem-aan-de-Schelde
+	Wortegem
+Zwalm
+	Beerlegem
+	Dikkele
+	Hundelgem
+	Meilegem
+	Munkzwalm
+	Nederzwalm-Hermelgem
+	Paulatem
+	Roborst
+	Rozebeke
+	Sint-Blasius-Boekel
+	Sint-Denijs-Boekel
+	Sint-Maria-Latem
+
+# Sint-Niklaas
+Beveren
+	Beveren
+	Doel
+	Haasdonk
+	Kallo
+	Kieldrecht
+	Melsele
+	Verrebroek
+	Vrasene
+Kruibeke
+	Bazel
+	Kruibeke
+	Rupelmonde
+Lokeren
+	Daknam
+	Eksaarde
+	Lokeren
+Sint-Gillis-Waas
+	De Klinge
+	Meerdonk
+	Sint-Gillis-Waas
+	Sint-Pauwels
+Sint-Niklaas
+	Belsele
+	Nieuwkerken-Waas
+	Sinaai
+	Sint-Niklaas
+Stekene
+	Kemzeke
+	Klein-Sinaai
+	Stekene
+Temse
+	Elversele
+	Steendorp
+	Temse
+	Tielrode
+
+
+---------------
+
+### Vlaams-Brabant
+
+# Halle-Vilvoorde
+Affligem
+	Essene
+	Hekelgem
+	Teralfene
+Asse
+	Asse
+	Bekkerzeel
+	Kobbegem
+	Mollem
+	Relegem
+	Zellik
+Beersel
+	Alsemberg
+	Beersel
+	Dworp
+	Huizingen
+	Lot BE
+Bever
+	Bever
+Dilbeek
+	Dilbeek
+	Groot-Bijgaarden
+	Itterbeek
+	Schepdaal
+	Sint-Martens-Bodegem
+	Sint-Ulriks-Kapelle
+Drogenbos
+	Drogenbos
+Galmaarden
+	Galmaarden
+	Tollembeek
+	Vollezele
+	Shape
+Gooik
+	Gooik
+	Kester
+	Leerbeek
+	Oetingen
+Grimbergen
+	Beigem
+	Grimbergen
+	Humbeek
+	Strombeek-Bever
+Halle
+	Buizingen
+	Halle
+	Lembeek
+Herne
+	Herfelingen
+	Herne
+	Sint-Pieters-Kapelle (Herne)
+Hoeilaart
+	Hoeilaart
+Kampenhout
+	Berg
+	Buken
+	Kampenhout
+	Nederokkerzeel
+Kapelle-op-den-Bos
+	Kapelle-op-den-Bos
+	Nieuwenrode
+	Ramsdonk
+Kraainem
+	Kraainem
+Lennik
+	Gaasbeek
+	Sint-Kwintens-Lennik
+	Sint-Martens-Lennik
+Liedekerke
+	Liedekerke
+Linkebeek
+	Linkebeek
+Londerzeel
+	Londerzeel
+	Malderen
+	Steenhuffel
+Machelen
+	Diegem
+	Machelen
+Meise
+	Meise
+	Wolvertem
+Merchtem
+	Brussegem
+	Merchtem
+Opwijk
+	Mazenzele
+	Opwijk
+Overijse
+	Overijse
+Pepingen
+	Beert
+	Bellingen
+	Bogaarden
+	Elingen
+	Heikruis
+	Pepingen
+Roosdaal
+	Borchtlombeek
+	Pamel
+	Strijtem
+	O.L.V.-Lombeek
+	Roosdaal
+Sint-Genesius-Rode
+	Sint-Genesius-Rode
+Sint-Pieters-Leeuw
+	Oudenaken
+	Ruisbroek
+	Sint-Laureins-Berchem
+	Sint-Pieters-Leeuw
+	Vlezenbeek
+Steenokkerzeel
+	Melsbroek
+	Perk
+	Steenokkerzeel
+Ternat
+	Sint-Katherina-Lombeek
+	Ternat
+	Wambeek
+Vilvoorde
+	Peutie
+	Vilvoorde
+Wemmel
+	Wemmel
+Wezembeek-Oppem
+	Wezembeek-Oppem
+Zaventem
+	Nossegem
+	Sint-Stevens-Woluwe
+	Sterrebeek
+	Zaventem
+Zemst
+	Elewijt
+	Eppegem
+	Hofstade
+	Weerde
+	Zemst
+
+# Leuven
+Aarschot
+	Aarschot
+	Gelrode
+	Langdorp
+	Rillaar
+Begijnendijk
+	Begijnendijk
+	Betekom
+Bekkevoort
+	Assent
+	Bekkevoort
+	Molenbeek-Wersbeek
+Bertem
+	Bertem
+	Korbeek-Dijle
+	Leefdaal
+Bierbeek
+	Bierbeek
+	Korbeek-Lo
+	Lovenjoel
+	Opvelp
+Boortmeerbeek
+	Boortmeerbeek
+	Hever
+Boutersem
+	Vertrijk
+	Boutersem
+	Neervelp
+	Willebringen
+	Honsem
+	Kerkom
+	Roosbeek
+Diest
+	Diest
+	Kaggevinne
+	Molenstede
+	Schaffen
+	Webbekom
+	Deurne (Leuven)
+Geetbets
+	Geetbets
+	Grazen
+	Rummen
+Glabbeek
+	Attenrode
+	Bunsbeek
+	Glabbeek-Zuurbemde
+Haacht
+	Haacht
+	Tildonk
+	Wespelaar
+Herent
+	Herent
+	Veltem-Beisem
+	Winksele
+Hoegaarden
+	Hoegaarden
+	Meldert
+	Outgaarden
+Holsbeek
+	Holsbeek
+	Kortrijk-Dutsel
+	Nieuwrode
+	Sint-Pieters-Rode
+Huldenberg
+	Huldenberg
+	Loonbeek
+	Neerijse
+	Ottenburg
+	Sint-Agatha-Rode
+Keerbergen
+	Keerbergen
+Kortenaken
+	Hoeleden
+	Kersbeek-Miskom
+	Kortenaken
+	Ransberg
+	Waanrode
+Kortenberg
+	Erps-Kwerps
+	Everberg
+	Kortenberg
+	Meerbeek
+Landen BE
+	Attenhoven
+	Eliksem
+	Ezemaal
+	Laar
+	Landen BE
+	Neerlanden
+	Neerwinden
+	Overwinden
+	Rumsdorp
+	Waasmont
+	Walsbets
+	Wezeren
+	Walshoutem
+	Wange
+Leuven
+	Heverlee
+	Kessel-Lo
+	Leuven
+	Heverlee-Haasrode
+	Leuvens Korbeek-Lo
+	Wijgmaal
+	Wilsele
+Linter
+	Drieslinter
+	Melkwezer
+	Neerhespen
+	Neerlinter
+	Orsmaal-Gussenhoven
+	Overhespen
+	Wommersom
+Lubbeek
+	Binkom
+	Linden
+	Lubbeek
+	Pellenberg
+Oud-Heverlee
+	Blanden
+	Haasrode
+	Oud-Heverlee
+	Sint-Joris-Weert
+	Vaalbeek
+Rotselaar
+	Rotselaar
+	Werchter
+	Wezemaal
+Scherpenheuvel-Zichem
+	Averbode
+	Messelbroek
+	Scherpenheuvel
+	Testelt
+	Zichem
+Tervuren
+	Duisburg
+	Tervuren
+	Vossem
+Tielt-Winge
+	Houwaart
+	Meensel-Kiezegem
+	Sint-Joris-Winge
+Tienen
+	Bost
+	Goetsenhoven
+	Hakendover
+	Kumtich
+	Oorbeek
+	Oplinter
+	Sint-Margriete-Houtem
+	Tienen
+	Vissenaken
+Tremelo
+	Baal
+	Tremelo
+Zoutleeuw
+	Budingen
+	Dormaal
+	Halle-Booienhoven
+	Helen-Bos
+	Zoutleeuw
+
+
+---------------
+
+### West-Vlaanderen
+
+# Brugge
+Beernem
+	Beernem
+	Oedelem
+	Sint-Joris (Brugge)
+Blankenberge
+	Blankenberge
+	Uitkerke
+Brugge
+	Assebroek
+	Brugge
+	Dudzele
+	Koolkerke
+	Zeebrugge
+	Lissewege
+	Sint-Andries
+	Sint-Kruis
+	Sint-Michiels
+Damme
+	Damme
+	Lapscheure
+	Moerkerke
+	Oostkerke - Hoeke
+	Sijsele
+	Sint-Kruis-Vivenkapelle
+Jabbeke
+	Jabbeke
+	Snellegem
+	Stalhille
+	Varsenare
+	Zerkegem
+Knokke-Heist
+	Heist
+	Knokke
+	Ramskapelle (Knokke-Heist)
+	Westkapelle
+Oostkamp
+	Hertsberge
+	Oostkamp
+	Ruddervoorde
+	Waardamme
+Torhout
+	Torhout
+	Wijnendale
+Zedelgem
+	Aartrijke
+	Loppem
+	Veldegem
+	Zedelgem
+Zuienkerke
+	Houtave
+	Meetkerke
+	Nieuwmunster
+	Zuienkerke
+
+# Diksmuide
+Diksmuide
+	Beerst
+	Esen
+	Kaaskerke
+	Diksmuide
+	Keiem
+	Lampernisse
+	Leke
+	Nieuwkapelle
+	Oostkerke
+	Oudekapelle
+	Pervijze
+	Sint-Jacobs-Kapelle
+	Stuivekenskerke
+	Vladslo
+	Woumen
+Houthulst
+	Houthulst
+	Jonkershove
+	Klerken
+	Merkem
+Koekelare
+	Bovekerke
+	Koekelare
+	Zande
+Kortemark
+	Handzame
+	Kortemark
+	Werken
+	Zarren
+Lo-Reninge
+	Noordschote
+	Pollinkhove
+	Reninge
+
+# Ieper
+Heuvelland
+	De Klijte
+	Dranouter
+	Kemmel
+	Loker
+	Nieuwkerke
+	Westouter
+	Wijtschate
+	Wulvergem
+Ieper
+	Boezinge
+	Brielen
+	Dikkebus
+	Elverdinge
+	Hollebeke
+	Ieper
+	Sint-Jan
+	Vlamertinge
+	Voormezele
+	Zillebeke
+	Zuidschote
+Langemark-Poelkapelle
+	Bikschote
+	Langemark
+	Poelkapelle
+Mesen
+	Mesen
+Poperinge
+	Krombeke
+	Poperinge
+	Proven
+	Reningelst
+	Roesbrugge-Haringe
+	Watou
+Vleteren
+	Oostvleteren
+	Westvleteren
+	Woesten
+Wervik
+	Geluwe
+	Wervik
+Zonnebeke
+	Beselare
+	Geluveld
+	Passendale
+	Zonnebeke
+
+# Kortrijk
+Anzegem
+	Anzegem
+	Gijzelbrechtegem
+	Ingooigem
+	Kaster
+	Tiegem
+	Vichte
+Avelgem
+	Avelgem
+	Bossuit
+	Kerkhove
+	Outrijve
+	Waarmaarde
+Deerlijk
+	Deerlijk
+Harelbeke
+	Bavikhove
+	Harelbeke
+	Hulste
+Kortrijk
+	Aalbeke
+	Bellegem
+	Bissegem
+	Heule
+	Kooigem
+	Kortrijk
+	Marke
+	Rollegem
+Kuurne
+	Kuurne
+Lendelede
+	Lendelede
+Menen
+	Lauwe
+	Menen
+	Rekkem
+Spiere-Helkijn
+	Espierres
+	Helchin
+Waregem
+	Beveren-Leie
+	Desselgem
+	Sint-Eloois-Vijve
+	Waregem
+Wevelgem
+	Gullegem
+	Moorsele
+	Wevelgem
+	Herthoek
+Zwevegem
+	Heestert
+	Moen
+	Otegem
+	Sint-Denijs
+	Zwevegem
+
+# Oostende
+Bredene
+	Bredene
+De Haan
+	Klemskerke
+	Vlissegem
+	Wenduine
+Gistel
+	Gistel
+	Moere
+	Snaaskerke
+	Zevekote
+Ichtegem
+	Bekegem
+	Eernegem
+	Ichtegem
+Middelkerke
+	Leffinge
+	Lombardsijde
+	Mannekensvere
+	Middelkerke
+	Schore
+	Sint-Pieters-Kapelle (Middelkerke)
+	Slijpe
+	Westende
+	Wilskerke
+Oostende
+	Stene
+	Zandvoorde
+	Oostende
+Oudenburg
+	Ettelgem
+	Oudenburg
+	Roksem
+	Westkerke
+
+# Roeselare
+Hooglede
+	Gits
+	Hooglede
+Ingelmunster
+	Ingelmunster
+Izegem
+	Emelgem
+	Izegem
+	Kachtem
+Ledegem
+	Ledegem
+	Rollegem-Kapelle
+	Sint-Eloois-Winkel
+Lichtervelde
+	Lichtervelde
+Moorslede
+	Dadizele
+	Moorslede
+Roeselare
+	Oekene
+	Beveren
+	Roeselare
+	Rumbeke
+Staden
+	Oostnieuwkerke
+	Staden
+	Westrozebeke
+
+# Tielt
+Ardooie
+	Ardooie
+	Koolskamp
+Dentergem
+	Dentergem
+	Markegem
+	Oeselgem
+	Wakken
+Meulebeke
+	Meulebeke
+Oostrozebeke
+	Oostrozebeke
+Pittem
+	Egem
+	Pittem
+Ruiselede
+	Ruiselede
+Tielt
+	Aarsele
+	Kanegem
+	Schuiferskapelle
+	Tielt
+Wielsbeke
+	Ooigem
+	Sint-Baafs-Vijve
+	Wielsbeke
+Wingene
+	Wingene
+	Zwevezele
+
+# Veurne
+Alveringem
+	Oeren
+	Sint-Rijkers
+	Alveringem
+	Beveren
+	Gijverinkhove
+	Hoogstade
+	Izenberge
+	Leisele
+	Stavele
+De Panne
+	Adinkerke
+	De Panne
+Koksijde
+	Koksijde
+	Oostduinkerke
+	Wulpen
+Nieuwpoort
+	Nieuwpoort
+	Ramskapelle (Nieuwpoort)
+	Sint-Joris (Veurne)
+Veurne
+	Avekapelle
+	Vinkem
+	Wulveringem
+	Beauvoorde
+	Booitshoeke
+	Bulskamp
+	De Moeren
+	Eggewaartskapelle
+	Houtem
+	Steenkerke
+	Veurne
+	Zoutenaaie
+
+
+---------------
+
+### Brussels
+
+# Brussels
+Anderlecht
+Auderghem
+Berchem-Sainte-Agathe
+Bruxelles
+Etterbeek
+Evere
+Forest
+Ganshoren
+Ixelles
+Jette
+Koekelberg
+Molenbeek-Saint-Jean
+Saint-Gilles BE
+Saint-Josse-ten-Noode
+Schaerbeek
+Uccle
+Watermael-Boitsfort
+Woluwe-Saint-Lambert
+Woluwe-Saint-Pierre
+Haren BE
+Laken
+Neder-Over-Heembeek
+Moriensart
+
+
+---------------
+

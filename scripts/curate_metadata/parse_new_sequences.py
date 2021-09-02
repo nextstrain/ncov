@@ -795,8 +795,8 @@ def prepare_tweet_new_format(counts, rare_labs):
 
 
 
-path_to_input = "scripts/developer_scripts/inputs_new_sequences/"
-path_to_outputs = "scripts/developer_scripts/outputs_new_sequences/"
+path_to_input = "scripts/curate_metadata/inputs_new_sequences/"
+path_to_outputs = "scripts/curate_metadata/outputs_new_sequences/"
 table_file_name = path_to_input + "Who to Tag in Nextstrain Update Posts COVID-19.xlsx"
 today = str(datetime.datetime.now())[:10]
 

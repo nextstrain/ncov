@@ -1,0 +1,280 @@
+Antwerp	Antwerpen
+Ghent	Gent
+Bruges	Brugge
+Ypres	Ieper
+Ostend	Oostende
+Anvers	Antwerpen
+Baerle-Duc	Baarle-Hertog
+Lierre	Lier
+Malines	Mechelen
+Bevekom	Beauvechain
+Eigenbrakel	Braine-l'Alleud
+Kasteelbrakel	Braine-le-Château
+Genepien	Genappe
+Graven	Grez-Doiceau
+Itter	Ittre
+Geldenaken	Jodoigne
+Terhulpen	La Hulpe
+Nijvel	Nivelles
+Perwijs	Perwez
+Tubeke	Tubize
+Waver	Wavre
+Aat	Ath
+'s Gravenbrakel	Braine-Le-Comte
+Komen-Waasten	Comines-Warneton
+Elzele	Ellezelles
+Edingen	Enghien
+Vloesberg	Flobecq
+Jurbeke	Jurbise
+Lessen	Lessines
+Bergen	Mons
+Moeskroen	Mouscron
+Opzullik	Silly
+Zinnik	Soignies
+Doornik	Tournai
+Amblève	Amel
+Bitsingen	Bassenge
+Bullange	Büllingen
+Butgenbach	Bütgenbach
+Hannuit	Hannut
+Hoei	Huy
+La Calamine	Kelmis
+Luik	Liège
+Limburg	Limbourg BE
+Lijsem	Lincent
+Oerle	Oreye
+Saint-Vith	Sankt Vith
+Wezet	Visé
+Weismes	Waimes
+Borgworm	Waremme
+Looz	Borgloon
+Herck-la-Ville	Herk-De-Stad
+Bourg-Léopold	Leopoldsburg
+Saint-Trond	Sint-Truiden
+Tongres	Tongeren
+Fourons	Voeren
+Aarlen	Arlon
+Bastenaken	Bastogne
+Namen	Namur
+Alost	Aalst
+Termonde	Dendermonde
+Gand	Gent
+Grammont	Geraardsbergen
+Audenarde	Oudenaarde
+Renaix	Ronse
+Saint-Nicolas	Sint-Niklaas
+Tamise	Temse
+Biévène	Bever
+Gammerages	Galmaarden
+Hal	Halle
+Louvain	Leuven
+Montaigu-Zichem	Scherpenheuvel-Zichem
+Rhode-Saint-Genèse	Sint-Genesius-Rode
+Tirlemont	Tienen
+Vilvorde	Vilvoorde
+Léau	Zoutleeuw
+La Panne	De Panne
+Dixmude	Diksmuide
+Courtrai	Kortrijk
+Menin	Menen
+Messines	Mesen
+Nieuport	Nieuwpoort
+Ostende	Oostende
+Roulers	Roeselare
+Espierres-Helchin	Spiere-Helkijn
+Furnes	Veurne
+Neerwaasten	Bas-Warneton
+Komen	Comines
+Dottenijs	Dottignies
+Mark	Marcq
+Waasten	Warneton
+Verviers	Polleur
+Mouland	Moelingen
+Fourons-le-Comte	's-Gravenvoeren
+Fourons-Saint-Martin	Sint-Martens-Voeren
+Fourons-Saint-Pierre	Sint-Pieters-Voeren
+Montaigu	Scherpenheuvel
+Spiere	Espierres
+Helkijn	Helchin
+Oudergem	Auderghem
+Auderghelm	Auderghem
+Sint-Agatha-Berchem	Berchem-Sainte-Agathe
+Brussel	Bruxelles
+Vorst	Forest
+Elsene	Ixelles
+Sint-Jans-Molenbeek	Molenbeek-Saint-Jean
+Sint-Gillis	Saint-Gilles
+Sint-Joost-ten-Node	Saint-Josse-ten-Noode
+Sint-Joost-Ten-Node	Saint-Josse-ten-Noode
+Schaarbeek	Schaerbeek
+Ukkel	Uccle
+Watermaal-Bosvoorde	Watermael-Boitsfort
+Sint-Lambrechts-Woluwe	Woluwe-Saint-Lambert
+Sint-Pieters-Woluwe	Woluwe-Saint-Pierre
+Liege	Liège
+Montignies-sur-sambre	Montignies-sur-Sambre
+Forchies-la-marche	Forchies-la-Marche
+Montignies-Sur-Sambre	Montignies-sur-Sambre
+Fontaine-l Eveque	Fontaine-l'Évêque
+Braine-le-Chateau	Braine-le-Château
+Henri-chapelle	Henri-Chapelle
+La louvière	La Louvière
+Braine-l'alleud	Braine-l'Alleud
+Sint-pieters-woluwe	Woluwe-Saint-Pierre
+La Louviere	La Louvière
+Braine-l alleud	Braine-l'Alleud
+Sint-Pieter-Woluwe	Woluwe-Saint-Pierre
+Le roeulx	Le Roeulx
+Yernee-fraineux	Yernée-Fraineux
+Voroux-les-Liers	Voroux-lez-Liers
+Basecles	Beloeil
+Chatelet	Châtelet
+Confontaine	Colfontaine
+Kaulile	Kaulille
+Laakdaal	Laakdal
+Quevy	Quévy
+Havre	Havré
+Beveren-Waas	Beveren
+Mon	Mons
+Veltem-beisem	Veltem-Beisem
+Hemisem	Hemiksem
+Bullingen	Büllingen
+Madegem	Maldegem
+Lillois-witterzée	Lillois-Witterzée
+Monceau-sur-sambre	Monceau-sur-Sambre
+Beverloo	Beverlo
+Duisberg	Duisburg
+Ecaussinnes	Écaussinnes
+Strepy-Bracquegnies	Strépy-Bracquegnies
+Landen-B	Landen BE
+Limburg	Limburg BE
+Bruxelles	Brussels
+Flandre-Orientale	Oost-Vlaanderen
+West Flanders	West-Vlaanderen
+Properinge	Poperinge
+Lo	Lo-Reninge
+Pont-A-Celles	Pont-à-Celles
+Eghezee	Éghezée
+Saint-Giles	Saint-Gilles
+Sint-Gilles	Saint-Gilles
+Overijze	Overijse
+Court-Saint-Etienne	Court-Saint-Étienne
+Oostakker	Gent
+Autre-Eglise	Autre-Église
+Peruwelz	Péruwelz
+Hennuyeres	Hennuyères
+Steekokkerzeel	Steenokkerzeel
+Sint-Joost-Ten-Noode	Saint-Josse-ten-Noode
+Laeken	Laken
+Landen	Landen BE
+S Gravenwezel	's-Gravenwezel
+Heist-op-Den-Berg	Heist-op-den-Berg
+Deuurne	Deurne
+Huldenbergh	Huldenberg
+Tessenderloo	Tessenderlo
+Walloonbrabant	Brabant Wallon
+Walloon Brabant	Brabant Wallon
+Brussels-Capital	Brussels
+Luxembourg	Luxembourg BE
+Flemish Brabant	Vlaams-Brabant
+East Flanders	Oost-Vlaanderen
+Sinttruiden	Sint-Truiden
+Dilsen-Stokken	Dilsen-Stokkem
+Pont-À-Celles	Pont-à-Celles
+Lille (Antwerpen)	Lille BE
+Wallonie	Wallonia
+Westflanders	West-Vlaanderen
+Flemishbrabant	Vlaams-Brabant
+Meeuwen	Meeuwen-Gruitrode
+Gouy-Lez-Pieton	Gouy-lez-Piéton
+Meeuwen-Gruitorde	Meeuwen-Gruitrode
+Korktrijk	Kortrijk
+Zwijndracht	Zwijndrecht
+Florenne	Florennes
+Kortenborg	Kortenberg
+Berverlo	Beverlo
+Ougree	Ougrée
+Fleron	Fléron
+Marchinne-Au-Pont	Marchienne-au-Pont
+Gelbressee	Boninne - Gelbressée
+Boignee	Boignée
+Evelette	Évelette
+Brussels Capital Region	Brussels
+Sint-Josse-Ten-Node	Saint-Josse-ten-Noode
+Emines	Émines
+Achene	Achêne
+Heist-Aan-Zee	Heist
+Zandvliet	Berendrecht - Zandvliet - Lillo
+Keergbergen	Keerbergen
+Atenhoven	Attenhoven
+Fontaine-l'Eveque	Fontaine-l'Évêque
+Merkplas	Merksplas
+Buitenland	Bornem
+Mindehout	Minderhout
+Waterlo	Waterloo
+Houtehalen-Helchteren	Houthalen-Helchteren
+Charlerloi	Charleroi
+Chaumont	Chaumont-Gistoux
+Sambreffe	Sombreffe
+Keesel-Lo	Kessel-Lo
+Hoedeng-Goegnies	Houdeng-Goegnies
+Flemalle	Flémalle
+Loderzeel	Londerzeel
+Houdeng-Gœgnies	Houdeng-Goegnies
+Dorcinelle	Marcinelle
+Imde	Meise
+Concelles	Courcelles
+Sint-Jan-Molenbeek	Molenbeek-Saint-Jean
+Brabant Flamand	Vlaams-Brabant
+Roesa	Roeselare
+Waterscheid-Zwartberg	Waterschei-Zwartberg
+Gruitrode	Meeuwen-Gruitrode
+Sint-Katarina-Lombeek	Sint-Katherina-Lombeek
+Anderlechtt	Anderlecht
+Affliogem	Affligem
+Maaslechelen	Maasmechelen
+Tesselt	Testelt
+Marchienne	Marchienne-au-Pont
+Montignies	Montignies-sur-Sambre
+Honelles	Honnelles
+Phillipeville	Philippeville
+Mont-Su-Marchienne	Mont-sur-Marchienne
+Beauchevain	Beauvechain
+Florens	Florennes
+Laneken	Lanaken
+Sint-Lambrechts-Wouwe	Woluwe-Saint-Lambert
+Couilles	Couillet
+Ham-San-Heune	Ham-sur-Heure-Nalinnes
+Herchtel-Eksel	Hechtel-Eksel
+Sint-Pietsers-Woluwe	Woluwe-Saint-Pierre
+Sint-Pierters-Woluwe	Woluwe-Saint-Pierre
+Marbaix	Ham-sur-Heure-Nalinnes
+Kortijk	Kortrijk
+Beveren (Leie)	Beveren-Leie
+Jabeke	Jabbeke
+Westerloo	Westerlo
+Mariakerke (Gent)	Mariakerke
+Ruislede	Ruiselede
+Mouskroen	Mouscron
+Roesel	Roeselare
+Purs-Sint-Amands	Puurs-Sint-Amands
+Hontaine-l'Eveque	Fontaine-l'Évêque
+Louvain-la-Neuve	Ottignies-Louvain-la-Neuve
+Hiest-op-Den-Berg	Heist-op-den-Berg
+1367	Ramillies
+Winkesele	Winksele
+Lettingen	Lettelingen
+Mecchelen-Aan-de-Maas	Mechelen-aan-de-Maas
+Sint-Joost-Te-Node	Saint-Josse-ten-Noode
+Beerts	Beerse
+Jemeppe-sur-Sombre	Jemeppe-sur-Sambre
+Meeuwe-Gruitrode	Meeuwen-Gruitrode
+Afsnee	Sint-Denijs-Westrem - Afsnee
+Bervelo	Beverlo
+Verdrin	Vedrin - Daussoulx
+Pietrebas	Piétrebais
+Sint-Gensius-Rode	Sint-Genesius-Rode
+Ceusmes	Cuesmes
+Herinnes-Lez-Pecq	Hérinnes
+Flanders	Vlaanderen
+Brussels-Capital Region	Brussels

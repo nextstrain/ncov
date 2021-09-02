@@ -801,10 +801,10 @@ def check_additional_info(additional_info, path_to_config_files):
 
 
 if __name__ == '__main__':
-    path_to_input = "scripts/developer_scripts/inputs_new_sequences/"
-    path_to_config_files = "scripts/developer_scripts/config_files_additional_info/"
+    path_to_input = "scripts/curate_metadata/inputs_new_sequences/"
+    path_to_config_files = "scripts/curate_metadata/config_files_additional_info/"
     path_to_nextstrain = "../"
-    path_to_outputs = "scripts/developer_scripts/outputs_new_sequences/"
+    path_to_outputs = "scripts/curate_metadata/outputs_new_sequences/"
 
     additional_info = read_data(path_to_input)
     if additional_info != {}:

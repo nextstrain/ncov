@@ -60,7 +60,12 @@ def read_metadata(filename, date_g, tweet):
         author_i = header.index("authors")
         clock_deviation_i = header.index("rare_mutations")
         pango_lineage_i = header.index("pango_lineage")
+        sra_accession_i = header.index("sra_accession")
+        strain_i = header.index("strain")
+        gisaid_epi_isl_i = header.index("gisaid_epi_isl")
+        genbank_accession_i = header.index("genbank_accession")
 
+        p = []
 
         line = f.readline()
         while line:
@@ -72,6 +77,11 @@ def read_metadata(filename, date_g, tweet):
             orig_lab = l[orig_lab_i]
             author = l[author_i]
             date = l[subm_date_i]
+
+
+            if lab == "EBI":
+                p.append("\t".join([l[genbank_accession_i], l[sra_accession_i], country, orig_lab]))
+
 
             # Skip all entries with invalid dates
             if len(l[sampl_date_i]) != 10:
@@ -90,12 +100,23 @@ def read_metadata(filename, date_g, tweet):
                     labs[region][country] = {"submitting_lab": [], "originating_lab": [], "authors": []}
 
                 if country != "United Kingdom" or division not in uk_divisions: # Skip all UK entries that are not overseas territories
-                    if lab not in labs[region][country]["submitting_lab"]:
-                        labs[region][country]["submitting_lab"].append(lab)
-                    if orig_lab not in labs[region][country]["originating_lab"]:
-                        labs[region][country]["originating_lab"].append(orig_lab)
-                    if author not in labs[region][country]["authors"]:
-                        labs[region][country]["authors"].append(author)
+
+                    if lab == "?": # Since only submitting labs are considered for the tweet, replace unknown submitting labs with originating labs or author
+                        '''
+                        if not orig_lab == "?":
+                            if orig_lab not in labs[region][country]["submitting_lab"]:
+                                labs[region][country]["submitting_lab"].append(orig_lab)
+                        else:
+                            if author not in labs[region][country]["submitting_lab"]:
+                                labs[region][country]["submitting_lab"].append(author)
+                        '''
+                    else:
+                        if lab not in labs[region][country]["submitting_lab"]:
+                            labs[region][country]["submitting_lab"].append(lab)
+                        if orig_lab not in labs[region][country]["originating_lab"]:
+                            labs[region][country]["originating_lab"].append(orig_lab)
+                        if author not in labs[region][country]["authors"]:
+                            labs[region][country]["authors"].append(author)
             else:
                 if tweet:
                     # Also check for next month in case we're late with tweeting
@@ -125,6 +146,20 @@ def read_metadata(filename, date_g, tweet):
                     new_countries[region] = []
                 new_countries[region].append(country)
 
+
+    with open("EBI_strains.txt", "w") as out:
+        out.write("\t".join(["genbank_accession", "sra_accession", "country", "originating_lab"]) + "\n")
+        for line in p:
+            out.write(line + "\n")
+
+    o = []
+    with open("EBI_strains_reduced.txt", "w") as out:
+        out.write("\t".join(["genbank_accession", "sra_accession", "country", "originating_lab"]) + "\n")
+        for line in p:
+            if line.split("\t")[3] not in o:
+                o.append(line.split("\t")[3])
+                out.write(line + "\n")
+
     return labs, labs_old, new_countries, new_seqs_count
 
 # 2. Search twitter handles
@@ -140,23 +175,26 @@ def collect_labs(labs, lab_dictionary, old):
             if country not in lab_collection[region]:
                 lab_collection[region][country] = {}
 
-            if data == "gisaid":
-                for lab in labs[region][country]["submitting_lab"]: # Only consider submitting lab so far
-                    # Handle known
-                    if (country in lab_dictionary and lab.lower() in lab_dictionary[country]):
-                        lab_collection[region][country][lab] = lab_dictionary[country][lab.lower()]
-                        continue
+            for lab in labs[region][country]["submitting_lab"]: # Only consider submitting lab so far
+                # Handle known
+                if (country in lab_dictionary and lab.lower() in lab_dictionary[country]):
+                    lab_collection[region][country][lab] = lab_dictionary[country][lab.lower()]
+                    continue
 
-                    # Handle unknown
-                    if (country not in lab_dictionary or lab.lower() not in lab_dictionary[country]):
-                        if not old:
-                            lab_collection[region][country][lab] = "?"
-                        continue
-
+                # Handle unknown
+                if (country not in lab_dictionary or lab.lower() not in lab_dictionary[country]):
+                    if not old:
+                        lab_collection[region][country][lab] = "?"
+                    continue
+            '''
             if data == "open": # Needs special treatment due to many "?" labs and authors
+                print(country)
                 for lab_type in labs[region][country]: # iterate also over originating lab and authors
+                    print(lab_type)
                     for lab in labs[region][country][lab_type]:
+                        print(lab)
                         if lab == "?":
+                            print(country)
                             continue
                         # Handle known
                         if (country in lab_dictionary and lab.lower() in lab_dictionary[country]):
@@ -168,6 +206,7 @@ def collect_labs(labs, lab_dictionary, old):
                             if not old:
                                 lab_collection[region][country][lab] = "?"
                             continue
+            '''
 
     lab_collection_clean = {}
     for region in lab_collection:
@@ -184,18 +223,23 @@ def collect_labs(labs, lab_dictionary, old):
 #   - If a handle is new, add to excel sheet & add to "new labs" list
 #   - Update online version of excel sheet & upload "new labs" list to GitHub. This way, labs can be collected daily while storing knowledge of new labs until the end of the month
 def print_labs(lab_collection):
-    for region in lab_collection:
-        for country in lab_collection[region]:
-            s = country + ":\n"
-            for lab in lab_collection[region][country]:
-                if lab_collection[region][country][lab] == "?":
-                    s += lab + ": ?\n"
-            if s != country + ":\n":
-                print(s)
+    with open(path_to_outputs + "twitter_handles.txt", "w") as out:
+        for region in lab_collection:
+            for country in lab_collection[region]:
+                out.write(country + "\n")
+                s = country + ":\n"
+                for lab in lab_collection[region][country]:
+                    out.write(lab + ": " + lab_collection[region][country][lab] + "\n")
+                    if lab_collection[region][country][lab] == "?":
+                        s += lab + ": ?\n"
+                if s != country + ":\n":
+                    print(s)
+                out.write("\n")
+    print("All labs and handles written out to " + path_to_outputs + "twitter_handles.txt.txt")
 
 
 # 4. Generate tweet if no unknown handles left
-def generate_tweet(new_seqs_count, lab_collection, lab_collection_old, new_countries):
+def generate_tweet(new_seqs_count, lab_collection, lab_collection_old, new_countries, data):
     known_handles = []
     for region in lab_collection_old:
         for country in lab_collection_old[region]:
@@ -249,15 +293,15 @@ def generate_tweet(new_seqs_count, lab_collection, lab_collection_old, new_count
             t = labs[i]
     tweet.append(t)
 
-    with open(path_to_outputs + "tweet.txt", "w") as out:
+    with open(path_to_outputs + data + "_tweet.txt", "w") as out:
         for i, t in enumerate(tweet):
             out.write(t + "\n\n" + str(i+1) + "/" + str(len(tweet)) + "\n\n\n")
 
 # 5. End of the month: Purge "new labs" list, specify new month as input for 0.
 
 path_to_metadata = "data/"
-path_to_input = "scripts/developer_scripts/inputs_new_sequences/"
-path_to_outputs = "scripts/developer_scripts/outputs_new_sequences/"
+path_to_input = "scripts/curate_metadata/inputs_new_sequences/"
+path_to_outputs = "scripts/curate_metadata/outputs_new_sequences/"
 table_file_name = path_to_input + "Who to Tag in Nextstrain Update Posts COVID-19.xlsx"
 gisaid_metadata = "downloaded_gisaid.tsv"
 genbank_metadata = "metadata_genbank.tsv"
@@ -325,5 +369,5 @@ if __name__ == '__main__':
         # 4. Generate tweet if no unknown handles left
         print("\n----------------------------------------------\n")
         print("Generating tweet...")
-        generate_tweet(new_seqs_count, lab_collection, lab_collection_old, new_countries)
-        print("New tweet written out to " + path_to_outputs + "tweet.txt")
+        generate_tweet(new_seqs_count, lab_collection, lab_collection_old, new_countries, data)
+        print("New tweet written out to " + path_to_outputs + data + "_tweet.txt")

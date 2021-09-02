@@ -1,4 +1,4 @@
-from os import listdir
+import os
 from difflib import SequenceMatcher
 from pathlib import Path
 from geopy.geocoders import Nominatim
@@ -1147,8 +1147,8 @@ def write_annotations(annotations, annotationsFile):
 
 path_to_metadata = "data/"
 path_to_default_files = "defaults/" # Contains color_ordering.tsv and lat_longs.tsv
-path_to_config_files = "scripts/developer_scripts/input_curate_metadata/"
-path_to_output_files = "scripts/developer_scripts/output_curate_metadata/"
+path_to_config_files = "scripts/curate_metadata/config_curate_metadata/"
+path_to_output_files = "scripts/curate_metadata/output_curate_metadata/"
 path_to_annotations = "../ncov-ingest/source-data/" # Contains gisaid and genbank annotation files
 Path(path_to_output_files).mkdir(parents=True, exist_ok=True)
 Path(path_to_config_files).mkdir(parents=True, exist_ok=True)
@@ -1164,6 +1164,12 @@ gisaidAnnotationsFile = "gisaid_annotations.tsv"
 genbankAnnotationsFile = "genbank_annotations.tsv"
 ordering_file = "color_ordering.tsv"
 latlongs_file = "lat_longs.tsv"
+
+if not os.path.exists(path_to_config_files + geoLocationRules_file):
+    with open(path_to_config_files + geoLocationRules_file, 'w'): pass
+
+if not os.path.exists(path_to_config_files + manualAnnotationRules_file):
+    with open(path_to_config_files + manualAnnotationRules_file, 'w'): pass
 
 manualAnnotationsDelimiter = ["/", ","]
 region_order = ["Asia", "Oceania", "Africa", "Europe", "South America", "North America"]

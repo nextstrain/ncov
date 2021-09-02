@@ -1,0 +1,3035 @@
+# Bratislava
+District of Bratislava I
+	Staré Mesto
+District of Bratislava II
+	Podunajské Biskupice
+	Ružinov
+	Vrakuňa
+District of Bratislava III
+	Nové Mesto
+	Rača
+	Vajnory
+District of Bratislava IV
+	Devínska Nová Ves
+	Karlova Ves
+	Devín
+	Lamač
+	Bystrica
+District of Bratislava V
+	Čunovo
+	Jarovce
+	Petržalka
+	Rusovce
+District of Malacky
+	Záhorie (vojenský obvod)
+	Malé Leváre
+	Plavecké Podhradie
+	Plavecký Mikuláš
+	Rohožník, district Malacky
+	Sološnica
+	Studienka
+	Veľké Leváre
+	Závod
+	Borinka
+	Gajary
+	Jablonové, district Malacky
+	Jakubov
+	Kostoliste
+	Kuchyňa
+	Láb
+	Lozorno
+	Malacky
+	Marianka
+	Pernek
+	Plavecký Štvrtok
+	Studienka
+	Stupava
+	Suchohrad
+	Vysoká pri Morave
+	Záhorská Ves
+	Zohor
+District of Pezinok
+	Báhoň
+	Budmerice
+	Častá
+	Dubová, district Pezinok
+	Jablonec
+	Svätý Jur
+	Limbach
+	Modra
+	Pezinok
+	Píla, district Pezinok
+	Slovensky Grob
+	Šenkvice
+	Štefanová
+	Viničné
+	Vinosady
+	Vištuk
+District of Senec
+	Boldog
+	Hrubá Borša
+	Hrubý Šúr
+	Hurbanova Ves
+	Kostolná pri Dunaji
+	Kráľová pri Senci
+	Reca
+	Bernolákovo
+	Blatné
+	Čataj
+	Hamuliakovo
+	Chorvátsky Grob
+	Ivanka Pri Dunaji
+	Kalinkovo
+	Malinovo
+	Miloslavov
+	Most pri Bratislave
+	Nová Dedinka
+	Rovinka
+	Senec
+	Tomášov
+	Tureň
+	Veľký Biel
+	Vlky
+	Dunajská Lužná
+	Igram
+	Kaplna
+	Zálesie, district Senec
+	Nový Svet
+
+# Kosice
+District of Michalovce
+	Dúbravka
+	Budince
+	Michalovce
+	Bajany
+	Bánovce nad Ondavou
+	Bracovce
+	Budkovce
+	Čečehov
+	Falkušovce
+	Hatalov
+	Hažín
+	Hnojné
+	Horovce, district Michalovce
+	Iňačovce
+	Jastrabie pri Michalovciach
+	Jovsa
+	Kačanov
+	Kaluža
+	Klokočov, district Michalovce
+	Zemplínske Kopčany
+	Krásnovce
+	Kusín
+	Lastomír
+	Laškovce
+	Lesné
+	Ložín
+	Lúčky, district Michalovce
+	Malčice
+	Malé Raškovce
+	Markovce
+	Moravany
+	Nacina Ves
+	Oreské, district Michalovce
+	Palín
+	Pavlovce nad Uhom
+	Petrikovce
+	Petrovce nad Laborcom
+	Poruba pod Vihorlatom
+	Pozdišovce
+	Pusté Čemerné
+	Rakovec nad Ondavou
+	Senné, district Michalovce
+	Slavkovce
+	Sliepkovce
+	Staré
+	Strážske
+	Stretava
+	Stretavka
+	Suché
+	Šamudovce
+	Trhovište
+	Trnava pri Laborci
+	Tušice
+	Tušická Nová Ves
+	Zalužice
+	Vinné
+	Voľa
+	Vrbnica
+	Vysoká nad Uhom
+	Závadka (Michalovce)
+	Zbudza
+	Zemplínska Široká
+	Žbince
+	Beša, district Michalovce
+	Čičarovce
+	Čierne Pole
+	Drahňov
+	Ižkovce
+	Kapušianske Kľačany
+	Krišovská Liesková
+	Maťovské Vojkovce
+	Oborín
+	Ptrukša
+	Ruská
+	Veľké Kapušany
+	Veľké Raškovce
+	Veľké Slemence
+	Vojany
+District of Spisska Nova Ves
+	Spisska Nova Ves
+	Arnutovce
+	Betlanovce
+	Bystrany
+	Danišovce
+	Harichovce
+	Hincovce
+	Hnilčík
+	Hnilec
+	Hrabušice
+	Zehra
+	Chrasť nad Hornádom
+	Iliašovce
+	Jamník, district Spisska Nova Ves
+	Kaľava
+	Kolinovce
+	Krompachy
+	Letanovce
+	Lieskovany
+	Markušovce
+	Matejovce nad Hornádom
+	Mlynky
+	Odorín
+	Olcnava
+	Oľšavka, district Spisska Nova Ves
+	Poráč
+	Rudňany
+	Slatvina
+	Slovinky
+	Spišské Tomášovce
+	Spišské Vlachy
+	Spišský Hrušov
+	Teplička
+	Vítkovce
+	Vojkovce
+	Smižany
+District of Trebisov
+	Malá Tŕňa
+	Veľká Tŕňa
+	Klin nad Bodrogom
+	Stanča
+	Trebisov
+	Bačka
+	Bačkov
+	Bara
+	Biel
+	Svätá Mária
+	Boľ
+	Borša
+	Boťany
+	Brehov
+	Brezina
+	Byšta
+	Cejkov
+	Čeľovce
+	Čerhov
+	Černochov
+	Čierna
+	Čierna nad Tisou
+	Dargov
+	Dobrá
+	Dvorianky
+	Egreš
+	Hraň
+	Hrčeľ
+	Hriadky
+	Kašov
+	Kazimír
+	Kožuchov
+	Kralovsky Chlmec
+	Kuzmice, district Trebisov
+	Kysta
+	Ladmovce
+	Lastovce
+	Leles
+	Luhyňa
+	Malé Ozorovce
+	Malé Trakany
+	Malý Horeš
+	Malý Kamenec
+	Michaľany
+	Nižný Žipov
+	Novosad
+	Nový Ruskov
+	Plechotice
+	Svätuše
+	Poľany
+	Parchovany
+	Pribeník
+	Rad
+	Sečovce
+	Sirník
+	Slivník
+	Slovenské Nové Mesto
+	Soľnička
+	Somotor
+	Stankovce
+	Strážne
+	Streda nad Bodrogom
+	Svinice
+	Trnávka, district Trebisov
+	Veľaty
+	Veľké Ozorovce
+	Veľké Trakany
+	Veľký Horeš
+	Veľký Kamenec
+	Viničky
+	Višňov
+	Vojčice
+	Vojka
+	Zatín
+	Zbehňov
+	Zemplín
+	Zemplínska Nová Ves
+	Zemplínska Teplica
+	Zemplínske Hradište
+	Zemplínske Jastrabie
+	Zemplínsky Branč
+District of Gelnica
+	Gelnica
+	Helcmanovce
+	Henclová
+	Závadka (Gelnica)
+	Žakarovce
+	Hrišovce
+	Jaklovce
+	Kluknava
+	Kojšov
+	Margecany
+	Mníšek nad Hnilcom
+	Nálepkovo
+	Prakovce
+	Richnava
+	Smolnícka Huta
+	Smolník
+	Stará Voda
+	Švedlár
+	Úhorná
+	Veľký Folkmar
+District of Kosice I
+	Kosice 1
+	Kosice - urban part Kavečany
+	Kosice - urban part Ťahanovce
+	Kosice - urban part Sever
+	Kosice - urban part Staré Mesto
+	Kosice - urban part Sídlisko Ťahanovce
+	Kosice - urban part Džungľa
+District of Kosice II
+	Kosice 2
+	Kosice - urban part Lorinčík
+	Kosice - urban part Pereš
+	Kosice - urban part Myslava
+	Kosice - urban part Západ
+	Kosice - urban part Šaca
+	Kosice - urban part Poľov
+	Kosice - urban part Sídlisko KVP
+	Kosice - urban part Luník IX
+District of Kosice III
+	Kosice 3
+	Kosice - u. p. Dargovských hrdinov
+	Kosice - urban part Košická Nová Ves
+District of Kosice IV
+	Kosice 4
+	Kosice - urban part Barca
+	Kosice - urban part Šebastovce
+	Kosice - urban part Krásna
+	Kosice - urban part Nad jazerom
+	Kosice - urban part Juh
+	Kosice - urban part Vyšné Opátske
+District of Kosice – okolie
+	Kosice 5
+	Hosťovce, district Kosice - okolie
+	Slančík
+	Háj
+	Nižná Hutka
+	Bačkovík
+	Baška
+	Belža
+	Beniakovce
+	Bidovce
+	Blažice
+	Bohdanovce
+	Boliarov
+	Budimír
+	Bukovec (Kosice)
+	Bunetice
+	Buzica
+	Cestice
+	Čakanovce, district Kosice - okolie
+	Čaňa
+	Čečejovce
+	Čižatice
+	Debraď
+	Drienovec
+	Družstevná pri Hornáde
+	Ďurďošík
+	Ďurkov
+	Geča
+	Gyňov
+	Hačava
+	Haniska, district Kosice - okolie
+	Herľany
+	Hodkovce
+	Hrašovík
+	Hýľov
+	Chrastné
+	Janík
+	Jasov
+	Kalša
+	Kecerovce
+	Kecerovský Lipovec
+	Kokšov-Bakša
+	Komárovce
+	Košická Belá
+	Košická Polianka
+	Košické Oľšany
+	Košický Klečenov
+	Kráľovce
+	Kysak
+	Malá Ida
+	Malá Lodina
+	Medzev
+	Mokrance
+	Moldava nad Bodvou
+	Mudrovce
+	Nižná Kamenica
+	Nižná Myšľa
+	Nižný Čaj
+	Nižný Klátov
+	Nižný Lánec
+	Turnianska Nová Ves
+	Nováčany
+	Nová Polhora
+	Nový Salaš
+	Obišovce
+	Olšovany
+	Opátka
+	Opiná
+	Paňovce
+	Peder
+	Perín-Chym
+	Ploské, district Kosice - okolie
+	Poproč, district Kosice - okolie
+	Rákoš, district Kosice - okolie
+	Rankovce
+	Rešica
+	Rozhanovce
+	Rudník, district Kosice - okolie
+	Ruskov
+	Sady nad Torysou
+	Seňa
+	Skároš
+	Slanec
+	Slanská Huta
+	Slanské Nové Mesto
+	Sokoľ
+	Svinica
+	Šemša
+	Štós
+	Trebejov
+	Trsťany
+	Trstené pri Hornáde
+	Vajkovce
+	Valaliky
+	Veľká Ida
+	Veľká Lodina
+	Vtáčkovce
+	Vyšná Hutka
+	Vyšná Kamenica
+	Vyšná Myšľa
+	Vyšný Čaj
+	Vyšný Klátov
+	Zlatá Idka
+	Žarnov
+	Ždaňa
+	Kechnec
+	Turňa nad Bodvou
+	Bočiar
+	Sokoľany
+	Dvorníky-Včeláre
+	Zádiel
+	Milhosť
+	Vyšný Medzev
+	Kostoľany nad Hornádom
+	Chorváty
+District of Rožňava
+	Bretka
+	Gemerská Panica
+	Rožňava
+	Ardovo
+	Betliar
+	Bohúňovo
+	Bôrka
+	Brdárka
+	Čierna Lehota, district Rožňava
+	Čoltovo
+	Dedinky
+	Dlhá Ves
+	Dobšiná
+	Drnava
+	Gemerská Hôrka
+	Gemerská Poloma
+	Gočaltovo
+	Gočovo
+	Hanková
+	Henckovce
+	Honce
+	Hrhov
+	Hrušov, district Rožňava
+	Jablonov nad Turňou
+	Kečovo
+	Kobeliarovo
+	Koceľovce
+	Kováčová, district Rožňava
+	Krásnohorská Dlhá Lúka
+	Krásnohorské Podhradie
+	Kunova Teplica
+	Lipovník, district Rožňava
+	Lúčka, district Rožňava
+	Markuška
+	Meliata
+	Nižná Slaná
+	Ochtiná
+	Pača
+	Pašková
+	Petrovo
+	Plešivec
+	Rakovnica
+	Rejdová
+	Rochovce
+	Roštár
+	Rozložná
+	Rožňavské Bystré
+	Rudná
+	Silica
+	Silická Brezová
+	Silická Jablonica
+	Slavec
+	Slavoška
+	Slavošovce
+	Stratená
+	Štítnik
+	Vlachovo
+	Vyšná Slaná
+	Brzotín
+	Čučma
+	Jovice
+	Kružná
+District of Sobrance
+	Baškovce, district Sobrance
+	Beňatina
+	Bežovce
+	Blatná Polianka
+	Blatné Remety
+	Blatné Revištia
+	Bunkovce
+	Fekišovce
+	Hlivištia
+	Horňa
+	Husák
+	Choňkovce
+	Inovce
+	Jasenov, district Sobrance
+	Jenkovce
+	Kolibabovce
+	Koňuš
+	Koromľa
+	Krčava
+	Kristy
+	Lekárovce
+	Nižná Rybnica
+	Nižné Nemecké
+	Orechová
+	Ostrov, district Sobrance
+	Petrovce, districe Sobrance
+	Pinkovce
+	Podhoroď
+	Porostov
+	Porúbka, district Sobrance
+	Priekopa
+	Remetské Hámre
+	Ruská Bystrá
+	Ruskovce, district Sobrance
+	Ruský Hrabovec
+	Sejkov
+	Sobrance
+	Svätuš
+	Tašuľa
+	Tibava
+	Úbrež
+	Veľké Revištia
+	Vojnatina
+	Vyšná Rybnica
+	Vyšné Nemecké
+	Vyšné Remety
+	Záhor
+
+# Trnava
+District of Dunajská Streda
+	Dunajská Streda
+	Báč
+	Baka
+	Baloň
+	Blahová
+	Blatná na Ostrove
+	Boheľov
+	Čakany
+	Velky Meder
+	Čiližská Radvaň
+	Dobrohošť
+	Dolný Bar
+	Gabčíkovo
+	Holice
+	Horná Potôň
+	Horný Bar
+	Dolný Štál
+	Hubice
+	Hviezdoslavov
+	Jahodná
+	Janíky
+	Jurová
+	Kľúčovec
+	Kostolné Kračany
+	Kráľovičove Kračany
+	Kútniky
+	Kvetoslavov
+	Lehnice
+	Lúč na Ostrove
+	Medveďov
+	Mierovo
+	Michal na Ostrove
+	Nový Život
+	Ohrady
+	Okoč
+	Oľdza
+	Orechová Potôň
+	Padáň
+	Sap
+	Pataš
+	Rohovce
+	Šamorín
+	Štvrtok na Ostrove
+	Topoľníky
+	Ňárad
+	Trnávka, district Dunajská Streda
+	Trstena na Ostrove
+	Veľká Paka
+	Veľké Blahovo
+	Vojka nad Dunajom
+	Vrakúň
+	Vydrany
+	Zlaté Klasy
+	Bodíky
+	Bellova Ves
+	Dunajský Klátov
+	Horné Mýto
+	Trhová Hradská
+	Macov
+	Mad
+	Malé Dvorníky
+	Veľké Dvorníky
+	Povoda
+	Vieska, district Dunajská Streda
+	Čenkovce
+	Kyselica
+	Potônske Lúky
+District of Galanta
+	Galanta
+	Abrahám
+	Cierna Voda
+	Čierny Brod
+	Dolne Saliby
+	Dolný Chotár
+	Gáň
+	Horne Saliby
+	Hoste
+	Jánovce, district Galanta
+	Jelka
+	Kajal
+	Košúty
+	Kráľov Brod
+	Mostova
+	Pata
+	Pusté Sady
+	Pusté Úľany
+	Sereď
+	Sládkovičovo
+	Šalgočka
+	Šintava
+	Soporna
+	Tomášikovo
+	Topoľnica
+	Trstice
+	Váhovce
+	Veľká Mača
+	Velke Ulany
+	Veľký Grob
+	Vinohrady nad Váhom
+	Vozokany, district Galanta
+	Zemianske Sady
+	Matúškovo
+	Dolna Streda
+	Malá Mača
+District of Hlohovec
+	Bojničky
+	Červeník
+	Dolné Otrokovce
+	Dolné Trhovište
+	Dvorníky
+	Hlohovec
+	Horné Otrokovce
+	Jalšové
+	Kľačany
+	Koplotovce
+	Leopoldov
+	Madunice
+	Merašice
+	Pastuchov
+	Sasinkovo
+	Siladice
+	Trakovice
+	Žlkovce
+	Ratkovce
+	Dolné Zelenice
+	Horné Zelenice
+	Horné Trhovište
+	Tekolďany
+	Tepličky
+District of Piestany
+	Borovce
+	Dolný Lopašov
+	Drahovce
+	Dubovany
+	Chtelnica
+	Kočín-Lančár
+	Krakovany
+	Moravany nad Váhom
+	Nizna
+	Ostrov, district Piestany
+	Pečeňady
+	Piestany
+	Prašník
+	Rakovice
+	Ratnovce
+	Sokolovce
+	Trebatice
+	Veľké Kostoľany
+	Veselé
+	Vrbové
+	Šterusy
+	Veľké Orvište
+	Hubina
+	Ducové
+	Bašovce
+	Šípkové
+	Banka
+District of Senica
+	Senica
+	Bílkove Humence
+	Borský Svätý Jur
+	Borský Mikuláš
+	Cerová
+	Čáry
+	Častkov
+	Dojč
+	Hlboké
+	Hradište pod Vrátnom
+	Jablonica
+	Koválov
+	Kuklov
+	Kúty
+	Lakšárska Nová Ves
+	Moravský Svätý Ján
+	Osuské
+	Plavecký Peter
+	Podbranč
+	Prietrž
+	Prievaly
+	Rovensko
+	Smolinské
+	Smrdáky
+	Sobotiste
+	Šajdíkove Humence
+	Šaštín-Stráže
+	Štefanov
+	Sekule
+	Rohov
+	Rybky
+District of Skalica
+	Brodské
+	Dubovce
+	Gbely
+	Holíč
+	Chropov
+	Kátov
+	Kopcany
+	Koválovec
+	Letničie
+	Lopašov
+	Mokrý Háj
+	Oreské, district Skalica
+	Petrova Ves
+	Popudinské Močidľany
+	Prietržka
+	Radimov
+	Radošovce, district Skalica
+	Skalica
+	Trnovec
+	Unín
+	Vrádište
+District of Trnava
+	Trnava
+	Bíňovce
+	Bohdanovce nad Trnavou
+	Boleraz
+	Borová
+	Brestovany
+	Bučany
+	Buková
+	Cífer
+	Dechtice
+	Dobrá Voda
+	Dolná Krupá
+	Dolné Dubové
+	Dolné Orešany
+	Horná Krupá
+	Horné Dubové
+	Horné Orešany
+	Jaslovské Bohunice
+	Kátlovce
+	Košolná
+	Majcichov
+	Malženice
+	Naháč
+	Ružindol
+	Smolenice
+	Suchá nad Parnou
+	Špačince
+	Šúrovce
+	Trstín
+	Voderady
+	Zavar
+	Zeleneč SK
+	Križovany nad Dudváhom
+	Opoj
+	Vlčkovce
+	Pavlice
+	Slovenská Nová Ves
+	Dlhá
+	Radošovce, district Trnava
+	Dolné Lovčice
+	Šelpice
+	Lošonec
+	Biely Kostol
+	Hrnčiarovce nad Parnou
+	Zvončín
+
+# Trenčín
+District of Banovce nad Bebravou
+	Ľutov
+	Malá Hradná
+	Malé Hoste
+	Miezgovce
+	Nedašovce
+	Omastiná
+	Pečeňany
+	Podlužany, district Banovce nad Bebravou
+	Pravotice
+	Prusy
+	Ruskovce, district Banovce nad Bebravou
+	Rybany
+	Slatina nad Bebravou
+	Slatinka nad Bebravou
+	Šípkov
+	Šišov
+	Timoradza
+	Trebichava
+	Uhrovec
+	Uhrovské Podhradie
+	Veľké Hoste
+	Veľké Chlievany
+	Vysočany
+	Zlatníky
+	Žitná-Radiša
+	Banovce nad Bebravou
+	Brezolupy
+	Cimenná
+	Čierna Lehota, district Banovce nad Bebravou
+	Dežerice
+	Dolné Naštice
+	Dubnička
+	Dvorec
+	Haláčovce
+	Horné Naštice
+	Krásna Ves
+	Kšinná
+	Veľké Držkovce
+	Otrhánky
+	Libichava
+	Chudá Lehota
+	Pochabany
+	Borčany
+District of Ilava
+	Bolešov
+	Červený Kameň
+	Dubnica nad Vahom
+	Dulov
+	Horná Poruba
+	Ilava
+	Košeca
+	Ladce
+	Košecké Podhradie
+	Mikušovce, district Ilava
+	Mutne Dulov
+	Nova Dubnica
+	Pruské
+	Tuchyňa
+	Zliechov
+	Borčice
+	Kameničany
+	Sedmerovec
+	Slavnica
+	Krivoklát
+	Vršatské Podhradie
+	Bohunice, district Ilava
+District of Myjava
+	Brestovec, district Myjava
+	Brezová pod Bradlom
+	Bukovec, district Myjava
+	Chvojnica, district Myjava
+	Jablonka
+	Košariská
+	Myjava
+	Polianka
+	Poriadie
+	Priepasné
+	Rudník, district Myjava
+	Stará Myjava
+	Vrbovce
+	Hrašné
+	Kostolné
+	Krajné
+	Podkylava
+District of Nove Mesto nad Vahom
+	Beckov
+	Bošáca
+	Brunovce
+	Bzince pod Javorinou
+	Čachtice
+	Častkovce
+	Dolné Srnie
+	Hôrka nad Váhom
+	Horná Streda
+	Hrádok
+	Hrachovište
+	Kálnica
+	Kočovce
+	Lubina
+	Lúka
+	Modrová
+	Modrovka
+	Moravske Lieskove
+	Nová Bošáca
+	Nová Lehota
+	Nove Mesto nad Vahom
+	Očkov
+	Pobedim
+	Podolie
+	Potvorice
+	Považany
+	Stará Lehota
+	Stará Turá
+	Trenčianske Bohuslavice
+	Vaďovce
+	Višňové, district Nove Mesto nad Vahom
+	Haluzice
+	Zemianske Podhradie
+	Nová Ves nad Váhom
+District of Partizanske
+	Malé Kršteňany
+	Nadlice
+	Nedanovce
+	Ostratice
+	Partizanske
+	Pažiť
+	Skačany
+	Veľké Kršteňany
+	Veľké Uherce
+	Veľký Klíž
+	Žabokreky nad Nitrou
+	Bošany
+	Hradiste (Trenčín)
+	Chynorany
+	Klátova Nová Ves
+	Kolačno
+	Livina
+	Livinské Opatovce
+	Krásno
+	Turčianky
+	Ješkova Ves
+	Brodzany
+	Malé Uherce
+District of Povazska Bystrica
+	Povazska Bystrica
+	Brvnište
+	Dolná Mariková
+	Domaniža
+	Horná Mariková
+	Jasenica
+	Kostolec
+	Papradno
+	Plevník-Drienové
+	Prečín
+	Pružina
+	Stupné
+	Udiča
+	Vrchteplá
+	Záskalie
+	Sverepec
+	Dolný Lieskov
+	Slopná
+	Hatné
+	Klieština
+	Čelkova Lehota
+	Malé Lednice
+	Sádočné
+	Ďurďové
+	Bodiná
+	Počarová
+	Horný Lieskov
+	Podskalie
+District of Prievidza
+	Prievidza
+	Bojnice
+	Bystricany
+	Cigeľ
+	Čavoj
+	Čereňany
+	Diviacka Nová Ves
+	Diviaky nad Nitricou
+	Dlžín
+	Dolné Vestenice
+	Handlová
+	Horná Ves, district Prievidza
+	Horné Vestenice
+	Chrenovec-Brusno
+	Chvojnica, district Prievidza
+	Kamenec pod Vtáčnikom
+	Kanianka
+	Kľačno
+	Kocurany
+	Kostolná Ves
+	Koš
+	Lazany
+	Lehota pod Vtáčnikom
+	Liešťany
+	Malá Čausa
+	Malinová
+	Nedožery-Brezany
+	Nevidzany, district Prievidza
+	Nitrianske Pravno
+	Nitrianske Rudno
+	Nitrianske Sučany
+	Nitrica
+	Novaky
+	Opatovce nad Nitrou
+	Oslany
+	Podhradie, district Prievidza
+	Poluvsie
+	Poruba
+	Pravenec
+	Radobica
+	Ráztočno
+	Rudnianska Lehota
+	Sebedražie
+	Seč
+	Šútovce
+	Temeš
+	Tužina
+	Valaská Belá
+	Veľká Čausa
+	Zemianske Kostoľany
+	Lipník
+	Jalovec, district Prievidza
+District of Púchov
+	Zubák
+	Beluša
+	Dohňany
+	Dolná Breznica
+	Horovce, district Púchov
+	Lazy pod Makytou
+	Lednica
+	Lednické Rovne
+	Lúky
+	Lysá pod Makytou
+	Mestečko
+	Mojtín
+	Puchov
+	Visolaje
+	Záriečie
+	Dolné Kočkovce
+	Nimnica
+	Streženice
+	Vydrná
+	Kvašov
+	Horná Breznica
+District of Trenčín
+	Trenčín
+	Adamovské Kochanovce
+	Bobot
+	Dolná Poruba
+	Dolná Súča
+	Drietoma
+	Dubodiel
+	Horná Súča
+	Horňany
+	Horné Srnie
+	Hrabovka
+	Chocholná-Velčice
+	Ivanovce
+	Kostolna-Zariecie
+	Krivosúd-Bodovka
+	Mníchova Lehota
+	Motešice
+	Nemšová
+	Neporadza, district Trenčín
+	Omšenie
+	Opatovce
+	Selec
+	Soblahov
+	Svinná
+	Štvrtok
+	Trencianska Tepla
+	Trenčianska Turná
+	Trenčianske Jastrabie
+	Trenčianske Mitice
+	Trenčianske Teplice
+	Veľká Hradná
+	Veľké Bierovce
+	Melčice-Lieskové
+	Trenčianske Stankovce
+	Skalka nad Váhom
+	Zamarovce
+	Petrova Lehota
+
+# Nitra
+District of Komárno
+	Komarno
+	Velký Harcáš
+	Bajc
+	Bodza
+	Brestovec, district Komárno
+	Búč
+	Čalovec
+	Číčov
+	Dedina Mládeže
+	Svaty Peter
+	Dulovce
+	Hurbanovo
+	Chotín
+	Imel
+	Iža
+	Kamenicna
+	Klizska Nema
+	Kolárovo
+	Kravany nad Dunajom
+	Lipové
+	Marcelova
+	Martovce
+	Moca
+	Modrany
+	Mudroňovo
+	Nesvady
+	Okoličná na Ostrove
+	Patince
+	Pribeta
+	Radvaň nad Dunajom
+	Sokolce
+	Šrobárová
+	Ton
+	Trávnik
+	Veľké Kosihy
+	Batorove Kosihy
+	Vrbová nad Váhom
+	Zemianska Olca
+	Zlatná na Ostrove
+	Bodzianske Lúky
+	Virt
+	Holiare
+District of Levice
+	Levice
+	Bajka
+	Bátovce
+	Beša, district Levice
+	Bielovce
+	Bory
+	Brhlovce
+	Čajkov
+	Čaka
+	Demandice
+	Devičany
+	Dolná Seč
+	Dolné Semerovce
+	Dolný Pial
+	Domadice
+	Drženice
+	Farná
+	Hokovce
+	Hontianska Vrbica
+	Horná Seč
+	Horné Semerovce
+	Horné Turovce
+	Horný Pial
+	Hronovce
+	Hronské Kľačany
+	Hronské Kosihy
+	Iňa
+	Ipeľské Úľany
+	Ipeľský Sokolec
+	Jabloňovce
+	Jur nad Hronom
+	Kalná nad Hronom
+	Kozárovce
+	Krškany
+	Kubáňovo
+	Kukučínov
+	Kuraľany
+	Ket
+	Lok
+	Lontov
+	Lula
+	Málaš
+	Malé Ludince
+	Mýtne Ludany
+	Nová Dedina
+	Nový Tekov
+	Nýrovce
+	Ondrejovce
+	Pastovce
+	Pečenice
+	Plášťovce
+	Plavé Vozokany
+	Podlužany, district Levice
+	Pohronsky Ruskov
+	Pukanec
+	Rybník, district Levice
+	Santovka
+	Sazdice
+	Sikenica
+	Slatina
+	Starý Hrádok
+	Starý Tekov
+	Sahy
+	Šalov
+	Šarovce
+	Tehla
+	Tekovské Lužany
+	Tekovský Hrádok
+	Tlmače
+	Tupá
+	Turá
+	Uhliská
+	Velke Ludince
+	Veľké Turovce
+	Veľký Ďur
+	Vyškovce nad Ipľom
+	Vyšné nad Hronom
+	Zalaba
+	Zbrojníky
+	Želiezovce
+	Žemberovce
+	Žemliare
+	Hontianske Trsťany
+	Čata
+	Jesenské, district Levice
+	Bohunice, district Levice
+	Malé Kozmálovce
+	Veľké Kozmálovce
+	Hrkovce
+District of Nitra
+	Nitra
+	Alekšince
+	Bab
+	Branč
+	Čakajovce
+	Čeľadice
+	Čifáre
+	Dolné Obdokovce
+	Golianovo
+	Hruboňovo
+	Jarok
+	Jelenec
+	Jelšovce
+	Kapince
+	Klasov
+	Kolíňany
+	Lehota
+	Lúčnica nad Žitavou
+	Lukáčovce
+	Veľké Chyndice
+	Malé Zálužie
+	Melek
+	Mojmírovce
+	Nová Ves nad Žitavou
+	Nové Sady
+	Paňa
+	Podhorany, district Nitra
+	Pohranice
+	Poľný Kesov
+	Rišňovce
+	Rumanová
+	Šurianky
+	Tajná
+	Veľká Dolina
+	Veľké Zálužie
+	Veľký Cetín
+	Vinodol
+	Vráble
+	Výčapy-Opatovce
+	Zbehy
+	Žirany
+	Žitavce
+	Cabaj-Čápor
+	Horné Lefantovce
+	Malý Lapáš
+	Veľký Lapáš
+	Čechynce
+	Malý Cetín
+	Hosťová
+	Telince
+	Svätoplukovo
+	Nitrianske Hrnčiarovce
+	Malé Chyndice
+	Ivanka pri Nitre
+	Lužianky
+	Ľudovítová
+	Babindol
+	Štefanovičová
+	Čab
+	Dolné Lefantovce
+	Bádice
+	Štitáre
+District of Nove Zamky
+	Nove Zamky
+	Andovce
+	Bajtava
+	Banov
+	Bardoňovo
+	Belá, district Nove Zamky
+	Besenov
+	Bíňa
+	Branovo
+	Bruty
+	Čechy
+	Černík
+	Dedinka
+	Dolny Ohaj
+	Dubnik
+	Dvory nad Žitavou
+	Gbelce
+	Hul
+	Chľaba
+	Jasova
+	Jatov
+	Kamenica nad Hronom
+	Kamenín
+	Kamenný Most
+	Kmeťovo
+	Kolta
+	Komjatice
+	Komoča
+	Leľa
+	Lipová
+	Ľubá
+	Malá nad Hronom
+	Malé Kosihy
+	Maňa
+	Michal nad Žitavou
+	Velky Kyr
+	Mojzesovo
+	Mužla
+	Nová Vieska
+	Palárikovo
+	Podhajska
+	Pozba
+	Radava
+	Rastislavice
+	Rúbaň
+	Salka
+	Semerovo
+	Sikenička
+	Strekov
+	Svodín
+	Šarkan
+	Sturovo
+	Surany
+	Trávnica
+	Tvrdosovce
+	Velke Lovce
+	Zemné
+	Vlkas
+	Pavlová
+	Ulany nad Zitavou
+	Nana
+	Obid
+District of Sala
+	Hájske
+	Močenok
+	Diakovce
+	Dlhá nad Váhom
+	Kráľová nad Váhom
+	Neded
+	Selice
+	Sala
+	Tešedíkovo
+	Trnovec nad Váhom
+	Vlcany
+	Žihárec
+	Horná Kráľová
+District of Topolcany
+	Topolcany
+	Lipovník, district Topolcany
+	Ludanice
+	Lužany
+	Malé Ripňany
+	Nemečky
+	Nitrianska Blatnica
+	Nitrianska Streda
+	Norovce
+	Oponice
+	Podhradie, district Topolcany
+	Prašice
+	Preseľany
+	Radošina
+	Rajčany
+	Solcany
+	Súlovce
+	Šalgovce
+	Tesáre
+	Tvrdomestice
+	Urmince
+	Veľké Dvorany
+	Veľké Ripňany
+	Velušovce
+	Vozokany, district Topolcany
+	Závada, district Topolcany
+	Belince
+	Biskupová
+	Blesovce
+	Bojná
+	Čermany
+	Hajná Nová Ves
+	Horné Obdokovce
+	Horné Štitáre
+	Hrušovany
+	Kamanová
+	Koniarovce
+	Kovarce
+	Krnča
+	Krtovce
+	Krušovce
+	Jacovce
+	Chrabrany
+	Orešany
+	Ardanovce
+	Svrbice
+	Dvorany nad Nitrou
+	Čeľadince
+	Solčianky
+	Horné Chlebany
+	Tovarníky
+	Nemčice
+	Práznovce
+	Kuzmice, district Topolcany
+District of Zlaté Moravce
+	Beladice
+	Čaradice
+	Čierne Kľačany
+	Hostie
+	Hosťovce, district Zlaté Moravce
+	Choča
+	Jedľové Kostoľany
+	Kostoľany pod Tribečom
+	Ladice
+	Lovce
+	Machulince
+	Mankovce
+	Martin nad Žitavou
+	Nemčiňany
+	Neverice
+	Nevidzany, district Zlaté Moravce
+	Obyce
+	Skýcov
+	Sľažany
+	Slepčany
+	Tesárske Mlyňany
+	Topoľčianky
+	Velčice
+	Vieska nad Žitavou
+	Volkovce
+	Zlaté Moravce
+	Zlatno, district Zlaté Moravce
+	Žikava
+	Tekovské Nemce
+	Červený Hrádok
+	Malé Vozokany
+	Veľké Vozokany
+	Žitavany
+
+# Zilina
+District of Tvrdosin
+	Brezovica (Zilina)
+	Habovka
+	Hladovka
+	Liesek
+	Medvedzie
+	Nizna
+	Oravsky Biely Potok
+	Podbiel
+	Suchá Hora
+	Štefanov nad Oravou
+	Trstena
+	Tvrdosin
+	Vitanova
+	Zabiedovo
+	Zuberec
+	Cimhova
+District of Zilina
+	Zilina
+	Bela
+	Čičmany
+	Divina
+	Divinka
+	Dlhé Pole
+	Dolná Tižina
+	Dolný Hričov
+	Fačkov
+	Gbeľany
+	Hôrky
+	Horný Hričov
+	Jasenové
+	Kamenná Poruba, district Zilina
+	Konská, district Zilina
+	Kotrčiná Lúčka
+	Krasňany
+	Kunerad
+	Lietava
+	Lietavská Svinná-Babkov
+	Lutiše
+	Lysica
+	Malá Čierna
+	Mojš
+	Nededza
+	Podhorie, district Zilina
+	Rajec
+	Rajecká Lesná
+	Rajecké Teplice
+	Rosina
+	Stráňavy
+	Stránske
+	Stráža
+	Strečno
+	Svederník
+	Teplička nad Váhom
+	Terchová
+	Turie
+	Varín
+	Veľká Čierna
+	Višňové, district Zilina
+	Zavodie
+	Zbyňov
+	Bitarová
+	Brezany
+	Hričovské Podhradie
+	Ovčiarsko
+	Paština Závada
+	Lietavská Lúčka
+	Porúbka (Zilina)
+	Ďurčiná
+	Kľače
+	Nezbudská Lúčka
+	Šuja
+District of Bytca
+	Bytca
+	Hvozdnica
+	Jablonové, district Bytca
+	Kolárovice
+	Kotešová
+	Maršová-Rašov
+	Petrovice
+	Predmier
+	Súľov-Hradná
+	Štiavnik
+	Veľké Rovné
+	Hlboké nad Váhom
+District of Cadca
+	Cadca
+	Čierne
+	Dlhá nad Kysucou
+	Dunajov
+	Klokočov, district Cadca
+	Klubina
+	Korňa
+	Krásno nad Kysucou
+	Makov
+	Nová Bystrica
+	Olešná
+	Oščadnica
+	Podvysoká
+	Radôstka
+	Raková
+	Skalité
+	Stará Bystrica
+	Staškov
+	Svrcinovec
+	Turzovka
+	Vysoká nad Kysucou
+	Zákopčie
+	Zborov nad Bystricou
+District of Dolný Kubín
+	Dolný Kubín
+	Dlhá nad Oravou
+	Horná Lehota, district Dolný Kubín
+	Chlebnice
+	Istebné
+	Jasenová
+	Kraľovany
+	Krivá
+	Leštiny
+	Malatiná
+	Medzibrodie nad Oravou
+	Oravska Poruba
+	Oravský Podzámok
+	Osádka
+	Párnica
+	Pokryváč
+	Pribiš
+	Pucov
+	Sedliacka Dubová
+	Veličná
+	Vyšný Kubín
+	Zázrivá
+	Žaškov
+	Bziny
+District of Kysucke Nove Mesto
+	Dolný Vadičov
+	Horný Vadičov
+	Kysucke Nove Mesto
+	Kysucký Lieskovec
+	Lodno
+	Lopušné Pažite
+	Nesluša
+	Ochodnica
+	Povina
+	Rudina
+	Rudinka
+	Rudinská
+	Snežnica
+	Radoľa
+District of Liptovsky Mikulas
+	Konská, district Liptovsky Mikulas
+	Liptovsky Mikulas
+	Beňadiková
+	Bobrovček
+	Bobrovec
+	Bobrovník
+	Bukovina
+	Demänovská Dolina
+	Dúbrava, district Liptovsky Mikulas
+	Galovany
+	Gôtovany
+	Huty
+	Hybe
+	Jakubovany, district Liptovsky Mikulas
+	Jalovec, district Liptovsky Mikulas
+	Jamník, district Liptovsky Mikulas
+	Kráľova Lehota
+	Kvačany, district Liptovsky Mikulas
+	Lazisko
+	Liptovská Anna
+	Liptovská Kokava
+	Liptovská Sielnica
+	Liptovské Beharovce
+	Liptovské Kľačany
+	Liptovské Matiašovce
+	Liptovský Hrádok
+	Liptovský Ján
+	Liptovský Ondrej
+	Liptovský Trnovec
+	Ľubeľa
+	Malatíny
+	Malé Borové
+	Malužiná
+	Nižná Boca
+	Partizánska Ľupča
+	Pavčina Lehota
+	Pavlova Ves
+	Podtureň
+	Pribylina
+	Prosiek
+	Smrečany
+	Svätý Kríž
+	Trstené
+	Uhorská Ves
+	Vavrišovo
+	Važec
+	Veľké Borové
+	Veterná Poruba
+	Vlachy
+	Východná
+	Vyšná Boca
+	Závažná Poruba
+	Žiar, district Liptovsky Mikulas
+	Ižipovce
+	Liptovská Porúbka
+	Liptovský Peter
+District of Martin
+	Martin
+	Belá-Dulice
+	Benice
+	Blatnica
+	Bystrička
+	Ďanová
+	Diaková
+	Dolný Kalník
+	Dražkovce
+	Folkušová
+	Horný Kalník
+	Karlová
+	Kláštor pod Znievom
+	Košťany nad Turcom
+	Krpeľany
+	Laskár
+	Ležiachov
+	Lipovec, district Martin
+	Necpaly
+	Nolčovo
+	Podhradie, district Martin
+	Príbovce
+	Rakovo
+	Ratkovo
+	Sklabiňa
+	Sklabinský Podzámok
+	Slovany
+	Socovce
+	Sučany
+	Šútovo
+	Trebostovo
+	Trnovo
+	Turany
+	Turčianska Štiavnička
+	Turčianske Kľačany
+	Turčiansky Ďur
+	Turčiansky Peter
+	Valča
+	Vrícko
+	Záborie
+	Žabokreky
+	Turčianske Jaseno
+	Vrutky
+District of Namestovo
+	Babín
+	Benadovo
+	Bobrov
+	Breza
+	Hrustin
+	Klin
+	Krušetnica
+	Lokca
+	Lomná
+	Mutne
+	Namestovo
+	Novot
+	Oravska Jasenica
+	Oravska Lesna
+	Oravska Polhora
+	Oravske Vesele
+	Rabca
+	Rabčice
+	Sihelne
+	Slanicka Osada
+	Tapesovo
+	Vasilov
+	Vavrecka
+	Zákamenné
+	Zubrohlava
+District of Ruzomberok
+	Ivachnová
+	Turík
+	Bešeňová
+	Hubová
+	Kalameny
+	Komjatná
+	Likavka
+	Liptovská Lúžna
+	Liptovská Osada
+	Liptovská Štiavnica
+	Liptovská Teplá
+	Liptovské Revúce
+	Liptovský Michal
+	Lisková
+	Ľubochňa
+	Lúčky, district Ruzomberok
+	Ludrová
+	Martincek
+	Potok, district Ruzomberok
+	Rojkov
+	Ruzomberok
+	Liptovské Sliače
+	Stankovany
+	Štiavnička
+	Švošov
+	Valaská Dubová
+District of Turcianske Teplice
+	Abramová
+	Blažovce
+	Bodorová
+	Borcová
+	Brieštie
+	Budiš
+	Čremošné
+	Dubové, district Turcianske Teplice
+	Háj, district Turcianske Teplice
+	Horná Štubňa
+	Ivančiná
+	Jasenovo
+	Jazernica
+	Kaľamenová
+	Liešno
+	Malý Čepčín
+	Moškovec
+	Mošovce
+	Ondrašová
+	Rakša
+	Rudno
+	Sklené
+	Slovenské Pravno
+	Turček
+	Turcianske Teplice
+	Veľký Čepčín
+
+# Banska Bystrica
+District of Velky Krtis
+	Velky Krtis
+	Balog nad Ipľom
+	Bátorová
+	Brusník
+	Bušince
+	Čebovce
+	Čeláre
+	Čelovce, district Velky Krtis
+	Červeňany
+	Dačov Lom
+	Dolinka
+	Dolná Strehová
+	Dolné Plachtince
+	Dolné Strháre
+	Ďurkovce
+	Glabušovce
+	Horná Strehová
+	Horné Plachtince
+	Horné Strháre
+	Hrušov, district Velky Krtis
+	Chrastince
+	Chrťany
+	Ipeľské Predmostie
+	Kamenné Kosihy
+	Kiarov
+	Kleňany
+	Koláre
+	Kosihovce
+	Kosihy nad Ipľom
+	Kováčovce
+	Lesenice
+	Ľuboriečka
+	Malá Čalomija
+	Malé Zlievce
+	Modrý Kameň
+	Muľa
+	Nenince
+	Nová Ves
+	Obeckov
+	Olováry
+	Opatovská Nová Ves
+	Opava
+	Pôtor
+	Pravica
+	Príbelce
+	Sečianky
+	Seľany
+	Senné, district Velky Krtis
+	Sklabiná
+	Slovenské Ďarmoty
+	Slovenské Kľačany
+	Stredné Plachtince
+	Sucháň
+	Suché Brezovo
+	Širákov
+	Šuľa
+	Trebušovce
+	Veľká Čalomija
+	Veľká Ves nad Ipľom
+	Veľké Zlievce
+	Veľký Lom
+	Vieska, district Velky Krtis
+	Vinica
+	Vrbovka
+	Záhorce
+	Závada, district Velky Krtis
+	Zombor
+	Zelovce
+	Maly Krtis
+	Malé Straciny
+	Veľké Straciny
+District of Zvolen
+	Zvolen
+	Babiná
+	Bacúrov
+	Breziny
+	Budča
+	Bzovská Lehôtka
+	Dobrá Niva
+	Dubové, district Zvolen
+	Hronská Breznica
+	Kováčová, district Zvolen
+	Lešť (vojenský obvod)
+	Michalková
+	Očová
+	Ostrá Lúka
+	Pliešovce
+	Podzámčok
+	Sása, district Zvolen
+	Sielnica
+	Sliač
+	Tŕnie
+	Turová
+	Zvolenská Slatina
+	Železná Breznica
+	Lukavica, district Zvolen
+	Lieskovec, district Zvolen
+	Veľká Lúka
+District of Žarnovica
+	Hodruša-Hámre
+	Horné Hámre
+	Hrabičov
+	Hronský Beňadik
+	Kľak
+	Malá Lehota
+	Nová Baňa
+	Ostrý Grúň
+	Píla, district Žarnovica
+	Rudno nad Hronom
+	Tekovská Breznica
+	Veľká Lehota
+	Veľké Pole
+	Voznica
+	Zarnovica
+	Župkov
+	Orovnica
+	Brehy
+District of Žiar nad Hronom
+	Ziar nad Hronom
+	Bartosova Lehotka
+	Bzenica
+	Dolná Trnávka
+	Dolná Ves
+	Dolná Ždaňa
+	Hliník nad Hronom
+	Horná Ždaňa
+	Hronská Dúbrava
+	Ihráč
+	Janova Lehota
+	Jastrabá
+	Kopernica
+	Kosorín
+	Krahule
+	Kremnica
+	Kremnické Bane
+	Kunešov
+	Lehôtka pod Brehmi
+	Lovča
+	Lovčica-Trubín
+	Lúčky, district Žiar nad Hronom
+	Nevoľné
+	Pitelová
+	Prestavlky
+	Prochot
+	Repište
+	Sklené Teplice
+	Slaská
+	Stará Kremnička
+	Trnavá Hora
+	Vyhne
+	Horná Ves, district Žiar nad Hronom
+	Ladomerská Vieska
+	Lutila
+District of Banska Bystrica
+	Banska Bystrica
+	Badín
+	Baláže
+	Čerín
+	Dolná Mičiná
+	Dolný Harmanec
+	Donovaly
+	Dúbravica
+	Harmanec
+	Hiadeľ
+	Horná Mičiná
+	Horné Pršany
+	Hrochoť
+	Brusno
+	Kordíky
+	Králiky
+	Ľubietová
+	Lučatín
+	Medzibrod
+	Môlča
+	Moštenica
+	Motyčky
+	Oravce
+	Podkonice
+	Pohronský Bukovec
+	Poniky
+	Povrazník
+	Priechod
+	Riečka, district Banska Bystrica
+	Sebedín-Bečov
+	Selce, district Banska Bystrica
+	Slovenská Ľupča
+	Staré Hory
+	Strelníky
+	Špania Dolina
+	Tajov
+	Turecká
+	Kynceľová
+	Nemce
+	Vlkanová
+	Hronsek
+	Malachov
+District of Banska Stiavnica
+	Svätý Anton
+	Baďan
+	Banská Belá
+	Banska Stiavnica
+	Banský Studenec
+	Beluj
+	Dekýš
+	Ilija
+	Kozelník
+	Močiar
+	Podhorie, district Banska Stiavnica
+	Počúvadlo
+	Prenčov
+	Štiavnické Bane
+	Vysoká, district Banska Stiavnica
+District of Brezno
+	Bacúch
+	Beňuš
+	Braväcovo
+	Brezno
+	Čierny Balog
+	Dolná Lehota
+	Drábsko
+	Heľpa
+	Horná Lehota, district Brezno
+	Hronec
+	Jarabá
+	Jasenie
+	Lom nad Rimavicou
+	Michalová
+	Myto Pod Dumbierom
+	Nemecká
+	Osrblie
+	Podbrezova
+	Pohorelá
+	Pohronská Polhora
+	Polomka
+	Predajná
+	Ráztoka
+	Sihla
+	Šumiac
+	Telgárt
+	Valaská
+	Vaľkovňa
+	Závadka nad Hronom
+	Bystrá, district Brezno
+District of Detva
+	Látky
+	Podkriváň
+	Detva
+	Detvianska Huta
+	Dúbravy
+	Horný Tisovník
+	Hriňová
+	Klokoč
+	Kriváň
+	Slatinské Lazy
+	Stará Huta
+	Stožok
+	Vígľaš
+	Vígľašská Huta-Kalinka
+	Korytárky
+District of Krupina
+	Bzovík
+	Cerovo
+	Čabradský Vrbovok
+	Čekovce
+	Devičie
+	Dolné Mladonice
+	Dolný Badín
+	Domaníky
+	Drážovce
+	Drienovo
+	Dudince
+	Hontianske Moravce
+	Hontianske Nemce
+	Hontianske Tesáre
+	Horné Mladonice
+	Horný Badín
+	Jalšovík
+	Kozí Vrbovok
+	Kráľovce-Krnišov
+	Krupina
+	Lackov
+	Ladzany
+	Lišov
+	Litava
+	Medovarce
+	Rykynčice
+	Sebechleby
+	Selce, district Krupina
+	Senohrad
+	Sudince
+	Súdovce
+	Terany
+	Trpín
+	Uňatín
+	Zemiansky Vrbovok
+	Žibritov
+District of Lucenec
+	Lucenec
+	Ábelová
+	Belina
+	Boľkovce
+	Budiná
+	Buzitka
+	Čakanovce, district Lučenec
+	Čamovce
+	Divín
+	Dobroč
+	Kotmanová
+	Fiľakovo
+	Fiľakovské Kováče
+	Halič
+	Holiša
+	Jelšovec
+	Kalonda
+	Lehôtka
+	Lentvora
+	Lipovany
+	Lovinobaňa
+	Ľuboreč
+	Lupoč
+	Mašková
+	Mučín
+	Mýtna
+	Nitra nad Ipľom
+	Panické Dravce
+	Píla, district Lučenec
+	Pleš
+	Podrečany
+	Polichno
+	Praha
+	Prša
+	Radzovce
+	Rapovce
+	Ratka
+	Ružiná
+	Stará Halič
+	Šávoľ
+	Šiatorská Bukovinka
+	Šíd
+	Šurice
+	Točnica
+	Tomášovce, district Lučenec
+	Trebeľovce
+	Tuhár
+	Veľká nad Ipľom
+	Veľké Dravce
+	Vidiná
+	Biskupice
+	Gregorova Vieska
+	Trenč
+	Bulhary
+	Mikušovce, district Lučenec
+District of Poltar
+	Nové Hony
+	Pinciná
+	Breznička, district Poltar
+	Cinobaňa
+	České Brezovo
+	Hradiste (Banska Bystrica)
+	Kalinovo
+	Kokava nad Rimavicou
+	Krná
+	Málinec
+	Mládzovo
+	Ozdín
+	Poltar
+	Rovňany
+	Šoltýska
+	Uhorské
+	Veľká Ves
+	Hrnčiarska Ves
+	Hrnčiarske Zalužany
+	Selce, district Poltar
+	Sušany
+	Ďubákovo
+	Utekáč
+	Zlatno, district Poltar
+District of Revuca
+	Držkovce
+	Gemer
+	Gemerská Ves
+	Hrlica
+	Chvalová
+	Levkuška
+	Otročok
+	Ploské, district Revuca
+	Polina
+	Rašice
+	Ratková
+	Ratkovské Bystré
+	Rybník, district Revuca
+	Skerešovo
+	Leváre
+	Tornaľa
+	Višňové, district Revuca
+	Žiar, district Revuca
+	Gemerské Teplice
+	Gemerský Sad
+	Hucín
+	Chyžné
+	Jelšava
+	Kameňany
+	Licince
+	Lubeník
+	Magnezitovce
+	Muráň
+	Muránska Dlhá Lúka
+	Muranska Huta
+	Muránska Lehota
+	Muránska Zdychava
+	Nandraž
+	Prihradzany
+	Rákoš, district Revuca
+	Revuca
+	Revúcka Lehota
+	Sirk
+	Šivetice
+	Turčok
+	Sása, district Revuca
+	Mokrá Lúka
+District of Rimavska Sobota
+	Rimavska Sobota
+	Babinec
+	Barca
+	Bátka
+	Belín
+	Blhovce
+	Bottovo
+	Budikovany
+	Cakov
+	Čerenčany
+	Čierny Potok
+	Číž
+	Dolné Zahorany
+	Dražice
+	Drienčany
+	Drňa
+	Dubno
+	Dubovec
+	Figa
+	Gemerček
+	Gemerské Dechtáre
+	Gemerský Jablonec
+	Gortva
+	Hajnáčka
+	Hnusta
+	Hodejov
+	Hodejovec
+	Horné Zahorany
+	Hostice
+	Hostišovce
+	Hrachovo
+	Hrušovo
+	Hubovo
+	Husiná
+	Chanava
+	Chrámec
+	Ivanice
+	Janice
+	Jesenské (Rimavska Sobota)
+	Jestice
+	Kaloša
+	Kesovce
+	Klenovec
+	Kociha
+	Konrádovce
+	Kráľ
+	Kraskovo
+	Krokava
+	Kružno
+	Kyjatice
+	Lehota nad Rimavicou
+	Lenartovce
+	Lenka
+	Lipovec, district Rimavska Sobota
+	Lukovištia
+	Martinová
+	Neporadza, district Rimavska Sobota
+	Nová Bašta
+	Orávka
+	Ožďany
+	Padarovce
+	Pavlovce, district Rimavska Sobota
+	Petrovce, district Rimavska Sobota
+	Poproč, district Rimavska Sobota
+	Potok, district Rimavska Sobota
+	Radnovce
+	Ratkovská Lehota
+	Ratkovská Suchá
+	Rimavská Baňa
+	Rimavská Seč
+	Rimavské Brezovo
+	Rimavské Janovce
+	Rovné, district Rimavska Sobota
+	Rumince
+	Slizké
+	Stará Bašta
+	Stránska
+	Studená
+	Sútor
+	Šimonovce
+	Širkovce
+	Španie Pole
+	Štrkovec
+	Tachty
+	Teplý Vrch
+	Tisovec
+	Tomášovce, district Rimavska Sobota
+	Uzovská Panica
+	Včelince
+	Večelkov
+	Veľké Teriakovce
+	Veľký Blh
+	Vieska nad Blhom
+	Vlkyňa
+	Valice
+	Vyšný Skálnik
+	Zádor
+	Žíp
+	Abovce
+	Riečka, district Rimavska Sobota
+	Nižný Skálnik
+	Rimavské Zalužany
+	Rakytník
+	Gemerské Michalovce
+	Vyšné Valice
+	Dulovo
+	Zacharovce
+
+# Prešov
+District of Stara Lubovna
+	Stara Lubovna
+	Čirč
+	Ďurková
+	Forbasy
+	Hajtovka
+	Haligovce
+	Hniezdne
+	Hraničné
+	Hromoš
+	Chmeľnica
+	Jakubany
+	Jarabina
+	Kamienka SL
+	Kolačkov
+	Kremná
+	Kyjov
+	Lacková
+	Legnava
+	Lesnica
+	Litmanová
+	Lomnička
+	Ľubotín
+	Malý Lipník
+	Matysová
+	Mníšek nad Popradom
+	Nižné Ružbachy
+	Nová Ľubovňa
+	Obručné
+	Orlov
+	Plaveč
+	Plavnica
+	Podolinec
+	Pusté Pole
+	Ruská Voľa nad Popradom
+	Starina
+	Stráňany
+	Sulín
+	Šambron
+	Šarišské Jastrabie
+	Údol
+	Veľká Lesná
+	Veľký Lipník
+	Vislanka
+	Vyšné Ružbachy
+District of Stropkov
+	Baňa
+	Breznica
+	Breznička, district Stropkov
+	Brusnica
+	Bukovce
+	Bystrá, district Stropkov
+	Bžany
+	Duplín
+	Gribov
+	Havaj
+	Chotča
+	Jakušovce
+	Kolbovce
+	Korunková
+	Kožuchovce
+	Krišľovce
+	Krušinec
+	Lomné
+	Makovce
+	Malá Poľana
+	Miková
+	Miňovce
+	Mrázovce
+	Nižná Olšava
+	Oľšavka, district Stropkov
+	Potôčky
+	Potoky
+	Kručov
+	Soľník
+	Staškovce
+	Stropkov
+	Šandal
+	Tisinec
+	Tokajík
+	Turany nad Ondavou
+	Varechovce
+	Veľkrop
+	Vislava
+	Vladiča
+	Vojtovce
+	Vyškovce
+	Vyšná Olšava
+	Vyšný Hrabovec
+District of Svidnik
+	Giraltovce
+	Kalnište
+	Kobylnice
+	Kračúnovce
+	Kuková
+	Lúčka, district Svidnik
+	Lužany pri Topli
+	Mičakovce
+	Železník
+	Želmanovce
+	Svidnik
+	Belejovce
+	Beňadikovce
+	Bodružal
+	Cernina
+	Cigla
+	Dlhoňa
+	Dobroslava
+	Dubová, district Svidnik
+	Fijaš
+	Havranec
+	Hrabovčík
+	Hunkovce
+	Jurkova Voľa
+	Kapišová
+	Kečkovce
+	Korejovce
+	Krajná Bystrá
+	Krajná Poľana
+	Krajná Porúbka
+	Krajné Čierno
+	Kružlová
+	Kurimka
+	Ladomirová
+	Matovce
+	Medvedie
+	Mestisko
+	Miroľa
+	Mlynárovce
+	Nižná Jedľová
+	Nižná Pisaná
+	Nižný Komárnik
+	Nižný Mirošov
+	Nižný Orlík
+	Nová Polianka
+	Okrúhle
+	Príkra
+	Pstriná
+	Radoma
+	Rakovčík
+	Rovné, district Svidnik
+	Roztoky
+	Soboš
+	Stročín
+	Svidnička
+	Šarbov
+	Šarišský Štiavnik
+	Šemetkovce
+	Štefurov
+	Vagrinec
+	Valkovce
+	Vápeník
+	Vyšná Jedľová
+	Vyšná Pisaná
+	Vyšný Komárnik
+	Vyšný Mirošov
+	Vyšný Orlík
+	Dukovce
+	Dubová
+
+District of Vranov nad Toplov
+	Holčíkovce
+	Jasenovce
+	Jastrabie nad Topľou
+	Juskova Voľa
+	Kamenná Poruba, district Vranov nad Toplov
+	Kladzany
+	Komárany
+	Kučín, district Vranov nad Toplov
+	Kvakovce
+	Majerovce
+	Malá Domaša
+	Matiaška
+	Medzianky
+	Merník
+	Michalok
+	Nižný Hrabovec
+	Nižný Hrušov
+	Nižný Kručov
+	Nová Kelča
+	Ondavské Matiašovce
+	Pavlovce, district Vranov nad Toplov
+	Petkovce
+	Petrovce, district Vranov nad Toplov
+	Piskorovce
+	Poša
+	Prosačov
+	Radvanovce
+	Rafajovce
+	Remeniny
+	Rudlov
+	Ruská Voľa
+	Vyšný Kazimír
+	Sačurov
+	Sečovská Polianka
+	Sedliská
+	Skrabské
+	Slovenská Kajňa
+	Soľ
+	Štefanovce, district Vranov nad Toplov
+	Tovarné
+	Tovarnianska Polianka
+	Vavrinec
+	Vechec
+	Vlača
+	Vyšný Žipov
+	Zámutov
+	Zlatník
+	Žalobín
+	Vranov nad Toplov
+	Babie
+	Banské
+	Benkovce
+	Bystré
+	Cabov
+	Čaklov
+	Čičava
+	Čierne nad Topľou
+	Ďapalovce
+	Davidov
+	Detrík
+	Dlhé Klčovo
+	Ďurďoš
+	Giglovce
+	Girovce
+	Hanušovce nad Topľou
+	Hermanovce nad Topľou
+	Hlinné
+	Hencovce
+District of Bardejov
+	Bardejovská Nová Ves
+	Vaniškovce
+	Bardejov
+	Abrahámovce, district Bardejov
+	Andrejová
+	Bartošovce
+	Becherov
+	Beloveža
+	Bogliarka
+	Brezov
+	Brezovka
+	Buclovany
+	Cigeľka
+	Dubinné
+	Frička
+	Fričkovce
+	Gaboltov
+	Gerlachov, district Bardejov
+	Hankovce, district Bardejov
+	Harhaj
+	Hažlín
+	Hertník
+	Hervartov
+	Hrabovec
+	Hrabské
+	Hutka
+	Chmeľová
+	Janovce
+	Jedlinka
+	Kľušov
+	Kobyly
+	Kochanovce, district Bardejov
+	Komárov
+	Koprivnica
+	Kožany
+	Krivé
+	Kríže
+	Kružlov
+	Kučín, district Bardejov
+	Kurima
+	Kurov
+	Lascov
+	Lenartov
+	Lipová
+	Livov
+	Livovska Huta
+	Lopúchov
+	Lukavica, district Bardejov
+	Lukov
+	Malcov
+	Marhaň
+	Mikulášová
+	Mokroluh
+	Nemcovce, district Bardejov
+	Nižná Polianka
+	Nižná Voľa
+	Nižný Tvarožec
+	Oľšavce
+	Ondavka
+	Ortuťová
+	Osikov
+	Petrová
+	Poliakovce
+	Porúbka, district Bardejov
+	Regetovka
+	Rešov
+	Richvald
+	Rokytov
+	Smilno
+	Snakov
+	Stebnícka Huta
+	Stebník
+	Stuľany
+	Sveržov
+	Šarišské Čierne
+	Šašová
+	Šiba
+	Tarnov
+	Tročany
+	Varadka
+	Vyšná Polianka
+	Vyšná Voľa
+	Raslavice
+	Vyšný Kručov
+	Vyšný Tvarožec
+	Zborov
+	Zlaté
+District of Humenne
+	Humenne
+	Adidovce
+	Baškovce, district Humenne
+	Brekov
+	Brestov, district Humenne
+	Černina
+	Dedačov
+	Hankovce, district Humenne
+	Hrabovec nad Laborcom
+	Hrubov
+	Hudcovce
+	Rokytov pri Humennom
+	Chlmec
+	Jabloň
+	Jankovce
+	Kamenica nad Cirochou
+	Karná
+	Kochanovce (Humenne)
+	Koškovce
+	Lieskovec, district Humenne
+	Ľubiša
+	Lukačovce
+	Modra nad Cirochou
+	Myslina
+	Nechválova Polianka
+	Nižná Jablonka
+	Nižné Ladičkovce
+	Ohradzany
+	Papín
+	Porúbka, district Humenne
+	Ptičie
+	Rovné, district Humenne
+	Slovenská Volová
+	Slovenské Krivé
+	Topoľovka
+	Turcovce
+	Udavské
+	Veľopolie
+	Víťazovce
+	Vyšná Jablonka
+	Vyšné Ladičkovce
+	Vyšný Hrušov
+	Závadka, district Humenne
+	Zbudské Dlhé
+	Zubné
+	Košarovce
+	Nižná Sitnica
+	Pakostov
+	Prituľany
+	Rohožník, district Humenne
+	Ruská Kajňa
+	Ruská Poruba
+	Vyšná Sitnica
+	Závada, district Humenne
+	Jasenov, district Humenne
+	Hažín nad Cirochou
+	Sopkovce
+	Gruzovce
+	Maškovce
+	Lackovce
+District of Kezmarok
+	Abrahámovce, district Kezmarok
+	Bušovce
+	Červený Kláštor
+	Havka
+	Holumnica
+	Hradisko
+	Huncovce
+	Ihľany
+	Javorina (vojenský obvod)
+	Jezersko
+	Jurské
+	Kezmarok
+	Krížová Ves
+	Lechnica
+	Lendak
+	Majere
+	Ľubica
+	Matiašovce
+	Mlynčeky
+	Osturňa
+	Podhorany, district Kezmarok
+	Rakúsy
+	Reľov
+	Slovenská Ves
+	Spišská Belá
+	Spišská Stará Ves
+	Spišské Hanušovce
+	Stará Lesná
+	Stráne pod Tatrami
+	Toporec
+	Tvarožná
+	Velka Frankova
+	Veľká Lomnica
+	Vlková
+	Vlkovce
+	Vojňany
+	Vrbov
+	Výborná
+	Zálesie, district Kezmarok
+	Žakovce
+	Malá Franková
+	Malý Slavkov
+District of Levoca
+	Baldovce
+	Beharovce
+	Bijacovce
+	Brutovce
+	Buglovce
+	Dlhé Stráže
+	Doľany
+	Domaňovce
+	Dravce
+	Dúbrava, district Levoca
+	Granč-Petrovce
+	Harakovce
+	Vyšné Repaše
+	Vyšný Slavkov
+	Jablonov
+	Klčov
+	Kurimany
+	Levoca
+	Lúčka, district Levoca
+	Nemešany
+	Nižné Repaše
+	Oľšavica
+	Ordzovany
+	Pavľany
+	Poľanovce
+	Pongrácovce
+	Spisske Podhradie
+	Spišský Hrhov
+	Spišský Štvrtok
+	Studenec
+	Torysky
+	Uloža
+	Korytné
+District of Medzilaborce
+	Brestov nad Laborcom
+	Čabalovce
+	Čabiny
+	Čertižné
+	Habura
+	Kalinov
+	Krásny Brod
+	Medzilaborce
+	Ňagov
+	Oľka
+	Oľšinkov
+	Palota
+	Radvaň nad Laborcom
+	Repejov
+	Roškovce
+	Sukov
+	Svetlice
+	Valentovce
+	Volica
+	Výrava
+	Zbojné
+	Zbudská Belá
+	Rokytovce
+District of Poprad
+	Poprad
+	Batizovce
+	Gánovce
+	Gerlachov (Poprad)
+	Hôrka
+	Hozelec
+	Hranovnica
+	Jánovce, district Poprad
+	Kravany
+	Liptovská Teplička
+	Lučivná
+	Mengusovce
+	Mlynica
+	Nova Lesna
+	Spišská Teplica
+	Spisske Bystre
+	Spišský Štiavnik
+	Svit
+	Strba
+	Tatranská Štrba
+	Švábovce
+	Veľký Slavkov
+	Vernár
+	Vikartovce
+	Vydrník
+	Šuňava
+	Ždiar
+	Štôla
+	Vysoké Tatry
+	Vysne Hagy
+	Tatranská Javorina
+District of Prešov
+	Haniska, district Prešov
+	Ľubotice
+	Prešov
+	Abranovce
+	Bajerov
+	Bertotovce
+	Brestov, district Prešov
+	Bretejovce
+	Brežany
+	Bzenov
+	Čelovce, district Prešov
+	Červenica
+	Demjata
+	Drienov
+	Drienovská Nová Ves
+	Dulova Ves
+	Fintice
+	Fričovce
+	Fulianka
+	Geraltov
+	Gregorovce
+	Hendrichovce
+	Hermanovce
+	Hrabkov
+	Chmeľov
+	Chmeľovec
+	Chminianska Nová Ves
+	Chminianske Jakubovany
+	Chmiňany
+	Janov
+	Janovík
+	Kapušany
+	Kendice
+	Klenov
+	Kojatice
+	Kokošovce
+	Krížovany
+	Kvačany, district Prešov
+	Lada
+	Lažany
+	Lemešany
+	Lesíček
+	Ličartovce
+	Lipovce
+	Ľubovec
+	Lúčina
+	Malý Slivník
+	Malý Šariš
+	Miklušovce
+	Mirkovce
+	Mošurov
+	Nemcovce, district Prešov
+	Okružná
+	Ondrašovce
+	Ovčie
+	Petrovany
+	Podhorany (Prešov)
+	Podhradík
+	Proč
+	Pušovce
+	Radatice
+	Rokycany
+	Ruská Nová Ves
+	Sedlice
+	Seniakovce
+	Svinia
+	Šarišská Poruba
+	Šarišská Trstena
+	Šarišské Bohdanovce
+	Šindliar
+	Široké
+	Štefanovce, district Prešov
+	Teriakovce
+	Terňa
+	Trnkov
+	Tuhrina
+	Tulčík
+	Varhaňovce
+	Veľký Slivník
+	Veľký Šariš
+	Víťaz
+	Vyšná Šebastová
+	Záborské
+	Záhradné
+	Zlatá Baňa
+	Žehňa
+	Žipov
+	Župčany
+	Medzany
+	Lipníky
+	Suchá Dolina
+District of Sabinov
+	Bajerovce
+	Bodovce
+	Brezovica (Prešov)
+	Brezovička
+	Červená Voda
+	Červenica pri Sabinove
+	Ďačov
+	Daletice
+	Drienica
+	Dubovica
+	Hanigovce
+	Hubošovce
+	Jakovany
+	Jakubova Voľa
+	Jakubovany, district Sabinov
+	Jarovnice
+	Kamenica
+	Krásna Lúka
+	Krivany
+	Lipany
+	Lúčka, district Sabinov
+	Ľutina
+	Milpoš
+	Nižný Slavkov
+	Olejníkov
+	Oľšov
+	Ostrovany
+	Pečovská Nová Ves
+	Poloma
+	Ratvaj
+	Ražňany
+	Renčišov
+	Rožkovany
+	Sabinov
+	Šarišské Dravce
+	Šarišské Michaľany
+	Šarišské Sokolovce
+	Tichý Potok
+	Torysa
+	Uzovce
+	Uzovské Pekľany
+	Uzovský Šalgov
+	Vysoká, district Sabinov
+District of Snina
+	Bela nad Cirochou
+	Brezovec
+	Čukalovce
+	Dlhé nad Cirochou
+	Dúbrava, district Snina
+	Hostovice
+	Hrabová Roztoka
+	Jalová
+	Kalná Roztoka
+	Klenová
+	Kolbasov
+	Kolonica
+	Ladomirov
+	Michajlov
+	Nová Sedlica
+	Osadné
+	Parihuzovce
+	Pčoliné
+	Pichne
+	Príslop
+	Runina
+	Ruská Volová
+	Ruský Potok
+	Snina
+	Stakčínska Roztoka
+	Stakčín
+	Strihovce
+	Šmigovec
+	Topoľa
+	Ubľa
+	Ulič
+	Uličské Krivé
+	Zboj
+	Zemplínske Hámre
+
