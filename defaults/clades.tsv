@@ -112,9 +112,9 @@ clade	gene	site	alt
 21G (Lambda)	nuc	22917	A
 21G (Lambda)	nuc	23031	C
 
-21H	nuc	11451	G
-21H	nuc	13057	T
-21H	nuc	17491	T
-21H	nuc	21995	A
-21H	nuc	21993	C
-21H	nuc	22599	A
+21H (Mu)	nuc	11451	G
+21H (Mu)	nuc	13057	T
+21H (Mu)	nuc	17491	T
+21H (Mu)	nuc	21995	A
+21H (Mu)	nuc	21993	C
+21H (Mu)	nuc	22599	A
