@@ -53,11 +53,11 @@ Update your environment regularly to the latest versions of these tools.
 
 ```bash
 # Update Conda and Mamba.
-conda update -n base conda mamba
+mamba update -n base conda mamba
 
 # Update tools in the Nextstrain environment.
 conda activate nextstrain
-conda update --all
+mamba update --all
 ```
 
 ## 2. Download the ncov workflow
