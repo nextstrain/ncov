@@ -156,8 +156,6 @@ def read_metadata(metadata_filename, data):
             location = l[location_i]
 
             if region not in data:
-                if region not in region_order:
-                    print("Warning: Unknown region " + bold(region)) # Print warning if region is unknown
                 data[region] = {}
             if country not in data[region]:
                 data[region][country] = {}
@@ -343,7 +341,7 @@ def check_division_inconsistency(data):
                                     print("(Suggestion: use template " + "[" + "/".join([region, country, location, "*"]) + "\t" + "/".join([region, country, division, "*"]) + "] in the desired order.)\n")
 
                                 else: # No location found below the affected location/division - change to proper level
-                                    print("(Suggestion: " + "[" + "/".join([region, country, location, ""]) + "\t" + "/".join([region, country, division, location]) + "]\n")
+                                    print("/".join([region, country, location, ""]) + "\t" + "/".join([region, country, division, location]) + "\n")
 
 # Search for duplicates on location and division level
 def check_duplicates(data, abbreviations_file):
@@ -816,7 +814,6 @@ def search_missing_latlongs(missing_latlongs):
             new_lat_longs.append(find_place("country", country, country, geolocator))
 
     auto_add_lat_longs(new_lat_longs)
-    print(bold("\nNew lat_longs written out to " + path_to_output_files + latlongs_file + ". Remember to replace the old file in " + path_to_default_files + "."))
 
 # Suggest geoLocator hits to the user and ask for confirmation or alternative spellings
 def find_place(geo_level, place, full_place, geolocator):
@@ -873,8 +870,9 @@ def find_place(geo_level, place, full_place, geolocator):
 # Add new coordinates to lat_longs.tsv and sort the file before storing in the output folder
 def auto_add_lat_longs(new_lat_longs):
     with open("defaults/lat_longs.tsv") as f:
-        lat_longs = f.readlines()
-    lat_longs += [l + "\n" for l in new_lat_longs if len(l.split("\t")) == 4]
+        lat_longs_old = f.readlines()
+
+    lat_longs = lat_longs_old + [l + "\n" for l in new_lat_longs if len(l.split("\t")) == 4]
 
     dataset = {"location": [], "division": [], "country": [], "region": []}
     for line in lat_longs:
@@ -899,9 +897,13 @@ def auto_add_lat_longs(new_lat_longs):
             lat_longs_sorted += regions_list
         lat_longs_sorted.append("\n")
 
-    with open(path_to_output_files + latlongs_file, "w") as f:
-        for line in lat_longs_sorted:
-            f.write(line)
+    if lat_longs_sorted != lat_longs_old:
+        with open(path_to_output_files + latlongs_file, "w") as f:
+            for line in lat_longs_sorted:
+                f.write(line)
+        print(bold("\nNew lat_longs written out to " + path_to_output_files + latlongs_file + ". Remember to replace the old file in " + path_to_default_files + "."))
+    else:
+        print("No changes to " + latlongs_file + ".")
 
 # Given either the new lat_longs file (if new coordinates were added in this iteration of the script) or the old file,
 # Construct the color_ordering.tsv file based on the data dictionary. Only places with existing coordinates are added.
@@ -1225,6 +1227,9 @@ if __name__ == '__main__':
     if answer == "y":
         print("\nSearching for lat_longs...")
         search_missing_latlongs(missing_latlongs)
+    else:
+        print("\nAuto-sorting " + latlongs_file + "...")
+        auto_add_lat_longs([])
 
     print("\n===============================================\n")
     # Reconstruct the color_ordering.tsv file based on the data dictionary and old and new lat_longs
