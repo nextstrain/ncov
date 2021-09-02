@@ -10456,3 +10456,8 @@ USA/CA-CDPH1185/2020
 Kenya/MAL-5047/2020
 India/WB-IICB-025/2020
 CzechRepublic/VIR-204/2021
+
+# Duplicates
+Brazil/MA-FIOCRUZ-6871-1P/2021 # Isolated from original sample accession ID EPI_ISL_1181371
+Brazil/MA-FIOCRUZ-6873-1P/2021 # Isolated from original sample accession ID EPI_ISL_1181400
+DominicanRepublic/21889-2P/2021 # Accession ID of the original sample EPI_ISL_2274006
