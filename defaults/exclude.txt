@@ -10461,3 +10461,34 @@ CzechRepublic/VIR-204/2021
 Brazil/MA-FIOCRUZ-6871-1P/2021 # Isolated from original sample accession ID EPI_ISL_1181371
 Brazil/MA-FIOCRUZ-6873-1P/2021 # Isolated from original sample accession ID EPI_ISL_1181400
 DominicanRepublic/21889-2P/2021 # Accession ID of the original sample EPI_ISL_2274006
+
+# https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1630614123054300
+Ecuador/USFQ-1969/2021|EPI_ISL_3506206
+Ecuador/USFQ-1977/2021|EPI_ISL_3824569
+Ecuador/USFQ-1981/2021|EPI_ISL_3824571
+Ecuador/USFQ-1983/2021|EPI_ISL_3824572
+Ecuador/USFQ-1986/2021|EPI_ISL_3824573
+Ecuador/USFQ-1987/2021|EPI_ISL_3824574
+Ecuador/USFQ-1988/2021|EPI_ISL_3824575
+Ecuador/USFQ-1989/2021|EPI_ISL_3824576
+Ecuador/USFQ-1990/2021|EPI_ISL_3824577
+Ecuador/USFQ-1996/2021|EPI_ISL_3824579
+Ecuador/USFQ-1997/2021|EPI_ISL_3824580
+Ecuador/USFQ-1999/2021|EPI_ISL_3824582
+Ecuador/USFQ-2005/2021|EPI_ISL_3824584
+Ecuador/USFQ-2007/2021|EPI_ISL_3824585
+Ecuador/USFQ-2009/2021|EPI_ISL_3824586
+
+# Duplicates
+Japan/TY28-233-P0/2021 # Accession ID of original sequence is EPI_ISL_3076699.
+Japan/TY28-236-P0/2021 # Accession ID of original sequence is EPI_ISL_3076700.
+Japan/TY28-248-P0/2021 # Accession ID of original sequence is EPI_ISL_3076705.
+Japan/TY28-257-P0/2021 # Accession ID of original sequence is EPI_ISL_3076711.
+Japan/TY28-440-P0/2021 # Accession ID of original sequence is EPI_ISL_3076714.
+Japan/TY28-444-P0/2021 # Accession ID of original sequence is EPI_ISL_3076715.
+Japan/TY28-453-P0/2021 # Accession ID of original sequence is EPI_ISL_3076719.
+Japan/TY28-454-P0/2021 # Accession ID of original sequence is EPI_ISL_3076720.
+Japan/TY28-456-P0/2021 # Accession ID of original sequence is EPI_ISL_3076722.
+Japan/TY28-463-P0/2021 # Accession ID of original sequence is EPI_ISL_3392278.
+Japan/TY28-484-P0/2021 # Accession ID of original sequence is EPI_ISL_3392270.
+Japan/TY28-486-P0/2021 # Accession ID of original sequence is EPI_ISL_3392294.
