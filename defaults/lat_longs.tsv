@@ -1150,7 +1150,6 @@ location	Bocaina do Sul	-27.745494	-49.942279
 location	Bochnia	49.974684249999996	20.425329198706468
 location	Bocholt	51.183426	5.558851
 location	Bochotnica	51.3397608	21.9925412
-location	Boćki	52.6512834	23.0426375
 location	Bodeli	22.2749233	73.7165607
 location	Bodensdorf	46.6860885	13.9725749
 location	Bodzanow	50.3366022	17.3839717
@@ -1288,6 +1287,7 @@ location	Bovesse	50.5143641	4.779285182968074
 location	Bowie County	33.4198886	-94.4479626
 location	Bozeman	45.6794293	-111.044047
 location	Bozen	46.4981125	11.3547801
+location	Boćki	52.6512834	23.0426375
 location	Bąkowice	50.93141	17.6995762
 location	Bra	50.3244046	5.7337839
 location	Brackenfell	-33.877398609128875	18.69249068258294
@@ -1598,6 +1598,7 @@ location	Calgary	51.0460954	-114.065465
 location	Calhoun County	28.5031572	-96.6736551
 location	Calhoun County AL	33.7514505	-85.8315666
 location	Calhoun County IL	39.1397507	-90.6506113
+location	Calhoun County MS	33.9253624	-89.3231269
 location	Calhoun County SC	33.6567769	-80.7603948
 location	Calhoun County TX	28.5031572	-96.6736551
 location	Cali	3.4516	-76.5320
@@ -2043,6 +2044,7 @@ location	Chillan Viejo	-36.6230032	-72.1317093
 location	Chiloeches	40.5732118	-3.1627206
 location	Chilton County	32.8522565	-86.7032845
 location	Chimalhuacan	19.41865739086373	-98.95701848240644
+location	Chimaltenango	14.6613043	-90.8193493
 location	Chimay	50.0358705	4.321416517933619
 location	Chimeneas	37.1312258	-3.8235177
 location	Chimoio	-19.110921	33.476659
@@ -2158,6 +2160,7 @@ location	Clark County NV	36.3467726	-115.0907378
 location	Clark County OH	39.9229676	-83.7905959
 location	Clark County WA	45.7669047	-122.4940866
 location	Clark County WI	44.7188146	-90.6214928
+location	Clarke County	31.659134	-87.8192486
 location	Clatsop County	45.980728	-123.6687499
 location	Clavier	50.4119432	5.3576794
 location	Clavijo	42.3494671	-2.4262521
@@ -3670,6 +3673,7 @@ location	Green County	42.687601	-89.584475
 location	Green Lake County	43.7971612	-89.0402508
 location	Green Road	23.7437581	90.3845921
 location	Greene County	42.2628769	-74.0878112
+location	Greene County AL	32.8620514	-87.9915392
 location	Greene County IL	39.3573664	-90.3898985
 location	Greene County NY	42.2628769	-74.0878112
 location	Greene County OH	39.6908207	-83.9175037
@@ -5349,6 +5353,7 @@ location	Las Mañanitas	9.107966	-79.406759
 location	Las Ovejas	-36.9889752	-70.7495354
 location	Las Palmas	8.114568	-81.50352053030002
 location	Las Palmas de Gran Canaria	28.1009	-15.4654
+location	Las Palmas PA	8.1374273	-81.4565654
 location	Las Presillas	43.32513	-3.98076
 location	Las Rosas	-31.9697481	-60.9233512
 location	Las Rozas	40.0959741	-3.3535849
@@ -8074,6 +8079,7 @@ location	Puri	19.8076083	85.8252538
 location	Puriscal	9.733365599999999	-84.4094350689388
 location	Purmerend	52.4997208	4.964420036889974
 location	Purral	9.9552442	-84.0322962
+location	Purulha	15.236334	-90.2356932
 location	Purulia	23.29614645	86.34210770023
 location	Purullena	37.3147739	-3.1892077
 location	Purwakarta	-6.5607313	107.4439799
@@ -8810,6 +8816,7 @@ location	San Cristobal	-0.9151226	-89.5662955
 location	San Cristobal AR	-30.30898396739999	-61.235894632982145
 location	San Cristobal de la Polantera	42.3906726	-5.9076237
 location	San Cristobal EC	-0.9097240155540418	-89.55810090805137
+location	San Cristobal GT	15.00765485	-89.88626771820842
 location	San Cugat del Valles	41.4728432	2.0817809
 location	San Diego	32.733024	-117.143358
 location	San Diego County	32.981125	-116.681405
@@ -8901,6 +8908,7 @@ location	San Pablo EC	0.2123268007310509	-78.17167632131718
 location	San Patricio County	27.9973226	-97.5130456
 location	San Pedro	9.931519	-84.0503028
 location	San Pedro AR	-33.6758554	-59.662845
+location	San Pedro Ayampuc	14.76393485	-90.43584020648493
 location	San Pedro Carchá	15.5782369	-90.20547238592238
 location	San Pedro CO	6.2668403	-75.5607892
 location	San Pedro CR	9.931519	-84.0503028
@@ -12026,6 +12034,7 @@ division	Cerro Largo	-32.333333	-54.333333
 division	Cesar	9.654915	-73.528255
 division	Cetinje	42.389633	18.9246085
 division	Ceuta	35.888361	-5.304138
+division	Chachoengsao	13.6093192	101.5467201
 division	Chaco	-26.3829647	-60.8816092
 division	Chad	15.6134137	19.0156172
 division	Chai Nat	15.1853305	100.1250568
@@ -12033,6 +12042,7 @@ division	Chaiyaphum	16.2720349	101.7153824
 division	Chalkidiki	40.28948215	23.409392443373925
 division	Chandigarh	30.7334421	76.7797143
 division	Changhua County	24.0755667	120.5444667
+division	Chanthaburi	12.9081033	102.0159145
 division	Charleroi	50.418039	4.440646
 division	Charles Hill	-22.279611	20.073887
 division	Chattogram	22.3569	91.7832
@@ -12596,6 +12606,7 @@ division	Kampala	0.3177137	32.5813539
 division	Kamphaeng Phet	16.4183581	99.6111616
 division	Kamphaengphet	16.4183581	99.6111616
 division	Kanagawa	35.403801	139.294288
+division	Kanchanaburi	14.44019	99.2676727
 division	Kandy	7.2930922	80.6350768
 division	Kano State	11.8948389	8.5364136
 division	Kansai	34.778675	135.880055
@@ -13121,6 +13132,8 @@ division	Nitra	48.31295	18.0894593
 division	Nivelles	50.594427	4.331238
 division	Nizhny Novgorod	55.4718033	44.0911594
 division	Nógrád	47.9873616	19.5472495
+division	Nong Bua Lam Phu	17.2022252	102.440702
+division	Nong Khai	17.8812453	102.7490052
 division	Nonthaburi	13.852511	100.522791
 division	Nord Kivu	-0.5645647	28.7061945
 division	Nordjylland	56.8152793	9.727330772696376
