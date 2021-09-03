@@ -1,5 +1,5 @@
 from os import listdir
-from parse_metadata import read_local_file
+from pathlib import Path
 
 def bold(s):
     return('\033[1m' + s + '\033[0m')
@@ -178,7 +178,8 @@ def rearrange_additional_info(additional_info):
                 sorted_info[access].append((id, additional_info[id]["strain"]))
         if info_found > 1:
             if additional_info[id]["additional_location_info"] != additional_info[id]["additional_host_info"]:
-                print("Warning: " + id + " has more than one relevant info (\"" + additional_info[id]["additional_host_info"] + "\" and \"" + additional_info[id]["additional_location_info"] + "\"). Possible conflict!")
+                if not ("zip" in additional_info[id]["additional_location_info"].lower() or "zip" in additional_info[id]["additional_host_info"].lower()):
+                    print("Warning: " + id + " has more than one relevant info (\"" + additional_info[id]["additional_host_info"] + "\" and \"" + additional_info[id]["additional_location_info"] + "\"). Possible conflict!")
 
     return sorted_info
 
@@ -310,19 +311,6 @@ def create_annontation(id, strain, new, old, travel, info, annotations_append, p
         info_str = ""
     if info_str != "":
         print("No adjustments necessary for sequence " + strain)
-    return annotations_append
-
-
-# Check for a given list of strains with additional info hinting at environment host whether host is truly set to
-# "Environment", and if it is not, correct with annotations
-def check_environment(strain_list, metadata, annotations_append):
-    for (id, strain) in strain_list:
-        host = metadata[id]["host"]
-        if host != "Environment":
-            annotations_append.append(strain + "\t" + id + "\t" + "host" + "\t" + "Environment")
-            print("Sequence " + id + " has " + host + " as host instead of Environment. Correcting annotation was produced.")
-        else:
-            print("No adjustment necessary for " + id + " (host is environment)")
     return annotations_append
 
 
@@ -656,7 +644,6 @@ def check_additional_info(additional_info, path_to_config_files):
     # Collected patterns
     info_ignore = read_simple_file(path_to_config_files + "info_ignore.txt")
     location_pattern = read_simple_file(path_to_config_files + "location_pattern.txt")
-    environment = read_simple_file(path_to_config_files + "environment_check.txt")
     travel_pattern = read_simple_file(path_to_config_files + "travel_pattern.txt")
     purpose_of_sequencing = read_dict(path_to_config_files + "purpose_of_sequencing.txt")
 
@@ -729,12 +716,6 @@ def check_additional_info(additional_info, path_to_config_files):
                 if answer == "":
                     break
 
-            if info in environment:
-                answer = input("Interpreted as \"Environment\". Press " + bold("ENTER") + " to approve and double check hosts, otherwise press any key: ")
-                if answer == "":
-                    annotations_append = check_environment(strain_list, metadata, annotations_append)
-                    break
-
             annotations_append, info_found = check_travel_history(info, strain_list, travel_pattern, ordering, metadata,
                                                                   annotations_append, variants)
             if info_found:
@@ -748,7 +729,6 @@ def check_additional_info(additional_info, path_to_config_files):
             s = bold(info) + " did not contain known pattern or could not be interpreted. You have the following options:"
             s += "\n" + bold("l") + " - force interpretation as " + bold("patient residence")
             s += "\n" + bold("t") + " - force interpretation as " + bold("travel exposure")
-            s += "\n" + bold("e") + " - force interpretation as " + bold("environment")
             s += "\n" + bold("i") + " - add info to " + bold("ignore")
             s += "\n" + bold("a") + " - add to annotations as a " + bold("comment")
             s += "\n" + bold("nl") + " - add new " + bold("patient residence") + " pattern"
@@ -774,9 +754,6 @@ def check_additional_info(additional_info, path_to_config_files):
             elif answer == "t":
                 print("Process " + bold(info) + " now as " + bold(info + " (interpreted as travel exposure)"))
                 info = info + " (interpreted as travel exposure)"
-            elif answer == "e":
-                print("Process " + bold(info) + " as environment")
-                environment.append(info)
             elif answer == "nl":
                 pattern = input("Type pattern here (don't forget XXX as placeholder): ")
                 add_to_simple_file(path_to_config_files + "location_pattern.txt", pattern)
@@ -800,11 +777,15 @@ def check_additional_info(additional_info, path_to_config_files):
     return annotations_append
 
 
+path_to_input = "scripts/curate_metadata/inputs_new_sequences/"
+path_to_config_files = "scripts/curate_metadata/config_files_additional_info/"
+path_to_nextstrain = "../"
+path_to_outputs = "scripts/curate_metadata/outputs_new_sequences/"
+
+Path(path_to_outputs).mkdir(parents=True, exist_ok=True)
+Path(path_to_input).mkdir(parents=True, exist_ok=True)
+
 if __name__ == '__main__':
-    path_to_input = "scripts/curate_metadata/inputs_new_sequences/"
-    path_to_config_files = "scripts/curate_metadata/config_files_additional_info/"
-    path_to_nextstrain = "../"
-    path_to_outputs = "scripts/curate_metadata/outputs_new_sequences/"
 
     additional_info = read_data(path_to_input)
     if additional_info != {}:
