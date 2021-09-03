@@ -338,7 +338,7 @@ def check_division_inconsistency(data):
                                     else:
                                         s = ", ".join(l)
                                     print("division " + bold(division) + ": location(s) " + s)
-                                    print("(Suggestion: use template " + "[" + "/".join([region, country, location, "*"]) + "\t" + "/".join([region, country, division, "*"]) + "] in the desired order.)\n")
+                                    print("(Template for correction" + "[" + "/".join([region, country, location, "?"]) + "\t" + "/".join([region, country, division, "?"]) + "])\n")
 
                                 else: # No location found below the affected location/division - change to proper level
                                     print("/".join([region, country, location, ""]) + "\t" + "/".join([region, country, division, location]) + "\n")
@@ -1100,7 +1100,6 @@ def create_annotations(metadata_filename, applied_rules_geoLocation, applied_rul
 # For geoLocationRules, only test whether there are conflicting annotations that need adjustment.
 # For manualAnnotationRules, also produce new annotations.
 def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnnotations):
-    annotations_altered = False
     for id in annotations["geography"]:
         for ruleSet in [geoLocationAnnotations, manualAnnotations]:
             if id in ruleSet:
@@ -1115,7 +1114,6 @@ def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnno
                         if name0 != annotations_correct[type]:
                             print("Conflicting annotation: " + id + "\t" + bold(type + " " + name0) + " will be replaced with " + bold(annotations_correct[type]))
                             annotations["geography"][id][type] = annotations_correct[type]
-                            annotations_altered = True
                             if comment != "":
                                 annotations["geography"][id][type] += " # " + comment
 
@@ -1128,16 +1126,15 @@ def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnno
                 annotations["geography"][id] = {}
             if type not in annotations["geography"][id]:
                 annotations["geography"][id][type] = annotations_correct[type][1] + " # previously " +  annotations_correct[type][0]
-                annotations_altered = True
 
-    return annotations, annotations_altered
+    return annotations
 
 # Write the adjusted annotation set to the output folder in a sorted manner
 def write_annotations(annotations, annotationsFile):
     with open(path_to_output_files + annotationsFile, "w") as out:
         for section in annotations:
             if section == "comments":
-                for line in annotations[section]:
+                for line in sorted(annotations[section]):
                     out.write(line + "\n")
             else:
                 for id in sorted(annotations[section]):
@@ -1261,8 +1258,8 @@ if __name__ == '__main__':
         # Also insert new annotations created by manualAnnotationRules
         print("\n----------\n")
         print("Searching for conflicting annotations and adding manualAnnotationRules...")
-        annotations_gisaid, annotations_altered_gisaid = find_conflicting_annotations(annotations_gisaid, geoLocationAnnotations_gisaid, manualAnnotations_gisaid)
-        annotations_open, annotations_altered_open = find_conflicting_annotations(annotations_open, geoLocationAnnotations_open, manualAnnotations_open)
+        annotations_gisaid = find_conflicting_annotations(annotations_gisaid, geoLocationAnnotations_gisaid, manualAnnotations_gisaid)
+        annotations_open = find_conflicting_annotations(annotations_open, geoLocationAnnotations_open, manualAnnotations_open)
 
         # Sort and write updated annotation files to output folder
         print("\n----------\n")
@@ -1270,11 +1267,21 @@ if __name__ == '__main__':
         write_annotations(annotations_gisaid, gisaidAnnotationsFile)
         write_annotations(annotations_open, genbankAnnotationsFile)
 
-        if annotations_altered_gisaid:
+        with open(path_to_annotations + gisaidAnnotationsFile, "r") as f:
+            annot_gisaid_old = f.read()
+        with open(path_to_output_files + gisaidAnnotationsFile, "r") as f:
+            annot_gisaid_new = f.read()
+        if annot_gisaid_old != annot_gisaid_new:
             print(bold("Attention: " + gisaidAnnotationsFile + " was altered! Remember to replace the old file in " + path_to_annotations + "."))
         else:
             print("No changes to " + gisaidAnnotationsFile + ".")
-        if annotations_altered_open:
+
+
+        with open(path_to_annotations + genbankAnnotationsFile, "r") as f:
+            annot_open_old = f.read()
+        with open(path_to_output_files + genbankAnnotationsFile, "r") as f:
+            annot_open_new = f.read()
+        if annot_open_old != annot_open_new:
             print(bold("Attention: " + genbankAnnotationsFile + " was altered! Remember to replace the old file in " + path_to_annotations + "."))
         else:
             print("No changes to " + genbankAnnotationsFile + ".")
