@@ -1,6 +1,8 @@
 import sys
 import datetime
 import pandas as pd
+from pathlib import Path
+import os
 
 def bold(s):
     return('\033[1m' + s + '\033[0m')
@@ -8,6 +10,11 @@ def bold(s):
 
 # 0. Read excel sheet, read stored list of new labs ("new labs" list)
 def read_excel_lab_file(table_file_name):
+
+    if not os.path.exists(table_file_name):
+        print(bold("Missing input file: " + table_file_name))
+        return None
+
     excel_table = pd.read_excel(table_file_name, index_col=0, skiprows=1)
     excel_table = excel_table.fillna("empty?")
     lab_dictionary = {}
@@ -222,8 +229,9 @@ def collect_labs(labs, lab_dictionary, old):
 #   - If a handle is a different spelling of a known handle, just add to excel sheet
 #   - If a handle is new, add to excel sheet & add to "new labs" list
 #   - Update online version of excel sheet & upload "new labs" list to GitHub. This way, labs can be collected daily while storing knowledge of new labs until the end of the month
-def print_labs(lab_collection):
-    with open(path_to_outputs + "twitter_handles.txt", "w") as out:
+def print_labs(lab_collection, data):
+    output_file = path_to_outputs + "twitter_handles_" + data + ".txt"
+    with open(output_file, "w") as out:
         for region in lab_collection:
             for country in lab_collection[region]:
                 out.write(country + "\n")
@@ -235,7 +243,7 @@ def print_labs(lab_collection):
                 if s != country + ":\n":
                     print(s)
                 out.write("\n")
-    print("All labs and handles written out to " + path_to_outputs + "twitter_handles.txt.txt")
+    print("All labs and handles written out to " + output_file)
 
 
 # 4. Generate tweet if no unknown handles left
@@ -306,6 +314,9 @@ table_file_name = path_to_input + "Who to Tag in Nextstrain Update Posts COVID-1
 gisaid_metadata = "downloaded_gisaid.tsv"
 genbank_metadata = "metadata_genbank.tsv"
 
+Path(path_to_outputs).mkdir(parents=True, exist_ok=True)
+Path(path_to_input).mkdir(parents=True, exist_ok=True)
+
 # Command line inputs:
 #   -data: specify whether to use gisaid or open metadata (default: gisaid)
 #   -date: specify month and year in the format YYYY-MM (default: current month)
@@ -335,6 +346,10 @@ if __name__ == '__main__':
     print("\n----------------------------------------------\n")
     print("Collecting list of twitter handles...")
     lab_dictionary = read_excel_lab_file(table_file_name)
+    if lab_dictionary is None:
+        print("Skipping remaining steps due to missing excel file.")
+        sys.exit()
+
 
     # 1.1 Read metadata and collect submitting lab, originating lab and authors of all sequences within the specified month
     ### Optional: Collect also all labs from the time before the specified month
@@ -354,7 +369,7 @@ if __name__ == '__main__':
     # 3. Manually by user: Browse for twitter handles
     print("\n----------------------------------------------\n")
     print("Proividing list of labs for manual search...")
-    print_labs(lab_collection)
+    print_labs(lab_collection, data)
 
 
     ### Optional ###
