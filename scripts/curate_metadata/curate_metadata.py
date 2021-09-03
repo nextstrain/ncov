@@ -1062,6 +1062,8 @@ def read_annotations(annotationsFile, gisaid):
 def create_annotations(metadata_filename, applied_rules_geoLocation, applied_rules_manual, gisaid):
     geoLocationAnnotations = {}
     manualAnnotations = {}
+    special_annotations = {}
+
     with open(path_to_metadata + metadata_filename) as f:
         header = f.readline().split("\t")
         country_i = header.index("country")
@@ -1071,6 +1073,7 @@ def create_annotations(metadata_filename, applied_rules_geoLocation, applied_rul
         strain_i = header.index("strain")
         gisaid_epi_isl_i = header.index("gisaid_epi_isl")
         genbank_accession_i = header.index("genbank_accession")
+        host_i = header.index("host")
 
         line = f.readline()
         while line:
@@ -1079,8 +1082,11 @@ def create_annotations(metadata_filename, applied_rules_geoLocation, applied_rul
             region = l[region_i]
             division = l[division_i]
             location = l[location_i]
+            host = l[host_i]
+            strain = l[strain_i]
+
             if gisaid:
-                id = l[strain_i] + "\t" + l[gisaid_epi_isl_i]
+                id = strain + "\t" + l[gisaid_epi_isl_i]
             else:
                 id = l[genbank_accession_i]
 
@@ -1090,16 +1096,32 @@ def create_annotations(metadata_filename, applied_rules_geoLocation, applied_rul
             if (region, country, division, location) in applied_rules_manual:
                 manualAnnotations[id] = (region, country, division, location), applied_rules_manual[(region, country, division, location)]
 
+            # Check for special cases where annotations need to be introduced, e.g. special characters in strain names, or adjustment to "Mink"
+            if host == "Neovison vison" or host == "Mustela lutreola":
+                print("Adjust host " + host + " to Mink")
+                if id not in special_annotations:
+                    special_annotations[id] = {}
+                special_annotations[id]["host"] = "Mink # previously " + host
+
+            problematic_char = ["'", "`"]
+            for c in problematic_char:
+                if c in strain:
+                    strain2 = strain.replace(c, "-")
+                    print("Adjust strain " + strain + " to " + strain2)
+                    if id not in special_annotations:
+                        special_annotations[id] = {}
+                    special_annotations[id]["strain"] = strain2 + " # previously " + strain
+
             line = f.readline()
 
-    return geoLocationAnnotations, manualAnnotations
+    return geoLocationAnnotations, manualAnnotations, special_annotations
 
 # Compare old annotations with new alterations to the data and flag & adjust conflicts
 # (Since annotations overwrite geoLocationRules in the ncov-ingest pipeline, there is a need to find all annotations
 # that conflict with new rules and adjust the annotation accordingly)
 # For geoLocationRules, only test whether there are conflicting annotations that need adjustment.
 # For manualAnnotationRules, also produce new annotations.
-def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnnotations):
+def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnnotations, special_annotations):
     for id in annotations["geography"]:
         for ruleSet in [geoLocationAnnotations, manualAnnotations]:
             if id in ruleSet:
@@ -1126,6 +1148,15 @@ def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnno
                 annotations["geography"][id] = {}
             if type not in annotations["geography"][id]:
                 annotations["geography"][id][type] = annotations_correct[type][1] + " # previously " +  annotations_correct[type][0]
+
+    for id in special_annotations:
+        if id not in annotations["special"]:
+            annotations["special"][id] = {}
+        for type in special_annotations[id]:
+            if type in annotations["special"][id]:
+                if annotations["special"][id][type] != special_annotations[id][type]:
+                    print("Conflicting annotation: " + id + "\t" + bold(type + " " + annotations["special"][id][type]) + " will be replaced with " + bold(special_annotations[id][type]))
+            annotations["special"][id][type] = special_annotations[id][type]
 
     return annotations
 
@@ -1240,7 +1271,7 @@ if __name__ == '__main__':
     build_ordering(data, answer == "y")
 
     print("\n===============================================\n")
-    answer2 = input("Would you like to auto-sort annotations and check for conflicts [y/n]? ")
+    answer2 = input("Would you like to auto-sort annotations, check for conflicts with geoLocationRules and perform additional metadata checks [y/n]? ")
     if answer2 == "y":
 
         # Collect all known annotations and sort by type & strain
@@ -1251,15 +1282,15 @@ if __name__ == '__main__':
         # Collect all strains for which new rules apply
         print("\n----------\n")
         print("Applying new geoLocationRules and manualAnnotationRules to the metadata...")
-        geoLocationAnnotations_gisaid, manualAnnotations_gisaid = create_annotations(gisaid_metadata_file, applied_rules_geoLocation, applied_rules_manual, gisaid = True)
-        geoLocationAnnotations_open, manualAnnotations_open = create_annotations(genbank_metadata_file, applied_rules_geoLocation, applied_rules_manual, gisaid=False)
+        geoLocationAnnotations_gisaid, manualAnnotations_gisaid, special_annotations_gisaid = create_annotations(gisaid_metadata_file, applied_rules_geoLocation, applied_rules_manual, gisaid = True)
+        geoLocationAnnotations_open, manualAnnotations_open, special_annotations_open = create_annotations(genbank_metadata_file, applied_rules_geoLocation, applied_rules_manual, gisaid=False)
 
         # Compare affected strains with annotations and search for conflicts (-> update annotations to fit new rules)
         # Also insert new annotations created by manualAnnotationRules
         print("\n----------\n")
         print("Searching for conflicting annotations and adding manualAnnotationRules...")
-        annotations_gisaid = find_conflicting_annotations(annotations_gisaid, geoLocationAnnotations_gisaid, manualAnnotations_gisaid)
-        annotations_open = find_conflicting_annotations(annotations_open, geoLocationAnnotations_open, manualAnnotations_open)
+        annotations_gisaid = find_conflicting_annotations(annotations_gisaid, geoLocationAnnotations_gisaid, manualAnnotations_gisaid, special_annotations_gisaid)
+        annotations_open = find_conflicting_annotations(annotations_open, geoLocationAnnotations_open, manualAnnotations_open, special_annotations_open)
 
         # Sort and write updated annotation files to output folder
         print("\n----------\n")
@@ -1275,7 +1306,6 @@ if __name__ == '__main__':
             print(bold("Attention: " + gisaidAnnotationsFile + " was altered! Remember to replace the old file in " + path_to_annotations + "."))
         else:
             print("No changes to " + gisaidAnnotationsFile + ".")
-
 
         with open(path_to_annotations + genbankAnnotationsFile, "r") as f:
             annot_open_old = f.read()
