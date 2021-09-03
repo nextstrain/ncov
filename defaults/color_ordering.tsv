@@ -602,6 +602,7 @@ location	Adajan
 location	Ahmedabad
 location	Anand
 location	Aravali
+location	Arvalli
 location	Banaskantha
 location	Bardoli
 location	Bayad
@@ -615,6 +616,7 @@ location	Choryasi
 location	Chuda
 location	Dahegam
 location	Dahod
+location	Dang
 location	Dasa
 location	Dashrath
 location	Daskroi
@@ -1640,9 +1642,6 @@ location	Taguig City
 location	San Jose Del Monte City
 
 ### South Korea
-# Daegu
-location	Buk-Gu
-
 # Chungcheongnam
 location	Chungcheongnam
 
@@ -1796,6 +1795,15 @@ location	Cape Coast
 
 # Greater Accra
 location	Accra
+location	Accra Ablekuma West
+location	Accra Adenta
+location	Accra Ga East
+location	Accra Ga South
+location	Accra Ga West
+location	Accra North Ridge
+location	Accra Okaikoi South
+location	Accra Tema
+location	Accra la Nkwantanang
 location	Ledzokuku-Krowor
 
 # Eastern Region GH
@@ -1837,6 +1845,9 @@ location	Alger
 ### Nigeria
 # Cross River State
 location	Calabar
+
+# Kano State
+location	Kumbotso
 
 ### Tunisia
 # Medenine
@@ -1881,6 +1892,8 @@ location	Nsork
 ### Angola
 # Cunene
 location	Cuanhama
+location	Namaciunde
+location	Ombandja
 
 # Cuando Cubango
 location	C. Cuanavale
@@ -1925,17 +1938,23 @@ location	Capolo 2
 location	Catambor
 location	Cazenga
 location	Cazengo
+location	Combatentes
 location	Cond Jardim do Edem
 location	Cond Vila Flor
 location	Dande
 location	Icolo E Bengo
 location	Ingombota
+location	K. Kiaxi
+location	Kilamba
 location	Kilamba Kiaxi
 location	Kinaxixi
 location	Lar do Patriota
 location	Luanda
 location	Lucala
+location	Maculusso
+location	Maiang
 location	Maianga
+location	Marterez
 location	Martires
 location	Miramar AO
 location	Morro Bento
@@ -1958,6 +1977,7 @@ location	Talatona
 location	Viana AO
 location	Vila Alice
 location	Zango 4
+location	Zango Zero
 
 # Bengo
 location	Quiba
@@ -2031,6 +2051,7 @@ location	Oudtshoorn
 location	Overberg
 location	Overstrand
 location	Prince Albert
+location	Reede Valley
 location	Saldanha Bay
 location	Stellenbosch
 location	Swartland
@@ -6613,6 +6634,7 @@ location	Lecce
 location	Lucera
 location	Manfredonia
 location	Martina Franca
+location	Milano
 location	Napoli
 location	Orta Nova
 location	Pietramontecorvino
@@ -8286,7 +8308,6 @@ location	Siepraw
 location	Sierakow
 location	Skawina
 location	Slawkowice
-location	Sledziejowice
 location	Slomniki
 location	Sobieseki
 location	Sosnica
@@ -10123,6 +10144,7 @@ location	Colonia Caroya
 location	Cordoba AR
 location	Cordoba Villa El Libertador
 location	Corral de Bustos
+location	Dean Funes
 location	General Deheza
 location	Jesus Maria AR
 location	La Falda
@@ -10193,7 +10215,7 @@ location	Reconquista
 location	Ricardone
 location	Rosario AR
 location	Rueda
-location	San Carlos AR
+location	San Carlos (Santa Fe)
 location	San Cristobal AR
 location	San Cristóbal
 location	San Guillermo
@@ -10293,24 +10315,31 @@ location	Villa Río Bermejito
 
 # Salta
 location	Aguaray
+location	Campo Quijano
 location	Chicoana
 location	Colonia Santa Rosa
 location	El Carril
+location	El Galpon
+location	El Tala
 location	General Guemes
 location	General Mosconi
 location	Guachipas
 location	Guemes
 location	Hipolito Yrigoyen
 location	Iruya
+location	Joaquin Victor Gonzalez
 location	La Candelaria
 location	La Merced
 location	La Vina
+location	Las Lajitas
 location	Metan
+location	Moldes
 location	Oran
 location	Rosario de Lerma
 location	Rosario de la Frontera
 location	Salta
 location	Salvador Mazza
+location	San Carlos (Salta)
 location	San Ramon de la Nueva Oran
 location	Tartagal
 
@@ -11349,6 +11378,7 @@ location	Araguapaz
 location	Bom Jardim de Goias
 location	Bom Jesus de Goias
 location	Britania
+location	Buriti de Goias
 location	Cachoeira Alta
 location	Caldazinha
 location	Campinorte
@@ -11362,15 +11392,18 @@ location	Corumbá de Goiás
 location	Cristalina
 location	Damolandia
 location	Davinopolis
+location	Edealina
 location	Edeia
 location	Faina
 location	Formosa
 location	Gioania
+location	Goianesia
 location	Goiania
 location	Goianésia
 location	Goias
 location	Goiatuba
 location	Goiás
+location	Gouvelandia
 location	Guapo
 location	Iaciara
 location	Indiara
@@ -11394,7 +11427,10 @@ location	Montes Claros de Goias
 location	Morrinhos
 location	Morro Agudo de Goias
 location	Mundo Novo (Goiás)
+location	Novo Brasil
+location	Novo Gama
 location	Ouvidor
+location	Palestina de Goias
 location	Paranaiguara
 location	Parauna
 location	Petrolina de Goias
@@ -11418,6 +11454,7 @@ location	Trindade (Goiás)
 location	Turvania
 location	Uruacu
 location	Uruana
+location	Urutai
 location	Valparaiso de Goias
 location	Valparaíso de Goias
 location	Vianopolis
@@ -12537,6 +12574,7 @@ location	Orobo
 location	Oroco
 location	Ouricuri
 location	Palmares BR
+location	Panelas
 location	Parnamirim
 location	Passira
 location	Paudalho
@@ -12606,6 +12644,7 @@ location	Alagoa Nova
 location	Alhandra
 location	Amparo (Paraiba)
 location	Areia
+location	Areia de Baraunas
 location	Barra de Santana
 location	Bayeux
 location	Boa Ventura
@@ -12631,6 +12670,7 @@ location	Juripiranga
 location	Lucena
 location	Marizopolis
 location	Matinhas
+location	Mogeiro
 location	Monteiro
 location	Nova Floresta
 location	Nova Palmeira
@@ -12644,6 +12684,7 @@ location	Pombal
 location	Queimadas
 location	Remigio
 location	Riachao
+location	Riachao do Bacamarte
 location	Riacho Dos Cavalos
 location	Rio Tinto
 location	Salgado de Sao Felix
@@ -13439,6 +13480,7 @@ location	Danli
 # San Marcos
 location	El Tumbador
 location	San Lorenzo GT
+location	San Miguel GT
 
 # Quetzaltenango
 location	Coatepeque
@@ -13469,7 +13511,9 @@ location	Escuintla
 location	Santa Lucía Cotzumalguapa
 
 # Sacatepequez
+location	Antigua Guatemala
 location	Ciudad Vieja
+location	San Lucas
 
 # Santa Rosa
 location	Barberena
@@ -13528,6 +13572,7 @@ location	Tierra Nueva
 location	Villa Nueva
 
 # Jutiapa
+location	Atescatempa
 location	Conguaco
 location	Jutiapa
 
@@ -14585,6 +14630,7 @@ location	Wood County OH
 # Florida
 location	Alachua County
 location	Broward County
+location	Charlotte County
 location	Collier County
 location	Duval County
 location	Escambia County FL
@@ -14717,6 +14763,7 @@ location	Anne Arundel County
 location	Baltimore
 location	Cecil County
 location	Frederick County MD
+location	Harford County
 location	Montgomery County MD
 location	Prince George's County
 
@@ -15478,7 +15525,6 @@ division	Timor-Leste
 division	North Jeolla
 division	Jeonnam
 division	Gwangju
-division	Daegu
 division	South Korea
 division	Chungcheongnam
 division	Gyeonggi Province
