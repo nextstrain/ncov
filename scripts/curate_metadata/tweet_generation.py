@@ -53,6 +53,7 @@ def read_metadata(filename, date_g, tweet):
     labs = {"Africa": {}, "Asia": {}, "Europe": {}, "North America": {}, "Oceania": {}, "South America": {}}
 
     new_seqs_count = 0
+    new_seqs_count_regions = {"Africa": 0, "Asia": 0, "Europe": 0, "North America": 0, "Oceania": 0, "South America": 0}
 
     with open(filename) as f:
 
@@ -72,8 +73,6 @@ def read_metadata(filename, date_g, tweet):
         gisaid_epi_isl_i = header.index("gisaid_epi_isl")
         genbank_accession_i = header.index("genbank_accession")
 
-        p = []
-
         line = f.readline()
         while line:
             l = line.split("\t")
@@ -84,11 +83,6 @@ def read_metadata(filename, date_g, tweet):
             orig_lab = l[orig_lab_i]
             author = l[author_i]
             date = l[subm_date_i]
-
-
-            if lab == "EBI":
-                p.append("\t".join([l[genbank_accession_i], l[sra_accession_i], country, orig_lab]))
-
 
             # Skip all entries with invalid dates
             if len(l[sampl_date_i]) != 10:
@@ -101,6 +95,7 @@ def read_metadata(filename, date_g, tweet):
             # Collect all labs and countries from the specified month
             if year == year_g and month == month_g:
                 new_seqs_count += 1
+                new_seqs_count_regions[region] += 1
 
                 if country not in countries[region]:
                     countries[region].append(country)
@@ -109,14 +104,14 @@ def read_metadata(filename, date_g, tweet):
                 if country != "United Kingdom" or division not in uk_divisions: # Skip all UK entries that are not overseas territories
 
                     if lab == "?": # Since only submitting labs are considered for the tweet, replace unknown submitting labs with originating labs or author
-                        '''
+
                         if not orig_lab == "?":
                             if orig_lab not in labs[region][country]["submitting_lab"]:
                                 labs[region][country]["submitting_lab"].append(orig_lab)
                         else:
                             if author not in labs[region][country]["submitting_lab"]:
                                 labs[region][country]["submitting_lab"].append(author)
-                        '''
+
                     else:
                         if lab not in labs[region][country]["submitting_lab"]:
                             labs[region][country]["submitting_lab"].append(lab)
@@ -144,6 +139,8 @@ def read_metadata(filename, date_g, tweet):
 
             line = f.readline()
 
+    print(new_seqs_count_regions)
+
     new_countries = {}
 
     for region in countries:
@@ -152,20 +149,6 @@ def read_metadata(filename, date_g, tweet):
                 if region not in new_countries:
                     new_countries[region] = []
                 new_countries[region].append(country)
-
-
-    with open("EBI_strains.txt", "w") as out:
-        out.write("\t".join(["genbank_accession", "sra_accession", "country", "originating_lab"]) + "\n")
-        for line in p:
-            out.write(line + "\n")
-
-    o = []
-    with open("EBI_strains_reduced.txt", "w") as out:
-        out.write("\t".join(["genbank_accession", "sra_accession", "country", "originating_lab"]) + "\n")
-        for line in p:
-            if line.split("\t")[3] not in o:
-                o.append(line.split("\t")[3])
-                out.write(line + "\n")
 
     return labs, labs_old, new_countries, new_seqs_count
 
