@@ -537,6 +537,7 @@ location	Atescatempa	14.1802628	-89.71880136073969
 location	Atibaia	-23.1177393	-46.5547861
 location	Atiwa West	6.322083326551894	-0.5894367297794426
 location	Atlanta	33.7490987	-84.3901849
+location	Attala County	33.0777868	-89.5680661
 location	Attenhoven	50.7670965	5.0927876
 location	Attenrode	50.877424	4.9262551
 location	Attersee	47.9113862	13.537790421084743
@@ -1496,6 +1497,8 @@ location	Butler County	31.7340713	-86.6754793
 location	Butler County AL	31.7340713	-86.6754793
 location	Butler County OH	39.4233043	-84.5936897
 location	Butte County	39.6519275	-121.5858444
+location	Butte County CA	39.6519275	-121.5858444
+location	Butte County ID	43.6989304	-113.2210324
 location	Buus	47.5055264	7.8650401
 location	Buzet	50.419853	4.773861
 location	Byczen	50.5220162	16.9047412
@@ -2038,6 +2041,7 @@ location	Chicoana	-25.16839555	-65.57358375138564
 location	Chigorodo	7.612413549999999	-76.6359403826695
 location	Chiguayante	-36.9295866	-73.0242909
 location	Chiguiri Arriba	8.6748095	-80.189382
+location	Chihuahua	28.6523808	-106.0902046
 location	Chikkaballapura	13.4358702	77.7312434
 location	Chilches	36.726129	-4.224430
 location	Chilibre	9.1643168	-79.6191005
@@ -2145,6 +2149,7 @@ location	Cisie	52.21984	21.38848
 location	Cistierna	42.8031443	-5.1255563
 location	Cite Lóiseau	-20.301906013804143	57.511609154718506
 location	City of Tshwane	-25.6798828	28.2730697
+location	Ciudad Juarez	31.7097961	-106.455581
 location	Ciudad Quetzal	14.6989331	-90.5765304
 location	Ciudad Real	38.95975095	-3.88284645910809
 location	Ciudad Vieja	14.512764350000001	-90.7698852760732
@@ -2177,6 +2182,7 @@ location	Clayton PA	9.01106725	-79.57271645992734
 location	Cleburne County	33.6506958	-85.5017359
 location	Clerlande	45.9192	3.1922
 location	Clermont-Ferrand	45.7774551	3.0819427
+location	Cleveland County	35.330702	-81.5507523
 location	Clevelandia	-26.404065	-52.3513972
 location	Clinton County	44.703277	-73.705166
 location	Clinton County IL	38.5896187	-89.420064
@@ -2242,6 +2248,7 @@ location	Colorado County TX	29.6099609	-96.5478826
 location	Colorado Springs	38.8339	-104.8214
 location	Coltauco	-34.2862794	-71.0825729
 location	Columbia County	45.956622	-123.082332
+location	Columbia County GA	33.5313102	-82.2563979
 location	Columbia County NY	42.2415027	-73.6723456
 location	Columbia County OR	45.968079	-123.064474
 location	Columbia County WA	46.2947665	-117.9174697
@@ -3263,6 +3270,7 @@ location	Fortaleza	-3.7304512	-38.5217989
 location	Fortin Olmos	-29.1282293	-60.9341889
 location	Foshan	23.018766	113.121428
 location	Fougères	48.3503362	-1.1958526
+location	Fountain County	40.125252	-87.2497418
 location	Foxhol	53.1671992	6.7211866
 location	Foz do Iguacu	-25.5401479	-54.5858139
 location	Fraga	41.5210138	0.3515596
@@ -3587,6 +3595,7 @@ location	Gonesse	48.9863555	2.4500537
 location	Gonzales County	29.4436555	-97.5108636
 location	Gonzalez Suarez	0.1809706	-78.2032913
 location	Goodhue County	44.396973	-92.7175627
+location	Gooding County	43.0031041	-114.8286924
 location	Gooise Meren	52.322224000000006	5.104556785563771
 location	Gopalgonj	23.007874712199573	89.82222732257613
 location	Gora	52.12128	16.98452
@@ -3689,6 +3698,7 @@ location	Greenwood County SC	34.1489805	-82.112882
 location	Gregg County	32.4492408	-94.8532848
 location	Gregorio de Laferrere	-34.7504785	-58.5846362
 location	Grellingen	47.4411563	7.5876358
+location	Grenada County	33.772401	-89.7674875
 location	Grenoble	45.1875602	5.7357819
 location	Grenzach-Wyhlen	47.5528548	7.6737981
 location	Gresik	-5.79334655	112.6598223201143
@@ -4366,6 +4376,7 @@ location	Itatiaia	-22.4955278	-44.5633108
 location	Itatiba	-22.9965861	-46.8412042
 location	Itaugua	-25.3947318	-57.3532892
 location	Itauna	-20.075556	-44.576389
+location	Itawamba County	34.2774018	-88.3713687
 location	Itegem	51.1030959	4.7294471
 location	Ithaca	42.4396039	-76.4968019
 location	Itingen	47.4665362	7.7877841
@@ -5341,6 +5352,7 @@ location	Laranjeiras (Sergipe)	-10.8040231	-37.1658336
 location	Laranjeiras do Sul	-25.4073197	-52.4150132
 location	Lardero	42.4272883	-2.4624393
 location	Laredo	43.41063	-3.4173
+location	Larimer County	40.6810174	-105.4726907
 location	Larino	41.8055672	14.9210984
 location	Larissa	39.6383092	22.4160706
 location	Laroquebrou	44.967739	2.1911658
@@ -5734,6 +5746,7 @@ location	Los Corrales de Buelna	43.2619686	-4.0667653
 location	Los Guido	9.8683594	-84.0450907
 location	Los Lagos	-39.8634009	-72.8129655
 location	Los Lagos (Los Rios)	-39.8634009	-72.8129655
+location	Los Mochis	25.7928058	-108.990188
 location	Los Molinos	-33.1023459	-61.3259258
 location	Los Muermos	-41.3960568	-73.4617177
 location	Los Sauces	-33.4028183	-70.6900715
@@ -6322,6 +6335,7 @@ location	Middlesex County CT	41.4510811	-72.5528113
 location	Middlesex County MA	42.485452	-71.3968261
 location	Middlesex County NJ	40.4279708	-74.3963102
 location	Middleton	43.105596	-89.509368
+location	Midland County MI	43.634525	-84.3840821
 location	Midland County TX	31.83688	-102.0103767
 location	Midvaal	-26.629495	28.08942685185185
 location	Midwolda	53.1949605	7.012555
@@ -7071,6 +7085,7 @@ location	Nussdorf Am Attersee	47.8832538	13.5237703
 location	Nymburk	50.186331	15.0417306
 location	Nysa	50.4738029	17.3324733
 location	Oak Creek	42.878698	-87.901041
+location	Oakland County	42.6618842	-83.3804439
 location	Obanos	42.6808183	-1.7851016
 location	Oberbayern	47.9998178	11.7500977
 location	Oberdorf	47.3938149	7.7515654
@@ -7095,6 +7110,7 @@ location	Objazda	54.6061069	17.043362
 location	Oborniki	52.6455252	16.8099756
 location	Obourg	50.4760289	4.0062232
 location	Obrastsovo-Travino	45.9595171	48.0037682
+location	Obregon	30.3600213	-108.9290777
 location	Obrzycko	52.70200015	16.530104807130158
 location	Ocana	8.1758238	-73.3670106
 location	Occidental	9.8659296	-83.9270675
@@ -7425,6 +7441,8 @@ location	Pangsha Upazila	23.7909362	89.425505
 location	Panguipulli	-39.6419909	-72.3333801
 location	Pannes	48.0188506	2.6693801
 location	Panola County	32.1920	-94.3154
+location	Panola County MS	34.3793392	-89.9601925
+location	Panola County TX	32.1367712	-94.3130073
 location	Panthapath	23.7511561	90.3872285
 location	Papaichton	3.8089857	-54.1506334
 location	Papeete	-17.5373835	-149.5659964
@@ -7930,6 +7948,7 @@ location	Praia Grande	-24.005833	-46.402778
 location	Praia Grande SC	-29.1966831	-49.9491971
 location	Praia Grande SP	-24.005833	-46.402778
 location	Prainha	-1.8072874	-53.4797942
+location	Prairie County	46.8103971	-105.3390398
 location	Prakasam	15.5	79.5
 location	Prakovce	48.8167474	20.8999535
 location	Prambachkirchen	48.3164376	13.9072152
@@ -9473,6 +9492,7 @@ location	Shaoyang	26.958944	111.283087
 location	Shape	50.771320	3.943706
 location	Shariatpur	23.2132841	90.3481247
 location	Shariatpur Sadar Upazila	23.21955261848975	90.31721072972182
+location	Sharkey County	32.8742585	-90.8478339
 location	Shasta County	40.7965121	-121.9979194
 location	Shawano County	44.7817214	-88.7118868
 location	Shawnee County	39.0273676	-95.7627535
@@ -10590,6 +10610,7 @@ location	Uniao Paulista	-20.8878168	-49.8986804
 location	Uniemysl	53.6264707	14.5041675
 location	Union County	40.6652251	-74.3045277
 location	Union County IL	37.4616454	-89.2504793
+location	Union County MS	34.4834555	-88.9789198
 location	Union County NC	34.9795158	-80.5128209
 location	Union County NJ	40.6652251	-74.3045277
 location	Union County OR	45.2680014	-118.0257466
@@ -10681,6 +10702,7 @@ location	Valkovce	49.16663685	21.523461060765122
 location	Vall d'Alba	40.17587	-0.0350962
 location	Vall d'Uixo	39.8235837	-0.2316995
 location	Valladolid	41.6521328	-4.728562
+location	Vallarta	20.5384729	-103.4668414
 location	Valle De Villaverde	43.232393900000005	-3.2824230157742376
 location	Valle del Zalabi	37.275224550000004	-3.067211732803494
 location	Valledupar	10.466023	-73.253272
@@ -11111,6 +11133,7 @@ location	Wasco County	45.145543	-121.204409
 location	Wasen Im Emmental	47.0429032	7.7944281
 location	Washburn County	45.8926321	-91.7971652
 location	Washim	20.28792095	77.23606281061035
+location	Washington County ID	44.3986887	-116.7400859
 location	Washington County IL	38.3662806	-89.4201902
 location	Washington County MS	33.2626706	-90.9183546
 location	Washington County NY	43.303560	-73.428260
@@ -11146,6 +11169,7 @@ location	Wayne County NY	43.1500557	-77.0377603
 location	Wayne County OH	40.8615819	-81.9034617
 location	Weakley County	36.2902404	-88.7263475
 location	Webb County	27.6983621	-99.2523577
+location	Webster County MS	33.6197203	-89.2646598
 location	Webster Parish	32.726688	-93.341411
 location	Weelde	51.4071394	4.9905925
 location	Weert	51.1021651	4.1920146
@@ -12006,6 +12030,7 @@ division	Castilla y Leon	41.8357	-4.3976
 division	Catalunya	41.834815	1.606414
 division	Catamarca	-27.1910825	-67.105374
 division	Cauca	2.473774	-76.864221
+division	Causeni	46.6395913	29.4056631
 division	Cavan	54.03497495	-7.2937022825583675
 division	Cayman Islands	19.703182249999998	-79.9174627243246
 division	Cazin	44.9690	15.9432
@@ -12083,6 +12108,7 @@ division	Chuquisaca	-19.0477251	-65.2594306
 division	Chushikoku	34.237636	133.058999
 division	Chuvash Republic	55.4259922	47.0849429
 division	Chyne	50.0606462	14.2272998
+division	Cimislia	46.5214777	28.7832993
 division	Clare	52.857257450000006	-8.937435925994537
 division	Cluj	46.83694611603694	23.714428530857838
 division	Cluj Napoca	46.769379	23.5899542
@@ -12389,7 +12415,7 @@ division	Guerrero	17.463444	-99.792052
 division	Guiania	2.5000086	-69.0000086
 division	Guiglo	6.43034025	-7.5909032112704775
 division	Guinea	10.7226226	-10.7083587
-division	Guinea Bissau	11.6688305	-15.535471371611191
+division	Guinea-Bissau	12.100035	-14.9000214
 division	Gujarat	22.2587	71.1924
 division	Guna Yala	9.20030225	-77.93252243147037
 division	Gunma	36.52198	139.033483
@@ -12453,6 +12479,7 @@ division	Hiiu	58.8373105	22.6659817
 division	Himachal Pradesh	31.81676015	77.34932051968858
 division	Himandhoo	3.9209208	72.7447785
 division	Himmafushi	4.3085207	73.57141546823254
+division	Hincesti	46.8302002	28.5871433
 division	Hiroshima	34.3916058	132.4518156
 division	Hlohovec	48.4278838	17.798782
 division	Hnusta	48.5787043	19.9531888
@@ -12916,6 +12943,7 @@ division	Mannar	8.9772444	79.9137786
 division	Manzini	-26.4958706	31.3695887
 division	Maputo	-25.966213	32.56745
 division	Maradi	13.501206	7.102534
+division	Maramures	47.672161	24.195473673014465
 division	Maranhão	-4.9609	-45.2744
 division	Marche	43.374025	13.161012
 division	Marche-en-Famenne	50.2265147	5.3407365
@@ -12924,6 +12952,7 @@ division	Margibi	6.6053676	-10.1758429
 division	Mari El	56.5767504	47.8817512
 division	Maribor	46.5576439	15.6455854
 division	Marijampoles Apskritis	54.679230399999994	23.200468079034664
+division	Maritime	6.53703405	1.244338916227091
 division	Maritime Region	6.53703405	1.244338916227091
 division	Marmara	40.62164065	27.629427220927305
 division	Maroodi Jeex	6.1206	47.952599
@@ -12960,6 +12989,7 @@ division	Medenine	33.3434395	10.4910529
 division	Medimurje County	46.4232963	16.4661353
 division	Medvedja	42.842459	21.5847305
 division	Medvedzie	49.3417948	19.53357086713877
+division	Meemu Atoll	2.7878094	73.53429865906894
 division	Meghalaya	25.5379432	91.2999102
 division	Mehedinti	44.6042177	23.05267739338317
 division	Meknes	33.897877	-5.5320345
@@ -13729,6 +13759,7 @@ division	St. Lucia	13.8250489	-60.975036
 division	Stara Boleslav	50.1999551	14.6786406
 division	Stara Zagora	42.4247421	25.6257235
 division	Stavropol	44.941379850000004	43.66309345141463
+division	Stefan Voda	46.5173976	29.6620148
 division	Steung Treng	13.5313006	105.9729938
 division	Stockholm	59.33267	18.061849
 division	Straseni	47.146331	28.6148909
@@ -14035,6 +14066,7 @@ division	Wakayama	34.234617	135.1782181
 division	Wake Island	19.28988935	166.64921739111432
 division	Wales	52.306085	-3.621944
 division	Wallis and Futuna	-13.289402	-176.204224
+division	Wallis and Futuna Islands	-13.289402	-176.204224
 division	Wallonia	50.154533099999995	5.3991821671645575
 division	Waremme	50.692236	5.260861
 division	Warminsko-Mazurskie	53.924679	20.844499
@@ -14094,6 +14126,7 @@ division	Yavne	31.8780	34.7394
 division	Yazd	31.489462	54.46578718200166
 division	Yemen	16.3471243	47.8915271
 division	Yen Bai	21.69611	104.8752392
+division	Yerevan	40.1776121	44.5125849
 division	Yeumbeul	14.771188	-17.358556
 division	Yogyakarta	-7.8011945	110.364917
 division	Yucatan	20.6845957	-88.8755669
@@ -14217,7 +14250,7 @@ country	Guadeloupe	16.2490067	-61.5650444
 country	Guam	13.464887	144.792016
 country	Guatemala	15.6356088	-89.8988087
 country	Guinea	10.7226226	-10.7083587
-country	Guinea Bissau	11.6688305	-15.535471371611191
+country	Guinea-Bissau	12.100035	-14.9000214
 country	Guyana	4.8417097	-58.6416891
 country	Haiti	19.1399952	-72.3570972
 country	Honduras	15.2572432	-86.0755145
