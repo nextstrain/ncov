@@ -45,6 +45,7 @@ replace_special_char = {
     "ľ":"l",
     "ď":"d",
     "ć": "c",
+    "ș": "s",
 }
 
 # Compare strings without considering special characters and caps
