@@ -502,6 +502,25 @@ def check_duplicates(data, abbreviations_file):
                 print(l)
             print()
 
+    ### COUNTRY ###
+    print("\n----------\n")
+    print("Checking for country duplicates...\n")
+
+    country_origin = {}
+    for region in data:
+        if region not in region_order:
+            continue
+        for country in data[region]:
+            if country not in country_origin:
+                country_origin[country] = []
+            country_origin[country].append(region)
+
+    for country in country_origin:
+        if len(country_origin[country]) > 1:
+            print("Duplicate country found: " + bold(country) + " within " + bold(", ".join(country_origin[country])))
+            if len(country_origin[country]) == 2:
+                print("/".join([country_origin[country][0], country, "*", "*"]) + " <-> " + "/".join([country_origin[country][1], country, "*", "*"]))
+
     return locations_duplicates
 
 # Search for all locations, divisions, countries and regions that are not present in the lat_longs.tsv file
@@ -805,9 +824,8 @@ def search_missing_latlongs(missing_latlongs):
         for country in missing_latlongs["division"][region]:
             print("# " + country + " #")
             for division in missing_latlongs["division"][region][country]:
-                print("division\t" + division)
                 full_division = division + ", " + country
-                new_lat_longs.append(find_place("division", division, full_division, geolocator))
+                new_lat_longs.append(find_place("division", division, full_division, geolocator, region))
             print()
 
     for region in missing_latlongs["country"]:
@@ -817,7 +835,7 @@ def search_missing_latlongs(missing_latlongs):
     auto_add_lat_longs(new_lat_longs)
 
 # Suggest geoLocator hits to the user and ask for confirmation or alternative spellings
-def find_place(geo_level, place, full_place, geolocator):
+def find_place(geo_level, place, full_place, geolocator, region = "*"):
     typed_place = full_place
     redo = True
     tries = 0
@@ -851,22 +869,33 @@ def find_place(geo_level, place, full_place, geolocator):
             print("\nCurrent place for missing {}:\t".format(geo_level) + full_place_string)
 
             print("Geopy suggestion: "+ new_place_string)
-            answer = input('Is this the right place [y/n]? ')
+
+            if geo_level != "division":
+                answer = input('Is this the right place [y/n]? ')
+            else:
+                answer = input('Is this the right place (a - alter division level) [y/n/a]? ')
 
         if answer.lower() == 'y':
-            answer = (geo_level + "\t" + place + "\t" + str(new_place.latitude) + "\t" + str(new_place.longitude))
+            coordinates = (geo_level + "\t" + place + "\t" + str(new_place.latitude) + "\t" + str(new_place.longitude))
             redo = False
+
+        elif geo_level == "division" and answer.lower() == "a":
+            division2 = input("Type correct division to produce corrective rule: ")
+            (division, country) = full_place.split(", ")
+            print(bold("/".join([region, country, division, ""]) + "\t" + "/".join([region, country, division2, division])))
+            redo = False
+            coordinates = ("location" + "\t" + place + "\t")
 
         else:
             # Let the user correct/have more detail for what's typed
             print("For: "+full_place)
             typed_place =  input("Type a more specific place name or 'NA' to leave blank: ")
             if typed_place.lower() == 'na':
-                answer = (geo_level + "\t" + place + "\t")
+                coordinates = (geo_level + "\t" + place + "\t")
                 redo = False
 
-    print(answer)
-    return answer
+    #print(coordinates)
+    return coordinates
 
 # Add new coordinates to lat_longs.tsv and sort the file before storing in the output folder
 def auto_add_lat_longs(new_lat_longs):
@@ -1063,7 +1092,6 @@ def read_annotations(annotationsFile, gisaid):
 def create_annotations(metadata_filename, applied_rules_geoLocation, applied_rules_manual, gisaid):
     geoLocationAnnotations = {}
     manualAnnotations = {}
-    special_annotations = {}
 
     with open(path_to_metadata + metadata_filename) as f:
         header = f.readline().split("\t")
@@ -1097,32 +1125,16 @@ def create_annotations(metadata_filename, applied_rules_geoLocation, applied_rul
             if (region, country, division, location) in applied_rules_manual:
                 manualAnnotations[id] = (region, country, division, location), applied_rules_manual[(region, country, division, location)]
 
-            # Check for special cases where annotations need to be introduced, e.g. special characters in strain names, or adjustment to "Mink"
-            if host == "Neovison vison" or host == "Mustela lutreola":
-                print("Adjust host " + host + " to Mink")
-                if id not in special_annotations:
-                    special_annotations[id] = {}
-                special_annotations[id]["host"] = "Mink # previously " + host
-
-            problematic_char = ["'", "`"]
-            for c in problematic_char:
-                if c in strain:
-                    strain2 = strain.replace(c, "-")
-                    print("Adjust strain " + strain + " to " + strain2)
-                    if id not in special_annotations:
-                        special_annotations[id] = {}
-                    special_annotations[id]["strain"] = strain2 + " # previously " + strain
-
             line = f.readline()
 
-    return geoLocationAnnotations, manualAnnotations, special_annotations
+    return geoLocationAnnotations, manualAnnotations
 
 # Compare old annotations with new alterations to the data and flag & adjust conflicts
 # (Since annotations overwrite geoLocationRules in the ncov-ingest pipeline, there is a need to find all annotations
 # that conflict with new rules and adjust the annotation accordingly)
 # For geoLocationRules, only test whether there are conflicting annotations that need adjustment.
 # For manualAnnotationRules, also produce new annotations.
-def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnnotations, special_annotations):
+def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnnotations):
     for id in annotations["geography"]:
         for ruleSet in [geoLocationAnnotations, manualAnnotations]:
             if id in ruleSet:
@@ -1150,6 +1162,106 @@ def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnno
             if type not in annotations["geography"][id]:
                 annotations["geography"][id][type] = annotations_correct[type][1] + " # previously " +  annotations_correct[type][0]
 
+    return annotations
+
+clade_dates = {
+    "19A": "2019-12-01",
+    "19B": "2019-12-01",
+    "20A": "2020-01-20",
+    "20A.EU2": "2020-02-15",
+    "20B": "2020-02-14",
+    "20C": "2020-02-25",
+    "20D": "2020-03-12",
+    "20E (EU1)": "2020-05-27",
+    "20F": "2020-05-24",
+    "20G": "2020-06-11",
+    "20H (Beta, V2)": "2020-08-10",
+    "20I (Alpha, V1)": "2020-09-20",
+    "20J (Gamma, V3)": "2020-10-29",
+    "21A (Delta)": "2020-10-30",
+    "21B (Kappa)": "2020-10-30",
+    "21C (Epsilon)": "2020-08-03",
+    "21D (Eta)": "2020-11-21",
+    "21E (Theta)": "2021-01-10",
+    "21F (Iota)": "2020-11-20",
+    "21G (Lambda)": "2021-01-05",
+    "21H": "2021-01-05",
+}
+# Check for special cases where annotations need to be introduced, e.g. special characters in strain names, or adjustment to "Mink"
+# Also check for sampling dates that are too early for the assigned clade and auto-add to exclude
+def special_metadata_checks(metadata_filename, annotations, gisaid):
+    special_annotations = {}
+    too_early_for_clade = []
+
+    unknown_clades = []
+    with open(path_to_metadata + metadata_filename) as f:
+        header = f.readline().strip().split("\t")
+        strain_i = header.index("strain")
+        gisaid_epi_isl_i = header.index("gisaid_epi_isl")
+        genbank_accession_i = header.index("genbank_accession")
+        host_i = header.index("host")
+        clade_i = header.index("Nextstrain_clade")
+        date_i = header.index("date")
+        clock_deviation_i = header.index("clock_deviation")
+
+        line = f.readline()
+        while line:
+            l = line.strip().split("\t")
+            host = l[host_i]
+            strain = l[strain_i]
+            clade = l[clade_i]
+            date = l[date_i]
+            clock_deviation = l[clock_deviation_i]
+
+            if gisaid:
+                id = strain + "\t" + l[gisaid_epi_isl_i]
+            else:
+                id = l[genbank_accession_i]
+
+            # Check for special cases where annotations need to be introduced, e.g. special characters in strain names, or adjustment to "Mink"
+            if host == "Neovison vison" or host == "Mustela lutreola":
+                print("Adjust host " + host + " to Mink")
+                if id not in special_annotations:
+                    special_annotations[id] = {}
+                special_annotations[id]["host"] = "Mink # previously " + host
+
+            problematic_char = ["'", "`"]
+            for c in problematic_char:
+                if c in strain:
+                    strain2 = strain.replace(c, "-")
+                    print("Adjust strain " + strain + " to " + strain2)
+                    if id not in special_annotations:
+                        special_annotations[id] = {}
+                    special_annotations[id]["strain"] = strain2 + " # previously " + strain
+
+            if len(date) == 10:
+                (year, month, day) = date.split("-")
+                if year.isdigit() and month.isdigit() and day.isdigit():
+                    year = int(year)
+                    month = int(month)
+                    day = int(day)
+
+                    if clade != "":
+                        if clade not in clade_dates:
+                            if clade not in unknown_clades:
+                                unknown_clades.append(clade)
+                        else:
+                            clade_day = clade_dates[clade]
+                            day_clade = int(clade_day[8:])
+                            month_clade = int(clade_day[5:7])
+                            year_clade = int(clade_day[:4])
+
+                            if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
+                                too_early_for_clade.append(strain + " # " + date + " (" + clade + ", clock deviation = " + clock_deviation + ")")
+
+            line = f.readline()
+
+    if unknown_clades != []:
+        print()
+        for clade in unknown_clades:
+            print(bold("Unknown clade encountered: " + clade))
+        print()
+
     for id in special_annotations:
         if id not in annotations["special"]:
             annotations["special"][id] = {}
@@ -1159,7 +1271,46 @@ def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnno
                     print("Conflicting annotation: " + id + "\t" + bold(type + " " + annotations["special"][id][type]) + " will be replaced with " + bold(special_annotations[id][type]))
             annotations["special"][id][type] = special_annotations[id][type]
 
-    return annotations
+    return annotations, too_early_for_clade
+
+# Given a list of strains, add to exclude if not already contained
+def add_to_exclude(exclude_new):
+    excluded_strains = []
+    exclude_reduced = []
+
+    with open(path_to_default_files + exclude_file) as f:
+        exclude = f.readlines()
+
+    for line in exclude:
+        if line == "\n" or line.startswith("#"):
+            continue
+        if "#" in line:
+            strain = line.split("#")[0].strip()
+        else:
+            strain = line.strip()
+        if strain not in excluded_strains:
+            excluded_strains.append(strain)
+            exclude_reduced.append(line)
+        else:
+            print("Duplicate strain in exclude (second occurrence omitted in output): " + bold(line.strip()))
+
+    exclude_add = []
+    for line in exclude_new:
+        strain = line.split("#")[0].strip()
+        if strain not in excluded_strains:
+            print("Adding strain " + bold(strain) + " to exclude")
+            exclude_add.append(line)
+
+    with open(path_to_output_files + exclude_file, "w") as out:
+        for line in exclude_reduced:
+            out.write(line)
+
+        if exclude_add:
+            out.write("\n# Sampling date earlier than assigned clade:\n")
+            for line in exclude_add:
+                out.write(line + "\n")
+
+            print(bold("\nAttention: " + exclude_file + " was altered! Remember to replace the old file in " + path_to_default_files + "."))
 
 # Write the adjusted annotation set to the output folder in a sorted manner
 def write_annotations(annotations, annotationsFile):
@@ -1193,6 +1344,7 @@ gisaidAnnotationsFile = "gisaid_annotations.tsv"
 genbankAnnotationsFile = "genbank_annotations.tsv"
 ordering_file = "color_ordering.tsv"
 latlongs_file = "lat_longs.tsv"
+exclude_file = "exclude.txt"
 
 if not os.path.exists(path_to_config_files + geoLocationRules_file):
     with open(path_to_config_files + geoLocationRules_file, 'w'): pass
@@ -1271,49 +1423,61 @@ if __name__ == '__main__':
     print("Constructing new color_ordering file...")
     build_ordering(data, answer == "y")
 
-    print("\n===============================================\n")
-    answer2 = input("Would you like to auto-sort annotations, check for conflicts with geoLocationRules and perform additional metadata checks [y/n]? ")
-    if answer2 == "y":
 
-        # Collect all known annotations and sort by type & strain
-        print("\nReading annotations...")
-        annotations_gisaid = read_annotations(gisaidAnnotationsFile, gisaid = True)
-        annotations_open = read_annotations(genbankAnnotationsFile, gisaid = False)
+    print("\n===============================================\n")
+    # Collect all known annotations and sort by type & strain
+    print("\nReading annotations...")
+    annotations_gisaid = read_annotations(gisaidAnnotationsFile, gisaid=True)
+    annotations_open = read_annotations(genbankAnnotationsFile, gisaid=False)
+
+    answer2 = input("Would you like to check annotations for conflicts with geoLocationRules and produce manualAnnotations [y/n]? ")
+    if answer2 == "y":
 
         # Collect all strains for which new rules apply
         print("\n----------\n")
         print("Applying new geoLocationRules and manualAnnotationRules to the metadata...")
-        geoLocationAnnotations_gisaid, manualAnnotations_gisaid, special_annotations_gisaid = create_annotations(gisaid_metadata_file, applied_rules_geoLocation, applied_rules_manual, gisaid = True)
-        geoLocationAnnotations_open, manualAnnotations_open, special_annotations_open = create_annotations(genbank_metadata_file, applied_rules_geoLocation, applied_rules_manual, gisaid=False)
+        geoLocationAnnotations_gisaid, manualAnnotations_gisaid = create_annotations(gisaid_metadata_file, applied_rules_geoLocation, applied_rules_manual, gisaid = True)
+        geoLocationAnnotations_open, manualAnnotations_open = create_annotations(genbank_metadata_file, applied_rules_geoLocation, applied_rules_manual, gisaid=False)
 
         # Compare affected strains with annotations and search for conflicts (-> update annotations to fit new rules)
         # Also insert new annotations created by manualAnnotationRules
         print("\n----------\n")
         print("Searching for conflicting annotations and adding manualAnnotationRules...")
-        annotations_gisaid = find_conflicting_annotations(annotations_gisaid, geoLocationAnnotations_gisaid, manualAnnotations_gisaid, special_annotations_gisaid)
-        annotations_open = find_conflicting_annotations(annotations_open, geoLocationAnnotations_open, manualAnnotations_open, special_annotations_open)
+        annotations_gisaid = find_conflicting_annotations(annotations_gisaid, geoLocationAnnotations_gisaid, manualAnnotations_gisaid)
+        annotations_open = find_conflicting_annotations(annotations_open, geoLocationAnnotations_open, manualAnnotations_open)
 
-        # Sort and write updated annotation files to output folder
-        print("\n----------\n")
-        print("Writing updated annotation files to " + path_to_output_files + "...")
-        write_annotations(annotations_gisaid, gisaidAnnotationsFile)
-        write_annotations(annotations_open, genbankAnnotationsFile)
+    print("\n----------\n")
+    # Perform special checks on the metadata, e.g. check for Mink host consistency, check if date is consistent with clade...
+    answer3 = input("Would you like to perform additional metadata checks (e.g. date, host, strain name) [y/n]? ")
+    if answer3 == "y":
+        print("Traversing metadata...")
+        annotations_gisaid, exclude_gisaid = special_metadata_checks(gisaid_metadata_file, annotations_gisaid, gisaid = True)
+        annotations_open, exclude_open = special_metadata_checks(genbank_metadata_file, annotations_gisaid, gisaid = False)
 
-        with open(path_to_annotations + gisaidAnnotationsFile, "r") as f:
-            annot_gisaid_old = f.read()
-        with open(path_to_output_files + gisaidAnnotationsFile, "r") as f:
-            annot_gisaid_new = f.read()
-        if annot_gisaid_old != annot_gisaid_new:
-            print(bold("Attention: " + gisaidAnnotationsFile + " was altered! Remember to replace the old file in " + path_to_annotations + "."))
-        else:
-            print("No changes to " + gisaidAnnotationsFile + ".")
+        add_to_exclude(exclude_gisaid + exclude_open)
 
-        with open(path_to_annotations + genbankAnnotationsFile, "r") as f:
-            annot_open_old = f.read()
-        with open(path_to_output_files + genbankAnnotationsFile, "r") as f:
-            annot_open_new = f.read()
-        if annot_open_old != annot_open_new:
-            print(bold("Attention: " + genbankAnnotationsFile + " was altered! Remember to replace the old file in " + path_to_annotations + "."))
-        else:
-            print("No changes to " + genbankAnnotationsFile + ".")
+
+    # Sort and write updated annotation files to output folder
+    print("\n----------\n")
+    print("Writing updated annotation files to " + path_to_output_files + "...")
+    write_annotations(annotations_gisaid, gisaidAnnotationsFile)
+    write_annotations(annotations_open, genbankAnnotationsFile)
+
+    with open(path_to_annotations + gisaidAnnotationsFile, "r") as f:
+        annot_gisaid_old = f.read()
+    with open(path_to_output_files + gisaidAnnotationsFile, "r") as f:
+        annot_gisaid_new = f.read()
+    if annot_gisaid_old != annot_gisaid_new:
+        print(bold("Attention: " + gisaidAnnotationsFile + " was altered! Remember to replace the old file in " + path_to_annotations + "."))
+    else:
+        print("No changes to " + gisaidAnnotationsFile + ".")
+
+    with open(path_to_annotations + genbankAnnotationsFile, "r") as f:
+        annot_open_old = f.read()
+    with open(path_to_output_files + genbankAnnotationsFile, "r") as f:
+        annot_open_new = f.read()
+    if annot_open_old != annot_open_new:
+        print(bold("Attention: " + genbankAnnotationsFile + " was altered! Remember to replace the old file in " + path_to_annotations + "."))
+    else:
+        print("No changes to " + genbankAnnotationsFile + ".")
 
