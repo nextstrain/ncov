@@ -1291,14 +1291,14 @@ def add_to_exclude(exclude_new):
         if strain not in excluded_strains:
             excluded_strains.append(strain)
             exclude_reduced.append(line)
-        else:
-            print("Duplicate strain in exclude (second occurrence omitted in output): " + bold(line.strip()))
+        #else:
+            #print("Duplicate strain in exclude (second occurrence omitted in output): " + bold(line.strip()))
 
     exclude_add = []
     for line in exclude_new:
         strain = line.split("#")[0].strip()
         if strain not in excluded_strains:
-            print("Adding strain " + bold(strain) + " to exclude")
+            #print("Adding strain " + bold(strain) + " to exclude")
             exclude_add.append(line)
 
     with open(path_to_output_files + exclude_file, "w") as out:
@@ -1309,8 +1309,8 @@ def add_to_exclude(exclude_new):
             out.write("\n# Sampling date earlier than assigned clade:\n")
             for line in exclude_add:
                 out.write(line + "\n")
-
-            print(bold("\nAttention: " + exclude_file + " was altered! Remember to replace the old file in " + path_to_default_files + "."))
+            print("\nAdding " + str(len(exclude_add)) + " strains to exclude due to early dates...")
+            print(bold("Attention: " + exclude_file + " was altered! Remember to replace the old file in " + path_to_default_files + "."))
 
 # Write the adjusted annotation set to the output folder in a sorted manner
 def write_annotations(annotations, annotationsFile):
@@ -1452,7 +1452,7 @@ if __name__ == '__main__':
     if answer3 == "y":
         print("Traversing metadata...")
         annotations_gisaid, exclude_gisaid = special_metadata_checks(gisaid_metadata_file, annotations_gisaid, gisaid = True)
-        annotations_open, exclude_open = special_metadata_checks(genbank_metadata_file, annotations_gisaid, gisaid = False)
+        annotations_open, exclude_open = special_metadata_checks(genbank_metadata_file, annotations_open, gisaid = False)
 
         add_to_exclude(exclude_gisaid + exclude_open)
 
