@@ -293,7 +293,7 @@ def apply_rules(data, ruleSet, delimiter = ["/"], print_rules = True):
 
             # Due to reoccuring bug: Since empty divisions are automatically filled with the country name later in the
             # ncov-ingest pipeline, give a warning when detecting a rule that might be affected
-            if country_before == division_before and location_before == "":
+            if country_before == division_before:
                 recommended_rule = d.join([region_before, country_before, "", ""])
                 if recommended_rule not in rules:
                     print(bold("Attention: Consider automatic division filler applied after geoLocationRules (Hint: add [" + recommended_rule + "\t" + rules[g] + "])"))

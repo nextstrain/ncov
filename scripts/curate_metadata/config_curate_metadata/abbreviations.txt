@@ -92,7 +92,7 @@ Guam	GU
 Guatemala	GT
 Guernsey	GG
 Guinea	GN
-Guinea Bissau	GW
+Guinea-Bissau	GW
 Guyana	GY
 Haiti	HT
 Heard & McDonald Islands	HM
