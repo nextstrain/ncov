@@ -17826,7 +17826,7 @@ clade_membership	21D (Eta)
 clade_membership	21E (Theta)
 clade_membership	21F (Iota)
 clade_membership	21G (Lambda)
-clade_membership	21H
+clade_membership	21H (Mu)
 
 ################
 
@@ -17843,7 +17843,7 @@ emerging_lineage	B.1.617.1 (Kappa)
 emerging_lineage	B.1.617.2 (Delta)
 emerging_lineage	B.1.619
 emerging_lineage	B.1.620
-emerging_lineage	B.1.621
+emerging_lineage	B.1.621 (Mu)
 emerging_lineage	C.36.3
 emerging_lineage	C.37 (Lambda)
 emerging_lineage	P.1 (Gamma)
