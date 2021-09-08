@@ -1673,6 +1673,11 @@ location	Seoul
 # Kumamoto
 location	Kumamoto City
 
+# Shizuoka
+location	Center
+location	East
+location	West
+
 # Kyoto
 location	Kyoto
 
@@ -14656,6 +14661,7 @@ location	Hickman County
 location	Knox County TN
 location	Marshall County TN
 location	Maury County
+location	McMinn County
 location	Montgomery County TN
 location	Robertson County TN
 location	Rutherford County TN
@@ -14693,6 +14699,7 @@ location	Mccracken County
 location	Alpena County
 location	Berrien County
 location	Ingham County
+location	Kalamazoo County
 location	Midland County MI
 location	Oakland County
 

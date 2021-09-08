@@ -1153,7 +1153,6 @@ location	Bocaina do Sul	-27.745494	-49.942279
 location	Bochnia	49.974684249999996	20.425329198706468
 location	Bocholt	51.183426	5.558851
 location	Bochotnica	51.3397608	21.9925412
-location	Boćki	52.6512834	23.0426375
 location	Bodeli	22.2749233	73.7165607
 location	Bodensdorf	46.6860885	13.9725749
 location	Bodzanow	50.3366022	17.3839717
@@ -1291,6 +1290,7 @@ location	Bovesse	50.5143641	4.779285182968074
 location	Bowie County	33.4198886	-94.4479626
 location	Bozeman	45.6794293	-111.044047
 location	Bozen	46.4981125	11.3547801
+location	Boćki	52.6512834	23.0426375
 location	Bąkowice	50.93141	17.6995762
 location	Bra	50.3244046	5.7337839
 location	Brackenfell	-33.877398609128875	18.69249068258294
@@ -4675,6 +4675,7 @@ location	Kakching	24.38904015	93.88013239529906
 location	Kakinada	16.9437385	82.2350607
 location	Kalabagan	23.74695835	90.38393803066401
 location	Kalachinsk	55.049091	74.582428
+location	Kalamazoo County	42.2494968	-85.5372797
 location	Kalay	23.195728	94.0158882
 location	Kalia	23.037114	89.641357
 location	Kalimpong	27.02787695	88.64606085772425
@@ -6209,6 +6210,7 @@ location	McDonough County	40.4376858	-90.6780272
 location	McHenry County	42.3294391	-88.4605713
 location	McLean County IL	40.4631789	-88.8196613
 location	Mclennan County	31.5487691	-97.2189254
+location	McMinn County	35.444223	-84.624875
 location	Meagher County	46.6305891	-110.8988278
 location	Meaux	48.9582708	2.8773541
 location	Mechelen-aan-de-Maas	50.9764002	5.645665449842765
