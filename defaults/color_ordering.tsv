@@ -810,6 +810,7 @@ location	Biswanath
 location	Bongaigaon
 location	Cachar
 location	Charaideo
+location	Chirang
 location	Darrang
 location	Dhemaji
 location	Dhubri
@@ -1095,7 +1096,6 @@ location	Brahmanbaria
 location	Brahmanbaria Sadar
 location	C&B Colony
 location	Cda
-location	Chakaria
 location	Chalkbazar
 location	Chandgaon
 location	Chandpur
@@ -1107,8 +1107,6 @@ location	Feni
 location	Halishahar
 location	Hathazari
 location	Jamal Khan
-location	Kaptai
-location	Kawkhali
 location	Kazir Dewri
 location	Khagrachari
 location	Khulshi
@@ -1120,35 +1118,25 @@ location	Muradpur
 location	Noakhali
 location	Panchlaish
 location	Patharghata
-location	Pekua
 location	Port Colony
 location	Rangamati
-location	Rangamati Sadar Upazila
 location	Rangunia
 location	Sandwip
 location	Sarail
 location	Satkania
 location	Sholokbahar
-location	Ukhia
 
 # Barishal
 location	Barisal
-location	Barishal Sadar Upzila
 location	Bhola
-location	Indurkani
-location	Nazirpur
 location	Pirojpur
 
 # Khulna
-location	Ashashuni
 location	Bagerhat
 location	Chuadanga
 location	Daulatpur
 location	Jashore
 location	Jhenaidah
-location	Kaligonj
-location	Keshabpur
-location	Kolaroa
 location	Kushtia
 location	Magura
 location	Meherpur
@@ -1172,7 +1160,6 @@ location	Banosree
 location	Baridhara
 location	Basundhara Residential Area
 location	Bhatara
-location	Boalmari
 location	Cantonment
 location	Dhaka
 location	Dhamrai
@@ -1238,11 +1225,9 @@ location	Shahjahanpur BD
 location	Shamoly
 location	Shariatpur
 location	Shaymoli
-location	Shibpur
 location	Tangail
 location	Tejgaon
 location	Tejkunipara
-location	Tongi
 location	Uttara
 location	Vatara
 location	Wari
@@ -1253,14 +1238,12 @@ location	West Shewrapara
 # Rajshahi
 location	Bagmara
 location	Boalia
-location	Bogra Sadar Upzila
+location	Bogra
 location	Chapai
 location	Chapainawabgonj
-location	Gabtoli
 location	Issordi
 location	Naogaon
 location	Natore
-location	Nauli
 location	Pabna
 location	Rajpara BD
 location	Rajshahi
@@ -1269,7 +1252,6 @@ location	Sirajgonj
 
 # Mymensingh
 location	Jamalpur (Mymensingh)
-location	Madan
 location	Mymensingh
 location	Netrokona
 location	Sherpur
@@ -1289,6 +1271,7 @@ location	Sylhet
 location	Dinajpur
 location	Gaibandha
 location	Kurigram
+location	Lalmonirhat
 location	Mithapukur
 location	Nilphamari
 location	Panchagarh
@@ -1494,6 +1477,7 @@ location	Tangerang
 location	Tangerang Selatan
 
 # Kepulauan Bangka Belitung
+location	Bangka Belitung
 location	Belitung
 location	Pangkal Pinang
 
@@ -1513,6 +1497,7 @@ location	Indramayu
 location	Karawang
 location	Kuningan
 location	Purwakarta
+location	Sukabumi
 location	Sumedang
 location	Tasikmalaya
 
@@ -1559,6 +1544,7 @@ location	Tulungagung
 # Center Kalimantan
 location	Kotawaringin Barat
 location	Kotawaringin Timur
+location	Palangka Raya
 location	Palangkaraya
 
 # Bali
@@ -1601,6 +1587,7 @@ location	Makassar
 
 # East Nusa Tenggara
 location	Kupang
+location	Labuan Bajo
 
 # Central Sulawesi
 location	Palu
@@ -2137,8 +2124,13 @@ location	Sarah Baartman
 
 # Free State
 location	Bloemfontein
+location	Fezile Dabi
 location	Kroonstad
+location	Lejweleputswa
+location	Mangaung Metro
+location	Thabo Mofutsanyana
 location	Welkom
+location	Xhariep
 
 # Gauteng
 location	City of Johannesburg
@@ -3434,6 +3426,7 @@ location	Igualada
 location	Jorba
 location	Juncosa
 location	Juneda
+location	L Ametlla del Valles
 location	L'Ametlla del Valles
 location	L'Estartit
 location	L'Hospitalet de Llobregat
@@ -3470,6 +3463,7 @@ location	Llanars
 location	Llanca
 location	Lleida
 location	Llerona
+location	Llica D Amunt
 location	Llica D'Amunt
 location	Llimiana
 location	Llinars del Valles
@@ -3548,6 +3542,7 @@ location	Regencos
 location	Reus
 location	Ribera De Montardit
 location	Riells I Viabrea
+location	Riells del Fai
 location	Ripoll
 location	Ripollet
 location	Riudarenes
@@ -7768,6 +7763,7 @@ location	Kowanowko
 location	Koziegłowy
 location	Koło
 location	Krotoszyn
+location	Krotoszynski
 location	Kruchowo
 location	Krzyszkowo
 location	Kuczyna
@@ -7812,6 +7808,7 @@ location	Pecna
 location	Piaski
 location	Pietno
 location	Pila
+location	Pilski
 location	Pleszew
 location	Plewiska
 location	Pobiedziska
@@ -7852,6 +7849,7 @@ location	Strykowo
 location	Suchy las
 location	Sulecin (Wielkopolskie)
 location	Swarzedz
+location	Szamotulski
 location	Szamotuly
 location	Szczytniki Czerniejewskie
 location	Słupca
@@ -8234,14 +8232,18 @@ location	Leczyca (Łódzkie)
 location	Lipicze
 location	Lodz
 location	Losieniec
+location	Lowicki
 location	Miklesz
 location	Moskwa
 location	Oplotki
+location	Opoczynski
 location	Ostrow (Łódzkie)
 location	Ostrowek
 location	Pabianice
+location	Pajeczanski
 location	Pajeczno County
 location	Piotrkow Trybunalski
+location	Piotrkowski
 location	Poddebice
 location	Poddebicki
 location	Przylek Duzy
@@ -8272,6 +8274,7 @@ location	Wyszyna
 location	Wągry
 location	Zalesie (Łódzkie)
 location	Zdunska Wola
+location	Zdunskowolski
 location	Zgierski
 location	Zgierz
 
@@ -9614,8 +9617,15 @@ location	Focsani
 # Dolj
 location	Craiova
 
+# Sibiu
+location	Sibiu
+
 # Mures
 location	Targu Mures
+
+# Covasna
+location	Covasna
+location	Sfantu Gheorghe
 
 # Prahova
 location	Breaza
@@ -10454,6 +10464,7 @@ location	Rio Ibanez
 # Los Lagos
 location	Ancud
 location	Calbuco
+location	Castro CL
 location	Cochamo
 location	Fresia
 location	Frutillar
@@ -10495,11 +10506,15 @@ location	Carahue
 location	Cholchol
 location	Collipulli
 location	Cunco
+location	Curacautin
+location	Curarrehue
+location	Ercilla
 location	Freire
 location	Galvarino
 location	Lautaro
 location	Loncoche
 location	Lonquimay
+location	Lumaco
 location	Melipeuco
 location	Padre las Casas
 location	Perquenco
@@ -10511,6 +10526,7 @@ location	Temuco
 location	Teodoro Schmidt
 location	Tolten
 location	Traiguen
+location	Victoria
 location	Vilcun
 location	Villarrica
 
@@ -10521,6 +10537,7 @@ location	Chiguayante
 location	Concepcion CL
 location	Contulmo
 location	Coronel
+location	Florida
 location	Hualpen
 location	Hualqui
 location	Laja
@@ -10531,8 +10548,10 @@ location	Nacimiento
 location	Negrete
 location	Penco
 location	Quilleco
+location	San Carlos
 location	San Pedro de la Paz
 location	San Vicente de Tagua Tagua
+location	Santa Barbara
 location	Santa Juana
 location	Talcahuano
 location	Tucapel
@@ -10665,7 +10684,6 @@ location	San Jose de Maipo
 location	San Miguel CL
 location	San Pedro CL
 location	San Ramon CL
-location	Santa Barbara
 location	Santiago CL
 location	Talagante
 location	Vitacura
@@ -10691,6 +10709,7 @@ location	Quilpue
 location	Rinconada
 location	San Antonio CL
 location	San Felipe CL
+location	Santa Maria
 location	Santo Domingo CL
 location	Valparaiso CL
 location	Villa Alemana
@@ -10698,9 +10717,11 @@ location	Vina del Mar
 location	Viã‘A del Mar
 
 # Coquimbo
+location	Andacollo
 location	Canela CL
 location	Coquimbo
 location	Illapel
+location	La Higuera
 location	La Serena
 location	Ovalle
 location	Vicuna
@@ -10728,12 +10749,15 @@ location	Tocopilla
 # Tarapacá
 location	Alto Hospicio
 location	Camina
+location	Huara
 location	Iquique
+location	Pica
 location	Pozo Almonte
 
 # Arica and Parinacota
 location	Arica
 location	General Lagos
+location	Putre
 
 ### Paraguay
 # Neembucu
@@ -11196,7 +11220,7 @@ location	Capanema
 location	Capitao Leonidas Marques
 location	Carambei
 location	Cascavel (Paraná)
-location	Castro
+location	Castro BR
 location	Centenario do Sul
 location	Cianorte
 location	Cidade Gaucha
@@ -12117,7 +12141,6 @@ location	Ponto Chique
 location	Raul Soares
 location	Recreio
 location	Resplendor
-location	Riachinho
 location	Ribeirao Das Neves
 location	Rio Espera
 location	Rio Manso
@@ -12211,7 +12234,6 @@ location	Petropolis
 location	Pinheiral
 location	Pirai
 location	Porciuncula
-location	Porto Alegre (Rio de Janeiro)
 location	Porto Real
 location	Quatis
 location	Queimados
@@ -12294,7 +12316,6 @@ location	Jandaira (Bahia)
 location	Jequie
 location	Jussari
 location	Laje
-location	Lauro de Freitas
 location	Macajuba
 location	Madre de Deus
 location	Maracas
@@ -12534,61 +12555,6 @@ location	Telha
 location	Tobias Barreto
 location	Tomar do Geru
 
-# Rio Grande do Norte
-location	Alexandria BR
-location	Alto do Rodrigues
-location	Ares BR
-location	Açu
-location	Bom Jesus
-location	Caicó
-location	Cerro Cora
-location	Currais Novos
-location	Extremoz
-location	Florânia
-location	Frutuoso Gomes
-location	Guamare
-location	Ipanguacu
-location	Jandaira (Rio Grande do Norte)
-location	Janduis
-location	Jardim de Piranhas
-location	Jardim do Seridó
-location	João Câmara
-location	Jucurutu
-location	Jundia
-location	Lagoa Nova
-location	Lajes Pintadas
-location	Luiz Gomes
-location	Macaiba
-location	Macau
-location	Marcelino Vieira
-location	Messias Targino
-location	Natal
-location	Nisia Floresta
-location	Nova Cruz
-location	Ouro Branco (Rio Grande do Norte)
-location	Paranamirim
-location	Passa E Fica
-location	Patu
-location	Pau Dos Ferros
-location	Pedro Velho
-location	Poco Branco
-location	Rafael Fernandes
-location	Riacho de Santana
-location	Riachuelo (Rio Grande do Norte)
-location	Santa Cruz (Rio Grande do Norte)
-location	Santa Maria (Rio Grande do Norte)
-location	Santana do Matos
-location	Sao Goncalo do Amarante (Rio Grande do Norte)
-location	Sao Paulo do Potengi
-location	Serrinha Dos Pintos
-location	São José de Mipibu
-location	São José do Seridó
-location	São João do Sabugi
-location	São Rafael
-location	Tenente Laurentino Cruz
-location	Vera Cruz (Rio Grande do Norte)
-location	Água Nova
-
 # Pernambuco
 location	Abreu E Lima
 location	Afogados Da Ingazeira
@@ -12734,6 +12700,61 @@ location	Vicência
 location	Vitoria de Santo Antao
 location	Xexeu
 location	Águas Belas
+
+# Rio Grande do Norte
+location	Alexandria BR
+location	Alto do Rodrigues
+location	Ares BR
+location	Açu
+location	Bom Jesus
+location	Caicó
+location	Cerro Cora
+location	Currais Novos
+location	Extremoz
+location	Florânia
+location	Frutuoso Gomes
+location	Guamare
+location	Ipanguacu
+location	Jandaira (Rio Grande do Norte)
+location	Janduis
+location	Jardim de Piranhas
+location	Jardim do Seridó
+location	João Câmara
+location	Jucurutu
+location	Jundia
+location	Lagoa Nova
+location	Lajes Pintadas
+location	Luiz Gomes
+location	Macaiba
+location	Macau
+location	Marcelino Vieira
+location	Messias Targino
+location	Natal
+location	Nisia Floresta
+location	Nova Cruz
+location	Ouro Branco (Rio Grande do Norte)
+location	Paranamirim
+location	Passa E Fica
+location	Patu
+location	Pau Dos Ferros
+location	Pedro Velho
+location	Poco Branco
+location	Rafael Fernandes
+location	Riacho de Santana
+location	Riachuelo (Rio Grande do Norte)
+location	Santa Cruz (Rio Grande do Norte)
+location	Santa Maria (Rio Grande do Norte)
+location	Santana do Matos
+location	Sao Goncalo do Amarante (Rio Grande do Norte)
+location	Sao Paulo do Potengi
+location	Serrinha Dos Pintos
+location	São José de Mipibu
+location	São José do Seridó
+location	São João do Sabugi
+location	São Rafael
+location	Tenente Laurentino Cruz
+location	Vera Cruz (Rio Grande do Norte)
+location	Água Nova
 
 # Paraiba
 location	Aguiar
@@ -15486,6 +15507,7 @@ division	Chiang Rai
 ### Malaysia
 division	Penang
 division	Perlis
+division	Kedah
 division	Perak
 division	Selangor
 division	Wilayah Persekutuan
@@ -15493,6 +15515,7 @@ division	Kuala Lumpur
 division	Kelantan
 division	Negeri Sembilan
 division	Melaka
+division	Terengganu
 division	Johor
 division	Pahang
 division	Malaysia
@@ -15616,6 +15639,7 @@ division	Tainan
 division	Chiayi City
 division	Taiwan
 division	Changhua County
+division	Taichung
 division	Miaoli County
 division	Hsinchu County
 division	Taoyuan City
@@ -15907,6 +15931,7 @@ division	Algeria
 division	Ouargla
 division	El Oued
 division	Laghouat
+division	Sidi Bel Abbes
 division	M'Sila Province
 division	Bordj-Bou-Arreridj
 division	Sétif
@@ -17327,8 +17352,8 @@ division	Bahia
 division	Espirito Santo
 division	Ceará
 division	Sergipe
-division	Rio Grande do Norte
 division	Pernambuco
+division	Rio Grande do Norte
 division	Paraiba
 division	Alagoas
 division	Brazilian Cruise

@@ -111,3 +111,5 @@ Quarantine: Airport Quarantine Station in Japan; Travel history: XXX
 Airport Quarantine Station in Japan; Travel history: XXX
 imported from XXX
 travel history to XXX
+travelled from XXX
+Others: XXX
