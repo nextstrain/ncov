@@ -299,6 +299,7 @@ location	Layyah
 location	Malakwal
 location	Mianwali
 location	Muridke
+location	Murree
 location	Nankana Sahib
 location	Notak Bhakkar
 location	Okara
@@ -5359,6 +5360,7 @@ location	Affligem
 location	Alsemberg
 location	Asse
 location	Beersel
+location	Beert
 location	Berg
 location	Bogaarden
 location	Borchtlombeek
@@ -5556,6 +5558,7 @@ location	Kaggevinne
 location	Keerbergen
 location	Kersbeek-Miskom
 location	Kessel-Lo
+location	Korbeek-Lo
 location	Kortenaken
 location	Kortenberg
 location	Kumtich
@@ -5850,6 +5853,7 @@ location	Glain
 location	Grivegnée
 location	Grâce-Hollogne
 location	Harzé
+location	Hermalle-Sous-Argenteau
 location	Herstal
 location	Horion-Hozémont
 location	Loncin
@@ -11770,7 +11774,7 @@ location	Itu
 location	Itupeva
 location	Ituverava
 location	Jaboticabal
-location	Jacareí
+location	Jacarei
 location	Jaci
 location	Jacupiranga
 location	Jaguariuna
@@ -13234,6 +13238,7 @@ location	Cerete
 location	Cereté
 location	Cienaga de Oro
 location	Monteria
+location	Planeta Rica
 location	Puerto Libertador
 location	Santa Cruz de Lorica
 location	Tierralta
@@ -13248,6 +13253,7 @@ location	Sincelejo
 location	Tolu
 
 # Cesar
+location	Codazzi
 location	Valledupar
 
 # Magdalena
@@ -14165,6 +14171,7 @@ location	Johnson County TX
 location	Karnes County
 location	Kaufman County
 location	Kendall County TX
+location	Kenedy County
 location	Kerr County
 location	Kimble County
 location	Kleberg County
@@ -17548,6 +17555,7 @@ division	Cortés
 division	La Paz HN
 division	Comayagua
 division	Valle
+division	Yoro
 division	Atlántida
 division	Francisco Morazán
 division	Choluteca
