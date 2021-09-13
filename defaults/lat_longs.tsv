@@ -46,6 +46,7 @@ location	Adajan	21.2651204	72.84991282218647
 location	Adamantina	-21.6866517	-51.0762975
 location	Adamow	52.2666667	19.2833333
 location	Adamowo	53.8686359	20.9900989
+location	Adams County CO	39.8714085	-104.2701374
 location	Adams County IL	39.9787786	-91.2110065
 location	Adams County MS	31.4904067	-91.3297733
 location	Adams County OH	38.853370039120996	-83.46724817007629
@@ -398,6 +399,7 @@ location	Aperibe	-21.6211928	-42.1028167
 location	Appelterre-Eichem	50.8191641	3.965528
 location	Appenzell	47.3446384	9.343829
 location	Appingedam	53.3203563	6.8577654
+location	Appling County	31.7771435	-82.2996274
 location	Apucarana	-23.5525327	-51.4610764
 location	Aquidaba	-10.2837579	-37.0188687
 location	Aquidauana	-20.473969	-55.7821375
@@ -942,6 +944,7 @@ location	Benningbroek	52.7043188	5.0130447
 location	Bento Goncalves	-29.1654014	-51.5197627
 location	Benton County	46.190531	-119.520720
 location	Benton County OR	44.494937	-123.4065679
+location	Benton County TN	36.0345286	-88.101285
 location	Benton County WA	46.1691702	-119.5286424
 location	Beranga	43.41547	-3.57624
 location	Berazategui	-34.7632677	-58.2116604
@@ -1476,6 +1479,7 @@ location	Burgdorf	47.0571316	7.6237466
 location	Burgos	42.343926	-3.696977
 location	Burhanpur	21.318288	76.220760
 location	Burjassot	39.5090599	-0.4108581
+location	Burke County	35.7270403	-81.6632108
 location	Burlada	42.8230299	-1.614076
 location	Burleson	32.535768554050875	-97.32722170343142
 location	Burleson County	30.4764878	-96.6353488
@@ -1791,6 +1795,7 @@ location	Cartago CO	4.7465494	-75.9121234
 location	Cartago CR	9.8642435	-83.9204377
 location	Cartes	43.3243805	-4.069902
 location	Caruaru	-8.2829702	-35.9722852
+location	Carver County	44.807118	-93.7871792
 location	Casa Branca	-21.7743137	-47.0852175
 location	Casablanca	-33.3205864	-71.4100762
 location	Casal de Cambra	38.8005207	-9.2307698
@@ -1992,6 +1997,7 @@ location	Chateauneuf Les Bains	46.0263601	2.8963288
 location	Chatel Guyon	45.9205	3.06111
 location	Châtelet	50.400026	4.521491
 location	Châtelineau	50.4155938	4.5179328
+location	Chatham County	35.7151316	-79.2533035
 location	Chauchina	37.2014921	-3.7724726
 location	Chaumont-Gistoux	50.6839808	4.6974182
 location	Chauray	46.3606879	-0.3745955
@@ -2028,6 +2034,7 @@ location	Cheshire	41.5084	-72.9106
 location	Chester County	39.9829308	-75.7652424
 location	Chester County PA	39.9829308	-75.7652424
 location	Chester County SC	34.6859896	-81.1545073
+location	Chesterfield County	37.3859982	-77.578509
 location	Chesterfield County SC	34.6500578	-80.1417843
 location	Chhota Udaipur	22.3048651	74.0126114
 location	Chia	4.8704614500000005	-74.03632158198437
@@ -2169,6 +2176,7 @@ location	Clark County OH	39.9229676	-83.7905959
 location	Clark County WA	45.7669047	-122.4940866
 location	Clark County WI	44.7188146	-90.6214928
 location	Clarke County	31.659134	-87.8192486
+location	Clarke County GA	33.9597677	-83.376398
 location	Clatsop County	45.980728	-123.6687499
 location	Clavier	50.4119432	5.3576794
 location	Clavijo	42.3494671	-2.4262521
@@ -2186,6 +2194,7 @@ location	Cleveland County	35.330702	-81.5507523
 location	Clevelandia	-26.404065	-52.3513972
 location	Clinton County	44.703277	-73.705166
 location	Clinton County IL	38.5896187	-89.420064
+location	Clinton County MI	42.9435238	-84.6125345
 location	Clinton County NY	44.7278943	-73.6686982
 location	Cluses	46.0603171	6.5804218
 location	Cmielow	50.8918364	21.5100875
@@ -2248,6 +2257,7 @@ location	Colorado County TX	29.6099609	-96.5478826
 location	Colorado Springs	38.8339	-104.8214
 location	Coltauco	-34.2862794	-71.0825729
 location	Columbia County	45.956622	-123.082332
+location	Columbia County AR	33.1938586	-93.2344337
 location	Columbia County GA	33.5313102	-82.2563979
 location	Columbia County NY	42.2415027	-73.6723456
 location	Columbia County OR	45.968079	-123.064474
@@ -2275,7 +2285,7 @@ location	Con-Con	-32.9300229718223	-71.5183296900732
 location	Conceicao de Macabu	-22.0849986	-41.8679947
 location	Conceição do Araguaia	-8.2696905	-49.2676864
 location	Conceicao do Mato Dentro	-19.037222	-43.425278
-location	Concepcion	-36.8270795	-73.0502399
+location	Concepción	14.861778	-91.9366098
 location	Concepcion AR	-27.344708949999998	-65.59997257793145
 location	Concepcion CL	-36.8270795	-73.0502399
 location	Concepcion CR	9.9257177	-83.9999025
@@ -3294,6 +3304,7 @@ location	Franklin County IL	37.9765409	-88.9335327
 location	Franklin County NY	44.5926	-74.3388
 location	Franklin County OH	39.982385093297296	-83.0017763810311
 location	Franklin County WA	46.517555	-118.921601
+location	Franklin Parish	32.1254252	-91.6778053
 location	Fraserburgh	57.6935974	-2.0051497
 location	Frauenfeld	47.5561915	8.8963347
 location	Fray Luis Beltran	-32.7874256	-60.7295083
@@ -3856,6 +3867,7 @@ location	Ham-sur-Heure-Nalinnes	50.32592795	4.414523504903954
 location	Hamden	41.397428	-72.924035
 location	Hamilton County	43.6307863	-74.4659275
 location	Hamilton County IL	38.0619569	-88.5301136
+location	Hamilton County IN	40.0749813	-86.0498885
 location	Hamilton County NY	43.6307863	-74.4659275
 location	Hamilton County OH	39.2085354	-84.5501874
 location	Hamirpur	31.69255285	76.5417689794739
@@ -4268,6 +4280,7 @@ location	Inconnu	45.75883985	3.1277826865635405
 location	Indaiatuba	-23.09028	-47.21806
 location	Indang	14.1958306	120.8784148
 location	Independencia	-33.41447275	-70.66595560996643
+location	Indian River County	27.7041555	-80.5894422
 location	Indianapolis	39.7684	-86.1581
 location	Inezgane	30.3562929	-9.5459347
 location	Inga	-7.2904513	-35.6109945
@@ -5631,6 +5644,7 @@ location	Lipnowski	52.8156762	19.1696988941429
 location	Lipova	49.2616548	21.4814297
 location	Lipowa	49.6748012	19.0940283
 location	Lippelo	51.041285	4.258686
+location	Lipscomb County	36.2695629	-100.2711772
 location	Lipsko	51.158513	21.6490099
 location	Liptovska Teplicka	48.9665599	20.089061
 location	Liptovsky Mikulas	49.0832482	19.6164972
@@ -6115,6 +6129,8 @@ location	Marlboro County	34.5810346	-79.6742033
 location	Marlin	31.3076024	-96.8923535
 location	Marmande	44.5007939	0.164274
 location	Marquette County	43.8122244	-89.3926785
+location	Marquette County MI	46.4481521	-87.6305899
+location	Marquette County WI	43.8122244	-89.3926785
 location	Marracuene	-25.7301368	32.65863466179495
 location	Marratxí	39.6272	2.7572
 location	Marsat	45.8772222	3.0825
@@ -7142,6 +7158,7 @@ location	Ohrid	41.1170203	20.8017387
 location	Oisterwijk	51.568179	5.211873
 location	Ojacastro	42.3467292	-3.0049378
 location	Ojedo	43.1610018	-4.6111361
+location	Okaloosa County	30.6765961	-86.6037748
 location	Okanogan County	48.361262	-119.5833869
 location	Okara	30.8091281	73.4493301
 location	Okhaldhunga	27.33630235	86.44894555904452
@@ -7528,6 +7545,7 @@ location	Patrocinio	-18.9408294	-46.9926624
 location	Patrocinio Paulista	-20.6383609	-47.2801241
 location	Patu	-6.1006213	-37.6385148
 location	Paty do Alferes	-22.4272703	-43.4219523
+location	Patzicia	14.632440299999999	-90.92936960655643
 location	Pau	43.2957547	-0.3685668
 location	Pau Brasil	-15.4645802	-39.6518409
 location	Pau Dos Ferros	-6.1124964	-38.2062628
@@ -8156,6 +8174,7 @@ location	Quetzaltenango	14.8464612	-91.5194208
 location	Quevaucamps	50.720840	3.289101
 location	Quevedo	-1.396433	-79.549465
 location	Quévy	50.369910	3.951226
+location	Quezaltepeque	14.61148735	-89.44776513890977
 location	Quezon City	14.6509905	121.0486155
 location	Quiba	-8.041845899999998	14.349175430080138
 location	Quibala	-9.7989313	14.528201
@@ -8861,6 +8880,7 @@ location	San Francisco County	37.7749	-122.4194
 location	San Francisco CR	9.9950234	-84.1279718
 location	San Francisco de Dos Rios	9.9084178	-84.0594842
 location	San Francisco de Mostazal	-33.9799035	-70.7121737
+location	San Francisco El Alto	14.945113	-91.443109
 location	San Francisco PA	8.990150	-79.506474
 location	San Germán County	18.0808972	-67.0408635
 location	San Guillermo	-33.350998	-61.4428099
@@ -8918,6 +8938,7 @@ location	San Martin AR	-34.5762765	-58.5388435
 location	San Martin BA	-38.736892350000005	-62.27364309899731
 location	San Martin de los Andes	-40.1568	-71.3525755
 location	San Martín de Porres	8.11680415	-80.95158404170274
+location	San Martin Jilotepeque	14.834153950000001	-90.77311995248066
 location	San Martin MZ	-32.8660224	-68.8655966
 location	San Martin PA	9.20218555	-79.24000267467781
 location	San Mateo County	37.438721	-122.348737
@@ -9077,11 +9098,13 @@ location	Santa Cruz de Bezana	43.4429266	-3.9048376
 location	Santa Cruz de Lorica	9.238594101122898	-75.81619916716095
 location	Santa Cruz De Mudela	38.6419862	-3.4666934
 location	Santa Cruz De Tenerife	28.469648	-16.2540884
+location	Santa Cruz del Quiche	15.02328735	-91.12739451685866
 location	Santa Cruz do Capibaribe	-7.948019	-36.206092
 location	Santa Cruz do Rio Pardo	-22.9060715	-49.6277378
 location	Santa Cruz do Sul	-29.7141869	-52.4285914
 location	Santa Cruz EC	-0.62881505	-90.3638752022324
 location	Santa Eugenia de Berga	41.9000058	2.283319
+location	Santa Eulalia	15.74771805	-91.30883001507874
 location	Santa Eulàlia de Ronçana	41.6523952	2.229264
 location	Santa Fe AR	-31.61799171769444	-60.70471255354044
 location	Santa Fe County	35.4859674	-106.0135507
@@ -9108,6 +9131,7 @@ location	Santa Luzia MG	-19.7702097	-43.8505291
 location	Santa Margalida	39.7033676	3.1026602
 location	Santa Margarida de Montbui	41.5746303	1.6087408
 location	Santa Maria	-29.6860512	-53.8069214
+location	Santa María Cahabón	15.5980356	-89.73438102889162
 location	Santa María Chiquimula	15.0296151	-91.329326
 location	Santa Maria de Cayon	43.30976	-3.85548
 location	Santa Maria de Corcó	42.0340216	2.3697082
@@ -9167,6 +9191,7 @@ location	Santiago de Cartes	43.3355848	-4.0651949
 location	Santiago de Compostela	42.8782	8.5448
 location	Santiago de Puriscal	9.8484405	-84.3132776
 location	Santiago PA	8.1097491	-80.9753886
+location	Santiago Sacatepequez	14.64120575	-90.67866924324778
 location	Santibanez	43.28626	-4.24253
 location	Santillana	43.3906511	-4.108048
 location	Santillana Del Mar	43.3906511	-4.108048
@@ -9710,6 +9735,7 @@ location	Sombreffe	50.529666132703525	4.602426167675574
 location	Sombrio	-29.107985	-49.632776
 location	Someren	51.38632235	5.688884477579495
 location	Somerset County	40.5675084	-74.6189556
+location	Somerset County MD	38.0630795	-75.8745873
 location	Somervell County	32.2275813	-97.7724138
 location	Somiedo	43.102801150000005	-6.251455743067364
 location	Somo	43.2964299	-3.6030979
@@ -9835,6 +9861,7 @@ location	St Tammany Parish	30.438441	-89.935519
 location	St Yorre	46.0658287	3.4614685
 location	St. Anton	47.121254	10.265750
 location	St. Anton am Arlberg	47.1288996	10.2663669
+location	St. Charles County	38.7877791	-90.6747372
 location	St. Clair County	38.4616972	-89.9324347
 location	St. Clair County AL	33.7086407	-86.3364
 location	St. Clair County IL	38.4616972	-89.9324347
@@ -10194,6 +10221,7 @@ location	Tchaoudjo	8.9826228	1.1338481090323635
 location	Tczew	54.09087615	18.77794352885673
 location	Teba	36.9834861	-4.9202568
 location	Tecate	32.5653831	-116.6298787
+location	Tecpán	14.8077626	-91.01476940672575
 location	Tefe	-3.3485276	-64.7102278
 location	Tehama County	40.1251334	-122.2015529
 location	Tehatta	23.730511	88.527338
@@ -11457,6 +11485,7 @@ location	Yeumbeul	14.7722	-17.3581
 location	Yevpatoriya	45.1907635	33.3679049
 location	Yffiniac	48.4846721	-2.6768534
 location	Yichun	27.804179	114.414177
+location	Yigo	13.535204499999999	144.89715694673106
 location	Yingtan	28.258501	117.043863
 location	Yiwu	29.3063535	120.0702682
 location	Yolo County	38.7184542	-121.9059001
@@ -11678,6 +11707,7 @@ division	Acre	-8.862769	-70.079844
 division	Ad-Dawhah	25.2856329	51.5264162
 division	Adamawa	9.5129772	12.3881887
 division	Adan	29.231698918007556	48.068968448266425
+division	Adana	36.9863599	35.3252861
 division	Addis Ababa	9.0107934	38.7612525
 division	Addu	-0.64149345	73.16299780292195
 division	Adıyaman	37.900714	38.309879
