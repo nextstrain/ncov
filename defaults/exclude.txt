@@ -10526,3 +10526,9 @@ USA/MA-UMASSMED-P006E06/2020
 # possible wrong year, divergence too high
 Germany/SN-RKI-I-213505/2020
 USA/TN-VUMC-000296/2020
+
+Netherlands/NoordHolland_2/2020
+GBR/Rem2.5p13.5/2020
+
+USA/TX-HMH-MCoV-40891/2020
+USA/CA-CDPH1184/2020
