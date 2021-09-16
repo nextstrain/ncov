@@ -31,3 +31,4 @@ Residence XXX
 residence XXX
 Residence: XXX
 Patient From XXX  (interpreted as patient residence)
+Patient from XXX
