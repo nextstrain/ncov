@@ -86,6 +86,11 @@
     {
       "key": "genbank_accession",
       "type": "categorical"
+    },
+    {
+      "key": "epiweek",
+      "title": "Epiweek (CDC)",
+      "type": "continuous"
     }
   ],
   "geo_resolutions": [
@@ -108,7 +113,8 @@
     "region",
     "country",
     "division",
-    "host"
+    "host",
+    "epiweek"
   ],
   "panels": [
     "tree",
