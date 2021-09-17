@@ -1156,6 +1156,7 @@ location	Bocaina do Sul	-27.745494	-49.942279
 location	Bochnia	49.974684249999996	20.425329198706468
 location	Bocholt	51.183426	5.558851
 location	Bochotnica	51.3397608	21.9925412
+location	Boćki	52.6512834	23.0426375
 location	Bodeli	22.2749233	73.7165607
 location	Bodensdorf	46.6860885	13.9725749
 location	Bodzanow	50.3366022	17.3839717
@@ -1293,7 +1294,6 @@ location	Bovesse	50.5143641	4.779285182968074
 location	Bowie County	33.4198886	-94.4479626
 location	Bozeman	45.6794293	-111.044047
 location	Bozen	46.4981125	11.3547801
-location	Boćki	52.6512834	23.0426375
 location	Bąkowice	50.93141	17.6995762
 location	Bra	50.3244046	5.7337839
 location	Brackenfell	-33.877398609128875	18.69249068258294
@@ -2036,6 +2036,7 @@ location	Chester County PA	39.9829308	-75.7652424
 location	Chester County SC	34.6859896	-81.1545073
 location	Chesterfield County	37.3859982	-77.578509
 location	Chesterfield County SC	34.6500578	-80.1417843
+location	Chesterfield County VA	37.3859982	-77.578509
 location	Chhota Udaipur	22.3048651	74.0126114
 location	Chia	4.8704614500000005	-74.03632158198437
 location	Chicago	41.858966	-87.637242
@@ -2101,6 +2102,7 @@ location	Chrášťany	50.064666	14.929982
 location	Chris Hani	-31.5796424	28.7239077
 location	Christian County	39.5212598	-89.2829783
 location	Christian County IL	39.5212598	-89.2829783
+location	Christian County MO	36.9586087	-93.1692896
 location	Chroberz	50.422448	20.5558784
 location	Chroscice	50.783878	17.8153199
 location	Chroscina	50.6654559	17.8139394
@@ -2176,6 +2178,7 @@ location	Clark County OH	39.9229676	-83.7905959
 location	Clark County WA	45.7669047	-122.4940866
 location	Clark County WI	44.7188146	-90.6214928
 location	Clarke County	31.659134	-87.8192486
+location	Clarke County AL	31.659134	-87.8192486
 location	Clarke County GA	33.9597677	-83.376398
 location	Clatsop County	45.980728	-123.6687499
 location	Clavier	50.4119432	5.3576794
@@ -9737,6 +9740,7 @@ location	Sombrio	-29.107985	-49.632776
 location	Someren	51.38632235	5.688884477579495
 location	Somerset County	40.5675084	-74.6189556
 location	Somerset County MD	38.0630795	-75.8745873
+location	Somerset County NJ	40.5675084	-74.6189556
 location	Somervell County	32.2275813	-97.7724138
 location	Somiedo	43.102801150000005	-6.251455743067364
 location	Somo	43.2964299	-3.6030979
@@ -12633,6 +12637,8 @@ division	Jhenaidha	23.547692	89.175424
 division	Jiangsu	33.077761	119.825116
 division	Jiangxi	27.458973	115.535326
 division	Jihlava	49.3984	15.5870
+division	Jihocesky Kraj	49.0864548	14.600172741470452
+division	Jihomoravsky Kraj	49.1249179	16.682771628867208
 division	Jilin	42.9995032	125.9816054
 division	Jining	35.4125047	116.5849266
 division	Johnson Atoll	16.730014876272758	-169.53297092697503
@@ -12693,6 +12699,7 @@ division	Kardzhali	41.57161625	25.399198889947556
 division	Karelia	62.6194031	33.4920267
 division	Kargil	34.5539	76.1349
 division	Karlovac County	45.2826564	15.4190997
+division	Karlovarsky Kraj	50.1753532	12.806086309968043
 division	Karlovy Vary	50.2304694	12.8710769
 division	Karnali	29.2989975	82.47499387507119
 division	Karnataka	15.3173	75.7139
@@ -12795,6 +12802,7 @@ division	Kozani	40.3007259	21.7883119
 division	Krabi	8.1111653	99.1097298
 division	Kragujevac	44.0125745	20.91877
 division	Kraljevo	43.7238	20.6873
+division	Kralovehradecky Kraj	50.40939265	15.68500539430977
 division	Kralovehradecky Region	50.40939265	15.68500539430977
 division	Kranj	46.2432635	14.3549501
 division	Kranjska Gora	46.485132	13.7843957
@@ -12851,6 +12859,7 @@ division	Lalitpur	27.6676649	85.3183888179628
 division	Lambarene	-0.695844	10.2215963
 division	Lambayeque	-6.707066	-79.907239
 division	Lamentin	16.2703423	-61.6303025
+division	Lampang	18.6799728	99.7332501
 division	Lamphun	18.2661422	98.96749
 division	Lampung	-4.8555039	105.0272986
 division	Lamu	-2.2675396	40.9010641
@@ -13393,6 +13402,7 @@ division	Pest County	47.3715943	19.3452624
 division	Petah Tikva	32.0840	34.8878
 division	Peten	16.9	-89.9
 division	Pezinok	48.2854539	17.270194
+division	Phang Nga	8.5058295	98.5680335
 division	Phatthalung	7.543525	99.9971582
 division	Phayao	19.341673	100.1854539
 division	Phetchabun	16.4165039	101.1595234
@@ -13425,6 +13435,7 @@ division	Pljevlja	43.3565611	19.3584715
 division	Ploiesti	44.9417468	26.0236504
 division	Plovdiv	42.1418541	24.7499297
 division	Plzeň Region	49.7477415	13.3775249
+division	Plzensky Kraj	49.522810199999995	13.206311785137638
 division	Podgorica	42.4415238	19.2621081
 division	Podkarpackie	49.9927121	22.177107
 division	Podlaskie	53.2668455	22.8525787
@@ -13892,6 +13903,7 @@ division	Tessin	46.3356506	8.753706
 division	Tete	-15.5205193	32.7682742
 division	Tetovo	42.0068297	20.9728556
 division	Texas	31.146868	-99.188758
+division	Thaa Atoll	2.36123205	73.13345167817616
 division	Thai Binh	20.5296832	106.3876068
 division	Thai Nguyen	21.592477	105.8435398
 division	Thailand	14.8971921	100.83273
@@ -13910,6 +13922,7 @@ division	Tierra del Fuego	-54.4071064	-67.8974895
 division	Tilburg	51.567213	5.047957
 division	Timbuktu	16.7719091	-3.0087272
 division	Timis	45.69131845	21.632126831488254
+division	Timisoara	45.7538355	21.2257474
 division	Timor-Leste	-8.809397	125.909527
 division	Tinghir	31.52133	-5.531164
 division	Tipaza	36.52727415	2.16836872941747
@@ -14021,6 +14034,7 @@ division	Uva Province	7.0788965	81.336532
 division	Uzbekistan	41.32373	63.9528098
 division	Uzhgorod	48.6223732	22.3022569
 division	Uzice	43.852499	19.847479
+division	Vaavu Atoll	3.4708637	73.545913
 division	Vaduz	47.1392862	9.5227962
 division	Västra Götaland	58.203026949999995	12.649730022427754
 division	Vakinankaratra	-19.71130945	46.83554814522457
