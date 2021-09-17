@@ -22,7 +22,7 @@ conda install -n base -c conda-forge mamba
 ```
 
 Create a Conda environment named ``nextstrain``.
-This command will install [Git](https://git-scm.com/), [Snakemake](https://snakemake.readthedocs.io/en/stable/), and [Nextstrain's full toolkit](https://docs.nextstrain.org/en/latest/install-nextstrain.html), the tools you'll need to work through this tutorial.
+This command will also install [Git](https://git-scm.com/), [Snakemake](https://snakemake.readthedocs.io/en/stable/), and [Nextstrain's full toolkit](https://docs.nextstrain.org/en/latest/install-nextstrain.html), the tools you'll need to work through this tutorial.
 
 ```bash
 mamba create -n nextstrain -c conda-forge -c bioconda \
