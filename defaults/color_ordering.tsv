@@ -1028,6 +1028,7 @@ location	Kargil
 location	Ahungalla
 location	Ambalangoda
 location	Balapitiya
+location	Bataganwila
 location	Elpitiya
 location	Karapitiya
 location	Koggala
@@ -1043,6 +1044,7 @@ location	Eheliyagoda
 location	Embilipitiya
 location	Kegalle
 location	Kolonna
+location	Opanayaka
 location	Pelmadulla
 location	Rathnapura
 location	Ratnapura
@@ -1054,6 +1056,7 @@ location	Avissawella
 location	Bandaragama
 location	Biyagama
 location	Bope
+location	Boralasgamuwa
 location	Boralesgamuwa
 location	Dehiwala
 location	Dematagoda
@@ -4803,6 +4806,7 @@ location	Marange Silvange
 location	Maxeville
 location	Metz
 location	Meuse
+location	Meuthe-Et-Moselle
 location	Meyenheim
 location	Montigny Les Metz
 location	Mulhouse
@@ -9575,6 +9579,7 @@ location	Cana
 location	Chonkovce
 location	Chrast nad Hornadom
 location	Dobsina
+location	Druzsteva Pri Hornade
 location	Gelnica
 location	Gocovo
 location	Haj
@@ -9630,6 +9635,7 @@ location	Spišské Tomášovce
 location	Spišské Vlachy
 location	Streda nad Bordrogom
 location	Strážske
+location	Svatus
 location	Trebejov
 location	Trebisov
 location	Turna nad Bodvou
@@ -11359,7 +11365,6 @@ location	Altamira
 location	Ananindeua
 location	Augusto Correa
 location	Baiao
-location	Belem
 location	Belém
 location	Benevides
 location	Braganca
@@ -11367,7 +11372,6 @@ location	Brasil Novo
 location	Breves
 location	Bujaru
 location	Cachoeira do Arari
-location	Cameta
 location	Cametá
 location	Canaa Doa Carajas
 location	Castanhal
@@ -11421,7 +11425,7 @@ location	Almirante Tamandare
 location	Ampere
 location	Apucarana
 location	Arapongas
-location	Araruna PR
+location	Araruna (Paraná)
 location	Araucaria
 location	Assis Chateaubriand
 location	Astorga BR
@@ -12164,7 +12168,7 @@ location	Santa Isabel BR
 location	Santa Salete
 location	Santana de Parnaiba
 location	Santo Anastacio
-location	Santo Andre SP
+location	Santo Andre (São Paulo)
 location	Santos
 location	Sao Bernardo do Campo
 location	Sao Caetano do Sul
@@ -13016,7 +13020,7 @@ location	Alagoa Nova
 location	Alcantil
 location	Alhandra
 location	Amparo (Paraiba)
-location	Araruna PB
+location	Araruna (Paraiba)
 location	Areia
 location	Areia de Baraunas
 location	Barra de Santana
@@ -13069,7 +13073,7 @@ location	Riacho Dos Cavalos
 location	Rio Tinto
 location	Salgado de Sao Felix
 location	Santa Rita BR
-location	Santo Andre PB
+location	Santo Andre (Paraiba)
 location	Sao Bento
 location	Sao Jose de Piranhas
 location	Sao Jose do Brejo do Cruz
@@ -14107,6 +14111,7 @@ location	Cowlitz County
 location	Douglas County WA
 location	Ferry County
 location	Franklin County WA
+location	Garfield County
 location	Grant County WA
 location	Grays Harbor County
 location	Island County
