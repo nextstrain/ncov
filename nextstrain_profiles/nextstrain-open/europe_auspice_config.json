@@ -44,6 +44,11 @@
       "type": "continuous"
     },
     {
+      "key": "mutational_fitness",
+      "title": "Mutational fitness",
+      "type": "continuous"
+    },  
+    {
       "key": "division",
       "title": "Admin Division",
       "type": "categorical"
