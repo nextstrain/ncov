@@ -10550,4 +10550,29 @@ Italy/VEN-IZSVe-21RS8085-7_TV/2020
 USA/DC-DFS-PHL-01331/2020
 USA/TX-HHD-210729KVI6183/2020
 
+# Large stretches of gaps (often >1000)
+Greece/2017551/2020
+India/GJ-INSACOG-GBRC2186/2020
+Israel/n14284/2020
+Kazakhstan/NRL-KZY-273S/2021
+Netherlands/Dalen_1363624/2020
+Netherlands/Delft_1363424/2020
+Netherlands/Diemen_1363454/2020
+Netherlands/Friesland_27/2020
+Netherlands/Gelderland_58/2020
+Netherlands/Gelderland_68/2020
+Netherlands/Gelderland_107/2020
+Netherlands/Houten_1363498/2020
+Netherlands/Limburg_6/2020
+Netherlands/NA_141/2020
+Netherlands/NA_248/2020
+Netherlands/NA_547/2020
+Netherlands/NA_599/2020
+Netherlands/NA_666/2020
+Netherlands/NoordBrabant_72/2020
+Netherlands/Utrecht_13/2020
+Netherlands/ZuidHolland_166/2020
+Netherlands/ZuidHolland_213/2020
+USA/ID-IBL-637649/2020
+USA/TX-HMH-MCoV-41497/2020
 
