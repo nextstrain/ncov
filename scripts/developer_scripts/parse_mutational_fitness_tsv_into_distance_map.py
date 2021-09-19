@@ -48,7 +48,9 @@ if __name__ == '__main__':
         structured_mapping[gene][pos_aa].append(entry)
 
     # output this mapping as an augur distance compatable JSON
-    json_output = { "default": 0.0 }
+    # include very slightly negative default to prevent heavily diverged artifactual genomes from
+    # appearing as high fitness
+    json_output = { "default": -0.003 }
     json_output["map"] = structured_mapping
 
     with open(args.output, 'w') as f:
