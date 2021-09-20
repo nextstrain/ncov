@@ -111,7 +111,8 @@ Quarantine: Airport Quarantine Station in Japan; Travel history: XXX
 Airport Quarantine Station in Japan; Travel history: XXX
 imported from XXX
 travel history to XXX
+Travel histroy to XXX
+Traveled: XXX
 travelled from XXX
-Others: XXX
 Patient traveled to XXX
 Other : Imported Case from XXX
