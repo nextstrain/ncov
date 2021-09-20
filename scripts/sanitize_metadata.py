@@ -16,6 +16,39 @@ LOCATION_FIELDS = (
 )
 
 
+def parse_new_column_names(renaming_rules):
+    """Parse the mapping of current to new column names from the given list of renaming rules.
+
+    Parameters
+    ----------
+    renaming_rules : list[str]
+        A list of strings mapping an old column name to a new one delimited by an equal symbol (e.g., "old_column=new_column").
+
+    Returns
+    -------
+    dict :
+        A mapping of new column names for each old column name.
+
+    >>> parse_new_column_names(["old=new", "new=old"])
+    {'old': 'new', 'new': 'old'}
+    >>> parse_new_column_names(["old->new"])
+    {}
+
+    """
+    new_column_names = {}
+    for rule in renaming_rules:
+        if "=" in rule:
+            old_column, new_column = rule.split("=")
+            new_column_names[old_column] = new_column
+        else:
+            print(
+                f"WARNING: missing mapping of old to new column in form of 'Virus name=strain' for rule: '{rule}'.",
+                file=sys.stderr
+            )
+
+    return new_column_names
+
+
 def parse_location_string(location_string, location_fields):
     """Parse location string from GISAID into the given separate geographic scales
     and return a dictionary of parse values by scale.
@@ -67,6 +100,35 @@ def parse_location_string(location_string, location_fields):
     locations.update(dict(zip(location_fields, values)))
 
     return locations
+
+
+def strip_prefixes(strain_name, prefixes):
+    """Strip the given prefixes from the given strain name.
+
+    Parameters
+    ----------
+    strain_name : str
+        Name of a strain to be sanitized
+    prefixes : list[str]
+        A list of prefixes to be stripped from the strain name.
+
+    Returns
+    -------
+    str :
+        Strain name without any of the given prefixes.
+
+
+    >>> strip_prefixes("hCoV-19/RandomStrain/1/2020", ["hCoV-19/", "SARS-CoV-2/"])
+    'RandomStrain/1/2020'
+    >>> strip_prefixes("SARS-CoV-2/RandomStrain/2/2020", ["hCoV-19/", "SARS-CoV-2/"])
+    'RandomStrain/2/2020'
+    >>> strip_prefixes("hCoV-19/RandomStrain/1/2020", ["SARS-CoV-2/"])
+    'hCoV-19/RandomStrain/1/2020'
+
+    """
+    joined_prefixes = "|".join(prefixes)
+    pattern = f"^({joined_prefixes})"
+    return re.sub(pattern, "", strain_name)
 
 
 def resolve_duplicates(metadata, strain_field, database_id_columns, error_on_duplicates=False):
@@ -214,18 +276,8 @@ if __name__ == '__main__':
             axis=1
         ).drop(columns=[args.parse_location_field])
 
-    new_column_names = {}
-    if args.rename_fields:
-        # Rename specific columns using rules like "Virus name=strain".
-        for rule in args.rename_fields:
-            if "=" in rule:
-                old_column, new_column = rule.split("=")
-                new_column_names[old_column] = new_column
-            else:
-                print(
-                    f"WARNING: missing mapping of old to new column in form of 'Virus name=strain' for rule: '{rule}'.",
-                    file=sys.stderr
-                )
+    # Parse mapping of old column names to new.
+    new_column_names = parse_new_column_names(args.rename_fields)
 
     # Rename columns as needed.
     if len(new_column_names) > 0:
@@ -247,15 +299,8 @@ if __name__ == '__main__':
         sys.exit(1)
 
     if args.strip_prefixes:
-        prefixes = "|".join(args.strip_prefixes)
-        pattern = f"^({prefixes})"
-
         metadata[strain_field] = metadata[strain_field].apply(
-            lambda strain: re.sub(
-                pattern,
-                "",
-                strain
-            )
+            lambda strain: strip_prefixes(strain, args.strip_prefixes)
         )
 
     # Replace whitespaces from strain names with underscores to match GISAID's
