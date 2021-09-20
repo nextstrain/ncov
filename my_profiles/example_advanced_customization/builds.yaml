@@ -147,23 +147,16 @@ files:
 
 #########
 ## Finally, you can specify what traits you want to reconstruct, per build.
-## If you have exposure information for a trait, specify it as well, so that
-## this is incorporated into the final run. (Otherwise, it will simply be excluded)
 
 ## First, specify the traits you want to reconstruct, per build:
 ## (uncomment to use!)
 #traits:
 #  switzerland: # for the switzerland build
-#    columns: ["location", "division_exposure"]
+#    columns: ["location", "division"]
 
 ## ^ Note that the swiss samples do not have 'location' (typically, city)
 ## information, so this command would fail as-is - but for many other places
 ## there are samples with 'location' information.
-
-#exposure:
-#  switzerland: #for the same build, incorporate division exposure information
-#    trait: "division"
-#    exposure: "division_exposure"
 
 ##########
 ## If you want to modify parameters for the steps in the build - augur commands -

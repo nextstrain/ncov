@@ -88,18 +88,6 @@ def _get_metadata_by_wildcards(wildcards):
     """
     return _get_metadata_by_build_name(wildcards.build_name)
 
-def _get_sampling_trait_for_wildcards(wildcards):
-    if wildcards.build_name in config["exposure"]:
-        return config["exposure"][wildcards.build_name]["trait"]
-    else:
-        return config["exposure"]["default"]["trait"]
-
-def _get_exposure_trait_for_wildcards(wildcards):
-    if wildcards.build_name in config["exposure"]:
-        return config["exposure"][wildcards.build_name]["exposure"]
-    else:
-        return config["exposure"]["default"]["exposure"]
-
 def _get_trait_columns_by_wildcards(wildcards):
     if wildcards.build_name in config["traits"]:
         return config["traits"][wildcards.build_name]["columns"]

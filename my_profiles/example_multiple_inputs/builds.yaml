@@ -47,8 +47,6 @@ files:
   auspice_config: "my_profiles/example_multiple_inputs/my_auspice_config.json"
   description: "my_profiles/example_multiple_inputs/my_description.md"
 
-skip_travel_history_adjustment: True
-
 traits:
   multiple-inputs:
     sampling_bias_correction: 2.5

@@ -65,61 +65,31 @@ builds:
 filter:
   exclude_where: "division='USA' purpose_of_sequencing='S dropout'"
 
-# if different exposure traits should be used for some builds, specify here
-# otherwise the default exposure in defaults/parameters.yaml will used
-exposure:
-  global:
-    trait: "region"
-    exposure: "region_exposure"
-
-  africa:
-    trait: "country"
-    exposure: "country_exposure"
-
-  asia:
-    trait: "country"
-    exposure: "country_exposure"
-
-  europe:
-    trait: "country"
-    exposure: "country_exposure"
-
-  south-america:
-    trait: "country"
-    exposure: "country_exposure"
-
-  north-america:
-    trait: "division"
-    exposure: "division_exposure"
-
-  oceania:
-    trait: "division"
-    exposure: "division_exposure"
 
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
 traits:
   global:
     sampling_bias_correction: 2.5
-    columns: ["region_exposure"]
+    columns: ["region"]
   europe:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure"]
+    columns: ["country"]
   africa:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure"]
+    columns: ["country"]
   asia:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure"]
+    columns: ["country"]
   south-america:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure"]
+    columns: ["country"]
   north-america:
     sampling_bias_correction: 2.5
-    columns: ["division_exposure"]
+    columns: ["division"]
   oceania:
     sampling_bias_correction: 2.5
-    columns: ["division_exposure"]
+    columns: ["division"]
 
 files:
   description: "nextstrain_profiles/nextstrain-gisaid/nextstrain_description.md"

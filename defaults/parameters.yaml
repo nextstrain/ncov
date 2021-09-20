@@ -156,12 +156,7 @@ logistic_growth:
 traits:
   default:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure"]
-
-exposure:
-  default:
-    trait: "country"
-    exposure: "country_exposure"
+    columns: ["country"]
 
 # Default subsampling schemes designed for different geographic scales. With the
 # exception of the "global" region, most subsampling schemes define a large
