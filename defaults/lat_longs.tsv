@@ -8987,6 +8987,7 @@ location	San Pedro de la Paz	-36.8414183	-73.1039909
 location	San Pedro de Pegas	42.4507713	-5.8742039
 location	San Pedro Pinula	14.6629921	-89.8476479
 location	San Pedro Sacatepequez	14.69497515	-90.64233914093663
+location	San Pedro Town	17.90265725	-87.98179870404411
 location	San Pol de Mar	41.6030132	2.6238092
 location	San Rafael	-34.6126025	-68.330514
 location	San Rafael AR	-34.6126025	-68.330514
@@ -11772,6 +11773,7 @@ division	Algiers	36.70649229138003	3.0544471144244483
 division	Alif Alif Atoll	4.0518934	72.7276959
 division	Alifu Dhaalu Atoll	3.5993756505411025	72.82595552226857
 division	Almaty	43.2363924	76.9457275
+division	Aloatra-Mangoro	-17.93579010617825	48.30432131939425
 division	Alta Verapaz	15.5	-90.333333
 division	Altai Krai	52.6932243	82.6931424
 division	Alto Paraguay	-20.5	-59.166667
@@ -11803,6 +11805,7 @@ division	Antigua	17.086	-61.78629453333333
 division	Antigua and Barbuda	17.2234721	-61.9554608
 division	Antioquia	6.709191	-75.484721
 division	Antofagasta	-23.6509	-70.3975
+division	Antsiranana	-12.2779134	49.2913394
 division	Antwerpen	51.225698	4.420885
 division	Aomori	40.886943	140.590121
 division	Appenzell Ausserrhoden	47.3960076	9.3705839
@@ -11847,6 +11850,7 @@ division	Athens	37.987832	23.726319
 division	Atlantico	10.681025	-74.955752
 division	Atlántida	15.8172492	-87.11469350954292
 division	Atsimo-Andrefana	-23.0907053	44.40133257710572
+division	Atsinanana	-18.87255782473823	48.9338102093968
 division	Attica	37.9946543	23.79940251269328
 division	Attock	33.7695323	72.3610911
 division	Atyrau Region	47.6605827	50.806203
@@ -11984,6 +11988,7 @@ division	Bolivia	-17.0568696	-64.9912286
 division	Bomet	-0.7196054000000001	35.23963801252495
 division	Bonaire	12.1558998	-68.242427
 division	Bong	6.927103677721825	-9.631899105957558
+division	Bongolava	-18.567679963367897	46.229277259149626
 division	Bono East Region	7.8035236	-1.0876492
 division	Bono Region	7.6761791	-2.4735401
 division	Bonthe	7.5292766	-12.5131866
@@ -12096,6 +12101,7 @@ division	Cauca	2.473774	-76.864221
 division	Causeni	46.6395913	29.4056631
 division	Cavan	54.03497495	-7.2937022825583675
 division	Cayman Islands	19.703182249999998	-79.9174627243246
+division	Cayo	16.94779405	-88.89088792620106
 division	Cazin	44.9690	15.9432
 division	Ceará	-5.4984	-39.3206
 division	Čelinac	44.724001	17.324755
@@ -12204,6 +12210,7 @@ division	Cordillera Administrative Region	17.35971005	121.07525291788875
 division	Cordoba AR	-31.402893	-64.191608
 division	Cordoba CO	8.342953	-75.757692
 division	Cork	51.895349	-8.474381
+division	Corozal	18.2242711	-88.29194387759722
 division	Corrientes	-28.5912315	-57.9394658
 division	Corse	42.188089649999995	9.068413771427695
 division	Cortés	15.477399850000001	-88.03421491859675
@@ -12318,6 +12325,7 @@ division	East Nusa Tenggara	-8.5656787	120.6978581
 division	Eastern Bohemia	50.09432848142632	16.008774307550546
 division	Eastern Cape	-32.344458	26.497832
 division	Eastern Macedonia and Thrace	41.1271333	25.09323306309048
+division	Eastern Paraguay	-24.515009819513484	-56.26350946272442
 division	Eastern Province	23.3036077	50.1258804
 division	Eastern Province LK	7.64857989585601	81.52923095002983
 division	Eastern Province SA	23.3036077	50.1258804
@@ -12370,6 +12378,7 @@ division	Fejer	47.0939434	18.6088562
 division	Fergana Region	40.5	71.25
 division	Ferizaj	42.3682168	21.1532848
 division	Ferkessedougou	9.5939778	-5.1975952
+division	Fianarantsoa	-21.456444	47.085149
 division	Fiji	-18.1239696	179.0122737
 division	Finland	61.751734	26.186437
 division	Flacq	-20.221731249999998	57.72234951618523
@@ -12972,6 +12981,7 @@ division	Lualaba	-9.69691495	23.02254385532696
 division	Luanda	-8.8272699	13.2439512
 division	Luapula	-11.9004565	29.7949916
 division	Lubelskie	50.8586338	22.7732404
+division	Lubombo	-26.55452	31.86191156647494
 division	Lubuskie	52.18772680160436	15.244301130159887
 division	Lucerne	47.0502	8.3093
 division	Lucknow	26.851073	80.934261
@@ -12998,6 +13008,7 @@ division	Magallanes	-53.3527518	-71.5547782
 division	Magdalena	10.258546	-74.366995
 division	Maglaj	44.5455	18.1034
 division	Maha Sarakham	16.1861887	103.2955401
+division	Mahajanga	-15.7181492	46.3172577
 division	Maharashtra	19.7515	75.7139
 division	Maiduguri	11.8395375	13.1536214
 division	Maine	45.709097	-68.8590201
@@ -13354,6 +13365,7 @@ division	Ontario	44.429	-79.377
 division	Oost-Vlaanderen	51.0375423	3.8117830113324556
 division	Oostende	51.210615	2.914232
 division	Opolskie	50.8918612	17.9321175
+division	Orange Walk	17.78310235	-88.85774666564073
 division	Orapa	-21.3361957	25.364964
 division	Oravska Lesna	49.3689979	19.1852951
 division	Orebro	59.2753	15.2134
@@ -13849,6 +13861,7 @@ division	Sri Lanka	7.75	80.75
 division	St Eustatius	17.4865252	-62.9653116
 division	St-Louis	16.0326	-16.4818
 division	St. Lucia	13.8250489	-60.975036
+division	Stann Creek	16.9666599	-88.2247368
 division	Stara Boleslav	50.1999551	14.6786406
 division	Stara Zagora	42.4247421	25.6257235
 division	Stavropol	44.941379850000004	43.66309345141463
@@ -13976,7 +13989,9 @@ division	Tohoku	40.7280	141.2578
 division	Tokat	40.3235	36.5522
 division	Tokushima	34.0698307	134.5550353
 division	Tokyo	35.683441	139.766131
+division	Toledo	16.28022575	-88.55432196222363
 division	Tolemaida	4.2448718	-74.6580418
+division	Toliara	-23.354173	43.66966
 division	Tolima	4.065944	-75.215716
 division	Tongeren	50.774275	5.464625
 division	Topolcany	48.5594345	18.1754394

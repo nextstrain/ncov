@@ -2124,6 +2124,7 @@ location	Hukuntsi
 location	Digawana
 location	Jwaneng
 location	Kanye
+location	Metlojane
 location	Mmathethe
 
 # Kgatleng District
@@ -2142,13 +2143,17 @@ location	Molepolole
 location	Mamuno
 
 # Central District BW
+location	Kgagodi
 location	Mabeleapudi
 location	Mahalapye
 location	Malatswai
 location	Mmashoro
+location	Moiyabana
 location	Paje
 location	Palapye
+location	Selebe Phikwe
 location	Selebi Phikwe
+location	Seolwane
 location	Serowe
 location	Sowa
 
@@ -2345,6 +2350,17 @@ location	Bindura
 # Cairo
 location	Al Matariyyah
 
+### Eswatini
+# Lubombo
+location	Siphofaneni
+location	Siteki
+
+# Manzini
+location	Matsapha
+
+# Hhohho
+location	Piggs Peak
+
 ### Malawi
 # Southern Region MW
 location	Blantyre
@@ -2421,11 +2437,26 @@ location	Meru
 location	Garissa
 
 ### Madagascar
+# Toliara
+location	Androy
+location	Anosy
+
+# Fianarantsoa
+location	Ihorombe
+location	Vatovavy-Fitovinany
+
 # Analamanga
 location	Antananarivo
 
 # Analanjirofo
 location	Fenoarivo
+
+# Mahajanga
+location	Betsiboka
+location	Sofia
+
+# Antsiranana
+location	Sava
 
 ### Somalia
 # Benadir
@@ -7258,15 +7289,13 @@ location	Plzeň
 location	Tachov
 
 # Usti nad Labem
-location	Chabarovice
 location	Chlumec
 location	Chomutov
 location	Decin
 location	Dubí
 location	Děčín
 location	Libochovice
-location	Litomerice (Ustecky Region)
-location	Litomerice (Usti nad Labem)
+location	Litomerice
 location	Litvinov
 location	Louny
 location	Most
@@ -7360,7 +7389,6 @@ location	Louňovice
 location	Malin
 location	Malinová
 location	Melnik
-location	Mlada Boleslav
 location	Mlada Boleslav I
 location	Mladá Boleslav
 location	Neratovice
@@ -10452,7 +10480,6 @@ location	Trelew
 # Rio Negro
 location	Allen
 location	Balsa las Perlas
-location	Bariloche
 location	Catriel
 location	Chinchinales
 location	Cinco Saltos
@@ -11201,11 +11228,11 @@ location	San Jose de los Arroyos
 location	Altos PY
 location	Piribebuy
 
-# Canindeyu
-location	Curuguaty
-
 # San Pedro
 location	San Estanislao
+
+# Canindeyu
+location	Curuguaty
 
 # Alto Paraguay
 location	Carmelo Peralta
@@ -11351,7 +11378,7 @@ location	Coxim
 location	Dois Irmaos do Buriti
 location	Douradinho
 location	Dourados
-location	Eldorado
+location	Eldorado (Mato Grosso do Sul)
 location	Fatima do Sul
 location	Figueirao
 location	Guia Lopes Da Laguna
@@ -12139,6 +12166,7 @@ location	Capao Bonito
 location	Capela do Alto
 location	Capivari
 location	Caraguatatuba
+location	Carapicuiba
 location	Cardoso
 location	Casa Branca
 location	Castilho
@@ -12165,6 +12193,7 @@ location	Dois Corregos
 location	Dourado
 location	Dracena
 location	Echapora
+location	Eldorado (São Paulo)
 location	Elisario
 location	Embauba
 location	Embu Das Artes
@@ -12179,6 +12208,7 @@ location	Fernandopolis
 location	Florinea
 location	Franca
 location	Francisco Morato
+location	Franco Da Rocha
 location	Galia
 location	Garca
 location	Gaviao Peixoto
@@ -12318,6 +12348,7 @@ location	Paraiso BR
 location	Paranapanema
 location	Paranapua
 location	Pardinho
+location	Pareiras
 location	Pariquera-Acu
 location	Patrocinio Paulista
 location	Paulinia
@@ -12448,6 +12479,7 @@ location	Uniao Paulista
 location	Uru
 location	Urupes
 location	Valentim Gentil
+location	Valimhos
 location	Valinhos
 location	Valparaiso BR
 location	Vargem Grande Paulista
@@ -13768,16 +13800,26 @@ location	Sincelejo
 location	Tolu
 
 # Cesar
+location	Aguachica
+location	Agustín Codazzi
+location	Becerril
+location	Chiriguaná
 location	Codazzi
+location	El Paso
+location	La Jagua de Ibirico
+location	San Diego CO
 location	Valledupar
 
 # Magdalena
 location	Ariguani
+location	Chivolo
 location	Cienaga
 location	El Banco
 location	El Piñon
 location	Fundacion
 location	Guamal
+location	Pedraza
+location	Pijiño del Carmen
 location	Plato
 location	Remolino
 location	Sabanas de San Angel
@@ -13800,6 +13842,7 @@ location	Barranquilla
 location	Soledad
 
 # La Guajira
+location	Barranca
 location	Maicao
 location	Riohacha
 
@@ -14241,6 +14284,10 @@ location	Quezaltepeque
 
 # Izabal
 location	Puerto Barrios
+
+### Belize
+# Belize
+location	San Pedro Town
 
 ### Mexico
 # Baja California
@@ -15631,18 +15678,18 @@ location	Waldo County
 location	York County ME
 
 # Puerto Rico
-location	Aguas Buenas
+location	Aguas Buenas County
 location	Bayamon
 location	Caguas
 location	Canovanas
 location	Carolina
-location	Cayey
+location	Cayey County
 location	Cidra County
-location	Coamo
-location	Dorado
+location	Coamo County
+location	Dorado County
 location	Florida PR
 location	Guaynabo
-location	Gurabo
+location	Gurabo County
 location	Humacao
 location	Manati
 location	Mayaguez
@@ -16767,6 +16814,7 @@ division	Damitta
 
 ### Eswatini
 division	Shiselweni
+division	Lubombo
 division	Manzini
 division	Mbabane
 division	Hhohho
@@ -16850,17 +16898,24 @@ division	Moheli
 division	Ngazidja
 
 ### Madagascar
+division	Toliara
 division	Atsimo-Andrefana
+division	Fianarantsoa
 division	Haute Matsiatra
 division	Amoron'i Mania
 division	Menabe
 division	Vakinankaratra
 division	Itasy
 division	Madagascar
+division	Atsinanana
 division	Analamanga
+division	Bongolava
 division	Toamasina
+division	Aloatra-Mangoro
 division	Analanjirofo
 division	Boeny
+division	Mahajanga
+division	Antsiranana
 division	Diana
 
 ### Somalia
@@ -17900,8 +17955,8 @@ division	Alto Paraná
 division	Caaguazu
 division	Asuncion
 division	Cordillera
-division	Canindeyu
 division	San Pedro
+division	Canindeyu
 division	Presidente Hayes
 division	Paraguay
 division	Alto Paraguay
@@ -18193,8 +18248,13 @@ division	Métropole
 division	Saint-François
 
 ### Belize
+division	Toledo
 division	Belize
+division	Cayo
+division	Stann Creek
 division	Belmopan
+division	Orange Walk
+division	Corozal
 
 ### Antigua and Barbuda
 division	Antigua and Barbuda
