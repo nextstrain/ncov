@@ -9738,7 +9738,6 @@ location	Borsa
 location	Brzotin
 location	Budkovce
 location	Bukovec
-location	Bukovec (Kosice)
 location	Bunkovce
 location	Byšta
 location	Cana
@@ -16413,6 +16412,7 @@ division	Fiji
 # Africa
 
 ### Cabo Verde
+division	Cabo Verde
 division	Nossa Senhora da Luz
 division	Nossa Senhora da Graça
 
