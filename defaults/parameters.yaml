@@ -16,6 +16,7 @@ sanitize_metadata:
     - strain
     - name
   database_id_columns:
+    - "Accession ID"
     - gisaid_epi_isl
     - genbank_accession
   rename_fields:
