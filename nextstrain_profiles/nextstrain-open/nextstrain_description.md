@@ -10,7 +10,7 @@ The analysis on this page uses data from NCBI GenBank as a source following Open
 
 We gratefully acknowledge the authors, originating and submitting laboratories of the genetic sequences and metadata for sharing their work in open databases. Please note that although data generators have generously shared data in an open fashion, that does not mean there should be free license to publish on this data. Data generators should be cited where possible and collaborations should be sought in some circumstances. Please try to avoid scooping someone else's work. Reach out if uncertain. An attribution table is available by clicking on "Download Data" at the bottom of the page and then clicking on "Strain Metadata" in the resulting dialog box.
 
-To maximize the utility and visibility of these generously shared data, we provide preprocessed files that can serve as a starting point for additional analyses.
+To maximize the utility and visibility of these generously shared data, [we provide preprocessed files that can serve as a starting point for additional analyses](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html).
 
 ### All sequences and metadata
 
