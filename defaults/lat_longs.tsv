@@ -12132,6 +12132,8 @@ division	Central Visayas	10.264054	123.86939597334481
 division	Central Zambia	-14.183507	29.0375543
 division	Centrale Region TG	8.607113	1.0458553669392443
 division	Centre	12.36732	-1.5430869129979032
+division	Centre BF	12.3200255	-1.5280584
+division	Centre CM	3.8455898	11.492962
 division	Centre-Val de Loire	47.481221	1.698793
 division	Cerro Largo	-32.333333	-54.333333
 division	Cesar	9.654915	-73.528255
@@ -12200,6 +12202,7 @@ division	Comayagua	14.55509585	-87.67794635681561
 division	Comines	45.8175	13.7483
 division	Comunitat Valenciana	39.337	-0.354
 division	Conakry	9.5170602	-13.6998434
+division	Concepción	-22.79407055	-57.27154546573678
 division	Connecticut	41.678117	-72.669773
 division	Constanta	44.1598	28.6348
 division	Copán	14.8954912	-88.92572717284826
@@ -12910,6 +12913,7 @@ division	Landen	39.3120	-84.2830
 division	Lang Son	21.8567012	106.4424353
 division	Lao Cai	22.3381	104.1487
 division	Laois	52.998490450000006	-7.377700166944578
+division	Laos	20.0171109	103.378253
 division	Lapland	67.700017	26.273752
 division	Lara	10.2284518	-69.8197975
 division	Larnaca	34.9236095	33.6236184
@@ -13123,6 +13127,8 @@ division	Mioveni	44.957951	24.939220
 division	Miranda	10.25	-66.416667
 division	Mirpur	23.808569	90.363307
 division	Misiones	-26.737224	-54.4315257
+division	Misiones AR	-26.737224	-54.4315257
+division	Misiones PY	-27.0	-57.0
 division	Mississippi	32.9715645	-89.7348497
 division	Missouri	37.9643	-91.8318
 division	Mitrovica	42.8790424	20.8657862
@@ -14388,6 +14394,7 @@ country	Kenya	0.0236	37.9062
 country	Kosovo	42.6026	20.9030
 country	Kuwait	29.452987	47.447194
 country	Kyrgyzstan	41.2044	74.7661
+country	Laos	20.0171109	103.378253
 country	Latvia	56.799689	25.441386
 country	Lebanon	33.945959	35.868630
 country	Lesotho	-29.6039267	28.3350193

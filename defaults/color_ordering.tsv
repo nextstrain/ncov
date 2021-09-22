@@ -622,6 +622,7 @@ location	Yavatmal
 location	Dadra and Nagar Haveli
 
 # Odisha
+location	Baleshwar
 location	Ganjam
 location	Jharsuguda
 location	Puri
@@ -815,6 +816,7 @@ location	Thoubal
 location	Ukhrul
 
 # Bihar
+location	Begusarai
 location	Bhojpur
 location	Buxar
 location	Gaya
@@ -823,6 +825,7 @@ location	Kaimur Bhabua
 location	Munger
 location	Nalanda
 location	Rohtas
+location	Samastipur
 
 # Meghalaya
 location	East Jaintia Hills
@@ -955,12 +958,17 @@ location	Shrawasti
 location	Siddharth Nagar
 location	Siddharthnagar
 location	Sonebhadra
+location	Sultanpur
 location	Varanasi
 
 # Sikkim
+location	East District
 location	East Sikkim
+location	North District
 location	North Sikkim
+location	South District
 location	South Sikkim
+location	West District
 location	West Sikkim
 
 # Arunachal Pradesh
@@ -1907,7 +1915,7 @@ location	Batié
 location	Dano
 location	Gaoua
 
-# Centre
+# Centre BF
 location	Ouagadougou
 
 # Plateau Central
@@ -3595,6 +3603,7 @@ location	Juncosa
 location	Juneda
 location	L Ametlla del Valles
 location	L Hospitalet de Llobrega
+location	L Hospitalet de Llobregat
 location	L'Ametlla del Valles
 location	L'Estartit
 location	L'Hospitalet de Llobregat
@@ -4135,6 +4144,7 @@ location	Arcachon
 location	Ardin
 location	Ares FR
 location	Arthenay Vouillé
+location	Audenge
 location	Bayonne
 location	Bergerac
 location	Biarritz
@@ -4147,6 +4157,7 @@ location	Bressuire
 location	Brive-la-Gaillarde
 location	Budeliere
 location	Casteljaloux
+location	Castillon-la-Bataille
 location	Cenon
 location	Champdeniers Saint Denis
 location	Chauray
@@ -4161,10 +4172,12 @@ location	Gradignan
 location	Gueret
 location	Hendaye
 location	Idron
+location	Jonzac
 location	Juscorps
 location	La Brède
 location	La Crêche
 location	La Rochelle
+location	Lacanau
 location	Lagord
 location	Langon
 location	Latille
@@ -4207,9 +4220,11 @@ location	Saintes
 location	Savigny Levescault
 location	Souvigne
 location	St Courant
+location	Thouars
 location	Tonneins
 location	Tulle
 location	Verteuil sur Charente
+location	Villenave-D'Ornon
 location	Villeneuve-sur-Lot
 
 # Centre-Val de Loire
@@ -4405,10 +4420,13 @@ location	Aveyron
 location	Beziers
 location	Cahors
 location	Caraman
+location	Carbonne
 location	Carcassonne
+location	Castanet-Tolosan
 location	Castelnaudary
 location	Castres
 location	Cornebarrieu
+location	Foix
 location	Gers
 location	Haute-Garonne
 location	Hautes-Pyrenees
@@ -4416,6 +4434,7 @@ location	Lannemezan
 location	Lectoure
 location	Lot FR
 location	Millau
+location	Moissac
 location	Montauban
 location	Montpellier
 location	Muret
@@ -4425,12 +4444,16 @@ location	Perpignan
 location	Pyrenees-Orientales
 location	Rodez
 location	Saint-Affrique
+location	Saint-Alban
 location	Saint-Aunes
 location	Saint-Chély-d'Apcher
 location	Saint-Gaudens
 location	Saint-Gely-Du-Fesc
 location	Saint-Gilles FR
+location	Saint-Girons
 location	Saint-Jean
+location	Saint-Orens-de-Gameville
+location	Saverdun
 location	Tarbes
 location	Tarn
 location	Tarn-Et-Garonne
@@ -4530,6 +4553,7 @@ location	Condat Les Montboissier
 location	Conilhac-Corbieres
 location	Contamine-sur-Arve
 location	Contamines
+location	Corbas
 location	Corbel
 location	Corent
 location	Cormoz
@@ -4657,6 +4681,7 @@ location	Monteignet sur l Andelot
 location	Montelimar
 location	Montet Et Bouxal
 location	Montlucon
+location	Montmelian
 location	Montmorin
 location	Moulins
 location	Mozac
@@ -4733,8 +4758,10 @@ location	Saint-Jean-de-Bournay
 location	Saint-Julien-en-Genevois
 location	Saint-Just-Saint-Rambert
 location	Saint-Martin-D'Hères
+location	Saint-Pourcain-sur-Sioule
 location	Saint-Priest
 location	Saint-Verand
+location	Sallanches
 location	Sansac de Marmiesse
 location	Saugues
 location	Saulzais le Potier
@@ -4987,6 +5014,7 @@ location	Sainte-Clotilde
 ### Belgium
 # Veurne
 location	Alveringem
+location	Avekapelle
 location	Beveren
 location	De Panne
 location	Koksijde
@@ -6731,6 +6759,7 @@ location	Ingolstadt
 location	Karlsfeld
 location	Karlshuld
 location	Kipfenberg
+location	Muhldorf
 location	Munich
 location	Neuburg an der Donau
 location	Neutraubling
@@ -8725,7 +8754,6 @@ location	Siepraw
 location	Sierakow
 location	Skawina
 location	Slawkowice
-location	Sledziejowice
 location	Slomniki
 location	Sobieseki
 location	Sosnica
@@ -10759,7 +10787,7 @@ location	Simoca
 location	Tafi Viejo
 location	Yerba Buena
 
-# Misiones
+# Misiones AR
 location	Garupa
 location	Posadas
 
@@ -11180,6 +11208,10 @@ location	Putre
 # Neembucu
 location	Pilar PY
 
+# Misiones PY
+location	Ayolas
+location	Santa Rosa PY
+
 # Itapúa
 location	Encarnación
 
@@ -11213,6 +11245,7 @@ location	Villa Elisa
 location	Villeta
 location	Ypane
 location	Ypané
+location	Ñemby
 
 # Alto Paraná
 location	Ciudad del Este
@@ -11228,10 +11261,15 @@ location	Altos PY
 location	Piribebuy
 
 # San Pedro
+location	Capiibary
+location	Lima PY
 location	San Estanislao
 
 # Canindeyu
 location	Curuguaty
+
+# Presidente Hayes
+location	Villa Hayes
 
 # Alto Paraguay
 location	Carmelo Peralta
@@ -13417,7 +13455,7 @@ location	Callao
 location	Cañete
 location	Huarochiri
 location	Jesus Maria PE
-location	Lima
+location	Lima PE
 location	San Isidro PE
 
 # Junin
@@ -16146,6 +16184,9 @@ division	Sabah
 ### Mongolia
 division	Mongolia
 
+### Laos
+division	Laos
+
 ### Singapore
 division	Singapore
 
@@ -16525,7 +16566,7 @@ division	Sud-Ouest
 division	Diebougou
 division	Boromo
 division	Burkina Faso
-division	Centre
+division	Centre BF
 division	Plateau Central
 
 ### Ghana
@@ -16650,6 +16691,7 @@ division	Haut-Ogooue
 division	Ebolowa
 division	Kribi
 division	Sangmelima
+division	Centre CM
 division	Yaoundé
 division	Douala
 division	Cameroon
@@ -17896,7 +17938,7 @@ division	Corrientes
 division	Santiago del Estero
 division	Catamarca
 division	Tucuman
-division	Misiones
+division	Misiones AR
 division	Chaco
 division	Salta
 division	Formosa
@@ -17946,6 +17988,7 @@ division	Arica and Parinacota
 
 ### Paraguay
 division	Neembucu
+division	Misiones PY
 division	Itapúa
 division	Caazapá
 division	Guaira
@@ -17959,6 +18002,7 @@ division	San Pedro
 division	Canindeyu
 division	Presidente Hayes
 division	Paraguay
+division	Concepción
 division	Alto Paraguay
 
 ### Bolivia
@@ -18441,6 +18485,7 @@ country	Myanmar
 country	Thailand
 country	Malaysia
 country	Mongolia
+country	Laos
 country	Singapore
 country	China
 country	Cambodia
