@@ -9,7 +9,7 @@ import json
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Mask initial bases from alignment FASTA",
+        description="Convert mutational fitness values to an Augur distance map",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--input", required=True, help="TSV file of mutational effects")

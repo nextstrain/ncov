@@ -1145,7 +1145,8 @@ rule mutational_fitness:
         genes = ' '.join(config.get('genes', ['S'])),
         compare_to = "root",
         attribute_name = "mutational_fitness"
-    conda: "environment.yaml"
+    conda:
+        config["conda_environment"],
     resources:
         mem_mb=2000
     shell:
@@ -1157,7 +1158,7 @@ rule mutational_fitness:
             --compare-to {params.compare_to} \
             --attribute-name {params.attribute_name} \
             --map {input.distance_map} \
-            --output {output}
+            --output {output} 2>&1 | tee {log}
         """
 
 rule calculate_epiweeks:
@@ -1175,7 +1176,7 @@ rule calculate_epiweeks:
         """
         python3 scripts/calculate_epiweek.py \
             --metadata {input.metadata} \
-            --output-node-data {output.node_data}
+            --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
 def export_title(wildcards):
