@@ -15,6 +15,7 @@ rule sanitize_metadata:
         parse_location_field=f"--parse-location-field {config['sanitize_metadata']['parse_location_field']}" if config["sanitize_metadata"].get("parse_location_field") else "",
         rename_fields=config["sanitize_metadata"]["rename_fields"],
         strain_prefixes=config["strip_strain_prefixes"],
+        error_on_duplicate_strains="--error-on-duplicate-strains" if config["sanitize_metadata"].get("error_on_duplicate_strains") else "",
     shell:
         """
         python3 scripts/sanitize_metadata.py \
@@ -24,6 +25,7 @@ rule sanitize_metadata:
             {params.parse_location_field} \
             --rename-fields {params.rename_fields:q} \
             --strip-prefixes {params.strain_prefixes:q} \
+            {params.error_on_duplicate_strains} \
             --output {output.metadata} 2>&1 | tee {log}
         """
 

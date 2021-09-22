@@ -19,6 +19,7 @@ sanitize_metadata:
     - "Accession ID"
     - gisaid_epi_isl
     - genbank_accession
+  error_on_duplicate_strains: false
   rename_fields:
     - "Virus name=strain"
     - "Type=type"
