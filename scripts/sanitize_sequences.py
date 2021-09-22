@@ -1,6 +1,7 @@
 import argparse
 from augur.io import open_file, read_sequences, write_sequences
 import hashlib
+import os
 from pathlib import Path
 import re
 import sys
@@ -91,25 +92,18 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     sequence_files = []
-    tar_handles = []
+    temporary_sequence_files = []
     for sequence_filename in args.sequences:
         # If the input is a tarball, try to find a sequence file inside the
         # archive.
         if ".tar" in Path(sequence_filename).suffixes:
             try:
-                sequence_file, tar_handle = extract_tar_file_contents(
+                sequence_file = extract_tar_file_contents(
                     sequence_filename,
                     "sequences"
                 )
-
-                # The extracted tar file is an io.BufferedReader which provides
-                # a binary stream. BioPython's SeqIO reader expects a text
-                # stream. We decode each line of the BufferedReader in a
-                # generator such that decoding happens on the fly per line
-                # downstream. For more details see:
-                # https://docs.python.org/3/library/tarfile.html#tarfile.TarFile.extractfile
                 sequence_files.append(sequence_file)
-                tar_handles.append(tar_handle)
+                temporary_sequence_files.append(sequence_file)
             except FileNotFoundError as error:
                 print(f"ERROR: {error}", file=sys.stderr)
                 sys.exit(1)
@@ -148,5 +142,5 @@ if __name__ == '__main__':
             sequence_file.close()
 
     # Clean up any open tarballs.
-    for tar_handle in tar_handles:
-        tar_handle.close()
+    for sequence_file in temporary_sequence_files:
+        os.unlink(sequence_file)

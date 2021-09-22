@@ -318,13 +318,14 @@ if __name__ == '__main__':
 
     # If the input is a tarball, try to find a metadata file inside the archive.
     metadata_file = args.metadata
-    tar_handle = None
+    metadata_is_temporary = False
     if ".tar" in Path(args.metadata).suffixes:
         try:
-            metadata_file, tar_handle = extract_tar_file_contents(
+            metadata_file = extract_tar_file_contents(
                 args.metadata,
                 "metadata"
             )
+            metadata_is_temporary = True
         except FileNotFoundError as error:
             print(f"ERROR: {error}", file=sys.stderr)
             sys.exit(1)
@@ -418,6 +419,6 @@ if __name__ == '__main__':
     # Delete the database/strain id mapping.
     os.unlink(database_ids_by_strain)
 
-    # Close tarball after reading metadata if it is open still.
-    if tar_handle is not None:
-        tar_handle.close()
+    # Remove temporary metadata file, if it came from a tarball.
+    if metadata_is_temporary:
+        os.unlink(metadata_file)
