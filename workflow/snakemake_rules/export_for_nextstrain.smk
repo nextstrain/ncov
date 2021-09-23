@@ -146,6 +146,7 @@ from os import environ
 
 SLACK_TOKEN   = environ["SLACK_TOKEN"]   = config["slack_token"]   or ""
 SLACK_CHANNEL = environ["SLACK_CHANNEL"] = config["slack_channel"] or ""
+BUILD_DESCRIPTION = f"Build to upload {' & '.join(config.get('upload', ['nothing']))}"
 
 try:
     deploy_origin = (
@@ -197,7 +198,7 @@ rule upload:
             shell("./scripts/upload-to-s3 {local:q} s3://{params.s3_bucket:q}/{remote:q} | tee -a {log:q}")
 
 onstart:
-    slack_message = f"Build {deploy_origin} started."
+    slack_message = f"{BUILD_DESCRIPTION} {deploy_origin} started."
 
     if SLACK_TOKEN and SLACK_CHANNEL:
         shell(f"""
@@ -210,7 +211,7 @@ onstart:
         """)
 
 onerror:
-    slack_message = f"Build {deploy_origin} failed."
+    slack_message = f"{BUILD_DESCRIPTION} {deploy_origin} failed."
 
     if SLACK_TOKEN and SLACK_CHANNEL:
         shell(f"""
