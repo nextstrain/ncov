@@ -50,10 +50,12 @@ The rest of the builds defined in this file serve as examples for division-, cou
 To adapt this for your own analyses:
 
   1. copy `my_profiles/example` to `my_profiles/<my-new-name>`
-  1. open and modify the `builds.yaml` file in this directory to include your geographic area(s) of interest and remove any builds that are not relevant to your work
-  1. open and modify the `config.yaml` file in this directory such that it references:
+  1. open and modify the `builds.yaml` file in this directory to: 
+     - include your geographic area(s) of interest
+     - remove any builds that are not relevant to your work
+     - include the path to your own sequences and metadata instead of the example data
+  3. open and modify the `config.yaml` file in this directory such that it references:
      - the path to your new custom `builds.yaml` instead of the example builds file
-     - the path to your own sequences and metadata instead of the example data
 
 ## Step 3: Run the workflow
 
@@ -78,7 +80,7 @@ ncov$ snakemake --cores 1 --profile my_profiles/example -p
 
 ## Step 4: Troubleshoot common issues
 
-If you have a question which is not addressed here, please don't hestitate to [ask for help](https://discussion.nextstrain.org/)
+If you have a question that is not addressed here, please don't hestitate to [ask for help](https://discussion.nextstrain.org/)
 
 
 #### My country / division does not show up on the map
@@ -98,8 +100,8 @@ Unless you want to specifically override the colors generated, it's usually easi
 There are a few steps where sequences can be removed:
 
 - During the `filter` step:
-    - Samples which are included in [the exclude file](https://github.com/nextstrain/ncov/blob/master/defaults/exclude.txt) are removed
-    - Samples which fail the current filtering criteria, as defined in the `parameters.yaml` file, are removed. You can modify the snakefile as desired, but currently these are:
+    - Samples that are included in [the exclude file](https://github.com/nextstrain/ncov/blob/master/defaults/exclude.txt) are removed
+    - Samples that fail the current filtering criteria, as defined in the `parameters.yaml` file, are removed. You can modify the snakefile as desired, but currently these are:
         - Minimum sequence length of 25kb
         - No ambiguity in (sample collection) date
     - Samples may be randomly removed during subsampling; see ['customizing your analysis'](customizing-analysis.md) for more info.
