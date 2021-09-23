@@ -3711,6 +3711,7 @@ location	Prats de Lluçanès
 location	Premia de Dalt
 location	Premia de Mar
 location	Pubol
+location	Puig-Reig
 location	Puigcerda
 location	Puigmolto
 location	Puigverd d'Agramunt
@@ -4015,6 +4016,7 @@ location	Mouaze
 location	Noyal Chatillon
 location	Noyal Chatillon sur Seiche
 location	Noyal Pontivy
+location	Noyal-Chatillon-sur-Seiche
 location	Nr
 location	Pace
 location	Paimpol
@@ -4459,6 +4461,7 @@ location	Tarn
 location	Tarn-Et-Garonne
 location	Toulouse
 location	Uzès
+location	Villefranche-de-Lauragais
 
 # Auvergne-Rhône-Alpes
 location	Abrest
@@ -4757,9 +4760,11 @@ location	Saint-Genis-Les-Ollieres
 location	Saint-Jean-de-Bournay
 location	Saint-Julien-en-Genevois
 location	Saint-Just-Saint-Rambert
+location	Saint-Martin-D Heres
 location	Saint-Martin-D'Hères
 location	Saint-Pourcain-sur-Sioule
 location	Saint-Priest
+location	Saint-Quentin-Fallavier
 location	Saint-Verand
 location	Sallanches
 location	Sansac de Marmiesse
@@ -4860,6 +4865,7 @@ location	Burgundy
 location	Chalon sur Saone
 location	Charolles
 location	Clamecy
+location	Creches-sur-Saone
 location	Dijon
 location	Lons le Saunier
 location	Luxeuil-Les-Bains
@@ -4966,9 +4972,11 @@ location	Embrun
 location	Frejus
 location	Gap
 location	Grasse
+location	La Garde
 location	La Londe-Les-Maures
 location	La Penne-sur-Huveaune
 location	La Seyne-sur-Mer
+location	Le Beausset
 location	Le Muy
 location	Manosque
 location	Marignane
@@ -5224,6 +5232,7 @@ location	Maarkedal
 location	Nokere
 location	Ronse
 location	Wortegem-Petegem
+location	Zingem
 
 # Gent
 location	Aalter
@@ -5258,6 +5267,7 @@ location	Sint-Martens-Latem
 location	Ursel
 location	Wachtebeke
 location	Wondelgem
+location	Zomergem
 location	Zulte
 location	Zwijnaarde
 
@@ -5280,6 +5290,7 @@ location	Lettelingen
 location	Ligne
 location	Marcq
 location	Quevaucamps
+location	Saint-Sauveur
 location	Stambruges
 location	Thoricourt
 location	Villers-Saint-Amand
@@ -5845,6 +5856,7 @@ location	Boignée
 location	Bois-de-Villers
 location	Boninne - Gelbressée
 location	Bovesse
+location	Celles
 location	Champion
 location	Dhuy
 location	Ermeton-sur-Biert
@@ -7238,6 +7250,7 @@ location	Klein-Pochlarn
 location	Klosterneuburg
 location	Korneuburg
 location	Krems an der Donau
+location	Krems-Land
 location	Laa An Der Thaya
 location	Lilienfeld
 location	Marchfeld
@@ -7245,6 +7258,7 @@ location	Markt Piesting
 location	Melk
 location	Mistelbach
 location	Mödling
+location	Neunkirchen
 location	Neusiedl An Der Zaya
 location	Oed
 location	Purgstall An Der Erlauf
@@ -7252,6 +7266,7 @@ location	Pöggstall
 location	Sankt Poelten-Land
 location	Sankt Poelten-Stadt
 location	Sankt Pölten
+location	Sankt Pölten-Land
 location	Sankt Pölten-Stadt
 location	Schou An Der Triesting
 location	Schwechat
@@ -11205,12 +11220,12 @@ location	General Lagos
 location	Putre
 
 ### Paraguay
-# Neembucu
-location	Pilar PY
-
 # Misiones PY
 location	Ayolas
 location	Santa Rosa PY
+
+# Neembucu
+location	Pilar PY
 
 # Itapúa
 location	Encarnación
@@ -15514,6 +15529,7 @@ location	Northampton County NC
 location	Orange County NC
 location	Pitt County
 location	Randolph County NC
+location	Rockingham County NC
 location	Rowan County NC
 location	Rutherford County NC
 location	Scotland County
@@ -15697,7 +15713,7 @@ location	Worcester County MA
 # New Hampshire
 location	Grafton
 location	Hillsborough County NH
-location	Rockingham County
+location	Rockingham County NH
 
 # Rhode Island
 location	Kent County RI
@@ -16169,6 +16185,7 @@ division	Perlis
 division	Kedah
 division	Perak
 division	Selangor
+division	Putrajaya
 division	Wilayah Persekutuan
 division	Kuala Lumpur
 division	Kelantan
@@ -17987,8 +18004,8 @@ division	Tarapacá
 division	Arica and Parinacota
 
 ### Paraguay
-division	Neembucu
 division	Misiones PY
+division	Neembucu
 division	Itapúa
 division	Caazapá
 division	Guaira
