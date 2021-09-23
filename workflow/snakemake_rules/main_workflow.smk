@@ -1128,6 +1128,39 @@ rule logistic_growth:
             --output {output.node_data} 2>&1 | tee {log}
         """
 
+rule mutational_fitness:
+    input:
+        tree = "results/{build_name}/tree.nwk",
+        alignments = lambda w: rules.aa_muts_explicit.output.translations,
+        distance_map = config["files"]["mutational_fitness_distance_map"]
+    output:
+        node_data = "results/{build_name}/mutational_fitness.json"
+    benchmark:
+        "benchmarks/mutational_fitness_{build_name}.txt"
+    conda:
+        config["conda_environment"]
+    log:
+        "logs/mutational_fitness_{build_name}.txt"
+    params:
+        genes = ' '.join(config.get('genes', ['S'])),
+        compare_to = "root",
+        attribute_name = "mutational_fitness"
+    conda:
+        config["conda_environment"],
+    resources:
+        mem_mb=2000
+    shell:
+        """
+        augur distance \
+            --tree {input.tree} \
+            --alignment {input.alignments} \
+            --gene-names {params.genes} \
+            --compare-to {params.compare_to} \
+            --attribute-name {params.attribute_name} \
+            --map {input.distance_map} \
+            --output {output} 2>&1 | tee {log}
+        """
+
 rule calculate_epiweeks:
     input:
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
@@ -1143,7 +1176,7 @@ rule calculate_epiweeks:
         """
         python3 scripts/calculate_epiweek.py \
             --metadata {input.metadata} \
-            --output-node-data {output.node_data}
+            --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
 def export_title(wildcards):
@@ -1179,6 +1212,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.recency.output.node_data,
         rules.traits.output.node_data,
         rules.logistic_growth.output.node_data,
+        rules.mutational_fitness.output.node_data,
         rules.aa_muts_explicit.output.node_data,
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data

@@ -41,6 +41,11 @@
       "type": "continuous"
     },
     {
+      "key": "mutational_fitness",
+      "title": "Mutational fitness",
+      "type": "continuous"
+    },    
+    {
       "key": "location",
       "title": "Location",
       "type": "categorical"

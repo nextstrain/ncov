@@ -3,6 +3,10 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## New features since last version update
+
+- 19 September 2021: Include "mutational fitness" coloring based on [Obermeyer et al model](https://www.medrxiv.org/content/10.1101/2021.09.07.21263228v1). This annotates each node in the tree with a `mutational_fitness` trait by summing mutational effects from Obermeyer et al Supplementary Data S2. This should provide a mechanism to flag emergence of novel variants that may have higher fitness than circulating viruses.
+
 ## v8 (19 Aug 2021)
 
 ### Major changes
