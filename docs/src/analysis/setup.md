@@ -57,7 +57,7 @@ mamba update -n base conda mamba
 
 # Update tools in the Nextstrain environment.
 conda activate nextstrain
-mamba update --all
+mamba update --all -c conda-forge -c bioconda
 ```
 
 ## 2. Download the ncov workflow
