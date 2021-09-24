@@ -1941,6 +1941,7 @@ location	Accra Ga West
 location	Accra North Ridge
 location	Accra Okaikoi South
 location	Accra Tema
+location	Accra la Dade-Kotopon
 location	Accra la Nkwantanang
 location	Ledzokuku-Krowor
 
@@ -3551,6 +3552,7 @@ location	Cerdanya
 location	Cerdanyola del Valles
 location	Cervera
 location	Collbato
+location	Comte de Sert
 location	Corca
 location	Cornella de Llobregat
 location	Cornella de Terri
@@ -3648,6 +3650,7 @@ location	Llissa de Munt
 location	Llivia
 location	Lliça de Vall
 location	Lloret de Mar
+location	Loret de Mar
 location	Macanet de la Selva
 location	Malgrat de Mar
 location	Manlleu
@@ -3898,6 +3901,7 @@ location	Cardiff
 # England
 location	Berkshire
 location	Derbyshire
+location	Leicester
 location	London
 location	Norfolk GB
 location	Northamtonshire
@@ -4107,6 +4111,7 @@ location	Mayenne
 location	Montreuil Juigne
 location	Montval sur Loir
 location	Nantes
+location	Reze
 location	Saint Herblain
 location	Saint Nazaire
 location	Saint-Gilles-Croix-de-Vie
@@ -4253,6 +4258,7 @@ location	Orléans
 location	Pannes
 location	Romilly sur Aigre
 location	Romorantin
+location	Romorantin Lanthenay
 location	Rouziers-de-Touraine
 location	Saint Doulchard
 location	Saint-Doulchard
@@ -5228,8 +5234,10 @@ location	Bevere
 location	Brakel
 location	Horebeke
 location	Kluisbergen
+location	Kruisem
 location	Maarkedal
 location	Nokere
+location	Nukerke
 location	Ronse
 location	Wortegem-Petegem
 location	Zingem
@@ -5384,6 +5392,7 @@ location	Kalken
 location	Laarne
 location	Lebbeke
 location	Massemen
+location	Moerzeke
 location	Serskamp
 location	Waasmunster
 location	Westrem
@@ -5398,6 +5407,7 @@ location	Daknam
 location	De Klinge
 location	Doel
 location	Elversele
+location	Haasdonk
 location	Kemzeke
 location	Kieldrecht
 location	Kruibeke
@@ -5610,6 +5620,7 @@ location	Huizingen
 location	Humbeek
 location	Itterbeek
 location	Kampenhout
+location	Kapelle-op-den-Bos
 location	Kraainem
 location	Lembeek
 location	Lennik
@@ -5851,6 +5862,7 @@ location	Arbre
 location	Arsimont
 location	Assesse
 location	Belgrade
+location	Berzée
 location	Beuzet
 location	Boignée
 location	Bois-de-Villers
@@ -6066,6 +6078,7 @@ location	Valansart
 location	Alleur
 location	Angleur
 location	Ans
+location	Barchon
 location	Bassenge
 location	Bierset
 location	Boncelles
@@ -6084,9 +6097,11 @@ location	Hermalle-Sous-Argenteau
 location	Herstal
 location	Horion-Hozémont
 location	Loncin
+location	Louveigne
 location	Montegnee
 location	Montegnée
 location	Neupré
+location	Ombret
 location	Ougrée
 location	Plainevaux
 location	Retinne
@@ -7503,10 +7518,12 @@ location	Bily Kamen
 location	Biskupice-Pulkov
 location	Bohdalec
 location	Bonkov
+location	Bransouze
 location	Budisov
 location	Bystrice nad Pernstejnem
 location	Bystrice nad Perstejnem
 location	Cervena Lhota
+location	Chlistov
 location	Chotebor
 location	Dacice
 location	Dobronin
@@ -7516,6 +7533,7 @@ location	Havlickova Borova
 location	Havlickuv Brod
 location	Helenin
 location	Hodov
+location	Hojkov
 location	Hrotovice
 location	Humpolec
 location	Jaromerice nad Rokytnou
@@ -7523,11 +7541,13 @@ location	Jemnice
 location	Jihlava
 location	Jirikovice
 location	Kadolec
+location	Kamenice nad Lipou
 location	Knezice
 location	Kojcice
 location	Konesin
 location	Kouty
 location	Kozlov
+location	Krasonice
 location	Kratka Ves
 location	Kynice
 location	Lipnik CZ
@@ -7558,14 +7578,18 @@ location	Pribyslav
 location	Pribyslavice (Vysocina Region)
 location	Prosetin
 location	Radostin nad Oslavou
+location	Rantirov
 location	Rudikov
 location	Rynarec
 location	Skrinarov
+location	Smrk
 location	Sobinov
 location	Starec (Vysocina Region)
 location	Stonarov
 location	Stranecka Zhor
 location	Stribrne Hory
+location	Stritez
+location	Svatoslav (Vysocina Region)
 location	Svetla nad Sazavou
 location	Tis
 location	Trebic
@@ -7676,6 +7700,7 @@ location	Moravske Prusy
 location	Morkuvky
 location	Nesovice
 location	Nosislav
+location	Ochoz U Brna
 location	Oleksovice
 location	Olsany
 location	Orechov
@@ -7703,6 +7728,7 @@ location	Rozdrojovice
 location	Rudice
 location	Sakvice
 location	Sebrov
+location	Skalice nad Svitavou
 location	Slapanice
 location	Slavkov U Brna
 location	Sobotovice
@@ -7710,7 +7736,7 @@ location	Starec (South Moravian Region)
 location	Stary Petrin
 location	Strachotin
 location	Strelice
-location	Svatoslav
+location	Svatoslav (South Moravian Region)
 location	Telnice (South Moravian Region)
 location	Temice
 location	Tesany
@@ -10002,6 +10028,7 @@ location	Aetolia Acarnania
 location	Karditsa
 location	Larissa
 location	Magnesia
+location	Sporades
 
 # Peloponnese
 location	Argolida
@@ -10590,13 +10617,17 @@ location	9 de Julio
 location	Almirante Brown
 location	Arrecifes
 location	Avellaneda (Buenos Aires)
+location	Azul
 location	Bahia Blanca
+location	Banfield
 location	Baradero
 location	Barracas
 location	Berazategui
 location	Berisso
 location	Bragado
 location	Brandsen
+location	Burzaco
+location	Calzada
 location	Campana
 location	Capiatán Sarmiento
 location	Capitan Sarmiento
@@ -10607,62 +10638,89 @@ location	Cañuelas
 location	Chacabuco
 location	Chascomus
 location	Colon (Buenos Aires)
+location	Colón
+location	Coronel Rosales
+location	Dolores
 location	Ensenada AR
+location	Escobar
 location	Esteban Echavarria
 location	Esteban Echeverria
+location	Esteban Echeverría
+location	Exaltación de la Cruz
 location	Ezeiza
+location	Ezpeleta
 location	Florencio Varela
 location	General Rodriguez
 location	General San Martin
+location	General San Martín
 location	General Villegas
 location	General las Heras
+location	Glew
 location	Gregorio de Laferrere
 location	Haedo
 location	Hurlingham
 location	Isidro Casanova
 location	Ituzaingo
 location	Jose C. Paz
+location	Jose Leon Suarez
 location	José C Paz
+location	José C. Paz
 location	Junin
+location	Junín
 location	La Boca
 location	La Costa
 location	La Matanza
 location	La Plata
 location	Lanús
+location	Lanús Oeste
+location	Laprida
+location	Lincoln
 location	Lomas de Zamora
+location	Longchamps
 location	Lujan
 location	Luján
 location	Malvinas Argentinas
+location	Malvinas South America
 location	Mar del Plata
 location	Marcos Paz
+location	Marmol
 location	Merlo
+location	Monte Chingolo
 location	Moreno AR
 location	Morón
 location	Máximo Paz
 location	Necochea
 location	Olavarria
+location	Olavarría
 location	Pergamino
 location	Pilar AR
 location	Presidente Peron
+location	Presidente Perón
 location	Puerto Madero
 location	Quilmes
 location	Ramallo
 location	Rojas
 location	Salto AR
 location	San Andres de Giles
+location	San Carlos de Bolivar
 location	San Fernando AR
 location	San Isidro AR
 location	San Martin (Buenos Aires)
 location	San Miguel AR
 location	San Nicolas AR
+location	San Nicolás
 location	San Pedro AR
 location	San Telmo
+location	Tandil
+location	Temperley
 location	Tigre
 location	Torres AR
 location	Tres Arroyos
 location	Tres de Febrero
 location	Vicente Lopez
+location	Villa Fiorito
 location	Villa Ramallo
+location	Zárate
 
 # Entre Rios
 location	Colon (Entre Rios)
@@ -11980,10 +12038,12 @@ location	Sao Miguel do Oeste
 location	Schroeder
 location	Seara
 location	Sombrio
+location	Sul Brasil
 location	Taio
 location	Tangara
 location	Tijucas
 location	Treviso BR
+location	Treze Tilias
 location	Treze de Maio
 location	Trombudo Central
 location	Tubarao
@@ -11999,6 +12059,7 @@ location	Abadia de Goias
 location	Aguas Lindas de Goias
 location	Alexania
 location	Alexânia
+location	Alto Paraiso de Goias
 location	Americano do Brasil
 location	Anapolis
 location	Aparecida de Goiania
@@ -13291,6 +13352,7 @@ location	Jucurutu
 location	Jundia
 location	Lagoa Nova
 location	Lajes Pintadas
+location	Lucrecia
 location	Luiz Gomes
 location	Macaiba
 location	Macau
@@ -13500,6 +13562,9 @@ location	Monsefu
 location	Bongara
 location	Chachapoyas
 location	Luya
+
+# Loreto
+location	Iquitos
 
 ### Ecuador
 # Galapagos
@@ -14605,6 +14670,7 @@ location	Valley County ID
 location	Washington County ID
 
 # Utah
+location	Iron County UT
 location	Salt Lake County
 location	Utah County
 
@@ -14651,6 +14717,7 @@ location	Lewis and Clark County
 location	Liberty County MT
 location	Lincoln County MT
 location	Madison County MT
+location	McCone County
 location	Meagher County
 location	Mineral County MT
 location	Missoula County
@@ -15044,6 +15111,7 @@ location	Jackson County MS
 location	Jones County MS
 location	Lafayette County MS
 location	Lee County MS
+location	Lincoln County MS
 location	Lowndes County MS
 location	Madison County MS
 location	Marion County MS
@@ -15095,7 +15163,7 @@ location	Grant County WI
 location	Green County
 location	Green Lake County
 location	Iowa County WI
-location	Iron County
+location	Iron County WI
 location	Jackson County WI
 location	Jefferson County WI
 location	Juneau County
