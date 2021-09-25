@@ -348,104 +348,6 @@ def check_division_inconsistency(data):
 def check_duplicates(data, abbreviations_file):
     abbreviations = read_local_file(abbreviations_file)
 
-    # Collect all locations and their (region, country, division) origin
-    # Cut away all present duplicate specifiers (e.g. 'Guadalupe ES' -> 'Guadalupe') - data is treated as if no
-    # duplicate adjustment has happened before. This way, changes in duplicates can be detected and properly treated
-    # (e.g. if another duplicate appears in the same country but different division, adjust the duplicate specifier
-    # from country abbreviation to division) (e.g. 'Guadalupe ES' -> 'Guadalupe (Extremadura)')
-    location_origin = {}
-    for region in data:
-        if region not in region_order:
-            continue
-        for country in data[region]:
-            if country == region:
-                continue
-            if country not in abbreviations["country"]:
-                print("Abbreviation missing for " + country + ". Please add to " + abbreviations_file)
-                continue
-            for division in data[region][country]:
-                if country == "USA" and division not in abbreviations["division"]:
-                    print("Abbreviation missing for US state " + division + ". Please add to " + abbreviations_file)
-                    continue
-                for location in data[region][country][division]:
-                    if location == "":
-                        continue
-                    if location.endswith(" (" + division + ")"): # Cut away already existing duplicate specifiers
-                        location = location.split(" (" + division + ")")[0]
-                    elif location.endswith(" " + abbreviations["country"][country]):
-                        location = location.split(" " + abbreviations["country"][country])[0]
-                    elif country == "USA" and location.endswith(" " + abbreviations["division"][division]):
-                        location = location.split(" " + abbreviations["division"][division])[0]
-                    elif len(location.split(" ")[-1]) > 1 and location.upper().split(" ")[-1] == location.split(" ")[-1] or "(" in location:
-                        # If parentheses or caps found at the end of the location, consider potential invalid duplicate specifier
-                        if not location.split(" ")[-1].isnumeric():
-                            print("Potential duplicate inconsistent with current rules: " + location)
-
-                    if location not in location_origin:
-                        location_origin[location] = []
-                    location_origin[location].append((region, country, division))
-    print()
-
-    # Filter for duplicates (locations that have more than one (region, country, division) origin set)
-    locations_duplicates = {}
-    for location in location_origin:
-        if len(location_origin[location]) > 1: # more than one (region, country, division) origin
-            reduced = []
-            countries = []
-            for combination in location_origin[location]:
-                if combination not in reduced:
-                    countries.append(combination[1])
-                    reduced.append(combination)
-            # If, after reducing, only one set of (region, country, division) is left, that means there was a location
-            # unnecessarily specified as duplicate where the location doesn't exist in any other country/division
-            # In that case print out warning that this location needs not be considered as a duplicate anymore and the
-            # corresponding geoLocationRules and annotations should be corrected
-            if len(reduced) == 1 and countries != ["USA"]:
-                print("Unnecessary duplicate: " + bold(location) + "\n")
-            else:
-                # Unless country is USA, then leave these "unneccessary" duplicate specifications, as the automatic
-                # county assignment already considers duplicates
-                locations_duplicates[location] = reduced
-
-    # Apply duplicates rules
-    for location in locations_duplicates:
-        printed_message = []
-        divisions = {}
-        for (region, country, division) in locations_duplicates[location]:
-            if country not in divisions:
-                divisions[country] = []
-            divisions[country].append(division)
-
-        for (region, country, division) in locations_duplicates[location]:
-            if country == "USA": # For locations in the USA: always use state abbreviation
-                location_new = location + " " + abbreviations["division"][division]
-                if location in data[region][country][division]:
-                    printed_message.append("/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location_new]))
-                if location + " (" + division + ")" in data[region][country][division]:
-                    printed_message.append("Please update duplicate " + bold(location + " (" + division + ")") + " to " + bold(location_new) + " for consistency.")
-                    printed_message.append("/".join([region, country, division, location + " (" + division + ")"]) + "\t" + "/".join([region, country, division, location_new]))
-
-            elif len(divisions[country]) == 1: # Among-country duplicate - use country abbreviation
-                location_new = location + " " + abbreviations["country"][country]
-                if location in data[region][country][division]:
-                    printed_message.append("/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location_new]))
-                if location + " (" + division + ")" in data[region][country][division]:
-                    printed_message.append("Please update duplicate " + bold(location + " (" + division + ")") + " to " + bold(location_new) + " for consistency.")
-                    printed_message.append("/".join([region, country, division, location + " (" + division + ")"]) + "\t" + "/".join([region, country, division, location_new]))
-
-            else: # Within-country duplicate - use division as unique identifier
-                location_new = location + " (" + division + ")"
-                if location in data[region][country][division]:
-                    printed_message.append("/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location_new]))
-                if location + " " + abbreviations["country"][country] in data[region][country][division]:
-                    printed_message.append("Please update duplicate " + bold(location + " " + abbreviations["country"][country]) + " to " + bold(location_new) + " for consistency.")
-                    printed_message.append("/".join([region, country, division, location + " " + abbreviations["country"][country]]) + "\t" + "/".join([region, country, division, location_new]))
-        if printed_message != []:
-            print("Duplicate found: " + bold(location))
-            for l in printed_message:
-                print(l)
-            print()
-
     ### DIVISION ###
     print("\n----------\n")
     print("Checking for division duplicates...\n")
@@ -521,7 +423,7 @@ def check_duplicates(data, abbreviations_file):
             if len(country_origin[country]) == 2:
                 print("/".join([country_origin[country][0], country, "*", "*"]) + " <-> " + "/".join([country_origin[country][1], country, "*", "*"]))
 
-    return locations_duplicates
+    return
 
 # Search for all locations, divisions, countries and regions that are not present in the lat_longs.tsv file
 def missing_coordinates(data, path):
@@ -547,33 +449,10 @@ def missing_coordinates(data, path):
                         missing_latlongs["division"][region][country] = []
                     missing_latlongs["division"][region][country].append(division)
 
-                for location in data[region][country][division]:
-                    if location == "":
-                        continue
-                    if location not in latlongs["location"]:
-                        if region == "North America": # Only locations in North America are considered missing if no coordinates present
-                            if country not in missing_latlongs["location"]:
-                                missing_latlongs["location"][country] = {}
-                            if division not in missing_latlongs["location"][country]:
-                                missing_latlongs["location"][country][division] = []
-                            missing_latlongs["location"][country][division].append(location)
     return missing_latlongs
 
 # Print out missing locations, divisions etc. in a sorted manner
 def print_missing_places(missing_latlongs):
-    ### LOCATION ###
-    if missing_latlongs['location']:
-        print("\nMissing locations: (North America only)")
-        for country in missing_latlongs["location"]:
-            print("# " + country + " #")
-            for division in missing_latlongs["location"][country]:
-                print(division)
-                for location in missing_latlongs["location"][country][division]:
-                    print("\tlocation\t" + bold(location))
-            print()
-    else:
-        print("No missing locations")
-
     ### DIVISION ###
     print("\n----------\n")
     if missing_latlongs['division']:
@@ -613,76 +492,6 @@ def print_missing_places(missing_latlongs):
 def search_similar_names(data, missing_latlongs, locations_duplicates):
 
     abbreviations = read_local_file(abbreviations_file)
-
-    ### LOCATION ###
-    identical = []
-    potential_county = []
-    correction_to_county = []
-    similar = {}
-
-    region = "North America" # Only locations in North America are considered missing if no coordinates present
-    for country in missing_latlongs["location"]:
-        for division in missing_latlongs["location"][country]:
-            for location in missing_latlongs["location"][country][division]:
-                similarity_score = 0
-                identical_hit = False
-                county_hit = False
-                best_match = None
-
-                for location2 in data[region][country][division]:
-                    if location2 == location:
-                        continue
-                    if clean_string(location) == clean_string(location2): # Identical except for alternative chars
-                        identical.append("/".join([region, country, division, bold(location)]) + "\t" + "/".join([region, country, division, bold(location2)]))
-                        identical_hit = True
-                        break
-
-                    diff = SequenceMatcher(None, location, location2).ratio() # Similarity score if no 'perfect' hit found
-                    if diff > 0.6:
-                        if diff > similarity_score:
-                            similarity_score = diff
-                            best_match = location2
-
-                    # Check for US locations that have a County counterpart (e.g. Cobb vs. Cobb County)
-                    if country == "USA" and division in abbreviations["division"]:
-                        if location2 == location + " County" or location2 == location + " Parish" or location2 == location + " County " + abbreviations["division"][division] or location2 == location + " Parish " + abbreviations["division"][division]:
-                            potential_county.append("/".join([region, country, division, bold(location)]) + "\t" + "/".join([region, country, division, bold(location2)]))
-                            county_hit = True
-
-                if not county_hit:
-                    # Mark US locations that are not specified as County or Parish (only if no direct counterpart found)
-                    if division in abbreviations["division"]:
-                        c = "County"
-                        if division == "Louisiana": c = "Parish"
-                        if not location.endswith(c) and not location.endswith(c + " " + abbreviations["division"][division]):
-                            location_new = location + " " + c
-                            if location_new in locations_duplicates: location_new += " " + abbreviations["division"][division]
-                            correction_to_county.append("/".join([region, country, division, bold(location)]) + "\t" + "/".join([region, country, division, bold(location_new)]))
-
-                if not identical_hit and not county_hit and best_match is not None:
-                    while similarity_score in similar:
-                        similarity_score += 0.000000000000001 # If same similarity score already present, adjust marginally
-                    similar[similarity_score] = "/".join([region, country, division, bold(location)]) + "\t" + "/".join([region, country, division, bold(best_match)])
-
-    if identical:
-        print("Identical locations:")
-        for l in identical:
-            print(l)
-
-    if potential_county:
-        print("\nUS location found as county:")
-        for l in potential_county:
-            print(l)
-
-    if correction_to_county:
-        print("\nUS locations that might need correction to county:")
-        for l in correction_to_county:
-            print(l)
-
-    if similar:
-        print("\nSimilar locations (sorted by descending similarity):")
-        for l in sorted(similar, reverse=True):
-            print(similar[l])
 
     ### DIVISION ###
     print("\n----------\n")
@@ -1393,20 +1202,14 @@ if __name__ == '__main__':
 
     print("\n===============================================\n")
     # Check for locations and divisions that appear multiple times
-    print("Checking for location duplicates...")
-    locations_duplicates = check_duplicates(data, abbreviations_file)
+    print("Checking for division duplicates...")
+    check_duplicates(data, abbreviations_file)
 
     print("\n===============================================\n")
     # List all locations, divisions, coutnries and regions that have no lat_longs in defaults/lat_longs.tsv
     print("Checking for missing lat_longs...")
     missing_latlongs = missing_coordinates(data, path_to_default_files)
     print_missing_places(missing_latlongs)
-
-    print("\n===============================================\n")
-    # For all missing places, search for names that are similar or identical (when not considering special characters)
-    # For locations, also consider special cases for USA counties
-    print("Checking for similar names...")
-    search_similar_names(data, missing_latlongs, locations_duplicates)
 
     print("\n===============================================\n")
     # Using geopy, search coordinates for all missing places and auto-sort them into lat_longs.tsv
