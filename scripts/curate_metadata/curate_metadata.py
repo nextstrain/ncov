@@ -489,7 +489,7 @@ def print_missing_places(missing_latlongs):
 # For all missing place names, search the data for similarly spelled names
 # Always search only within the same ordering level as the missing name, as well as below the same higher-level place
 # (e.g. for a missing location, compare only to locations within the same division)
-def search_similar_names(data, missing_latlongs, locations_duplicates):
+def search_similar_names(data, missing_latlongs):
 
     abbreviations = read_local_file(abbreviations_file)
 
@@ -1210,6 +1210,11 @@ if __name__ == '__main__':
     print("Checking for missing lat_longs...")
     missing_latlongs = missing_coordinates(data, path_to_default_files)
     print_missing_places(missing_latlongs)
+
+    print("\n===============================================\n")
+    # For all missing places, search for names that are similar or identical (when not considering special characters)
+    print("Checking for similar names...")
+    search_similar_names(data, missing_latlongs)
 
     print("\n===============================================\n")
     # Using geopy, search coordinates for all missing places and auto-sort them into lat_longs.tsv
