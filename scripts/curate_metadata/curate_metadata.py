@@ -140,7 +140,7 @@ def read_latlongs(path):
     return latlongs
 
 # Read metadata into a multi-level dictionary accessible via data[region][country][division] = list_of_locations
-def read_metadata(metadata_filename, data, geo_location_occurences):
+def read_metadata(metadata_filename, data, geo_location_occurences, genbank=False):
 
     with open(path_to_metadata + metadata_filename) as f:
         header = f.readline().split("\t")
@@ -157,10 +157,14 @@ def read_metadata(metadata_filename, data, geo_location_occurences):
             division = l[division_i]
             location = l[location_i]
 
-            geo_location_occurences["region"].update({region: 1})
-            geo_location_occurences["country"].update({country: 1})
-            geo_location_occurences["division"].update({division: 1})
-            geo_location_occurences["location"].update({location: 1})
+            # automatically increment genbank locations to the threshold since we
+            # don't want to skip any for now.
+            increment = 1 if not genbank else 20
+
+            geo_location_occurences["region"].update({region: increment})
+            geo_location_occurences["country"].update({country: increment})
+            geo_location_occurences["division"].update({division: increment})
+            geo_location_occurences["location"].update({location: increment})
 
             if region not in data:
                 data[region] = {}
@@ -1279,7 +1283,7 @@ if __name__ == '__main__':
     data, geo_location_occurences = read_metadata(gisaid_metadata_file, data, geo_location_occurences)
 
     print("Reading GenBank metadata...")
-    data, geo_location_occurences = read_metadata(genbank_metadata_file, data, geo_location_occurences)
+    data, geo_location_occurences = read_metadata(genbank_metadata_file, data, geo_location_occurences, genbank=True)
 
     print("\n===============================================\n")
     # Add countries, regions and divisions that only appear in the exposure info from gisaid metadata
