@@ -116,3 +116,6 @@ Traveled: XXX
 travelled from XXX
 Patient traveled to XXX
 Other : Imported Case from XXX
+Others: Travel history to XXX
+Others: travel history to XXX
+others: travel history to XXX
