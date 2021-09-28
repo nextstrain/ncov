@@ -1,5 +1,7 @@
 from os import listdir
 from pathlib import Path
+import argparse
+from collections import defaultdict
 
 def bold(s):
     return('\033[1m' + s + '\033[0m')
@@ -445,7 +447,7 @@ def adjust_caps(s):
     return s
 
 # Check an additional info for patterns fitting additional location info and if possible interpret result
-def check_additional_location(info, strain_list, location_pattern, ordering, metadata, annotations_append, variants):
+def check_additional_location(info, strain_list, location_pattern, ordering, metadata, annotations_append, variants, auto):
     place = find_longest_pattern(info, location_pattern)
 
     if place != None:
@@ -463,6 +465,8 @@ def check_additional_location(info, strain_list, location_pattern, ordering, met
         print("Testing for single location name...")
         ordering_result = find_place_in_ordering(place, ordering, variants)
         if ordering_result == None:
+            if auto:
+                return annotations_append, True
             print("Location not found. Returning to manual processing...\n")
             return annotations_append, False
     else:
@@ -475,7 +479,8 @@ def check_additional_location(info, strain_list, location_pattern, ordering, met
 
     place_interpretation = interpret_location(place, ordering, variants, pattern_found)
 
-
+    if place_interpretation is None and auto:
+        return annotations_append, True
     while place_interpretation == None:
         s = "Could not identify " + bold(place) + ". You have the following options:"
         s += "\n- Enter different name (e.g. in case of typo) for repeated search"
@@ -493,6 +498,8 @@ def check_additional_location(info, strain_list, location_pattern, ordering, met
 
     (region, country, division, location) = place_interpretation
     if region == "" and country == "" and division == "":
+        if auto:
+            return annotations_append, True
         if pattern_found:
             print("Location not found in ordering and no additional geography given. Assume new location " + bold(location))
             regions = []
@@ -530,7 +537,7 @@ def check_additional_location(info, strain_list, location_pattern, ordering, met
                 return annotations_append, False
 
     else:
-        answer = input("Interpreted " + bold(info) + " as " + bold(region + "/" + country + "/" + division + "/" + location) + ". Press enter to approve, press any other key to return to manual processing: ")
+        answer = "" if auto else input("Interpreted " + bold(info) + " as " + bold(region + "/" + country + "/" + division + "/" + location) + ". Press enter to approve, press any other key to return to manual processing: ")
         if answer != "":
             print("Return to manual processing...\n")
             return annotations_append, False
@@ -546,7 +553,7 @@ def check_additional_location(info, strain_list, location_pattern, ordering, met
 
 # Check the given info for matching patterns known to carry travel history information, and apply the necessary
 # annotations
-def check_travel_history(info, strain_list, travel_pattern, ordering, metadata, annotations_append, variants):
+def check_travel_history(info, strain_list, travel_pattern, ordering, metadata, annotations_append, variants, auto):
 
     place = find_longest_pattern(info, travel_pattern)
 
@@ -570,6 +577,8 @@ def check_travel_history(info, strain_list, travel_pattern, ordering, metadata, 
             if "/" in place:
                 place = place.split("/")[-1].strip()
             ordering_result = find_place_in_ordering(place, ordering, variants)
+            if ordering_result is None and auto:
+                return annotations_append, True
             while ordering_result == None:
                 s = "Could not identify " + bold(place) + ". You have the following options:"
                 s += "\n- Enter different name (e.g. in case of typo) for repeated search"
@@ -595,7 +604,7 @@ def check_travel_history(info, strain_list, travel_pattern, ordering, metadata, 
                 results["division_exposure"].append(division_exposure)
 
         if len(results["region_exposure"]) > 1:
-            answer = input("Contains exposures from different regions. No annotation possible. Press " + bold("ENTER") + " to skip this info, otherwise press any key to return to manual processing: ")
+            answer = "" if auto else input("Contains exposures from different regions. No annotation possible. Press " + bold("ENTER") + " to skip this info, otherwise press any key to return to manual processing: ")
             if answer == "":
                 return annotations_append, True
             else:
@@ -613,7 +622,7 @@ def check_travel_history(info, strain_list, travel_pattern, ordering, metadata, 
         else:
             final_division = results["division_exposure"][0]
 
-        answer = input("Interpreted as " + bold(final_region + ", " + final_country + ", " + final_division) + ". Press " + bold("ENTER") + " to approve, otherwise press any key to return to manual processing: ")
+        answer = "" if auto else input("Interpreted as " + bold(final_region + ", " + final_country + ", " + final_division) + ". Press " + bold("ENTER") + " to approve, otherwise press any key to return to manual processing: ")
         if answer != "":
             print("Return to manual processing...\n")
             return annotations_append, False
@@ -632,7 +641,7 @@ def check_travel_history(info, strain_list, travel_pattern, ordering, metadata, 
 
 
 # Iterate over every info given and search for known patterns, or provide interactive interface for manual processing
-def check_additional_info(additional_info, path_to_config_files):
+def check_additional_info(additional_info, path_to_config_files, auto):
     metadata = read_metadata(path_to_nextstrain + "ncov/data/downloaded_gisaid.tsv", additional_info)
     if metadata == None:
         return []
@@ -691,7 +700,7 @@ def check_additional_info(additional_info, path_to_config_files):
                     if ordering_result != None:
                         (region_exposure, country_exposure, division_exposure, location) = ordering_result
 
-                        answer = input("Interpret " + bold(info) + " as special case with division " + bold(division) + " and exposure " + bold(division_exposure) + ". Leave empty to approve, or press any key to continue with manual processing: ")
+                        answer = "" if auto else input("Interpret " + bold(info) + " as special case with division " + bold(division) + " and exposure " + bold(division_exposure) + ". Leave empty to approve, or press any key to continue with manual processing: ")
                         if answer == "":
                             for (id, strain) in strain_list:
                                 new_residence = (region, country, division, None)
@@ -704,7 +713,7 @@ def check_additional_info(additional_info, path_to_config_files):
                 break
 
             if info in purpose_of_sequencing:
-                answer = input("Identified as \"purpose_of_sequencing\". Press " + bold("ENTER") + " to approve, otherwise press any key: ")
+                answer = "" if auto else input("Identified as \"purpose_of_sequencing\". Press " + bold("ENTER") + " to approve, otherwise press any key: ")
                 if answer == "":
                     for (id, strain) in strain_list:
                         annotations_append.append(strain + "\t" + id + "\t" + "sampling_strategy" + "\t" + purpose_of_sequencing[info] + " # " + info)
@@ -712,17 +721,17 @@ def check_additional_info(additional_info, path_to_config_files):
                     break
 
             if info in info_ignore:
-                answer = input("Identified as \"Ignore\". Press " + bold("ENTER") + " to approve, otherwise press any key: ")
+                answer = "" if auto else input("Identified as \"Ignore\". Press " + bold("ENTER") + " to approve, otherwise press any key: ")
                 if answer == "":
                     break
 
             annotations_append, info_found = check_travel_history(info, strain_list, travel_pattern, ordering, metadata,
-                                                                  annotations_append, variants)
+                                                                  annotations_append, variants, auto)
             if info_found:
                 break
 
-            annotations_append, info_found = check_additional_location(info, strain_list, location_pattern, ordering, metadata, annotations_append, variants)
-            if info_found:
+            annotations_append, info_found = check_additional_location(info, strain_list, location_pattern, ordering, metadata, annotations_append, variants, auto)
+            if info_found or auto:
                 print("Location pattern found. Skipping entry...")
                 break
 
@@ -787,10 +796,17 @@ Path(path_to_input).mkdir(parents=True, exist_ok=True)
 
 if __name__ == '__main__':
 
+    parser = argparse.ArgumentParser(
+        description="Parse a file containing additional info from GISAID to create annotations from recognized patterns.",
+    )
+    parser.add_argument("--auto", action="store_true", help="Automatically parse recognized patterns as opposed to asking for user verification.")
+    args = parser.parse_args()
+
+
     additional_info = read_data(path_to_input)
     if additional_info != {}:
 
-        annotations_append = check_additional_info(additional_info, path_to_config_files)
+        annotations_append = check_additional_info(additional_info, path_to_config_files, args.auto)
 
         # Print out necessary annotations
         annotations = read_simple_file(path_to_nextstrain + "ncov-ingest/source-data/gisaid_annotations.tsv")
