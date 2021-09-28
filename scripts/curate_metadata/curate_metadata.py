@@ -2,6 +2,7 @@ import os
 from difflib import SequenceMatcher
 from pathlib import Path
 from geopy.geocoders import Nominatim
+from collections import Counter
 
 # Used for printing bold in console output
 def bold(s):
@@ -139,7 +140,7 @@ def read_latlongs(path):
     return latlongs
 
 # Read metadata into a multi-level dictionary accessible via data[region][country][division] = list_of_locations
-def read_metadata(metadata_filename, data):
+def read_metadata(metadata_filename, data, geo_location_occurences):
 
     with open(path_to_metadata + metadata_filename) as f:
         header = f.readline().split("\t")
@@ -156,6 +157,11 @@ def read_metadata(metadata_filename, data):
             division = l[division_i]
             location = l[location_i]
 
+            geo_location_occurences["region"].update({region: 1})
+            geo_location_occurences["country"].update({country: 1})
+            geo_location_occurences["division"].update({division: 1})
+            geo_location_occurences["location"].update({location: 1})
+
             if region not in data:
                 data[region] = {}
             if country not in data[region]:
@@ -167,7 +173,7 @@ def read_metadata(metadata_filename, data):
 
             line = f.readline()
 
-    return data
+    return data, geo_location_occurences
 
 # Read metadata again, but this time consider region_exposure, country_exposure and division_exposure (e.g. travel info)
 # In order to be properly displayed, exposure geographies need also be included in color_ordering and lat_longs
@@ -524,7 +530,7 @@ def check_duplicates(data, abbreviations_file):
     return locations_duplicates
 
 # Search for all locations, divisions, countries and regions that are not present in the lat_longs.tsv file
-def missing_coordinates(data, path):
+def missing_coordinates(data, path, geo_location_occurences):
     missing_latlongs = {"region": [], "country": {}, "division": {}, "location": {}}
 
     latlongs = read_latlongs(path)
@@ -539,41 +545,18 @@ def missing_coordinates(data, path):
                     missing_latlongs["country"][region] = []
                 missing_latlongs["country"][region].append(country)
 
-            for division in data[region][country]:
-                if division not in latlongs["division"]:
-                    if region not in missing_latlongs["division"]:
-                        missing_latlongs["division"][region] = {}
-                    if country not in missing_latlongs["division"][region]:
-                        missing_latlongs["division"][region][country] = []
-                    missing_latlongs["division"][region][country].append(division)
+            division_threshold_function = lambda division: division not in latlongs["division"] and geo_location_occurences["division"][division] >= 20
+            for division in filter(division_threshold_function, data[region][country]):
+                if region not in missing_latlongs["division"]:
+                    missing_latlongs["division"][region] = {}
+                if country not in missing_latlongs["division"][region]:
+                    missing_latlongs["division"][region][country] = []
+                missing_latlongs["division"][region][country].append(division)
 
-                for location in data[region][country][division]:
-                    if location == "":
-                        continue
-                    if location not in latlongs["location"]:
-                        if region == "North America": # Only locations in North America are considered missing if no coordinates present
-                            if country not in missing_latlongs["location"]:
-                                missing_latlongs["location"][country] = {}
-                            if division not in missing_latlongs["location"][country]:
-                                missing_latlongs["location"][country][division] = []
-                            missing_latlongs["location"][country][division].append(location)
     return missing_latlongs
 
 # Print out missing locations, divisions etc. in a sorted manner
 def print_missing_places(missing_latlongs):
-    ### LOCATION ###
-    if missing_latlongs['location']:
-        print("\nMissing locations: (North America only)")
-        for country in missing_latlongs["location"]:
-            print("# " + country + " #")
-            for division in missing_latlongs["location"][country]:
-                print(division)
-                for location in missing_latlongs["location"][country][division]:
-                    print("\tlocation\t" + bold(location))
-            print()
-    else:
-        print("No missing locations")
-
     ### DIVISION ###
     print("\n----------\n")
     if missing_latlongs['division']:
@@ -613,76 +596,6 @@ def print_missing_places(missing_latlongs):
 def search_similar_names(data, missing_latlongs, locations_duplicates):
 
     abbreviations = read_local_file(abbreviations_file)
-
-    ### LOCATION ###
-    identical = []
-    potential_county = []
-    correction_to_county = []
-    similar = {}
-
-    region = "North America" # Only locations in North America are considered missing if no coordinates present
-    for country in missing_latlongs["location"]:
-        for division in missing_latlongs["location"][country]:
-            for location in missing_latlongs["location"][country][division]:
-                similarity_score = 0
-                identical_hit = False
-                county_hit = False
-                best_match = None
-
-                for location2 in data[region][country][division]:
-                    if location2 == location:
-                        continue
-                    if clean_string(location) == clean_string(location2): # Identical except for alternative chars
-                        identical.append("/".join([region, country, division, bold(location)]) + "\t" + "/".join([region, country, division, bold(location2)]))
-                        identical_hit = True
-                        break
-
-                    diff = SequenceMatcher(None, location, location2).ratio() # Similarity score if no 'perfect' hit found
-                    if diff > 0.6:
-                        if diff > similarity_score:
-                            similarity_score = diff
-                            best_match = location2
-
-                    # Check for US locations that have a County counterpart (e.g. Cobb vs. Cobb County)
-                    if country == "USA" and division in abbreviations["division"]:
-                        if location2 == location + " County" or location2 == location + " Parish" or location2 == location + " County " + abbreviations["division"][division] or location2 == location + " Parish " + abbreviations["division"][division]:
-                            potential_county.append("/".join([region, country, division, bold(location)]) + "\t" + "/".join([region, country, division, bold(location2)]))
-                            county_hit = True
-
-                if not county_hit:
-                    # Mark US locations that are not specified as County or Parish (only if no direct counterpart found)
-                    if division in abbreviations["division"]:
-                        c = "County"
-                        if division == "Louisiana": c = "Parish"
-                        if not location.endswith(c) and not location.endswith(c + " " + abbreviations["division"][division]):
-                            location_new = location + " " + c
-                            if location_new in locations_duplicates: location_new += " " + abbreviations["division"][division]
-                            correction_to_county.append("/".join([region, country, division, bold(location)]) + "\t" + "/".join([region, country, division, bold(location_new)]))
-
-                if not identical_hit and not county_hit and best_match is not None:
-                    while similarity_score in similar:
-                        similarity_score += 0.000000000000001 # If same similarity score already present, adjust marginally
-                    similar[similarity_score] = "/".join([region, country, division, bold(location)]) + "\t" + "/".join([region, country, division, bold(best_match)])
-
-    if identical:
-        print("Identical locations:")
-        for l in identical:
-            print(l)
-
-    if potential_county:
-        print("\nUS location found as county:")
-        for l in potential_county:
-            print(l)
-
-    if correction_to_county:
-        print("\nUS locations that might need correction to county:")
-        for l in correction_to_county:
-            print(l)
-
-    if similar:
-        print("\nSimilar locations (sorted by descending similarity):")
-        for l in sorted(similar, reverse=True):
-            print(similar[l])
 
     ### DIVISION ###
     print("\n----------\n")
@@ -1360,11 +1273,13 @@ if __name__ == '__main__':
     print("\n===============================================\n")
     # Collect metadata from gisaid and genbank in a joint, multi-level dictionary accessible via data[region][country][division] = list_of_locations
     data = {}
+    # count occurences
+    geo_location_occurences = {"region": Counter(), "country": Counter(), "division": Counter(), "location": Counter()}
     print("Reading GISAID metadata...")
-    data = read_metadata(gisaid_metadata_file, data)
+    data, geo_location_occurences = read_metadata(gisaid_metadata_file, data, geo_location_occurences)
 
     print("Reading GenBank metadata...")
-    data = read_metadata(genbank_metadata_file, data)
+    data, geo_location_occurences = read_metadata(genbank_metadata_file, data, geo_location_occurences)
 
     print("\n===============================================\n")
     # Add countries, regions and divisions that only appear in the exposure info from gisaid metadata
@@ -1399,7 +1314,7 @@ if __name__ == '__main__':
     print("\n===============================================\n")
     # List all locations, divisions, coutnries and regions that have no lat_longs in defaults/lat_longs.tsv
     print("Checking for missing lat_longs...")
-    missing_latlongs = missing_coordinates(data, path_to_default_files)
+    missing_latlongs = missing_coordinates(data, path_to_default_files, geo_location_occurences)
     print_missing_places(missing_latlongs)
 
     print("\n===============================================\n")
