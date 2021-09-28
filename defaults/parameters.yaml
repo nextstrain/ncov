@@ -107,7 +107,7 @@ refine:
   root: "Wuhan/Hu-1/2019"
   clock_rate: 0.0008
   clock_std_dev: 0.0004
-  coalescent: "skyline"
+  coalescent: "opt"
   date_inference: "marginal"
   divergence_unit: "mutations"
   clock_filter_iqd: 4
