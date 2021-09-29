@@ -1,0 +1,20 @@
+#!/bin/bash
+# build to revert. "gisaid" or "open".
+build=$1
+# date to revert to e.g. yesterday in "+%Y-%m-%d" format.
+date=$2
+
+regions=" \
+global \
+africa \
+asia \
+europe \
+north-america \
+oceania \
+south-america \
+"
+
+for region in $regions; do
+    aws s3 cp "s3://nextstrain-data/ncov_${build}_${region}_${date}.json" "s3://nextstrain-data/ncov_${build}_${region}.json" \
+    aws s3 cp "s3://nextstrain-data/ncov_${build}_${region}_${date}_tip-frequencies.json" "s3://nextstrain-data/ncov_${build}_${region}_tip-frequencies.json" \
+done

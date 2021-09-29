@@ -1,0 +1,32 @@
+name: Revert nextstrain.org/ncov/gisaid or nextstrain.org/ncov/gisaid
+
+on:
+  # Manually triggered using GitHub's UI
+  workflow_dispatch:
+    inputs:
+      build_name:
+        description: Which set of datasets on nextstrain.org/ncov to reset. "gisaid" or "open"
+        required: true
+      date:
+        description: Date to revert to. A corresponding set of date-stamped datasets must exist on the s3 bucket. Format is YYYY-MM-DD.
+        required: true
+
+env:
+  BUILD_NAME: ${{ github.event.inputs.build_name }}
+  DATE: ${{ github.event.inputs.date }}
+
+jobs:
+  revert:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup
+      run: ./scripts/setup-github-workflow
+
+    - name: Revert build
+      run: |
+        ./scripts/revert "$BUILD_NAME" "$DATE"
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
