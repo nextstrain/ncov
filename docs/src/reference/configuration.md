@@ -512,9 +512,9 @@ Valid attributes for list entries in `inputs` are provided below.
 * description: A list of valid strain name columns in the metadata. The sanitize metadata script will check attempt to use the first of these columns that exists in the metadata. It will exit with an error, if none of the columns exist.
 * default:
 ```yaml
-  - "Virus name"
   - strain
   - name
+  - "Virus name"
 ```
 
 ### database_id_columns
