@@ -26,6 +26,8 @@ Repeat the process with a tarball, to confirm that we can process these files in
   >  --metadata-id-columns 'Virus name' strain \
   >  --database-id-columns gisaid_epi_isl genbank_accession \
   >  --output "$TMP/metadata.tsv"
+  Extracted metadata file from unsanitized_metadata.tar.gz to .*/unsanitized_metadata.tsv (re)
+  Cleaning up temporary files in .* (re)
   $ wc -l "$TMP/metadata.tsv"
   \s*3 .* (re)
   $ rm -f "$TMP/metadata.tsv"

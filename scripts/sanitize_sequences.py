@@ -1,7 +1,6 @@
 import argparse
 from augur.io import open_file, read_sequences, write_sequences
 import hashlib
-import os
 from pathlib import Path
 import re
 import sys
@@ -92,18 +91,18 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     sequence_files = []
-    temporary_sequence_files = []
+    temporary_dirs = []
     for sequence_filename in args.sequences:
         # If the input is a tarball, try to find a sequence file inside the
         # archive.
         if ".tar" in Path(sequence_filename).suffixes:
             try:
-                sequence_file = extract_tar_file_contents(
+                temporary_dir, sequence_file = extract_tar_file_contents(
                     sequence_filename,
                     "sequences"
                 )
                 sequence_files.append(sequence_file)
-                temporary_sequence_files.append(sequence_file)
+                temporary_dirs.append(temporary_dir)
             except FileNotFoundError as error:
                 print(f"ERROR: {error}", file=sys.stderr)
                 sys.exit(1)
@@ -136,11 +135,7 @@ if __name__ == '__main__':
             )
             sys.exit(1)
 
-    # Clean up any open sequence files.
-    for sequence_file in sequence_files:
-        if hasattr(sequence_file, "close"):
-            sequence_file.close()
-
-    # Clean up any open tarballs.
-    for sequence_file in temporary_sequence_files:
-        os.unlink(sequence_file)
+    # Clean up temporary directory and files that came from a tarball.
+    for temporary_dir in temporary_dirs:
+        print(f"Cleaning up temporary files in {temporary_dir.name}", file=sys.stderr)
+        temporary_dir.cleanup()

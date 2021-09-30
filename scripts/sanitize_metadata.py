@@ -321,7 +321,7 @@ if __name__ == '__main__':
     metadata_is_temporary = False
     if ".tar" in Path(args.metadata).suffixes:
         try:
-            metadata_file = extract_tar_file_contents(
+            temporary_dir, metadata_file = extract_tar_file_contents(
                 args.metadata,
                 "metadata"
             )
@@ -419,6 +419,7 @@ if __name__ == '__main__':
     # Delete the database/strain id mapping.
     os.unlink(database_ids_by_strain)
 
-    # Remove temporary metadata file, if it came from a tarball.
+    # Clean up temporary directory and files that came from a tarball.
     if metadata_is_temporary:
-        os.unlink(metadata_file)
+        print(f"Cleaning up temporary files in {temporary_dir.name}", file=sys.stderr)
+        temporary_dir.cleanup()
