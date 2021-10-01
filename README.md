@@ -30,8 +30,8 @@ We maintain a number of publicly-available builds, visible at [nextstrain.org/nc
 
 ## Reference guides
 
-  - [Metadata field definitions](metadata-fields.md)
-  - [Workflow configuration parameters](configuration.md)
+  - [Metadata field definitions](https://docs.nextstrain.org/projects/ncov/en/latest/reference/metadata-fields.html)
+  - [Workflow configuration parameters](https://docs.nextstrain.org/projects/ncov/en/latest/reference/configuration.html)
 
 ## Download formatted datasets
 
