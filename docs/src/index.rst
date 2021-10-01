@@ -6,7 +6,7 @@ This template and tutorial will walk you through the process of running a basic 
 We've created these resources with the goal of enabling Departments of Public Health to start using Nextstrain to understand their SARS-CoV-2 genomic data within 1-2 hours.
 In addition to the phylogenetic analysis described here, you can use our "drag-and-drop" tool for a clade assignment, mutations calling, and basic sequence quality checks at `clades.nextstrain.org <https://clades.nextstrain.org/>`_.
 
-If you prefer video format to working through this tutorial in the written documentation, check out the :doc:`videos`.
+If you prefer video format to working through this tutorial in the written documentation, check out the :doc:`video tutorial walkthrough <videos>`.
 
 We also recommend `this 1-hour video overview <https://youtu.be/m4_F2tG58Pc>`_ by Heather Blankenship on how to deploy Nextstrain for a Public Health lab.
 
