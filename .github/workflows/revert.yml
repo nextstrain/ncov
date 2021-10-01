@@ -4,15 +4,20 @@ on:
   # Manually triggered using GitHub's UI
   workflow_dispatch:
     inputs:
-      build_name:
-        description: Which set of datasets on nextstrain.org/ncov to reset. "gisaid" or "open"
+      data_source_name:
+        description: Name of data source corresponding to the datasets on nextstrain.org/ncov to reset. Options are "gisaid" or "open".
         required: true
+      build_region_name:
+        description: Which regional datasets on nextstrain.org/ncov/{data_source_name} to reset. Options are "global", "africa", "asia", "europe", "north-america", "oceania", "south-america". If not specified, reverts all.
+        required: true
+        default: all
       date:
         description: Date to revert to. A corresponding set of date-stamped datasets must exist on the s3 bucket. Format is YYYY-MM-DD.
         required: true
 
 env:
-  BUILD_NAME: ${{ github.event.inputs.build_name }}
+  DATA_SOURCE_NAME: ${{ github.event.inputs.data_source_name }}
+  BUILD_REGION_NAME: ${{ github.event.inputs.build_region_name }}
   DATE: ${{ github.event.inputs.date }}
 
 jobs:
@@ -26,7 +31,7 @@ jobs:
 
     - name: Revert build
       run: |
-        ./scripts/revert "$BUILD_NAME" "$DATE"
+        ./scripts/revert "$DATA_SOURCE_NAME" "$BUILD_REGION_NAME" "$DATE"
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

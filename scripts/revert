@@ -1,20 +1,29 @@
 #!/bin/bash
-# build to revert. "gisaid" or "open".
-build=$1
-# date to revert to e.g. yesterday in "+%Y-%m-%d" format.
-date=$2
+# data source name corresponding to builds to revert. "gisaid" or "open".
+data_source_name=$1
 
-regions=" \
-global \
-africa \
-asia \
-europe \
-north-america \
-oceania \
-south-america \
-"
+# regional datasets to revert. Options are "global", "africa", "asia", "europe", "north-america", "oceania", "south-america". If not specified, reverts all.
+build_region_name=$2
+
+# date to revert to e.g. yesterday in "+%Y-%m-%d" format.
+date=$3
+
+if [ $build_region_name == "all" ]
+then
+    regions=" \
+    global \
+    africa \
+    asia \
+    europe \
+    north-america \
+    oceania \
+    south-america \
+    "
+else
+    regions=$build_region_name
+fi
 
 for region in $regions; do
-    aws s3 cp "s3://nextstrain-data/ncov_${build}_${region}_${date}.json" "s3://nextstrain-data/ncov_${build}_${region}.json" \
-    aws s3 cp "s3://nextstrain-data/ncov_${build}_${region}_${date}_tip-frequencies.json" "s3://nextstrain-data/ncov_${build}_${region}_tip-frequencies.json" \
+    aws s3 cp "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}.json" "s3://nextstrain-data/ncov_${data_source_name}_${region}.json"
+    aws s3 cp "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}_tip-frequencies.json" "s3://nextstrain-data/ncov_${data_source_name}_${region}_tip-frequencies.json"
 done
