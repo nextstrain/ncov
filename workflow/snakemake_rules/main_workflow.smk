@@ -16,6 +16,8 @@ rule sanitize_metadata:
         rename_fields=config["sanitize_metadata"]["rename_fields"],
         strain_prefixes=config["strip_strain_prefixes"],
         error_on_duplicate_strains="--error-on-duplicate-strains" if config["sanitize_metadata"].get("error_on_duplicate_strains") else "",
+    resources:
+        mem_mb=2000
     shell:
         """
         python3 scripts/sanitize_metadata.py \
