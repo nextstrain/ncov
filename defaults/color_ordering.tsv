@@ -20398,6 +20398,8 @@ pango_lineage	AY.2
 pango_lineage	AY.3
 pango_lineage	AY.3.1
 pango_lineage	AY.4
+pango_lineage	AY.4.1
+pango_lineage	AY.4.2
 pango_lineage	AY.5
 pango_lineage	AY.5.1
 pango_lineage	AY.5.2
@@ -20431,6 +20433,20 @@ pango_lineage	AY.30
 pango_lineage	AY.31
 pango_lineage	AY.32
 pango_lineage	AY.33
+pango_lineage	AY.34
+pango_lineage	AY.35
+pango_lineage	AY.36
+pango_lineage	AY.37
+pango_lineage	AY.38
+pango_lineage	AY.39
+pango_lineage	AY.40
+pango_lineage	AY.41
+pango_lineage	AY.42
+pango_lineage	AY.43
+pango_lineage	AY.44
+pango_lineage	AY.45
+pango_lineage	AY.46
+pango_lineage	AY.47
 pango_lineage	B.1.617.3
 pango_lineage	B.1.618
 pango_lineage	B.1.619
@@ -20452,6 +20468,8 @@ pango_lineage	B.1.633
 pango_lineage	B.1.634
 pango_lineage	B.1.635
 pango_lineage	B.1.636
+pango_lineage	B.1.637
+pango_lineage	B.1.638
 pango_lineage	B.1.9
 pango_lineage	B.1.9.1
 pango_lineage	B.1.9.2
@@ -20605,6 +20623,7 @@ pango_lineage	P.1.10
 pango_lineage	P.1.10.1
 pango_lineage	P.1.10.2
 pango_lineage	P.1.11
+pango_lineage	P.1.12
 pango_lineage	P.2
 pango_lineage	P.3
 pango_lineage	P.4
