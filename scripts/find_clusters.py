@@ -3,6 +3,9 @@ import argparse
 from augur.utils import read_tree, read_node_data, read_metadata
 from collections import Counter
 import csv
+import hashlib
+
+MAX_HASH_LENGTH = 7
 
 
 if __name__ == "__main__":
@@ -34,14 +37,19 @@ if __name__ == "__main__":
             continue
 
         count_by_group = Counter()
+        polytomy_sequence_id = None
         for child in node.clades:
             if child.is_terminal() and child.name:
-                any_muts = (len(muts["nodes"].get(child.name, {}).get("muts", [])) > 0)
+                child_muts_data = muts["nodes"].get(child.name, {})
+                any_muts = (len(child_muts_data.get("muts", [])) > 0)
                 if not any_muts:
                     count_by_group[metadata[child.name][group_by]] += 1
 
+                    if polytomy_sequence_id is None and "sequence" in child_muts_data:
+                        polytomy_sequence_id = hashlib.sha256(child_muts_data["sequence"].encode()).hexdigest()[:MAX_HASH_LENGTH]
+
         if any(count >= args.min_tips for count in count_by_group.values()):
-            polytomies.append(node)
+            polytomies.append({"node": node, "name": polytomy_sequence_id})
 
     with open(args.output, "w") as oh:
         writer = csv.DictWriter(
@@ -56,11 +64,14 @@ if __name__ == "__main__":
         )
         writer.writeheader()
         clusters = 0
-        for polytomy in polytomies:
+        for polytomy_data in polytomies:
+            polytomy = polytomy_data["node"]
+            polytomy_sequence_id = polytomy_data["name"]
+
             if polytomy.name:
                 writer.writerow({
                     "strain": polytomy.name,
-                    args.attribute_name: f"cluster_{clusters}",
+                    args.attribute_name: polytomy_sequence_id,
                     group_by: metadata[polytomy.name][group_by]
                 })
 
@@ -68,7 +79,7 @@ if __name__ == "__main__":
                 if child.is_terminal():
                     writer.writerow({
                         "strain": child.name,
-                        args.attribute_name: f"cluster_{clusters}",
+                        args.attribute_name: polytomy_sequence_id,
                         group_by: metadata[child.name][group_by]
                     })
 
