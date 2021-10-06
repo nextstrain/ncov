@@ -33,7 +33,7 @@ jobs:
           --aws-batch \
           --cpus 16 \
           --detach \
-          --memory 14GiB \
+          --memory 31GiB \
             . \
             upload \
             --set-threads align=16 \
