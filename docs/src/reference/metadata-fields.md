@@ -56,6 +56,8 @@ tail +2 data/metadata.tsv | cut -f 7,8 | grep "^New Zealand" | cut -f 2 | sort |
 Similarly to `division`, but for a smaller geographic resolution. This data is often unavailable, and missing data here is typically represented by an empty field or the same value as `division` is used.
 In our example the division is "Auckland", which conveniently (or confusingly) is both a province of New Zealand and a city.
 
+> NOTE for columns 10-12 ("exposure"). These are no longer used in the analysis pipeline, and may no longer be kept up to date in our curated metadata. They remain here as they may be useful for certain questions.
+
 **Column 10: `region_exposure`**
 
 If the sample has a known travel history and infection is thought to have occured in this location, then represent this here.

@@ -112,14 +112,6 @@ Builds support any named attributes that can be referenced by subsampling scheme
 * description: Name to assign the default build when a user has not defined any other entries in the `builds` config.
 * default: `default-build`
 
-## exposure
-* type: object
-* description: Build-specific exposure history inference.
-
-### default
-* type: object
-* description: Default exposure history inference at the country level.
-
 ## files
 * type: object
 * description: Additional files used to configure tools used by the workflow (e.g., alignment references, names of strains to exclude during filtering, etc.).
@@ -675,7 +667,7 @@ hCoV-19/USA/CZB-3456/2021	-3.1
 traits:
   default:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure"]
+    columns: ["country"]
   washington:
     # Override default sampling bias correction for
     # "washington" build and continue to use default
@@ -693,7 +685,7 @@ Each named traits configuration (`default` or build-named) supports the followin
 ### columns
 * type: array
 * description: A list of columns from the metadata for which ancestral trait values should be inferred for ancestral nodes.
-* default: `["country_exposure"]`
+* default: `["country"]`
 
 ## tree
 * type: object

@@ -44,4 +44,3 @@ subsampling:
       max_sequences: 100
       query: --query "contextual == 'yes'"
 
-skip_travel_history_adjustment: True

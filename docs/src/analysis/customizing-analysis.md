@@ -181,16 +181,7 @@ To specify this on a per-build basis, add a block like the following to your `my
 traits:
   my_north_america_build: ### build name
     sampling_bias_correction: 2.5
-    columns: ["country_exposure", "division_exposure"] ### traits to reconstruct; must match column names in metadata.tsv
-```
-
-This is particularly powerful when travel histories are available:
-
-```yaml
-exposure:
-  my_north_america_build: ### build name
-    trait: "division"
-    exposure: "division_exposure"
+    columns: ["country", "division"] ### traits to reconstruct; must match column names in metadata.tsv
 ```
 
 ## Labeling clades

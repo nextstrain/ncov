@@ -70,9 +70,6 @@ builds:
 filter:
   exclude_where: "division='USA' purpose_of_sequencing='S dropout'"
 
-# Open metadata does not have "exposure" data (i.e. travel history)
-skip_travel_history_adjustment: true
-
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
 traits:

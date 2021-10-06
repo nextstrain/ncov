@@ -107,13 +107,6 @@ There are a few steps where sequences can be removed:
     - Samples may be randomly removed during subsampling; see ['customizing your analysis'](customizing-analysis.md) for more info.
   - During the `refine` step, where samples that deviate more than 4 interquartile ranges from the root-to-tip vs time are removed
 
-#### `Error: Where there's SAMPLING_TRAIT we should always have EXPOSURE_TRAIT`
-
-This comes from an incomplete metadata file.
-If you define (e.g.) `country` for a sample then you _must_ also define `country_exposure` for that sample.
-If there is no (known) travel history, then you can set the same values for each.
-
-
 #### Sequencing and alignment errors
 
 Genome sequencing, bioinformatic processing of the raw data, and alignment of the sequences are all steps were errors can slip in.
