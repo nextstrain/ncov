@@ -5,6 +5,13 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+
+## v9 (6 October 2021)
+
+- 6 October 2021: Remove travel exposure adjustment. This is a potentially breaking change if you had explicitly opted into this functionality (by default, it was disabled); in this case your snakefile will print an appropriate error and exit. Note that you can still define exposure metadata traits as colorings in your `auspice-config.json`, however be aware that these may not be curated in the future. See [PR 723](https://github.com/nextstrain/ncov/pull/723) for more.
+
+- 6 October 2021: Change how the internal (core) nextstrain profiles are run. We now split each (GISAID, open) into a preprocessing profile and a phylogenetic build pipeline. Please see [PR 730](https://github.com/nextstrain/ncov/pull/730) for more. There should be no changes to other profiles.
+
 - 19 September 2021: Include "mutational fitness" coloring based on [Obermeyer et al model](https://www.medrxiv.org/content/10.1101/2021.09.07.21263228v1). This annotates each node in the tree with a `mutational_fitness` trait by summing mutational effects from Obermeyer et al Supplementary Data S2. This should provide a mechanism to flag emergence of novel variants that may have higher fitness than circulating viruses.
 
 ## v8 (19 Aug 2021)
