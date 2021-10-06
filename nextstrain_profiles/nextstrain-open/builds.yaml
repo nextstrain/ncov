@@ -11,19 +11,16 @@ custom_rules:
 S3_DST_BUCKET: "nextstrain-data/files/ncov/open"
 S3_DST_COMPRESSION: "xz"
 S3_DST_ORIGINS: ["open"]
+upload:
+  - build-files
 
-# NOTE for shepherds -- there are commented out inputs here, you can
-# uncomment them to start the pipeline at that stage.
-# E.g. if you uncomment `filtered` then the pipeline
-# will start by downloading that file and proceeding straight to
-# subsampling
+# Note: we have a separate profile for aligning open sequences. This is triggered
+# as soon as new sequences are available. This workflow is thus intended to be
+# started from the filtered alignment.                        james, sept 2021
 inputs:
   - name: open
     metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.gz"
-    sequences: "s3://nextstrain-data/files/ncov/open/sequences.fasta.xz"
-    # aligned: "s3://nextstrain-data/files/ncov/open/aligned.fasta.xz"
-    # masked: "s3://nextstrain-data/files/ncov/open/masked.fasta.xz"
-    # filtered: "s3://nextstrain-data/files/ncov/open/filtered.fasta.xz"
+    filtered: "s3://nextstrain-data/files/ncov/open/filtered.fasta.xz"
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.

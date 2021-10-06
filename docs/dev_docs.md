@@ -68,13 +68,70 @@ Prior to merging a pull request that introduces a new backward incompatible chan
 We do not release new minor versions for new features, but you should document new features in the change log as part of the corresponding pull request under a heading for the date those features are merged.
 
 
+## Running Core Nextstrain Builds
+
+The "core" nextstrain builds consist of a global analysis and six regional analyses, performed independently for GISAID data and open data (currently open data is GenBank data).
+Stepping back, the process can be broken into three steps:
+1. Ingest and curation of raw data. This is performed by the [ncov-ingest](https://github.com/nextstrain/ncov-ingest/) repo and resulting files are uploaded to S3 buckets.
+2. Preprocessing of data (alignment, masking and QC filtering). This is performed by the profiles `nextstrain_profiles/nextstrain-open-preprocess` and `nextstrain_profiles/nextstrain-gisaid-preprocess`. The resulting files are uploaded to S3 buckets by the `upload` rule.
+3. Phylogenetic builds, which start from the files produced by the previous step. This is performed by the profiles `nextstrain_profiles/nextstrain-open` and `nextstrain_profiles/nextstrain-gisaid`. The resulting files are uploaded to S3 buckets by the `upload` rule.
+
+
+### Manually running preprocessing
+
+To run these pipelines without uploading the results:
+```sh
+snakemake -pf results/filtered_open.fasta.xz --profile nextstrain_profiles/nextstrain-open-preprocess
+snakemake -pf results/filtered_gisaid.fasta.xz --profile nextstrain_profiles/nextstrain-gisaid-preprocess
+```
+
+If you wish to upload the resulting information, you should run the `upload` rule.
+Optionally, you may wish to define a specific `S3_DST_BUCKET` to avoid overwriting the files already present on the S3 buckets:
+```sh
+snakemake -pf upload --profile nextstrain_profiles/nextstrain-open-preprocess \
+    --config S3_DST_BUCKET=nextstrain-staging/files/ncov/open/trial/TRIAL_NAME
+snakemake -pf upload --profile nextstrain_profiles/nextstrain-gisaid-preprocess \
+    --config S3_DST_BUCKET=nextstrain-ncov-private/trial/TRIAL_NAME
+```
+
+### Manually running phylogenetic builds
+
+To run these pipelines locally, without uploading the results:
+```sh
+snakemake -pf all --profile nextstrain_profiles/nextstrain-open
+snakemake -pf all --profile nextstrain_profiles/nextstrain-gisaid
+```
+You can replace `all` with, for instance, `auspice/ncov_open_global.json` to avoid building all regions.
+The resulting dataset(s) can be visualised in the browser by running `auspice view --datasetDir auspice`.
+
+If you wish to upload the resulting information, you should run the `upload` and/or `deploy` rules.
+The `upload` rule uploads the resulting files, including intermediate files, to specific S3 buckets; this rule uses the `S3_DST_BUCKET` config parameter.
+The `deploy` rule uploads the dataset files such that they are accessible via nextstrain URLs (e.g. nextstrain.org/ncov/gisaid/global); this rule uses the `deploy_url` and `auspice_json_prefix` parameters.
+You may wish to overwrite these parameters for your local runs to avoid overwriting data which is already present.
+For instance, here are the commands used by the trial builds action (see below):
+```sh
+snakemake -pf upload deploy \
+    --profile nextstrain_profiles/nextstrain-open-preprocess \
+    --config \
+        S3_DST_BUCKET=nextstrain-staging/files/ncov/open/trial/TRIAL_NAME \
+        deploy_url=s3://nextstrain-staging/ \
+        auspice_json_prefix=ncov_open_trial_TRIAL_NAME
+snakemake -pf upload deploy \
+    --profile nextstrain_profiles/nextstrain-gisaid-preprocess \
+    --config \
+        S3_DST_BUCKET=nextstrain-ncov-private/trial/TRIAL_NAME \
+        deploy_url=s3://nextstrain-staging/ \
+        auspice_json_prefix=ncov_gisaid_trial_TRIAL_NAME
+```
+
+
 ## Triggering routine builds
 
 Typically, everything’s triggered from the  `ncov-ingest` pipeline’s `trigger` command.
-After updating the intermediate files, that command will run this `ncov` pipeline force-requiring the rules `deploy` and `upload`.
+After updating the intermediate files, that command will run the phylogenetic `ncov` pipelines (step 3, above) force-requiring the rules `deploy` and `upload`.
 
 ## Triggering trial builds
 
-This repository contains a GitHub Action `trial-build` which is manually run [via github.com](https://github.com/nextstrain/ncov/actions/workflows/trial-build.yml).
+This repository contains a GitHub Action `trial-build` which is manually run [via github.com](https://github.com/nextstrain/ncov/actions/workflows/trial-build.yml) and runs both of the phylogenetic build pipelines (gisaid + open).
 This will ask for a “trial name” and upload intermediate files to  `nextstrain-ncov-private/trial/$TRIAL_NAME` and `nextstrain-staging/files/ncov/open/trial/$TRIAL_NAME`.
 Auspice datasets for visualisation will be available at `https://nextstrain.org/staging/ncov/gisaid/trial/$TRIAL_NAME/$BUILD_NAME` and `https://nextstrain.org/staging/ncov/open/trial/$TRIAL_NAME/$BUILD_NAME`.

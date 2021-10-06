@@ -140,15 +140,16 @@ def _get_upload_inputs(wildcards):
     origin = config["S3_DST_ORIGINS"][0]
 
     # mapping of remote → local filenames
-    uploads = {
+    preprocessing_files = {
         f"aligned.fasta.xz":              f"results/aligned_{origin}.fasta.xz",              # from `rule align`
         f"masked.fasta.xz":               f"results/masked_{origin}.fasta.xz",               # from `rule mask`
         f"filtered.fasta.xz":             f"results/filtered_{origin}.fasta.xz",             # from `rule filter`
         f"mutation-summary.tsv.xz":       f"results/mutation_summary_{origin}.tsv.xz",       # from `rule mutation_summary`
     }
 
+    build_files = {}
     for build_name in config["builds"]:
-        uploads.update({
+        build_files.update({
             f"{build_name}/sequences.fasta.xz": f"results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",   # from `rule combine_samples`
             f"{build_name}/metadata.tsv.xz":    f"results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",      # from `rule combine_samples`
             f"{build_name}/aligned.fasta.xz":   f"results/{build_name}/aligned.fasta.xz",                             # from `rule build_align`
@@ -158,4 +159,13 @@ def _get_upload_inputs(wildcards):
             f"{build_name}/{build_name}_root-sequence.json":    f"auspice/{config['auspice_json_prefix']}_{build_name}_root-sequence.json"
         })
 
-    return uploads
+    req_upload = config.get("upload", [])
+    if "preprocessing-files" in req_upload and "build-files" in req_upload:
+        return {**preprocessing_files, **build_files}
+    elif "preprocessing-files" in req_upload:
+        return preprocessing_files
+    elif "build-files" in req_upload:
+        return build_files
+    else:
+        raise Exception("The upload rule requires an 'upload' parameter in the config.")
+
