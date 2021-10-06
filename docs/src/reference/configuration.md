@@ -505,7 +505,32 @@ Valid attributes for list entries in `inputs` are provided below.
 
 ## sanitize_metadata
 * type: object
-* description: Parameters to configure how to sanitize metadata to a Nextstrain-compatible format.
+* description: Parameters to configure how to sanitize metadata to a Nextstrain-compatible format. The sanitize metadata script resolves duplicate records using database ids, parses a GISAID-style location field into Nextstrain-style location fields, strips prefixes from strain names, and renames fields in that order.
+
+### metadata_id_columns
+* type: object
+* description: A list of valid strain name columns in the metadata. The sanitize metadata script will check attempt to use the first of these columns that exists in the metadata. It will exit with an error, if none of the columns exist.
+* default:
+```yaml
+  - strain
+  - name
+  - "Virus name"
+```
+
+### database_id_columns
+* type: object
+* description: A list of columns representing external database ids for metadata records. These unique ids represent a snapshot of data at a specific time for a given strain name. The sanitize metadata script resolves duplicate metadata records for the same strain name by selecting the record with the latest database id. Multiple database id columns allow the script to resolve duplicates when one or more columns has ambiguous values (e.g., "?"). Deduplication occurs before renaming of columns, so the default values include GISAID's own "Accession ID" as well as Nextstrain-style database ids.
+* default:
+```yaml
+  - "Accession ID"
+  - gisaid_epi_isl
+  - genbank_accession
+```
+
+### error_on_duplicate_strains
+* type: boolean
+* description: Exit the sanitize metadata script with an error when any strains have multiple records in the metadata. The script writes list of all duplicate strains to a file named like `<input>.duplicates.txt` that users can review and use to address unexpected duplicates.
+* default: `false`
 
 ### parse_location_field
 * type: string

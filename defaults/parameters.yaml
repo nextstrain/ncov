@@ -11,6 +11,16 @@ strip_strain_prefixes:
   - SARS-CoV-2/
 
 sanitize_metadata:
+  metadata_id_columns:
+    - strain
+    - name
+    - Virus name
+  database_id_columns:
+    - "Accession ID"
+    - gisaid_epi_isl
+    - genbank_accession
+  error_on_duplicate_strains: false
+  parse_location_field: Location
   rename_fields:
     - "Virus name=strain"
     - "Type=type"
@@ -36,7 +46,6 @@ sanitize_metadata:
     - "Is low coverage?=is_low_coverage"
     - "N-Content=n_content"
     - "GC-Content=gc_content"
-  parse_location_field: Location
 
 reference_node_name: "USA/WA1/2020"
 

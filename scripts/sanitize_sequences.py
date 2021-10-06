@@ -91,25 +91,18 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     sequence_files = []
-    tar_handles = []
+    temporary_dirs = []
     for sequence_filename in args.sequences:
         # If the input is a tarball, try to find a sequence file inside the
         # archive.
         if ".tar" in Path(sequence_filename).suffixes:
             try:
-                sequence_file, tar_handle = extract_tar_file_contents(
+                temporary_dir, sequence_file = extract_tar_file_contents(
                     sequence_filename,
                     "sequences"
                 )
-
-                # The extracted tar file is an io.BufferedReader which provides
-                # a binary stream. BioPython's SeqIO reader expects a text
-                # stream. We decode each line of the BufferedReader in a
-                # generator such that decoding happens on the fly per line
-                # downstream. For more details see:
-                # https://docs.python.org/3/library/tarfile.html#tarfile.TarFile.extractfile
                 sequence_files.append(sequence_file)
-                tar_handles.append(tar_handle)
+                temporary_dirs.append(temporary_dir)
             except FileNotFoundError as error:
                 print(f"ERROR: {error}", file=sys.stderr)
                 sys.exit(1)
@@ -142,11 +135,7 @@ if __name__ == '__main__':
             )
             sys.exit(1)
 
-    # Clean up any open sequence files.
-    for sequence_file in sequence_files:
-        if hasattr(sequence_file, "close"):
-            sequence_file.close()
-
-    # Clean up any open tarballs.
-    for tar_handle in tar_handles:
-        tar_handle.close()
+    # Clean up temporary directory and files that came from a tarball.
+    for temporary_dir in temporary_dirs:
+        print(f"Cleaning up temporary files in {temporary_dir.name}", file=sys.stderr)
+        temporary_dir.cleanup()

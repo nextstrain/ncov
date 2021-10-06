@@ -10,16 +10,24 @@ rule sanitize_metadata:
     log:
         "logs/sanitize_metadata_{origin}.txt"
     params:
+        metadata_id_columns=config["sanitize_metadata"]["metadata_id_columns"],
+        database_id_columns=config["sanitize_metadata"]["database_id_columns"],
         parse_location_field=f"--parse-location-field {config['sanitize_metadata']['parse_location_field']}" if config["sanitize_metadata"].get("parse_location_field") else "",
         rename_fields=config["sanitize_metadata"]["rename_fields"],
         strain_prefixes=config["strip_strain_prefixes"],
+        error_on_duplicate_strains="--error-on-duplicate-strains" if config["sanitize_metadata"].get("error_on_duplicate_strains") else "",
+    resources:
+        mem_mb=2000
     shell:
         """
         python3 scripts/sanitize_metadata.py \
             --metadata {input.metadata} \
+            --metadata-id-columns {params.metadata_id_columns:q} \
+            --database-id-columns {params.database_id_columns:q} \
             {params.parse_location_field} \
             --rename-fields {params.rename_fields:q} \
             --strip-prefixes {params.strain_prefixes:q} \
+            {params.error_on_duplicate_strains} \
             --output {output.metadata} 2>&1 | tee {log}
         """
 
