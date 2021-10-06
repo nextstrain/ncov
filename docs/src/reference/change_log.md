@@ -5,6 +5,7 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 6 October 2021: Update clades with `21I (Delta)` and `21J (Delta)` viruses. These are subclades within `21A (Delta)`. Based on mutations they should have largely Delta-like phenotypes, although additional ORF1a mutations in `21J (Delta)` appear to confer higher fitness. 
 
 ## v9 (6 October 2021)
 
