@@ -387,11 +387,21 @@ location	Foakaidhoo
 
 ### India
 # Kerala
+location	Alappuzha
+location	Calicut
 location	Ernakulam
 location	Idukki
+location	Kannur
+location	Kasaragod
+location	Kollam
+location	Kottayam
 location	Kozhikode
+location	Malappuram
+location	Palakkad
+location	Thiruvananthapuram
 location	Thrissur
 location	Tiruvantpuram
+location	Wayanad
 
 # Puducherry
 location	Karaikal
@@ -1670,12 +1680,16 @@ location	Sleman
 
 # Central Java
 location	Banyumas
+location	Blora
 location	Brebes
 location	Cilacap
+location	Demak
 location	Grobogan
 location	Jepara
+location	Klaten
 location	Magelang City
 location	Magelang Regency
+location	Pekalongan
 location	Pemalang
 location	Purwokerto
 location	Salatiga
@@ -2407,6 +2421,7 @@ location	Marondera
 # Mashonaland Central
 location	Bindura
 
+### Rwanda
 ### Egypt
 # Cairo
 location	Al Matariyyah
@@ -4699,6 +4714,7 @@ location	Cormoz
 location	Coulandon
 location	Cournon
 location	Cournon D Auvergne
+location	Cournon-D'Auvergne
 location	Courpiere
 location	Crandelles
 location	Craponne
@@ -5730,6 +5746,7 @@ location	Alsemberg
 location	Asse
 location	Beersel
 location	Beert
+location	Beigem
 location	Berg
 location	Bogaarden
 location	Borchtlombeek
@@ -6453,6 +6470,7 @@ location	Waalwijk
 
 # Flevoland
 location	Almere
+location	Emmeloord
 location	Lelystad
 location	Urk
 location	Zeewolde
@@ -6465,6 +6483,7 @@ location	Gorredijk
 location	Harkema
 location	Jubbega
 location	Kimswerd
+location	Munnekeburen
 location	Noordwolde
 location	Oosterstreek
 location	Oosterwolde
@@ -6595,6 +6614,7 @@ location	Hooghalen
 location	Koekange
 location	Meppel
 location	Nieuw Annerveen
+location	Nieuwe-Weerdinge
 location	Noordscheschut
 location	Norg
 location	Paterswolde
@@ -8905,6 +8925,7 @@ location	Radomski
 location	Radomsko
 location	Radomszczanski
 location	Rawa Mazowiecka
+location	Rawski
 location	Rewica Szlachecka
 location	Rogow (Łódzkie)
 location	Sieradz
@@ -11852,6 +11873,7 @@ location	Cerro Grande do Sul
 location	Charqueadas
 location	Cidreira
 location	Condor
+location	Coronel Bicaco
 location	Cotipora
 location	Cristal
 location	Cruz Alta
@@ -12059,6 +12081,7 @@ location	Bela Vista do Paraiso
 location	Bituruna
 location	Boa Esperanca do Iguacu
 location	Borrazopolis
+location	Brazil
 location	California
 location	Cambara
 location	Cambe
@@ -13913,6 +13936,7 @@ location	Lima PE
 location	San Isidro PE
 
 # Junin
+location	Chanchamayo
 location	Huancayo
 
 # Ancash
@@ -13942,6 +13966,7 @@ location	Luya
 
 # Loreto
 location	Iquitos
+location	Yurimaguas
 
 ### Ecuador
 # Galapagos
@@ -14209,6 +14234,7 @@ location	Amalfi
 location	Andes
 location	Anza
 location	Apartado
+location	Arboletes
 location	Argelia
 location	Barbosa
 location	Bello
@@ -14468,8 +14494,6 @@ location	Vista Alegre
 
 # Panama Center
 location	24 De Diciembre
-location	24 de Diciembre
-location	Alcalde Diaz
 location	Alcalde Díaz
 location	Amelia D.de Icaza
 location	Amelia Denis de Icaza
@@ -14477,7 +14501,6 @@ location	Ancon
 location	Ancón
 location	Arnulfo A Madrid
 location	Arnulfo Arias
-location	Belisario Frias
 location	Belisario Frías
 location	Belisario Porras
 location	Bella Vista
@@ -14503,7 +14526,6 @@ location	Las Garzas
 location	Las Mañanitas
 location	Mananitas
 location	Mateo Iturralde
-location	Mañanitas
 location	Omar Torrijos
 location	Pacora
 location	Panama Metro
@@ -15487,7 +15509,6 @@ location	Rapides Parish
 location	Red River Parish
 location	Richland Parish
 location	Sabine Parish
-location	Saint Mary
 location	Saint Mary Parish
 location	St Anthony
 location	St Bernard Parish
@@ -15888,6 +15909,7 @@ location	Laporte County
 location	Marion County IN
 location	Newton County IN
 location	Porter County
+location	St Joseph County
 location	St. Joseph County
 location	Tippecanoe County
 location	Vermillion County
@@ -15907,6 +15929,7 @@ location	Marquette County MI
 location	Midland County MI
 location	Oakland County
 location	Van Buren County
+location	Wayne County
 location	Wayne County MI
 
 # Georgia
@@ -16000,6 +16023,7 @@ location	Barnwell County
 location	Beaufort County SC
 location	Berkeley County SC
 location	Calhoun County SC
+location	Canyon
 location	Charleston County
 location	Cherokee County SC
 location	Chester County SC
@@ -16242,6 +16266,7 @@ location	Meriden
 location	Middlesex County CT
 location	New Haven County
 location	New London County
+location	New London Couty
 location	Newtown CT
 location	North Haven
 location	Northford
