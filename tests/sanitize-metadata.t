@@ -4,11 +4,13 @@ Test script to sanitize metadata.
 
 Deduplicate metadata by strain name.
 Out of three records, two are duplicates, so only two records plus the header should be retained.
+Use a small chunk size to ensure sanitizing works over multiple loops through the metadata.
 
   $ python3 ../scripts/sanitize_metadata.py \
   >  --metadata unsanitized_metadata.tsv \
   >  --metadata-id-columns 'Virus name' strain \
   >  --database-id-columns gisaid_epi_isl genbank_accession \
+  >  --metadata-chunk-size 2 \
   >  --output "$TMP/metadata.tsv"
   $ wc -l "$TMP/metadata.tsv"
   \s*3 .* (re)

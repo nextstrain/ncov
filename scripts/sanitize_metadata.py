@@ -359,6 +359,7 @@ if __name__ == '__main__':
         id_columns=metadata_id_columns,
         chunk_size=args.metadata_chunk_size,
     )
+    emit_header = True
 
     with open_file(args.output, "w") as output_file_handle:
         for metadata in metadata_reader:
@@ -414,7 +415,9 @@ if __name__ == '__main__':
                 output_file_handle,
                 sep="\t",
                 index=False,
+                header=emit_header,
             )
+            emit_header = False
 
     # Delete the database/strain id mapping.
     os.unlink(database_ids_by_strain)
