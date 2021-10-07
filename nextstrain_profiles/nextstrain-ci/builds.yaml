@@ -6,6 +6,9 @@ inputs:
   - name: gisaid
     metadata: "data/example_metadata.tsv"
     sequences: "data/example_sequences.fasta"
+  - name: reference
+    metadata: "data/references_metadata.tsv"
+    sequences: "data/references_sequences.fasta"
 
 builds:
   # Override the default Nextstrain European build's subsampling scheme for more
