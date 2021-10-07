@@ -36,16 +36,19 @@ jobs:
           --memory 31GiB \
             . \
             upload \
+            ${{ github.event.inputs.trial_name=='' && 'trigger_phylogenetic_rebuild' || '' }} \
             --set-threads align=16 \
             --profile nextstrain_profiles/nextstrain-open-preprocess \
             --config \
               S3_DST_BUCKET=${S3_DST_BUCKET} \
               ${{ github.event.inputs.trial_name=='' && format('slack_token={0}', env.SLACK_TOKEN) || '' }} \
+              github_token=${PAT_GITHUB_DISPATCH} \
         |& tee build-launch.log
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+        PAT_GITHUB_DISPATCH: ${{ secrets.PAT_GITHUB_DISPATCH }}
 
     - name: Build info
       run: |
@@ -61,3 +64,5 @@ jobs:
         JOBID=$( tail -n1 build-launch.log | sed -E 's/.+attach ([-a-f0-9]+).+/\1/' )
         echo "--> View this job in the AWS console via"
         echo "    https://console.aws.amazon.com/batch/home?region=us-east-1#jobs/detail/${JOBID}"
+        echo
+        echo ${{ github.event.inputs.trial_name=='' && '--> When this job completes, a phylogenetic rebuild will be triggered' || '--> This is a trial build, and as such won't trigger a phylogenetic rebuild' }}

@@ -10,12 +10,13 @@ on:
       - genbank/rebuild
   # Manually triggered using GitHub's UI
   workflow_dispatch:
-    trial_name:
-      description: "Short name for this trial build, for prefixing the uploaded data and results files. WARNING: without this we will overwrite files in s3://nextstrain-data/files/ncov/open/ and the trees on nextstrain.org/ncov/open/..."
-      required: false
-    image:
-      description: 'Specific container image to use for build (will override the default of "nextstrain build")'
-      required: false
+    inputs:
+      trial_name:
+        description: "Short name for this trial build, for prefixing the uploaded data and results files. WARNING: without this we will overwrite files in s3://nextstrain-data/files/ncov/open/ and the trees on nextstrain.org/ncov/open/..."
+        required: false
+      image:
+        description: 'Specific container image to use for build (will override the default of "nextstrain build")'
+        required: false
 
 env:
   TRIAL_NAME: ${{ github.event.inputs.trial_name }}
