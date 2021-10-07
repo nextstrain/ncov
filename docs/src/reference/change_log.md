@@ -5,7 +5,10 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 7 October 2021: Automatically exclude sequences whose dates are more than two weeks (this parameter can be adjusted) before the first known sequences for their corresponding clade: [PR #740](https://github.com/nextstrain/ncov/pull/740). To be extended to provide a tsv of all auto-excluded sequences and reasons for exclusion such as the reason addressed in the afformentioned PR, AKA `check_clade_dates`, and others checked in [scripts/diagnostic.py](https://github.com/nextstrain/ncov/blob/master/scripts/diagnostic.py).
+
 - 6 October 2021: Add three configuration parameters to control the metadata sanitizer step of the workflow. These parameters allow users to specify the metadata columns to use for strain names (`metadata_id_columns`) and to resolve duplicate records with database ids (`database_id_columns`). The new `error_on_duplicate_strains` parameter allows users to ask the workflow to exit with an error when any duplicates appear in the metadata. [See the configuration reference for more details](https://docs.nextstrain.org/projects/ncov/en/latest/reference/configuration.html#sanitize-metadata). ([#728](https://github.com/nextstrain/ncov/pull/728))
+
 - 6 October 2021: Update clades with `21I (Delta)` and `21J (Delta)` viruses. These are subclades within `21A (Delta)`. Based on mutations they should have largely Delta-like phenotypes, although additional ORF1a mutations in `21J (Delta)` appear to confer higher fitness.
 
 ## v9 (6 October 2021)
