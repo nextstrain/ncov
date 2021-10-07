@@ -11,6 +11,7 @@ strip_strain_prefixes:
   - SARS-CoV-2/
 
 sanitize_metadata:
+  metadata_chunk_size: 100000
   metadata_id_columns:
     - strain
     - name

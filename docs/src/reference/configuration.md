@@ -507,6 +507,10 @@ Valid attributes for list entries in `inputs` are provided below.
 * type: object
 * description: Parameters to configure how to sanitize metadata to a Nextstrain-compatible format. The sanitize metadata script resolves duplicate records using database ids, parses a GISAID-style location field into Nextstrain-style location fields, strips prefixes from strain names, and renames fields in that order.
 
+### metadata_chunk_size
+ * type: integer
+ * description: Maximum number of metadata records to read into memory at a time. Increasing this number can speed up filtering at the cost of more memory used.
+
 ### metadata_id_columns
 * type: object
 * description: A list of valid strain name columns in the metadata. The sanitize metadata script will check attempt to use the first of these columns that exists in the metadata. It will exit with an error, if none of the columns exist.

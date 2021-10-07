@@ -10,6 +10,9 @@ inputs:
     metadata: "data/references_metadata.tsv"
     sequences: "data/references_sequences.fasta"
 
+sanitize_metadata:
+  metadata_chunk_size: 5
+
 builds:
   # Override the default Nextstrain European build's subsampling scheme for more
   # stable subsampling of a fixed dataset in continuous integration tests.
