@@ -1,4 +1,4 @@
-name: Revert nextstrain.org/ncov/gisaid or nextstrain.org/ncov/gisaid
+name: Revert nextstrain.org/ncov/gisaid or nextstrain.org/ncov/open
 
 on:
   # Manually triggered using GitHub's UI
@@ -8,7 +8,7 @@ on:
         description: Name of data source corresponding to the datasets on nextstrain.org/ncov to reset. Options are "gisaid" or "open".
         required: true
       build_region_name:
-        description: Which regional datasets on nextstrain.org/ncov/{data_source_name} to reset. Options are "global", "africa", "asia", "europe", "north-america", "oceania", "south-america". If not specified, reverts all.
+        description: A single regional dataset on nextstrain.org/ncov/{data_source_name} to reset. Options are "global", "africa", "asia", "europe", "north-america", "oceania", "south-america". If not specified, reverts all. If you'd like to revert multiple regions but not all, run the action multiple times, specifying one region each time.
         required: true
         default: all
       date:

@@ -1,14 +1,17 @@
 #!/bin/bash
+set -x
+
 # data source name corresponding to builds to revert. "gisaid" or "open".
 data_source_name=$1
 
-# regional datasets to revert. Options are "global", "africa", "asia", "europe", "north-america", "oceania", "south-america". If not specified, reverts all.
+# An individual regional dataset to revert. Options are "global", "africa", "asia", "europe", "north-america", "oceania", "south-america". If not specified, reverts all.
+# If you'd like to revert multiple regions but not all, run the script multiple times, specifying one region each time.
 build_region_name=$2
 
 # date to revert to e.g. yesterday in "+%Y-%m-%d" format.
 date=$3
 
-if [ $build_region_name == "all" ]
+if [[ "$build_region_name" == "all" ]]
 then
     regions=" \
     global \
@@ -24,6 +27,11 @@ else
 fi
 
 for region in $regions; do
-    aws s3 cp "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}.json" "s3://nextstrain-data/ncov_${data_source_name}_${region}.json"
-    aws s3 cp "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}_tip-frequencies.json" "s3://nextstrain-data/ncov_${data_source_name}_${region}_tip-frequencies.json"
+    if aws s3 ls s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}.json; then
+        aws s3 cp "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}.json" "s3://nextstrain-data/ncov_${data_source_name}_${region}.json"
+        aws s3 cp "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}_tip-frequencies.json" "s3://nextstrain-data/ncov_${data_source_name}_${region}_tip-frequencies.json"
+    else
+        echo "The requested dataset doesn't exist and thus we can't revert to it!"
+        exit 1
+    fi
 done
