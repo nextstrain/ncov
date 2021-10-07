@@ -195,7 +195,7 @@ rule upload:
         "benchmarks/upload.txt"
     run:
         for remote, local in input.items():
-            shell("./scripts/upload-to-s3 {local:q} s3://{params.s3_bucket:q}/{remote:q} | tee -a {log:q}")
+            shell("set -o pipefail; ./scripts/upload-to-s3 {local:q} s3://{params.s3_bucket:q}/{remote:q} | tee -a {log:q}")
 
 onstart:
     slack_message = f"{BUILD_DESCRIPTION} {deploy_origin} started."
