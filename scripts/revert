@@ -26,12 +26,24 @@ else
     regions=$build_region_name
 fi
 
+missing_count=0
 for region in $regions; do
-    if aws s3 ls s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}.json; then
-        aws s3 cp "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}.json" "s3://nextstrain-data/ncov_${data_source_name}_${region}.json"
-        aws s3 cp "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}_tip-frequencies.json" "s3://nextstrain-data/ncov_${data_source_name}_${region}_tip-frequencies.json"
+    if nextstrain remote list s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}.json; then
+        # revert main json
+        nextstrain remote download "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}.json" .
+        mv "ncov_${data_source_name}_${region}_${date}.json" "ncov_${data_source_name}_${region}.json"
+        nextstrain remote upload "s3://nextstrain-data" "s3://nextstrain-data/ncov_${data_source_name}_${region}.json"
+        # revert tip frequencies json
+        nextstrain remote download "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}_tip-frequencies.json" .
+        mv "ncov_${data_source_name}_${region}_${date}_tip-frequencies.json" "ncov_${data_source_name}_${region}_tip-frequencies.json"
+        nextstrain remote upload "s3://nextstrain-data" "ncov_${data_source_name}_${region}_tip-frequencies.json"
     else
-        echo "The requested dataset doesn't exist and thus we can't revert to it!"
-        exit 1
+        ((missing_count++))
     fi
 done
+
+if [[ "$missing_count" -gt 0 ]]; then
+    echo "At least one requested dataset doesn't exist and thus we can't revert to it!"
+fi
+
+exit $missing_count
