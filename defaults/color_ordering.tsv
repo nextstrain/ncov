@@ -5439,6 +5439,7 @@ location	Mariakerke
 location	Melle
 location	Merelbeke
 location	Moerbeke
+location	Nazareth
 location	Nevele
 location	Oosterzele
 location	Poeke
@@ -7555,6 +7556,7 @@ location	Usti nad Labem
 location	Všebořice
 
 # Prague
+location	Bechovice
 location	Kvetnice
 location	Prague
 location	Prague 1
@@ -7572,6 +7574,7 @@ location	Prague 8
 location	Prague 9
 location	Prague-Miskovice
 location	Prague-Petrovice
+location	Prague4
 location	Praha
 location	Praha 17
 location	Praha 2
@@ -7596,6 +7599,7 @@ location	Netolice
 location	Pisek
 location	Prachatice
 location	Staré Město pod Landštejnem
+location	Strmilov
 location	České Budějovice
 location	Český Krumlov
 location	Šumavské Hoštice
@@ -7610,6 +7614,7 @@ location	Benátky nad Jizerou
 location	Beroun
 location	Brandys N. Labem
 location	Bášť
+location	Cechtice
 location	Chrášťany
 location	Chýně
 location	Herink
@@ -7700,6 +7705,7 @@ location	Visnova
 location	Vratislavice nad Nisou
 
 # Vysocina Region
+location	Batelov
 location	Bela - Ledec Na Sazavou
 location	Benetice
 location	Bily Kamen
@@ -7716,6 +7722,7 @@ location	Chlistov
 location	Chotebor
 location	Dacice
 location	Dobronin
+location	Dusejov
 location	Golcuv Jenikov
 location	Hartvikovice
 location	Havlickova Borova
@@ -7725,11 +7732,13 @@ location	Hodov
 location	Hojkov
 location	Hrotovice
 location	Humpolec
+location	Jamne U Jihlavy
 location	Jaromerice nad Rokytnou
 location	Jemnice
 location	Jihlava
 location	Jirikovice
 location	Kadolec
+location	Kaliste
 location	Kamenice nad Lipou
 location	Knezice
 location	Kojcice
@@ -7739,8 +7748,11 @@ location	Kozlov
 location	Krasonice
 location	Kratka Ves
 location	Kynice
+location	Lesonice
 location	Lipnik CZ
+location	Lipnik U Hrotovic
 location	Luka nad Jihlavou
+location	Malec
 location	Markvartice
 location	Michalovice
 location	Mohelno
@@ -7755,14 +7767,19 @@ location	Nove Dvory
 location	Nove Mesto Na Morave
 location	Nove Veseli
 location	Náměšť nad Oslavou
+location	Okrisky
 location	Okrouhlice
 location	Olesnice
 location	Oslavice
 location	Osová Bityska
+location	Ostrov nad Oslavou
+location	Pacov
 location	Pavlov
 location	Pelhrimov
+location	Pohled
 location	Police CZ
 location	Polna
+location	Predin
 location	Pribyslav
 location	Pribyslavice (Vysocina Region)
 location	Prosetin
@@ -7770,16 +7787,19 @@ location	Radostin nad Oslavou
 location	Rantirov
 location	Rudikov
 location	Rynarec
+location	Senozaty
 location	Skrinarov
 location	Smrk
 location	Sobinov
 location	Starec (Vysocina Region)
+location	Stoky
 location	Stonarov
 location	Stranecka Zhor
 location	Stribrne Hory
 location	Stritez
 location	Svatoslav (Vysocina Region)
 location	Svetla nad Sazavou
+location	Tasov
 location	Telc
 location	Tis
 location	Trebic
@@ -7794,6 +7814,7 @@ location	Velké Mezirici
 location	Veprikov
 location	Vetrny Jenikov
 location	Vilanec
+location	Vladislav
 location	Vlkanov
 location	Vyskytna
 location	Zdar nad Sazavou (Vysocina Region)
@@ -7841,10 +7862,12 @@ location	Brezina
 location	Brno
 location	Bucovice
 location	Ceben
+location	Cejc
 location	Cerna Hora
 location	Chornice (South Moravian Region)
 location	Chudcice
 location	Damborice
+location	Dobsice
 location	Dolni Kounice
 location	Domanin
 location	Drazuvky
@@ -7858,6 +7881,7 @@ location	Hodonin (South Moravian Region)
 location	Hodonín
 location	Horni Vestonice
 location	Hradek
+location	Hradek U Znojma
 location	Hrusovany U Brna
 location	Hrusovany nad Jevisovkou
 location	Hrušovany U Brna
@@ -7881,6 +7905,7 @@ location	Kyjov
 location	Lelekovice
 location	Lesna CZ
 location	Letonice
+location	Letonice U Vyskova
 location	Letovice
 location	Lipovec
 location	Lipuvka
@@ -7888,6 +7913,9 @@ location	Luzice
 location	Lysice
 location	Mikulcice
 location	Mikulov
+location	Mikulov Na Morave
+location	Milotice
+location	Mokra
 location	Mokruvky
 location	Moravska Nova Ves
 location	Moravske Kninice
@@ -7896,6 +7924,7 @@ location	Morkuvky
 location	Nesovice
 location	Nosislav
 location	Ochoz U Brna
+location	Olbramovice U Moravskă©Ho Krumlova
 location	Oleksovice
 location	Olsany
 location	Orechov
@@ -7912,6 +7941,7 @@ location	Prisnotice
 location	Prstice
 location	Prusanky
 location	Prusy-Boskuvky
+location	PrăˇCe
 location	Pustimer
 location	Rajecko
 location	Rajhradice
@@ -7919,6 +7949,7 @@ location	Rakvice
 location	Ratíškovice
 location	Rosice
 location	Rousinov
+location	Rousinov U Vyskova
 location	Rozdrojovice
 location	Rudice
 location	Sakvice
@@ -7932,12 +7963,14 @@ location	Stary Petrin
 location	Strachotin
 location	Strelice
 location	Svatoslav (South Moravian Region)
+location	Svitavka
 location	Telnice (South Moravian Region)
 location	Temice
 location	Tesany
 location	Tisnov
 location	Tišnov
 location	Tynec
+location	Uhercice
 location	Vacenovice
 location	Valtice
 location	Velatice
@@ -7948,6 +7981,7 @@ location	Velke Nemcice
 location	Veseli nad Moravou
 location	Veverska Bityska
 location	Vinicné Sumice
+location	Vracov
 location	Vrbice
 location	Vyskov
 location	Vémyslice
@@ -8001,9 +8035,11 @@ location	Zlin
 # Moravian-Silesian Region
 location	Albrechtice
 location	Bilovec
+location	Bruntal
 location	Bruntál
 location	Brusperk
 location	Cesky Tesin
+location	Detmarovice
 location	Frýdek-Místek
 location	Havířov
 location	Karvina
@@ -8065,8 +8101,10 @@ location	Gorzowski
 location	Gorzyca
 location	Grochowo
 location	Gubin
+location	Kolczyn
 location	Kostrzyn (Lubuskie)
 location	Kostrzyn nad Odra
+location	Krasnoleg
 location	Krosno Odrzańskie
 location	Kunowice
 location	Lagow
@@ -8086,12 +8124,14 @@ location	Osno Lubuskie
 location	Osnolubuskie
 location	Skwierzyna
 location	Slubice
+location	Stare Biskupice
 location	Staropole
 location	Strzelce Krajenskie
 location	Sulecin (Lubuskie)
 location	Sulecinski
 location	Swidnica (Lubuskie)
 location	Swiebodzin
+location	Swiecko
 location	Szprotawa
 location	Tomaszowo
 location	Zabor (Lubuskie)
@@ -8361,6 +8401,7 @@ location	Dabrowa (Wielkopolskie)
 location	Daleszyn
 location	Dalki
 location	Debienko
+location	Dobiezyn
 location	Duszniki
 location	Dąbrowa
 location	Galowo
@@ -8375,6 +8416,7 @@ location	Gorzewo
 location	Gostyn
 location	Gostyninski
 location	Grodzisk
+location	Gruszczyn
 location	Januszowka
 location	Jarocin
 location	Jaroszewice Grodzieckie
@@ -8477,12 +8519,14 @@ location	Rosko
 location	Ryczywol
 location	Sady
 location	Samolez
+location	Sieroslaw
 location	Sierosław
 location	Skarbki
 location	Skarszew
 location	Skoki
 location	Skórzewo
 location	Slodkow-Kolonia
+location	Slupia
 location	Smogorzewo
 location	Srem
 location	Sroda Wielkopolska
@@ -9364,6 +9408,7 @@ location	Kamien
 location	Kochanowka
 location	Kolonia Nadwislanska
 location	Konstancin Jeziorna
+location	Kopana
 location	Korzen
 location	Kostrzyn (Mazowieckie)
 location	Koszary
@@ -9400,6 +9445,7 @@ location	Rajec Poduchowny
 location	Rudzienko
 location	Rybiczyzna
 location	Rzeczniow
+location	Sadkowice
 location	Sadkowice-Kolonia
 location	Siedlce
 location	Sienno
@@ -11826,6 +11872,7 @@ location	Bela Vista
 location	Bonito
 location	Camapua
 location	Campo Grande
+location	Cassilandia
 location	Chapadao do Sul
 location	Corguinho
 location	Corumba
@@ -11849,6 +11896,7 @@ location	Maracaju
 location	Miranda
 location	Mundo Novo (Mato Grosso do Sul)
 location	Navirai
+location	Nioaque
 location	Nova Alvorada do Sul
 location	Nova Andradina
 location	Paraiso Das Aguas
@@ -12291,6 +12339,7 @@ location	Antonio Carlos
 location	Araquari
 location	Ararangua
 location	Armazem
+location	Ascurra
 location	Atalanta
 location	Aurora
 location	Balneario Arroio do Silva
@@ -13836,12 +13885,14 @@ location	Santana do Matos
 location	Sao Goncalo do Amarante (Rio Grande do Norte)
 location	Sao Jose de Mipibu
 location	Sao Paulo do Potengi
+location	Senador Eloi de Souza
 location	Serrinha Dos Pintos
 location	São José de Mipibu
 location	São José do Seridó
 location	São João do Sabugi
 location	São Rafael
 location	Tenente Laurentino Cruz
+location	Timbauba Dos Batistas
 location	Vera Cruz (Rio Grande do Norte)
 location	Água Nova
 
@@ -13856,6 +13907,8 @@ location	Amparo (Paraiba)
 location	Araruna (Paraiba)
 location	Areia
 location	Areia de Baraunas
+location	Bananeiras
+location	Barauna
 location	Barra de Santana
 location	Barra de Sao Miguel (Paraiba)
 location	Bayeux
@@ -13865,6 +13918,7 @@ location	Cabaceiras
 location	Cabedelo
 location	Cacimba de Dentro
 location	Cajazeiras
+location	Camalau
 location	Campina Grande
 location	Carrapateira
 location	Catole do Rocha
@@ -13887,6 +13941,7 @@ location	Juazeirinho
 location	Junco do Serido
 location	Juripiranga
 location	Lucena
+location	Mari
 location	Marizopolis
 location	Matinhas
 location	Mogeiro
@@ -14239,6 +14294,7 @@ location	Cartago CO
 # Risaralda
 location	Dosquebradas
 location	Pereira
+location	Santa Rosa de Cabal
 
 # Vichada
 location	Puerto Carreno
@@ -14272,6 +14328,7 @@ location	Chinchina
 location	La Dorada
 location	Manizales
 location	Samana
+location	Villamaria
 
 # Boyaca
 location	Duitama
@@ -14938,6 +14995,8 @@ location	Ciudad Juarez
 
 # Nayarit
 location	Tepic
+location	Tuxpan
+location	Xalisco
 
 # Durango
 location	Gomez Palacios
@@ -16055,6 +16114,7 @@ location	Clark County OH
 location	Columbus OH
 location	Cuyahoga County
 location	Delaware County OH
+location	Franklin
 location	Franklin County OH
 location	Greene County OH
 location	Hamilton County OH
