@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 import sys
 
-from utils import extract_tar_file_contents
+from utils import stream_tar_file_contents
 
 
 class DuplicateSequenceError(ValueError):
@@ -91,18 +91,18 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     sequence_files = []
-    temporary_dirs = []
+    tar_files = []
     for sequence_filename in args.sequences:
         # If the input is a tarball, try to find a sequence file inside the
         # archive.
         if ".tar" in Path(sequence_filename).suffixes:
             try:
-                temporary_dir, sequence_file = extract_tar_file_contents(
+                sequence_file, tar_file = stream_tar_file_contents(
                     sequence_filename,
                     "sequences"
                 )
                 sequence_files.append(sequence_file)
-                temporary_dirs.append(temporary_dir)
+                tar_files.append(tar_file)
             except FileNotFoundError as error:
                 print(f"ERROR: {error}", file=sys.stderr)
                 sys.exit(1)
@@ -136,6 +136,5 @@ if __name__ == '__main__':
             sys.exit(1)
 
     # Clean up temporary directory and files that came from a tarball.
-    for temporary_dir in temporary_dirs:
-        print(f"Cleaning up temporary files in {temporary_dir.name}", file=sys.stderr)
-        temporary_dir.cleanup()
+    for tar_file in tar_files:
+        tar_file.close()
