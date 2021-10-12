@@ -40,7 +40,7 @@ jobs:
             --profile nextstrain_profiles/nextstrain-gisaid-preprocess \
             --config \
               S3_DST_BUCKET=${S3_DST_BUCKET} \
-              slack_token=${SLACK_TOKEN} \
+              ${{ github.event.inputs.trial_name && format('slack_token={0}', env.SLACK_TOKEN) || '' }} \
         |& tee build-launch.log
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
