@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# This script is intended to be run from the GitHub Action `revert.yml` but may also be run locally.
+# To run locally, you need three command line arguments (see below) as well as having AWS credentials appropriately set.
+
+set -x
+
+# data source name corresponding to builds to revert. "gisaid" or "open".
+data_source_name=$1
+
+# An individual regional dataset to revert. Options are "global", "africa", "asia", "europe", "north-america", "oceania", "south-america". If not specified, reverts all.
+# If you'd like to revert multiple regions but not all, run the script multiple times, specifying one region each time.
+build_region_name=$2
+
+# date to revert to e.g. yesterday in "+%Y-%m-%d" format.
+date=$3
+
+if [[ "$build_region_name" == "all" ]]
+then
+    regions=" \
+    global \
+    africa \
+    asia \
+    europe \
+    north-america \
+    oceania \
+    south-america \
+    "
+else
+    regions=$build_region_name
+fi
+
+missing_count=0
+for region in $regions; do
+    if curl -fsLI "https://data.nextstrain.org/ncov_${data_source_name}_${region}_${date}.json" >/dev/null; then
+        ## Download the date-stamped (auspice) JSONs, renaming them to the non-datestamped version.
+        ## Note that if the tip-frequencies don't exist for some reason then the command (& action)
+        ## will fail, but this is preferable to leaving a dataset in a mixed state.
+        ## We skip the root-sequence JSON as this doesn't change day-to-day
+        nextstrain remote download \
+            "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}.json" \
+            "ncov_${data_source_name}_${region}.json"
+        nextstrain remote download \
+            "s3://nextstrain-data/ncov_${data_source_name}_${region}_${date}_tip-frequencies.json" \
+            "ncov_${data_source_name}_${region}_tip-frequencies.json"
+        ## Upload these, overwriting the canonical (non-datestamped) datasets
+        ## Note that we use the nextstrain-cli here as it performs cloudfront invalidation
+        nextstrain remote upload \
+            "s3://nextstrain-data" \
+            "ncov_${data_source_name}_${region}.json" "ncov_${data_source_name}_${region}_tip-frequencies.json"
+    else
+        echo "WARNING: The requested dataset for ${data_source_name}_${region}_${date} doesn't exist and thus we can't revert to it."
+        ((missing_count++))
+    fi
+done
+
+exit $missing_count
