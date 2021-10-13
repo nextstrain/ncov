@@ -432,7 +432,7 @@ def check_duplicates(data, abbreviations_file):
                 if location in data[region][country][division]:
                     printed_message.append("/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location_new]))
                 if location + " (" + division + ")" in data[region][country][division]:
-                    printed_message.append("Please update duplicate " + bold(location + " (" + division + ")") + " to " + bold(location_new) + " for consistency.")
+                    #printed_message.append("Please update duplicate " + bold(location + " (" + division + ")") + " to " + bold(location_new) + " for consistency.")
                     printed_message.append("/".join([region, country, division, location + " (" + division + ")"]) + "\t" + "/".join([region, country, division, location_new]))
 
             elif len(divisions[country]) == 1: # Among-country duplicate - use country abbreviation
@@ -440,7 +440,7 @@ def check_duplicates(data, abbreviations_file):
                 if location in data[region][country][division]:
                     printed_message.append("/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location_new]))
                 if location + " (" + division + ")" in data[region][country][division]:
-                    printed_message.append("Please update duplicate " + bold(location + " (" + division + ")") + " to " + bold(location_new) + " for consistency.")
+                    #printed_message.append("Please update duplicate " + bold(location + " (" + division + ")") + " to " + bold(location_new) + " for consistency.")
                     printed_message.append("/".join([region, country, division, location + " (" + division + ")"]) + "\t" + "/".join([region, country, division, location_new]))
 
             else: # Within-country duplicate - use division as unique identifier
@@ -448,13 +448,13 @@ def check_duplicates(data, abbreviations_file):
                 if location in data[region][country][division]:
                     printed_message.append("/".join([region, country, division, location]) + "\t" + "/".join([region, country, division, location_new]))
                 if location + " " + abbreviations["country"][country] in data[region][country][division]:
-                    printed_message.append("Please update duplicate " + bold(location + " " + abbreviations["country"][country]) + " to " + bold(location_new) + " for consistency.")
+                    #printed_message.append("Please update duplicate " + bold(location + " " + abbreviations["country"][country]) + " to " + bold(location_new) + " for consistency.")
                     printed_message.append("/".join([region, country, division, location + " " + abbreviations["country"][country]]) + "\t" + "/".join([region, country, division, location_new]))
         if printed_message != []:
-            print("Duplicate found: " + bold(location))
+            #print("Duplicate found: " + bold(location))
             for l in printed_message:
                 print(l)
-            print()
+            #print()
 
     ### DIVISION ###
     print("\n----------\n")
