@@ -10717,3 +10717,10 @@ Colombia/DC-Mx263_sarscov2/2020
 Colombia/DC-Mx318_sarscov2/2020
 Morocco/INH-101/2020
 Morocco/INH-105/2020
+
+# Divergence
+CostaRica/04/2020
+Brazil/AM-FIOCRUZ-20891105GG/2020
+Ireland/WX-NVRL-83IRL46210/2021
+GBR/Mediap13.1/2020
+MEX/MEX-46960/2020
