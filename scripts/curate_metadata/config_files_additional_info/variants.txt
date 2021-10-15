@@ -7,3 +7,4 @@ United States	USA
 Czechia	Czech Republic
 Pamplona	Pamplona ES
 Tshwane	City of Tshwane
+Srilanka	Sri Lanka
