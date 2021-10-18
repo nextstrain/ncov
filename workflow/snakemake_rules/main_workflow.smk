@@ -262,74 +262,6 @@ def _get_subsampling_settings(wildcards):
     return subsampling_settings
 
 
-def get_priorities(wildcards):
-    subsampling_settings = _get_subsampling_settings(wildcards)
-
-    if "priorities" in subsampling_settings and subsampling_settings["priorities"]["type"] == "proximity":
-        return f"results/{wildcards.build_name}/priorities_{subsampling_settings['priorities']['focus']}.tsv"
-    else:
-        # TODO: find a way to make the list of input files depend on config
-        return config["files"]["include"]
-
-
-def get_priority_argument(wildcards):
-    subsampling_settings = _get_subsampling_settings(wildcards)
-    if "priorities" not in subsampling_settings:
-        return ""
-
-    if subsampling_settings["priorities"]["type"] == "proximity":
-        return "--priority " + get_priorities(wildcards)
-    elif subsampling_settings["priorities"]["type"] == "file" and "file" in subsampling_settings["priorities"]:
-        return "--priority " + subsampling_settings["priorities"]["file"]
-    else:
-        return ""
-
-
-def _get_specific_subsampling_setting(setting, optional=False):
-    # Note -- this function contains a lot of conditional logic because
-    # we have the situation where some config options must define the
-    # augur argument in their value, and some must not. For instance:
-    # subsamplingScheme -> sampleName -> group_by: year                            (`--group-by` is _not_ part of this value)
-    #                                 -> exclude: "--exclude-where 'country=USA'"  (`--exclude-where` IS part of this value)
-    # Since there are a lot of subsampling schemes out there, backwards compatability
-    # is important!                                 james hadfield, feb 2021
-    def _get_setting(wildcards):
-        if optional:
-            value = _get_subsampling_settings(wildcards).get(setting, "")
-        else:
-            value = _get_subsampling_settings(wildcards)[setting]
-
-        if isinstance(value, str):
-            # Load build attributes including geographic details about the
-            # build's region, country, division, etc. as needed for subsampling.
-            build = config["builds"][wildcards.build_name]
-            value = value.format(**build)
-            if value !="":
-                if setting == 'exclude_ambiguous_dates_by':
-                    value = f"--exclude-ambiguous-dates-by {value}"
-                elif setting == 'group_by':
-                    value = f"--group-by {value}"
-        elif value is not None:
-            # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
-            # need to return the 'argument' for augur
-            if setting == 'seq_per_group':
-                value = f"--sequences-per-group {value}"
-            elif setting == 'max_sequences':
-                value = f"--subsample-max-sequences {value}"
-
-            return value
-        else:
-            value = ""
-
-        # Check format strings that haven't been resolved.
-        if re.search(r'\{.+\}', value):
-            raise Exception(f"The parameters for the subsampling scheme '{wildcards.subsample}' of build '{wildcards.build_name}' reference build attributes that are not defined in the configuration file: '{value}'. Add these build attributes to the appropriate configuration file and try again.")
-
-        return value
-
-    return _get_setting
-
-
 rule combine_sequences_for_subsampling:
     # Similar to rule combine_input_metadata, this rule should only be run if multiple inputs are being used (i.e. multiple origins)
     message:
@@ -377,162 +309,124 @@ rule index_sequences:
             --output {output.sequence_index} 2>&1 | tee {log}
         """
 
+rule extract_subsampling_scheme:
+    message:
+        """
+        Extracting subsampling scheme for build "{wildcards.build_name}" into its own YAML file
+        """
+    output:
+        scheme="results/{build_name}/subsampling_scheme.yaml",
+    run:
+        # Note that the syntax is slightly different between the YAML which `./scripts/subsample.py`
+        # expects (this script is a precursor for `augur subsample`) and the way in which we write
+        # subsampling definitions in our `builds.yaml` file.
+        # (1) wildcards must be filled in
+        # (2) we use `augur filter`-like syntax, e.g. "sequences-per-group" not "seq_per_group"
+        import yaml
+        import json
+        import shlex
+        scheme = _get_subsampling_settings(wildcards)
+
+        # fill in templates, e.g `{country}`, with build-specific data
+        # (prior art existed in the function _get_specific_subsampling_setting)
+        build = config["builds"][wildcards.build_name]
+        for sample_description in scheme.values():
+            for key,value in sample_description.items():
+                if isinstance(value, str):
+                    sample_description[key]=value.format(**build)
+
+        # we allow "no_subsampling" via a boolean in _each_ sample definition
+        # and pass each sample through the subsampling process, as we used to
+        # (this should be optimised via snakemake logic)
+        for sample_name, sample_dict in scheme.items():
+            if sample_dict.get("no_subsampling", False) == True:
+                scheme[sample_name] = {}
+
+        # map ncov-specific syntax into general subsampling syntax
+        # (prior art existed in the function _get_specific_subsampling_setting)
+        for sample in scheme.values():
+            if "group_by" in sample:
+                sample["group-by"] = shlex.split(sample['group_by'])
+                del sample["group_by"]
+            if "seq_per_group" in sample:
+                sample["sequences-per-group"] = sample['seq_per_group']
+                del sample["seq_per_group"]
+            if "max_sequences" in sample:
+                sample["subsample-max-sequences"] = sample['max_sequences']
+                del sample["max_sequences"]
+            if "exclude_ambiguous_dates_by" in sample:
+                sample["exclude-ambiguous-dates-by"] = sample["exclude_ambiguous_dates_by"]
+                del sample["exclude_ambiguous_dates_by"]
+
+            # Certain settings required that the argument was defined in the value,
+            # e.g. max_date: "--max-date 2020-01-02", which we remove here
+            if "query" in sample: # ncov syntax included the `--query` argument
+                sample["query"] = sample['query'].lstrip("--query ").strip('"').strip("'")
+            if "min_date" in sample: # ncov syntax included `--min-date` in the value
+                sample["min-date"] = sample["min_date"].lstrip("--min-date ")
+                del sample["min_date"]
+            if "max_date" in sample: # ncov syntax included `--max-date` in the value
+                sample["max-date"] = sample["max_date"].lstrip("--max-date ")
+                del sample["max_date"]
+
+            # the include/exclude ncov subsampling settings meant {include,exclude}-where
+            # and also included the argument in their value, which we remove here
+            if "exclude" in sample:
+                sample["exclude-where"] = shlex.split(sample['exclude'])[1:]
+                del sample["exclude"]
+            if "include" in sample:
+                sample["include-where"] = shlex.split(sample['include'])[1:]
+                del sample["include"]
+
+            if "sampling_scheme" in sample: # ncov syntax for expressing additional filter arguments
+                if sample["sampling_scheme"]=="--probabilistic-sampling":
+                    sample["probabilistic-sampling"] = True
+                elif sample["sampling_scheme"]=="--no-probabilistic-sampling":
+                    sample["no-probabilistic-sampling"] = True
+                del sample["sampling_scheme"]
+
+        with open(output.scheme, 'w', encoding='utf-8') as fh:
+            # to avoid a YAML with type annotations, we roundtrip through a JSON
+            yaml.dump(json.loads(json.dumps(scheme)), fh, default_flow_style=False)
+
 rule subsample:
     message:
         """
-        Subsample all sequences by '{wildcards.subsample}' scheme for build '{wildcards.build_name}' with the following parameters:
-
-         - group by: {params.group_by}
-         - sequences per group: {params.sequences_per_group}
-         - subsample max sequences: {params.subsample_max_sequences}
-         - min-date: {params.min_date}
-         - max-date: {params.max_date}
-         - {params.exclude_ambiguous_dates_argument}
-         - exclude: {params.exclude_argument}
-         - include: {params.include_argument}
-         - query: {params.query_argument}
-         - priority: {params.priority_argument}
+        Subsampling using our subsampling script.
         """
     input:
-        sequences = _get_unified_alignment,
-        metadata = _get_unified_metadata,
-        sequence_index = rules.index_sequences.output.sequence_index,
+        scheme="results/{build_name}/subsampling_scheme.yaml",
+        metadata=_get_unified_metadata,
+        alignment=_get_unified_alignment,
+        alignment_index=rules.index_sequences.output.sequence_index,
+        reference = config["files"]["alignment_reference"],
         include = config["files"]["include"],
-        priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/{build_name}/sample-{subsample}.fasta",
-        strains="results/{build_name}/sample-{subsample}.txt",
-    log:
-        "logs/subsample_{build_name}_{subsample}.txt"
-    benchmark:
-        "benchmarks/subsample_{build_name}_{subsample}.txt"
-    params:
-        group_by = _get_specific_subsampling_setting("group_by", optional=True),
-        sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
-        subsample_max_sequences = _get_specific_subsampling_setting("max_sequences", optional=True),
-        sampling_scheme = _get_specific_subsampling_setting("sampling_scheme", optional=True),
-        exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
-        include_argument = _get_specific_subsampling_setting("include", optional=True),
-        query_argument = _get_specific_subsampling_setting("query", optional=True),
-        exclude_ambiguous_dates_argument = _get_specific_subsampling_setting("exclude_ambiguous_dates_by", optional=True),
-        min_date = _get_specific_subsampling_setting("min_date", optional=True),
-        max_date = _get_specific_subsampling_setting("max_date", optional=True),
-        priority_argument = get_priority_argument
-    resources:
-        # Memory use scales primarily with the size of the metadata file.
-        mem_mb=12000
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur filter \
-            --sequences {input.sequences} \
-            --metadata {input.metadata} \
-            --sequence-index {input.sequence_index} \
-            --include {input.include} \
-            --exclude {input.exclude} \
-            {params.min_date} \
-            {params.max_date} \
-            {params.exclude_argument} \
-            {params.include_argument} \
-            {params.query_argument} \
-            {params.exclude_ambiguous_dates_argument} \
-            {params.priority_argument} \
-            {params.group_by} \
-            {params.sequences_per_group} \
-            {params.subsample_max_sequences} \
-            {params.sampling_scheme} \
-            --output {output.sequences} \
-            --output-strains {output.strains} 2>&1 | tee {log}
-        """
-
-rule proximity_score:
-    message:
-        """
-        determine priority for inclusion in as phylogenetic context by
-        genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
-        """
-    input:
-        alignment = _get_unified_alignment,
-        reference = config["files"]["alignment_reference"],
-        focal_alignment = "results/{build_name}/sample-{focus}.fasta"
-    output:
-        proximities = "results/{build_name}/proximity_{focus}.tsv"
-    log:
-        "logs/subsampling_proximity_{build_name}_{focus}.txt"
-    benchmark:
-        "benchmarks/proximity_score_{build_name}_{focus}.txt"
-    params:
-        chunk_size=10000,
-        ignore_seqs = config['refine']['root']
-    resources:
-        # Memory scales at ~0.15 MB * chunk_size (e.g., 0.15 MB * 10000 = 1.5GB).
-        mem_mb=4000
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/get_distance_to_focal_set.py \
-            --reference {input.reference} \
-            --alignment {input.alignment} \
-            --focal-alignment {input.focal_alignment} \
-            --ignore-seqs {params.ignore_seqs} \
-            --chunk-size {params.chunk_size} \
-            --output {output.proximities} 2>&1 | tee {log}
-        """
-
-rule priority_score:
-    input:
-        proximity = rules.proximity_score.output.proximities,
-        sequence_index = rules.index_sequences.output.sequence_index,
-    output:
-        priorities = "results/{build_name}/priorities_{focus}.tsv"
-    benchmark:
-        "benchmarks/priority_score_{build_name}_{focus}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/priorities.py \
-            --sequence-index {input.sequence_index} \
-            --proximities {input.proximity} \
-            --output {output.priorities} 2>&1 | tee {log}
-        """
-
-
-def _get_subsampled_files(wildcards):
-    subsampling_settings = _get_subsampling_settings(wildcards)
-
-    return [
-        f"results/{wildcards.build_name}/sample-{subsample}.txt"
-        for subsample in subsampling_settings
-    ]
-
-rule combine_samples:
-    message:
-        """
-        Combine and deduplicate FASTAs
-        """
-    input:
-        sequences=_get_unified_alignment,
-        sequence_index=rules.index_sequences.output.sequence_index,
-        metadata=_get_unified_metadata,
-        include=_get_subsampled_files,
-    output:
+        intermediates=directory("results/{build_name}/subsamples/"),
         sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",
-        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz"
+        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        # output_log = "results/{build_name}/subsamples/subsampled.tsv",
     log:
-        "logs/subsample_regions_{build_name}.txt"
+        "logs/subsample_{build_name}.txt"
     benchmark:
-        "benchmarks/subsample_regions_{build_name}.txt"
+        "benchmarks/subsample_{build_name}.txt"
     conda: config["conda_environment"]
+    threads: 4
+    resources:
+        mem_mb=12000
     shell:
         """
-        augur filter \
-            --sequences {input.sequences} \
-            --sequence-index {input.sequence_index} \
+        python3 scripts/subsample.py \
+            --scheme {input.scheme} \
             --metadata {input.metadata} \
-            --exclude-all \
-            --include {input.include} \
-            --output-sequences {output.sequences} \
+            --alignment {input.alignment} \
+            --alignment-index {input.alignment_index} \
+            --reference {input.reference} \
+            --include-strains-file {input.include} \
+            --exclude-strains-file {input.exclude} \
+            --output-dir {output.intermediates} \
+            --output-fasta {output.sequences} \
             --output-metadata {output.metadata} 2>&1 | tee {log}
         """
 
@@ -543,7 +437,7 @@ rule build_align:
             - gaps relative to reference are considered real
         """
     input:
-        sequences = rules.combine_samples.output.sequences,
+        sequences = rules.subsample.output.sequences,
         genemap = config["files"]["annotation"],
         reference = config["files"]["alignment_reference"]
     output:

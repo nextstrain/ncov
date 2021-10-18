@@ -1,0 +1,45 @@
+
+type: object
+title: YAML Schema for subsampling configuration to be consumed by a subsample script / command
+patternProperties:
+    "^[a-zA-Z0-9*_-]+$":
+        type: object
+        title: description of a sample
+        additionalProperties: false
+        properties:
+            group-by:
+                type: array
+                minItems: 1
+                items:
+                    type: string
+            sequences-per-group:
+                type: integer
+            subsample-max-sequences:
+                type: integer
+            exclude-ambiguous-dates-by:
+                type: string
+                enum: ["any", "day", "month", "year"]
+            min-date:
+                type: ["number", "string"]
+                pattern: ^\d{4}-\d{2}-\d{2}$
+            max-date:
+                type: ["number", "string"]
+                pattern: ^\d{4}-\d{2}-\d{2}$
+            exclude-where:
+                type: array
+                minItems: 1
+                items:
+                    type: string
+            include-where:
+                type: array
+                minItems: 1
+                items:
+                    type: string
+            query:
+                type: string
+            probabilistic-sampling:
+                type: boolean
+            no-probabilistic-sampling:
+                type: boolean
+            priorities:
+                type: object
