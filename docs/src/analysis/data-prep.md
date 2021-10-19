@@ -342,11 +342,12 @@ augur index \
 ```
 
 Next, prepare the metadata.
-This step parses the composite `Location` field into `region`, `country`, `division`, and `location` fields, renames special fields to names Augur expects, and strips prefixes from strain names to match the sequence data above.
+This step resolves duplicate records for the same strain name using GISAID's `Accession ID` field (keeping the record with the latest id), parses the composite `Location` field into `region`, `country`, `division`, and `location` fields, renames special fields to names Augur expects, and strips prefixes from strain names to match the sequence data above.
 
 ```bash
 python3 scripts/sanitize_metadata.py \
     --metadata data/metadata_tsv_2021_06_01.tar.xz \
+    --database-id-columns "Accession ID" \
     --parse-location-field Location \
     --rename-fields 'Virus name=strain' 'Accession ID=gisaid_epi_isl' 'Collection date=date' \
     --strip-prefixes "hCoV-19/" \
