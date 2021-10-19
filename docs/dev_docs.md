@@ -132,6 +132,7 @@ After updating the intermediate files, that command will run the phylogenetic `n
 
 ## Triggering trial builds
 
-This repository contains a GitHub Action `trial-build` which is manually run [via github.com](https://github.com/nextstrain/ncov/actions/workflows/trial-build.yml) and runs both of the phylogenetic build pipelines (gisaid + open).
-This will ask for a “trial name” and upload intermediate files to  `nextstrain-ncov-private/trial/$TRIAL_NAME` and `nextstrain-staging/files/ncov/open/trial/$TRIAL_NAME`.
-Auspice datasets for visualisation will be available at `https://nextstrain.org/staging/ncov/gisaid/trial/$TRIAL_NAME/$BUILD_NAME` and `https://nextstrain.org/staging/ncov/open/trial/$TRIAL_NAME/$BUILD_NAME`.
+This repository contains GitHub Actions `rebuild-gisaid` and `rebuild-open` which can be manually run [via github.com](https://github.com/nextstrain/ncov/actions).
+These will run the respective phylogenetic build pipelines starting from the preprocessed (filtered) files.
+This will ask for an optional “trial name” and upload intermediate files to  `nextstrain-ncov-private/trial/$TRIAL_NAME` and `nextstrain-staging/files/ncov/open/trial/$TRIAL_NAME`; if you don't supply this you will overwrite the files at `nextstrain-ncov-private` and `nextstrain-data/files/ncov/open`, as well as the trees at `nextstrain.org/ncov/gisaid/REGION` and `nextstrain.org/ncov/open/REGION`
+The GitHub action will follow along with the AWS job so that you can monitor the progress; as of October 2021 each action took around 3 hours.
