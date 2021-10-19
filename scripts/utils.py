@@ -1,3 +1,4 @@
+from io import TextIOWrapper
 import lzma
 from pathlib import Path
 import sys
@@ -119,7 +120,7 @@ def stream_tar_file_contents(filename, filetype):
             elif extension == ".fasta":
                 # For sequence data, handle decoding of the binary stream prior
                 # to passing the data back to the caller.
-                internal_file = (line.decode("utf-8") for line in internal_file)
+                internal_file = TextIOWrapper(internal_file)
 
             break
 
