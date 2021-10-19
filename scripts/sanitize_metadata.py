@@ -300,7 +300,7 @@ if __name__ == '__main__':
     )
     parser.add_argument("--metadata", required=True, help="metadata to be sanitized")
     parser.add_argument("--metadata-id-columns", default=["strain", "name", "Virus name"], nargs="+", help="names of valid metadata columns containing identifier information like 'strain' or 'name'")
-    parser.add_argument("--database-id-columns", default=["gisaid_epi_isl", "genbank_accession"], nargs="+", help="names of metadata columns that store external database ids for each record (e.g., GISAID, GenBank, etc.) that can be used to deduplicate metadata records with the same strain names.")
+    parser.add_argument("--database-id-columns", default=["Accession ID", "gisaid_epi_isl", "genbank_accession"], nargs="+", help="names of metadata columns that store external database ids for each record (e.g., GISAID, GenBank, etc.) that can be used to deduplicate metadata records with the same strain names.")
     parser.add_argument("--metadata-chunk-size", type=int, default=100000, help="maximum number of metadata records to read into memory at a time. Increasing this number can speed up filtering at the cost of more memory used.")
     parser.add_argument("--error-on-duplicate-strains", action="store_true", help="exit with an error if any duplicate strains are found. By default, duplicates are resolved by preferring most recent accession id or the last record.")
     parser.add_argument("--parse-location-field", help="split the given GISAID location field on '/' and create new columns for region, country, etc. based on available data. Replaces missing geographic data with '?' values.")
