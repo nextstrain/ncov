@@ -65,4 +65,4 @@ jobs:
         echo "--> View this job in the AWS console via"
         echo "    https://console.aws.amazon.com/batch/home?region=us-east-1#jobs/detail/${JOBID}"
         echo
-        echo ${{ github.event.inputs.trial_name=='' && '--> When this job completes, a phylogenetic rebuild will be triggered' || '--> This is a trial build, and as such won't trigger a phylogenetic rebuild' }}
+        echo ${{ github.event.inputs.trial_name=='' && '--> When this job completes, a phylogenetic rebuild will be triggered' || '--> This is a trial build, and as such won\''t trigger a phylogenetic rebuild' }}
