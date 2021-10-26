@@ -44,15 +44,15 @@ Throw an error when metadata doesn't have any of the requested strain id columns
   ERROR: None of the possible id columns (['strain']) were found in the metadata's columns ('Virus name', 'gender', 'date', 'gisaid_epi_isl')
   [1]
 
-Throw an error when metadata doesn't have any of the requested database id columns.
+Print a warning when metadata doesn't have any of the requested database id columns.
+When this happens, we skip deduplication.
 
   $ python3 ../scripts/sanitize_metadata.py \
   >  --metadata unsanitized_metadata.tsv \
   >  --metadata-id-columns "Virus name" \
   >  --database-id-columns genbank_accession \
   >  --output "$TMP/metadata.tsv"
-  ERROR: None of the possible database id columns (['genbank_accession']) were found in the metadata's columns ('Virus name', 'gender', 'date', 'gisaid_epi_isl')
-  [1]
+  WARNING: Skipping deduplication of metadata records. None of the possible database id columns (['genbank_accession']) were found in the metadata's columns ('Virus name', 'gender', 'date', 'gisaid_epi_isl')
 
 Throw an error when metadata contain duplicates.
 

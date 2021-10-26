@@ -343,6 +343,9 @@ if __name__ == '__main__':
             args.metadata_chunk_size,
             args.error_on_duplicate_strains,
         )
+    except MissingColumnException as warning:
+        database_ids_by_strain = None
+        print(f"WARNING: Skipping deduplication of metadata records. {warning}", file=sys.stderr)
     except Exception as error:
         print(f"ERROR: {error}", file=sys.stderr)
         sys.exit(1)
@@ -363,11 +366,12 @@ if __name__ == '__main__':
 
     with open_file(args.output, "w") as output_file_handle:
         for metadata in metadata_reader:
-            # Filter duplicates.
-            metadata = filter_duplicates(
-                metadata,
-                database_ids_by_strain,
-            )
+            if database_ids_by_strain:
+                # Filter duplicates.
+                metadata = filter_duplicates(
+                    metadata,
+                    database_ids_by_strain,
+                )
 
             # Reset the data frame index, to make the "strain" column available
             # for transformation.
@@ -419,8 +423,9 @@ if __name__ == '__main__':
             )
             emit_header = False
 
-    # Delete the database/strain id mapping.
-    os.unlink(database_ids_by_strain)
+    if database_ids_by_strain:
+        # Delete the database/strain id mapping.
+        os.unlink(database_ids_by_strain)
 
     # Clean up temporary directory and files that came from a tarball.
     if metadata_is_temporary:
