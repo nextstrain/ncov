@@ -193,7 +193,7 @@ def get_database_ids_by_strain(metadata_file, metadata_id_columns, database_id_c
         observed_strains = set()
         duplicate_strains = set()
 
-    with NamedTemporaryFile(delete=False) as mapping_file:
+    with NamedTemporaryFile(delete=False, mode="wt", newline='') as mapping_file:
         mapping_path = mapping_file.name
         for metadata in metadata_reader:
             # Check for database id columns.
