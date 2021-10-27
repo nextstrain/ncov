@@ -334,7 +334,7 @@ if __name__ == '__main__':
     # We will use this mapping to deduplicate records in the second pass.
     # Additionally, this pass checks for missing id columns and the presence of
     # any duplicate records, in case the user has requested an error on
-    # dupicates.
+    # duplicates.
     try:
         database_ids_by_strain = get_database_ids_by_strain(
             metadata_file,
