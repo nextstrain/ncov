@@ -45,7 +45,7 @@ Throw an error when metadata doesn't have any of the requested strain id columns
   [1]
 
 Print a warning when metadata doesn't have any of the requested database id columns.
-When this happens, we skip deduplication.
+This should produce a warning about skipping duplicate resolution, an error about the duplicates found, and a file of duplicate strain names.
 
   $ python3 ../scripts/sanitize_metadata.py \
   >  --metadata unsanitized_metadata.tsv \
@@ -53,6 +53,11 @@ When this happens, we skip deduplication.
   >  --database-id-columns genbank_accession \
   >  --output "$TMP/metadata.tsv"
   WARNING: Skipping deduplication of metadata records. None of the possible database id columns (['genbank_accession']) were found in the metadata's columns ('Virus name', 'gender', 'date', 'gisaid_epi_isl')
+  ERROR: 1 strains have duplicate records. See 'unsanitized_metadata.tsv.duplicates.txt' for more details.
+  [1]
+  $ cat unsanitized_metadata.tsv.duplicates.txt
+  hCoV-19/OneVirus/1/2020
+  $ rm -f unsanitized_metadata.tsv.duplicates.txt
 
 Throw an error when metadata contain duplicates.
 
