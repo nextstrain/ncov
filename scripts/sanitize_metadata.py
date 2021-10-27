@@ -168,13 +168,13 @@ def get_database_ids_by_strain(metadata_file, metadata_id_columns, database_id_c
 
     Returns
     -------
-    str or Path-like or file object :
-        Path or file object containing the mapping of database ids for each strain name (one row per combination).
+    str or Path-like or file object or None :
+        Path or file object containing the mapping of database ids for each
+        strain name (one row per combination). Returns None, if no valid
+        database ids were found and no duplicates exist.
 
     Raises
     ------
-    MissingColumnException :
-        When none of the requested database id columns exist.
     DuplicateException :
         When duplicates are detected and the caller has requested an error on duplicates.
     Exception :
@@ -189,9 +189,8 @@ def get_database_ids_by_strain(metadata_file, metadata_id_columns, database_id_c
 
     # Track strains we have observed, so we can alert the caller to duplicate
     # strains when an error on duplicates has been requested.
-    if error_on_duplicates:
-        observed_strains = set()
-        duplicate_strains = set()
+    observed_strains = set()
+    duplicate_strains = set()
 
     with NamedTemporaryFile(delete=False, mode="wt", newline='') as mapping_file:
         mapping_path = mapping_file.name
@@ -200,9 +199,16 @@ def get_database_ids_by_strain(metadata_file, metadata_id_columns, database_id_c
             valid_database_id_columns = metadata.columns.intersection(
                 database_id_columns
             )
-            if len(valid_database_id_columns) == 0:
-                raise MissingColumnException(
-                    f"None of the possible database id columns ({database_id_columns}) were found in the metadata's columns {tuple([metadata.index.name] + metadata.columns.values.tolist())}"
+            if mapping_path and len(valid_database_id_columns) == 0:
+                # Do not write out mapping of ids. Default to error on
+                # duplicates, since we have no way to resolve duplicates
+                # automatically.
+                mapping_path = None
+                error_on_duplicates = True
+                print(
+                    "WARNING: Skipping deduplication of metadata records.",
+                    f"None of the possible database id columns ({database_id_columns}) were found in the metadata's columns {tuple([metadata.index.name] + metadata.columns.values.tolist())}",
+                    file=sys.stderr
                 )
 
             # Track duplicates in memory, as needed.
@@ -213,12 +219,17 @@ def get_database_ids_by_strain(metadata_file, metadata_id_columns, database_id_c
                     else:
                         observed_strains.add(strain)
 
-            # Write mapping of database and strain ids to disk.
-            metadata.loc[:, valid_database_id_columns].to_csv(
-                mapping_file,
-                sep="\t",
-                index=True,
-            )
+            if mapping_path:
+                # Write mapping of database and strain ids to disk.
+                metadata.loc[:, valid_database_id_columns].to_csv(
+                    mapping_file,
+                    sep="\t",
+                    index=True,
+                )
+
+    # Clean up temporary file.
+    if mapping_path is None:
+        os.unlink(mapping_file.name)
 
     if error_on_duplicates and len(duplicate_strains) > 0:
         duplicates_file = metadata_file + ".duplicates.txt"
@@ -343,10 +354,7 @@ if __name__ == '__main__':
             args.metadata_chunk_size,
             args.error_on_duplicate_strains,
         )
-    except MissingColumnException as warning:
-        database_ids_by_strain = None
-        print(f"WARNING: Skipping deduplication of metadata records. {warning}", file=sys.stderr)
-    except Exception as error:
+    except (DuplicateException, Exception) as error:
         print(f"ERROR: {error}", file=sys.stderr)
         sys.exit(1)
 
