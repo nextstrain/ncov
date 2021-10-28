@@ -194,6 +194,8 @@ def get_database_ids_by_strain(metadata_file, metadata_id_columns, database_id_c
 
     with NamedTemporaryFile(delete=False, mode="wt", newline='') as mapping_file:
         mapping_path = mapping_file.name
+        header = True
+
         for metadata in metadata_reader:
             # Check for database id columns.
             valid_database_id_columns = metadata.columns.intersection(
@@ -224,8 +226,10 @@ def get_database_ids_by_strain(metadata_file, metadata_id_columns, database_id_c
                 metadata.loc[:, valid_database_id_columns].to_csv(
                     mapping_file,
                     sep="\t",
+                    header=header,
                     index=True,
                 )
+                header = False
 
     # Clean up temporary file.
     if mapping_path is None:
