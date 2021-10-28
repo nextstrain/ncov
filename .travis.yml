@@ -11,6 +11,8 @@ install:
   - nextstrain version
   - nextstrain check-setup
   - nextstrain update
+  - pip3 install cram nextstrain-augur
 script:
   - gunzip data/example_sequences.fasta.gz
   - nextstrain build . all_regions -j 2 --profile nextstrain_profiles/nextstrain-ci
+  - cram --shell=/bin/bash tests/sanitize-metadata.t
