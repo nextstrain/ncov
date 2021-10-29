@@ -1,103 +1,36 @@
 clade	gene	site	alt
 
-A.23.1	nuc	22000	T
-A.23.1	nuc	22033	A
-A.23.1	nuc	22661	T
-A.23.1	nuc	23401	T
-A.23.1	nuc	23604	G
-A.23.1	nuc	24097	C
+AY.4.2 (Delta)	nuc	22917	G
+AY.4.2 (Delta)	nuc	22995	A
+AY.4.2 (Delta)	nuc	24410	A
+AY.4.2 (Delta)	nuc	27638	C
+AY.4.2 (Delta)	nuc	28881	T
+AY.4.2 (Delta)	nuc	29402	T
+AY.4.2 (Delta)	S	222	V
+AY.4.2 (Delta)	S	145	H
 
-B.1.1.7 (Alpha)	nuc	8782	C
-B.1.1.7 (Alpha)	nuc	14408	T
-B.1.1.7 (Alpha)	nuc	23403	G
-B.1.1.7 (Alpha)	nuc	28881	A
-B.1.1.7 (Alpha)	nuc	28882	A
-B.1.1.7 (Alpha)	nuc	23063	T
-B.1.1.7 (Alpha)	nuc	14676	T
-B.1.1.7 (Alpha)	nuc	15279	T
+AY.34 (Delta)	nuc	22917	G
+AY.34 (Delta)	nuc	22995	A
+AY.34 (Delta)	nuc	24410	A
+AY.34 (Delta)	nuc	27638	C
+AY.34 (Delta)	nuc	28881	T
+AY.34 (Delta)	nuc	29402	T
+AY.34 (Delta)	nuc	9441	T
+AY.34 (Delta)	S	677	H
 
-B.1.1.318	nuc	21846	T
-B.1.1.318	nuc	24382	T
-B.1.1.318	nuc	25276	A
-B.1.1.318	nuc	26767	C
+AY.36 (Delta)	nuc	22917	G
+AY.36 (Delta)	nuc	22995	A
+AY.36 (Delta)	nuc	24410	A
+AY.36 (Delta)	nuc	27638	C
+AY.36 (Delta)	nuc	28881	T
+AY.36 (Delta)	nuc	15628	C
+AY.36 (Delta)	nuc	21846	T
+AY.36 (Delta)	nuc	28461	G
 
-B.1.1.519	nuc	22995	A
-B.1.1.519	nuc	10954	T
-B.1.1.519	nuc	22995	A
-B.1.1.519	nuc	21306	T
-
-B.1.351 (Beta)	nuc	1059	T
-B.1.351 (Beta)	nuc	8782	C
-B.1.351 (Beta)	nuc	14408	T
-B.1.351 (Beta)	nuc	23403	G
-B.1.351 (Beta)	nuc	25563	T
-B.1.351 (Beta)	nuc	23063	T
-B.1.351 (Beta)	nuc	23012	A
-
-B.1.427/429 (Epsilon)	nuc	17014	T
-B.1.427/429 (Epsilon)	nuc	21600	T
-B.1.427/429 (Epsilon)	nuc	22018	T
-B.1.427/429 (Epsilon)	nuc	22917	G
-
-B.1.525 (Eta)	nuc	14407	T
-B.1.525 (Eta)	nuc	21717	G
-B.1.525 (Eta)	nuc	24224	C
-B.1.525 (Eta)	nuc	24748	T
-
-B.1.526 (Iota)	nuc	16500	C
-B.1.526 (Iota)	nuc	20262	G
-B.1.526 (Iota)	nuc	21575	T
-B.1.526 (Iota)	nuc	22320	G
-
-B.1.617.1 (Kappa)	nuc	17523	T
-B.1.617.1 (Kappa)	nuc	22917	G
-B.1.617.1 (Kappa)	nuc	23012	C
-B.1.617.1 (Kappa)	nuc	27638	C
-B.1.617.1 (Kappa)	nuc	28881	T
-B.1.617.1 (Kappa)	nuc	29402	T
-
-B.1.617.2 (Delta)	nuc	22917	G
-B.1.617.2 (Delta)	nuc	22995	A
-B.1.617.2 (Delta)	nuc	24410	A
-B.1.617.2 (Delta)	nuc	27638	C
-B.1.617.2 (Delta)	nuc	28881	T
-B.1.617.2 (Delta)	nuc	29402	T
-
-B.1.619	nuc	5008	T
-B.1.619	nuc	14403	T
-B.1.619	S	936	N
-B.1.619	S	939	F
-
-B.1.620	nuc	6236	A
-B.1.620	nuc	20049	C
-B.1.620	S	1027	I
-B.1.620	S	245	Y
-
-B.1.621 (Mu)	nuc	11451	G
-B.1.621 (Mu)	nuc	13057	T
-B.1.621 (Mu)	nuc	17491	T
-B.1.621 (Mu)	nuc	19035	C
-
-C.36.3	nuc	17743	A
-C.36.3	nuc	22016	A
-C.36.3	nuc	23329	A
-C.36.3	nuc	24257	T
-
-C.37 (Lambda)	nuc	21786	T
-C.37 (Lambda)	nuc	21789	T
-C.37 (Lambda)	nuc	22917	A
-C.37 (Lambda)	nuc	23031	C
-
-P.1 (Gamma)	nuc	733	C
-P.1 (Gamma)	nuc	2749	T
-P.1 (Gamma)	nuc	3828	T
-P.1 (Gamma)	nuc	5648	C
-P.1 (Gamma)	nuc	12778	T
-P.1 (Gamma)	nuc	13860	T
-
-P.3 (Theta)	nuc	12049	T
-P.3 (Theta)	nuc	22356	G
-P.3 (Theta)	nuc	23341	C
-P.3 (Theta)	nuc	23604	A
-P.3 (Theta)	nuc	24187	A
-P.3 (Theta)	nuc	24836	A
+AY.39 + S:1073N (Delta)	nuc	22917	G
+AY.39 + S:1073N (Delta)	nuc	22995	A
+AY.39 + S:1073N (Delta)	nuc	24410	A
+AY.39 + S:1073N (Delta)	nuc	27638	C
+AY.39 + S:1073N (Delta)	nuc	28881	T
+AY.39 + S:1073N (Delta)	nuc	27604	A
+AY.39 + S:1073N (Delta)	S	1073	N
