@@ -10751,3 +10751,30 @@ IND/GBRC327a/2020
 IRQ/Samawa-55/2021
 NLD/210429-986211626590__2019-nCoV/2021
 MEX/MOR-308351/2020
+
+# Divergence
+Indonesia/JA-GS-EIJK-RSRM-0200/2020
+MEX/CMX-242/2020
+
+PER/AFI00058/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00065/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00067/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00084/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00088/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00102/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00108/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00196/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00413/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00772/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00831/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00844/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00846/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00852/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00902/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00937/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00987/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI01215/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI01342/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI01608/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFIP00034/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+
