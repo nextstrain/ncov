@@ -177,15 +177,26 @@ def get_database_ids_by_strain(metadata_file, metadata_id_columns, database_id_c
     ------
     DuplicateException :
         When duplicates are detected and the caller has requested an error on duplicates.
-    Exception :
+    MissingColumnException :
         When none of the requested metadata id columns exist.
 
     """
-    metadata_reader = read_metadata(
-        metadata_file,
-        id_columns=metadata_id_columns,
-        chunk_size=metadata_chunk_size,
-    )
+    try:
+        metadata_reader = read_metadata(
+            metadata_file,
+            id_columns=metadata_id_columns,
+            chunk_size=metadata_chunk_size,
+        )
+    except Exception as error:
+        # Augur's `read_metadata` function can throw a generic Exception when
+        # the input is missing id columns. This exception is not easily
+        # distinguished from any other error, so we check the contents of the
+        # error message and raise a more specific error for better handling of
+        # unexpected errors.
+        if "None of the possible id columns" in str(error):
+            raise MissingColumnException(str(error)) from error
+        else:
+            raise
 
     # Track strains we have observed, so we can alert the caller to duplicate
     # strains when an error on duplicates has been requested.
@@ -358,7 +369,7 @@ if __name__ == '__main__':
             args.metadata_chunk_size,
             args.error_on_duplicate_strains,
         )
-    except (DuplicateException, Exception) as error:
+    except (DuplicateException, MissingColumnException) as error:
         print(f"ERROR: {error}", file=sys.stderr)
         sys.exit(1)
 
