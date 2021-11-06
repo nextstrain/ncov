@@ -67,7 +67,7 @@ files:
   description: "defaults/description.md"
   clades: "defaults/clades.tsv"
   emerging_lineages: "defaults/emerging_lineages.tsv"
-  mutational_fitness_distance_map: "defaults/mutational_fitness_distance_map.json",
+  mutational_fitness_distance_map: "defaults/mutational_fitness_distance_map.json"
   sites_to_mask: "defaults/sites_to_mask.txt"
 
 # Define genes to translate during alignment by nextalign.
