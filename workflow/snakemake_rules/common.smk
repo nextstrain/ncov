@@ -57,8 +57,8 @@ def _get_unified_metadata(wildcards):
     """
     Returns a single metadata file representing the input metadata file(s).
     If there was only one supplied metadata file in the `config["inputs"] dict`,
-    then that file is run through `sanitize_metadata` and the new file name returned. 
-    Else "results/combined_metadata.tsv.xz" is returned which will run the 
+    then that file is run through `sanitize_metadata` and the new file name returned.
+    Else "results/combined_metadata.tsv.xz" is returned which will run the
     `combine_input_metadata` rule (and `sanitize_metadata` rule) to make it.
     """
     if len(list(config["inputs"].keys()))==1:
@@ -142,7 +142,6 @@ def _get_upload_inputs(wildcards):
     # mapping of remote → local filenames
     preprocessing_files = {
         f"aligned.fasta.xz":              f"results/aligned_{origin}.fasta.xz",              # from `rule align`
-        f"masked.fasta.xz":               f"results/masked_{origin}.fasta.xz",               # from `rule mask`
         f"filtered.fasta.xz":             f"results/filtered_{origin}.fasta.xz",             # from `rule filter`
         f"mutation-summary.tsv.xz":       f"results/mutation_summary_{origin}.tsv.xz",       # from `rule mutation_summary`
     }
