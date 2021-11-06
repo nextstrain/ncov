@@ -488,12 +488,17 @@ rule priority_score:
         priorities = "results/{build_name}/priorities_{focus}.tsv"
     benchmark:
         "benchmarks/priority_score_{build_name}_{focus}.txt"
+    params:
+        crowding: 0.1,
+        Nweight: 0.003
     conda: config["conda_environment"]
     shell:
         """
         python3 scripts/priorities.py \
             --sequence-index {input.sequence_index} \
             --proximities {input.proximity} \
+            --crowding-penalty {params.crowding} \
+            --Nweight {params.Nweight} \
             --output {output.priorities} 2>&1 | tee {log}
         """
 
