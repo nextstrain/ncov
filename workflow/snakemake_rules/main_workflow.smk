@@ -561,7 +561,7 @@ rule mask:
     input:
         alignment = rules.build_align.output.alignment
     output:
-        alignment = "results/{build_name}/masked.fasta"
+        alignment = "results/{build_name}/masked.fasta.xz"
     log:
         "logs/mask_{build_name}.txt"
     benchmark:
