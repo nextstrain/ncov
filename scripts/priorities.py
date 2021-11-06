@@ -31,13 +31,13 @@ if __name__ == '__main__':
         tmp["priority"] = -tmp.distance - tmp.N*args.Nweight
         name_prior = [(name, d.priority) for name, d in tmp.iterrows()]
         shuffle(name_prior)
-        candidates[focal_seq] = sorted(name_prior, key=lambda x:x[1])
+        candidates[focal_seq] = sorted(name_prior, key=lambda x:x[1], reverse=True)
 
     # export priorities
     crowding = args.crowding_penalty
     with open(args.output, 'w') as fh:
         # loop over lists of sequences that are closest to particular focal sequences
         for cs in candidates.values():
-            # these sets have been shuffled -- reduce priorities in this shuffled random order
+            # these sets have been sorted by priorities after shuffling -- reduce priorities in this shuffled/sorted order
             for i, (name, pr) in enumerate(cs):
                 fh.write(f"{name}\t{pr-i*crowding:1.2f}\n")
