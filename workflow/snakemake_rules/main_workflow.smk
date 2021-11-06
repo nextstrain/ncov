@@ -561,7 +561,7 @@ rule mask:
     input:
         alignment = rules.build_align.output.alignment
     output:
-        alignment = "results/{build_name}/masked.fasta.xz"
+        alignment = "results/{build_name}/masked.fasta"
     log:
         "logs/mask_{build_name}.txt"
     benchmark:
@@ -579,7 +579,7 @@ rule mask:
             --mask-from-end {params.mask_from_end} \
             --mask-sites {params.mask_sites} \
             --mask-terminal-gaps \
-            --output /dev/stdout | xz -c -2 > {output.alignment} 2> {log}
+            --output {output.alignment} 2> {log}
         """
 
 rule compress_build_align:
