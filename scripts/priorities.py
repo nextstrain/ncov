@@ -31,7 +31,7 @@ if __name__ == '__main__':
         tmp["priority"] = -tmp.distance - tmp.N*args.Nweight
         name_prior = [(name, d.priority) for name, d in tmp.iterrows()]
         shuffle(name_prior)
-        candidates[focal_seq] = sorted(name_prior, key=lambda x:-x[1])
+        candidates[focal_seq] = sorted(name_prior, key=lambda x:x[1], reverse=True)
 
     # export priorities
     crowding = args.crowding_penalty
