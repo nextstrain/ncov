@@ -1123,7 +1123,7 @@ rule logistic_growth:
 rule mutational_fitness:
     input:
         tree = "results/{build_name}/tree.nwk",
-        alignments = lambda w: rules.aa_muts_explicit.output.translations,
+        alignments = lambda w: rules.translate.output.translations,
         distance_map = config["files"]["mutational_fitness_distance_map"]
     output:
         node_data = "results/{build_name}/mutational_fitness.json"
