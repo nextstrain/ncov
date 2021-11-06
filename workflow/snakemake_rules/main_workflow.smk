@@ -489,8 +489,8 @@ rule priority_score:
     benchmark:
         "benchmarks/priority_score_{build_name}_{focus}.txt"
     params:
-        crowding: 0.1,
-        Nweight: 0.003
+        crowding = 0.1,
+        Nweight = 0.003
     conda: config["conda_environment"]
     shell:
         """
