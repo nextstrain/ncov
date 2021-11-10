@@ -6,9 +6,6 @@ inputs:
   - name: test-local-uncompressed-europe-aligned
     metadata: ../local-inputs-uncompressed/data/europe_metadata.tsv
     aligned: ../local-inputs-uncompressed/data/europe_aligned.fasta
-  - name: test-local-uncompressed-oceania-masked
-    metadata: ../local-inputs-uncompressed/data/oceania_metadata.tsv
-    masked: ../local-inputs-uncompressed/data/oceania_masked.fasta
   - name: test-local-uncompressed-americas-filtered
     metadata: ../local-inputs-uncompressed/data/americas_metadata.tsv
     filtered: ../local-inputs-uncompressed/data/americas_filtered.fasta

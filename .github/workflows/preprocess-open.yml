@@ -54,7 +54,6 @@ jobs:
       run: |
         echo "--> Preprocessed files will be uploaded as:"
         echo "    s3://${S3_DST_BUCKET}/aligned.fasta.xz"
-        echo "    s3://${S3_DST_BUCKET}/masked.fasta.xz"
         echo "    s3://${S3_DST_BUCKET}/filtered.fasta.xz"
         echo "    s3://${S3_DST_BUCKET}/mutation-summary.tsv.xz"
         echo
