@@ -273,7 +273,7 @@ Builds support any named attributes that can be referenced by subsampling scheme
 * required
 	* `name`
 	* `metadata`
-	* `sequences` or `aligned` or `masked` or `filtered`
+	* `sequences` or `aligned` or `filtered`
 * examples:
 ```yaml
 inputs:
@@ -283,12 +283,9 @@ inputs:
   - name: prealigned-data
     metadata: data/other_metadata.tsv.xz
     aligned: data/other_aligned.fasta.xz
-  - name: prealigned-and-masked-data
+  - name: prealigned-and-filtered-data
     metadata: data/other_metadata.tsv.xz
-    masked: data/other_masked.fasta.xz
-  - name: prealigned-masked-and-filtered-data
-    metadata: data/other_metadata.tsv.xz
-    filtered: data/other_masked.fasta.xz
+    filtered: data/other_filtered.fasta.xz
 ```
 
 Valid attributes for list entries in `inputs` are provided below.
@@ -313,7 +310,7 @@ Valid attributes for list entries in `inputs` are provided below.
 
 ### sequences
 * type: string
-* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **_un_aligned, _un_masked, and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
+* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **_un_aligned and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
 	* `data/example_sequences.fasta`
 	* `data/example_sequences.fasta.xz`
@@ -322,25 +319,16 @@ Valid attributes for list entries in `inputs` are provided below.
 
 ### aligned
 * type: string
-* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **aligned, _un_masked, and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
+* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **aligned and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
 	* `data/aligned.fasta`
 	* `data/aligned.fasta.xz`
 	* `s3://your-bucket/aligned.fasta.gz`
 	* `https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz`
 
-### masked
-* type: string
-* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **aligned, masked, and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
-* examples:
-	* `data/masked.fasta`
-	* `data/masked.fasta.xz`
-	* `s3://your-bucket/masked.fasta.gz`
-	* `https://data.nextstrain.org/files/ncov/open/masked.fasta.xz`
-
 ### filtered
 * type: string
-* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **aligned, masked, and filtered** genome sequences. Sequences can be uncompressed or compressed.
+* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **aligned and filtered** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
 	* `data/filtered.fasta`
 	* `data/filtered.fasta.xz`
