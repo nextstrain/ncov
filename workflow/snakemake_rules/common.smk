@@ -47,7 +47,7 @@ def _get_path_for_input(stage, origin_wildcard):
 
     if stage in {"metadata", "sequences"}:
         raise Exception(f"ERROR: config->input->{origin_wildcard}->{stage} is not defined.")
-    elif stage in {"aligned", "masked", "filtered"}:
+    elif stage in {"aligned", "filtered"}:
         return f"results/{stage}_{origin_wildcard}.fasta.xz"
     else:
         raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
@@ -126,7 +126,7 @@ def _get_max_date_for_frequencies(wildcards):
 def _get_upload_inputs(wildcards):
     # The main workflow supports multiple inputs/origins, but our desired file
     # structure under data.nextstrain.org/files/ncov/open/… is designed around
-    # a single input/origin.  Intermediates (aligned, masked, filtered, etc)
+    # a single input/origin.  Intermediates (aligned, filtered, etc)
     # are specific to each input/origin and thus do not match our desired
     # structure, while builds (global, europe, africa, etc) span all
     # inputs/origins (and thus do).  In our desired outcome, the two kinds of

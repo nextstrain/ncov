@@ -139,10 +139,7 @@ def _collect_exclusion_files(wildcards):
     # (1) a config-defined exclude file
     # (2) a dynamically created file (`rule diagnostic`) which scans the alignment for potential errors
     # The second file is optional - it may be opted out via config → skip_diagnostics
-    # If the input starting point is "masked" then we also ignore the second file, as the alignment is not available
     if config["filter"].get(wildcards["origin"], {}).get("skip_diagnostics", False):
-        return [ config["files"]["exclude"] ]
-    if "masked" in config["inputs"][wildcards["origin"]]:
         return [ config["files"]["exclude"] ]
     return [ config["files"]["exclude"], f"results/to-exclude_{wildcards['origin']}.txt" ]
 
