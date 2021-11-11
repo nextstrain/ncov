@@ -50,6 +50,7 @@ jobs:
 
         nextstrain build \
           --aws-batch \
+          --detach \
           --cpus 36 \
           --memory 70GiB \
           . \
@@ -69,17 +70,21 @@ jobs:
         if [[ "$TRIAL_NAME" ]]; then
           echo "--> Trial name is: $TRIAL_NAME"
           echo
-          echo "--> Upload prefixes"
+          echo "--> When completed, the following will be available:"
           echo "build files: s3://nextstrain-ncov-private/trial/$TRIAL_NAME/"
           echo "nextstrain URLs: https://nextstrain.org/staging/ncov/gisaid/trial/$TRIAL_NAME/REGION_NAME"
         else
-          echo "--> GISAID phylogenetic analysis successfully rebuilt"
+          echo "--> GISAID phylogenetic analysis rebuilding on AWS"
           echo
-          echo "--> Uploaded data"
+          echo "--> When completed, the following will be updated:"
           echo "build files: s3://nextstrain-ncov-private/REGION_NAME/"
           echo "nextstrain URLs: https://nextstrain.org/ncov/gisaid/REGION_NAME"
         fi
         echo
-        echo "--> You can aso download assets from this (completed) AWS run via"
+        echo "--> You can attach to this AWS job via:"
         tail -n1 build-launch.log
+        echo
+        JOBID=$( tail -n1 build-launch.log | sed -E 's/.+attach ([-a-f0-9]+).+/\1/' )
+        echo "--> View this job in the AWS console via"
+        echo "    https://console.aws.amazon.com/batch/home?region=us-east-1#jobs/detail/${JOBID}"
         echo
