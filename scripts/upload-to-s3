@@ -33,15 +33,6 @@ main() {
     if [[ $src_hash != "$dst_hash" ]]; then
         echo "Uploading $src → $dst"
         aws s3 cp --no-progress "$src" "$dst" --metadata sha256sum="$src_hash" "$(content-type "$dst")"
-
-        if [[ $quiet == 1 ]]; then
-            echo "Quiet mode. No Slack notification sent."
-            exit 0
-        fi
-
-        if ! "$bin"/notify-slack "Updated $dst available."; then
-            echo "Notifying Slack failed, but exiting with success anyway."
-        fi
     else
         echo "Files are identical, skipping upload"
     fi
