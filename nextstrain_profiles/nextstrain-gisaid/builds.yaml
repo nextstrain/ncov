@@ -111,9 +111,6 @@ subsampling:
       max_sequences: 600
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "region_late"
 
     region_late:
       group_by: "division year month"
@@ -126,9 +123,6 @@ subsampling:
       max_sequences: 1000
       exclude: "--exclude-where 'region={region}'"
       sampling_scheme: "--probabilistic-sampling"
-      priorities:
-        type: "proximity"
-        focus: "region_late"
 
   # Custom subsampling logic for global region.
   nextstrain_region_global:
@@ -209,9 +203,6 @@ subsampling:
       max_sequences: 1000
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "region_late"
     # Focal samples for region
     region_early:
       group_by: "country year month"
@@ -224,9 +215,6 @@ subsampling:
       max_sequences: 500
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "region_late"
 
 # Define frequencies parameters.
 frequencies:
