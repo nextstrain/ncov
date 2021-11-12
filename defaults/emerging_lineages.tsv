@@ -1,7 +1,5 @@
 clade	gene	site	alt
 
-# Emerging Lineages
-
 AY.4.2 (Delta)	nuc	22917	G
 AY.4.2 (Delta)	nuc	22995	A
 AY.4.2 (Delta)	nuc	24410	A
@@ -37,7 +35,6 @@ AY.39 + S:1073N (Delta)	nuc	28881	T
 AY.39 + S:1073N (Delta)	nuc	27604	A
 AY.39 + S:1073N (Delta)	S	1073	N
 
-# Official Nextstrain clades
 
 19A	nuc	8782	C
 19A	nuc	14408	C
