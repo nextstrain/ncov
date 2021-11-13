@@ -41,8 +41,7 @@ A side-effect of this is the creation and upload of processed versions of the en
 
 * `aligned.fasta.xz` alignment via [nextalign](https://github.com/nextstrain/nextclade/tree/master/packages/nextalign_cli). The default reference genome is [MN908947](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) (Wuhan-Hu-1).
 * `mutation-summary.tsv.xz` A summary of the data in `aligned.fasta.xz`.
-* `masked.fasta.xz` Masked alignment
-* `filtered.fasta.xz` The masked alignment excluding data with incomplete / invalid dates, unexpected genome lengths, missing metadata etc. We also maintain a [list of sequences to exclude](https://github.com/nextstrain/ncov/blob/master/defaults/exclude.txt) which are removed at this step. These sequences represent duplicates, outliers in terms of divergence or sequences with faulty metadata.
+* `filtered.fasta.xz` The alignment excluding data with incomplete / invalid dates, unexpected genome lengths, missing metadata etc. We also maintain a [list of sequences to exclude](https://github.com/nextstrain/ncov/blob/master/defaults/exclude.txt) which are removed at this step. These sequences represent duplicates, outliers in terms of divergence or sequences with faulty metadata.
 
 ## Subsampled datasets
 
@@ -72,7 +71,6 @@ This means that the full GenBank metadata and sequences are typically updated a 
 | Full GenBank data    | metadata  | https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz            |
 |                      | sequences | https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz         |
 |                      | aligned   | https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz           |
-|                      | masked    | https://data.nextstrain.org/files/ncov/open/masked.fasta.xz            |
 |                      | filtered  | https://data.nextstrain.org/files/ncov/open/filtered.fasta.xz          |
 | Global sample        | metadata  | https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz     |
 |                      | sequences | https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.xz  |
@@ -139,9 +137,8 @@ inputs:
 
 The following starting points are available:
 
-* replace `sequences` with `aligned` (skips alignment 😉)
-* replace `sequences` with `masked` (skips alignment and masking steps)
-* replace `sequences` with `filtered` (skips alignment, masking and basic filtering steps)
+* replace `sequences` with `aligned` (skips alignment)
+* replace `sequences` with `filtered` (skips alignment and basic filtering steps)
 
 
 ## Compressed vs uncompressed starting points

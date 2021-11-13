@@ -139,44 +139,10 @@ def _collect_exclusion_files(wildcards):
     # (1) a config-defined exclude file
     # (2) a dynamically created file (`rule diagnostic`) which scans the alignment for potential errors
     # The second file is optional - it may be opted out via config → skip_diagnostics
-    # If the input starting point is "masked" then we also ignore the second file, as the alignment is not available
     if config["filter"].get(wildcards["origin"], {}).get("skip_diagnostics", False):
-        return [ config["files"]["exclude"] ]
-    if "masked" in config["inputs"][wildcards["origin"]]:
         return [ config["files"]["exclude"] ]
     return [ config["files"]["exclude"], f"results/to-exclude_{wildcards['origin']}.txt" ]
 
-rule mask:
-    message:
-        """
-        Mask bases in alignment {input.alignment}
-          - masking {params.mask_from_beginning} from beginning
-          - masking {params.mask_from_end} from end
-          - masking other sites: {params.mask_sites}
-        """
-    input:
-        alignment = lambda w: _get_path_for_input("aligned", w.origin)
-    output:
-        alignment = "results/masked_{origin}.fasta.xz"
-    log:
-        "logs/mask_{origin}.txt"
-    benchmark:
-        "benchmarks/mask_{origin}.txt"
-    params:
-        mask_from_beginning = config["mask"]["mask_from_beginning"],
-        mask_from_end = config["mask"]["mask_from_end"],
-        mask_sites = config["mask"]["mask_sites"]
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/mask-alignment.py \
-            --alignment {input.alignment} \
-            --mask-from-beginning {params.mask_from_beginning} \
-            --mask-from-end {params.mask_from_end} \
-            --mask-sites {params.mask_sites} \
-            --mask-terminal-gaps \
-            --output /dev/stdout | xz -c -2 > {output.alignment} 2> {log}
-        """
 
 rule filter:
     message:
@@ -187,7 +153,7 @@ rule filter:
           - min length: {params.min_length}
         """
     input:
-        sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
+        sequences = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
         metadata = "results/sanitized_metadata_{origin}.tsv.xz",
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
@@ -581,6 +547,38 @@ rule build_align:
             --output-insertions {output.insertions} > {log} 2>&1
         """
 
+rule mask:
+    message:
+        """
+        Mask bases in alignment {input.alignment}
+          - masking {params.mask_from_beginning} from beginning
+          - masking {params.mask_from_end} from end
+          - masking other sites: {params.mask_sites}
+        """
+    input:
+        alignment = rules.build_align.output.alignment
+    output:
+        alignment = "results/{build_name}/masked.fasta"
+    log:
+        "logs/mask_{build_name}.txt"
+    benchmark:
+        "benchmarks/mask_{build_name}.txt"
+    params:
+        mask_from_beginning = config["mask"]["mask_from_beginning"],
+        mask_from_end = config["mask"]["mask_from_end"],
+        mask_sites = config["mask"]["mask_sites"]
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/mask-alignment.py \
+            --alignment {input.alignment} \
+            --mask-from-beginning {params.mask_from_beginning} \
+            --mask-from-end {params.mask_from_end} \
+            --mask-sites {params.mask_sites} \
+            --mask-terminal-gaps \
+            --output {output.alignment} 2> {log}
+        """
+
 rule compress_build_align:
     message:
         """Compressing {input.alignment}"""
@@ -678,11 +676,12 @@ rule adjust_metadata_regions:
 rule tree:
     message: "Building tree"
     input:
-        alignment = rules.build_align.output.alignment
+        alignment = rules.mask.output.alignment
     output:
         tree = "results/{build_name}/tree_raw.nwk"
     params:
-        args = lambda w: config["tree"].get("tree-builder-args","") if "tree" in config else ""
+        args = lambda w: config["tree"].get("tree-builder-args","") if "tree" in config else "",
+        exclude_sites = lambda w: f"--exclude-sites {config['files']['sites_to_mask']}" if "sites_to_mask" in config["files"] else ""
     log:
         "logs/tree_{build_name}.txt"
     benchmark:
@@ -699,6 +698,7 @@ rule tree:
         augur tree \
             --alignment {input.alignment} \
             --tree-builder-args {params.args} \
+            {params.exclude_sites} \
             --output {output.tree} \
             --nthreads {threads} 2>&1 | tee {log}
         """
@@ -713,7 +713,7 @@ rule refine:
         """
     input:
         tree = rules.tree.output.tree,
-        alignment = rules.build_align.output.alignment,
+        alignment = rules.mask.output.alignment,
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         tree = "results/{build_name}/tree.nwk",

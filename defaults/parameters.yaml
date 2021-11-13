@@ -68,6 +68,7 @@ files:
   clades: "defaults/clades.tsv"
   emerging_lineages: "defaults/emerging_lineages.tsv"
   mutational_fitness_distance_map: "defaults/mutational_fitness_distance_map.json"
+  sites_to_mask: "defaults/sites_ignored_for_tree_topology.txt"
 
 # Define genes to translate during alignment by nextalign.
 genes: ["ORF1a", "ORF1b", "S", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF7b", "ORF8", "N", "ORF9b"]
@@ -99,7 +100,7 @@ mask:
 
   # Specific sites to mask in the reference genome's coordinates.
   # These are 1-indexed coordinates of sites that have been identified as prone to sequencing errors.
-  mask_sites: "21987"
+  mask_sites: "21987 21846"
 
 # Depending on how you define focal and contextual inputs, the same strains may
 # appear in both inputs. This option tells the workflow not to throw an error

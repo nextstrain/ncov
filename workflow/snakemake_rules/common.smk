@@ -47,7 +47,7 @@ def _get_path_for_input(stage, origin_wildcard):
 
     if stage in {"metadata", "sequences"}:
         raise Exception(f"ERROR: config->input->{origin_wildcard}->{stage} is not defined.")
-    elif stage in {"aligned", "masked", "filtered"}:
+    elif stage in {"aligned", "filtered"}:
         return f"results/{stage}_{origin_wildcard}.fasta.xz"
     else:
         raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
@@ -57,8 +57,8 @@ def _get_unified_metadata(wildcards):
     """
     Returns a single metadata file representing the input metadata file(s).
     If there was only one supplied metadata file in the `config["inputs"] dict`,
-    then that file is run through `sanitize_metadata` and the new file name returned. 
-    Else "results/combined_metadata.tsv.xz" is returned which will run the 
+    then that file is run through `sanitize_metadata` and the new file name returned.
+    Else "results/combined_metadata.tsv.xz" is returned which will run the
     `combine_input_metadata` rule (and `sanitize_metadata` rule) to make it.
     """
     if len(list(config["inputs"].keys()))==1:
@@ -126,7 +126,7 @@ def _get_max_date_for_frequencies(wildcards):
 def _get_upload_inputs(wildcards):
     # The main workflow supports multiple inputs/origins, but our desired file
     # structure under data.nextstrain.org/files/ncov/open/… is designed around
-    # a single input/origin.  Intermediates (aligned, masked, filtered, etc)
+    # a single input/origin.  Intermediates (aligned, filtered, etc)
     # are specific to each input/origin and thus do not match our desired
     # structure, while builds (global, europe, africa, etc) span all
     # inputs/origins (and thus do).  In our desired outcome, the two kinds of
@@ -142,7 +142,6 @@ def _get_upload_inputs(wildcards):
     # mapping of remote → local filenames
     preprocessing_files = {
         f"aligned.fasta.xz":              f"results/aligned_{origin}.fasta.xz",              # from `rule align`
-        f"masked.fasta.xz":               f"results/masked_{origin}.fasta.xz",               # from `rule mask`
         f"filtered.fasta.xz":             f"results/filtered_{origin}.fasta.xz",             # from `rule filter`
         f"mutation-summary.tsv.xz":       f"results/mutation_summary_{origin}.tsv.xz",       # from `rule mutation_summary`
     }

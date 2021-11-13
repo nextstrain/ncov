@@ -26,7 +26,7 @@ We'll walk through all of the files one by one, but here are the most important 
 ## Output files and directories
 
   * `auspice/<build_name>.json`: output file for visualization in Auspice where `<build_name>` is the name of your build in the workflow configuration file.
-  * `results/aligned.fasta`, `results/masked.fasta`, etc.: raw results files (dependencies) that are shared across all builds.
+  * `results/aligned.fasta`, `results/filtered.fasta`, etc.: raw results files (dependencies) that are shared across all builds.
   * `results/<build_name>/`: raw results files (dependencies) that are specific to a single build.
   * `logs/`: Log files with error messages and other information about the run.
   * `benchmarks/`: Run-times (and memory usage on Linux systems) for each rule in the workflow.

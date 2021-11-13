@@ -23,7 +23,6 @@ To maximize the utility and visibility of these generously shared data, [we prov
 
  * [aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz)
  * [filtered.fasta.xz](https://data.nextstrain.org/files/ncov/open/filtered.fasta.xz)
- * [masked.fasta.xz](https://data.nextstrain.org/files/ncov/open/masked.fasta.xz)
  * [mutation-summary.tsv.xz](https://data.nextstrain.org/files/ncov/open/mutation-summary.tsv.xz)
 
 ### Subsampled sequences and intermediate files
