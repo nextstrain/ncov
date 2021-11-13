@@ -19,9 +19,9 @@ def read_gff(fname):
         for rec in GFF.parse(in_handle):
             for feat in rec.features:
                 if "gene_name" in feat.qualifiers:
-                    fname = feat.qualifiers["gene_name"][0]
-                if fname:
-                    features[fname] = feat
+                    feature_name = feat.qualifiers["gene_name"][0]
+                if feature_name:
+                    features[feature_name] = feat
 
     return features
 
