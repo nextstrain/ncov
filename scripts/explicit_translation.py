@@ -42,8 +42,9 @@ if __name__ == '__main__':
     features = load_features(args.reference)
 
     if not set(features.keys())==set(args.genes):
-        print("ERROR: supplied genes don't match the annotation")
-        exit(1)
+        print("WARNING: supplied genes don't match the annotation")
+        print("the following features are in the annotation by not supplied as genes:", set(features.keys()).diff(args.genes))
+        print("the following features are in the supplied as genes but not the annotation:", set(args.genes).diff(features.keys()))
 
     T = Phylo.read(args.tree, 'newick')
     leafs = {n.name for n in T.get_terminals()}
