@@ -798,8 +798,7 @@ rule translate:
     input:
         tree = rules.refine.output.tree,
         translations = lambda w: rules.build_align.output.translations,
-        reference = config["files"]["alignment_reference"],
-        genemap = config["files"]["annotation"]
+        reference = config["files"]["reference"],
     output:
         node_data = "results/{build_name}/aa_muts.json",
         translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}_withInternalNodes.fasta", gene=config.get('genes', ['S']))
@@ -819,7 +818,6 @@ rule translate:
         """
         python3 scripts/explicit_translation.py \
             --tree {input.tree} \
-            --annotation {input.genemap} \
             --reference {input.reference} \
             --translations {input.translations:q} \
             --genes {params.genes} \

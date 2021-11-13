@@ -5,25 +5,8 @@ import json
 from Bio import Phylo, SeqIO
 from Bio.Align import MultipleSeqAlignment
 from treetime import TreeAnc
+from augur.utils import load_features
 
-
-def read_gff(fname):
-    try:
-        from BCBio import GFF #Package name is confusing - tell user exactly what they need!
-    except ImportError:
-        print("ERROR: Package BCBio.GFF not found! Please install using \'pip install bcbio-gff\' before re-running.")
-        return None
-
-    features = {}
-    with open(fname, encoding='utf-8') as in_handle:
-        for rec in GFF.parse(in_handle):
-            for feat in rec.features:
-                if "gene_name" in feat.qualifiers:
-                    feature_name = feat.qualifiers["gene_name"][0]
-                if feature_name:
-                    features[feature_name] = feat
-
-    return features
 
 def annotation_json(features, reference):
     annotations = {}
@@ -47,8 +30,7 @@ if __name__ == '__main__':
     )
 
     parser.add_argument('--tree', type=str, required=True, help="input tree")
-    parser.add_argument('--annotation', type=str, required=True, help="gff annotation file")
-    parser.add_argument('--reference', type=str, required=True, help="reference fasta sequence")
+    parser.add_argument('--reference', type=str, required=True, help="reference genbank sequence")
     parser.add_argument('--translations', type=str,  nargs='+', required=True, help="amino acid alignment")
     parser.add_argument('--genes', type=str, nargs='+', required=True, help="amino acid alignment")
     parser.add_argument('--output', type=str, metavar="JSON", required=True, help="output Auspice JSON")
@@ -56,8 +38,8 @@ if __name__ == '__main__':
 
     genes = args.genes if type(args.genes)==list else [args.genes]
     translations = args.translations if type(args.translations)==list else [args.translations]
-    features = read_gff(args.annotation)
-    ref = SeqIO.read(args.reference, format='fasta')
+    ref = SeqIO.read(args.reference, format='genbank')
+    features = load_features(args.reference)
 
     if not set(features.keys())==set(args.genes):
         print("ERROR: supplied genes don't match the annotation")
