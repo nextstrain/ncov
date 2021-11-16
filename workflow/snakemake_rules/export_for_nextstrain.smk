@@ -167,21 +167,9 @@ rule deploy:
         deploy_url = config["deploy_url"]
     benchmark:
         "benchmarks/deploy.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        nextstrain deploy {params.deploy_url:q} {input:q}
-
-        if [[ -n "$SLACK_TOKEN" && -n "$SLACK_CHANNEL" ]]; then
-            curl https://slack.com/api/chat.postMessage \
-                --header "Authorization: Bearer $SLACK_TOKEN" \
-                --form-string channel="$SLACK_CHANNEL" \
-                --form-string text={params.slack_message:q} \
-                --fail --silent --show-error \
-                --include
-        fi
-        """
-
+    run:
+        shell("nextstrain deploy {params.deploy_url:q} {input:q}")
+        send_slack_message(params.slack_message)
 
 rule upload:
     message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
