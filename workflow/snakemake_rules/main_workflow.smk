@@ -797,34 +797,10 @@ rule translate:
     message: "Translating amino acid sequences"
     input:
         tree = rules.refine.output.tree,
-        node_data = rules.ancestral.output.node_data,
-        reference = config["files"]["reference"]
+        translations = lambda w: rules.build_align.output.translations,
+        reference = config["files"]["reference"],
     output:
-        node_data = "results/{build_name}/aa_muts.json"
-    log:
-        "logs/translate_{build_name}.txt"
-    benchmark:
-        "benchmarks/translate_{build_name}.txt"
-    resources:
-        # Memory use scales primarily with size of the node data.
-        mem_mb=lambda wildcards, input: 3 * int(input.node_data.size / 1024 / 1024)
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur translate \
-            --tree {input.tree} \
-            --ancestral-sequences {input.node_data} \
-            --reference-sequence {input.reference} \
-            --output-node-data {output.node_data} 2>&1 | tee {log}
-        """
-
-rule aa_muts_explicit:
-    message: "Translating amino acid sequences"
-    input:
-        tree = rules.refine.output.tree,
-        translations = lambda w: rules.build_align.output.translations
-    output:
-        node_data = "results/{build_name}/aa_muts_explicit.json",
+        node_data = "results/{build_name}/aa_muts.json",
         translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}_withInternalNodes.fasta", gene=config.get('genes', ['S']))
     params:
         genes = config.get('genes', 'S')
@@ -842,6 +818,7 @@ rule aa_muts_explicit:
         """
         python3 scripts/explicit_translation.py \
             --tree {input.tree} \
+            --reference {input.reference} \
             --translations {input.translations:q} \
             --genes {params.genes} \
             --output {output.node_data} 2>&1 | tee {log}
@@ -1144,7 +1121,7 @@ rule logistic_growth:
 rule mutational_fitness:
     input:
         tree = "results/{build_name}/tree.nwk",
-        alignments = lambda w: rules.aa_muts_explicit.output.translations,
+        alignments = lambda w: rules.translate.output.translations,
         distance_map = config["files"]["mutational_fitness_distance_map"]
     output:
         node_data = "results/{build_name}/mutational_fitness.json"
@@ -1226,7 +1203,6 @@ def _get_node_data_by_wildcards(wildcards):
         rules.traits.output.node_data,
         rules.logistic_growth.output.node_data,
         rules.mutational_fitness.output.node_data,
-        rules.aa_muts_explicit.output.node_data,
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data
     ]
