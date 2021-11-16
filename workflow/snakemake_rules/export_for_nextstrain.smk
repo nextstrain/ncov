@@ -19,6 +19,10 @@
 #   snakemake --profile nextstrain_profiles/nextstrain-gisaid all_regions
 # to produce the final Auspice files!
 
+import requests
+import json
+from workflow.lib.persistent_dict import PersistentDict, NoSuchEntryError
+
 def get_todays_date():
     from datetime import datetime
     date = datetime.today().strftime('%Y-%m-%d')
@@ -144,10 +148,6 @@ rule dated_json:
 
 from os import environ
 
-SLACK_TOKEN   = environ["SLACK_TOKEN"]   = config["slack_token"]   or ""
-SLACK_CHANNEL = environ["SLACK_CHANNEL"] = config["slack_channel"] or ""
-BUILD_DESCRIPTION = f"Build to upload {' & '.join(config.get('upload', ['nothing']))}"
-
 try:
     deploy_origin = (
         f"from AWS Batch job `{environ['AWS_BATCH_JOB_ID']}`"
@@ -196,8 +196,11 @@ rule upload:
     benchmark:
         "benchmarks/upload.txt"
     run:
+        message = "The following files have been updated (unless they were identical):"
         for remote, local in input.items():
             shell("./scripts/upload-to-s3 {local:q} s3://{params.s3_bucket:q}/{remote:q} | tee -a {log:q}")
+            message += f"\n\ts3://{params.s3_bucket}/{remote}"
+        send_slack_message(message)
 
 rule trigger_phylogenetic_rebuild:
     message: "Triggering nextstrain/ncov rebuild action (via repository dispatch)"
@@ -217,8 +220,6 @@ rule trigger_phylogenetic_rebuild:
             dispatch_type = "gisaid/rebuild"
         else:
             raise Exception("Rule trigger_phylogenetic_rebuild cannot be run with a non-default S3_DST_BUCKET")
-        import requests
-        import json
         headers = {
             'Content-type': 'application/json',
             'authorization': f"Bearer {config['github_token']}",
@@ -227,34 +228,69 @@ rule trigger_phylogenetic_rebuild:
         data = json.dumps(
             {"event_type": dispatch_type}
         )
+        send_slack_message(f"This pipeline is now triggering a GitHub action (via dispatch type {dispatch_type}) to run the corresponding phylogenetic builds.")
         print(f"Triggering ncov rebuild GitHub action via repository dispatch type: {dispatch_type}")
         response = requests.post("https://api.github.com/repos/nextstrain/ncov/dispatches", headers=headers, data=data)
         response.raise_for_status()
 
+storage = PersistentDict("slack")
+
+def send_slack_message(message, broadcast=False):
+    """
+    Sends slack messages notifying us of the pipeline's progress. Messages will be
+    threaded, with the first message being the parent message. Important messages can be
+    broadcast: they will be part of the thread but also sent to the channel.
+    """
+    ## Note: this cannot currently send files, but this would be easy to add.
+    ## Slack docs: https://api.slack.com/methods/files.upload
+
+    if not config.get("slack_token", None) or not config.get("slack_channel", None):
+        print("Cannot send slack message as the config does not define a channel and/or token.")
+        return
+
+    headers = {
+        'Content-type': 'application/json',
+        'authorization': f"Bearer {config['slack_token']}",
+        'Accept': 'application/vnd.github.v3+json'
+    }
+    data = {
+        "channel": config["slack_channel"],
+        "text": message,
+    }
+
+    # if slack_thread_ts has been stored, then there is a parent message, so we thread this messaege
+    try:
+        data["thread_ts"]=str(storage.fetch("slack_thread_ts"))
+        if broadcast:
+            data["reply_broadcast"]=True
+    except NoSuchEntryError:
+        pass
+
+    response = requests.post("https://slack.com/api/chat.postMessage", headers=headers, data=json.dumps(data))
+    response.raise_for_status()
+    storage.store_if_not_present("slack_thread_ts", response.json()["ts"])
+
+# onstart handler will be executed before the workflow starts.
 onstart:
-    slack_message = f"{BUILD_DESCRIPTION} {deploy_origin} started."
+    # note config["upload"] = array of enum{"preprocessing-files", "build-files"}
+    message = [
+        "Pipeline starting which will upload " +
+            ' & '.join([x.replace("-", " ") for x in config.get('upload', ['nothing'])]),
+        f"Deployed {deploy_origin}"
+    ]
+    if environ.get("AWS_BATCH_JOB_ID"):
+        message.append(f" (<https://console.aws.amazon.com/batch/v2/home?region=us-east-1#jobs/detail/{environ['AWS_BATCH_JOB_ID']}|AWS console link>)")
+    message.append("Further results will appear in this 🧵.")
+    send_slack_message(". ".join(message))
 
-    if SLACK_TOKEN and SLACK_CHANNEL:
-        shell(f"""
-            curl https://slack.com/api/chat.postMessage \
-                --header "Authorization: Bearer $SLACK_TOKEN" \
-                --form-string channel="$SLACK_CHANNEL" \
-                --form-string text={{slack_message:q}} \
-                --fail --silent --show-error \
-                --include
-        """)
+# onsuccess handler is executed if the workflow finished without error. 
+onsuccess:
+    message = "✅ This pipeline has successfully finished 🎉"
+    send_slack_message(message)
+    storage.clear() # clear any persistent storage
 
+# onerror handler is executed if the workflow finished with an error.
 onerror:
-    slack_message = f"{BUILD_DESCRIPTION} {deploy_origin} failed."
-
-    if SLACK_TOKEN and SLACK_CHANNEL:
-        shell(f"""
-            curl https://slack.com/api/files.upload \
-                --header "Authorization: Bearer $SLACK_TOKEN" \
-                --form-string channels="$SLACK_CHANNEL" \
-                --form-string initial_comment={{slack_message:q}} \
-                --form file=@{{log:q}} \
-                --form filetype=text \
-                --fail --silent --show-error \
-                --include
-        """)
+    message = "❌ This pipeline has FAILED 😞. Please see linked thread for more information."
+    send_slack_message(message, broadcast=True)
+    storage.clear() # clear any persistent storage
