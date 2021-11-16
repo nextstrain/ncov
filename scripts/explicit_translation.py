@@ -23,6 +23,7 @@ def annotation_json(features, reference):
                             'strand': '+'}
     return annotations
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="Add translations",
@@ -50,6 +51,7 @@ if __name__ == '__main__':
     leafs = {n.name for n in T.get_terminals()}
 
     node_data = {}
+    root_sequence_translations = {}
     for gene, translation in zip(genes, translations):
         seqs = []
         for s in SeqIO.parse(translation, 'fasta'):
@@ -60,6 +62,7 @@ if __name__ == '__main__':
         tt = TreeAnc(tree=T, aln=MultipleSeqAlignment(seqs), alphabet='aa')
 
         tt.infer_ancestral_sequences(reconstruct_tip_states=True)
+        root_sequence_translations[gene] = tt.sequence(tt.tree.root, as_string=True, reconstructed=True)
 
         with open(translation.replace('.fasta', '_withInternalNodes.fasta'), 'w') as fh:
             for n in tt.tree.find_clades():
@@ -71,4 +74,4 @@ if __name__ == '__main__':
 
     annotations = annotation_json(features, ref)
     with open(args.output, 'w') as fh:
-        json.dump({"nodes":node_data, "annotations":annotations}, fh)
+        json.dump({"nodes":node_data, "annotations":annotations, "reference":root_sequence_translations}, fh)
