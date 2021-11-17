@@ -21,7 +21,7 @@ def read_reference(fname, genemap):
             start = int(entries[3])
             end = int(entries[4])
             strand = entries[6]
-            attributes = {x.split()[0]:' '.join(x.split()[1:]) for x in entries[8].split(';')}
+            attributes = {x.split()[0]:'='.join(x.split('=')[1:]) for x in entries[8].split(';')}
             if 'gene_name' in attributes:
                 name = attributes['gene_name'].strip('"')
             else:
