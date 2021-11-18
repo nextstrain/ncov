@@ -22,6 +22,7 @@ def read_reference(fname, genemap):
             end = int(entries[4])
             strand = entries[6]
             attributes = {x.split('=')[0]:'='.join(x.split('=')[1:]) for x in entries[8].split(';')}
+            print(line, entries, attributes)
             if 'gene_name' in attributes:
                 name = attributes['gene_name'].strip('"')
             else:
@@ -96,6 +97,7 @@ if __name__ == '__main__':
     compressed = {}
     res = to_mutations(nucleotide_alignment, ref)
     compressed = {'nucleotide_mutations': pd.DataFrame(res.values(), index=res.keys(), columns=['nucleotide'])}
+    print(translations)
     for fname in gene_files:
         # Find the gene name in the current gene file, since the filename may have multiple suffixes.
         gene = (set(fname.split('.')) & genes).pop()
