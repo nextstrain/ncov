@@ -10778,3 +10778,5 @@ PER/AFI01342/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AF
 PER/AFI01608/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
 PER/AFIP00034/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
 
+# Sample date (oct 2020) and location for Delta seem very unlikely
+Germany/NW-RKI-I-307410/2020
