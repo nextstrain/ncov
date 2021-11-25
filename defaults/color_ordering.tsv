@@ -20518,6 +20518,7 @@ clade_membership	21E (Theta)
 clade_membership	21F (Iota)
 clade_membership	21G (Lambda)
 clade_membership	21H (Mu)
+clade_membership	21K
 
 ################
 
@@ -20526,6 +20527,7 @@ emerging_lineage	AY.4.2 (Delta)
 emerging_lineage	AY.34 (Delta)
 emerging_lineage	AY.36 (Delta)
 emerging_lineage	AY.39 + S:1073N (Delta)
+emerging_lineage	21K
 
 ################
 
