@@ -39,7 +39,7 @@ jobs:
         set -x
 
         declare -a config
-        config+=(build_date=$(date +'%Y-%m-%d'))
+        config+=(build_date=\'$(date +'%Y-%m-%d')\')
         if [[ "$TRIAL_NAME" ]]; then
           config+=(
             S3_DST_BUCKET=nextstrain-staging/files/ncov/open/trial/"$TRIAL_NAME"
