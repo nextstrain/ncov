@@ -81,8 +81,8 @@ if __name__ == '__main__':
     if check_clade_dates:
         to_exclude |= dates<clade_dates
     to_exclude |= snp_clusters>args.snp_clusters
-    to_exclude |= rare_mutations>args.rare_mutations
-    to_exclude |= np.abs(clock_deviation+rare_mutations)>args.clock_plus_rare
+    to_exclude |= (rare_mutations>args.rare_mutations)&(~recent_sequences)
+    to_exclude |= (np.abs(clock_deviation+rare_mutations)>args.clock_plus_rare)&(~recent_sequences)
 
     if "QC_mixed_sites" in metadata.columns:
         to_exclude |= metadata.QC_mixed_sites=='bad'
