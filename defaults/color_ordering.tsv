@@ -20848,6 +20848,9 @@ pango_lineage	B.1.1.224
 pango_lineage	B.1.1.225
 pango_lineage	B.1.1.226
 pango_lineage	B.1.1.227
+pango_lineage	B.1.1.228
+pango_lineage	B.1.1.229
+pango_lineage	B.1.1.230
 pango_lineage	B.1.1.231
 pango_lineage	AL.1
 pango_lineage	B.1.1.232
@@ -20857,12 +20860,12 @@ pango_lineage	B.1.1.234
 pango_lineage	B.1.1.236
 pango_lineage	B.1.1.237
 pango_lineage	B.1.1.239
+pango_lineage	B.1.1.240
+pango_lineage	AJ.1
 pango_lineage	B.1.1.241
 pango_lineage	AH.1
 pango_lineage	AH.2
 pango_lineage	AH.3
-pango_lineage	B.1.1.240
-pango_lineage	AJ.1
 pango_lineage	B.1.1.242
 pango_lineage	B.1.1.243
 pango_lineage	B.1.1.244
@@ -20872,9 +20875,9 @@ pango_lineage	B.1.1.253
 pango_lineage	B.1.1.254
 pango_lineage	B.1.1.255
 pango_lineage	B.1.1.256
+pango_lineage	B.1.1.257
 pango_lineage	B.1.1.258
 pango_lineage	B.1.1.261
-pango_lineage	B.1.1.257
 pango_lineage	B.1.1.262
 pango_lineage	B.1.1.263
 pango_lineage	B.1.1.265
@@ -21123,10 +21126,17 @@ pango_lineage	B.1.1.524
 pango_lineage	B.1.1.525
 pango_lineage	B.1.1.526
 pango_lineage	B.1.1.528
+pango_lineage	B.1.1.529
 pango_lineage	B.1.2
 pango_lineage	B.1.3
 pango_lineage	B.1.6
 pango_lineage	B.1.8
+pango_lineage	B.1.9
+pango_lineage	B.1.9.1
+pango_lineage	B.1.9.2
+pango_lineage	B.1.9.3
+pango_lineage	B.1.9.4
+pango_lineage	B.1.9.5
 pango_lineage	B.1.12
 pango_lineage	B.1.13
 pango_lineage	B.1.14
@@ -21153,8 +21163,8 @@ pango_lineage	B.1.36.23
 pango_lineage	B.1.36.24
 pango_lineage	B.1.36.25
 pango_lineage	B.1.36.26
-pango_lineage	B.1.36.28
 pango_lineage	B.1.36.27
+pango_lineage	B.1.36.28
 pango_lineage	B.1.36.29
 pango_lineage	B.1.36.31
 pango_lineage	B.1.36.33
@@ -21178,6 +21188,7 @@ pango_lineage	B.1.78
 pango_lineage	B.1.81
 pango_lineage	B.1.83
 pango_lineage	B.1.84
+pango_lineage	B.1.88.1
 pango_lineage	B.1.91
 pango_lineage	B.1.93
 pango_lineage	B.1.94
@@ -21356,7 +21367,6 @@ pango_lineage	B.1.177.75
 pango_lineage	B.1.177.76
 pango_lineage	B.1.177.77
 pango_lineage	B.1.177.78
-pango_lineage	B.1.177.79
 pango_lineage	B.1.177.80
 pango_lineage	B.1.177.81
 pango_lineage	B.1.177.82
@@ -21384,8 +21394,8 @@ pango_lineage	B.1.198
 pango_lineage	B.1.199
 pango_lineage	B.1.201
 pango_lineage	B.1.203
-pango_lineage	B.1.206
 pango_lineage	B.1.205
+pango_lineage	B.1.206
 pango_lineage	B.1.208
 pango_lineage	B.1.210
 pango_lineage	B.1.211
@@ -21424,14 +21434,14 @@ pango_lineage	B.1.240
 pango_lineage	B.1.240.1
 pango_lineage	B.1.240.2
 pango_lineage	B.1.241
+pango_lineage	B.1.242
 pango_lineage	B.1.243
 pango_lineage	B.1.243.1
 pango_lineage	B.1.243.2
-pango_lineage	B.1.242
 pango_lineage	B.1.245
 pango_lineage	B.1.247
-pango_lineage	B.1.249
 pango_lineage	B.1.248
+pango_lineage	B.1.249
 pango_lineage	B.1.250
 pango_lineage	B.1.251
 pango_lineage	B.1.252
@@ -21519,6 +21529,7 @@ pango_lineage	B.1.338
 pango_lineage	B.1.340
 pango_lineage	B.1.341
 pango_lineage	B.1.342
+pango_lineage	B.1.343
 pango_lineage	B.1.344
 pango_lineage	B.1.346
 pango_lineage	B.1.348
@@ -21530,7 +21541,6 @@ pango_lineage	B.1.351.1
 pango_lineage	B.1.351.2
 pango_lineage	B.1.351.3
 pango_lineage	B.1.351.5
-pango_lineage	B.1.343
 pango_lineage	B.1.354
 pango_lineage	B.1.355
 pango_lineage	B.1.356
@@ -21801,13 +21811,9 @@ pango_lineage	AY.4
 pango_lineage	AY.4.1
 pango_lineage	AY.4.2
 pango_lineage	AY.4.2.1
-pango_lineage	AY.4.2.2
 pango_lineage	AY.4.3
 pango_lineage	AY.4.4
 pango_lineage	AY.4.5
-pango_lineage	AY.4.6
-pango_lineage	AY.4.7
-pango_lineage	AY.4.8
 pango_lineage	AY.5
 pango_lineage	AY.5.1
 pango_lineage	AY.5.2
@@ -21824,7 +21830,6 @@ pango_lineage	AY.9.2
 pango_lineage	AY.9.2.1
 pango_lineage	AY.10
 pango_lineage	AY.11
-pango_lineage	AY.12
 pango_lineage	AY.13
 pango_lineage	AY.14
 pango_lineage	AY.15
@@ -21834,6 +21839,7 @@ pango_lineage	AY.17
 pango_lineage	AY.18
 pango_lineage	AY.19
 pango_lineage	AY.20
+pango_lineage	AY.20.1
 pango_lineage	AY.21
 pango_lineage	AY.22
 pango_lineage	AY.23
@@ -21850,6 +21856,7 @@ pango_lineage	AY.31
 pango_lineage	AY.32
 pango_lineage	AY.33
 pango_lineage	AY.34
+pango_lineage	AY.34.1
 pango_lineage	AY.35
 pango_lineage	AY.36
 pango_lineage	AY.37
@@ -21862,6 +21869,10 @@ pango_lineage	AY.40
 pango_lineage	AY.41
 pango_lineage	AY.42
 pango_lineage	AY.43
+pango_lineage	AY.43.1
+pango_lineage	AY.43.2
+pango_lineage	AY.43.3
+pango_lineage	AY.43.4
 pango_lineage	AY.44
 pango_lineage	AY.45
 pango_lineage	AY.46
@@ -21900,7 +21911,8 @@ pango_lineage	AY.72
 pango_lineage	AY.73
 pango_lineage	AY.74
 pango_lineage	AY.75
-pango_lineage	AY.75.1
+pango_lineage	AY.75.2
+pango_lineage	AY.75.3
 pango_lineage	AY.76
 pango_lineage	AY.77
 pango_lineage	AY.78
@@ -21946,9 +21958,21 @@ pango_lineage	AY.113
 pango_lineage	AY.114
 pango_lineage	AY.115
 pango_lineage	AY.116
+pango_lineage	AY.116.1
 pango_lineage	AY.117
 pango_lineage	AY.118
 pango_lineage	AY.119
+pango_lineage	AY.120
+pango_lineage	AY.120.1
+pango_lineage	AY.120.2
+pango_lineage	AY.120.2.1
+pango_lineage	AY.121
+pango_lineage	AY.121.1
+pango_lineage	AY.122
+pango_lineage	AY.122.1
+pango_lineage	AY.123
+pango_lineage	AY.124
+pango_lineage	AY.125
 pango_lineage	B.1.617.3
 pango_lineage	B.1.618
 pango_lineage	B.1.619
@@ -21961,7 +21985,6 @@ pango_lineage	B.1.623
 pango_lineage	B.1.625
 pango_lineage	B.1.626
 pango_lineage	B.1.627
-pango_lineage	B.1.628
 pango_lineage	B.1.629
 pango_lineage	B.1.630
 pango_lineage	B.1.631
@@ -21972,12 +21995,8 @@ pango_lineage	B.1.635
 pango_lineage	B.1.636
 pango_lineage	B.1.637
 pango_lineage	B.1.638
-pango_lineage	B.1.9
-pango_lineage	B.1.9.1
-pango_lineage	B.1.9.2
-pango_lineage	B.1.9.3
-pango_lineage	B.1.9.4
-pango_lineage	B.1.9.5
+pango_lineage	B.1.639
+pango_lineage	B.1.640
 pango_lineage	B.3
 pango_lineage	B.3.1
 pango_lineage	B.4
@@ -22040,6 +22059,7 @@ pango_lineage	B.58
 pango_lineage	B.60
 pango_lineage	B.61
 pango_lineage	XA
+pango_lineage	XB
 
 ################
 
