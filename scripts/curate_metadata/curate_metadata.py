@@ -549,7 +549,7 @@ def missing_coordinates(data, path, geo_location_occurences):
                     missing_latlongs["country"][region] = []
                 missing_latlongs["country"][region].append(country)
 
-            division_threshold_function = lambda division: division not in latlongs["division"] and geo_location_occurences["division"][division] >= 20
+            division_threshold_function = lambda division: division not in latlongs["division"] and (geo_location_occurences["division"][division] >= 20 or region == "Africa")
             for division in filter(division_threshold_function, data[region][country]):
                 if region not in missing_latlongs["division"]:
                     missing_latlongs["division"][region] = {}
@@ -1074,10 +1074,11 @@ def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnno
         (region2, country2, division2, location2) = manualAnnotations[id][1]
         annotations_correct = {"region": (region, region2), "country": (country, country2), "division": (division, division2), "location": (location, location2)}
         for type in annotations_correct:
-            if id not in annotations["geography"]:
-                annotations["geography"][id] = {}
-            if type not in annotations["geography"][id]:
-                annotations["geography"][id][type] = annotations_correct[type][1] + " # previously " +  annotations_correct[type][0]
+            if annotations_correct[type][0] != annotations_correct[type][1]:
+                if id not in annotations["geography"]:
+                    annotations["geography"][id] = {}
+                if type not in annotations["geography"][id]:
+                    annotations["geography"][id][type] = annotations_correct[type][1] + " # previously " +  annotations_correct[type][0]
 
     return annotations
 
