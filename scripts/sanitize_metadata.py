@@ -313,7 +313,6 @@ def filter_duplicates(metadata, database_ids_by_strain):
         metadata = metadata.reset_index().merge(
             records_to_keep,
             on=database_id_columns,
-            validate="1:1",
         ).set_index(strain_field)
 
     return metadata
@@ -395,6 +394,24 @@ if __name__ == '__main__':
                     metadata,
                     database_ids_by_strain,
                 )
+
+            # Drop rows with too many empty fields. These are likely problematic
+            # records that should not be included in the downstream analyses
+            # (e.g., records with spurious newlines).
+            max_empty_fields = int(len(metadata.columns) / 2)
+            metadata["_empty_fields"] = pd.isnull(metadata).sum(axis=1)
+
+            if metadata[metadata["_empty_fields"] >= max_empty_fields].shape[0] > 0:
+                print(
+                    "WARNING: Dropping the following strains whose records have too many empty fields.",
+                    file=sys.stderr,
+                )
+                for strain in metadata[metadata["_empty_fields"] >= max_empty_fields].index.values:
+                    print(strain, file=sys.stderr)
+
+                metadata = metadata[metadata["_empty_fields"] < max_empty_fields].copy()
+
+            metadata = metadata.drop(columns=["_empty_fields"])
 
             # Reset the data frame index, to make the "strain" column available
             # for transformation.
