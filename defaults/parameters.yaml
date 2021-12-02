@@ -109,6 +109,12 @@ mask:
 combine_sequences_for_subsampling:
   warn_about_duplicates: true
 
+# When choosing contextual samples for a focal set, applying crowding penalty 
+# will help reduce the number of genetically identical strains that get chosen,
+# and allows for more diversity represented on the tree. 
+crowding:
+  crowding_penalty: 0.1
+
 tree:
   tree-builder-args: "'-ninit 10 -n 4'"
 
