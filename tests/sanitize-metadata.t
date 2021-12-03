@@ -3,7 +3,7 @@ Test script to sanitize metadata.
   $ pushd "$TESTDIR" > /dev/null
 
 Deduplicate metadata by strain name.
-Out of three records, two are duplicates, so only two records plus the header should be retained.
+Out of 6 records, 2 are duplicates, so only 4 records plus the header should be retained.
 Use a small chunk size to ensure sanitizing works over multiple loops through the metadata.
 
   $ python3 ../scripts/sanitize_metadata.py \
@@ -13,7 +13,7 @@ Use a small chunk size to ensure sanitizing works over multiple loops through th
   >  --metadata-chunk-size 2 \
   >  --output "$TMP/metadata.tsv"
   $ wc -l "$TMP/metadata.tsv"
-  \s*3 .* (re)
+  \s*5 .* (re)
 
 Confirm that the duplicate record that we retained has the latest GISAID accession.
 
@@ -53,9 +53,10 @@ This should produce a warning about skipping duplicate resolution, an error abou
   >  --database-id-columns genbank_accession \
   >  --output "$TMP/metadata.tsv"
   WARNING: Skipping deduplication of metadata records. None of the possible database id columns (['genbank_accession']) were found in the metadata's columns ('Virus name', 'gender', 'date', 'gisaid_epi_isl')
-  ERROR: 1 strains have duplicate records. See 'unsanitized_metadata.tsv.duplicates.txt' for more details.
+  ERROR: 2 strains have duplicate records. See 'unsanitized_metadata.tsv.duplicates.txt' for more details.
   [1]
-  $ cat unsanitized_metadata.tsv.duplicates.txt
+  $ sort unsanitized_metadata.tsv.duplicates.txt
+  hCoV-19/LocalVirus/2/2021
   hCoV-19/OneVirus/1/2020
   $ rm -f unsanitized_metadata.tsv.duplicates.txt
 
@@ -67,9 +68,10 @@ Throw an error when metadata contain duplicates.
   >  --database-id-columns gisaid_epi_isl genbank_accession \
   >  --error-on-duplicate-strains \
   >  --output "$TMP/metadata.tsv"
-  ERROR: 1 strains have duplicate records. See 'unsanitized_metadata.tsv.duplicates.txt' for more details.
+  ERROR: 2 strains have duplicate records. See 'unsanitized_metadata.tsv.duplicates.txt' for more details.
   [1]
-  $ cat unsanitized_metadata.tsv.duplicates.txt
+  $ sort unsanitized_metadata.tsv.duplicates.txt
+  hCoV-19/LocalVirus/2/2021
   hCoV-19/OneVirus/1/2020
   $ rm -f unsanitized_metadata.tsv.duplicates.txt
 
@@ -78,7 +80,7 @@ Rename fields and strip prefixes.
   $ head -n 1 "unsanitized_metadata.tsv"
   Virus name\tgender\tdate\tgisaid_epi_isl (esc)
   $ grep "hCoV-19" "unsanitized_metadata.tsv" | wc -l
-  \s*2 (re)
+  \s*5 (re)
   $ grep "SARS-CoV-2" "unsanitized_metadata.tsv" | wc -l
   \s*1 (re)
   $ python3 ../scripts/sanitize_metadata.py \
