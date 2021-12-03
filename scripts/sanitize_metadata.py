@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 import pandas as pd
 import re
+import shutil
 import sys
 from tempfile import NamedTemporaryFile
 
@@ -203,7 +204,7 @@ def get_database_ids_by_strain(metadata_file, metadata_id_columns, database_id_c
     observed_strains = set()
     duplicate_strains = set()
 
-    with NamedTemporaryFile(delete=False, mode="wt", newline='') as mapping_file:
+    with NamedTemporaryFile(delete=False, mode="wt", encoding="utf-8", newline="") as mapping_file:
         mapping_path = mapping_file.name
         header = True
 
@@ -283,7 +284,7 @@ def filter_duplicates(metadata, database_ids_by_strain):
     strain_ids = set(metadata.index.values)
 
     # Get the mappings of database ids to strain names for the current strains.
-    with open(database_ids_by_strain, "r") as fh:
+    with open(database_ids_by_strain, "r", encoding="utf-8", newline="") as fh:
         reader = csv.DictReader(fh, delimiter="\t")
 
         # The mapping file stores the strain name in the first column. All other
@@ -298,9 +299,10 @@ def filter_duplicates(metadata, database_ids_by_strain):
             if row[strain_field] in strain_ids
         ])
 
-    # Check for duplicate strains in the given metadata. If there are none,
-    # return the metadata as it is. If duplicates exist, filter them out.
-    if any(mappings.duplicated(strain_field)):
+    # Check for duplicate strains in the given metadata or strains that do not
+    # have any mappings. If there are none, return the metadata as it is. If
+    # duplicates or strains without mappings exist, filter them out.
+    if any(mappings.duplicated(strain_field)) or len(strain_ids) != mappings.shape[0]:
         # Create a list of database ids of records to keep. To this end, we sort by
         # database ids in descending order such that the latest record appears
         # first, then we take the first record for each strain name.
@@ -309,12 +311,50 @@ def filter_duplicates(metadata, database_ids_by_strain):
             ascending=False
         ).groupby(strain_field).first()
 
-        # Select metadata corresponding to database ids to keep.
+        # Select metadata corresponding to database ids to keep. Database ids
+        # may not be unique for different strains (e.g., "?"), so we need to
+        # merge on strain name and database ids. Additionally, the same strain
+        # may appear multiple times in the metadata with the same id. These
+        # accidental duplicates will also produce a merge with records to keep
+        # that is not a one-to-one merge. To handle this case, we need to drop
+        # any remaining duplicate records by strain name. The order that we
+        # resolve these duplicates does not matter, since the fields we would
+        # use to resolve these contain identical values.
+        merge_columns = sorted(set([strain_field]) | set(database_id_columns))
         metadata = metadata.reset_index().merge(
             records_to_keep,
-            on=database_id_columns,
-            validate="1:1",
-        ).set_index(strain_field)
+            on=merge_columns,
+        ).drop_duplicates(subset=strain_field).set_index(strain_field)
+
+    # Track strains that we've processed and drop these from the mappings file.
+    # In this way, we can track strains that have been processed across multiple
+    # chunks of metadata and avoid emiting duplicates that appear in different
+    # chunks.
+    with open(database_ids_by_strain, "r", encoding="utf-8", newline="") as fh:
+        reader = csv.DictReader(fh, delimiter="\t")
+
+        with NamedTemporaryFile(delete=False, mode="wt", encoding="utf-8", newline="") as new_mapping_file:
+            new_mapping_path = new_mapping_file.name
+            writer = csv.DictWriter(
+                new_mapping_file,
+                fieldnames=reader.fieldnames,
+                delimiter="\t",
+                lineterminator="\n",
+            )
+            writer.writeheader()
+
+            for row in reader:
+                if row[strain_field] not in strain_ids:
+                    writer.writerow(row)
+
+    # After writing out the new mapping of ids without strains we just
+    # processed, copy the new mapping over the original file and delete the
+    # temporary new mapping file.
+    shutil.copyfile(
+        new_mapping_path,
+        database_ids_by_strain,
+    )
+    os.unlink(new_mapping_path)
 
     return metadata
 
