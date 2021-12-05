@@ -10780,3 +10780,7 @@ PER/AFIP00034/2021	# Strain has same BioSample accession (SAMN21557915) as PER/A
 
 # Sample date (oct 2020) and location for Delta seem very unlikely
 Germany/NW-RKI-I-307410/2020
+
+# Issues with under-divergence and missing mutations causing odd phylogenetic placement
+Botswana/R44B83_BHP_000848381/2021
+Botswana/R44B19_BHP_000844008/2021
