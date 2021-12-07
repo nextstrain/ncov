@@ -207,6 +207,9 @@ def break_down(s):
 # file and return the found hierarchy (region, country, division, location)
 def find_place_in_ordering(place, ordering, variants):
 
+    if place == "Unknown":
+        return None
+
     place = apply_variant(place, variants)
 
     for region in ordering:
@@ -783,6 +786,16 @@ def check_additional_info(additional_info, path_to_config_files, auto):
 
         print("\n-------\n")
 
+    for key in sorted_info:
+        (info, info_type) = key
+        strain_list = sorted_info[key]
+        for (id, strain) in strain_list:
+            if metadata[id]["Nextstrain_clade"] == "21K (Omicron)":
+                print(id)
+                print(info)
+                print()
+
+
     return annotations_append
 
 
@@ -814,7 +827,7 @@ if __name__ == '__main__':
         for line in annotations_append:
             if line in annotations:
                 continue
-            print(line)
+            #print(line)
             if "=" not in line:
                 annot_lines_to_write.append(line)
             if len(line.split("\t")) == 4:
