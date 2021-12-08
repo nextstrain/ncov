@@ -52,6 +52,10 @@ ehthumbs.db
 Thumbs.db
 *~
 
+# IDE generated files #
+######################
+.vscode/
+
 narratives/*pdf
 
 
