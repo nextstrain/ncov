@@ -11860,6 +11860,7 @@ division	Ath	50.646122	3.770363
 division	Athens	37.987832	23.726319
 division	Atlantico	10.681025	-74.955752
 division	Atlántida	15.8172492	-87.11469350954292
+division	Atlantique	6.540829	2.223095
 division	Atsimo-Andrefana	-23.0907053	44.40133257710572
 division	Atsinanana	-18.87255782473823	48.9338102093968
 division	Attica	37.9946543	23.79940251269328
@@ -12242,6 +12243,7 @@ division	Costa Rica	10.2735633	-84.0739102
 division	Côte d'Ivoire	7.9897371	-5.5679458
 division	Cotonou	6.372284	2.365266
 division	Cotopaxi	-3.4804754	-80.2302215
+division	Couffo	7.1312662	1.7567394
 division	Counties Manukau	-37.101403	175.005947
 division	Covasna	45.896679250000005	26.010180611745668
 division	Cox'S Bazar	21.16587175	92.03996424949702
@@ -12881,6 +12883,7 @@ division	Kosovska Mitrovica	42.8790424	20.8657862
 division	Kostanay Region	52.0615626	62.9372689
 division	Kostoliste	48.4467	16.9868
 division	Kostroma Region	58.37795228570701	43.268817529168906
+division	Kouilou	-4.32821095	11.91668049902383
 division	Koulikoro Region	12.8646318	-7.5561287
 division	Kozani	40.3007259	21.7883119
 division	Krabi	8.1111653	99.1097298
@@ -13001,6 +13004,8 @@ division	Lithuania	55.41667	24
 division	Litomerice-Brnay	50.534253	14.131013
 division	Litoral	1.6026374	9.841569
 division	Littoral	4.203033	10.0563057
+division	Littoral BJ	6.2926138	2.4407501
+division	Littoral CM	4.203033	10.0563057
 division	Livingstone	-17.853135	25.861429
 division	Livno	43.8250	17.0077
 division	Ljubljana	46.0499803	14.5068602
@@ -13379,6 +13384,7 @@ division	Northern Region GH	9.343728560287136	-0.7792804562512756
 division	Northern Region MW	-11.04916995	33.7722246394023
 division	Northern Region UG	2.9780857973089314	32.94084206076348
 division	Northern Territory	-19.4914	132.551
+division	Northern Zambia	-9.4514165	30.8881001
 division	Northland	-35.3712702	173.7405337
 division	Norway	64.574131	11.52701029
 division	Nossa Senhora da Graça	17.10265065	-25.037743474498058
@@ -14316,6 +14322,7 @@ division	Western Pomerania	53.84713085	13.351339698378764
 division	Western Province	6.8275297	79.93129599390583
 division	Western Region	5.4261241	-2.1286574
 division	Western Visayas	10.67295935	122.72299087286851
+division	Western Zambia	-15.8543496	23.8016799
 division	Westmeath	53.5577902	-7.3478558260097575
 division	Wexford	52.46018745	-6.606515459159162
 division	Whanganui	-39.9324904	175.0519306
@@ -14387,6 +14394,7 @@ division	Zlin	49.226766	17.6667415
 division	Zlín Region	49.19692	17.646091635845135
 division	Zlonice	50.2874986	14.0921369
 division	Zolder	50.9905	5.2580
+division	Zou	7.2834335	2.1227604
 division	Zuenoula	7.4280208	-6.0500349
 division	Zürich	47.441242	8.641154
 division	Zug	47.155891	8.525039
