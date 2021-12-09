@@ -594,7 +594,6 @@ rule filter:
         min_date = lambda wildcards: _get_filter_value(wildcards, "min_date"),
         ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {_get_filter_value(wildcards, 'exclude_ambiguous_dates_by')}" if _get_filter_value(wildcards, "exclude_ambiguous_dates_by") else "",
         date = (date.today() + datetime.timedelta(days=1)).strftime("%Y-%m-%d"),
-        intermediate_output=lambda wildcards, output: Path(output.sequences).with_suffix("")
     resources:
         # Memory use scales primarily with the size of the metadata file.
         mem_mb=500
@@ -611,8 +610,7 @@ rule filter:
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
             --min-length {params.min_length} \
-            --output {params.intermediate_output} 2>&1 | tee {log};
-        xz -2 {params.intermediate_output}
+            --output {output.sequences} 2>&1 | tee {log};
         """
 
 if "run_pangolin" in config and config["run_pangolin"]:
