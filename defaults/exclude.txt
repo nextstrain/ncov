@@ -10847,3 +10847,6 @@ USA/TN-SPHL-0952/2021	# Strain has same BioSample accession (SAMN21902711) as US
 USA/TN-SPHL-0961/2021	# Strain has same BioSample accession (SAMN22231057) as USA/TN-SPHL-0648/2021
 USA/TN-SPHL-0964/2021	# Strain has same BioSample accession (SAMN22231058) as USA/TN-SPHL-0651/2021
 USA/TN-SPHL-0966/2021	# Strain has same BioSample accession (SAMN22231059) as USA/TN-SPHL-0652/2021
+
+# Misdated Delta sequence
+Indonesia/JA-GS-EIJK-RSRM-0168/2020
