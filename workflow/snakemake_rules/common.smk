@@ -29,10 +29,7 @@ def _get_subsampling_scheme_by_build_name(build_name):
     return config["builds"][build_name].get("subsampling_scheme", build_name)
 
 def _get_filter_value(wildcards, key):
-    default = config["filter"].get(key, "")
-    if wildcards["origin"] == "":
-        return default
-    return config["filter"].get(wildcards["origin"], {}).get(key, default)
+    return config["filter"].get(key, "")
 
 def _get_path_for_input(stage, origin_wildcard):
     """
@@ -47,7 +44,7 @@ def _get_path_for_input(stage, origin_wildcard):
 
     if stage in {"metadata", "sequences"}:
         raise Exception(f"ERROR: config->input->{origin_wildcard}->{stage} is not defined.")
-    elif stage in {"aligned", "filtered"}:
+    elif stage in {"aligned"}:
         return f"results/{stage}_{origin_wildcard}.fasta.xz"
     else:
         raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
@@ -67,7 +64,7 @@ def _get_unified_metadata(wildcards):
 
 def _get_unified_alignment(wildcards):
     if len(list(config["inputs"].keys()))==1:
-        return _get_path_for_input("filtered", list(config["inputs"].keys())[0])
+        return _get_path_for_input("aligned", list(config["inputs"].keys())[0])
     return "results/combined_sequences_for_subsampling.fasta.xz",
 
 def _get_metadata_by_build_name(build_name):
@@ -126,7 +123,7 @@ def _get_max_date_for_frequencies(wildcards):
 def _get_upload_inputs(wildcards):
     # The main workflow supports multiple inputs/origins, but our desired file
     # structure under data.nextstrain.org/files/ncov/open/… is designed around
-    # a single input/origin.  Intermediates (aligned, filtered, etc)
+    # a single input/origin.  Intermediates (aligned, etc)
     # are specific to each input/origin and thus do not match our desired
     # structure, while builds (global, europe, africa, etc) span all
     # inputs/origins (and thus do).  In our desired outcome, the two kinds of
@@ -142,7 +139,6 @@ def _get_upload_inputs(wildcards):
     # mapping of remote → local filenames
     preprocessing_files = {
         f"aligned.fasta.xz":              f"results/aligned_{origin}.fasta.xz",              # from `rule align`
-        f"filtered.fasta.xz":             f"results/filtered_{origin}.fasta.xz",             # from `rule filter`
         f"mutation-summary.tsv.xz":       f"results/mutation_summary_{origin}.tsv.xz",       # from `rule mutation_summary`
     }
 
@@ -167,4 +163,3 @@ def _get_upload_inputs(wildcards):
         return build_files
     else:
         raise Exception("The upload rule requires an 'upload' parameter in the config.")
-
