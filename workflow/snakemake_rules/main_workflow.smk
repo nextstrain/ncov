@@ -213,10 +213,10 @@ rule combine_sequences_for_subsampling:
     # Similar to rule combine_input_metadata, this rule should only be run if multiple inputs are being used (i.e. multiple origins)
     message:
         """
-        Combine and deduplicate aligned & filtered FASTAs from multiple origins in preparation for subsampling.
+        Combine and deduplicate aligned FASTAs from multiple origins in preparation for subsampling.
         """
     input:
-        lambda w: [_get_path_for_input("filtered", origin) for origin in config.get("inputs", {})]
+        lambda w: [_get_path_for_input("aligned", origin) for origin in config.get("inputs", {})]
     output:
         "results/combined_sequences_for_subsampling.fasta.xz"
     benchmark:
