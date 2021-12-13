@@ -10850,3 +10850,6 @@ USA/TN-SPHL-0966/2021	# Strain has same BioSample accession (SAMN22231059) as US
 
 # Misdated Delta sequence
 Indonesia/JA-GS-EIJK-RSRM-0168/2020
+
+# Cell culture isolate Vero E6 passage 1
+Belgium/1-SPL21-p1/2021
