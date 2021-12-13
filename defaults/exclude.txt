@@ -10853,3 +10853,33 @@ Indonesia/JA-GS-EIJK-RSRM-0168/2020
 
 # Cell culture isolate Vero E6 passage 1
 Belgium/1-SPL21-p1/2021
+
+# Omicron samples with key mutation sites explicitly missing
+Italy/PIE_IRCC_15865509/2021
+France/PAC-IHU-49242/2021
+France/PAC-IHU-49239/2021
+France/PAC-IHU-49237/2021
+
+# Omicron - samples with concerning lack of mutations in areas often not covered by sequencing, maybe contaminated or reference-filled
+Nigeria/NCDC-NR881/2021
+Austria/KILM2164/2021
+USA/UT-UPHL-211203203813/2021
+India/KA-RF-NCBS-Bengaluru-RFNB-1100/2021
+SouthAfrica/NICD-N21767/2021
+SouthAfrica/NICD-N21744/2021
+SouthAfrica/NICD-N21742/2021
+SouthAfrica/NICD-N21658/2021
+SouthAfrica/Tygerberg_3058/2021
+SouthAfrica/NICD-N21763/2021
+SouthAfrica/Tygerberg_3068/2021
+USA/MD-HP20874-PIDUYWZOWA/2021
+SouthAfrica/NICD-N21717/2021
+SouthAfrica/NICD-N21699/2021
+SouthAfrica/NICD-N21710/2021
+SouthAfrica/NICD-N21723/2021
+SouthAfrica/NICD-N21749/2021
+SouthAfrica/NICD-N21762/2021
+SouthAfrica/Tygerberg_3072/2021
+SouthAfrica/NICD-N21771/2021
+SouthAfrica/NICD-N21824/2021
+Netherlands/NH-RIVM-71075/2021
