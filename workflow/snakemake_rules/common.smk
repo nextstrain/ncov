@@ -168,3 +168,11 @@ def _get_upload_inputs(wildcards):
     else:
         raise Exception("The upload rule requires an 'upload' parameter in the config.")
 
+def _check_input_files(wildcards):
+    # function that checks the config["inputs"] and check local files to make sure input file exists 
+
+    for file in config["inputs"]:
+        if ' ' in file:
+            raise Exception("The inputted file {} has an invalid name as it contains spaces. Please remove them and try again.".format(file)) 
+        if not os.path.exists(file):
+            raise Exception("The inputted file {} does not exist. Please input a valid file and try again.".format(file))
