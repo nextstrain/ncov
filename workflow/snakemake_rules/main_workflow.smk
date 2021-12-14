@@ -500,7 +500,7 @@ rule combine_samples:
         augur filter \
             --sequences {input.sequences} \
             --sequence-index {input.sequence_index} \
-            --metadata {input.metadata} \
+            --metadata ({input.metadata}{references_metadata.tsv}) \
             --exclude-all \
             --include {input.include} \
             --output-sequences {output.sequences} \
