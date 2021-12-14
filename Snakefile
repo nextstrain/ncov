@@ -39,9 +39,6 @@ shell.prefix("set -euo pipefail; export AUGUR_RECURSION_LIMIT=10000; ")
 # [5] https://github.com/snakemake/snakemake/blob/a7ac40c96d6e2af47102563d0478a2220e2a2ab7/snakemake/utils.py#L455-L476
 user_subsampling = copy.deepcopy(config.get("subsampling", {}))
 
-# List of currently supported subsampling flags
-supported_subsampling = ["--group-by", "--sequences-per-group", "--subsample-max-sequences", "--probabilistic-sampling", "--no-probabilistic-sampling", "--priority", "--subsample-seed"]
-
 configfile: "defaults/parameters.yaml"
 
 # Check config file for errors
@@ -71,16 +68,6 @@ if len(overlapping_schemes) > 0:
     logger.warning("  In future versions of this workflow, overlapping subsampling scheme names will produce an error.")
     logger.warning("")
     time.sleep(5)
-
-# Check for unsupported subsampling schemes in user and default
-# configurations. Returns a helpful error message and exits.
-for scheme_name, scheme in user_subsampling.items():
-    if scheme_name not in supported_subsampling:
-        error_string = "The inputted subsampling rule {} is not supported at this time. Please use one of the following supported subsampling rules: ".format(user_subsampling)
-        for i in supported_subsampling:
-            error_string = error_string + i + ", "
-        logger.error(error_string)
-        sys.exit(1)
 
 # Assign a default build if none are specified in the config. Users can define a
 # `default_build_name` in their builds config without assigning any other build
