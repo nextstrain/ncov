@@ -20,6 +20,6 @@ clade	parent	WHO
 21H	20A	Mu
 21I	21A	Delta
 21J	21A	Delta
-21K	20B	Omicron
-21L	20B	Omicron
-
+21K	21M	Omicron
+21L	21M	Omicron
+21M 20B Omicron
