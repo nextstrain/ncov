@@ -190,37 +190,6 @@ rule upload:
             message += f"\n\ts3://{params.s3_bucket}/{remote}"
         send_slack_message(message)
 
-rule trigger_phylogenetic_rebuild:
-    message: "Triggering nextstrain/ncov rebuild action (via repository dispatch)"
-    input:
-        "results/upload.done"
-    log:
-        "logs/trigger_phylogenetic_rebuild.txt"
-    run:
-        # some basic checks here before we proceed
-        if "preprocessing-files" not in config.get("upload", []) or len(config.get("upload", []))!=1:
-            raise Exception("Rule trigger_phylogenetic_rebuild should only be called when you are only uploading preprocessing-files")
-        if "github_token" not in config:
-            raise Exception("Rule trigger_phylogenetic_rebuild requires a config-provided 'github_token'")
-        if config["S3_DST_BUCKET"] == "nextstrain-data/files/ncov/open":
-            dispatch_type = "open/rebuild"
-        elif config["S3_DST_BUCKET"] == "nextstrain-ncov-private":
-            dispatch_type = "gisaid/rebuild"
-        else:
-            raise Exception("Rule trigger_phylogenetic_rebuild cannot be run with a non-default S3_DST_BUCKET")
-        headers = {
-            'Content-type': 'application/json',
-            'authorization': f"Bearer {config['github_token']}",
-            'Accept': 'application/vnd.github.v3+json'
-        }
-        data = json.dumps(
-            {"event_type": dispatch_type}
-        )
-        send_slack_message(f"This pipeline is now triggering a GitHub action (via dispatch type {dispatch_type}) to run the corresponding phylogenetic builds.")
-        print(f"Triggering ncov rebuild GitHub action via repository dispatch type: {dispatch_type}")
-        response = requests.post("https://api.github.com/repos/nextstrain/ncov/dispatches", headers=headers, data=data)
-        response.raise_for_status()
-
 storage = PersistentDict("slack")
 
 def send_slack_message(message, broadcast=False):
@@ -260,10 +229,8 @@ def send_slack_message(message, broadcast=False):
 
 # onstart handler will be executed before the workflow starts.
 onstart:
-    # note config["upload"] = array of enum{"preprocessing-files", "build-files"}
     message = [
-        "Pipeline starting which will upload " +
-            ' & '.join([x.replace("-", " ") for x in config.get('upload', ['nothing'])]),
+        "Pipeline starting which will run the phylogenetics and upload build assets",
         f"Deployed {deploy_origin}"
     ]
     if environ.get("AWS_BATCH_JOB_ID"):

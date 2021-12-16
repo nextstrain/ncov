@@ -14,13 +14,12 @@ S3_DST_ORIGINS: ["open"]
 upload:
   - build-files
 
-# Note: we have a separate profile for aligning open sequences. This is triggered
-# as soon as new sequences are available. This workflow is thus intended to be
-# started from the filtered alignment.                        james, sept 2021
+# Note: unaligned sequences are provided as "aligned" sequences to avoid an initial full-DB alignment
+# as we re-align everything after subsampling.
 inputs:
   - name: open
     metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.gz"
-    filtered: "s3://nextstrain-data/files/ncov/open/filtered.fasta.xz"
+    aligned: "s3://nextstrain-data/files/ncov/open/sequences.fasta.xz"
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.

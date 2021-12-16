@@ -73,26 +73,8 @@ We do not release new minor versions for new features, but you should document n
 The "core" nextstrain builds consist of a global analysis and six regional analyses, performed independently for GISAID data and open data (currently open data is GenBank data).
 Stepping back, the process can be broken into three steps:
 1. Ingest and curation of raw data. This is performed by the [ncov-ingest](https://github.com/nextstrain/ncov-ingest/) repo and resulting files are uploaded to S3 buckets.
-2. Preprocessing of data (alignment, masking and QC filtering). This is performed by the profiles `nextstrain_profiles/nextstrain-open-preprocess` and `nextstrain_profiles/nextstrain-gisaid-preprocess`. The resulting files are uploaded to S3 buckets by the `upload` rule.
-3. Phylogenetic builds, which start from the files produced by the previous step. This is performed by the profiles `nextstrain_profiles/nextstrain-open` and `nextstrain_profiles/nextstrain-gisaid`. The resulting files are uploaded to S3 buckets by the `upload` rule.
+2. Phylogenetic builds, which start from the files produced by the previous step. This is performed by the profiles `nextstrain_profiles/nextstrain-open` and `nextstrain_profiles/nextstrain-gisaid`. The resulting files are uploaded to S3 buckets by the `upload` rule. 
 
-
-### Manually running preprocessing
-
-To run these pipelines without uploading the results:
-```sh
-snakemake -pf results/filtered_open.fasta.xz --profile nextstrain_profiles/nextstrain-open-preprocess
-snakemake -pf results/filtered_gisaid.fasta.xz --profile nextstrain_profiles/nextstrain-gisaid-preprocess
-```
-
-If you wish to upload the resulting information, you should run the `upload` rule.
-Optionally, you may wish to define a specific `S3_DST_BUCKET` to avoid overwriting the files already present on the S3 buckets:
-```sh
-snakemake -pf upload --profile nextstrain_profiles/nextstrain-open-preprocess \
-    --config S3_DST_BUCKET=nextstrain-staging/files/ncov/open/trial/TRIAL_NAME
-snakemake -pf upload --profile nextstrain_profiles/nextstrain-gisaid-preprocess \
-    --config S3_DST_BUCKET=nextstrain-ncov-private/trial/TRIAL_NAME
-```
 
 ### Manually running phylogenetic builds
 
@@ -111,13 +93,13 @@ You may wish to overwrite these parameters for your local runs to avoid overwrit
 For instance, here are the commands used by the trial builds action (see below):
 ```sh
 snakemake -pf upload deploy \
-    --profile nextstrain_profiles/nextstrain-open-preprocess \
+    --profile nextstrain_profiles/nextstrain-open \
     --config \
         S3_DST_BUCKET=nextstrain-staging/files/ncov/open/trial/TRIAL_NAME \
         deploy_url=s3://nextstrain-staging/ \
         auspice_json_prefix=ncov_open_trial_TRIAL_NAME
 snakemake -pf upload deploy \
-    --profile nextstrain_profiles/nextstrain-gisaid-preprocess \
+    --profile nextstrain_profiles/nextstrain-gisaid \
     --config \
         S3_DST_BUCKET=nextstrain-ncov-private/trial/TRIAL_NAME \
         deploy_url=s3://nextstrain-staging/ \
