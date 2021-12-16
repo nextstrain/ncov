@@ -137,11 +137,6 @@ def _get_upload_inputs(wildcards):
     origin = config["S3_DST_ORIGINS"][0]
 
     # mapping of remote → local filenames
-    preprocessing_files = {
-        f"aligned.fasta.xz":              f"results/aligned_{origin}.fasta.xz",              # from `rule align`
-        f"mutation-summary.tsv.xz":       f"results/mutation_summary_{origin}.tsv.xz",       # from `rule mutation_summary`
-    }
-
     build_files = {}
     for build_name in config["builds"]:
         build_files.update({
@@ -153,13 +148,4 @@ def _get_upload_inputs(wildcards):
             f"{build_name}/{build_name}_tip-frequencies.json":  f"auspice/{config['auspice_json_prefix']}_{build_name}_tip-frequencies.json",
             f"{build_name}/{build_name}_root-sequence.json":    f"auspice/{config['auspice_json_prefix']}_{build_name}_root-sequence.json"
         })
-
-    req_upload = config.get("upload", [])
-    if "preprocessing-files" in req_upload and "build-files" in req_upload:
-        return {**preprocessing_files, **build_files}
-    elif "preprocessing-files" in req_upload:
-        return preprocessing_files
-    elif "build-files" in req_upload:
-        return build_files
-    else:
-        raise Exception("The upload rule requires an 'upload' parameter in the config.")
+    return build_files

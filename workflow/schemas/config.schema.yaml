@@ -59,11 +59,3 @@ properties:
       # A similar pattern is used in the workflow's wildcard constraints.
       pattern: "^[a-zA-Z0-9-]+$"
 
-  upload:
-    type: array
-    minItems: 1
-    items:
-      type: string
-      enum:
-        - preprocessing-files
-        - build-files
