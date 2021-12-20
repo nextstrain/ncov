@@ -1,5 +1,6 @@
 Imported from XXX
 Traveled to XXX
+traveled to XXX
 Travel to XXX
 Travel history to XXX
 Infected while travelling in XXX
@@ -124,3 +125,8 @@ Returned from XXX
 Travel history: XXX (2021-11-22)
 Travel History: XXX
 Travel XXX
+Travel - XXX
+Symptomatic upon return from XXX
+Travel history: XXX; Residence: Europe / Germany
+Others: traveled to XXX
+Others: Traveled to XXX and Germany

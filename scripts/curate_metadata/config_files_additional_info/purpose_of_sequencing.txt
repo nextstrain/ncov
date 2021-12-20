@@ -50,3 +50,5 @@ ICU patient, baseline surveillance	Not S dropout
 Baseline	Not S dropout
 Non-random selection: SGTF	S dropout
 Non-random selection: Non-SGTF	Not S dropout
+screened for SGTF	S dropout
+S drop out	S dropout
