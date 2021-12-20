@@ -71,6 +71,15 @@ def _get_filter_min_length_query(wildcards):
     return f"--query \"{query}\""
 
 def _get_filter_value(wildcards, key):
+    for input_name in config["inputs"].keys():
+        if input_name in config["filter"] and key in config["filter"][input_name]:
+            print(
+                f"ERROR: We no longer support input-specific filtering with the '{key}' parameter.",
+                "Remove this parameter from your configuration file and try running the workflow again.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
     return config["filter"].get(key, "")
 
 def _get_path_for_input(stage, origin_wildcard):
