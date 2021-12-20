@@ -28,6 +28,48 @@ def numeric_date(dt=None):
 def _get_subsampling_scheme_by_build_name(build_name):
     return config["builds"][build_name].get("subsampling_scheme", build_name)
 
+def _get_skipped_inputs_for_diagnostic(wildcards):
+    """Build an argument for the diagnostic script with a list of inputs to skip.
+    """
+    inputs = config["inputs"]
+    diagnostics_key = "skip_diagnostics"
+
+    arg_parts = []
+    for input_name in inputs.keys():
+        skip_diagnostics = config["filter"][diagnostics_key]
+
+        if input_name in config["filter"] and diagnostics_key in config["filter"][input_name]:
+            skip_diagnostics = config["filter"][input_name][diagnostics_key]
+
+        if skip_diagnostics:
+            arg_parts.append(input_name)
+
+    if len(arg_parts) > 0:
+        argument = f"--skip-inputs {' '.join(arg_parts)}"
+    else:
+        argument = ""
+
+    return argument
+
+def _get_filter_min_length_query(wildcards):
+    """Build a sequence length filter query for each input, checking for
+    input-specific length requirements.
+    """
+    inputs = config["inputs"]
+    length_key = "min_length"
+
+    query_parts = []
+    for input_name in inputs.keys():
+        min_length = config["filter"][length_key]
+
+        if input_name in config["filter"] and length_key in config["filter"][input_name]:
+            min_length = config["filter"][input_name][length_key]
+
+        query_parts.append(f"({input_name} == 'yes' & _length >= {min_length})")
+
+    query = " | ".join(query_parts)
+    return f"--query \"{query}\""
+
 def _get_filter_value(wildcards, key):
     return config["filter"].get(key, "")
 

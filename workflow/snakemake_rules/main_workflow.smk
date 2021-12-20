@@ -490,6 +490,7 @@ rule diagnostic:
         snp_clusters = 1,
         rare_mutations = 100,
         clock_plus_rare = 100,
+        skip_inputs_arg=_get_skipped_inputs_for_diagnostic,
     log:
         "logs/diagnostics_{build_name}.txt"
     benchmark:
@@ -506,6 +507,7 @@ rule diagnostic:
             --rare-mutations {params.rare_mutations} \
             --clock-plus-rare {params.clock_plus_rare} \
             --snp-clusters {params.snp_clusters} \
+            {params.skip_inputs_arg} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
         """
 
@@ -568,28 +570,69 @@ rule compress_build_align:
         xz -c {input} > {output} 2> {log}
         """
 
+rule index:
+    message:
+        """
+        Index sequence composition.
+        """
+    input:
+        sequences = "results/{build_name}/masked.fasta"
+    output:
+        sequence_index = "results/{build_name}/sequence_index.tsv",
+    log:
+        "logs/index_sequences_{build_name}.txt"
+    benchmark:
+        "benchmarks/index_sequences_{build_name}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur index \
+            --sequences {input.sequences} \
+            --output {output.sequence_index} 2>&1 | tee {log}
+        """
+
+rule annotate_metadata_with_index:
+    input:
+        metadata="results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        sequence_index = "results/{build_name}/sequence_index.tsv",
+    output:
+        metadata="results/{build_name}/metadata_with_index.tsv",
+    log:
+        "logs/annotate_metadata_with_index_{build_name}.txt",
+    benchmark:
+        "benchmarks/annotate_metadata_with_index_{build_name}.txt",
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/annotate_metadata_with_index.py \
+            --metadata {input.metadata} \
+            --sequence-index {input.sequence_index} \
+            --output {output.metadata}
+        """
+
 rule filter:
     message:
         """
         Filtering alignment {input.sequences} -> {output.sequences}
           - excluding strains in {input.exclude}
           - including strains in {input.include}
-          - min length: {params.min_length}
+          - min length: {params.min_length_query}
         """
     input:
         sequences = "results/{build_name}/masked.fasta",
-        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        metadata = "results/{build_name}/metadata_with_index.tsv",
         # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
         include = config["files"]["include"],
         exclude = _collect_exclusion_files,
     output:
         sequences = "results/{build_name}/filtered.fasta",
+        filter_log = "results/{build_name}/filtered_log.tsv",
     log:
         "logs/filtered_{build_name}.txt"
     benchmark:
         "benchmarks/filter_{build_name}.txt"
     params:
-        min_length = lambda wildcards: _get_filter_value(wildcards, "min_length"),
+        min_length_query = _get_filter_min_length_query,
         exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
         min_date = lambda wildcards: _get_filter_value(wildcards, "min_date"),
         ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {_get_filter_value(wildcards, 'exclude_ambiguous_dates_by')}" if _get_filter_value(wildcards, "exclude_ambiguous_dates_by") else "",
@@ -604,13 +647,14 @@ rule filter:
             --sequences {input.sequences} \
             --metadata {input.metadata} \
             --include {input.include} \
+            {params.min_length_query} \
             --max-date {params.date} \
             --min-date {params.min_date} \
             {params.ambiguous} \
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
-            --min-length {params.min_length} \
-            --output {output.sequences} 2>&1 | tee {log};
+            --output {output.sequences} \
+            --output-log {output.filter_log} 2>&1 | tee {log};
         """
 
 if "run_pangolin" in config and config["run_pangolin"]:
