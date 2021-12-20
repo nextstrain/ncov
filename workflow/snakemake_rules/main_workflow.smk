@@ -621,7 +621,7 @@ if "run_pangolin" in config and config["run_pangolin"]:
             Please remember to update your installation of pangolin regularly to ensure the most up-to-date classifications.
             """
         input:
-            alignment = "results/{build_name}/filtered.fasta",
+            alignment = "results/{build_name}/aligned.fasta",
         output:
             lineages = "results/{build_name}/pangolineages.csv",
         params:
@@ -784,7 +784,7 @@ rule ancestral:
         """
     input:
         tree = rules.refine.output.tree,
-        alignment = "results/{build_name}/filtered.fasta",
+        alignment = "results/{build_name}/aligned.fasta",
     output:
         node_data = "results/{build_name}/nt_muts.json"
     log:
