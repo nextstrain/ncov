@@ -31,9 +31,6 @@ properties:
         aligned:
           type: string
           minLength: 1
-        filtered:
-          type: string
-          minLength: 1
       additionalProperties: false
 
   builds:
