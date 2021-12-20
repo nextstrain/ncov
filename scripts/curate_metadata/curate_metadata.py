@@ -1109,7 +1109,6 @@ clade_dates = {
 # Also check for sampling dates that are too early for the assigned clade and auto-add to exclude
 def special_metadata_checks(metadata_filename, annotations, gisaid):
     special_annotations = {}
-    too_early_for_clade = []
 
     unknown_clades = []
     with open(path_to_metadata + metadata_filename) as f:
@@ -1127,9 +1126,6 @@ def special_metadata_checks(metadata_filename, annotations, gisaid):
             l = line.strip().split("\t")
             host = l[host_i]
             strain = l[strain_i]
-            clade = l[clade_i]
-            date = l[date_i]
-            clock_deviation = l[clock_deviation_i]
 
             if gisaid:
                 id = strain + "\t" + l[gisaid_epi_isl_i]
@@ -1152,33 +1148,7 @@ def special_metadata_checks(metadata_filename, annotations, gisaid):
                         special_annotations[id] = {}
                     special_annotations[id]["strain"] = strain2 + " # previously " + strain
 
-            if len(date) == 10:
-                (year, month, day) = date.split("-")
-                if year.isdigit() and month.isdigit() and day.isdigit():
-                    year = int(year)
-                    month = int(month)
-                    day = int(day)
-
-                    if clade != "":
-                        if clade not in clade_dates:
-                            if clade not in unknown_clades:
-                                unknown_clades.append(clade)
-                        else:
-                            clade_day = clade_dates[clade]
-                            day_clade = int(clade_day[8:])
-                            month_clade = int(clade_day[5:7])
-                            year_clade = int(clade_day[:4])
-
-                            if (year < year_clade) or (year == year_clade and month < month_clade) or (year == year_clade and month == month_clade and day < day_clade):
-                                too_early_for_clade.append(strain + " # " + date + " (" + clade + ", clock deviation = " + clock_deviation + ")")
-
             line = f.readline()
-
-    if unknown_clades != []:
-        print()
-        for clade in unknown_clades:
-            print(bold("Unknown clade encountered: " + clade))
-        print()
 
     for id in special_annotations:
         if id not in annotations["special"]:
@@ -1189,46 +1159,7 @@ def special_metadata_checks(metadata_filename, annotations, gisaid):
                     print("Conflicting annotation: " + id + "\t" + bold(type + " " + annotations["special"][id][type]) + " will be replaced with " + bold(special_annotations[id][type]))
             annotations["special"][id][type] = special_annotations[id][type]
 
-    return annotations, too_early_for_clade
-
-# Given a list of strains, add to exclude if not already contained
-def add_to_exclude(exclude_new):
-    excluded_strains = []
-    exclude_reduced = []
-
-    with open(path_to_default_files + exclude_file) as f:
-        exclude = f.readlines()
-
-    for line in exclude:
-        if line == "\n" or line.startswith("#"):
-            continue
-        if "#" in line:
-            strain = line.split("#")[0].strip()
-        else:
-            strain = line.strip()
-        if strain not in excluded_strains:
-            excluded_strains.append(strain)
-            exclude_reduced.append(line)
-        #else:
-            #print("Duplicate strain in exclude (second occurrence omitted in output): " + bold(line.strip()))
-
-    exclude_add = []
-    for line in exclude_new:
-        strain = line.split("#")[0].strip()
-        if strain not in excluded_strains:
-            #print("Adding strain " + bold(strain) + " to exclude")
-            exclude_add.append(line)
-
-    with open(path_to_output_files + exclude_file, "w") as out:
-        for line in exclude_reduced:
-            out.write(line)
-
-        if exclude_add:
-            out.write("\n# Sampling date earlier than assigned clade:\n")
-            for line in exclude_add:
-                out.write(line + "\n")
-            print("\nAdding " + str(len(exclude_add)) + " strains to exclude due to early dates...")
-            print(bold("Attention: " + exclude_file + " was altered! Remember to replace the old file in " + path_to_default_files + "."))
+    return annotations
 
 # Write the adjusted annotation set to the output folder in a sorted manner
 def write_annotations(annotations, annotationsFile):
@@ -1371,10 +1302,8 @@ if __name__ == '__main__':
     answer3 = input("Would you like to perform additional metadata checks (e.g. date, host, strain name) [y/n]? ")
     if answer3 == "y":
         print("Traversing metadata...")
-        annotations_gisaid, exclude_gisaid = special_metadata_checks(gisaid_metadata_file, annotations_gisaid, gisaid = True)
-        annotations_open, exclude_open = special_metadata_checks(genbank_metadata_file, annotations_open, gisaid = False)
-
-        add_to_exclude(exclude_gisaid + exclude_open)
+        annotations_gisaid = special_metadata_checks(gisaid_metadata_file, annotations_gisaid, gisaid = True)
+        annotations_open = special_metadata_checks(genbank_metadata_file, annotations_open, gisaid = False)
 
 
     # Sort and write updated annotation files to output folder
