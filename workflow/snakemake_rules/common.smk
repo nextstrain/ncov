@@ -36,7 +36,7 @@ def _get_skipped_inputs_for_diagnostic(wildcards):
 
     arg_parts = []
     for input_name in inputs.keys():
-        skip_diagnostics = config["filter"][diagnostics_key]
+        skip_diagnostics = config["filter"].get(diagnostics_key, False)
 
         if input_name in config["filter"] and diagnostics_key in config["filter"][input_name]:
             skip_diagnostics = config["filter"][input_name][diagnostics_key]
@@ -65,7 +65,12 @@ def _get_filter_min_length_query(wildcards):
         if input_name in config["filter"] and length_key in config["filter"][input_name]:
             min_length = config["filter"][input_name][length_key]
 
-        query_parts.append(f"({input_name} == 'yes' & _length >= {min_length})")
+        # We only annotate input-specific columns on metadata when there are
+        # multiple inputs.
+        if len(inputs) > 1:
+            query_parts.append(f"({input_name} == 'yes' & _length >= {min_length})")
+        else:
+            query_parts.append(f"(_length >= {min_length})")
 
     query = " | ".join(query_parts)
     return f"--query \"{query}\""
