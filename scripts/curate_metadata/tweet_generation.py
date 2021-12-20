@@ -25,7 +25,7 @@ def read_excel_lab_file(table_file_name):
             lab_dictionary[country] = {}
         if description in lab_dictionary[country]:
             print("Warning: lab description is found two times in excel table in same country (" + str(country) + ", " + str(description) + ")")
-        lab_dictionary[country][description.lower()] = handle
+        lab_dictionary[country][str(description).lower()] = handle
     return lab_dictionary
 
 ### Optional: only if requested
@@ -40,12 +40,24 @@ def read_metadata(filename, date_g, tweet):
 
     if month_g == "12":
         year_gplus = str(int(year_g) + 1)
+        year_gplus2 = str(int(year_g) + 1)
         month_gplus = "01"
+        month_gplus2 = "02"
+    elif month_g == "11":
+        year_gplus = year_g
+        month_gplus = str(int(month_g) + 1)
+        year_gplus2 = str(int(year_g) + 1)
+        month_gplus2 = "01"
     else:
         year_gplus = year_g
         month_gplus = str(int(month_g) + 1)
-        if len(month_gplus) == 1:
-            month_gplus = "0" + month_gplus
+        year_gplus2 = year_g
+        month_gplus2 = str(int(month_g) + 2)
+
+    if len(month_gplus) == 1:
+        month_gplus = "0" + month_gplus
+    if len(month_gplus2) == 1:
+        month_gplus2 = "0" + month_gplus2
 
     countries_old = {"Africa": [], "Asia": [], "Europe": [], "North America": [], "Oceania": [], "South America": []}
     countries = {"Africa": [], "Asia": [], "Europe": [], "North America": [], "Oceania": [], "South America": []}
@@ -83,6 +95,9 @@ def read_metadata(filename, date_g, tweet):
             orig_lab = l[orig_lab_i]
             author = l[author_i]
             date = l[subm_date_i]
+
+            if lab[5:] == "Tricity SARS-CoV-2 sequencing consortium: University of Gdansk, Medical University of Gdansk, Vaxican Ltd., Invicta Ltd. 2. National Institute of Public Health - National Institute of Hygiene, Warsaw, Poland":
+                lab = lab[5:]
 
             # Skip all entries with invalid dates
             if len(l[sampl_date_i]) != 10:
@@ -122,7 +137,7 @@ def read_metadata(filename, date_g, tweet):
             else:
                 if tweet:
                     # Also check for next month in case we're late with tweeting
-                    if month != month_gplus or year != year_gplus:
+                    if not (month == month_gplus and year == year_gplus) and not (month == month_gplus2 and year == year_gplus2):
 
                         # Collect all old labs and countries
                         if country not in countries_old[region]:

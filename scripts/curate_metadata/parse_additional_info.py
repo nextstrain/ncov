@@ -126,29 +126,41 @@ def read_data(path):
                 data = f.readlines()
 
             added = False #only consider newly added additional info
+            removed = False
 
             for i in range(len(data)):
                 k = data[i].strip("\n")
 
                 if k.endswith("info added"):
                     added = True
+                    removed = False
                 if k.endswith("info changed"): #skip changed info
                     added = False
-                if k.endswith("info removed"): #skip removed info
+                    removed = False
+                if k.endswith("info removed"): #consider removed info
                     added = False
+                    removed = True
 
                 if ":" in k:
-                    if added:
+                    if added or removed:
                         (key, content) = cut(k)
                         key = key.strip()
 
                         if key == "gisaid_epi_isl":
-                            id = content
-                            if id in additional_info:
-                                print("WARNING: additional info added two times for same strain! (" + id + ")")
-                            additional_info[id] = {}
+                                id = content
+                                if added:
+                                    if id in additional_info:
+                                        print("WARNING: additional info added two times for same strain! (" + id + ")")
+                                    additional_info[id] = {}
                         else:
-                            additional_info[id][key] = content
+                            if added:
+                                additional_info[id][key] = content
+                            if removed:
+                                if id in additional_info:
+                                    if key in additional_info[id]:
+                                        additional_info[id].pop(key)
+                                        if additional_info[id] == {}:
+                                            additional_info.pop(id)
 
     return additional_info
 
@@ -206,6 +218,9 @@ def break_down(s):
 # Given just one name of either a region, country, division or location, search for this within the color_ordering.tsv
 # file and return the found hierarchy (region, country, division, location)
 def find_place_in_ordering(place, ordering, variants):
+
+    if place == "Unknown":
+        return None
 
     place = apply_variant(place, variants)
 
@@ -783,6 +798,17 @@ def check_additional_info(additional_info, path_to_config_files, auto):
 
         print("\n-------\n")
 
+    for key in sorted_info:
+        (info, info_type) = key
+        strain_list = sorted_info[key]
+        for (id, strain) in strain_list:
+            if metadata[id]["Nextstrain_clade"] == "21K (Omicron)":
+                if not "ZIP Code" in info:
+                    print(id)
+                    print(info)
+                    print()
+
+
     return annotations_append
 
 
@@ -814,7 +840,7 @@ if __name__ == '__main__':
         for line in annotations_append:
             if line in annotations:
                 continue
-            print(line)
+            #print(line)
             if "=" not in line:
                 annot_lines_to_write.append(line)
             if len(line.split("\t")) == 4:

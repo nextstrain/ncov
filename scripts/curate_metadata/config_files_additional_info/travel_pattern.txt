@@ -1,5 +1,6 @@
 Imported from XXX
 Traveled to XXX
+traveled to XXX
 Travel to XXX
 Travel history to XXX
 Infected while travelling in XXX
@@ -116,6 +117,16 @@ Traveled: XXX
 travelled from XXX
 Patient traveled to XXX
 Other : Imported Case from XXX
+other : imported case from XXX
 Others: Travel history to XXX
 Others: travel history to XXX
 others: travel history to XXX
+Returned from XXX
+Travel history: XXX (2021-11-22)
+Travel History: XXX
+Travel XXX
+Travel - XXX
+Symptomatic upon return from XXX
+Travel history: XXX; Residence: Europe / Germany
+Others: traveled to XXX
+Others: Traveled to XXX and Germany
