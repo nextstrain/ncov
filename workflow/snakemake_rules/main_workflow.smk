@@ -455,7 +455,7 @@ rule priority_score:
     benchmark:
         "benchmarks/priority_score_{build_name}_{focus}.txt"
     params:
-        crowding = config["priorities"]["crowding_penalty"],
+        crowding = config["subsampling"]["priorities"]["crowding_penalty"],
         Nweight = 0.003
     conda: config["conda_environment"]
     shell:

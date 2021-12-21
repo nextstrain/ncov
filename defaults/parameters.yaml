@@ -88,8 +88,9 @@ filter:
 # When choosing contextual samples for a focal set, applying crowding penalty
 # will help reduce the number of genetically identical strains that get chosen,
 # and allows for more diversity represented on the tree.
-priorities:
-  crowding_penalty: 0.1
+subsampling:
+  priorities:
+    crowding_penalty: 0.1
 
 # Alignment settings
 # Alignments are partitioned into smaller groups to speed up the overall alignment process.
