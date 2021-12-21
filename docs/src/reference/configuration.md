@@ -668,6 +668,16 @@ hCoV-19/USA/CZB-2345/2021	0
 hCoV-19/USA/CZB-3456/2021	-3.1
 ```
 
+## crowding_penalty
+* type: float
+* description: used when calculating `priority scores` during subsampling to decrease the number of identical samples that are included in the tree during random subsampling to provide a broader picture of the viral diversity in your dataset.
+* examples:
+```yaml
+priorities:
+  crowding_penalty: 0.0
+  # You may wish to set `crowding_penalty = 0.0` (default value = `0.1`) if you are interested in seeing as many samples as possible that are closely related to your `focal` set. 
+```
+
 ## title
 * type: string
 * description: Title to provide to `augur export` and display as the title of the analysis in Auspice.

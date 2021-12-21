@@ -85,6 +85,12 @@ filter:
   # Exclude sequences which are from before late 2019 (likely date mix-ups)
   min_date: 2019.74
 
+# When choosing contextual samples for a focal set, applying crowding penalty
+# will help reduce the number of genetically identical strains that get chosen,
+# and allows for more diversity represented on the tree.
+priorities:
+  crowding_penalty: 0.1
+
 # Alignment settings
 # Alignments are partitioned into smaller groups to speed up the overall alignment process.
 # The number of sequences per group determines the run time of a single alignment job.
