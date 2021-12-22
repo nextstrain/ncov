@@ -1,0 +1,25 @@
+clade	parent	WHO
+19B	19A	
+20A	19A	
+20B	20A	
+20C	20A	
+20D	20B	
+20E	20A	
+20F	20B	
+20G	20C	
+20H	20C	Beta
+20I	20B	Alpha
+20J	20B	Gamma
+21A	20A	Delta
+21B	20A	Kappa
+21C	20C	Epsilon
+21D	20A	Eta
+21E	20B	Theta
+21F	20C	Iota
+21G	20D	Lambda
+21H	20A	Mu
+21I	21A	Delta
+21J	21A	Delta
+21K	21M	Omicron
+21L	21M	Omicron
+21M	20B	Omicron
