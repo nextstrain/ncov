@@ -130,3 +130,9 @@ Symptomatic upon return from XXX
 Travel history: XXX; Residence: Europe / Germany
 Others: traveled to XXX
 Others: Traveled to XXX and Germany
+Others: Traveled to XXX
+Travel history: 2021-12-02 arrived from the XXX
+XXX Travel
+Returning Overseas Filipino Travel History: XXX
+Patient traveled from XXX
+Travel history to XXX, Symptomatic (mild)

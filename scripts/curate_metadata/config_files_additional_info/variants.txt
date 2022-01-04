@@ -9,3 +9,5 @@ Pamplona	Pamplona ES
 Tshwane	City of Tshwane
 Srilanka	Sri Lanka
 United Arab Emirate	United Arab Emirates
+Yucatán	Yucatan
+México	Mexico
