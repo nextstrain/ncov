@@ -10883,3 +10883,10 @@ SouthAfrica/Tygerberg_3072/2021
 SouthAfrica/NICD-N21771/2021
 SouthAfrica/NICD-N21824/2021
 Netherlands/NH-RIVM-71075/2021
+
+USA/TN-SPHL-0982/2021	# Strain has same BioSample accession (SAMN22895717) as USA/SPHL-0982/2021
+USA/TN-SPHL-0984/2021	# Strain has same BioSample accession (SAMN22895718) as USA/SPHL-0984/2021
+USA/TN-SPHL-0986/2021	# Strain has same BioSample accession (SAMN22895719) as USA/SPHL-0986/2021
+USA/TN-SPHL-0987/2021	# Strain has same BioSample accession (SAMN22895720) as USA/SPHL-0987/2021
+USA/TN-SPHL-0988/2021	# Strain has same BioSample accession (SAMN22895721) as USA/SPHL-0988/2021
+USA/TN-SPHL-1016/2021	# Strain has same BioSample accession (SAMN22895641) as USA/TN-SPHL-0473/2021
