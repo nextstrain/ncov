@@ -11882,6 +11882,7 @@ division	Azad Kashmir	33.62045585868291	75.12498213019724
 division	Azerbaijan	40.3936294	47.7872508
 division	Azuay	-3.0524451	-79.2395135
 division	Bac Giang	21.3092863	106.6165128
+division	Bac Lieu	9.3477317	105.5097064
 division	Bac Ninh	21.1212051	106.0880245
 division	Bacau	46.42613415	26.71205400126924
 division	Bács-Kiskun County	46.551745	19.374218
@@ -12069,6 +12070,7 @@ division	Bushehr	28.8936645	51.3204877
 division	Busia	0.3712048	34.26479520608315
 division	Buskerud	59.5435778	11.4230694
 division	Buzau	45.143297	26.816251
+division	Ca Mau	9.0875429	105.032047
 division	Caaguazu	-25.4661756	-56.0181685
 division	Caazapá	-26.166667	-56.0
 division	Cabinda	-5.056395	12.3211749
@@ -12195,6 +12197,7 @@ division	China	33.394333	104.689839
 division	Chiquimula	14.6891037	-89.3959868807435
 division	Chiriqui	8.3971129	-82.3223443
 division	Chisinau	47.0244707	28.8322534
+division	Chobe District	-18.391508450000003	24.706751761502648
 division	Choco	5.705238	-76.890815
 division	Choluteca	13.3696253	-87.07564445652513
 division	Chonburi	13.1857117	101.1210777
@@ -12416,6 +12419,7 @@ division	Fejer	47.0939434	18.6088562
 division	Fergana Region	40.5	71.25
 division	Ferizaj	42.3682168	21.1532848
 division	Ferkessedougou	9.5939778	-5.1975952
+division	Fez-Meknes	33.8333136	-4.8556382
 division	Fianarantsoa	-21.456444	47.085149
 division	Fiji	-18.1239696	179.0122737
 division	Finland	61.751734	26.186437
@@ -12744,6 +12748,7 @@ division	Kagawa	34.22908906089769	133.9909139071147
 division	Kaggevinne	50.9794	5.0190
 division	Kagoshima	31.521587	130.5474077
 division	Kahramanmaras	37.7830345	36.830655
+division	Kairouan	35.6710101	10.10062
 division	Kaisiadorys	54.8602337	24.4544785
 division	Kajiado	-2.12171705	36.78625503675998
 division	Kakamega	0.4957104	34.801548861634615
@@ -13100,6 +13105,7 @@ division	Manila	14.652678	121.043936
 division	Manipur	24.7208818	93.9229386
 division	Manitoba	55.182879	-97.823531
 division	Mannar	8.9772444	79.9137786
+division	Manouba	36.7624363	9.833619078262766
 division	Manzini	-26.4958706	31.3695887
 division	Maputo	-25.966213	32.56745
 division	Maradi	13.501206	7.102534
@@ -13116,6 +13122,7 @@ division	Maritime	6.53703405	1.244338916227091
 division	Maritime Region	6.53703405	1.244338916227091
 division	Marmara	40.62164065	27.629427220927305
 division	Maroodi Jeex	6.1206	47.952599
+division	Marrakech-Safi	31.6048574	-8.3654032
 division	Martin	49.0617	18.919
 division	Martinique	14.6367927	-61.01582685063731
 division	Maryland	39.0458	-76.6413
@@ -13980,6 +13987,7 @@ division	Sud-Ouest	10.38692085	-3.283188627811005
 division	Sud-Vest	44.70163810431606	23.382207815257086
 division	Sudan	14.5844444	29.4917691
 division	Sudurpaschim	28.7037278	80.5666463
+division	Suez	29.974498	32.537086
 division	Sukhothai	17.1446985	99.4375845
 division	Sulawesi Selatan	-3.6446718	119.9471906
 division	Šumadija District	44.1202429	20.85199400301452
@@ -14022,9 +14030,11 @@ division	Tamil Nadu	11.1271	78.6569
 division	Tamu	24.18735435	94.39209374929968
 division	Tana River	-1.53651195	39.55083745466502
 division	Tangail	24.248630	89.917926
+division	Tanger-Tetouan-Al Hoceima	35.202941	-5.5510167
 division	Tanzania	-6.5247123	35.7878438
 division	Taoyuan City	24.9929995	121.3010003
 division	Tapesovo	49.3740873	19.4467954
+division	Taraba	8.0141334	10.7376336
 division	Taranaki	-39.2711067	174.154795
 division	Tarapacá	-20.1636672	-69.5463448
 division	Targovishte	43.251196	26.5727944
@@ -14122,6 +14132,7 @@ division	Triesen	47.106994	9.5274876
 division	Trincomalee	8.576425	81.2344952
 division	Trinidad	10.36701726107432	-61.233044896832965
 division	Trinidad and Tobago	10.8677845	-60.9821067
+division	Tripoli	32.896672	13.1777923
 division	Tripura	23.7750823	91.7025091
 division	Trnava	48.3767652	17.5858175
 division	Trois-Rivières	15.9767433	-61.6441603
@@ -14255,6 +14266,7 @@ division	Villa Nueva	14.5308826	-90.5963325
 division	Villavicencio	4.134000	-73.623483
 division	Vilniaus Apskritis	54.82269205	25.249534001679514
 division	Vilnius	54.697979	25.279095
+division	Vinh Long	10.1069	105.9867653657871
 division	Vinhphuc	21.348702	105.548594
 division	Vinnytsia	49.2320162	28.467975
 division	Virgin Islands	18.3358	-64.8963

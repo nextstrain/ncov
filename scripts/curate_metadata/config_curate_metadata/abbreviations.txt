@@ -253,6 +253,7 @@ Zimbabwe	ZW
 # division
 Alabama	AL
 Alaska	AK
+American Samoa	AS
 Arizona	AZ
 Arkansas	AR
 California	CA
