@@ -39,10 +39,18 @@ if __name__ == '__main__':
     parser.add_argument("--rare-mutations", type=int, default=15, help="maximal allowed rare mutations as defined by nextclade")
     parser.add_argument("--clock-plus-rare", type=int, default=25, help="maximal allowed rare mutations as defined by nextclade")
     parser.add_argument("--clade-emergence-window", type=int, default=2, help="number of weeks before official emergence of clade at which sequences can safely be excluded")
+    parser.add_argument("--skip-inputs", type=str, nargs="*", help="names of inputs to skip diagnostics for based on presence of metadata fields named like '{input}' with a value of 'yes'")
     parser.add_argument("--output-exclusion-list", type=str, required=True, help="Output to-be-reviewed addition to exclude.txt")
     args = parser.parse_args()
 
     metadata = pd.read_csv(args.metadata, sep='\t')
+
+    # If any inputs should be skipped for diagnostics, remove their records from
+    # metadata prior to analysis.
+    if args.skip_inputs:
+        for input_name in args.skip_inputs:
+            if input_name in metadata.columns:
+                metadata = metadata.loc[metadata[input_name] != "yes"].copy()
 
     check_recency = "date_submitted" in metadata
     if check_recency:

@@ -3,6 +3,10 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## v10 (January 2022)
+
+ - Move filter and diagnostic steps after subsampling. For workflows with subsampling that does not depend on priority calculations, these changes allow the workflow to start subsampling from the metadata, skipping sequence alignment of the full input sequences and only looping through these input sequences once per build when subsampled sequences are extracted. To skip the alignment step, define your input sequences with the `aligned` directive. If you use priority-based subsampling, define your input sequences with the `sequences` directive. This reorganization of the workflow causes a breaking change in that the workflow no longer supports input-specific filtering with the `exclude_where`, `min_date`, and `exclude_ambiguous_dates_by` parameters. The workflow continues to support input-specific filtering by `min_length` and skipping of diagnostic filters with `skip_diagnostics`. [PR #814](https://github.com/nextstrain/ncov/pull/814).
+
 ## New features since last version update
 
 - 20 December 2021: Surface the crowding penalty parameter via the config file: [PR #828](https://github.com/nextstrain/ncov/pull/827), [Issue #708](https://github.com/nextstrain/ncov/issues/708). The crowding penalty, used when calculating `priority scores` during subsampling, decreases the number of identical samples that are included in the tree during random subsampling to provide a broader picture of the viral diversity in your dataset. However, you may wish to set `crowding_penalty = 0.0` (default value = `0.1`) if you are interested in seeing as many samples as possible that are closely related to your `focal` set. You can change this parameter via `config['priorities']['crowding_penalty']`. There is no change to default behavior.

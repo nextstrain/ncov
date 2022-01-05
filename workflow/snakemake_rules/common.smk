@@ -28,11 +28,64 @@ def numeric_date(dt=None):
 def _get_subsampling_scheme_by_build_name(build_name):
     return config["builds"][build_name].get("subsampling_scheme", build_name)
 
+def _get_skipped_inputs_for_diagnostic(wildcards):
+    """Build an argument for the diagnostic script with a list of inputs to skip.
+    """
+    inputs = config["inputs"]
+    diagnostics_key = "skip_diagnostics"
+
+    arg_parts = []
+    for input_name in inputs.keys():
+        skip_diagnostics = config["filter"].get(diagnostics_key, False)
+
+        if input_name in config["filter"] and diagnostics_key in config["filter"][input_name]:
+            skip_diagnostics = config["filter"][input_name][diagnostics_key]
+
+        if skip_diagnostics:
+            arg_parts.append(input_name)
+
+    if len(arg_parts) > 0:
+        argument = f"--skip-inputs {' '.join(arg_parts)}"
+    else:
+        argument = ""
+
+    return argument
+
+def _get_filter_min_length_query(wildcards):
+    """Build a sequence length filter query for each input, checking for
+    input-specific length requirements.
+    """
+    inputs = config["inputs"]
+    length_key = "min_length"
+
+    query_parts = []
+    for input_name in inputs.keys():
+        min_length = config["filter"][length_key]
+
+        if input_name in config["filter"] and length_key in config["filter"][input_name]:
+            min_length = config["filter"][input_name][length_key]
+
+        # We only annotate input-specific columns on metadata when there are
+        # multiple inputs.
+        if len(inputs) > 1:
+            query_parts.append(f"({input_name} == 'yes' & _length >= {min_length})")
+        else:
+            query_parts.append(f"(_length >= {min_length})")
+
+    query = " | ".join(query_parts)
+    return f"--query \"{query}\""
+
 def _get_filter_value(wildcards, key):
-    default = config["filter"].get(key, "")
-    if wildcards["origin"] == "":
-        return default
-    return config["filter"].get(wildcards["origin"], {}).get(key, default)
+    for input_name in config["inputs"].keys():
+        if input_name in config["filter"] and key in config["filter"][input_name]:
+            print(
+                f"ERROR: We no longer support input-specific filtering with the '{key}' parameter.",
+                "Remove this parameter from your configuration file and try running the workflow again.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
+    return config["filter"].get(key, "")
 
 def _get_path_for_input(stage, origin_wildcard):
     """
@@ -47,7 +100,7 @@ def _get_path_for_input(stage, origin_wildcard):
 
     if stage in {"metadata", "sequences"}:
         raise Exception(f"ERROR: config->input->{origin_wildcard}->{stage} is not defined.")
-    elif stage in {"aligned", "filtered"}:
+    elif stage in {"aligned"}:
         return f"results/{stage}_{origin_wildcard}.fasta.xz"
     else:
         raise Exception(f"_get_path_for_input with unknown stage \"{stage}\"")
@@ -67,7 +120,7 @@ def _get_unified_metadata(wildcards):
 
 def _get_unified_alignment(wildcards):
     if len(list(config["inputs"].keys()))==1:
-        return _get_path_for_input("filtered", list(config["inputs"].keys())[0])
+        return _get_path_for_input("aligned", list(config["inputs"].keys())[0])
     return "results/combined_sequences_for_subsampling.fasta.xz",
 
 def _get_metadata_by_build_name(build_name):
@@ -126,7 +179,7 @@ def _get_max_date_for_frequencies(wildcards):
 def _get_upload_inputs(wildcards):
     # The main workflow supports multiple inputs/origins, but our desired file
     # structure under data.nextstrain.org/files/ncov/open/… is designed around
-    # a single input/origin.  Intermediates (aligned, filtered, etc)
+    # a single input/origin.  Intermediates (aligned, etc)
     # are specific to each input/origin and thus do not match our desired
     # structure, while builds (global, europe, africa, etc) span all
     # inputs/origins (and thus do).  In our desired outcome, the two kinds of
@@ -140,12 +193,6 @@ def _get_upload_inputs(wildcards):
     origin = config["S3_DST_ORIGINS"][0]
 
     # mapping of remote → local filenames
-    preprocessing_files = {
-        f"aligned.fasta.xz":              f"results/aligned_{origin}.fasta.xz",              # from `rule align`
-        f"filtered.fasta.xz":             f"results/filtered_{origin}.fasta.xz",             # from `rule filter`
-        f"mutation-summary.tsv.xz":       f"results/mutation_summary_{origin}.tsv.xz",       # from `rule mutation_summary`
-    }
-
     build_files = {}
     for build_name in config["builds"]:
         build_files.update({
@@ -157,14 +204,4 @@ def _get_upload_inputs(wildcards):
             f"{build_name}/{build_name}_tip-frequencies.json":  f"auspice/{config['auspice_json_prefix']}_{build_name}_tip-frequencies.json",
             f"{build_name}/{build_name}_root-sequence.json":    f"auspice/{config['auspice_json_prefix']}_{build_name}_root-sequence.json"
         })
-
-    req_upload = config.get("upload", [])
-    if "preprocessing-files" in req_upload and "build-files" in req_upload:
-        return {**preprocessing_files, **build_files}
-    elif "preprocessing-files" in req_upload:
-        return preprocessing_files
-    elif "build-files" in req_upload:
-        return build_files
-    else:
-        raise Exception("The upload rule requires an 'upload' parameter in the config.")
-
+    return build_files

@@ -273,7 +273,7 @@ Builds support any named attributes that can be referenced by subsampling scheme
 * required
 	* `name`
 	* `metadata`
-	* `sequences` or `aligned` or `filtered`
+	* `sequences` or `aligned`
 * examples:
 ```yaml
 inputs:
@@ -283,9 +283,6 @@ inputs:
   - name: prealigned-data
     metadata: data/other_metadata.tsv.xz
     aligned: data/other_aligned.fasta.xz
-  - name: prealigned-and-filtered-data
-    metadata: data/other_metadata.tsv.xz
-    filtered: data/other_filtered.fasta.xz
 ```
 
 Valid attributes for list entries in `inputs` are provided below.
@@ -310,7 +307,7 @@ Valid attributes for list entries in `inputs` are provided below.
 
 ### sequences
 * type: string
-* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **_un_aligned and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
+* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **_un_aligned** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
 	* `data/example_sequences.fasta`
 	* `data/example_sequences.fasta.xz`
@@ -319,21 +316,12 @@ Valid attributes for list entries in `inputs` are provided below.
 
 ### aligned
 * type: string
-* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **aligned and _un_filtered** genome sequences. Sequences can be uncompressed or compressed.
+* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **aligned** genome sequences. Sequences can be uncompressed or compressed.
 * examples:
 	* `data/aligned.fasta`
 	* `data/aligned.fasta.xz`
 	* `s3://your-bucket/aligned.fasta.gz`
 	* `https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz`
-
-### filtered
-* type: string
-* description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **aligned and filtered** genome sequences. Sequences can be uncompressed or compressed.
-* examples:
-	* `data/filtered.fasta`
-	* `data/filtered.fasta.xz`
-	* `s3://your-bucket/filtered.fasta.gz`
-	* `https://data.nextstrain.org/files/ncov/open/filtered.fasta.xz`
 
 ## localrules
 * type: string

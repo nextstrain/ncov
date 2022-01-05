@@ -104,93 +104,6 @@ rule align:
         xz -2 {params.outdir}/{params.basename}*.fasta
         """
 
-rule diagnostic:
-    message: "Scanning metadata {input.metadata} for problematic sequences. Removing sequences with >{params.clock_filter} deviation from the clock and with more than {params.snp_clusters}."
-    input:
-        metadata = "results/sanitized_metadata_{origin}.tsv.xz"
-    output:
-        to_exclude = "results/to-exclude_{origin}.txt"
-    params:
-        clock_filter = 20,
-        snp_clusters = 1,
-        rare_mutations = 100,
-        clock_plus_rare = 100,
-    log:
-        "logs/diagnostics_{origin}.txt"
-    benchmark:
-        "benchmarks/diagnostics_{origin}.txt"
-    resources:
-        # Memory use scales primarily with the size of the metadata file.
-        mem_mb=12000
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/diagnostic.py \
-            --metadata {input.metadata} \
-            --clock-filter {params.clock_filter} \
-            --rare-mutations {params.rare_mutations} \
-            --clock-plus-rare {params.clock_plus_rare} \
-            --snp-clusters {params.snp_clusters} \
-            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
-        """
-
-def _collect_exclusion_files(wildcards):
-    # This rule creates a per-input exclude file for `rule filter`. This file contains one or both of the following:
-    # (1) a config-defined exclude file
-    # (2) a dynamically created file (`rule diagnostic`) which scans the alignment for potential errors
-    # The second file is optional - it may be opted out via config → skip_diagnostics
-    if config["filter"].get(wildcards["origin"], {}).get("skip_diagnostics", False):
-        return [ config["files"]["exclude"] ]
-    return [ config["files"]["exclude"], f"results/to-exclude_{wildcards['origin']}.txt" ]
-
-
-rule filter:
-    message:
-        """
-        Filtering alignment {input.sequences} -> {output.sequences}
-          - excluding strains in {input.exclude}
-          - including strains in {input.include}
-          - min length: {params.min_length}
-        """
-    input:
-        sequences = lambda wildcards: _get_path_for_input("aligned", wildcards.origin),
-        metadata = "results/sanitized_metadata_{origin}.tsv.xz",
-        # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
-        include = config["files"]["include"],
-        exclude = _collect_exclusion_files,
-    output:
-        sequences = "results/filtered_{origin}.fasta.xz"
-    log:
-        "logs/filtered_{origin}.txt"
-    benchmark:
-        "benchmarks/filter_{origin}.txt"
-    params:
-        min_length = lambda wildcards: _get_filter_value(wildcards, "min_length"),
-        exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
-        min_date = lambda wildcards: _get_filter_value(wildcards, "min_date"),
-        ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {_get_filter_value(wildcards, 'exclude_ambiguous_dates_by')}" if _get_filter_value(wildcards, "exclude_ambiguous_dates_by") else "",
-        date = (date.today() + datetime.timedelta(days=1)).strftime("%Y-%m-%d"),
-        intermediate_output=lambda wildcards, output: Path(output.sequences).with_suffix("")
-    resources:
-        # Memory use scales primarily with the size of the metadata file.
-        mem_mb=12000
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur filter \
-            --sequences {input.sequences} \
-            --metadata {input.metadata} \
-            --include {input.include} \
-            --max-date {params.date} \
-            --min-date {params.min_date} \
-            {params.ambiguous} \
-            --exclude {input.exclude} \
-            --exclude-where {params.exclude_where}\
-            --min-length {params.min_length} \
-            --output {params.intermediate_output} 2>&1 | tee {log};
-        xz -2 {params.intermediate_output}
-        """
-
 def _get_subsampling_settings(wildcards):
     # Allow users to override default subsampling with their own settings keyed
     # by location type and name. For example, "region_europe" or
@@ -300,10 +213,10 @@ rule combine_sequences_for_subsampling:
     # Similar to rule combine_input_metadata, this rule should only be run if multiple inputs are being used (i.e. multiple origins)
     message:
         """
-        Combine and deduplicate aligned & filtered FASTAs from multiple origins in preparation for subsampling.
+        Combine and deduplicate aligned FASTAs from multiple origins in preparation for subsampling.
         """
     input:
-        lambda w: [_get_path_for_input("filtered", origin) for origin in config.get("inputs", {})]
+        lambda w: [_get_path_for_input("aligned", origin) for origin in config.get("inputs", {})]
     output:
         "results/combined_sequences_for_subsampling.fasta.xz"
     benchmark:
@@ -360,14 +273,11 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = _get_unified_alignment,
         metadata = _get_unified_metadata,
-        sequence_index = rules.index_sequences.output.sequence_index,
         include = config["files"]["include"],
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/{build_name}/sample-{subsample}.fasta",
         strains="results/{build_name}/sample-{subsample}.txt",
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
@@ -392,9 +302,7 @@ rule subsample:
     shell:
         """
         augur filter \
-            --sequences {input.sequences} \
             --metadata {input.metadata} \
-            --sequence-index {input.sequence_index} \
             --include {input.include} \
             --exclude {input.exclude} \
             {params.min_date} \
@@ -408,8 +316,34 @@ rule subsample:
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
-            --output {output.sequences} \
             --output-strains {output.strains} 2>&1 | tee {log}
+        """
+
+rule extract_subsampled_sequences:
+    input:
+        metadata = _get_unified_metadata,
+        alignment = _get_unified_alignment,
+        sequence_index = rules.index_sequences.output.sequence_index,
+        strains = "results/{build_name}/sample-{subsample}.txt",
+    output:
+        subsampled_sequences = "results/{build_name}/sample-{subsample}.fasta",
+    log:
+        "logs/extract_subsampled_sequences_{build_name}_{subsample}.txt"
+    benchmark:
+        "benchmarks/extract_subsampled_sequences_{build_name}_{subsample}.txt"
+    resources:
+        # Memory use scales primarily with the size of the metadata file.
+        mem_mb=12000
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --metadata {input.metadata} \
+            --sequences {input.alignment} \
+            --sequence-index {input.sequence_index} \
+            --exclude-all \
+            --include {input.strains} \
+            --output-sequences {output.subsampled_sequences} 2>&1 | tee {log}
         """
 
 rule proximity_score:
@@ -484,7 +418,6 @@ rule combine_samples:
         """
     input:
         sequences=_get_unified_alignment,
-        sequence_index=rules.index_sequences.output.sequence_index,
         metadata=_get_unified_metadata,
         include=_get_subsampled_files,
     output:
@@ -499,7 +432,6 @@ rule combine_samples:
         """
         augur filter \
             --sequences {input.sequences} \
-            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --exclude-all \
             --include {input.include} \
@@ -546,6 +478,47 @@ rule build_align:
             --output-fasta {output.alignment} \
             --output-insertions {output.insertions} > {log} 2>&1
         """
+
+rule diagnostic:
+    message: "Scanning metadata {input.metadata} for problematic sequences. Removing sequences with >{params.clock_filter} deviation from the clock and with more than {params.snp_clusters}."
+    input:
+        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+    output:
+        to_exclude = "results/{build_name}/excluded_by_diagnostics.txt"
+    params:
+        clock_filter = 20,
+        snp_clusters = 1,
+        rare_mutations = 100,
+        clock_plus_rare = 100,
+        skip_inputs_arg=_get_skipped_inputs_for_diagnostic,
+    log:
+        "logs/diagnostics_{build_name}.txt"
+    benchmark:
+        "benchmarks/diagnostics_{build_name}.txt"
+    resources:
+        # Memory use scales primarily with the size of the metadata file.
+        mem_mb=12000
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/diagnostic.py \
+            --metadata {input.metadata} \
+            --clock-filter {params.clock_filter} \
+            --rare-mutations {params.rare_mutations} \
+            --clock-plus-rare {params.clock_plus_rare} \
+            --snp-clusters {params.snp_clusters} \
+            {params.skip_inputs_arg} \
+            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
+        """
+
+def _collect_exclusion_files(wildcards):
+    # This rule creates a per-input exclude file for `rule filter`. This file contains one or both of the following:
+    # (1) a config-defined exclude file
+    # (2) a dynamically created file (`rule diagnostic`) which scans the alignment for potential errors
+    # The second file is optional - it may be opted out via config → skip_diagnostics
+    if config["filter"].get("skip_diagnostics", False):
+        return [ config["files"]["exclude"] ]
+    return [ config["files"]["exclude"], f"results/{wildcards.build_name}/excluded_by_diagnostics.txt" ]
 
 rule mask:
     message:
@@ -597,6 +570,93 @@ rule compress_build_align:
         xz -c {input} > {output} 2> {log}
         """
 
+rule index:
+    message:
+        """
+        Index sequence composition.
+        """
+    input:
+        sequences = "results/{build_name}/masked.fasta"
+    output:
+        sequence_index = "results/{build_name}/sequence_index.tsv",
+    log:
+        "logs/index_sequences_{build_name}.txt"
+    benchmark:
+        "benchmarks/index_sequences_{build_name}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur index \
+            --sequences {input.sequences} \
+            --output {output.sequence_index} 2>&1 | tee {log}
+        """
+
+rule annotate_metadata_with_index:
+    input:
+        metadata="results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        sequence_index = "results/{build_name}/sequence_index.tsv",
+    output:
+        metadata="results/{build_name}/metadata_with_index.tsv",
+    log:
+        "logs/annotate_metadata_with_index_{build_name}.txt",
+    benchmark:
+        "benchmarks/annotate_metadata_with_index_{build_name}.txt",
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/annotate_metadata_with_index.py \
+            --metadata {input.metadata} \
+            --sequence-index {input.sequence_index} \
+            --output {output.metadata}
+        """
+
+rule filter:
+    message:
+        """
+        Filtering alignment {input.sequences} -> {output.sequences}
+          - excluding strains in {input.exclude}
+          - including strains in {input.include}
+          - min length: {params.min_length_query}
+        """
+    input:
+        sequences = "results/{build_name}/masked.fasta",
+        metadata = "results/{build_name}/metadata_with_index.tsv",
+        # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
+        include = config["files"]["include"],
+        exclude = _collect_exclusion_files,
+    output:
+        sequences = "results/{build_name}/filtered.fasta",
+        filter_log = "results/{build_name}/filtered_log.tsv",
+    log:
+        "logs/filtered_{build_name}.txt"
+    benchmark:
+        "benchmarks/filter_{build_name}.txt"
+    params:
+        min_length_query = _get_filter_min_length_query,
+        exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
+        min_date = lambda wildcards: _get_filter_value(wildcards, "min_date"),
+        ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {_get_filter_value(wildcards, 'exclude_ambiguous_dates_by')}" if _get_filter_value(wildcards, "exclude_ambiguous_dates_by") else "",
+        date = (date.today() + datetime.timedelta(days=1)).strftime("%Y-%m-%d"),
+    resources:
+        # Memory use scales primarily with the size of the metadata file.
+        mem_mb=500
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --include {input.include} \
+            {params.min_length_query} \
+            --max-date {params.date} \
+            --min-date {params.min_date} \
+            {params.ambiguous} \
+            --exclude {input.exclude} \
+            --exclude-where {params.exclude_where}\
+            --output {output.sequences} \
+            --output-log {output.filter_log} 2>&1 | tee {log};
+        """
+
 if "run_pangolin" in config and config["run_pangolin"]:
     rule run_pangolin:
         message:
@@ -605,7 +665,7 @@ if "run_pangolin" in config and config["run_pangolin"]:
             Please remember to update your installation of pangolin regularly to ensure the most up-to-date classifications.
             """
         input:
-            alignment = rules.build_align.output.alignment,
+            alignment = "results/{build_name}/aligned.fasta",
         output:
             lineages = "results/{build_name}/pangolineages.csv",
         params:
@@ -676,7 +736,7 @@ rule adjust_metadata_regions:
 rule tree:
     message: "Building tree"
     input:
-        alignment = rules.mask.output.alignment
+        alignment = "results/{build_name}/filtered.fasta",
     output:
         tree = "results/{build_name}/tree_raw.nwk"
     params:
@@ -713,7 +773,7 @@ rule refine:
         """
     input:
         tree = rules.tree.output.tree,
-        alignment = rules.mask.output.alignment,
+        alignment = "results/{build_name}/filtered.fasta",
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         tree = "results/{build_name}/tree.nwk",
@@ -768,7 +828,7 @@ rule ancestral:
         """
     input:
         tree = rules.refine.output.tree,
-        alignment = rules.build_align.output.alignment
+        alignment = "results/{build_name}/aligned.fasta",
     output:
         node_data = "results/{build_name}/nt_muts.json"
     log:
@@ -996,7 +1056,6 @@ rule rename_emerging_lineages:
                     new_data[k] = {"emerging_lineage": v["clade_membership"]}
         with open(output.clade_data, "w") as fh:
             json.dump({"nodes": new_data}, fh, indent=2)
-
 
 rule colors:
     message: "Constructing colors file"
