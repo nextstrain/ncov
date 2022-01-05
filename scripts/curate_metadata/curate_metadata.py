@@ -1062,12 +1062,12 @@ def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnno
                         name0 = annotations["geography"][id][type]
                         comment = ""
                         if "#" in name0:
-                            (name0, comment) = name0.split(" # ")
+                            (name0, comment) = name0.split(" #")
                         if name0 != annotations_correct[type]:
                             print("Conflicting annotation: " + id + "\t" + bold(type + " " + name0) + " will be replaced with " + bold(annotations_correct[type]))
                             annotations["geography"][id][type] = annotations_correct[type]
                             if comment != "":
-                                annotations["geography"][id][type] += " # " + comment
+                                annotations["geography"][id][type] += " #" + comment
 
     for id in manualAnnotations:
         (region, country, division, location) = manualAnnotations[id][0]
