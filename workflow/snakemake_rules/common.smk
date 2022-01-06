@@ -115,7 +115,12 @@ def _get_unified_metadata(wildcards):
     `combine_input_metadata` rule (and `sanitize_metadata` rule) to make it.
     """
     if len(list(config["inputs"].keys()))==1:
-        return "results/sanitized_metadata_{origin}.tsv.xz".format(origin=list(config["inputs"].keys())[0])
+        input_name, input_record = list(config["inputs"].items())[0]
+        if input_record.get("skip_sanitize_metadata"):
+            return _get_path_for_input("metadata", input_name)
+        else:
+            return "results/sanitized_metadata_{origin}.tsv.xz".format(origin=input_name)
+
     return "results/combined_metadata.tsv.xz"
 
 def _get_unified_alignment(wildcards):

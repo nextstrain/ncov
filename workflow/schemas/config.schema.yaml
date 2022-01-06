@@ -31,6 +31,8 @@ properties:
         aligned:
           type: string
           minLength: 1
+        skip_sanitize_metadata:
+          type: boolean
       additionalProperties: false
 
   builds:
