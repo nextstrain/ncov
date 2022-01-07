@@ -296,8 +296,9 @@ rule subsample:
         max_date = _get_specific_subsampling_setting("max_date", optional=True),
         priority_argument = get_priority_argument
     resources:
-        # Memory use scales primarily with the size of the metadata file.
-        mem_mb=12000
+        # Memory use scales with the number of sequences per group * number of groups.
+        # We pin this to a reasonably high value based on Nextstrain production builds.
+        mem_mb=4000
     conda: config["conda_environment"]
     shell:
         """
@@ -332,8 +333,9 @@ rule extract_subsampled_sequences:
     benchmark:
         "benchmarks/extract_subsampled_sequences_{build_name}_{subsample}.txt"
     resources:
-        # Memory use scales primarily with the size of the metadata file.
-        mem_mb=12000
+        # Memory use scales with the number of sequences per group * number of groups.
+        # We pin this to a reasonably high value based on Nextstrain production builds.
+        mem_mb=4000
     conda: config["conda_environment"]
     shell:
         """
