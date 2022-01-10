@@ -10890,3 +10890,6 @@ USA/TN-SPHL-0986/2021	# Strain has same BioSample accession (SAMN22895719) as US
 USA/TN-SPHL-0987/2021	# Strain has same BioSample accession (SAMN22895720) as USA/SPHL-0987/2021
 USA/TN-SPHL-0988/2021	# Strain has same BioSample accession (SAMN22895721) as USA/SPHL-0988/2021
 USA/TN-SPHL-1016/2021	# Strain has same BioSample accession (SAMN22895641) as USA/TN-SPHL-0473/2021
+
+# mis-dated early Delta
+Pakistan/AFIP-B1-S25/2020
