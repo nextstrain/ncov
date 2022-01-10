@@ -68,7 +68,15 @@ def _get_filter_min_length_query(wildcards):
         # We only annotate input-specific columns on metadata when there are
         # multiple inputs.
         if len(inputs) > 1:
-            query_parts.append(f"({input_name} == 'yes' & _length >= {min_length})")
+            # Input names can contain characters that make them invalid Python
+            # variable names. As such, we escape the column names with backticks
+            # as recommended by pandas:
+            #
+            # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.query.html
+            #
+            # We escape the backticks with backslashes to prevent the bash shell
+            # from expanding the contents between the backticks as a subprocess.
+            query_parts.append(f"(\`{input_name}\` == 'yes' & _length >= {min_length})")
         else:
             query_parts.append(f"(_length >= {min_length})")
 
