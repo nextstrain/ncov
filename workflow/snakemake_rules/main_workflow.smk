@@ -39,7 +39,10 @@ rule combine_input_metadata:
         Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
         """
     input:
-        metadata=expand("results/sanitized_metadata_{origin}.tsv.xz", origin=config.get("inputs")),
+        metadata=[
+            _get_path_for_input("metadata", input_name) if input_record.get("skip_sanitize_metadata") else "results/sanitized_metadata_{origin}.tsv.xz".format(origin=input_name)
+            for input_name, input_record in config.get("inputs", {}).items()
+        ],
     output:
         metadata = "results/combined_metadata.tsv.xz"
     params:

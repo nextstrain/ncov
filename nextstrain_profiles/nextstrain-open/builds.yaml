@@ -20,6 +20,7 @@ inputs:
   - name: open
     metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.gz"
     aligned: "s3://nextstrain-data/files/ncov/open/sequences.fasta.xz"
+    skip_sanitize_metadata: true
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
