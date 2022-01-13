@@ -121,6 +121,7 @@ other : imported case from XXX
 Others: Travel history to XXX
 Others: travel history to XXX
 others: travel history to XXX
+Others: Travel History to XXX
 Returned from XXX
 Travel history: XXX (2021-11-22)
 Travel History: XXX
