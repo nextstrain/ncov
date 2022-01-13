@@ -36,6 +36,11 @@
       "type": "continuous"
     },
     {
+      "key": "mutational_fitness",
+      "title": "Mutational fitness",
+      "type": "continuous"
+    },
+    {
       "key": "location",
       "title": "Location",
       "type": "categorical"
@@ -99,19 +104,9 @@
       "type": "categorical"
     },
     {
-      "key": "country_exposure",
-      "title": "Country of Exposure",
-      "type": "categorical"
-    },
-    {
-      "key": "division_exposure",
-      "title": "Division of Exposure",
-      "type": "categorical"
-    },
-    {
-      "key": "region_exposure",
-      "title": "Region of exposure",
-      "type": "categorical"
+      "key": "epiweek",
+      "title": "Epiweek (CDC)",
+      "type": "continuous"
     }
   ],
   "geo_resolutions": [
@@ -136,7 +131,7 @@
     "division",
     "location",
     "host",
-    "author"
+    "epiweek"
   ],
   "panels": [
     "tree",

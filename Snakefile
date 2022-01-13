@@ -13,8 +13,9 @@ import textwrap
 import time
 
 # Set the maximum recursion limit globally for all shell commands, to avoid
-# issues with large trees crashing the workflow.
-shell.prefix("export AUGUR_RECURSION_LIMIT=10000; ")
+# issues with large trees crashing the workflow.  Preserve Snakemake's default
+# use of Bash's "strict mode", as we rely on that behaviour.
+shell.prefix("set -euo pipefail; export AUGUR_RECURSION_LIMIT=10000; ")
 
 # Store the user's configuration prior to loading defaults, so we can check for
 # reused subsampling scheme names in the user's config. We need to make a deep
@@ -97,6 +98,23 @@ if "inputs" not in config:
         "  "
     ))
     sys.exit(1)
+
+# Check for configs using `*_exposure` which is no longer handled by our analysis pipeline.
+if "exposure" in config:
+    logger.warning("Your config specifies entires for 'exposure'. This is no longer used by this pipeline and can be removed.")
+if "skip_travel_history_adjustment" in config:
+    if config["skip_travel_history_adjustment"] is True:
+        logger.warning("Your config specifies 'skip_travel_history_adjustment=True'. This is now always the case, and thus this parameter can be removed.")
+    else:
+        logger.error("Your config specifies 'skip_travel_history_adjustment=False' however travel history (exposure) has been removed from this pipeline!")
+        sys.exit(1)
+for name,trait_info in config.get("traits", {}).items():
+    fatal = False
+    if len([col for col in trait_info.get("columns", []) if "_exposure" in col])>0:
+        logger.error(f"Build {name} is asking to reconstruct ancestral traits for exposure metadata, however the pipeline no longer uses exposure values.")
+        fatal = True
+    if fatal:
+        sys.exit(1)
 
 # Allow users to specify a list of active builds from the command line.
 if config.get("active_builds"):

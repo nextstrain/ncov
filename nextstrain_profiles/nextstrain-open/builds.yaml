@@ -11,19 +11,16 @@ custom_rules:
 S3_DST_BUCKET: "nextstrain-data/files/ncov/open"
 S3_DST_COMPRESSION: "xz"
 S3_DST_ORIGINS: ["open"]
+upload:
+  - build-files
 
-# NOTE for shepherds -- there are commented out inputs here, you can
-# uncomment them to start the pipeline at that stage.
-# E.g. if you uncomment `filtered` then the pipeline
-# will start by downloading that file and proceeding straight to
-# subsampling
+# Note: unaligned sequences are provided as "aligned" sequences to avoid an initial full-DB alignment
+# as we re-align everything after subsampling.
 inputs:
   - name: open
     metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.gz"
-    sequences: "s3://nextstrain-data/files/ncov/open/sequences.fasta.xz"
-    # aligned: "s3://nextstrain-data/files/ncov/open/aligned.fasta.xz"
-    # masked: "s3://nextstrain-data/files/ncov/open/masked.fasta.xz"
-    # filtered: "s3://nextstrain-data/files/ncov/open/filtered.fasta.xz"
+    aligned: "s3://nextstrain-data/files/ncov/open/sequences.fasta.xz"
+    skip_sanitize_metadata: true
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
@@ -69,9 +66,6 @@ builds:
 # remove S dropout sequences and sequences without division label in US
 filter:
   exclude_where: "division='USA' purpose_of_sequencing='S dropout'"
-
-# Open metadata does not have "exposure" data (i.e. travel history)
-skip_travel_history_adjustment: true
 
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used

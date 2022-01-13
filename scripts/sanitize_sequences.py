@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 import sys
 
-from utils import extract_tar_file_contents
+from utils import stream_tar_file_contents
 
 
 class DuplicateSequenceError(ValueError):
@@ -91,25 +91,18 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     sequence_files = []
-    tar_handles = []
+    tar_files = []
     for sequence_filename in args.sequences:
         # If the input is a tarball, try to find a sequence file inside the
         # archive.
         if ".tar" in Path(sequence_filename).suffixes:
             try:
-                sequence_file, tar_handle = extract_tar_file_contents(
+                sequence_file, tar_file = stream_tar_file_contents(
                     sequence_filename,
                     "sequences"
                 )
-
-                # The extracted tar file is an io.BufferedReader which provides
-                # a binary stream. BioPython's SeqIO reader expects a text
-                # stream. We decode each line of the BufferedReader in a
-                # generator such that decoding happens on the fly per line
-                # downstream. For more details see:
-                # https://docs.python.org/3/library/tarfile.html#tarfile.TarFile.extractfile
                 sequence_files.append(sequence_file)
-                tar_handles.append(tar_handle)
+                tar_files.append(tar_file)
             except FileNotFoundError as error:
                 print(f"ERROR: {error}", file=sys.stderr)
                 sys.exit(1)
@@ -142,11 +135,6 @@ if __name__ == '__main__':
             )
             sys.exit(1)
 
-    # Clean up any open sequence files.
-    for sequence_file in sequence_files:
-        if hasattr(sequence_file, "close"):
-            sequence_file.close()
-
-    # Clean up any open tarballs.
-    for tar_handle in tar_handles:
-        tar_handle.close()
+    # Clean up temporary directory and files that came from a tarball.
+    for tar_file in tar_files:
+        tar_file.close()

@@ -52,13 +52,20 @@ ehthumbs.db
 Thumbs.db
 *~
 
+# IDE generated files #
+######################
+.vscode/
+
 narratives/*pdf
 
 
 # metadata / new seqs scripts
-scripts/developer_scripts/inputs_new_sequences/
-scripts/developer_scripts/output_files_parse_metadata/
-scripts/developer_scripts/outputs_new_sequences/
+scripts/curate_metadata/inputs_new_sequences/
+scripts/curate_metadata/output_curate_metadata/
+scripts/curate_metadata/outputs_new_sequences/
+scripts/curate_metadata/config_curate_metadata/geoLocationRules.txt
+scripts/curate_metadata/config_curate_metadata/manualAnnotationRules.txt
+
 
 # SLURM log files
 slurm-*.out

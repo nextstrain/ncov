@@ -1,0 +1,54 @@
+screened by S dropout	S dropout
+Not screened by S dropout	Not S dropout
+not screened by S dropout	Not S dropout
+Screened by S Dropout	S dropout
+Not screen by S dropout	Not S dropout
+Not S dropout	Not S dropout
+not screened by S drop out	Not S dropout
+Screened by S dropout	S dropout
+screened by S drop out	S dropout
+screened for S dropout	S dropout
+Screened by S drop out	S dropout
+Screened for S gene Dropout	S dropout
+Screened for S gene dropout	S dropout
+Screened for S Gene Dropout	S dropout
+Screened for S Gene Drop out	S dropout
+Screened for S gene dropout - No S gene dropout	Not S dropout
+Not Screened for S Drop out	Not S dropout
+Not Screened for S Drop out - RT	Not S dropout
+Not Screened for S Gene Dropout	Not S dropout
+Screened for S gene Dropout - Negative for S gene dropout	S dropout
+Screened for S gene dropout - Negative for S gene dropout	S dropout
+Screened for S Gene Dropout - Negative for S Gene Dropout	S dropout
+Screened for S Gene Dropout - Negative for S gene dropout	S dropout
+Screened for S gene dropout - Negative for S dropout	S dropout
+Screened for S Gene Dropout - Negative for S Dropout	S dropout
+Screened for S gene dropout - Negative for S gene has a 69/70 deletion	S dropout
+Screened for S dropout	S dropout
+Screened for Spike gene dropout	S dropout
+Not Screened for S Dropout	Not S dropout
+Not screened for S gene dropout	Not S dropout
+Not Screened for S gene dropout	Not S dropout
+Not Screened for S Gene dropout	Not S dropout
+Not Screened for the S Gene Dropout	Not S dropout
+SGTF screening	S dropout
+Screened for Variants of Concern (VoC) with C19-SPAR-Seq	S dropout
+S gene screened	S dropout
+Returning traveller with S-gene dropout	S dropout
+S-gene dropout	S dropout
+Not S dropout	Not S dropout
+Baseline Surveillance	Not S dropout
+Baseline surveillance	Not S dropout
+SGTF Screening	S dropout
+S-dropout	S dropout
+SGTF screen	S dropout
+SGTF	S dropout
+Active surveillance, N-gene dropout	N dropout
+Active Surveillance, N-gene dropout	N dropout
+Baseline surveillance (random sampling)	Not S dropout
+ICU patient, baseline surveillance	Not S dropout
+Baseline	Not S dropout
+Non-random selection: SGTF	S dropout
+Non-random selection: Non-SGTF	Not S dropout
+screened for SGTF	S dropout
+S drop out	S dropout

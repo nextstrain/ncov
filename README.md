@@ -1,5 +1,5 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/nextstrain/ncov)](https://github.com/nextstrain/ncov/releases)
-[![See recent changes](https://img.shields.io/badge/changelog-See%20recent%20changes-blue)](https://github.com/nextstrain/ncov/blob/master/docs/change_log.md)
+[![See recent changes](https://img.shields.io/badge/changelog-See%20recent%20changes-blue)](https://docs.nextstrain.org/projects/ncov/en/latest/reference/change_log.html)
 
 # About
 
@@ -7,7 +7,7 @@ This repository analyzes viral genomes using [Nextstrain](https://nextstrain.org
 
 We maintain a number of publicly-available builds, visible at [nextstrain.org/ncov](https://nextstrain.org/ncov).
 
-[See our change log for details about backwards-incompatible or breaking changes to the workflow](https://github.com/nextstrain/ncov/blob/master/docs/change_log.md).
+[See our change log for details about backwards-incompatible or breaking changes to the workflow](https://docs.nextstrain.org/projects/ncov/en/latest/reference/change_log.html).
 
 # Resources
 
@@ -30,14 +30,14 @@ We maintain a number of publicly-available builds, visible at [nextstrain.org/nc
 
 ## Reference guides
 
-  - [Metadata field definitions](metadata-fields.md)
-  - [Workflow configuration parameters](configuration.md)
+  - [Metadata field definitions](https://docs.nextstrain.org/projects/ncov/en/latest/reference/metadata-fields.html)
+  - [Workflow configuration parameters](https://docs.nextstrain.org/projects/ncov/en/latest/reference/configuration.html)
 
 ## Download formatted datasets
 
 The hCoV-19 / SARS-CoV-2 genomes were generously shared via GISAID. We gratefully acknowledge the Authors, Originating and Submitting laboratories of the genetic sequence and metadata made available through GISAID on which this research is based.
 
-In order to download the GISAID data to run the analysis yourself, please see [this guide](https://nextstrain.github.io/ncov/data-prep).
+In order to download the GISAID data to run the analysis yourself, please see [this guide](https://docs.nextstrain.org/projects/ncov/en/latest/analysis/data-prep.html).
 > Please note that `data/metadata.tsv` is no longer included as part of this repo. However, we provide continually-updated, pre-formatted metadata & fasta files for download through GISAID.
 
 ## Read previous Situation Reports

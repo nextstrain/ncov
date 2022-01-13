@@ -11,22 +11,19 @@ custom_rules:
 S3_DST_BUCKET: "nextstrain-ncov-private"
 S3_DST_COMPRESSION: "xz"
 S3_DST_ORIGINS: ["gisaid"]
+upload:
+  - build-files
 
-genes: ["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]
+genes: ["ORF1a", "ORF1b", "S", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF7b", "ORF8", "N", "ORF9b"]
 use_nextalign: true
 
-# NOTE for shepherds -- there are commented out inputs here, you can
-# uncomment them to start the pipeline at that stage.
-# E.g. if you uncomment `filtered` then the pipeline
-# will start by downloading that file and proceeding straight to
-# subsampling
+# Note: unaligned sequences are provided as "aligned" sequences to avoid an initial full-DB alignment
+# as we re-align everything after subsampling.
 inputs:
   - name: gisaid
     metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
-    sequences: "s3://nextstrain-ncov-private/sequences.fasta.xz"
-    # aligned: "s3://nextstrain-ncov-private/aligned.fasta.xz"
-    # masked: "s3://nextstrain-ncov-private/masked.fasta.xz"
-    # filtered: "s3://nextstrain-ncov-private/filtered.fasta.xz"
+    aligned: "s3://nextstrain-ncov-private/sequences.fasta.xz"
+    skip_sanitize_metadata: true
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.
@@ -65,61 +62,31 @@ builds:
 filter:
   exclude_where: "division='USA' purpose_of_sequencing='S dropout'"
 
-# if different exposure traits should be used for some builds, specify here
-# otherwise the default exposure in defaults/parameters.yaml will used
-exposure:
-  global:
-    trait: "region"
-    exposure: "region_exposure"
-
-  africa:
-    trait: "country"
-    exposure: "country_exposure"
-
-  asia:
-    trait: "country"
-    exposure: "country_exposure"
-
-  europe:
-    trait: "country"
-    exposure: "country_exposure"
-
-  south-america:
-    trait: "country"
-    exposure: "country_exposure"
-
-  north-america:
-    trait: "division"
-    exposure: "division_exposure"
-
-  oceania:
-    trait: "division"
-    exposure: "division_exposure"
 
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
 traits:
   global:
     sampling_bias_correction: 2.5
-    columns: ["region_exposure"]
+    columns: ["region"]
   europe:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure"]
+    columns: ["country"]
   africa:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure"]
+    columns: ["country"]
   asia:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure"]
+    columns: ["country"]
   south-america:
     sampling_bias_correction: 2.5
-    columns: ["country_exposure"]
+    columns: ["country"]
   north-america:
     sampling_bias_correction: 2.5
-    columns: ["division_exposure"]
+    columns: ["division"]
   oceania:
     sampling_bias_correction: 2.5
-    columns: ["division_exposure"]
+    columns: ["division"]
 
 files:
   description: "nextstrain_profiles/nextstrain-gisaid/nextstrain_description.md"
@@ -144,9 +111,6 @@ subsampling:
       max_sequences: 600
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "region_late"
 
     region_late:
       group_by: "division year month"
@@ -159,9 +123,6 @@ subsampling:
       max_sequences: 1000
       exclude: "--exclude-where 'region={region}'"
       sampling_scheme: "--probabilistic-sampling"
-      priorities:
-        type: "proximity"
-        focus: "region_late"
 
   # Custom subsampling logic for global region.
   nextstrain_region_global:
@@ -242,9 +203,6 @@ subsampling:
       max_sequences: 1000
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "region_late"
     # Focal samples for region
     region_early:
       group_by: "country year month"
@@ -257,9 +215,6 @@ subsampling:
       max_sequences: 500
       sampling_scheme: "--probabilistic-sampling"
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "region_late"
 
 # Define frequencies parameters.
 frequencies:

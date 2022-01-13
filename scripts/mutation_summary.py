@@ -5,8 +5,6 @@ from Bio.SeqIO.FastaIO import SimpleFastaParser
 import numpy as np
 import pandas as pd
 
-
-
 def read_reference(fname, genemap):
     try:
         ref = str(SeqIO.read(fname, 'fasta').seq)
@@ -23,7 +21,7 @@ def read_reference(fname, genemap):
             start = int(entries[3])
             end = int(entries[4])
             strand = entries[6]
-            attributes = {x.split()[0]:' '.join(x.split()[1:]) for x in entries[8].split(';')}
+            attributes = {x.split('=')[0]:'='.join(x.split('=')[1:]) for x in entries[8].split(';')}
             if 'gene_name' in attributes:
                 name = attributes['gene_name'].strip('"')
             else:
@@ -33,22 +31,40 @@ def read_reference(fname, genemap):
 
     return {"nuc":ref, "translations":translations}
 
-def get_differences(s1,s2, ambiguous='N'):
-    s2_rstrip = s2.rstrip('-')
-    s2_lrstrip = s2_rstrip.lstrip('-')
-    s2_trimmed = ambiguous*(len(s2_rstrip) - len(s2_lrstrip)) + s2_lrstrip + ambiguous*(len(s2)-len(s2_rstrip))
-    return [(a,p+1,d) for p, (a,d) in enumerate(zip(s1,s2_trimmed)) if d not in [a, ambiguous]]
+def summarise_differences(ref, query, isAA):
+    """
+    Summarise the differences between a provided reference and a query
+    (both of which are numpy arrays with dtype int8)
+    Returns a string of comma-seperated mutations
+    """
+    # in int8:   A = 65       T = 84      C = 67       G = 71      N = 78       - = 45      X = 88
+    ambiguous = 88 if isAA else 78 # 'X' or 'N'
+    # replace all leading and trailing gaps with the ambiguous character
+    idx_not_gaps = np.where(query!=45)[0] # 45 is '-' (gap)
+    if idx_not_gaps.size:
+        query[0:idx_not_gaps[0]] = ambiguous
+        query[idx_not_gaps[-1]+1:len(query)] = ambiguous
+    else:
+        # the query is nothing but gaps! We don't report any mutations here
+        return ""
+    # sometimes the query length is longer than the reference. In this case we preserve previous behavior
+    # by discarding extra characters in the query
+    if query.size>ref.size:
+        query = query[0:ref.size]
+    # find indicies where the query differs from the reference, and is not ambiguous
+    changes = np.logical_and(ref!=query, query!=ambiguous).nonzero()[0]
+    # save these as a comma-seperated list of <from><base><to>, where the base (position) is 1-based
+    return ",".join([f"{chr(ref[idx])}{idx+1}{chr(query[idx])}" for idx in changes])
+
+def to_numpy_array(input_string):
+    return np.frombuffer(input_string.upper().encode('utf-8'), dtype=np.int8).copy()
 
 def to_mutations(aln_file, ref, aa=False):
     res = {}
-    ambiguous = 'X' if aa else 'N'
-
+    ref_array = to_numpy_array(ref)
     with open_file(aln_file, 'r') as fh:
-        for si, (name, seq) in enumerate(SimpleFastaParser(fh)):
-            if si%1000==0 and si:
-                print(f"sequence {si}")
-            res[name] = ",".join([f"{a}{p}{d}" for a,p,d in get_differences(ref, seq, ambiguous)])
-
+        for name, seq in SimpleFastaParser(fh):
+            res[name] = summarise_differences(ref_array, to_numpy_array(seq), aa)
     return res
 
 if __name__ == '__main__':

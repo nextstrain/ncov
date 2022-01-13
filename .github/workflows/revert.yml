@@ -1,0 +1,40 @@
+name: Revert nextstrain.org/ncov/gisaid or nextstrain.org/ncov/open
+
+on:
+  # Manually triggered using GitHub's UI
+  workflow_dispatch:
+    inputs:
+      data_source_name:
+        description: Name of data source corresponding to the datasets on nextstrain.org/ncov to reset. Options are "gisaid" or "open".
+        required: true
+      build_region_name:
+        description: A single regional dataset on nextstrain.org/ncov/{data_source_name} to reset. Options are "global", "africa", "asia", "europe", "north-america", "oceania", "south-america". If not specified, reverts all. If you'd like to revert multiple regions but not all, run the action multiple times, specifying one region each time.
+        required: true
+        default: all
+      date:
+        description: Date to revert to. A corresponding set of date-stamped datasets must exist on the s3 bucket. Format is YYYY-MM-DD.
+        required: true
+
+env:
+  DATA_SOURCE_NAME: ${{ github.event.inputs.data_source_name }}
+  BUILD_REGION_NAME: ${{ github.event.inputs.build_region_name }}
+  DATE: ${{ github.event.inputs.date }}
+
+jobs:
+  revert:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Setup
+      run: ./scripts/setup-github-workflow
+
+    - name: Revert build
+      run: |
+        ./scripts/revert "$DATA_SOURCE_NAME" "$BUILD_REGION_NAME" "$DATE"
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

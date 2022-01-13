@@ -31,12 +31,8 @@ properties:
         aligned:
           type: string
           minLength: 1
-        masked:
-          type: string
-          minLength: 1
-        filtered:
-          type: string
-          minLength: 1
+        skip_sanitize_metadata:
+          type: boolean
       additionalProperties: false
 
   builds:
@@ -61,3 +57,4 @@ properties:
       type: string
       # A similar pattern is used in the workflow's wildcard constraints.
       pattern: "^[a-zA-Z0-9-]+$"
+

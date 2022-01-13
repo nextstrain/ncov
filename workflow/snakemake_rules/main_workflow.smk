@@ -10,16 +10,24 @@ rule sanitize_metadata:
     log:
         "logs/sanitize_metadata_{origin}.txt"
     params:
+        metadata_id_columns=config["sanitize_metadata"]["metadata_id_columns"],
+        database_id_columns=config["sanitize_metadata"]["database_id_columns"],
         parse_location_field=f"--parse-location-field {config['sanitize_metadata']['parse_location_field']}" if config["sanitize_metadata"].get("parse_location_field") else "",
         rename_fields=config["sanitize_metadata"]["rename_fields"],
         strain_prefixes=config["strip_strain_prefixes"],
+        error_on_duplicate_strains="--error-on-duplicate-strains" if config["sanitize_metadata"].get("error_on_duplicate_strains") else "",
+    resources:
+        mem_mb=2000
     shell:
         """
         python3 scripts/sanitize_metadata.py \
             --metadata {input.metadata} \
+            --metadata-id-columns {params.metadata_id_columns:q} \
+            --database-id-columns {params.database_id_columns:q} \
             {params.parse_location_field} \
             --rename-fields {params.rename_fields:q} \
             --strip-prefixes {params.strain_prefixes:q} \
+            {params.error_on_duplicate_strains} \
             --output {output.metadata} 2>&1 | tee {log}
         """
 
@@ -31,7 +39,10 @@ rule combine_input_metadata:
         Combining metadata files {input.metadata} -> {output.metadata} and adding columns to represent origin
         """
     input:
-        metadata=expand("results/sanitized_metadata_{origin}.tsv.xz", origin=config.get("inputs")),
+        metadata=[
+            _get_path_for_input("metadata", input_name) if input_record.get("skip_sanitize_metadata") else "results/sanitized_metadata_{origin}.tsv.xz".format(origin=input_name)
+            for input_name, input_record in config.get("inputs", {}).items()
+        ],
     output:
         metadata = "results/combined_metadata.tsv.xz"
     params:
@@ -94,123 +105,6 @@ rule align:
             --output-insertions {output.insertions} > {log} 2>&1;
         xz -2 {params.uncompressed_alignment};
         xz -2 {params.outdir}/{params.basename}*.fasta
-        """
-
-rule diagnostic:
-    message: "Scanning metadata {input.metadata} for problematic sequences. Removing sequences with >{params.clock_filter} deviation from the clock and with more than {params.snp_clusters}."
-    input:
-        metadata = "results/sanitized_metadata_{origin}.tsv.xz"
-    output:
-        to_exclude = "results/to-exclude_{origin}.txt"
-    params:
-        clock_filter = 20,
-        snp_clusters = 1
-    log:
-        "logs/diagnostics_{origin}.txt"
-    benchmark:
-        "benchmarks/diagnostics_{origin}.txt"
-    resources:
-        # Memory use scales primarily with the size of the metadata file.
-        mem_mb=12000
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/diagnostic.py \
-            --metadata {input.metadata} \
-            --clock-filter {params.clock_filter} \
-            --snp-clusters {params.snp_clusters} \
-            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
-        """
-
-def _collect_exclusion_files(wildcards):
-    # This rule creates a per-input exclude file for `rule filter`. This file contains one or both of the following:
-    # (1) a config-defined exclude file
-    # (2) a dynamically created file (`rule diagnostic`) which scans the alignment for potential errors
-    # The second file is optional - it may be opted out via config → skip_diagnostics
-    # If the input starting point is "masked" then we also ignore the second file, as the alignment is not available
-    if config["filter"].get(wildcards["origin"], {}).get("skip_diagnostics", False):
-        return [ config["files"]["exclude"] ]
-    if "masked" in config["inputs"][wildcards["origin"]]:
-        return [ config["files"]["exclude"] ]
-    return [ config["files"]["exclude"], f"results/to-exclude_{wildcards['origin']}.txt" ]
-
-rule mask:
-    message:
-        """
-        Mask bases in alignment {input.alignment}
-          - masking {params.mask_from_beginning} from beginning
-          - masking {params.mask_from_end} from end
-          - masking other sites: {params.mask_sites}
-        """
-    input:
-        alignment = lambda w: _get_path_for_input("aligned", w.origin)
-    output:
-        alignment = "results/masked_{origin}.fasta.xz"
-    log:
-        "logs/mask_{origin}.txt"
-    benchmark:
-        "benchmarks/mask_{origin}.txt"
-    params:
-        mask_from_beginning = config["mask"]["mask_from_beginning"],
-        mask_from_end = config["mask"]["mask_from_end"],
-        mask_sites = config["mask"]["mask_sites"]
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 scripts/mask-alignment.py \
-            --alignment {input.alignment} \
-            --mask-from-beginning {params.mask_from_beginning} \
-            --mask-from-end {params.mask_from_end} \
-            --mask-sites {params.mask_sites} \
-            --mask-terminal-gaps \
-            --output /dev/stdout | xz -c -2 > {output.alignment} 2> {log}
-        """
-
-rule filter:
-    message:
-        """
-        Filtering alignment {input.sequences} -> {output.sequences}
-          - excluding strains in {input.exclude}
-          - including strains in {input.include}
-          - min length: {params.min_length}
-        """
-    input:
-        sequences = lambda wildcards: _get_path_for_input("masked", wildcards.origin),
-        metadata = "results/sanitized_metadata_{origin}.tsv.xz",
-        # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
-        include = config["files"]["include"],
-        exclude = _collect_exclusion_files,
-    output:
-        sequences = "results/filtered_{origin}.fasta.xz"
-    log:
-        "logs/filtered_{origin}.txt"
-    benchmark:
-        "benchmarks/filter_{origin}.txt"
-    params:
-        min_length = lambda wildcards: _get_filter_value(wildcards, "min_length"),
-        exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
-        min_date = lambda wildcards: _get_filter_value(wildcards, "min_date"),
-        ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {_get_filter_value(wildcards, 'exclude_ambiguous_dates_by')}" if _get_filter_value(wildcards, "exclude_ambiguous_dates_by") else "",
-        date = (date.today() + datetime.timedelta(days=1)).strftime("%Y-%m-%d"),
-        intermediate_output=lambda wildcards, output: Path(output.sequences).with_suffix("")
-    resources:
-        # Memory use scales primarily with the size of the metadata file.
-        mem_mb=12000
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur filter \
-            --sequences {input.sequences} \
-            --metadata {input.metadata} \
-            --include {input.include} \
-            --max-date {params.date} \
-            --min-date {params.min_date} \
-            {params.ambiguous} \
-            --exclude {input.exclude} \
-            --exclude-where {params.exclude_where}\
-            --min-length {params.min_length} \
-            --output {params.intermediate_output} 2>&1 | tee {log};
-        xz -2 {params.intermediate_output}
         """
 
 def _get_subsampling_settings(wildcards):
@@ -322,10 +216,10 @@ rule combine_sequences_for_subsampling:
     # Similar to rule combine_input_metadata, this rule should only be run if multiple inputs are being used (i.e. multiple origins)
     message:
         """
-        Combine and deduplicate aligned & filtered FASTAs from multiple origins in preparation for subsampling.
+        Combine and deduplicate aligned FASTAs from multiple origins in preparation for subsampling.
         """
     input:
-        lambda w: [_get_path_for_input("filtered", origin) for origin in config.get("inputs", {})]
+        lambda w: [_get_path_for_input("aligned", origin) for origin in config.get("inputs", {})]
     output:
         "results/combined_sequences_for_subsampling.fasta.xz"
     benchmark:
@@ -382,14 +276,11 @@ rule subsample:
          - priority: {params.priority_argument}
         """
     input:
-        sequences = _get_unified_alignment,
         metadata = _get_unified_metadata,
-        sequence_index = rules.index_sequences.output.sequence_index,
         include = config["files"]["include"],
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
-        sequences = "results/{build_name}/sample-{subsample}.fasta",
         strains="results/{build_name}/sample-{subsample}.txt",
     log:
         "logs/subsample_{build_name}_{subsample}.txt"
@@ -408,15 +299,14 @@ rule subsample:
         max_date = _get_specific_subsampling_setting("max_date", optional=True),
         priority_argument = get_priority_argument
     resources:
-        # Memory use scales primarily with the size of the metadata file.
-        mem_mb=12000
+        # Memory use scales with the number of sequences per group * number of groups.
+        # We pin this to a reasonably high value based on Nextstrain production builds.
+        mem_mb=4000
     conda: config["conda_environment"]
     shell:
         """
         augur filter \
-            --sequences {input.sequences} \
             --metadata {input.metadata} \
-            --sequence-index {input.sequence_index} \
             --include {input.include} \
             --exclude {input.exclude} \
             {params.min_date} \
@@ -430,8 +320,35 @@ rule subsample:
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
-            --output {output.sequences} \
             --output-strains {output.strains} 2>&1 | tee {log}
+        """
+
+rule extract_subsampled_sequences:
+    input:
+        metadata = _get_unified_metadata,
+        alignment = _get_unified_alignment,
+        sequence_index = rules.index_sequences.output.sequence_index,
+        strains = "results/{build_name}/sample-{subsample}.txt",
+    output:
+        subsampled_sequences = "results/{build_name}/sample-{subsample}.fasta",
+    log:
+        "logs/extract_subsampled_sequences_{build_name}_{subsample}.txt"
+    benchmark:
+        "benchmarks/extract_subsampled_sequences_{build_name}_{subsample}.txt"
+    resources:
+        # Memory use scales with the number of sequences per group * number of groups.
+        # We pin this to a reasonably high value based on Nextstrain production builds.
+        mem_mb=4000
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --metadata {input.metadata} \
+            --sequences {input.alignment} \
+            --sequence-index {input.sequence_index} \
+            --exclude-all \
+            --include {input.strains} \
+            --output-sequences {output.subsampled_sequences} 2>&1 | tee {log}
         """
 
 rule proximity_score:
@@ -476,12 +393,17 @@ rule priority_score:
         priorities = "results/{build_name}/priorities_{focus}.tsv"
     benchmark:
         "benchmarks/priority_score_{build_name}_{focus}.txt"
+    params:
+        crowding = config["priorities"]["crowding_penalty"],
+        Nweight = 0.003
     conda: config["conda_environment"]
     shell:
         """
         python3 scripts/priorities.py \
             --sequence-index {input.sequence_index} \
             --proximities {input.proximity} \
+            --crowding-penalty {params.crowding} \
+            --Nweight {params.Nweight} \
             --output {output.priorities} 2>&1 | tee {log}
         """
 
@@ -501,7 +423,6 @@ rule combine_samples:
         """
     input:
         sequences=_get_unified_alignment,
-        sequence_index=rules.index_sequences.output.sequence_index,
         metadata=_get_unified_metadata,
         include=_get_subsampled_files,
     output:
@@ -516,7 +437,6 @@ rule combine_samples:
         """
         augur filter \
             --sequences {input.sequences} \
-            --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --exclude-all \
             --include {input.include} \
@@ -564,6 +484,79 @@ rule build_align:
             --output-insertions {output.insertions} > {log} 2>&1
         """
 
+rule diagnostic:
+    message: "Scanning metadata {input.metadata} for problematic sequences. Removing sequences with >{params.clock_filter} deviation from the clock and with more than {params.snp_clusters}."
+    input:
+        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+    output:
+        to_exclude = "results/{build_name}/excluded_by_diagnostics.txt"
+    params:
+        clock_filter = 20,
+        snp_clusters = 1,
+        rare_mutations = 100,
+        clock_plus_rare = 100,
+        skip_inputs_arg=_get_skipped_inputs_for_diagnostic,
+    log:
+        "logs/diagnostics_{build_name}.txt"
+    benchmark:
+        "benchmarks/diagnostics_{build_name}.txt"
+    resources:
+        # Memory use scales primarily with the size of the metadata file.
+        mem_mb=12000
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/diagnostic.py \
+            --metadata {input.metadata} \
+            --clock-filter {params.clock_filter} \
+            --rare-mutations {params.rare_mutations} \
+            --clock-plus-rare {params.clock_plus_rare} \
+            --snp-clusters {params.snp_clusters} \
+            {params.skip_inputs_arg} \
+            --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
+        """
+
+def _collect_exclusion_files(wildcards):
+    # This rule creates a per-input exclude file for `rule filter`. This file contains one or both of the following:
+    # (1) a config-defined exclude file
+    # (2) a dynamically created file (`rule diagnostic`) which scans the alignment for potential errors
+    # The second file is optional - it may be opted out via config → skip_diagnostics
+    if config["filter"].get("skip_diagnostics", False):
+        return [ config["files"]["exclude"] ]
+    return [ config["files"]["exclude"], f"results/{wildcards.build_name}/excluded_by_diagnostics.txt" ]
+
+rule mask:
+    message:
+        """
+        Mask bases in alignment {input.alignment}
+          - masking {params.mask_from_beginning} from beginning
+          - masking {params.mask_from_end} from end
+          - masking other sites: {params.mask_sites}
+        """
+    input:
+        alignment = rules.build_align.output.alignment
+    output:
+        alignment = "results/{build_name}/masked.fasta"
+    log:
+        "logs/mask_{build_name}.txt"
+    benchmark:
+        "benchmarks/mask_{build_name}.txt"
+    params:
+        mask_from_beginning = config["mask"]["mask_from_beginning"],
+        mask_from_end = config["mask"]["mask_from_end"],
+        mask_sites = config["mask"]["mask_sites"]
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/mask-alignment.py \
+            --alignment {input.alignment} \
+            --mask-from-beginning {params.mask_from_beginning} \
+            --mask-from-end {params.mask_from_end} \
+            --mask-sites {params.mask_sites} \
+            --mask-terminal-gaps \
+            --output {output.alignment} 2> {log}
+        """
+
 rule compress_build_align:
     message:
         """Compressing {input.alignment}"""
@@ -582,6 +575,93 @@ rule compress_build_align:
         xz -c {input} > {output} 2> {log}
         """
 
+rule index:
+    message:
+        """
+        Index sequence composition.
+        """
+    input:
+        sequences = "results/{build_name}/masked.fasta"
+    output:
+        sequence_index = "results/{build_name}/sequence_index.tsv",
+    log:
+        "logs/index_sequences_{build_name}.txt"
+    benchmark:
+        "benchmarks/index_sequences_{build_name}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur index \
+            --sequences {input.sequences} \
+            --output {output.sequence_index} 2>&1 | tee {log}
+        """
+
+rule annotate_metadata_with_index:
+    input:
+        metadata="results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        sequence_index = "results/{build_name}/sequence_index.tsv",
+    output:
+        metadata="results/{build_name}/metadata_with_index.tsv",
+    log:
+        "logs/annotate_metadata_with_index_{build_name}.txt",
+    benchmark:
+        "benchmarks/annotate_metadata_with_index_{build_name}.txt",
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/annotate_metadata_with_index.py \
+            --metadata {input.metadata} \
+            --sequence-index {input.sequence_index} \
+            --output {output.metadata}
+        """
+
+rule filter:
+    message:
+        """
+        Filtering alignment {input.sequences} -> {output.sequences}
+          - excluding strains in {input.exclude}
+          - including strains in {input.include}
+          - min length: {params.min_length_query}
+        """
+    input:
+        sequences = "results/{build_name}/masked.fasta",
+        metadata = "results/{build_name}/metadata_with_index.tsv",
+        # TODO - currently the include / exclude files are not input (origin) specific, but this is possible if we want
+        include = config["files"]["include"],
+        exclude = _collect_exclusion_files,
+    output:
+        sequences = "results/{build_name}/filtered.fasta",
+        filter_log = "results/{build_name}/filtered_log.tsv",
+    log:
+        "logs/filtered_{build_name}.txt"
+    benchmark:
+        "benchmarks/filter_{build_name}.txt"
+    params:
+        min_length_query = _get_filter_min_length_query,
+        exclude_where = lambda wildcards: _get_filter_value(wildcards, "exclude_where"),
+        min_date = lambda wildcards: _get_filter_value(wildcards, "min_date"),
+        ambiguous = lambda wildcards: f"--exclude-ambiguous-dates-by {_get_filter_value(wildcards, 'exclude_ambiguous_dates_by')}" if _get_filter_value(wildcards, "exclude_ambiguous_dates_by") else "",
+        date = (date.today() + datetime.timedelta(days=1)).strftime("%Y-%m-%d"),
+    resources:
+        # Memory use scales primarily with the size of the metadata file.
+        mem_mb=500
+    conda: config["conda_environment"]
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --include {input.include} \
+            {params.min_length_query} \
+            --max-date {params.date} \
+            --min-date {params.min_date} \
+            {params.ambiguous} \
+            --exclude {input.exclude} \
+            --exclude-where {params.exclude_where}\
+            --output {output.sequences} \
+            --output-log {output.filter_log} 2>&1 | tee {log};
+        """
+
 if "run_pangolin" in config and config["run_pangolin"]:
     rule run_pangolin:
         message:
@@ -590,7 +670,7 @@ if "run_pangolin" in config and config["run_pangolin"]:
             Please remember to update your installation of pangolin regularly to ensure the most up-to-date classifications.
             """
         input:
-            alignment = rules.build_align.output.alignment,
+            alignment = "results/{build_name}/aligned.fasta",
         output:
             lineages = "results/{build_name}/pangolineages.csv",
         params:
@@ -661,11 +741,12 @@ rule adjust_metadata_regions:
 rule tree:
     message: "Building tree"
     input:
-        alignment = rules.build_align.output.alignment
+        alignment = "results/{build_name}/filtered.fasta",
     output:
         tree = "results/{build_name}/tree_raw.nwk"
     params:
-        args = lambda w: config["tree"].get("tree-builder-args","") if "tree" in config else ""
+        args = lambda w: config["tree"].get("tree-builder-args","") if "tree" in config else "",
+        exclude_sites = lambda w: f"--exclude-sites {config['files']['sites_to_mask']}" if "sites_to_mask" in config["files"] else ""
     log:
         "logs/tree_{build_name}.txt"
     benchmark:
@@ -682,6 +763,7 @@ rule tree:
         augur tree \
             --alignment {input.alignment} \
             --tree-builder-args {params.args} \
+            {params.exclude_sites} \
             --output {output.tree} \
             --nthreads {threads} 2>&1 | tee {log}
         """
@@ -696,7 +778,7 @@ rule refine:
         """
     input:
         tree = rules.tree.output.tree,
-        alignment = rules.build_align.output.alignment,
+        alignment = "results/{build_name}/filtered.fasta",
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         tree = "results/{build_name}/tree.nwk",
@@ -751,7 +833,7 @@ rule ancestral:
         """
     input:
         tree = rules.refine.output.tree,
-        alignment = rules.build_align.output.alignment
+        alignment = "results/{build_name}/aligned.fasta",
     output:
         node_data = "results/{build_name}/nt_muts.json"
     log:
@@ -780,34 +862,10 @@ rule translate:
     message: "Translating amino acid sequences"
     input:
         tree = rules.refine.output.tree,
-        node_data = rules.ancestral.output.node_data,
-        reference = config["files"]["reference"]
+        translations = lambda w: rules.build_align.output.translations,
+        reference = config["files"]["reference"],
     output:
-        node_data = "results/{build_name}/aa_muts.json"
-    log:
-        "logs/translate_{build_name}.txt"
-    benchmark:
-        "benchmarks/translate_{build_name}.txt"
-    resources:
-        # Memory use scales primarily with size of the node data.
-        mem_mb=lambda wildcards, input: 3 * int(input.node_data.size / 1024 / 1024)
-    conda: config["conda_environment"]
-    shell:
-        """
-        augur translate \
-            --tree {input.tree} \
-            --ancestral-sequences {input.node_data} \
-            --reference-sequence {input.reference} \
-            --output-node-data {output.node_data} 2>&1 | tee {log}
-        """
-
-rule aa_muts_explicit:
-    message: "Translating amino acid sequences"
-    input:
-        tree = rules.refine.output.tree,
-        translations = lambda w: rules.build_align.output.translations
-    output:
-        node_data = "results/{build_name}/aa_muts_explicit.json",
+        node_data = "results/{build_name}/aa_muts.json",
         translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}_withInternalNodes.fasta", gene=config.get('genes', ['S']))
     params:
         genes = config.get('genes', 'S')
@@ -825,6 +883,7 @@ rule aa_muts_explicit:
         """
         python3 scripts/explicit_translation.py \
             --tree {input.tree} \
+            --reference {input.reference} \
             --translations {input.translations:q} \
             --genes {params.genes} \
             --output {output.node_data} 2>&1 | tee {log}
@@ -1003,7 +1062,6 @@ rule rename_emerging_lineages:
         with open(output.clade_data, "w") as fh:
             json.dump({"nodes": new_data}, fh, indent=2)
 
-
 rule colors:
     message: "Constructing colors file"
     input:
@@ -1124,6 +1182,57 @@ rule logistic_growth:
             --output {output.node_data} 2>&1 | tee {log}
         """
 
+rule mutational_fitness:
+    input:
+        tree = "results/{build_name}/tree.nwk",
+        alignments = lambda w: rules.translate.output.translations,
+        distance_map = config["files"]["mutational_fitness_distance_map"]
+    output:
+        node_data = "results/{build_name}/mutational_fitness.json"
+    benchmark:
+        "benchmarks/mutational_fitness_{build_name}.txt"
+    conda:
+        config["conda_environment"]
+    log:
+        "logs/mutational_fitness_{build_name}.txt"
+    params:
+        genes = ' '.join(config.get('genes', ['S'])),
+        compare_to = "root",
+        attribute_name = "mutational_fitness"
+    conda:
+        config["conda_environment"],
+    resources:
+        mem_mb=2000
+    shell:
+        """
+        augur distance \
+            --tree {input.tree} \
+            --alignment {input.alignments} \
+            --gene-names {params.genes} \
+            --compare-to {params.compare_to} \
+            --attribute-name {params.attribute_name} \
+            --map {input.distance_map} \
+            --output {output} 2>&1 | tee {log}
+        """
+
+rule calculate_epiweeks:
+    input:
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
+    output:
+        node_data="results/{build_name}/epiweeks.json",
+    benchmark:
+        "benchmarks/calculate_epiweeks_{build_name}.txt",
+    conda:
+        config["conda_environment"],
+    log:
+        "logs/calculate_epiweeks_{build_name}.txt",
+    shell:
+        """
+        python3 scripts/calculate_epiweek.py \
+            --metadata {input.metadata} \
+            --output-node-data {output.node_data} 2>&1 | tee {log}
+        """
+
 def export_title(wildcards):
     # TODO: maybe we could replace this with a config entry for full/human-readable build name?
     location_name = wildcards.build_name
@@ -1157,8 +1266,9 @@ def _get_node_data_by_wildcards(wildcards):
         rules.recency.output.node_data,
         rules.traits.output.node_data,
         rules.logistic_growth.output.node_data,
-        rules.aa_muts_explicit.output.node_data,
-        rules.distances.output.node_data
+        rules.mutational_fitness.output.node_data,
+        rules.distances.output.node_data,
+        rules.calculate_epiweeks.output.node_data
     ]
 
     if "run_pangolin" in config and config["run_pangolin"]:
@@ -1248,37 +1358,10 @@ rule include_hcov19_prefix:
             --output-tip-frequencies {output.tip_frequencies}
         """
 
-rule incorporate_travel_history:
-    message: "Adjusting main auspice JSON to take into account travel history"
-    input:
-        auspice_json = rules.include_hcov19_prefix.output.auspice_json,
-        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
-        lat_longs = config["files"]["lat_longs"]
-    params:
-        sampling = _get_sampling_trait_for_wildcards,
-        exposure = _get_exposure_trait_for_wildcards
-    output:
-        auspice_json = "results/{build_name}/ncov_with_accessions_and_travel_branches.json"
-    log:
-        "logs/incorporate_travel_history_{build_name}.txt"
-    benchmark:
-        "benchmarks/incorporate_travel_history_{build_name}.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        python3 ./scripts/modify-tree-according-to-exposure.py \
-            --input {input.auspice_json} \
-            --colors {input.colors} \
-            --lat-longs {input.lat_longs} \
-            --sampling {params.sampling} \
-            --exposure {params.exposure} \
-            --output {output.auspice_json} 2>&1 | tee {log}
-        """
-
 rule finalize:
     message: "Remove extraneous colorings for main build and move frequencies"
     input:
-        auspice_json = lambda w: rules.include_hcov19_prefix.output.auspice_json if config.get("skip_travel_history_adjustment", False) else rules.incorporate_travel_history.output.auspice_json,
+        auspice_json = lambda w: rules.include_hcov19_prefix.output.auspice_json,
         frequencies = rules.include_hcov19_prefix.output.tip_frequencies,
         root_sequence_json = rules.export.output.root_sequence_json
     output:

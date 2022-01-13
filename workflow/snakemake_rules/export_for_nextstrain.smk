@@ -19,6 +19,10 @@
 #   snakemake --profile nextstrain_profiles/nextstrain-gisaid all_regions
 # to produce the final Auspice files!
 
+import requests
+import json
+from workflow.lib.persistent_dict import PersistentDict, NoSuchEntryError
+
 def get_todays_date():
     from datetime import datetime
     date = datetime.today().strftime('%Y-%m-%d')
@@ -28,8 +32,8 @@ rule all_regions:
     input:
         auspice_json = expand("auspice/{prefix}_{build_name}.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES),
         tip_frequencies_json = expand("auspice/{prefix}_{build_name}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES),
-        dated_auspice_json = expand("auspice/{prefix}_{build_name}_{date}.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=get_todays_date()),
-        dated_tip_frequencies_json = expand("auspice/{prefix}_{build_name}_{date}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=get_todays_date())
+        dated_auspice_json = expand("auspice/{prefix}_{build_name}_{date}.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=config.get("build_date", get_todays_date())),
+        dated_tip_frequencies_json = expand("auspice/{prefix}_{build_name}_{date}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=config.get("build_date", get_todays_date()))
 
 # This cleans out files to allow re-run of 'normal' run with `export`
 # to check lat-longs & orderings
@@ -144,9 +148,6 @@ rule dated_json:
 
 from os import environ
 
-SLACK_TOKEN   = environ["SLACK_TOKEN"]   = config["slack_token"]   or ""
-SLACK_CHANNEL = environ["SLACK_CHANNEL"] = config["slack_channel"] or ""
-
 try:
     deploy_origin = (
         f"from AWS Batch job `{environ['AWS_BATCH_JOB_ID']}`"
@@ -166,26 +167,16 @@ rule deploy:
         deploy_url = config["deploy_url"]
     benchmark:
         "benchmarks/deploy.txt"
-    conda: config["conda_environment"]
-    shell:
-        """
-        nextstrain deploy {params.deploy_url:q} {input:q}
-
-        if [[ -n "$SLACK_TOKEN" && -n "$SLACK_CHANNEL" ]]; then
-            curl https://slack.com/api/chat.postMessage \
-                --header "Authorization: Bearer $SLACK_TOKEN" \
-                --form-string channel="$SLACK_CHANNEL" \
-                --form-string text={params.slack_message:q} \
-                --fail --silent --show-error \
-                --include
-        fi
-        """
-
+    run:
+        shell("nextstrain deploy {params.deploy_url:q} {input:q}")
+        send_slack_message(params.slack_message)
 
 rule upload:
     message: "Uploading intermediate files for specified origins to {params.s3_bucket}"
     input:
         unpack(_get_upload_inputs)
+    output:
+        touch("results/upload.done")
     params:
         s3_bucket = config["S3_DST_BUCKET"],
     log:
@@ -193,33 +184,68 @@ rule upload:
     benchmark:
         "benchmarks/upload.txt"
     run:
+        message = "The following files have been updated (unless they were identical):"
         for remote, local in input.items():
             shell("./scripts/upload-to-s3 {local:q} s3://{params.s3_bucket:q}/{remote:q} | tee -a {log:q}")
+            message += f"\n\ts3://{params.s3_bucket}/{remote}"
+        send_slack_message(message)
 
+storage = PersistentDict("slack")
+
+def send_slack_message(message, broadcast=False):
+    """
+    Sends slack messages notifying us of the pipeline's progress. Messages will be
+    threaded, with the first message being the parent message. Important messages can be
+    broadcast: they will be part of the thread but also sent to the channel.
+    """
+    ## Note: this cannot currently send files, but this would be easy to add.
+    ## Slack docs: https://api.slack.com/methods/files.upload
+
+    if not config.get("slack_token", None) or not config.get("slack_channel", None):
+        print("Cannot send slack message as the config does not define a channel and/or token.")
+        return
+
+    headers = {
+        'Content-type': 'application/json',
+        'authorization': f"Bearer {config['slack_token']}",
+        'Accept': 'application/vnd.github.v3+json'
+    }
+    data = {
+        "channel": config["slack_channel"],
+        "text": message,
+    }
+
+    # if slack_thread_ts has been stored, then there is a parent message, so we thread this messaege
+    try:
+        data["thread_ts"]=str(storage.fetch("slack_thread_ts"))
+        if broadcast:
+            data["reply_broadcast"]=True
+    except NoSuchEntryError:
+        pass
+
+    response = requests.post("https://slack.com/api/chat.postMessage", headers=headers, data=json.dumps(data))
+    response.raise_for_status()
+    storage.store_if_not_present("slack_thread_ts", response.json()["ts"])
+
+# onstart handler will be executed before the workflow starts.
 onstart:
-    slack_message = f"Build {deploy_origin} started."
+    message = [
+        "Pipeline starting which will run the phylogenetics and upload build assets",
+        f"Deployed {deploy_origin}"
+    ]
+    if environ.get("AWS_BATCH_JOB_ID"):
+        message.append(f" (<https://console.aws.amazon.com/batch/v2/home?region=us-east-1#jobs/detail/{environ['AWS_BATCH_JOB_ID']}|AWS console link>)")
+    message.append("Further results will appear in this 🧵.")
+    send_slack_message(". ".join(message))
 
-    if SLACK_TOKEN and SLACK_CHANNEL:
-        shell(f"""
-            curl https://slack.com/api/chat.postMessage \
-                --header "Authorization: Bearer $SLACK_TOKEN" \
-                --form-string channel="$SLACK_CHANNEL" \
-                --form-string text={{slack_message:q}} \
-                --fail --silent --show-error \
-                --include
-        """)
+# onsuccess handler is executed if the workflow finished without error.
+onsuccess:
+    message = "✅ This pipeline has successfully finished 🎉"
+    send_slack_message(message)
+    storage.clear() # clear any persistent storage
 
+# onerror handler is executed if the workflow finished with an error.
 onerror:
-    slack_message = f"Build {deploy_origin} failed."
-
-    if SLACK_TOKEN and SLACK_CHANNEL:
-        shell(f"""
-            curl https://slack.com/api/files.upload \
-                --header "Authorization: Bearer $SLACK_TOKEN" \
-                --form-string channels="$SLACK_CHANNEL" \
-                --form-string initial_comment={{slack_message:q}} \
-                --form file=@{{log:q}} \
-                --form filetype=text \
-                --fail --silent --show-error \
-                --include
-        """)
+    message = "❌ This pipeline has FAILED 😞. Please see linked thread for more information."
+    send_slack_message(message, broadcast=True)
+    storage.clear() # clear any persistent storage

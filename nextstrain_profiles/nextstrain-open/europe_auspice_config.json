@@ -19,6 +19,11 @@
       "type": "categorical"
     },
     {
+      "key": "pango_lineage",
+      "title": "PANGO Lineage",
+      "type": "categorical"
+    },
+    {
       "key": "clade_membership",
       "title": "Clade",
       "type": "categorical"
@@ -38,6 +43,11 @@
       "title": "Current frequency",
       "type": "continuous"
     },
+    {
+      "key": "mutational_fitness",
+      "title": "Mutational fitness",
+      "type": "continuous"
+    },  
     {
       "key": "division",
       "title": "Admin Division",
@@ -61,6 +71,16 @@
     {
       "key": "author",
       "title": "Authors",
+      "type": "categorical"
+    },
+    {
+      "key":"originating_lab",
+      "title": "Originating Lab",
+      "type": "categorical"
+    },
+    {
+      "key": "submitting_lab",
+      "title": "Submitting Lab",
       "type": "categorical"
     },
     {

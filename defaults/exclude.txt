@@ -8015,7 +8015,7 @@ France/HDF-100002988278/2021
 Germany/un-FLI-B.1.351/2021
 
 # Divergence, see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1625040602026000 and following threads
-Angola/CERI-KRISP-K013423/2020 
+Angola/CERI-KRISP-K013423/2020
 Mozambique/CERI-KRISP-K015076/2021
 Mozambique/INS-K011777/2020
 SouthAfrica/NICD-N3577/2021
@@ -10230,6 +10230,669 @@ India/DL-ILBS-17395/2020
 SouthKorea/KDCA3859/2020
 India/MP-NCDC-2509239/2020
 India/AS-1829300261090/2021
+
+# divergence; see https://bedfordlab.slack.com/archives/C0159227X7Y/p1629400240054300
+IND/RGCB-LMMD-17/2020
+IND/RGCB-LMMD-15/2020
+
+# divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1629399228069400
+Sweden/10048381/2020
+Argentina/PAIS-A0394/2020
+
+# Divergence; see https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1629877765090200
+Venezuela/LaG1401/2021
+Indonesia/JK-FKUI-MKIM30/2020
+Indonesia/JK-FKUI-MKIM26/2020
+USA/AZ-TG968459/2020
+Indonesia/JK-FKUI-MKIM33/2020
+USA/AZ-TG968499/2020
+Switzerland/VD-ETHZ-500009/2020
+
+# https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1629990683004500
+KOR/SNUH-34/2020
+
+# likely misdating, Overdivergent, or stops
+Mexico/AGU-InDRE_FB18599_S4467/2020
+Senegal/SC20-504/2020
+NorthMacedonia/19400-k/2021
+NorthMacedonia/20482-k/2021
+NorthMacedonia/42455/2021
+Venezuela/Mir8310/2021
+USA/TX-HMH-MCoV-41496/2020
+
+# Duplicate BioSample additions
+IND/GBRC-362b/2020	# Strain has same BioSample accession (SAMN15941280) as IND/GBRC-362a/2020
+IND/GBRC-366b/2020	# Strain has same BioSample accession (SAMN15941284) as IND/GBRC-366a/2020
+IND/GBRC-368b/2020	# Strain has same BioSample accession (SAMN15941286) as IND/GBRC-368a/2020
+IND/GBRC-374b/2020	# Strain has same BioSample accession (SAMN15941292) as IND/GBRC-374a/2020
+IND/GBRC-376b/2020	# Strain has same BioSample accession (SAMN15941294) as IND/GBRC-376a/2020
+IND/GBRC-377b/2020	# Strain has same BioSample accession (SAMN15941295) as IND/GBRC-377a/2020
+IND/GBRC-380b/2020	# Strain has same BioSample accession (SAMN15941298) as IND/GBRC-380a/2020
+IND/GBRC-382b/2020	# Strain has same BioSample accession (SAMN15941300) as IND/GBRC-382a/2020
+IND/GBRC-383b/2020	# Strain has same BioSample accession (SAMN15941301) as IND/GBRC-383a/2020
+IND/GBRC-384b/2020	# Strain has same BioSample accession (SAMN15941302) as IND/GBRC-384a/2020
+IND/GBRC-386b/2020	# Strain has same BioSample accession (SAMN15941304) as IND/GBRC-386a/2020
+IND/GBRC-389b/2020	# Strain has same BioSample accession (SAMN15941307) as IND/GBRC-389a/2020
+IND/GBRC-390b/2020	# Strain has same BioSample accession (SAMN15941308) as IND/GBRC-390a/2020
+IND/GBRC-391b/2020	# Strain has same BioSample accession (SAMN15941309) as IND/GBRC-391a/2020
+IND/GBRC-392b/2020	# Strain has same BioSample accession (SAMN15941310) as IND/GBRC-392a/2020
+IND/GBRC-394b/2020	# Strain has same BioSample accession (SAMN15941312) as IND/GBRC-394a/2020
+IND/GBRC-395b/2020	# Strain has same BioSample accession (SAMN15941313) as IND/GBRC-395a/2020
+IND/GBRC150b/2020	# Strain has same BioSample accession (SAMN15150574) as IND/GBRC150a/2020
+IND/GBRC169b/2020	# Strain has same BioSample accession (SAMN15232865) as IND/GBRC169a/2020
+IND/GBRC170b/2020	# Strain has same BioSample accession (SAMN15232866) as IND/GBRC170a/2020
+IND/GBRC173b/2020	# Strain has same BioSample accession (SAMN15232869) as IND/GBRC173a/2020
+IND/GBRC174b/2020	# Strain has same BioSample accession (SAMN15232870) as IND/GBRC174a/2020
+IND/GBRC177b/2020	# Strain has same BioSample accession (SAMN15232873) as IND/GBRC177a/2020
+IND/GBRC178b/2020	# Strain has same BioSample accession (SAMN15232874) as IND/GBRC178a/2020
+IND/GBRC179b/2020	# Strain has same BioSample accession (SAMN15232875) as IND/GBRC179a/2020
+IND/GBRC180b/2020	# Strain has same BioSample accession (SAMN15232876) as IND/GBRC180a/2020
+IND/GBRC181b/2020	# Strain has same BioSample accession (SAMN15232877) as IND/GBRC181a/2020
+IND/GBRC182b/2020	# Strain has same BioSample accession (SAMN15232878) as IND/GBRC182a/2020
+IND/GBRC183b/2020	# Strain has same BioSample accession (SAMN15232879) as IND/GBRC183a/2020
+IND/GBRC185b/2020	# Strain has same BioSample accession (SAMN15312003) as IND/GBRC185a/2020
+IND/GBRC186b/2020	# Strain has same BioSample accession (SAMN15312004) as IND/GBRC186a/2020
+IND/GBRC187b/2020	# Strain has same BioSample accession (SAMN15312005) as IND/GBRC187a/2020
+IND/GBRC191b/2020	# Strain has same BioSample accession (SAMN15312009) as IND/GBRC191a/2020
+IND/GBRC193b/2020	# Strain has same BioSample accession (SAMN15312011) as IND/GBRC193a/2020
+IND/GBRC194b/2020	# Strain has same BioSample accession (SAMN15355114) as IND/GBRC194a/2020
+IND/GBRC195b/2020	# Strain has same BioSample accession (SAMN15312012) as IND/GBRC195a/2020
+IND/GBRC201b/2020	# Strain has same BioSample accession (SAMN15312018) as IND/GBRC201a/2020
+IND/GBRC203b/2020	# Strain has same BioSample accession (SAMN15355102) as IND/GBRC203a/2020
+IND/GBRC204b/2020	# Strain has same BioSample accession (SAMN15355103) as IND/GBRC204a/2020
+IND/GBRC205b/2020	# Strain has same BioSample accession (SAMN15355104) as IND/GBRC205a/2020
+IND/GBRC207b/2020	# Strain has same BioSample accession (SAMN15355106) as IND/GBRC207a/2020
+IND/GBRC208b/2020	# Strain has same BioSample accession (SAMN15355107) as IND/GBRC208a/2020
+IND/GBRC209b/2020	# Strain has same BioSample accession (SAMN15355108) as IND/GBRC209a/2020
+IND/GBRC210b/2020	# Strain has same BioSample accession (SAMN15355109) as IND/GBRC210a/2020
+IND/GBRC213b/2020	# Strain has same BioSample accession (SAMN15355112) as IND/GBRC213a/2020
+IND/GBRC214b/2020	# Strain has same BioSample accession (SAMN15355113) as IND/GBRC214a/2020
+IND/GBRC216b/2020	# Strain has same BioSample accession (SAMN15355116) as IND/GBRC216a/2020
+IND/GBRC217b/2020	# Strain has same BioSample accession (SAMN15355117) as IND/GBRC217a/2020
+IND/GBRC218b/2020	# Strain has same BioSample accession (SAMN15355118) as IND/GBRC218a/2020
+IND/GBRC219b/2020	# Strain has same BioSample accession (SAMN15355119) as IND/GBRC219a/2020
+IND/GBRC222b/2020	# Strain has same BioSample accession (SAMN15394126) as IND/GBRC222a/2020
+IND/GBRC223b/2020	# Strain has same BioSample accession (SAMN15394127) as IND/GBRC223a/2020
+IND/GBRC224b/2020	# Strain has same BioSample accession (SAMN15394128) as IND/GBRC224a/2020
+IND/GBRC225b/2020	# Strain has same BioSample accession (SAMN15394129) as IND/GBRC225a/2020
+IND/GBRC228b/2020	# Strain has same BioSample accession (SAMN15394132) as IND/GBRC228a/2020
+IND/GBRC229b/2020	# Strain has same BioSample accession (SAMN15394133) as IND/GBRC229a/2020
+IND/GBRC231b/2020	# Strain has same BioSample accession (SAMN15394135) as IND/GBRC231a/2020
+IND/GBRC232b/2020	# Strain has same BioSample accession (SAMN15394136) as IND/GBRC232a/2020
+IND/GBRC233b/2020	# Strain has same BioSample accession (SAMN15394137) as IND/GBRC233a/2020
+IND/GBRC235b/2020	# Strain has same BioSample accession (SAMN15394139) as IND/GBRC235a/2020
+IND/GBRC237b/2020	# Strain has same BioSample accession (SAMN15394141) as IND/GBRC237a/2020
+IND/GBRC238b/2020	# Strain has same BioSample accession (SAMN15394142) as IND/GBRC238a/2020
+IND/GBRC248b/2020	# Strain has same BioSample accession (SAMN15488410) as IND/GBRC248a/2020
+IND/GBRC249b/2020	# Strain has same BioSample accession (SAMN15488411) as IND/GBRC249a/2020
+IND/GBRC250b/2020	# Strain has same BioSample accession (SAMN15488412) as IND/GBRC250a/2020
+IND/GBRC251b/2020	# Strain has same BioSample accession (SAMN15488413) as IND/GBRC251a/2020
+IND/GBRC253b/2020	# Strain has same BioSample accession (SAMN15488415) as IND/GBRC253a/2020
+IND/GBRC254b/2020	# Strain has same BioSample accession (SAMN15488416) as IND/GBRC254a/2020
+IND/GBRC255b/2020	# Strain has same BioSample accession (SAMN15488417) as IND/GBRC255a/2020
+IND/GBRC256b/2020	# Strain has same BioSample accession (SAMN15488418) as IND/GBRC256a/2020
+IND/GBRC257b/2020	# Strain has same BioSample accession (SAMN15488419) as IND/GBRC257a/2020
+IND/GBRC258b/2020	# Strain has same BioSample accession (SAMN15488420) as IND/GBRC258a/2020
+IND/GBRC261b/2020	# Strain has same BioSample accession (SAMN15488423) as IND/GBRC261a/2020
+IND/GBRC263b/2020	# Strain has same BioSample accession (SAMN15488425) as IND/GBRC263a/2020
+IND/GBRC264b/2020	# Strain has same BioSample accession (SAMN15488426) as IND/GBRC264a/2020
+IND/GBRC267b/2020	# Strain has same BioSample accession (SAMN15488429) as IND/GBRC267a/2020
+IND/GBRC268b/2020	# Strain has same BioSample accession (SAMN15488430) as IND/GBRC268a/2020
+IND/GBRC271b/2020	# Strain has same BioSample accession (SAMN15488433) as IND/GBRC271a/2020
+IND/GBRC272b/2020	# Strain has same BioSample accession (SAMN15488434) as IND/GBRC272a/2020
+IND/GBRC273b/2020	# Strain has same BioSample accession (SAMN15488435) as IND/GBRC273a/2020
+IND/GBRC275b/2020	# Strain has same BioSample accession (SAMN15488437) as IND/GBRC275a/2020
+IND/GBRC277b/2020	# Strain has same BioSample accession (SAMN15488439) as IND/GBRC277a/2020
+IND/GBRC278b/2020	# Strain has same BioSample accession (SAMN15637005) as IND/GBRC278a/2020
+IND/GBRC290b/2020	# Strain has same BioSample accession (SAMN15637017) as IND/GBRC290a/2020
+IND/GBRC292b/2020	# Strain has same BioSample accession (SAMN15637019) as IND/GBRC292a/2020
+IND/GBRC293b/2020	# Strain has same BioSample accession (SAMN15637020) as IND/GBRC293a/2020
+IND/GBRC296b/2020	# Strain has same BioSample accession (SAMN15637023) as IND/GBRC296a/2020
+IND/GBRC298b/2020	# Strain has same BioSample accession (SAMN15637025) as IND/GBRC298a/2020
+IND/GBRC299b/2020	# Strain has same BioSample accession (SAMN15637026) as IND/GBRC299a/2020
+IND/GBRC300b/2020	# Strain has same BioSample accession (SAMN15637027) as IND/GBRC300a/2020
+IND/GBRC301b/2020	# Strain has same BioSample accession (SAMN15637028) as IND/GBRC301a/2020
+IND/GBRC302b/2020	# Strain has same BioSample accession (SAMN15637029) as IND/GBRC302a/2020
+IND/GBRC303b/2020	# Strain has same BioSample accession (SAMN15637030) as IND/GBRC303a/2020
+IND/GBRC304b/2020	# Strain has same BioSample accession (SAMN15637031) as IND/GBRC304a/2020
+IND/GBRC306b/2020	# Strain has same BioSample accession (SAMN15637033) as IND/GBRC306a/2020
+IND/GBRC307b/2020	# Strain has same BioSample accession (SAMN15637034) as IND/GBRC307a/2020
+IND/GBRC309b/2020	# Strain has same BioSample accession (SAMN15637036) as IND/GBRC309a/2020
+IND/GBRC310b/2020	# Strain has same BioSample accession (SAMN15637037) as IND/GBRC310a/2020
+IND/GBRC311b/2020	# Strain has same BioSample accession (SAMN15637038) as IND/GBRC311a/2020
+IND/GBRC312b/2020	# Strain has same BioSample accession (SAMN15637039) as IND/GBRC312a/2020
+IND/GBRC315b/2020	# Strain has same BioSample accession (SAMN15637042) as IND/GBRC315a/2020
+IND/GBRC316b/2020	# Strain has same BioSample accession (SAMN15637043) as IND/GBRC316a/2020
+IND/GBRC318b/2020	# Strain has same BioSample accession (SAMN15637045) as IND/GBRC318a/2020
+IND/GBRC323b/2020	# Strain has same BioSample accession (SAMN15637050) as IND/GBRC323a/2020
+IND/GBRC332b/2020	# Strain has same BioSample accession (SAMN15783379) as IND/GBRC332a/2020
+IND/GBRC334b/2020	# Strain has same BioSample accession (SAMN15783381) as IND/GBRC334a/2020
+IND/GBRC335b/2020	# Strain has same BioSample accession (SAMN15783382) as IND/GBRC335a/2020
+IND/GBRC338b/2020	# Strain has same BioSample accession (SAMN15783385) as IND/GBRC338a/2020
+IND/GBRC342b/2020	# Strain has same BioSample accession (SAMN15903660) as IND/GBRC342a/2020
+IND/GBRC343b/2020	# Strain has same BioSample accession (SAMN15903661) as IND/GBRC343a/2020
+IND/GBRC347b/2020	# Strain has same BioSample accession (SAMN15903665) as IND/GBRC347a/2020
+IND/GBRC350b/2020	# Strain has same BioSample accession (SAMN15903668) as IND/GBRC350a/2020
+IND/GBRC351b/2020	# Strain has same BioSample accession (SAMN15903669) as IND/GBRC351a/2020
+IND/GBRC355b/2020	# Strain has same BioSample accession (SAMN15903673) as IND/GBRC355a/2020
+IND/GBRC361b/2020	# Strain has same BioSample accession (SAMN15903679) as IND/GBRC361a/2020
+IND/GBRC398b/2020	# Strain has same BioSample accession (SAMN16522180) as IND/GBRC398a/2020
+IND/GBRC399b/2020	# Strain has same BioSample accession (SAMN16522181) as IND/GBRC399a/2020
+IND/GBRC400b/2020	# Strain has same BioSample accession (SAMN16522182) as IND/GBRC400a/2020
+IND/GBRC402b/2020	# Strain has same BioSample accession (SAMN16522184) as IND/GBRC402a/2020
+IND/GBRC403b/2020	# Strain has same BioSample accession (SAMN16522185) as IND/GBRC403a/2020
+IND/GBRC404b/2020	# Strain has same BioSample accession (SAMN16522186) as IND/GBRC404a/2020
+IND/GBRC405b/2020	# Strain has same BioSample accession (SAMN16522187) as IND/GBRC405a/2020
+IND/GBRC407b/2020	# Strain has same BioSample accession (SAMN16522189) as IND/GBRC407a/2020
+IND/GBRC408b/2020	# Strain has same BioSample accession (SAMN16522190) as IND/GBRC408a/2020
+IND/GBRC409b/2020	# Strain has same BioSample accession (SAMN16522191) as IND/GBRC409a/2020
+IND/GBRC413b/2020	# Strain has same BioSample accession (SAMN16522195) as IND/GBRC413a/2020
+IND/GBRC416b/2020	# Strain has same BioSample accession (SAMN16522198) as IND/GBRC416a/2020
+IND/GBRC417b/2020	# Strain has same BioSample accession (SAMN16522199) as IND/GBRC417a/2020
+IND/GBRC419b/2020	# Strain has same BioSample accession (SAMN16522201) as IND/GBRC419a/2020
+IND/GBRC422b/2020	# Strain has same BioSample accession (SAMN16522204) as IND/GBRC422a/2020
+IND/GBRC423b/2020	# Strain has same BioSample accession (SAMN16522205) as IND/GBRC423a/2020
+IND/GBRC424b/2020	# Strain has same BioSample accession (SAMN16522206) as IND/GBRC424a/2020
+IND/GBRC426b/2020	# Strain has same BioSample accession (SAMN16522208) as IND/GBRC426a/2020
+IND/GBRC427b/2020	# Strain has same BioSample accession (SAMN16522209) as IND/GBRC427a/2020
+IND/GBRC428b/2020	# Strain has same BioSample accession (SAMN16522210) as IND/GBRC428a/2020
+IND/GBRC430b/2020	# Strain has same BioSample accession (SAMN16522212) as IND/GBRC430a/2020
+IND/GBRC431b/2020	# Strain has same BioSample accession (SAMN16522213) as IND/GBRC431a/2020
+IND/GBRC439b/2020	# Strain has same BioSample accession (SAMN17775807) as IND/GBRC439a/2020
+IND/GBRC445b/2020	# Strain has same BioSample accession (SAMN17775813) as IND/GBRC445a/2020
+IND/GBRC454b/2020	# Strain has same BioSample accession (SAMN17775821) as IND/GBRC453a/2020
+IND/GBRC455b/2020	# Strain has same BioSample accession (SAMN17775822) as IND/GBRC455a/2020
+IND/GBRC458b/2020	# Strain has same BioSample accession (SAMN17775825) as IND/GBRC458a/2020
+TLS/TL26/2020	# Strain has same BioSample accession (SAMN15087311) as AUS/TL26/2020
+USA/UT-04230_2/2020	# Strain has same BioSample accession (SAMN16399183) as USA/UT-04230/2020
+USA/UT-04231_2/2020	# Strain has same BioSample accession (SAMN16399184) as USA/UT-04231/2020
+USA/UT-04232_2/2020	# Strain has same BioSample accession (SAMN16399185) as USA/UT-04232/2020
+USA/UT-04235_2/2020	# Strain has same BioSample accession (SAMN16399186) as USA/UT-04235/2020
+USA/UT-04236_2/2020	# Strain has same BioSample accession (SAMN16399187) as USA/UT-04236/2020
+USA/UT-04262_2/2020	# Strain has same BioSample accession (SAMN16399197) as USA/UT-04262/2020
+USA/UT-04265_2/2020	# Strain has same BioSample accession (SAMN16399199) as USA/UT-04265/2020
+USA/UT-04282_2/2020	# Strain has same BioSample accession (SAMN16399201) as USA/UT-04282/2020
+USA/UT-04287_2/2020	# Strain has same BioSample accession (SAMN16399202) as USA/UT-04287/2020
+USA/UT-04289_2/2020	# Strain has same BioSample accession (SAMN16399203) as USA/UT-04289/2020
+USA/UT-04290_2/2020	# Strain has same BioSample accession (SAMN16399204) as USA/UT-04290/2020
+USA/UT-04301_2/2020	# Strain has same BioSample accession (SAMN16399206) as USA/UT-04301/2020
+USA/UT-04302_2/2020	# Strain has same BioSample accession (SAMN16399207) as USA/UT-04302/2020
+USA/UT-04303_2/2020	# Strain has same BioSample accession (SAMN16399208) as USA/UT-04303/2020
+USA/UT-04306_2/2020	# Strain has same BioSample accession (SAMN16399211) as USA/UT-04306/2020
+USA/UT-04307_2/2020	# Strain has same BioSample accession (SAMN16399212) as USA/UT-04307/2020
+USA/UT-04309_2/2020	# Strain has same BioSample accession (SAMN16399214) as USA/UT-04309/2020
+USA/UT-04310_2/2020	# Strain has same BioSample accession (SAMN16399215) as USA/UT-04310/2020
+USA/UT-04311_2/2020	# Strain has same BioSample accession (SAMN16399216) as USA/UT-04311/2020
+USA/UT-04312_2/2020	# Strain has same BioSample accession (SAMN16399217) as USA/UT-04312/2020
+USA/UT-04313_2/2020	# Strain has same BioSample accession (SAMN16399218) as USA/UT-04313/2020
+USA/UT-04315_2/2020	# Strain has same BioSample accession (SAMN16399220) as USA/UT-04315/2020
+USA/UT-04316_2/2020	# Strain has same BioSample accession (SAMN16399221) as USA/UT-04316/2020
+USA/UT-04319_2/2020	# Strain has same BioSample accession (SAMN16399223) as USA/UT-04319/2020
+USA/UT-04340_2/2020	# Strain has same BioSample accession (SAMN16399228) as USA/UT-04340/2020
+USA/UT-04341_2/2020	# Strain has same BioSample accession (SAMN16399229) as USA/UT-04341/2020
+
+# Divergence (open)
+USA/WV064576/2020
+ISR/hCov-19-Israel-CVL-n-14266/2020
+BRA/RJ-DCVTV507Q/2020
+PAK/JRCGR-KHI20/2020
+MW342706
+USA/DC-DFS-PHL-0079/2020
+VEN/LaG6888/2021
+IRN/COVID19-IRVSH2/2020
+AUS/NT18/2020
+Japan/Donner257/2020
+MW342706
+USA/WV064569/2020
+USA/WV064550/2020
+TUN/TUN-20208274/2020
+
+# Divergence (gisaid)
+India/GJ-INSACOG-GBRC1538/2020
+Israel/CVL_S9-1/2020
+Georgia/Tb-RNGS008/2020
+USA/CA-CDPH1181/2020
+USA/CA-CDPH1185/2020
+Kenya/MAL-5047/2020
+India/WB-IICB-025/2020
+CzechRepublic/VIR-204/2021
+
+# Duplicates
+Brazil/MA-FIOCRUZ-6871-1P/2021 # Isolated from original sample accession ID EPI_ISL_1181371
+Brazil/MA-FIOCRUZ-6873-1P/2021 # Isolated from original sample accession ID EPI_ISL_1181400
+DominicanRepublic/21889-2P/2021 # Accession ID of the original sample EPI_ISL_2274006
+
+# https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1630614123054300
+Ecuador/USFQ-1969/2021|EPI_ISL_3506206
+Ecuador/USFQ-1977/2021|EPI_ISL_3824569
+Ecuador/USFQ-1981/2021|EPI_ISL_3824571
+Ecuador/USFQ-1983/2021|EPI_ISL_3824572
+Ecuador/USFQ-1986/2021|EPI_ISL_3824573
+Ecuador/USFQ-1987/2021|EPI_ISL_3824574
+Ecuador/USFQ-1988/2021|EPI_ISL_3824575
+Ecuador/USFQ-1989/2021|EPI_ISL_3824576
+Ecuador/USFQ-1990/2021|EPI_ISL_3824577
+Ecuador/USFQ-1996/2021|EPI_ISL_3824579
+Ecuador/USFQ-1997/2021|EPI_ISL_3824580
+Ecuador/USFQ-1999/2021|EPI_ISL_3824582
+Ecuador/USFQ-2005/2021|EPI_ISL_3824584
+Ecuador/USFQ-2007/2021|EPI_ISL_3824585
+Ecuador/USFQ-2009/2021|EPI_ISL_3824586
+
+# Duplicates
+Japan/TY28-233-P0/2021 # Accession ID of original sequence is EPI_ISL_3076699.
+Japan/TY28-236-P0/2021 # Accession ID of original sequence is EPI_ISL_3076700.
+Japan/TY28-248-P0/2021 # Accession ID of original sequence is EPI_ISL_3076705.
+Japan/TY28-257-P0/2021 # Accession ID of original sequence is EPI_ISL_3076711.
+Japan/TY28-440-P0/2021 # Accession ID of original sequence is EPI_ISL_3076714.
+Japan/TY28-444-P0/2021 # Accession ID of original sequence is EPI_ISL_3076715.
+Japan/TY28-453-P0/2021 # Accession ID of original sequence is EPI_ISL_3076719.
+Japan/TY28-454-P0/2021 # Accession ID of original sequence is EPI_ISL_3076720.
+Japan/TY28-456-P0/2021 # Accession ID of original sequence is EPI_ISL_3076722.
+Japan/TY28-463-P0/2021 # Accession ID of original sequence is EPI_ISL_3392278.
+Japan/TY28-484-P0/2021 # Accession ID of original sequence is EPI_ISL_3392270.
+Japan/TY28-486-P0/2021 # Accession ID of original sequence is EPI_ISL_3392294.
+
+# Divergence (open)
+OU567856
+IND/P70/2020
+USA/UT-UPHL-210729652440/2020
+IRN/COVID19-IRVSH4/2020
+EGY/EGY_CCHE57357_P_30/2020
+EGY/CCHE57357_Wave_3_A025/2021
+OU475773
+TUN/TUN-20205008/2020
+TUN/TUN-20204107/2020
+TUN/TUN-20203942/2020
+
+# Divergence (gisaid)
+India/MH-NIV-815-3/2020
+Israel/CVL_S7-3/2020
+Morocco/Khouri101/2020
+NorthMacedonia/42061/2021
+NorthMacedonia/42189/2021
+SouthAfrica/VIDA-KRISP-K012173/2021
+India/DL-ILBS-65656/2020
+India/MH-ICMR-NIV-INSACOG-2019nCoV-279084/2020
+Italy/CAM-TIGEM-IZSM-COLLI-14407/2021
+Iran/GRC-T11514/2021
+Botswana/R18B34_BHP_AAB60587/2021
+Botswana/R18B20_BHP_AAB60601/2021
+Botswana/R18B53_BHP_AAB65805/2021
+Botswana/R20B55_BHP_AAB74034/2021
+
+USA/MA-UMASSMED-P006E06/2020
+
+# possible wrong year, divergence too high
+Germany/SN-RKI-I-213505/2020
+USA/TN-VUMC-000296/2020
+
+Netherlands/NoordHolland_2/2020
+GBR/Rem2.5p13.5/2020
+
+USA/TX-HMH-MCoV-40891/2020
+USA/CA-CDPH1184/2020
+
+India/DL-ILBS-19769/2020
+India/DL-ILBS-20926/2020
+India/DL-ILBS-22197/2020
+
+# Divergence
+Angola/CERI-KRISP-K013747/2020
+Angola/CERI-KRISP-K013703/2020
+Bangladesh/BCSIR-NILMRC-758-2/2021
+Angola/CERI-KRISP-K013455/2020
+Bangladesh/IEDCR-OIS-538/2021
+SouthAfrica/NICD-N7514/2021
+SriLanka/aicbu1220/2021
+Turkey/HSGM-E2479/2021
+Italy/VEN-IZSVe-21RS8085-7_TV/2020
+USA/DC-DFS-PHL-01331/2020
+USA/TX-HHD-210729KVI6183/2020
+
+# Large stretches of gaps (often >1000)
+Greece/2017551/2020
+India/GJ-INSACOG-GBRC2186/2020
+Israel/n14284/2020
+Kazakhstan/NRL-KZY-273S/2021
+Netherlands/Dalen_1363624/2020
+Netherlands/Delft_1363424/2020
+Netherlands/Diemen_1363454/2020
+Netherlands/Friesland_27/2020
+Netherlands/Gelderland_58/2020
+Netherlands/Gelderland_68/2020
+Netherlands/Gelderland_107/2020
+Netherlands/Houten_1363498/2020
+Netherlands/Limburg_6/2020
+Netherlands/NA_141/2020
+Netherlands/NA_248/2020
+Netherlands/NA_547/2020
+Netherlands/NA_599/2020
+Netherlands/NA_666/2020
+Netherlands/NoordBrabant_72/2020
+Netherlands/Utrecht_13/2020
+Netherlands/ZuidHolland_166/2020
+Netherlands/ZuidHolland_213/2020
+USA/ID-IBL-637649/2020
+USA/TX-HMH-MCoV-41497/2020
+
+# Divergence
+GBR/Rem1p13.1/2020
+OU471903
+Japan/Donner269/2020
+RUS/940/2020
+ISR/hCov-19-Israel-CVL-n-6731/2020
+Mexico/COA-INER_IMSS_1420/2021
+Mexico/NLE_IBT_IMSS_2853/2021
+SouthAfrica/VIDA-KRISP-K012371/2020
+USA/TX-HMH-MCoV-35115/2020
+USA/TX-HMH-MCoV-40890/2020
+env/India/GJ-GBRC745a/2020
+USA/CA-CDPH1183/2020
+Brazil/PR-L119-CD7789/2020
+Angola/CERI-KRISP-K013702/2020
+USA/MI-CDC-ASC210040894/2021
+Angola/CERI-KRISP-K013702/2020
+
+# Duplicate
+Japan/TY33-456-P0/2021 # Accession ID of original sequence is EPI_ISL_3769591
+USA/OR-OSPHL00133-L2/2021
+USA/OR-OSPHL00373-L2/2021
+USA/OR-OSPHL00503-L2/2021
+USA/OR-OSPHL00592-L2/2021
+USA/OR-OSPHL00723-L2/2021
+USA/OR-OSPHL00748-L2/2021
+USA/OR-OSPHL00749-L2/2021
+USA/OR-OSPHL00857-L2/2021
+USA/OR-OSPHL00995-L2/2021
+USA/OR-OSPHL01081-L2/2021
+USA/OR-OSPHL01083-L2/2021
+USA/OR-OSPHL01084-L2/2021
+USA/OR-OSPHL01085-L2/2021
+USA/OR-OSPHL01093-L2/2021
+USA/OR-OSPHL01188-L2/2021
+USA/OR-OSPHL01208-L2/2020
+USA/OR-OSPHL01274-L2/2021
+
+# first two s1 muts, second two divergent outliers
+SouthAfrica/NICD-N10017/2021
+India/MH-BJMC-6666/2020
+BurkinaFaso/CV1920/2020
+USA/CA-CDPH1182/2020
+
+# large gaps
+Morocco/FMP-197/2021
+
+# Divergence
+IRN/COVID19-IRVSH5/2020
+Nigeria/54gene14/2021
+Nigeria/54gene19R/2021
+Argentina/PAIS-A1026/2020
+USA/CA-CDPH1187/2020
+Argentina/PAIS-A0965/2020
+USA/CA-CDPH1188/2020
+Slovenia/251283/2020
+Brazil/GO-2732R1/2020
+
+# Divergence
+Slovakia/UVZ_PL36_D5_17807/2021
+USA/CA-CDPH1186/2020
+Angola/CERI-KRISP-K013754/2020
+Angola/CERI-KRISP-K013704/2020
+Angola/CERI-KRISP-K013741/2020
+Angola/CERI-KRISP-K013444/2020
+Angola/CERI-KRISP-K013698/2020
+USA/VSP3109/2020
+GBR/DMSOp13.2/2020
+
+# Divergence
+Italy/CAM-TIGEM-IZSM-COLLI-14407/2020
+Aruba/AW-RIVM-55730/2021
+Aruba/AW-RIVM-55752/2021
+Iran/GRC-Esf-11-169/2021
+Italy/CAM-TIGEM-IZSM-COLLI-14403/2020
+GBR/Remp1p13.5/2020
+MYS/5676/2020
+IND/GBRC522b/2020
+GBR/Mediap13.4/2020
+Italy/CAM-TIGEM-IZSM-COLLI-14403/2020
+Finland/HEL4-24/2020
+Maldives/MAV20558/2021
+Ukraine/65-62523/2021
+
+# https://bedfordlab.slack.com/archives/CTZKJC7PZ/p1633945899006000
+Morocco/INH-107/2020
+Morocco/INH-108/2020
+Morocco/INH-109/2020
+bat/Yunnan/RmYN01/2019
+USA/TX-HMH-MCoV-40926/2020
+USA/TX-HMH-MCoV-40929/2020
+Vanuatu/VAN003/2020
+Rwanda/CV2217/2020
+England/MILK-1FF99A3/2020
+England/MILK-1FF99C1/2020
+England/MILK-1FF9A19/2020
+England/MILK-1FF9A37/2020
+England/MILK-1FF9A46/2020
+England/MILK-1FF9A64/2020
+England/MILK-1FF9A82/2020
+England/MILK-1FF9ABF/2020
+England/MILK-1FF9ADD/2020
+England/MILK-1FF9B43/2020
+England/MILK-1FF9B8F/2020
+England/MILK-1FF9BE9/2020
+England/MILK-1FF9D6B/2020
+England/MILK-1FF9DA7/2020
+England/MILK-1FF9DC5/2020
+England/MILK-1FF9DD4/2020
+England/MILK-1FF9DF2/2020
+England/MILK-1FF9FB0/2020
+England/MILK-1FF9FDE/2020
+England/MILK-1FF9FFC/2020
+England/MILK-1FFA034/2020
+England/MILK-1FFA061/2020
+England/MILK-1FFA0BC/2020
+England/MILK-1FFA131/2020
+England/MILK-1FFA17D/2020
+England/MILK-1FFA19B/2020
+England/MILK-1FFA1B9/2020
+England/MILK-1FFA1D7/2020
+England/MILK-1FFA25C/2020
+England/MILK-1FFA2A7/2020
+England/MILK-1FFA30E/2020
+England/MILK-1FFA359/2020
+England/MILK-1FFA438/2020
+England/MILK-1FFA492/2020
+England/MILK-1FFA4B0/2020
+England/MILK-1FFA4ED/2020
+England/MILK-1FFA4FC/2020
+England/MILK-1FFA508/2020
+England/MILK-1FFA526/2020
+Fiji/FJ493/2020
+Rwanda/CV2197/2020
+USA/ND-NDDH-4397/2020
+USA/WV-WVU-WV121217/2020
+Sudan/N6667/2020
+Colombia/DC-Mx263_sarscov2/2020
+Colombia/DC-Mx318_sarscov2/2020
+Morocco/INH-101/2020
+Morocco/INH-105/2020
+
+# Divergence
+CostaRica/04/2020
+Brazil/AM-FIOCRUZ-20891105GG/2020
+Ireland/WX-NVRL-83IRL46210/2021
+GBR/Mediap13.1/2020
+MEX/MEX-46960/2020
+India/GA-CDFD-C61047/2021
+Slovakia/UVZ_PL36_D7_17911/2021
+Thailand/DMSc-02065/2021
+Indonesia/SS-NIHRD-WGS00441/2021
+Rwanda/CV2226/2021
+England/NORT-YYNW7P/2020
+
+USA/NV-NSPHL-LV37723/2021   # Strain has same BioSample accession (SAMN21883524) as USA/NV-NSPHL-LV376977/2021
+USA/NV-NSPHL-LV377376/2021  # Strain has same BioSample accession (SAMN21883525) as USA/NV-NSPHL-LV377325/2021
+USA/NV-NSPHL-LV377432/2021  # Strain has same BioSample accession (SAMN21883525) as USA/NV-NSPHL-LV377325/2021
+USA/NV-NSPHL-LV378600/2021  # Strain has same BioSample accession (SAMN21883549) as USA/NV-NSPHL-LV378473/2021
+USA/NV-NSPHL-LV378909/2021  # Strain has same BioSample accession (SAMN21883566) as USA/NV-NSPHL-LV378851/2021
+USA/NV-NSPHL-LV379937/2021  # Strain has same BioSample accession (SAMN21883588) as USA/NV-NSPHL-LV379916/2021
+
+# Divergence
+Angola/CERI-KRISP-K013700/2020
+Morocco/INH-104/2020
+SouthAfrica/VIDA-KRISP-K012173/2020
+USA/TX-HMH-MCoV-41484/2020
+USA/TX-HMH-MCoV-35042/2020
+Ghana/NMIMR-NTRA-14807/2020
+England/MILK-203B75C/2020
+India/RJ-CCMB-CIA6166/2020
+IND/GBRC327a/2020
+IRQ/Samawa-55/2021
+NLD/210429-986211626590__2019-nCoV/2021
+MEX/MOR-308351/2020
+
+# Divergence
+Indonesia/JA-GS-EIJK-RSRM-0200/2020
+MEX/CMX-242/2020
+
+PER/AFI00058/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00065/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00067/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00084/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00088/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00102/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00108/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00196/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00413/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00772/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00831/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00844/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00846/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00852/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00902/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00937/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI00987/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI01215/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI01342/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFI01608/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+PER/AFIP00034/2021	# Strain has same BioSample accession (SAMN21557915) as PER/AFI00052/2021
+
+# Sample date (oct 2020) and location for Delta seem very unlikely
+Germany/NW-RKI-I-307410/2020
+
+# Issues with under-divergence and missing mutations causing odd phylogenetic placement
+Botswana/R44B83_BHP_000848381/2021
+Botswana/R44B19_BHP_000844008/2021
+
+USA/TN-SPHL-0337/2021	# Strain has same BioSample accession (SAMN21902655) as USA/TN-SPHL-0296/2021
+USA/TN-SPHL-0344/2021	# Strain has same BioSample accession (SAMN21902659) as USA/TN-SPHL-0286/2021
+USA/TN-SPHL-0349/2021	# Strain has same BioSample accession (SAMN21902663) as USA/TN-SPHL-0277/2021
+USA/TN-SPHL-0350/2021	# Strain has same BioSample accession (SAMN21902664) as USA/TN-SPHL-0276/2021
+USA/TN-SPHL-0356/2021	# Strain has same BioSample accession (SAMN21902669) as USA/TN-SPHL-0234/2021
+USA/TN-SPHL-0362/2021	# Strain has same BioSample accession (SAMN21902673) as USA/TN-SPHL-0221/2021
+USA/TN-SPHL-0396/2021	# Strain has same BioSample accession (SAMN21902690) as USA/TN-SPHL-0385/2021
+USA/TN-SPHL-0552/2021	# Strain has same BioSample accession (SAMN21902743) as USA/TN-SPHL-0483/2021
+USA/TN-SPHL-0568/2021	# Strain has same BioSample accession (SAMN21902734) as USA/TN-SPHL-0469/2021
+USA/TN-SPHL-0576/2021	# Strain has same BioSample accession (SAMN21902769) as USA/TN-SPHL-0028/2021
+USA/TN-SPHL-0578/2021	# Strain has same BioSample accession (SAMN21902732) as USA/TN-SPHL-0465/2021
+USA/TN-SPHL-0581/2021	# Strain has same BioSample accession (SAMN22212271) as USA/TN-SPHL-0036/2021
+USA/TN-SPHL-0585/2021	# Strain has same BioSample accession (SAMN22212275) as USA/TN-SPHL-0045/2021
+USA/TN-SPHL-0594/2021	# Strain has same BioSample accession (SAMN22212279) as USA/TN-SPHL-0065/2021
+USA/TN-SPHL-0597/2021	# Strain has same BioSample accession (SAMN22212282) as USA/TN-SPHL-0068/2021
+USA/TN-SPHL-0599/2021	# Strain has same BioSample accession (SAMN22212284) as USA/TN-SPHL-0072/2021
+USA/TN-SPHL-0609/2021	# Strain has same BioSample accession (SAMN22212292) as USA/TN-SPHL-0091/2021
+USA/TN-SPHL-0620/2021	# Strain has same BioSample accession (SAMN22212299) as USA/TN-SPHL-0606/2021
+USA/TN-SPHL-0674/2021	# Strain has same BioSample accession (SAMN22231070) as USA/TN-SPHL-0531/2021
+USA/TN-SPHL-0675/2021	# Strain has same BioSample accession (SAMN22231071) as USA/TN-SPHL-0517/2021
+USA/TN-SPHL-0684/2021	# Strain has same BioSample accession (SAMN21902785) as USA/TN-SPHL-0539/2021
+USA/TN-SPHL-0700/2021	# Strain has same BioSample accession (SAMN21902795) as USA/TN-SPHL-0592/2021
+USA/TN-SPHL-0702/2021	# Strain has same BioSample accession (SAMN21902746) as USA/TN-SPHL-0514/2021
+USA/TN-SPHL-0707/2021	# Strain has same BioSample accession (SAMN21902801) as USA/TN-SPHL-0617/2021
+USA/TN-SPHL-0709/2021	# Strain has same BioSample accession (SAMN21902735) as USA/TN-SPHL-0471/2021
+USA/TN-SPHL-0717/2021	# Strain has same BioSample accession (SAMN21912648) as USA/TN-SPHL-0662/2021
+USA/TN-SPHL-0729/2021	# Strain has same BioSample accession (SAMN21912655) as USA/TN-SPHL-0650/2021
+USA/TN-SPHL-0733/2021	# Strain has same BioSample accession (SAMN21912658) as USA/TN-SPHL-0657/2021
+USA/TN-SPHL-0744/2021	# Strain has same BioSample accession (SAMN21912665) as USA/TN-SPHL-0682/2021
+USA/TN-SPHL-0748/2021	# Strain has same BioSample accession (SAMN21912667) as USA/TN-SPHL-0721/2021
+USA/TN-SPHL-0749/2021	# Strain has same BioSample accession (SAMN21902777) as USA/TN-SPHL-0639/2021
+USA/TN-SPHL-0751/2021	# Strain has same BioSample accession (SAMN21912668) as USA/TN-SPHL-0724/2021
+USA/TN-SPHL-0771/2021	# Strain has same BioSample accession (SAMN22227815) as USA/TN-SPHL-0456/2021
+USA/TN-SPHL-0805/2021	# Strain has same BioSample accession (SAMN21902779) as USA/TN-SPHL-0642/2021
+USA/TN-SPHL-0808/2021	# Strain has same BioSample accession (SAMN21897491) as USA/TN-SPHL-0797/2021
+USA/TN-SPHL-0814/2021	# Strain has same BioSample accession (SAMN21897485) as USA/TN-SPHL-0790/2021
+USA/TN-SPHL-0820/2021	# Strain has same BioSample accession (SAMN21897490) as USA/TN-SPHL-0795/2021
+USA/TN-SPHL-0844/2021	# Strain has same BioSample accession (SAMN21897482) as USA/TN-SPHL-0783/2021
+USA/TN-SPHL-0851/2021	# Strain has same BioSample accession (SAMN22231180) as USA/TN-SPHL-0358/2021
+USA/TN-SPHL-0852/2021	# Strain has same BioSample accession (SAMN21897495) as USA/TN-SPHL-0806/2021
+USA/TN-SPHL-0853/2021	# Strain has same BioSample accession (SAMN22231181) as USA/TN-SPHL-0360/2021
+USA/TN-SPHL-0859/2021	# Strain has same BioSample accession (SAMN21897497) as USA/TN-SPHL-0810/2021
+USA/TN-SPHL-0861/2021	# Strain has same BioSample accession (SAMN21902780) as USA/TN-SPHL-0643/2021
+USA/TN-SPHL-0869/2021	# Strain has same BioSample accession (SAMN21897501) as USA/TN-SPHL-0815/2021
+USA/TN-SPHL-0871/2021	# Strain has same BioSample accession (SAMN21902705) as USA/TN-SPHL-0409/2021
+USA/TN-SPHL-0872/2021	# Strain has same BioSample accession (SAMN22231190) as USA/TN-SPHL-0189/2021
+USA/TN-SPHL-0878/2021	# Strain has same BioSample accession (SAMN22231193) as USA/TN-SPHL-0197/2021
+USA/TN-SPHL-0879/2021	# Strain has same BioSample accession (SAMN22231194) as USA/TN-SPHL-0171/2021
+USA/TN-SPHL-0897/2021	# Strain has same BioSample accession (SAMN22305903) as USA/TN-SPHL-0253/2021
+USA/TN-SPHL-0908/2021	# Strain has same BioSample accession (SAMN21897506) as USA/TN-SPHL-0822/2021
+USA/TN-SPHL-0910/2021	# Strain has same BioSample accession (SAMN22305906) as USA/TN-SPHL-0310/2021
+USA/TN-SPHL-0913/2021	# Strain has same BioSample accession (SAMN22305908) as USA/TN-SPHL-0313/2021
+USA/TN-SPHL-0916/2021	# Strain has same BioSample accession (SAMN22305911) as USA/TN-SPHL-0318/2021
+USA/TN-SPHL-0917/2021	# Strain has same BioSample accession (SAMN21902706) as USA/TN-SPHL-0411/2021
+USA/TN-SPHL-0929/2021	# Strain has same BioSample accession (SAMN21902708) as USA/TN-SPHL-0414/2021
+USA/TN-SPHL-0939/2021	# Strain has same BioSample accession (SAMN21902717) as USA/TN-SPHL-0427/2021
+USA/TN-SPHL-0944/2021	# Strain has same BioSample accession (SAMN21902714) as USA/TN-SPHL-0424/2021
+USA/TN-SPHL-0947/2021	# Strain has same BioSample accession (SAMN21902709) as USA/TN-SPHL-0415/2021
+USA/TN-SPHL-0952/2021	# Strain has same BioSample accession (SAMN21902711) as USA/TN-SPHL-0419/2021
+USA/TN-SPHL-0961/2021	# Strain has same BioSample accession (SAMN22231057) as USA/TN-SPHL-0648/2021
+USA/TN-SPHL-0964/2021	# Strain has same BioSample accession (SAMN22231058) as USA/TN-SPHL-0651/2021
+USA/TN-SPHL-0966/2021	# Strain has same BioSample accession (SAMN22231059) as USA/TN-SPHL-0652/2021
+
+# Misdated Delta sequence
+Indonesia/JA-GS-EIJK-RSRM-0168/2020
+
+# Cell culture isolate Vero E6 passage 1
+Belgium/1-SPL21-p1/2021
+
+# Omicron samples with key mutation sites explicitly missing
+Italy/PIE_IRCC_15865509/2021
+France/PAC-IHU-49242/2021
+France/PAC-IHU-49239/2021
+France/PAC-IHU-49237/2021
+
+# Omicron - samples with concerning lack of mutations in areas often not covered by sequencing, maybe contaminated or reference-filled
+Nigeria/NCDC-NR881/2021
+Austria/KILM2164/2021
+USA/UT-UPHL-211203203813/2021
+India/KA-RF-NCBS-Bengaluru-RFNB-1100/2021
+SouthAfrica/NICD-N21767/2021
+SouthAfrica/NICD-N21744/2021
+SouthAfrica/NICD-N21742/2021
+SouthAfrica/NICD-N21658/2021
+SouthAfrica/Tygerberg_3058/2021
+SouthAfrica/NICD-N21763/2021
+SouthAfrica/Tygerberg_3068/2021
+USA/MD-HP20874-PIDUYWZOWA/2021
+SouthAfrica/NICD-N21717/2021
+SouthAfrica/NICD-N21699/2021
+SouthAfrica/NICD-N21710/2021
+SouthAfrica/NICD-N21723/2021
+SouthAfrica/NICD-N21749/2021
+SouthAfrica/NICD-N21762/2021
+SouthAfrica/Tygerberg_3072/2021
+SouthAfrica/NICD-N21771/2021
+SouthAfrica/NICD-N21824/2021
+Netherlands/NH-RIVM-71075/2021
+
+USA/TN-SPHL-0982/2021	# Strain has same BioSample accession (SAMN22895717) as USA/SPHL-0982/2021
+USA/TN-SPHL-0984/2021	# Strain has same BioSample accession (SAMN22895718) as USA/SPHL-0984/2021
+USA/TN-SPHL-0986/2021	# Strain has same BioSample accession (SAMN22895719) as USA/SPHL-0986/2021
+USA/TN-SPHL-0987/2021	# Strain has same BioSample accession (SAMN22895720) as USA/SPHL-0987/2021
+USA/TN-SPHL-0988/2021	# Strain has same BioSample accession (SAMN22895721) as USA/SPHL-0988/2021
+USA/TN-SPHL-1016/2021	# Strain has same BioSample accession (SAMN22895641) as USA/TN-SPHL-0473/2021
+
+# mis-dated early Delta
+Pakistan/AFIP-B1-S25/2020
 
 # Troublesome Omicron sequence
 Kazakhstan/2870/2021
