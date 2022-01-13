@@ -10230,3 +10230,6 @@ India/DL-ILBS-17395/2020
 SouthKorea/KDCA3859/2020
 India/MP-NCDC-2509239/2020
 India/AS-1829300261090/2021
+
+# Troublesome Omicron sequence
+Kazakhstan/2870/2021
