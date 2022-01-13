@@ -10893,3 +10893,6 @@ USA/TN-SPHL-1016/2021	# Strain has same BioSample accession (SAMN22895641) as US
 
 # mis-dated early Delta
 Pakistan/AFIP-B1-S25/2020
+
+# Troublesome Omicron sequence
+Kazakhstan/2870/2021
