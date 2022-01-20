@@ -583,6 +583,9 @@ def check_travel_history(info, strain_list, travel_pattern, ordering, metadata, 
         if "," in place:
             places = [p.strip() for p in place.split(",")]
             print("Several location names found. Process each individually: " + bold("[" + ", ".join(places) + "]"))
+        elif " and " in place:
+            places = [p.strip() for p in place.split(" and ")]
+            print("Several location names found. Process each individually: " + bold("[" + ", ".join(places) + "]"))
         else:
             places = [place]
 

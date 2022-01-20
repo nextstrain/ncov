@@ -137,3 +137,6 @@ XXX Travel
 Returning Overseas Filipino Travel History: XXX
 Patient traveled from XXX
 Travel history to XXX, Symptomatic (mild)
+The patient recently traveled to XXX
+Foreign (unknown)/Traveled to XXX
+American /Traveled to XXX
