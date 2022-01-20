@@ -100,8 +100,15 @@ def path_or_url(path_or_url, stay_on_remote = False, keep_local = False):
     # fragment (including their leading delimiters) if they're empty.
     schemeless_url = urljoin(url.netloc + url.path, f"?{url.query}#{url.fragment}")
 
-    return SCHEME_REMOTES[url.scheme]()(
+    url = SCHEME_REMOTES[url.scheme]()(
         schemeless_url,
         stay_on_remote = stay_on_remote,
         keep_local     = keep_local,
     )
+
+    # Remote files may be returned as lists with a single item, so we need to
+    # flatten to a scalar.
+    if isinstance(url, list):
+        url = url[0]
+
+    return url
