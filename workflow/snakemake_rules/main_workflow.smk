@@ -493,8 +493,8 @@ rule diagnostic:
     params:
         clock_filter = 20,
         snp_clusters = 1,
-        rare_mutations = 100,
-        clock_plus_rare = 100,
+        reversion_mutations = 3,
+        contamination = 3,
         skip_inputs_arg=_get_skipped_inputs_for_diagnostic,
     log:
         "logs/diagnostics_{build_name}.txt"
@@ -509,8 +509,8 @@ rule diagnostic:
         python3 scripts/diagnostic.py \
             --metadata {input.metadata} \
             --clock-filter {params.clock_filter} \
-            --rare-mutations {params.rare_mutations} \
-            --clock-plus-rare {params.clock_plus_rare} \
+            --reversion-mutations {params.reversion_mutations} \
+            --contamination {params.contamination} \
             --snp-clusters {params.snp_clusters} \
             {params.skip_inputs_arg} \
             --output-exclusion-list {output.to_exclude} 2>&1 | tee {log}
