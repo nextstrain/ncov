@@ -10894,5 +10894,21 @@ USA/TN-SPHL-1016/2021	# Strain has same BioSample accession (SAMN22895641) as US
 # mis-dated early Delta
 Pakistan/AFIP-B1-S25/2020
 
-# Troublesome Omicron sequence
+# Under/over diverged Omicron sequences
+AntiguaandBarbuda/114024/2021
+AntiguaandBarbuda/114031/2021
+Australia/WA-849/2021
+Botswana/R64B32_BHP_931953/2022
+Italy/LOM_Sacco_Var_Q37731/2022
+Kazakhstan/2846/2021
+Kazakhstan/2863/2021
+Kazakhstan/2864/2021
 Kazakhstan/2870/2021
+Mali/CICM23128/2021
+Mauritius/CERI-KRISP-K033295/2021
+Morocco/IPM20386919/2021
+NewZealand/22CV0459/2022
+Poland/92SNR22_wsserze/2022
+SaintVincentandtheGrenadines/114305/2021
+Turkey/HSGM-F16210/2022
+
