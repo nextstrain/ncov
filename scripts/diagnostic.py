@@ -36,8 +36,7 @@ if __name__ == '__main__':
     parser.add_argument("--clock-filter-recent", type=float, default=20, help="maximal allowed deviation from the molecular clock")
     parser.add_argument("--clock-filter", type=float, default=15, help="maximal allowed deviation from the molecular clock")
     parser.add_argument("--snp-clusters", type=int, default=1, help="maximal allowed SNP clusters (as defined by nextclade)")
-    parser.add_argument("--rare-mutations", type=int, default=15, help="maximal allowed rare mutations as defined by nextclade")
-    parser.add_argument("--clock-plus-rare", type=int, default=25, help="maximal allowed rare mutations as defined by nextclade")
+    parser.add_argument("--contamination", type=int, default=7, help="maximal allowed putative contamination (labeled + reversion) mutations as defined by nextclade")
     parser.add_argument("--clade-emergence-window", type=int, default=2, help="number of weeks before official emergence of clade at which sequences can safely be excluded")
     parser.add_argument("--skip-inputs", type=str, nargs="*", help="names of inputs to skip diagnostics for based on presence of metadata fields named like '{input}' with a value of 'yes'")
     parser.add_argument("--output-exclusion-list", type=str, required=True, help="Output to-be-reviewed addition to exclude.txt")
@@ -72,10 +71,15 @@ if __name__ == '__main__':
     else:
         clock_deviation = np.zeros(len(metadata), dtype=bool)
 
-    if "rare_mutations" in metadata.columns:
-        rare_mutations = np.array([float(x) if isfloat(x) else np.nan for x in metadata.rare_mutations])
+    if "reversion_mutations" in metadata.columns:
+        reversion_mutations = np.array([float(x) if isfloat(x) else np.nan for x in metadata.reversion_mutations])
     else:
-        rare_mutations = np.zeros(len(metadata), dtype=bool)
+        reversion_mutations = np.zeros(len(metadata), dtype=bool)
+
+    if "potential_contaminants" in metadata.columns:
+        contaminants = np.array([float(x) if isfloat(x) else np.nan for x in metadata.potential_contaminants])
+    else:
+        contaminants = np.zeros(len(metadata), dtype=bool)
 
     if "snp_clusters" in metadata.columns:
         snp_clusters = np.array([float(x) if isfloat(x) else np.nan for x in metadata.snp_clusters])
@@ -83,14 +87,13 @@ if __name__ == '__main__':
         snp_clusters = np.zeros(len(metadata), dtype=bool)
 
     to_exclude = np.zeros_like(clock_deviation, dtype=bool)
-    to_exclude |= np.abs(clock_deviation)>args.clock_filter_recent
+    to_exclude |= (reversion_mutations+contaminants>args.contamination)
     if check_recency:
+        to_exclude |= np.abs(clock_deviation)>args.clock_filter_recent
         to_exclude |= (np.abs(clock_deviation)>args.clock_filter)&(~recent_sequences)
-        to_exclude |= (rare_mutations>args.rare_mutations)&(~recent_sequences)
-        to_exclude |= (np.abs(clock_deviation+rare_mutations)>args.clock_plus_rare)&(~recent_sequences)
     else:
-        to_exclude |= (rare_mutations>args.rare_mutations)
-        to_exclude |= (np.abs(clock_deviation+rare_mutations)>args.clock_plus_rare)
+        to_exclude |= np.abs(clock_deviation)>args.clock_filter
+
     if check_clade_dates:
         to_exclude |= dates<clade_dates
     to_exclude |= snp_clusters>args.snp_clusters
