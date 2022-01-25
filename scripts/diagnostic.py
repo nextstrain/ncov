@@ -36,8 +36,7 @@ if __name__ == '__main__':
     parser.add_argument("--clock-filter-recent", type=float, default=20, help="maximal allowed deviation from the molecular clock")
     parser.add_argument("--clock-filter", type=float, default=15, help="maximal allowed deviation from the molecular clock")
     parser.add_argument("--snp-clusters", type=int, default=1, help="maximal allowed SNP clusters (as defined by nextclade)")
-    parser.add_argument("--reversion-mutations", type=int, default=5, help="maximal allowed reversion mutations as defined by nextclade")
-    parser.add_argument("--contamination", type=int, default=5, help="maximal allowed putative contamination mutations as defined by nextclade")
+    parser.add_argument("--contamination", type=int, default=7, help="maximal allowed putative contamination (labeled + reversion) mutations as defined by nextclade")
     parser.add_argument("--clade-emergence-window", type=int, default=2, help="number of weeks before official emergence of clade at which sequences can safely be excluded")
     parser.add_argument("--skip-inputs", type=str, nargs="*", help="names of inputs to skip diagnostics for based on presence of metadata fields named like '{input}' with a value of 'yes'")
     parser.add_argument("--output-exclusion-list", type=str, required=True, help="Output to-be-reviewed addition to exclude.txt")
@@ -88,8 +87,7 @@ if __name__ == '__main__':
         snp_clusters = np.zeros(len(metadata), dtype=bool)
 
     to_exclude = np.zeros_like(clock_deviation, dtype=bool)
-    to_exclude |= (reversion_mutations>args.reversion_mutations)
-    to_exclude |= (np.abs(contaminants)>args.contamination)
+    to_exclude |= (reversion_mutations+contaminants>args.contamination)
     if check_recency:
         to_exclude |= np.abs(clock_deviation)>args.clock_filter_recent
         to_exclude |= (np.abs(clock_deviation)>args.clock_filter)&(~recent_sequences)

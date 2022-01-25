@@ -493,8 +493,7 @@ rule diagnostic:
     params:
         clock_filter = 20,
         snp_clusters = 1,
-        reversion_mutations = 3,
-        contamination = 3,
+        contamination = 5,
         skip_inputs_arg=_get_skipped_inputs_for_diagnostic,
     log:
         "logs/diagnostics_{build_name}.txt"
@@ -509,7 +508,6 @@ rule diagnostic:
         python3 scripts/diagnostic.py \
             --metadata {input.metadata} \
             --clock-filter {params.clock_filter} \
-            --reversion-mutations {params.reversion_mutations} \
             --contamination {params.contamination} \
             --snp-clusters {params.snp_clusters} \
             {params.skip_inputs_arg} \
