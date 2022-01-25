@@ -89,7 +89,11 @@ filter:
 # will help reduce the number of genetically identical strains that get chosen,
 # and allows for more diversity represented on the tree.
 priorities:
+  ignore_sequences:
+    - Wuhan/Hu-1/2019
+    - Wuhan-Hu-1/2019
   crowding_penalty: 0.1
+
 
 # Alignment settings
 # Alignments are partitioned into smaller groups to speed up the overall alignment process.

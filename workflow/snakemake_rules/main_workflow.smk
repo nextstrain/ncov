@@ -369,7 +369,7 @@ rule proximity_score:
         "benchmarks/proximity_score_{build_name}_{focus}.txt"
     params:
         chunk_size=10000,
-        ignore_seqs = config['refine']['root']
+        ignore_seqs = config['priorities']['ignore_sequences'],
     resources:
         # Memory scales at ~0.15 MB * chunk_size (e.g., 0.15 MB * 10000 = 1.5GB).
         mem_mb=4000
