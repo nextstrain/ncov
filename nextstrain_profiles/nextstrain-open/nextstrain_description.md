@@ -28,11 +28,11 @@ To maximize the utility and visibility of these generously shared data, [we prov
 ### Subsampled sequences and intermediate files
 
 The files below exist for the `global` and the regional builds (`africa`, `asia`, `europe`, `north-america`, `oceania` and `south-america`).
-The links below refer to the `global` build, substitute `global` with the desired region in the links if necessary
+The links below refer to the `${BUILD}` build, substitute `${BUILD}` with another build name in the links if desired.
 
- * [global/sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.xz)
- * [global/metadata.tsv.xz](https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz)
- * [global/aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.xz)
- * [global auspice tree](https://data.nextstrain.org/files/ncov/open/global/global.json)
- * [global auspice root sequence](https://data.nextstrain.org/files/ncov/open/global/global_root-sequence.json)
- * [global auspice tip frequencies](https://data.nextstrain.org/files/ncov/open/global/global_tip-frequencies.json)
+ * [${BUILD}/sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/${BUILD}/sequences.fasta.xz)
+ * [${BUILD}/metadata.tsv.xz](https://data.nextstrain.org/files/ncov/open/${BUILD}/metadata.tsv.xz)
+ * [${BUILD}/aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/${BUILD}/aligned.fasta.xz)
+ * [${BUILD} auspice tree](https://data.nextstrain.org/files/ncov/open/${BUILD}/${BUILD}.json)
+ * [${BUILD} auspice root sequence](https://data.nextstrain.org/files/ncov/open/${BUILD}/${BUILD}_root-sequence.json)
+ * [${BUILD} auspice tip frequencies](https://data.nextstrain.org/files/ncov/open/${BUILD}/${BUILD}_tip-frequencies.json)

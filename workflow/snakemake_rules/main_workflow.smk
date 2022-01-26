@@ -1277,6 +1277,23 @@ def _get_node_data_by_wildcards(wildcards):
 
     return inputs
 
+rule build_description:
+    message: "Templating build description for Auspice"
+    input:
+        description = lambda w: config["builds"][w.build_name]["description"] if "description" in config["builds"][w.build_name] else config["files"]["description"]
+    output:
+        description = "results/{build_name}/description.md"
+    log:
+        "logs/build_description_{build_name}.txt"
+    conda: config["conda_environment"]
+    shell:
+        """
+        env BUILD={wildcards.build_name:q} \
+            perl -pe 's/\$\{{BUILD\}}/$ENV{{BUILD}}/g' \
+                < {input.description:q} \
+                > {output.description:q}
+        """
+
 rule export:
     message: "Exporting data files for Auspice"
     input:
@@ -1286,7 +1303,7 @@ rule export:
         auspice_config = lambda w: config["builds"][w.build_name]["auspice_config"] if "auspice_config" in config["builds"][w.build_name] else config["files"]["auspice_config"],
         colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"],
-        description = lambda w: config["builds"][w.build_name]["description"] if "description" in config["builds"][w.build_name] else config["files"]["description"]
+        description = rules.build_description.output.description
     output:
         auspice_json = "results/{build_name}/ncov_with_accessions.json",
         root_sequence_json = "results/{build_name}/ncov_with_accessions_root-sequence.json"
