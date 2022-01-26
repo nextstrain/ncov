@@ -1278,7 +1278,7 @@ def _get_node_data_by_wildcards(wildcards):
     return inputs
 
 rule export:
-    message: "Exporting data files for for auspice"
+    message: "Exporting data files for Auspice"
     input:
         tree = rules.refine.output.tree,
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
