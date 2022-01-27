@@ -1,4 +1,5 @@
 UK	United Kingdom
+The United Kingdom	United Kingdom
 US	USA
 Valencia	Valencia ES
 Granada	Granada ES
@@ -11,3 +12,6 @@ Srilanka	Sri Lanka
 United Arab Emirate	United Arab Emirates
 Yucatán	Yucatan
 México	Mexico
+United States of America	USA
+Viet Nam	Vietnam
+Côte d’Ivoire	Côte d'Ivoire
