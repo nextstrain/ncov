@@ -172,7 +172,7 @@ logistic_growth:
 cluster:
   # Require a minimum number of tips to be annotated as a cluster.
   min_tips: 3
-  # Find clusters per division.
+  # Find clusters with the same values in the given column (e.g., division, country, etc.).
   group_by: division
 
 #
