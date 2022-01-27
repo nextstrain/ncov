@@ -1245,6 +1245,7 @@ rule find_clusters:
     log:
         "logs/find_clusters_{build_name}.txt",
     params:
+        min_tips=config["cluster"]["min_tips"],
         group_by=config["cluster"]["group_by"],
     resources:
         mem_mb=12000,
@@ -1254,6 +1255,7 @@ rule find_clusters:
            --tree {input.tree} \
            --metadata {input.metadata} \
            --mutations {input.mutations} \
+           --min-tips {params.min_tips} \
            --group-by {params.group_by} \
            --output {output.clusters}
        """

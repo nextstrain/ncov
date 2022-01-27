@@ -170,6 +170,8 @@ logistic_growth:
 
 # Cluster-specific settings
 cluster:
+  # Require a minimum number of tips to be annotated as a cluster.
+  min_tips: 3
   # Find clusters per division.
   group_by: division
 
