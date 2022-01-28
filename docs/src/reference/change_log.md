@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 31 January 2022: Run Nextclade QC and filtering on the final sample set before building a tree. Nextclade also runs `nextalign` under the hood. Importantly, this enables filtering the final sample set to omit strains with many reversions and/or possible contaminants, significantly improving the quality of omicron trees.
+
 - 29 January 2022: Update "mutational fitness" coloring based on latest results from [Obermeyer et al model](https://www.medrxiv.org/content/10.1101/2021.09.07.21263228v1) via [github.com/broadinstitute/pyro-cov/](https://github.com/broadinstitute/pyro-cov/blob/master/paper/mutations.tsv).
 
 ## v10 (5 January 2022)
