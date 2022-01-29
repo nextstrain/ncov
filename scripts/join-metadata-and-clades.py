@@ -82,7 +82,24 @@ def main():
     args = parse_args()
 
     metadata = pd.read_csv(args.first_file, index_col=METADATA_JOIN_COLUMN_NAME,
-                           sep='\t', low_memory=False, na_filter = False)
+                           sep='\t', low_memory=False)
+
+    # Check for existing annotations in the given metadata. Skip join with
+    # Nextclade QC file, if those annotations already exist and none of the
+    # columns have empty values. In the case where metadata were combined from
+    # different sources with and without annotations, the "clock_deviation"
+    # column will exist but some values will be missing. We handle this case as
+    # if the annotations do not exist at all and reannotate all columns. We
+    # cannot look for missing values across all expected columns as evidence of
+    # incomplete annotations, since a complete annotation by Nextclade will
+    # include missing values for some columns by design.
+    expected_columns = list(column_map.values()) + ["clock_deviation"]
+    existing_annotation_columns = metadata.columns.intersection(expected_columns)
+    if len(existing_annotation_columns) == len(expected_columns):
+        if metadata["clock_deviation"].isnull().sum() == 0:
+            print(f"Metadata file '{args.first_file}' has already been annotated with Nextclade QC columns. Skipping re-annotation.")
+            metadata.to_csv(args.o, sep="\t")
+            return
 
     # Read and rename clade column to be more descriptive
     clades = pd.read_csv(args.second_file, index_col=NEXTCLADE_JOIN_COLUMN_NAME,
