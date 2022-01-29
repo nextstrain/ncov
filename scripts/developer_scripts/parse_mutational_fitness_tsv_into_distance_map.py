@@ -43,15 +43,16 @@ if __name__ == '__main__':
     structured_mapping = {}
     for mutation, delta_log_R in string_mapping.items():
         gene, aa_change = mutation.split(":")
-        from_aa = aa_change[0]
-        to_aa = aa_change[-1]
-        pos_aa = aa_change[1:-1]
-        if gene not in structured_mapping:
-            structured_mapping[gene] = {}
-        if pos_aa not in structured_mapping[gene]:
-            structured_mapping[gene][pos_aa] = []
-        entry = {"from": from_aa, "to": to_aa, "weight": round(delta_log_R, 10)}
-        structured_mapping[gene][pos_aa].append(entry)
+        if "STOP" not in aa_change:
+            from_aa = aa_change[0]
+            to_aa = aa_change[-1]
+            pos_aa = aa_change[1:-1]
+            if gene not in structured_mapping:
+                structured_mapping[gene] = {}
+            if pos_aa not in structured_mapping[gene]:
+                structured_mapping[gene][pos_aa] = []
+            entry = {"from": from_aa, "to": to_aa, "weight": round(delta_log_R, 10)}
+            structured_mapping[gene][pos_aa].append(entry)
 
     # output this mapping as an augur distance compatable JSON
     # include very slightly negative default to prevent heavily diverged artifactual genomes from
