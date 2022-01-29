@@ -10893,6 +10893,7 @@ USA/TN-SPHL-1016/2021	# Strain has same BioSample accession (SAMN22895641) as US
 
 # mis-dated early Delta
 Pakistan/AFIP-B1-S25/2020
+BurkinaFaso/CV1911/2020
 
 # Under/over diverged Omicron sequences
 AntiguaandBarbuda/114024/2021
@@ -10915,3 +10916,5 @@ Poland/PZH-UMB-7046/2022
 
 USA/TN-SPHL-0038/2021	# Strain has same BioSample accession (SAMN21899799) as USA/TN-SPHL-0035/2021
 
+# missing mutations relative to date
+Nigeria/MRL-0S-1546/2021
