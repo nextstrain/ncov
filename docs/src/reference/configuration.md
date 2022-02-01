@@ -670,6 +670,20 @@ priorities:
 * type: string
 * description: Title to provide to `augur export` and display as the title of the analysis in Auspice.
 
+## cluster
+* type: object
+* description: Parameters for clustering of closely related strains
+
+### min_tips
+* type: integer
+* description: Number of tips to require in a polytomy to be considered part of a cluster.
+* default: `3`
+
+### group_by
+* type: string
+* description: Metadata column whose values should be used to determine whether closely related strains should be assigned to the same cluster. For example, the default column ensures that strains belong to the same division to be considered part of the same cluster.
+* default: `division`
+
 ## traits
 * type: object
 * description: Parameters for inference of ancestral traits by `augur traits` with support for default traits and build-specific traits.

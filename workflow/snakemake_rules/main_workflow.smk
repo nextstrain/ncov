@@ -1231,6 +1231,35 @@ rule calculate_epiweeks:
             --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
+rule find_clusters:
+    input:
+        tree="results/{build_name}/tree_raw.nwk",
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
+        mutations="results/{build_name}/nt_muts.json",
+    output:
+        clusters="results/{build_name}/clusters.tsv",
+    benchmark:
+        "benchmarks/find_clusters_{build_name}.txt",
+    conda:
+        config["conda_environment"],
+    log:
+        "logs/find_clusters_{build_name}.txt",
+    params:
+        min_tips=config["cluster"]["min_tips"],
+        group_by=config["cluster"]["group_by"],
+    resources:
+        mem_mb=12000,
+    shell:
+       """
+       python3 scripts/find_clusters.py \
+           --tree {input.tree} \
+           --metadata {input.metadata} \
+           --mutations {input.mutations} \
+           --min-tips {params.min_tips} \
+           --group-by {params.group_by} \
+           --output {output.clusters}
+       """
+
 def export_title(wildcards):
     # TODO: maybe we could replace this with a config entry for full/human-readable build name?
     location_name = wildcards.build_name
@@ -1266,7 +1295,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.logistic_growth.output.node_data,
         rules.mutational_fitness.output.node_data,
         rules.distances.output.node_data,
-        rules.calculate_epiweeks.output.node_data
+        rules.calculate_epiweeks.output.node_data,
     ]
 
     if "run_pangolin" in config and config["run_pangolin"]:
