@@ -1213,6 +1213,39 @@ rule mutational_fitness:
             --output {output} 2>&1 | tee {log}
         """
 
+rule barton_fitness:
+    input:
+        tree = "results/{build_name}/tree.nwk",
+        alignment = rules.build_align.output.alignment,
+        distance_map = "defaults/barton_map.json"
+    output:
+        node_data = "results/{build_name}/barton_fitness.json"
+    benchmark:
+        "benchmarks/barton_fitness_{build_name}.txt"
+    conda:
+        config["conda_environment"]
+    log:
+        "logs/barton_fitness_{build_name}.txt"
+    params:
+        genes = ['nuc'],
+        compare_to = "root",
+        attribute_name = "barton_fitness"
+    conda:
+        config["conda_environment"],
+    resources:
+        mem_mb=2000
+    shell:
+        """
+        augur distance \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --gene-names {params.genes} \
+            --compare-to {params.compare_to} \
+            --attribute-name {params.attribute_name} \
+            --map {input.distance_map} \
+            --output {output} 2>&1 | tee {log}
+        """
+
 rule calculate_epiweeks:
     input:
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
@@ -1265,6 +1298,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.traits.output.node_data,
         rules.logistic_growth.output.node_data,
         rules.mutational_fitness.output.node_data,
+        rules.barton_fitness.output.node_data,
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data
     ]
