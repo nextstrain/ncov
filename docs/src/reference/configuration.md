@@ -209,6 +209,11 @@ Builds support any named attributes that can be referenced by subsampling scheme
 * description: Minimum collection date for strains to include in the analysis used by `augur filter --min-date`. Dates can be numeric floating point values (e.g., `2019.74`) or ISO 8601-style strings (e.g., `2019-10-01`).
 * default: `2019.74`
 
+### skip_diagnostics
+* type: boolean
+* description: Skip filtering by Nextclade quality control metrics like clock rate deviation, number of SNP clusters, possible contaminations, etc.
+* default: `false`
+
 ## frequencies
 ### min_date
 * type: float or string
