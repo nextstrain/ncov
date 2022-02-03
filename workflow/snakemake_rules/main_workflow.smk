@@ -444,19 +444,35 @@ rule combine_samples:
             --output-metadata {output.metadata} 2>&1 | tee {log}
         """
 
+rule prepare_nextclade:
+    message:
+        """
+        Downloading reference files for nextclade (used for alignment and qc).
+        """
+    output:
+        nextclade_dataset = directory("data/sars-cov-2-nextclade-defaults"),
+    params:
+        name = "sars-cov-2",
+    shell:
+        """
+        nextclade dataset get --name {params.name} --output-dir {output.nextclade_dataset}
+        """
+
 rule build_align:
     message:
         """
-        Aligning sequences to {input.reference}
+        Running nextclade QC and aligning sequences to {input.reference}
             - gaps relative to reference are considered real
         """
     input:
         sequences = rules.combine_samples.output.sequences,
         genemap = config["files"]["annotation"],
-        reference = config["files"]["alignment_reference"]
+        reference = config["files"]["alignment_reference"],
+        nextclade_dataset = rules.prepare_nextclade.output.nextclade_dataset,
     output:
         alignment = "results/{build_name}/aligned.fasta",
         insertions = "results/{build_name}/insertions.tsv",
+        nextclade_qc = 'results/{build_name}/nextclade_qc.tsv',
         translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
     params:
         outdir = "results/{build_name}/translations",
@@ -472,22 +488,41 @@ rule build_align:
         mem_mb=3000
     shell:
         """
-        xz -c -d {input.sequences} | nextalign \
-            --jobs={threads} \
+        xz -c -d {input.sequences} |  nextclade run \
+            --jobs {threads} \
+            --input-fasta /dev/stdin \
             --reference {input.reference} \
-            --genemap {input.genemap} \
-            --genes {params.genes} \
-            --sequences /dev/stdin \
+            --input-dataset {input.nextclade_dataset} \
+            --output-tsv {output.nextclade_qc} \
             --output-dir {params.outdir} \
             --output-basename {params.basename} \
             --output-fasta {output.alignment} \
-            --output-insertions {output.insertions} > {log} 2>&1
+            --output-insertions {output.insertions} 2>&1 | tee {log}
+        """
+
+rule join_metadata_and_nextclade_qc:
+    input:
+        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        nextclade_qc = "results/{build_name}/nextclade_qc.tsv",
+    output:
+        metadata = "results/{build_name}/metadata_with_nextclade_qc.tsv",
+    log:
+        "logs/join_metadata_and_nextclade_qc_{build_name}.txt",
+    benchmark:
+        "benchmarks/join_metadata_and_nextclade_qc_{build_name}.txt",
+    conda: config["conda_environment"]
+    shell:
+        """
+        python3 scripts/join-metadata-and-clades.py \
+            {input.metadata} \
+            {input.nextclade_qc} \
+            -o {output.metadata} 2>&1 | tee {log}
         """
 
 rule diagnostic:
     message: "Scanning metadata {input.metadata} for problematic sequences. Removing sequences with >{params.clock_filter} deviation from the clock and with more than {params.snp_clusters}."
     input:
-        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        metadata = "results/{build_name}/metadata_with_nextclade_qc.tsv",
     output:
         to_exclude = "results/{build_name}/excluded_by_diagnostics.txt"
     params:
@@ -596,7 +631,7 @@ rule index:
 
 rule annotate_metadata_with_index:
     input:
-        metadata="results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        metadata="results/{build_name}/metadata_with_nextclade_qc.tsv",
         sequence_index = "results/{build_name}/sequence_index.tsv",
     output:
         metadata="results/{build_name}/metadata_with_index.tsv",
@@ -716,7 +751,7 @@ rule adjust_metadata_regions:
         Adjusting metadata for build '{wildcards.build_name}'
         """
     input:
-        metadata="results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        metadata="results/{build_name}/metadata_with_index.tsv",
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv.xz"
     params:
