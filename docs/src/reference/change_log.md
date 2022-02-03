@@ -7,6 +7,8 @@ We also use this change log to document new features that maintain backward comp
 
 - 29 January 2022: Update "mutational fitness" coloring based on latest results from [Obermeyer et al model](https://www.medrxiv.org/content/10.1101/2021.09.07.21263228v1) via [github.com/broadinstitute/pyro-cov/](https://github.com/broadinstitute/pyro-cov/blob/master/paper/mutations.tsv).
 
+- 26 January 2022: Template build descriptions in export for Auspice by substituting `${BUILD}` in the Markdown with the current build name.
+
 ## v10 (5 January 2022)
 
 - 5 January 2022: Move filter and diagnostic steps after subsampling. For workflows with subsampling that does not depend on priority calculations, these changes allow the workflow to start subsampling from the metadata, skipping sequence alignment of the full input sequences and only looping through these input sequences once per build when subsampled sequences are extracted. To skip the alignment step, define your input sequences with the `aligned` directive. If you use priority-based subsampling, define your input sequences with the `sequences` directive. This reorganization of the workflow causes a breaking change in that the workflow no longer supports input-specific filtering with the `exclude_where`, `min_date`, and `exclude_ambiguous_dates_by` parameters. The workflow continues to support input-specific filtering by `min_length` and skipping of diagnostic filters with `skip_diagnostics`. [PR #814](https://github.com/nextstrain/ncov/pull/814).
