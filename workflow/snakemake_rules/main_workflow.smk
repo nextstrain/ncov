@@ -833,7 +833,8 @@ rule ancestral:
         tree = rules.refine.output.tree,
         alignment = "results/{build_name}/aligned.fasta",
     output:
-        node_data = "results/{build_name}/nt_muts.json"
+        node_data = "results/{build_name}/nt_muts.json",
+        sequences = "results/{build_name}/alignedWithInternal.fasta"
     log:
         "logs/ancestral_{build_name}.txt"
     benchmark:
@@ -852,6 +853,7 @@ rule ancestral:
             --tree {input.tree} \
             --alignment {input.alignment} \
             --output-node-data {output.node_data} \
+            --output-sequences {output.sequences} \
             --inference {params.inference} \
             --infer-ambiguous 2>&1 | tee {log}
         """
@@ -1216,7 +1218,7 @@ rule mutational_fitness:
 rule barton_fitness:
     input:
         tree = "results/{build_name}/tree.nwk",
-        alignment = rules.build_align.output.alignment,
+        alignment = rules.ancestral.output.sequences,
         distance_map = "defaults/barton_map.json"
     output:
         node_data = "results/{build_name}/barton_fitness.json"
@@ -1227,7 +1229,7 @@ rule barton_fitness:
     log:
         "logs/barton_fitness_{build_name}.txt"
     params:
-        genes = ['nuc'],
+        genes = 'nuc',
         compare_to = "root",
         attribute_name = "barton_fitness"
     conda:
