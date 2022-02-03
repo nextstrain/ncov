@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     # Find records with unambiguous dates. These must be complete date-like
     # records in YYYY-MM-DD format.
-    date_pattern = re.compile(r"\d{4}-\d{2}-\d{2}")
+    date_pattern = re.compile(r"^\d{4}-\d{2}-\d{2}$")
     has_complete_date = metadata["date"].astype(str).apply(lambda date: date_pattern.match(date) is not None)
     metadata_with_dates = metadata.loc[has_complete_date, ["date"]].copy()
 
