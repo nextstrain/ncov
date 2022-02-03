@@ -106,7 +106,8 @@ def main():
                          sep='\t', low_memory=False, na_filter = False) \
             .rename(columns=column_map)
 
-    clades = clades[list(column_map.values())]
+    clade_columns = clades.columns.intersection(list(column_map.values()))
+    clades = clades[clade_columns]
 
     # Concatenate on columns
     result = pd.merge(
