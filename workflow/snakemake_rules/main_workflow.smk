@@ -1224,10 +1224,13 @@ rule calculate_epiweeks:
         config["conda_environment"],
     log:
         "logs/calculate_epiweeks_{build_name}.txt",
+    params:
+        metadata_id_columns=config["sanitize_metadata"]["metadata_id_columns"],
     shell:
         """
         python3 scripts/calculate_epiweek.py \
             --metadata {input.metadata} \
+            --metadata-id-columns {params.metadata_id_columns:q} \
             --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
