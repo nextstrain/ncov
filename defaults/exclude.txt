@@ -10895,9 +10895,12 @@ USA/TN-SPHL-1016/2021	# Strain has same BioSample accession (SAMN22895641) as US
 Pakistan/AFIP-B1-S25/2020
 BurkinaFaso/CV1911/2020
 OU857567
+OV104515
 OV104542
 OV114062
+MWI/MLW00073/2020
 MWI/MLW00128/2021
+Slovakia/UVZ_PL37_C8_18063/2021
 
 # Under/over diverged Omicron sequences
 AntiguaandBarbuda/114024/2021
@@ -10921,10 +10924,13 @@ Poland/PZH-UMB-7046/2022
 USA/TN-SPHL-0038/2021	# Strain has same BioSample accession (SAMN21899799) as USA/TN-SPHL-0035/2021
 
 # missing mutations relative to date
-Nigeria/MRL-0S-1546/2021
 CAN/KB-B-001/2021
+CostaRica/CABANA-CR-UCR-INCIENSA-ITV-UBA-Uda-UGA-IMSS-UPC-2039-655629/2021
 EGY/Egypt-Army-Thirdwave352/2021
+Nigeria/MRL-0S-1546/2021
+PAK/JRCGR_SCV-54_IBGE-06/2020
 RUS/VIC01/2021
+USA/LA-CDC-ASC210310458/2021
 
 # missing expected 21L mutations
 SriLanka/aicbu3930/2022
