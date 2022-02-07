@@ -21,7 +21,7 @@ If this genome is shared via [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) th
 
 **Column 5: `date`** (really important!)
 
-This describes the sample collection data (_not_ sequencing date!) and must be formated according as `YYYY-MM-DD`.
+This describes the sample collection date (_not_ sequencing date!) and must be formated according as `YYYY-MM-DD`.
 Our example was collected on Feb 27, 2020 and is therefore represented as "2020-02-27".
 
 You can specify unknown dates or month by replacing the respected values by `XX` (ex: `2013-01-XX` or `2011-XX-XX`) and completely unknown dates can be shown with `20XX-XX-XX` (which does not restrict the sequence to being in the 21st century - they could be earlier).
