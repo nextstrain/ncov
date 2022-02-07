@@ -453,6 +453,7 @@ rule prepare_nextclade:
         nextclade_dataset = directory("data/sars-cov-2-nextclade-defaults"),
     params:
         name = "sars-cov-2",
+    conda: config["conda_environment"]
     shell:
         """
         nextclade dataset get --name {params.name} --output-dir {output.nextclade_dataset}
