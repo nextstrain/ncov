@@ -453,6 +453,7 @@ rule prepare_nextclade:
         nextclade_dataset = directory("data/sars-cov-2-nextclade-defaults"),
     params:
         name = "sars-cov-2",
+    conda: config["conda_environment"]
     shell:
         """
         nextclade dataset get --name {params.name} --output-dir {output.nextclade_dataset}
@@ -1224,8 +1225,6 @@ rule mutational_fitness:
         node_data = "results/{build_name}/mutational_fitness.json"
     benchmark:
         "benchmarks/mutational_fitness_{build_name}.txt"
-    conda:
-        config["conda_environment"]
     log:
         "logs/mutational_fitness_{build_name}.txt"
     params:
