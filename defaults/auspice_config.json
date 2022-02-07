@@ -41,6 +41,21 @@
       "type": "continuous"
     },
     {
+      "key": "reversion_mutations",
+      "title": "Reversion mutations",
+      "type": "continuous"
+    },
+    {
+      "key": "potential_contaminants",
+      "title": "Potential contaminants",
+      "type": "continuous"
+    },
+    {
+      "key": "rare_mutations",
+      "title": "Rare mutations",
+      "type": "continuous"
+    },
+    {
       "key": "location",
       "title": "Location",
       "type": "categorical"
