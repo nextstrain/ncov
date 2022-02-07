@@ -1225,8 +1225,6 @@ rule mutational_fitness:
         node_data = "results/{build_name}/mutational_fitness.json"
     benchmark:
         "benchmarks/mutational_fitness_{build_name}.txt"
-    conda:
-        config["conda_environment"]
     log:
         "logs/mutational_fitness_{build_name}.txt"
     params:
