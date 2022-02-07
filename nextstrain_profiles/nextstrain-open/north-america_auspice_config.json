@@ -113,7 +113,8 @@
     "region",
     "country",
     "division",
-    "host"
+    "host",
+    "authors"
   ],
   "panels": [
     "tree",
