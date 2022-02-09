@@ -11990,6 +11990,7 @@ division	Bijelo Polje	43.0341595	19.7473559
 division	Biobío	-37.3391407	-72.4106825
 division	Bioko Norte	3.6484594	8.7851155
 division	Bioko Sur	3.4245254	8.6646092
+division	Bishkek	42.8765615	74.6070079
 division	Biskra	34.8468008	5.6884562
 division	Bizerte	37.280658	9.863049
 division	Bjelovar-Bilogora County	45.7462142	16.9212335
@@ -12062,6 +12063,7 @@ division	Bucharest	44.4268	26.1025
 division	Budapest	47.482728	19.084269
 division	Bueng Kan	18.3658615	103.6511582
 division	Buenos Aires	-34.6037	-58.3816
+division	Bujumbura	-3.3638125	29.3675028
 division	Bukhara Region	40.229366	63.5470584
 division	Bulawayo	-20.1560599	28.5887063
 division	Bulgaria	42.6073975	25.4856617
@@ -12332,6 +12334,7 @@ division	Djelfa	34.342841	3.217253079090331
 division	Djibouti	11.85677545	42.757784519943655
 division	Dnipro	48.4680221	35.0417711
 division	Dobrich	43.663634	27.900177939598652
+division	Dodoma	-6.1791181	35.7468174
 division	Doha	25.270283	51.52297
 division	Dolakha	27.757778	86.033737
 division	Doľany	49.021347	20.647670680715226
@@ -12423,6 +12426,7 @@ division	Fagge	12.0121343	8.5101018
 division	Faiyum	29.340736999999997	30.61964337571458
 division	Falcon	11.0	-69.833333
 division	Far North	-22.7789702	29.4285175
+division	Faranah	10.3143203	-10.890097
 division	Faroe Islands	62.157709	-6.987672
 division	Fatick	13.9406041	-16.4024021
 division	Federal Capital Territory	8.8311228	7.1724673
@@ -12532,6 +12536,7 @@ division	Greater Accra	5.761619	0.040546
 division	Greece	39	22
 division	Grenada	12.1360374	-61.6904045
 division	Grevena	40.0856892	21.4284718
+division	Grodno Region	53.7021118	25.0711803
 division	Groningen	53.2190652	6.5680077
 division	Guadalajara	20.676026	-103.332671
 division	Guadeloupe	16.2490067	-61.5650444
@@ -12812,6 +12817,7 @@ division	Karongi	-2.17395	29.3667295
 division	Kars Province	40.6076749	43.0948497
 division	Kasane	-17.799239	25.156546
 division	Kashmar	35.2444908	58.464248
+division	Kassala	15.4521163	36.3771099
 division	Kastamonu	41.550202	33.742886
 division	Kastoria	40.5171556	21.2688435
 division	Kasur	31.1175143	74.4478314
@@ -13303,6 +13309,7 @@ division	Nagasaki	32.796447	129.818142
 division	Nairobi	-1.3031689499999999	36.826061224105075
 division	Nakhon Nayok	14.1494474	101.2177459
 division	Nakhon Pathom	13.8918425	100.0165659
+division	Nakhon Phanom	17.3952209	104.7880321
 division	Nakhon Ratchasima	15.2241917	101.9313754
 division	Nakhon Sawan	15.7054772	99.9288481
 division	Nakhon Si Thammarat	8.6772337	99.7309635
@@ -13373,6 +13380,7 @@ division	Nivelles	50.594427	4.331238
 division	Nizhny Novgorod	55.4718033	44.0911594
 division	Nógrád	47.9873616	19.5472495
 division	Nong Bua Lam Phu	17.2022252	102.440702
+division	Nong Bua Lamphu	17.3521009	102.2074566
 division	Nong Khai	17.8812453	102.7490052
 division	Nonthaburi	13.852511	100.522791
 division	Nord Kivu	-0.5645647	28.7061945
@@ -13404,6 +13412,7 @@ division	North Sulawesi	0.950357	124.450132
 division	North Sumatra	2.1923519	99.3812201
 division	North-West	-26.524595	25.625515
 division	North-West CH	47.330017637070874	7.563016736235331
+division	North-West District	-19.3893529	23.267951
 division	North-West ZA	-26.1347819	25.6546729
 division	North Western Province	7.9745867	79.97200526412345
 division	North-Western Zambia	-13.0143658	25.4624692
@@ -13785,6 +13794,7 @@ division	Salta	-25.1076701	-64.3494964
 division	Salto	-31.38889	-57.9608876
 division	Salzburg	47.356774	13.227550
 division	Samara	53.4184	50.4726
+division	Samara Region	53.2128813	50.8914633
 division	Samut Prakan	13.6531651	100.8182578
 division	Samut Prakarn	13.581663	100.721344
 division	Samut Sakhon	13.5708192	100.2585874
@@ -14310,6 +14320,7 @@ division	Vlaanderen	51.096246199999996	4.178629103169916
 division	Vladimir Region	56.0503336	40.6561633
 division	Vogosca	43.901488	18.3433749
 division	Vojvodina	45.4094426	19.976249203097026
+division	Volga Federal District	55.7359267	50.77496358049139
 division	Volgograd Region	49.6048339	44.2903582
 division	Vologda	59.218876	39.893276
 division	Vologda Oblast	60.0391461	43.1215213
@@ -14322,6 +14333,7 @@ division	Vrancea	44.545232	22.598705
 division	Vranje	42.5558337	21.8976673
 division	Vratsa	43.398819	23.715723218470906
 division	Vukovar-Srijem County	45.2283407	18.8590442
+division	Vushtrri	42.8223701	20.9659955
 division	Vysocina Region	49.442644	15.672714
 division	Võru	57.8385759	27.0086505
 division	Waikato	-37.777199	175.528928
@@ -14336,6 +14348,7 @@ division	Wallis and Futuna Islands	-13.289402	-176.204224
 division	Wallonia	50.154533099999995	5.3991821671645575
 division	Waremme	50.692236	5.260861
 division	Warminsko-Mazurskie	53.924679	20.844499
+division	Warwick	32.2684491	-64.8029460512908
 division	Washington	47.183945	-119.950361
 division	Washington DC	38.895650	-77.018707
 division	Waterford	52.2609997	-7.1119081
@@ -14352,6 +14365,7 @@ division	West-Kazakhstan Region	49.5568479	50.2227409
 division	West New Britain	-5.8891465	149.699546
 division	West Nusa Tenggara	-8.7892855	117.146169
 division	West Papua	-1.3842356	132.902528
+division	West Pokot	1.8798607999999999	35.21061300684997
 division	West Region	5.442287638761613	10.663684216690914
 division	West Sulawesi	-2.4974546	119.3918955
 division	West Sumatra	-1.33589025	100.07222762395327

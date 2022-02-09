@@ -141,3 +141,5 @@ Travel history to XXX, Symptomatic (mild)
 The patient recently traveled to XXX
 Foreign (unknown)/Traveled to XXX
 American /Traveled to XXX
+Patient traveled recently to XXX
+Returning Overseas Filipino With History of Travel: XXX
