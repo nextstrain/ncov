@@ -186,7 +186,7 @@ def _get_max_date_for_frequencies(wildcards):
         offset = datetime.timedelta(days=recent_days_to_censor)
 
         return numeric_date(
-            date.today() - offset
+            datetime.date.today() - offset
         )
 
 def _get_upload_inputs(wildcards):
