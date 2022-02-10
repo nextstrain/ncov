@@ -30,6 +30,8 @@ column_map = {
     "qc.snpClusters.status": "QC_snp_clusters",
     "qc.frameShifts.status": "QC_frame_shifts",
     "qc.stopCodons.status": "QC_stop_codons",
+    "qc.overallScore": "QC_overall_score",
+    "qc.overallStatus": "QC_overall_status",
     "frameShifts": "frame_shifts",
     "deletions": "deletions",
     "insertions": "insertions",
