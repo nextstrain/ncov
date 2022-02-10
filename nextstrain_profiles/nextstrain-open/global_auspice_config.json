@@ -114,7 +114,7 @@
     "country",
     "division",
     "host",
-    "authors"
+    "author"
   ],
   "panels": [
     "tree",
