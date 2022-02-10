@@ -6,17 +6,11 @@ The following steps will prepare you to run complete analyses of SARS-CoV-2 data
 1. Setup your Nextstrain environment with Conda
 -----------------------------------------------
 
-The following instructions use `Conda <https://docs.conda.io/en/latest/>`__ to install the tools you’ll need for this tutorial. Conda is a package and environment management system that allows you to install Python and other software into controlled environments without disrupting other software you have installed (e.g., on your computer, your shared cluster, etc.).
+The following instructions use `Conda <https://docs.conda.io/en/latest/>`__ to install the tools you'll need for this tutorial. Conda is a package and environment management system that allows you to install Python and other software into controlled environments without disrupting other software you have installed (e.g., on your computer, your shared cluster, etc.).
 
-.. raw:: html
+.. note::
 
-   <p style="color: #055160; background-color: #cff4fc; border-color: #b6effb; padding: 1em; border-radius: .25rem;">
-
-If you use Microsoft Windows, install the Windows Subsystem for Linux (WSL). Follow instructions to open a new WSL window for your Linux distribution and then run the following commands.
-
-.. raw:: html
-
-   </p>
+   If you use Microsoft Windows, install the Windows Subsystem for Linux (WSL). Follow instructions to open a new WSL window for your Linux distribution and then run the following commands.
 
 Create the Nextstrain environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -28,7 +22,7 @@ Create the Nextstrain environment
    conda update -n base conda
    conda install -n base -c conda-forge mamba
 
-Create a Conda environment named ``nextstrain``. This command will install `Git <https://git-scm.com/>`__, `Snakemake <https://snakemake.readthedocs.io/en/stable/>`__, and `Nextstrain’s full toolkit <https://docs.nextstrain.org/en/latest/install-nextstrain.html>`__, the tools you’ll need to work through this tutorial.
+Create a Conda environment named ``nextstrain``. This command will install `Git <https://git-scm.com/>`__, `Snakemake <https://snakemake.readthedocs.io/en/stable/>`__, and `Nextstrain's full toolkit <https://docs.nextstrain.org/en/latest/install-nextstrain.html>`__, the tools you'll need to work through this tutorial.
 
 .. code:: bash
 
@@ -48,15 +42,9 @@ The final output from the last command should look like this:
 
    Setting default environment to native.
 
-.. raw:: html
+.. warning::
 
-   <p style="color: #212529; background-color: #ffc107; border-color: #b6effb; padding: 1em; border-radius: .25rem;">
-
-If the final output from the last command is Setting default environment to docker., close Docker and run the last command again. The Nextstrain CLI will prefer the Docker environment when it is available, but this tutorial assumes you are running commands in the native environment.
-
-.. raw:: html
-
-   </p>
+   If the final output from the last command is ``Setting default environment to docker.``, close Docker and run the last command again. The Nextstrain CLI will prefer the Docker environment when it is available, but this tutorial assumes you are running commands in the native environment.
 
 Update the Nextstrain environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
