@@ -3,64 +3,20 @@ Setup and installation
 
 The following steps will prepare you to run complete analyses of SARS-CoV-2 data by installing required software and running a simple example workflow.
 
-1. Setup your Nextstrain environment with Conda
------------------------------------------------
+1. Setup your Nextstrain environment
+------------------------------------
 
-The following instructions use `Conda <https://docs.conda.io/en/latest/>`__ to install the tools you'll need for this tutorial. Conda is a package and environment management system that allows you to install Python and other software into controlled environments without disrupting other software you have installed (e.g., on your computer, your shared cluster, etc.).
+Follow instructions to install Nextstrain components :doc:`here <docs.nextstrain.org:install>`.
 
 .. note::
 
-   If you use Microsoft Windows, install the Windows Subsystem for Linux (WSL). Follow instructions to open a new WSL window for your Linux distribution and then run the following commands.
+   If using the :term:`native runtime <docs.nextstrain.org:runtime>`, install these additional packages necessary to run the ncov workflow. Make sure the correct conda environment is activated.
 
-Create the Nextstrain environment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   .. code:: bash
 
-`Install Miniconda with Python 3 for your operating system <https://docs.conda.io/en/latest/miniconda.html>`__, update Conda to the latest version, and install Mamba for faster installation.
+      mamba install -c conda-forge -c bioconda epiweeks nextclade pangolin pangolearn
 
-.. code:: bash
-
-   conda update -n base conda
-   conda install -n base -c conda-forge mamba
-
-Create a Conda environment named ``nextstrain``. This command will install `Git <https://git-scm.com/>`__, `Snakemake <https://snakemake.readthedocs.io/en/stable/>`__, and `Nextstrain's full toolkit <https://docs.nextstrain.org/en/latest/install-nextstrain.html>`__, the tools you'll need to work through this tutorial.
-
-.. code:: bash
-
-   mamba create -n nextstrain -c conda-forge -c bioconda \
-     augur auspice nextstrain-cli nextalign snakemake awscli git pip
-
-Confirm that the installation worked.
-
-.. code:: bash
-
-   conda activate nextstrain
-   nextstrain check-setup --set-default
-
-The final output from the last command should look like this:
-
-.. code:: bash
-
-   Setting default environment to native.
-
-.. warning::
-
-   If the final output from the last command is ``Setting default environment to docker.``, close Docker and run the last command again. The Nextstrain CLI will prefer the Docker environment when it is available, but this tutorial assumes you are running commands in the native environment.
-
-Update the Nextstrain environment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Update your environment regularly to the latest versions of these tools.
-
-.. code:: bash
-
-   # Update Conda and Mamba.
-   mamba update -n base conda mamba
-
-   # Update tools in the Nextstrain environment.
-   conda activate nextstrain
-   mamba update --all -c conda-forge -c bioconda
-
-2. Download the ncov workflow
+1. Download the ncov workflow
 -----------------------------
 
 Download the workflow
