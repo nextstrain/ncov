@@ -3,6 +3,10 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## New features since last version update
+
+- 11 February 2022: Add colors to default Auspice config for Nextclade quality control columns and a filter for overall Nextclade QC status. [PR #861](https://github.com/nextstrain/ncov/pull/861).
+
 ## v11 (3 February 2022)
 
 - Run Nextclade QC and filtering on the final sample set before building a tree. Nextclade also runs `nextalign` under the hood. Importantly, this enables filtering the final sample set to omit strains with many reversions and/or possible contaminants, significantly improving the quality of Omicron trees. [See the original pull request for more details](https://github.com/nextstrain/ncov/pull/842). To disable this filtering by Nextclade quality control metrics, set `skip_diagnostics: true` in [the `filter` section of your build configuration file](https://docs.nextstrain.org/projects/ncov/en/latest/reference/configuration.html#filter).
