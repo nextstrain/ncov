@@ -10955,3 +10955,7 @@ USA/TX-DSHS-14303/2021
 USA/TX-DSHS-14304/2021
 USA/TX-DSHS-14305/2021
 USA/TX-DSHS-14306/2021
+
+# October 2021 dated Omicron sequences from Nigeria - quality is very bad & they have ~78 mutations which is far too many for early Omicron
+Nigeria/NCDC-NR1188/2021
+Nigeria/NCDC-NR1219/2021
