@@ -10900,7 +10900,9 @@ OV104542
 OV114062
 MWI/MLW00073/2020
 MWI/MLW00128/2021
+Slovakia/UVZ_PL36_D11_17986/2021
 Slovakia/UVZ_PL37_C8_18063/2021
+Slovakia/UVZ_PL37_H7_18060/2021
 
 # Under/over diverged Omicron sequences
 AntiguaandBarbuda/114024/2021
@@ -10959,3 +10961,7 @@ USA/TX-DSHS-14306/2021
 # October 2021 dated Omicron sequences from Nigeria - quality is very bad & they have ~78 mutations which is far too many for early Omicron
 Nigeria/NCDC-NR1188/2021
 Nigeria/NCDC-NR1219/2021
+
+# misdated Omicron
+Bermuda/WR-NYGC-DEC-6126-GNOP644/2021
+Bermuda/WR-NYGC-DEC-6131-LYLI165/2021
