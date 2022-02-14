@@ -11732,6 +11732,7 @@ division	Aargau	47.420629	8.172097
 division	Aatalunya	41.670376	1.657348
 division	Abadan	30.3636097	48.2591475
 division	Abia	5.4540953	7.5153071
+division	Abidjan	5.320357	-4.016107
 division	Abruzzo	42.192	13.7289
 division	Abu Dhabi	24.4747961	54.3705762
 division	Abuja	9.0643305	7.4892974
@@ -12911,6 +12912,7 @@ division	Korinthia	37.93081650716975	22.612476654682165
 division	Koroska	46.52317615	15.077925785868148
 division	Kortrijk	50.802287	3.264668
 division	Kosice	48.7164	21.2611
+division	Kosice - Okolie	48.698392999999996	20.973901669487425
 division	Kosovo	42.6026	20.9030
 division	Kosovska Mitrovica	42.8790424	20.8657862
 division	Kostanay Region	52.0615626	62.9372689
@@ -13285,6 +13287,7 @@ division	Mudug	6.6507279	48.3009945
 division	Multan	30.1979793	71.4724978
 division	Mumbai	19.0760	72.8777
 division	Munich	48.144747	11.561739
+division	Muntenia	44.7083549	25.8887852
 division	Muranska Huta	48.778768	20.1105543
 division	Murcia	37.9922	-1.1307
 division	Mures	46.60645805	24.625192636852347
@@ -13673,6 +13676,7 @@ division	Qashqadaryo Region	38.5639397	65.5311095
 division	Qatar	25.27932	51.52245
 division	Qazvin	36.0156291	49.8398161
 division	Qom	34.6423117	50.8800969
+division	Quang Tri	16.8581352	106.8588935
 division	Quangninh	21.0064	107.2925
 division	Quebec	52.9399	-73.5491
 division	Queensland	-23.094025	144.192275
@@ -13751,6 +13755,7 @@ division	Roi Et	15.7486448	103.7013017
 division	Rolpa	28.32642895	82.64483525627038
 division	Romania	45.9852129	24.6859225
 division	Rondonia	-10.943145	-62.8277863
+division	Ropazu Novads	56.98797005	24.560045633456973
 division	Roraima	2.135138	-61.3631922
 division	Roscommon	53.6982695	-8.218250761296193
 division	Rostock	54.130776	12.106778
@@ -13795,6 +13800,7 @@ division	Salto	-31.38889	-57.9608876
 division	Salzburg	47.356774	13.227550
 division	Samara	53.4184	50.4726
 division	Samara Region	53.2128813	50.8914633
+division	Samtskhe-Javakheti	41.52653525	43.2469570403887
 division	Samut Prakan	13.6531651	100.8182578
 division	Samut Prakarn	13.581663	100.721344
 division	Samut Sakhon	13.5708192	100.2585874
@@ -13938,6 +13944,7 @@ division	Sofia	42.6977	23.3219
 division	Sohag	26.547748	31.699263
 division	Soignies	50.567422	4.040613
 division	Sokoto	13.0611195	5.3152203
+division	Sokoto State	13.0611195	5.3152203
 division	Soliman	36.6944327	10.4865924
 division	Solothurn	47.207025	7.528326
 division	Somalia	8.3676771	49.083416
@@ -14224,6 +14231,14 @@ division	Union of the Comoros	-12.2045176	44.2832964
 division	United Arab Emirates	23.546651	54.065059
 division	United Kingdom	54.242833	-2.088739
 division	Upper Austria	48.166283	13.869698
+division	Upper Austria / Gmunden / Laakirchen	47.9825598	13.8225156
+division	Upper Austria / Voecklabruck / Frankenburg Am Hausruck	48.0680308	13.4921448
+division	Upper Austria / Voecklabruck / Frankenmarkt	47.9855432	13.4191655
+division	Upper Austria / Voecklabruck / Rutzenmoos	47.973611	13.709167
+division	Upper Austria / Voecklabruck / Schoerfling Am Attersee	47.9463531	13.6035607
+division	Upper Austria / Voecklabruck / St. Georgen Im Attergau	47.92889025	13.48401209565218
+division	Upper Austria / Voecklabruck / Voecklabruck	48.0078587	13.6460378
+division	Upper Austria / Voecklabruck / Voecklamarkt	48.0022211	13.4850818
 division	Upper East Region	10.8070481	-0.6870286
 division	Upper West Region	10.3669525	-2.0921426
 division	Uppsala	59.8586	17.6389
