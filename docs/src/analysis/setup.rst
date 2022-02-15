@@ -84,7 +84,7 @@ The ``getting_started`` build produces a minimal global phylogeny for visualizat
 4. Visualize the phylogeny for example data
 -------------------------------------------
 
-`Open http://auspice.us <http://auspice.us>`__ in your browser. Drag and drop the JSON file ``auspice/ncov_global.json`` anywhere on the http://auspice.us landing page, to visualize the resulting phylogeny. The resulting phylogeny should look something like this.
+`Open auspice.us <https://auspice.us>`__ in your browser. Drag and drop the :term:`JSON file <docs.nextstrain.org:JSONs>` ``auspice/ncov_global.json`` anywhere on the landing page, to visualize the resulting phylogeny. The resulting phylogeny should look something like this:
 
 .. figure:: ../images/getting-started-tree.png
    :alt: Phylogenetic tree from the “getting started” build as visualized in Auspice
