@@ -1,0 +1,5 @@
+{
+  "Nextstrain_WRKFLW.build_yaml" : "data/build.yaml",
+  "Nextstrain_WRKFLW.giturl" : "https://github.com/nextstrain/ncov/archive/refs/heads/master.zip",
+  "Nextstrain_WRKFLW.docker_path": "nextstrain/base:latest"
+}
