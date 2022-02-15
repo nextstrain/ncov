@@ -35,11 +35,38 @@ AY.39 + S:1073N (Delta)	nuc	28881	T
 AY.39 + S:1073N (Delta)	nuc	27604	A
 AY.39 + S:1073N (Delta)	S	1073	N
 
-B.1.1.529 (Omicron)	nuc	25000	T
-B.1.1.529 (Omicron)	nuc	25584	T
+B.1.1.529 (Omicron)	nuc	8782	C
+B.1.1.529 (Omicron)	nuc	14408	T
+B.1.1.529 (Omicron)	nuc	23403	G
+B.1.1.529 (Omicron)	nuc	28881	A
+B.1.1.529 (Omicron)	nuc	28882	A
+B.1.1.529 (Omicron)	nuc	23525	T
+B.1.1.529 (Omicron)	nuc	23599	G
 B.1.1.529 (Omicron)	nuc	27259	C
-B.1.1.529 (Omicron)	nuc	8393	A
-B.1.1.529 (Omicron)	nuc	13195	C
+
+BA.2 (Omicron)	nuc	8782	C
+BA.2 (Omicron)	nuc	14408	T
+BA.2 (Omicron)	nuc	23403	G
+BA.2 (Omicron)	nuc	28881	A
+BA.2 (Omicron)	nuc	28882	A
+BA.2 (Omicron)	nuc	21618	T
+BA.2 (Omicron)	nuc	22775	A
+BA.2 (Omicron)	nuc	23525	T
+BA.2 (Omicron)	nuc	23599	G
+BA.2 (Omicron)	nuc	24424	T
+BA.2 (Omicron)	nuc	27259	C
+
+BA.1 (Omicron)	nuc	8782	C
+BA.1 (Omicron)	nuc	14408	T
+BA.1 (Omicron)	nuc	23403	G
+BA.1 (Omicron)	nuc	28881	A
+BA.1 (Omicron)	nuc	28882	A
+BA.1 (Omicron)	nuc	15240	T
+BA.1 (Omicron)	nuc	23202	A
+BA.1 (Omicron)	nuc	23525	T
+BA.1 (Omicron)	nuc	23599	G
+BA.1 (Omicron)	nuc	24424	T
+BA.1 (Omicron)	nuc	27259	C
 
 19A	nuc	8782	C
 19A	nuc	14408	C
