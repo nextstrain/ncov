@@ -3,8 +3,8 @@ Setup and installation
 
 The following steps will prepare you to run complete analyses of SARS-CoV-2 data by installing required software and running a simple example workflow.
 
-1. Setup your Nextstrain environment
-------------------------------------
+1. Install Nextstrain components
+--------------------------------
 
 Follow instructions to install Nextstrain components :doc:`here <docs.nextstrain.org:install>`.
 
@@ -70,16 +70,16 @@ Alternately, download a specific version of the workflow that you know works for
 3. Run a basic analysis with example data
 -----------------------------------------
 
-Run a basic workflow with example data, to confirm that your Nextstrain environment is properly configured.
+Run a basic workflow with example data, to confirm that your :term:`Nextstrain runtime <docs.nextstrain.org:runtime>` is properly configured.
 
 .. code:: bash
 
    nextstrain build . --cores 4 \
      --configfile ./my_profiles/getting_started/builds.yaml
 
-The ``nextstrain build`` command runs a pathogen analysis or “`build <https://docs.nextstrain.org/projects/augur/en/stable/faq/what-is-a-build.html>`__” defined by a Snakemake workflow in a specific directory. Since our ``Snakefile`` is in the current directory, we specify the build directory as ``.``. All other arguments pass through to Snakemake.
+The ``nextstrain build`` command runs a :term:`pathogen workflow <docs.nextstrain.org:workflow>` defined using Snakemake. Since our ``Snakefile`` is in the current directory, we specify the directory as ``.``. All other arguments pass through to Snakemake.
 
-The ``getting_started`` build produces a minimal global phylogeny for visualization in Auspice. This workflow should complete in about 10 minutes on a MacBook Pro (2.7 GHz Intel Core i5) with four cores, including 5 minutes to create the Conda environment and 5 minutes to run the workflow.
+The ``getting_started`` build produces a minimal global phylogeny for visualization in :term:`docs.nextstrain.org:Auspice`. This workflow should complete in about 5 minutes on a MacBook Pro (2.7 GHz Intel Core i5) with four cores.
 
 4. Visualize the phylogeny for example data
 -------------------------------------------
