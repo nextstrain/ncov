@@ -74,12 +74,10 @@ Run a basic workflow with example data, to confirm that your Nextstrain environm
 
 .. code:: bash
 
-   nextstrain build . --cores 4 --use-conda \
+   nextstrain build . --cores 4 \
      --configfile ./my_profiles/getting_started/builds.yaml
 
 The ``nextstrain build`` command runs a pathogen analysis or “`build <https://docs.nextstrain.org/projects/augur/en/stable/faq/what-is-a-build.html>`__” defined by a Snakemake workflow in a specific directory. Since our ``Snakefile`` is in the current directory, we specify the build directory as ``.``. All other arguments pass through to Snakemake.
-
-The ``--use-conda`` flag `instructs Snakemake to maintain a workflow-specific Conda environment <https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html#integrated-package-management>`__ defined in ``workflow/envs/nextstrain.yaml``. Snakemake will activate this environment before it runs each rule, ensuring each rule runs with the necessary software. The first time you use this flag, Snakemake will download and install all Nextstrain tools required to run the workflow. This can take a little time. The next time you use this flag, Snakemake will detect the existing environment and use it immediately.
 
 The ``getting_started`` build produces a minimal global phylogeny for visualization in Auspice. This workflow should complete in about 10 minutes on a MacBook Pro (2.7 GHz Intel Core i5) with four cores, including 5 minutes to create the Conda environment and 5 minutes to run the workflow.
 
