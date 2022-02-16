@@ -3,6 +3,10 @@
 As of April 2021, we use major version numbers (e.g. v2) to reflect backward incompatible changes to the workflow that likely require you to update your Nextstrain installation.
 We also use this change log to document new features that maintain backward compatibility, indicating these features by the date they were added.
 
+## v12 (? February 2022)
+
+ - Add a new workflow parameter in the `tree` config named [`override_default_args`](https://docs.nextstrain.org/projects/ncov/en/latest/reference/configuration.html#override_default_args) that enables overriding default tree builder arguments with the values defined by [`tree-builder-args`](https://docs.nextstrain.org/projects/ncov/en/latest/reference/configuration.html#tree-builder-args). This release of the workflow sets this parameter to `true` by default, which may be a breaking change for users who have modified the default tree builder arguments. Upgrade to [Augur 14.0.0](https://github.com/nextstrain/augur/blob/master/CHANGES.md#1400-8-february-2022) and run `augur tree -h` to see the default arguments for the tree builder you use. [See the original Augur pull request](https://github.com/nextstrain/augur/pull/839), for more details.
+
 ## New features since last version update
 
 ## v12 (12 July 2022)

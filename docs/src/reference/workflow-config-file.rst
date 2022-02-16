@@ -822,7 +822,14 @@ tree-builder-args
 
 -  type: string
 -  description: Arguments specific to the tree method (``iqtree``) to be passed through to the tree builder command run by ``augur tree``.
--  default: ``'-ninit 10 -n 4'``
+-  default: ``'-ninit 10 -n 4 -me 0.05'``
+
+override_default_args
+~~~~~~~~~~~~~~~~~~~~~
+
+- type: boolean
+- description: Override default tree builder arguments with the values provided by the user in ``tree-builder-args`` instead of augmenting the existing defaults.
+- default: ``true``
 
 
 
