@@ -204,6 +204,10 @@ subsampling:
   # Custom subsampling logic for clades.
   nextstrain_clades:
     clades:
+      group_by: "Nextstrain_clade"
+      max_sequences: 300
+      sampling_scheme: "--probabilistic-sampling"
+    clades_month:
       group_by: "Nextstrain_clade year month"
-      max_sequences: 600
+      max_sequences: 200
       sampling_scheme: "--probabilistic-sampling"
