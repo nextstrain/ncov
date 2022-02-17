@@ -32,7 +32,6 @@ inputs:
 builds:
   reference:
     subsampling_scheme: nextstrain_clades
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/clades_auspice_config.json"
   global:
     subsampling_scheme: nextstrain_region_global
     auspice_config: "nextstrain_profiles/nextstrain-gisaid/global_auspice_config.json"
@@ -224,11 +223,9 @@ subsampling:
     clades:
       group_by: "Nextstrain_clade"
       max_sequences: 300
-      sampling_scheme: "--probabilistic-sampling"
-    clades_month:
+    clades_month: # To ensure at least one sample from the earliest month
       group_by: "Nextstrain_clade year month"
       max_sequences: 200
-      sampling_scheme: "--probabilistic-sampling"
 
 # Define frequencies parameters.
 frequencies:
