@@ -32,6 +32,7 @@ inputs:
 builds:
   reference:
     subsampling_scheme: nextstrain_clades
+    title: Genomic epidemiology of SARS-CoV-2 with clade-focused subsampling
   global:
     subsampling_scheme: nextstrain_region_global
     auspice_config: "nextstrain_profiles/nextstrain-gisaid/global_auspice_config.json"
