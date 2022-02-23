@@ -205,6 +205,8 @@ subsampling:
     clades:
       group_by: "Nextstrain_clade"
       max_sequences: 300
+      sampling_scheme: "--probabilistic-sampling"
     clades_month: # To ensure at least one sample from the earliest month
       group_by: "Nextstrain_clade year month"
       max_sequences: 200
+      sampling_scheme: "--probabilistic-sampling"
