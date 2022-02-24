@@ -433,5 +433,5 @@ inputs:
 
 ## Subsampling
 
-We've outlined several methods for subsampling, including builds with a focus area and genetically similar contextual sequences, in the [section on customizing your analysis](https://docs.nextstrain.org/projects/ncov/en/latest/analysis/customizing-analysis.html#subsampling).
+We've outlined several methods for subsampling, including builds with a focus area and genetically similar contextual sequences, in the [section on customizing your analysis](customizing-analysis#subsampling).
 

@@ -549,7 +549,7 @@ Valid attributes for list entries in `inputs` are provided below.
 
 ## subsampling
 * type: object
-* description: Schemes for subsampling data prior to phylogenetic inference to avoid sampling bias or focus an analysis on specific spatial and/or temporal scales. [See the SARS-CoV-2 tutorial for more details on defining subsampling schemes](https://docs.nextstrain.org/projects/ncov/en/latest/analysis/customizing-analysis.html#subsampling).
+* description: Schemes for subsampling data prior to phylogenetic inference to avoid sampling bias or focus an analysis on specific spatial and/or temporal scales. [See the SARS-CoV-2 tutorial for more details on defining subsampling schemes](../analysis/customizing-analysis#subsampling).
 
 Each named subsampling scheme supports the following attributes that the workflow passes to `augur filter`.
 
