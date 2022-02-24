@@ -14,3 +14,7 @@ Reference material
    naming_clades
    data_submitter_faq
    change_log
+   orientation-workflow
+   orientation-files
+   customizing-analysis
+   customizing-visualization

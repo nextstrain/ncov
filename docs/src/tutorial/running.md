@@ -15,9 +15,9 @@ If you haven't done this step yet, check out our [data prep](../guides/data-prep
 ## Step 2. Specify which builds to run
 
 In the orientation section, we learned that
-- [Nextstrain analyses are run using a workflow manager called Snakemake](orientation-workflow.md)
+- [Nextstrain analyses are run using a workflow manager called Snakemake](../reference/orientation-workflow.md)
 - [A "build"](https://docs.nextstrain.org/projects/augur/en/latest/faq/what-is-a-build.html) is a bundle of input files, parameters, and commands
-- [Each build is primarily configured by your `builds.yaml` file](orientation-files.md): `builds.yaml` and `config.yaml`
+- [Each build is primarily configured by your `builds.yaml` file](../reference/orientation-files.md): `builds.yaml` and `config.yaml`
 
 Let's start with defining a build in `./my_profiles/example/builds.yaml`.
 **We use the `builds.yaml` file to define what geographic areas of the world we want to focus on. Each block in this file will produce a separate output JSON for visualization**.
@@ -43,7 +43,7 @@ builds:
 Looking at this example, we can see that each build has a:
 
 - `build_name`, which is used for naming output files
-- `subsampling_scheme`, which specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes [can be defined](customizing-analysis.md).
+- `subsampling_scheme`, which specifies how sequences are selected. Default schemes exist for `region`, `country`, and `division`. Custom schemes [can be defined](../reference/customizing-analysis.md).
 - `region`, `country`, `division`, `location`: specify geographic attributes of the sample used for subsampling
 
 The rest of the builds defined in this file serve as examples for division-, country- or region-focused analyses.
@@ -90,7 +90,7 @@ Adding it to that file (and rerunning the Snakemake rules downstream of this) sh
 
 #### My trait (e.g. division) is grey instead of colored
 
-We generate the colors from the `colors` rule in the Snakefile, which uses the [ordering TSV](https://github.com/nextstrain/ncov/blob/master/defaults/color_ordering.tsv) to generate these. See ['customizing your analysis'](customizing-analysis.md) for more info.
+We generate the colors from the `colors` rule in the Snakefile, which uses the [ordering TSV](https://github.com/nextstrain/ncov/blob/master/defaults/color_ordering.tsv) to generate these. See ['customizing your analysis'](../reference/customizing-analysis.md) for more info.
 
 _*A note about locations and colors:*_
 Unless you want to specifically override the colors generated, it's usually easier to _add_ information to the default `ncov` files, so that you can benefit from all the information already in those files.
@@ -104,7 +104,7 @@ There are a few steps where sequences can be removed:
     - Samples that fail the current filtering criteria, as defined in the `parameters.yaml` file, are removed. You can modify the snakefile as desired, but currently these are:
         - Minimum sequence length of 25kb
         - No ambiguity in (sample collection) date
-    - Samples may be randomly removed during subsampling; see ['customizing your analysis'](customizing-analysis.md) for more info.
+    - Samples may be randomly removed during subsampling; see ['customizing your analysis'](../reference/customizing-analysis.md) for more info.
   - During the `refine` step, where samples that deviate more than 4 interquartile ranges from the root-to-tip vs time are removed
 
 #### Sequencing and alignment errors

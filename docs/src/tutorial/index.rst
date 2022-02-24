@@ -10,8 +10,4 @@ These tutorials will guide you to create a :term:`Nextstrain build <docs.nextstr
    :caption: Table of contents
 
    setup
-   orientation-workflow
-   orientation-files
    running
-   customizing-analysis
-   customizing-visualization

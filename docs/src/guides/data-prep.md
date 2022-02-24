@@ -2,7 +2,7 @@
 
 <p style="color: #055160; background-color: #cff4fc; border-color: #b6effb; padding: 1em; border-radius: .25rem;">
 We've prepared an example dataset in the `data` directory.
-If you'd like to move ahead with this tutorial with this example dataset, <a href="../tutorial/orientation-workflow.html">skip to the next section</a>.
+If you'd like to move ahead with this tutorial with this example dataset, <a href="../reference/orientation-workflow.html">skip to the next section</a>.
 If you'd like to prepare your own data, read on.
 </p>
 
@@ -77,8 +77,8 @@ There is one important difference: if a discrete trait reconstruction (e.g. via 
 - **Not all fields are currently used**, but this may change in the future.
 - Data is **case sensitive**
 - The **"geographic" columns, such as "region" and "country" will be used to plot the samples on the map**.
-Adding a new value to these columns isn't a problem at all, but there are a few extra steps to take; see the [customization guide](../tutorial/customizing-analysis.md).
-- **You can color by any of these fields in the Auspice visualization**. Which exact columns are used, and which colours are used for each value is completely customisable; see the [customization guide](../tutorial/customizing-visualization.md).
+Adding a new value to these columns isn't a problem at all, but there are a few extra steps to take; see the [customization guide](../reference/customizing-analysis.md).
+- **You can color by any of these fields in the Auspice visualization**. Which exact columns are used, and which colours are used for each value is completely customisable; see the [customization guide](../reference/customizing-visualization.md).
 
 #### Formatting metadata in Excel
 
@@ -276,7 +276,7 @@ inputs:
 ```
 
 By default, the workflow will use all distinct sequences to create a phylogeny without any subsampling.
-You now have all of the data you need to run your analysis and can [continue to the next section of the tutorial](../tutorial/orientation-workflow.md).
+You now have all of the data you need to run your analysis and can [continue to the next section of the tutorial](../reference/orientation-workflow.md).
 
 ## Curate data from the full GISAID database
 
@@ -433,5 +433,5 @@ inputs:
 
 ## Subsampling
 
-We've outlined several methods for subsampling, including builds with a focus area and genetically similar contextual sequences, in the [section on customizing your analysis](../tutorial/customizing-analysis#subsampling).
+We've outlined several methods for subsampling, including builds with a focus area and genetically similar contextual sequences, in the [section on customizing your analysis](../reference/customizing-analysis#subsampling).
 
