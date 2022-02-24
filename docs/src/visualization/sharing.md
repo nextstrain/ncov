@@ -22,7 +22,7 @@ Doing so will enable you to color by any of the values in this extra metadata fi
 2. Add your sensitive metadata to the remaining columns  
 3. On your computer, drag and drop the file onto the browser window where Auspice is visualizing your JSON    
 
-_For more help formatting this metadata file, including how to do so using Excel, [see this page](../analysis/data-prep.md)_
+_For more help formatting this metadata file, including how to do so using Excel, [see this page](../tutorial/data-prep.md)_
 
 ---
 
