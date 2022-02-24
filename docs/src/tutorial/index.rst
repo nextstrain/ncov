@@ -10,7 +10,6 @@ The starting point for this section is a FASTA file with sequence data + a TSV f
    :caption: Table of contents
 
    setup
-   data-prep
    orientation-workflow
    orientation-files
    running
