@@ -20,6 +20,7 @@ If you have a specific question, post a note over at the `discussion board <http
    :caption: Table of contents
 
    tutorial/index
+   guides/index
    visualization/index
    reference/index
    videos

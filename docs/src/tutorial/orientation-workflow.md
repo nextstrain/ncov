@@ -27,7 +27,7 @@ Snakemake is an incredibly powerful workflow manager with many complex features.
 Below is an illustration of each step in a standard Nextstrain analysis workflow.
 Dependencies (output files from one step that act as input to the next) are indicated by grey arrows. Input files which must be provided are indicated with red outlines. As you can see in yellow, the final output is a JSON file for visualization in auspice.
 
-Required input files (e.g. the sequence data generated in the [data preparation section](data-prep.md), or other files which are part of this repo) are indicated with red outlines. We'll walk through each of these in detail in the next section.
+Required input files (e.g. the sequence data generated in the [data preparation section](../guides/data-prep.md), or other files which are part of this repo) are indicated with red outlines. We'll walk through each of these in detail in the next section.
 
 ![snakemake_workflow](../images/basic_snakemake_build.png)
 

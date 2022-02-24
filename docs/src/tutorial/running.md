@@ -3,14 +3,14 @@
 >This section focuses on how to running the basic example build to give you a chance to practice and get a sense of how things work. The next section covers customizing and configuring your own build.
 
 **To run our analyses, we need to:**
-1. Ensure our **sequence data and metadata is [properly formatted](data-prep.md)**
+1. Ensure our **sequence data and metadata is [properly formatted](../guides/data-prep.md)**
 2. **Specify which builds you want** to generate using a `builds.yaml` file
 3. **Execute the workflow**
 4. [Hopefully you don't have to] **troubleshoot**
 
 ## Step 1. Gather and format your data
 
-If you haven't done this step yet, check out our [data prep](data-prep.md) guide and come back when you're ready.
+If you haven't done this step yet, check out our [data prep](../guides/data-prep.md) guide and come back when you're ready.
 
 ## Step 2. Specify which builds to run
 

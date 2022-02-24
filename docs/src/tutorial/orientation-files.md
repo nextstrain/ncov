@@ -11,7 +11,7 @@ We'll walk through all of the files one by one, but here are the most important 
 
   * Input files
     * `data/metadata.tsv`: tab-delimited description of strain (i.e., sample) attributes
-    * `data/sequences.fasta`: genomic sequences whose ids must match the `strain` column in `metadata.tsv`. [See the data preparation guide](data-prep.md).
+    * `data/sequences.fasta`: genomic sequences whose ids must match the `strain` column in `metadata.tsv`. [See the data preparation guide](../guides/data-prep.md).
     * `my_profiles/<your_profile>/builds.yaml`: workflow configuration file where you can define and parameterize the builds you want to run. The directory name `your_profile` is the name of your custom analysis profile where you store this configuration and other custom files for the analysis. [See the customization guide](customizing-analysis.md).
   * Output files
     * `auspice/<build_name>.json`: output file for visualization in Auspice where `<build_name>` is the name of a build defined in the workflow configuration file.
@@ -19,7 +19,7 @@ We'll walk through all of the files one by one, but here are the most important 
 ## Input files
 
   * `data/metadata.tsv`: tab-delimited description of strain (i.e., sample) attributes
-  * `data/sequences.fasta`: genomic sequences whose ids must match the `strain` column in `metadata.tsv`. [See the data preparation guide](data-prep.md).
+  * `data/sequences.fasta`: genomic sequences whose ids must match the `strain` column in `metadata.tsv`. [See the data preparation guide](../guides/data-prep.md).
   * `defaults/include.txt`: list of strain names to _include_ during subsampling and filtering (one strain name per line)
   * `defaults/exclude.txt`: list of strain names to _exclude_ during subsampling and filtering (one strain name per line)
 
