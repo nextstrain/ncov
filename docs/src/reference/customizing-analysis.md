@@ -56,7 +56,7 @@ location	Abondant	48.790785	1.420178
 ## Subsampling
 
 ### Basic subsampling
-Reasonable defaults are pre-defined. You can find a [description of them here](running.md).
+Reasonable defaults are pre-defined. You can find a [description of them here](../tutorial/running.md).
 
 ### Custom subsampling schemes
 We implement hierarchical subsampling by producing multiple samples at different geographic scales and merge these samples into one file for further analysis.

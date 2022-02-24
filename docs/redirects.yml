@@ -14,11 +14,11 @@
 
 - type: page
   from_url: /analysis/customizing-analysis.html
-  to_url: /tutorial/customizing-analysis.html
+  to_url: /reference/customizing-analysis.html
 
 - type: page
   from_url: /analysis/customizing-visualization.html
-  to_url: /tutorial/customizing-visualization.html
+  to_url: /reference/customizing-visualization.html
 
 - type: page
   from_url: /analysis/data-prep.html
@@ -26,11 +26,11 @@
 
 - type: page
   from_url: /analysis/orientation-files.html
-  to_url: /tutorial/orientation-files.html
+  to_url: /reference/orientation-files.html
 
 - type: page
   from_url: /analysis/orientation-workflow.html
-  to_url: /tutorial/orientation-workflow.html
+  to_url: /reference/orientation-workflow.html
 
 - type: page
   from_url: /analysis/running.html

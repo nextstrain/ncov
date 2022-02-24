@@ -40,5 +40,5 @@ We encourage you to take a look at [`main_workflow.smk`](https://github.com/next
 
 The components in this diagram **constitute a Nextstrain "build" -- i.e., a set of commands, parameters and input files which work together to reproducibly execute bioinformatic analyses and generate a JSON for visualization with auspice.** You can learn more about builds [here](https://nextstrain.org/docs/bioinformatics/what-is-a-build).
 
-Builds are particularly important if you frequently want to run several different analysis workflows or datasets. For example, if you wanted to run one analysis on just your data and another analysis that incorporates background / contextual sequences, you could configure two different _builds_ (one for each of these workflows). We'll cover this in more detail in the [basic build configuration](running.md) section.
+Builds are particularly important if you frequently want to run several different analysis workflows or datasets. For example, if you wanted to run one analysis on just your data and another analysis that incorporates background / contextual sequences, you could configure two different _builds_ (one for each of these workflows). We'll cover this in more detail in the [basic build configuration](../tutorial/running.md) section.
 
