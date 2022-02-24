@@ -19,7 +19,7 @@ If you have a specific question, post a note over at the `discussion board <http
    :titlesonly:
    :caption: Table of contents
 
-   analysis/index
+   tutorial/index
    visualization/index
    reference/index
    videos
