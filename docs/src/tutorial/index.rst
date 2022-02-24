@@ -10,8 +10,4 @@ The starting point for this section is a FASTA file with sequence data + a TSV f
    :caption: Table of contents
 
    setup
-   orientation-workflow
-   orientation-files
    running
-   customizing-analysis
-   customizing-visualization
