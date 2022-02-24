@@ -8,3 +8,4 @@ Guides
    :caption: Table of contents
 
    run-analysis-on-terra
+   data-prep

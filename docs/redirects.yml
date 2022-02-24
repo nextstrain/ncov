@@ -22,7 +22,7 @@
 
 - type: page
   from_url: /analysis/data-prep.html
-  to_url: /tutorial/data-prep.html
+  to_url: /guides/data-prep.html
 
 - type: page
   from_url: /analysis/orientation-files.html

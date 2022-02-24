@@ -10,7 +10,6 @@ These tutorials will guide you to create a :term:`Nextstrain build <docs.nextstr
    :caption: Table of contents
 
    setup
-   data-prep
    orientation-workflow
    orientation-files
    running

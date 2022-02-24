@@ -50,7 +50,7 @@ files:
 ```
 
 ## Adding custom metadata fields to color by   
-1. Add a [valid metadata column](data-prep.md) to your `metadata.tsv`  
+1. Add a [valid metadata column](../guides/data-prep.md) to your `metadata.tsv`  
 2. Open `my_profiles/<name>/auspice_config.json`  
 3. Add an entry to the `colorings` block of this JSON:
 
