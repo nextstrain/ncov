@@ -1,8 +1,8 @@
-*****************************
-Getting started with analysis
-*****************************
+********
+Tutorial
+********
 
-The starting point for this section is a FASTA file with sequence data + a TSV file with metadata. You can alternately use our example data to start.
+These tutorial pages will guide you to create a :term:`Nextstrain build <docs.nextstrain.org:build>` for genomic surveillance.
 
 .. toctree::
    :maxdepth: 1
@@ -10,4 +10,7 @@ The starting point for this section is a FASTA file with sequence data + a TSV f
    :caption: Table of contents
 
    setup
+   build-with-reference-data
+   build-with-custom-data
+   build-for-genomic-surveillance
    running
