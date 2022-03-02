@@ -469,7 +469,7 @@ rule build_align:
         sequences = rules.combine_samples.output.sequences,
         genemap = config["files"]["annotation"],
         reference = config["files"]["alignment_reference"],
-        nextclade_dataset = rules.prepare_nextclade.output.nextclade_dataset,
+        nextclade_dataset = "data/sars-cov-2-nextclade-defaults",
     output:
         alignment = "results/{build_name}/aligned.fasta",
         insertions = "results/{build_name}/insertions.tsv",
