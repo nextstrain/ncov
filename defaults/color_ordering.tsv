@@ -2681,6 +2681,7 @@ location	Ho
 
 # Bono Region
 location	Sunyani
+location	Brong Ahafo Regions
 
 # Bono East Region
 location	Kintampo
@@ -25759,7 +25760,6 @@ division	Atlantico
 division	La Guajira
 division	San Andres y Providencia
 
-### French Guiana
 
 ### Suriname
 division	Suriname
@@ -25938,7 +25938,6 @@ division	Saint Martin
 ### Jamaica
 division	Jamaica
 
-### Puerto Rico
 
 ### Dominican Republic
 division	San Juan
@@ -26251,7 +26250,6 @@ country	Brazil
 country	Peru
 country	Ecuador
 country	Colombia
-country	French Guiana
 country	Suriname
 country	Guyana
 country	Venezuela
@@ -26280,7 +26278,6 @@ country	Saint Barthélemy
 country	Sint Maarten
 country	Saint Martin
 country	Jamaica
-country	Puerto Rico
 country	Dominican Republic
 country	Haiti
 country	Mexico
