@@ -1382,6 +1382,7 @@ location	Broek In Waterland	52.432523	4.9957461
 location	Brognard	47.5292	6.8626
 location	Brommat	44.829995195310836	2.6986931912343994
 location	Bron	45.7337532	4.9092352
+location	Brong Ahafo Regions	7.579	-2.549
 location	Bronislawow	51.7722383	20.4485518
 location	Bronnitsy	55.4219938	38.2590612
 location	Bronowice	51.563445	14.7555322
@@ -12081,6 +12082,7 @@ division	Buryatia	52.311711	108.916732
 division	Bushehr	28.8936645	51.3204877
 division	Busia	0.3712048	34.26479520608315
 division	Buskerud	59.5435778	11.4230694
+division	Buyo	6.2507192	-7.0057256
 division	Buzau	45.143297	26.816251
 division	Ca Mau	9.0875429	105.032047
 division	Caaguazu	-25.4661756	-56.0181685
@@ -12212,6 +12214,7 @@ division	Chisinau	47.0244707	28.8322534
 division	Chobe District	-18.391508450000003	24.706751761502648
 division	Choco	5.705238	-76.890815
 division	Choluteca	13.3696253	-87.07564445652513
+division	Choma	-16.8141943	26.9778589
 division	Chonburi	13.1857117	101.1210777
 division	Chongqing	29.858721	107.375623
 division	Chtouka	33.3136606	-8.1672835
@@ -12286,6 +12289,7 @@ division	Cyprus	34.965802	33.171772
 division	Czech Republic	49.8175	15.473
 division	Da Nang	16.068	108.212
 division	Dabola	10.742172	-11.106486
+division	Dabou	5.322596	-4.3742639
 division	Dadra and Nagar Haveli	20.2733604	73.0044988
 division	Dadra and Nagar Haveli and Daman and Diu	20.718174949999998	70.93238341010638
 division	Daegu	35.8713	128.6018
@@ -12331,6 +12335,7 @@ division	Dinajpur	25.6260712	88.6346228
 division	Dinant	50.239336	4.939426
 division	Diourbel	14.7043898	-16.0511737
 division	Distrito Capital	10.5053491	-66.9147206
+division	Distrito Capital de Bogota	4.6533326	-74.083652
 division	Distrito Federal	-15.7998	-47.8645
 division	Djelfa	34.342841	3.217253079090331
 division	Djibouti	11.85677545	42.757784519943655
@@ -12555,6 +12560,7 @@ division	Guatemala City	14.6222328	-90.5185188
 division	Guaviare	1.6894444	-72.8202864
 division	Guayas	-1.9575	-79.9193
 division	Gueckedou	8.561649	-10.132821
+division	Guelmim Province	28.9863852	-10.0574351
 division	Guerrero	17.463444	-99.792052
 division	Guiania	2.5000086	-69.0000086
 division	Guiglo	6.43034025	-7.5909032112704775
@@ -12735,6 +12741,7 @@ division	Jarvis Island	-0.37228059999999996	-159.99736118989586
 division	Jász-Nagykun-Szolnok County	47.2556	20.5232
 division	Jatov	48.1284623	18.028264
 division	Jeddah	21.4858	39.1925
+division	Jendouba	36.67797255	8.752646965460535
 division	Jenin	32.4618837	35.297566
 division	Jeonnam	34.8159	126.4629
 division	Jericho	31.855987	35.4598851
@@ -12837,6 +12844,7 @@ division	Kavango West	-18.256111	18.970201
 division	Kavre	28.0301754	83.7116467
 division	Kayseri	38.7205	35.4826
 division	Kazakhstan	47.2286086	65.2093197
+division	Kebili	33.7061148	8.9698376
 division	Kecskemet	46.8964	19.6897
 division	Kedah	5.8098265	100.6715035
 division	Kedainiai	55.2887322	23.9758359
@@ -12872,6 +12880,7 @@ division	Kherson	46.5421715	33.4079326
 division	Khmelnytskyi	49.4196404	26.9793793
 division	Khomas	-22.9082553	17.09198004041758
 division	Khon Kaen	16.6022387	102.6352933
+division	Khouribga	32.885508	-6.909238
 division	Khulna	22.815139549999998	89.44492672055918
 division	Khyber Pakhtunkhwa	33.696621	72.636031
 division	Kiambu	-1.03207695	36.815686702129064
@@ -13290,6 +13299,7 @@ division	Multan	30.1979793	71.4724978
 division	Mumbai	19.0760	72.8777
 division	Munich	48.144747	11.561739
 division	Muntenia	44.7083549	25.8887852
+division	Muranga County	-0.83091505	37.004861249618145
 division	Muranska Huta	48.778768	20.1105543
 division	Murcia	37.9922	-1.1307
 division	Mures	46.60645805	24.625192636852347
@@ -13406,6 +13416,7 @@ division	North Central Province	8.3286788	80.4874005
 division	North Dakota	47.6201461	-100.540737
 division	North District	32.8972	35.3027
 division	North-East District	-21.0244816	27.5147504
+division	North East Region	10.3959773	-0.5410794
 division	North Holland	52.5206	4.7885
 division	North Jeolla	34.759837149999996	127.65168920003353
 division	North Kalimantan	3.0235817	116.2049306
@@ -13623,6 +13634,7 @@ division	Podlaskie	53.2668455	22.8525787
 division	Podravska	46.4809178	15.745088519392077
 division	Podunavlje District	44.447787453394106	20.99815259869355
 division	Pointe-A-Pitre	16.2408636	-61.5334077
+division	Pokot	1.8798607999999999	35.21061300684997
 division	Poland	52.0977181	19.0258159
 division	Polleur	50.580257	5.866744
 division	Poltava	49.8607809	33.7498787
@@ -13694,6 +13706,7 @@ division	Raa Atoll	5.620160650000001	72.93728530224641
 division	Raanana	32.189052	34.868626
 division	Rabat	33.976469	-6.843796
 division	Rabca	49.4833334	19.4833333
+division	Rades	36.767891	10.2724617
 division	Radviliskio Apskritis	55.69341675	23.650119846962173
 division	Rajanpur	29.1042715	70.3283163
 division	Rajasthan	26.498229	73.881085
@@ -13771,6 +13784,7 @@ division	Russia	64.6863136	97.7453061
 division	Ruzomberok	49.0815718	19.3034168
 division	Rwanda	-1.9646631	30.0644358
 division	Ryazan	54.6295687	39.7425039
+division	Sa Kaeo	13.7686129	102.1345352
 division	Saare	57.9115944	22.05579
 division	Saarland	49.3841872	6.9537369
 division	Sabac	44.7571535	19.6953972
@@ -13839,6 +13853,7 @@ division	Santiago del Estero	-27.6431016	-63.5408542
 division	Santo Domingo	-0.34018899999999996	-79.17154939601922
 division	Santo Domingo de los Tsachilas	-0.2546212	-79.1686724
 division	São Paulo	-23.59806	-46.660537
+division	Sao Tome and Principe	0.3389242	6.7313031
 division	Saraburi	14.5249471	100.9160757
 division	Sarajevo	43.8563	18.4131
 division	Saratov	51.530018	46.034683
@@ -14125,6 +14140,7 @@ division	Thrace	40.7229413	22.9237909
 division	Thuin	50.326454	4.308720
 division	Thurgau	47.576816	9.072051
 division	Thuringia	50.7333163	11.0747905
+division	Tiapoum	5.257687000000001	-2.8536454090555075
 division	Ticino	46.345334	8.774813
 division	Tielt	51.001589	3.355702
 division	Tienen	50.8106	4.9362
@@ -14234,6 +14250,7 @@ division	Union of the Comoros	-12.2045176	44.2832964
 division	United Arab Emirates	23.546651	54.065059
 division	United Kingdom	54.242833	-2.088739
 division	Upper Austria	48.166283	13.869698
+division	Upper Austria / Voecklabruck / Voecklamarkt	48.0022211	13.4850818
 division	Upper East Region	10.8070481	-0.6870286
 division	Upper West Region	10.3669525	-2.0921426
 division	Uppsala	59.8586	17.6389
@@ -14435,6 +14452,7 @@ division	Zacapa	14.9661596	-89.5180314
 division	Zacatecas	23.0000001	-103.0000001
 division	Zachodniopomorskie	53.532925406940386	15.480819266107156
 division	Zadar County	44.2232882	15.3739652
+division	Zaghouen	36.3995503	10.1447085
 division	Zagora	30.328035	-5.837139
 division	Zagreb	45.8131847	15.9771774
 division	Zagreb County	45.7017634	16.2347136
@@ -14627,6 +14645,7 @@ country	Saint Kitts and Nevis	17.250512	-62.6725973
 country	Saint Lucia	13.8250489	-60.975036
 country	Saint Martin	18.0668544	-63.0848869
 country	Saint Vincent and the Grenadines	12.90447	-61.2765569
+country	Sao Tome and Principe	0.8875498	6.9648718
 country	Saudi Arabia	25.0	45.0
 country	Senegal	14.5	-14.25
 country	Serbia	43.745902	20.848918
