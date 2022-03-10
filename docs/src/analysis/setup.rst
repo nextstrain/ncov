@@ -14,7 +14,7 @@ Follow instructions to install Nextstrain components :doc:`here <docs.nextstrain
 
    .. code:: bash
 
-      mamba install -c conda-forge -c bioconda epiweeks nextclade pangolin pangolearn
+      mamba install -c conda-forge -c bioconda epiweeks nextclade nextalign pangolin pangolearn
 
 2. Download the ncov workflow
 -----------------------------
