@@ -191,6 +191,10 @@ def _get_specific_subsampling_setting(setting, optional=False):
                     value = f"--exclude-ambiguous-dates-by {value}"
                 elif setting == 'group_by':
                     value = f"--group-by {value}"
+                elif setting == 'min_date':        # FIXED by Anna Battenhouse
+                    value = f"--min-date {value}"
+                elif setting == 'max_date': 
+                    value = f"--max-date {value}"  
         elif value is not None:
             # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
             # need to return the 'argument' for augur
