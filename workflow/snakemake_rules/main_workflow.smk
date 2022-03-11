@@ -160,9 +160,9 @@ def get_priority_argument(wildcards):
         return ""
 
     if subsampling_settings["priorities"]["type"] == "proximity":
-        return "--priority " + get_priorities(wildcards)
+        return "--priority " + shquote(get_priorities(wildcards))
     elif subsampling_settings["priorities"]["type"] == "file" and "file" in subsampling_settings["priorities"]:
-        return "--priority " + subsampling_settings["priorities"]["file"]
+        return "--priority " + shquote(subsampling_settings["priorities"]["file"])
     else:
         return ""
 
@@ -199,7 +199,7 @@ def _get_specific_subsampling_setting(setting, optional=False):
             elif setting == 'max_sequences':
                 value = f"--subsample-max-sequences {value}"
 
-            return value
+            return shquotewords(value)
         else:
             value = ""
 
@@ -207,7 +207,7 @@ def _get_specific_subsampling_setting(setting, optional=False):
         if re.search(r'\{.+\}', value):
             raise Exception(f"The parameters for the subsampling scheme '{wildcards.subsample}' of build '{wildcards.build_name}' reference build attributes that are not defined in the configuration file: '{value}'. Add these build attributes to the appropriate configuration file and try again.")
 
-        return value
+        return shquotewords(value)
 
     return _get_setting
 
