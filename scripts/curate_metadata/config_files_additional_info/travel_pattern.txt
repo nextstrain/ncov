@@ -143,3 +143,4 @@ Foreign (unknown)/Traveled to XXX
 American /Traveled to XXX
 Patient traveled recently to XXX
 Returning Overseas Filipino With History of Travel: XXX
+Travel History:XXX
