@@ -18,6 +18,7 @@ reference_day = datetime(2020,1,1).toordinal()
 
 column_map = {
     "clade": "Nextstrain_clade",
+    "Nextclade_pango": "Nextclade_pango",
     "totalMissing": "missing_data",
     "totalSubstitutions": "divergence",
     "totalNonACGTNs": "nonACGTN",
