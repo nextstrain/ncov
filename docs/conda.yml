@@ -1,6 +1,6 @@
 name: ncov-docs
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - make
   - recommonmark
