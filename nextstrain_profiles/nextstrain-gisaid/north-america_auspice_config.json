@@ -132,7 +132,10 @@
     "division",
     "location",
     "host",
-    "pango_lineage"
+    "pango_lineage",
+    "author",
+    "originating_lab",
+    "submitting_lab"
   ],
   "panels": [
     "tree",

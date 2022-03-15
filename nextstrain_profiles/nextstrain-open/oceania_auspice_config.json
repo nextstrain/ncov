@@ -113,7 +113,10 @@
     "region",
     "country",
     "division",
-    "host"
+    "host",
+    "author",
+    "originating_lab",
+    "submitting_lab"
   ],
   "panels": [
     "tree",
