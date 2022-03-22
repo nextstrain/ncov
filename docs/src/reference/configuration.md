@@ -449,8 +449,8 @@ Valid attributes for list entries in `inputs` are provided below.
 
 ### clock_filter_iqd
 * type: integer
-* description: Remove tips that deviate more than this number of interquartile ranges from the root-to-tip by time regression.
-* default: `4`
+* description: Remove tips that deviate more than this number of interquartile ranges from the root-to-tip by time regression. Disable clock filtering by specifying `0`
+* default: `8`
 
 ### keep_polytomies
 * type: boolean

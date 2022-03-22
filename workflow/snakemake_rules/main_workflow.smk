@@ -834,7 +834,7 @@ rule refine:
         coalescent = config["refine"]["coalescent"],
         date_inference = config["refine"]["date_inference"],
         divergence_unit = config["refine"]["divergence_unit"],
-        clock_filter_iqd = config["refine"]["clock_filter_iqd"],
+        clock_filter_iqd=f"--clock-filter-iqd {config['refine']['clock_filter_iqd']}" if config["refine"].get("clock_filter_iqd") else "",
         keep_polytomies = "--keep-polytomies" if config["refine"].get("keep_polytomies", False) else "",
         timetree = "" if config["refine"].get("no_timetree", False) else "--timetree"
     conda: config["conda_environment"]
@@ -856,7 +856,7 @@ rule refine:
             --divergence-unit {params.divergence_unit} \
             --date-confidence \
             --no-covariance \
-            --clock-filter-iqd {params.clock_filter_iqd} 2>&1 | tee {log}
+            {params.clock_filter_iqd} 2>&1 | tee {log}
         """
 
 rule ancestral:
