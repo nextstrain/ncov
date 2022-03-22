@@ -61,6 +61,16 @@ builds
 
 -  type: object
 -  description: Named builds to produce by the workflow from the given inputs. Builds are indexed by name and include any number of build attributes that can be used to control subsampling, Auspice configuration, and more.
+
+.. warning::
+
+   Build names currently only allow alpha characters, underscores, and hyphens (``A-Z``, ``a-z``, ``_``, ``-``), but must not contain ``tip-frequencies`` as it is a special string used for Nextstrain builds.
+
+   Note that these are not allowed:
+
+   - Periods (``.``)
+   - Digits (``0-9``)
+
 -  examples:
 
 .. code:: yaml
