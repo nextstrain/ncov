@@ -8937,7 +8937,6 @@ location	San Jose de Maipo	-33.6403975	-70.3527845
 location	San Jose del Golfo	14.79014705	-90.35930977045335
 location	San Jose Del Monte City	14.8110432	121.0491569
 location	San Jose Pinula	14.5464898	-90.34928674055958
-location	San Juan	9.9100082	-84.0111808
 location	San Juan Bautista	7.9668338	-80.4153532
 location	San Juan Chamelco	15.3832579	-90.23900142886828
 location	San Juan City	14.60474	121.0300488
@@ -12371,6 +12370,7 @@ division	Duesseldorf	51.236437	6.809537
 division	Dupnitza	42.2613	23.1125
 division	Durango	24.019546	-104.658028
 division	Durazno	-33.0833329	-56.0833331
+division	East Azerbaijan	37.9211202	46.6821517
 division	East Azerbaijan Province	37.9211202	46.6821517
 division	East Java	-7.6977397	112.4914199
 division	East Kalimantan	0.241323	116.558975
@@ -12885,6 +12885,7 @@ division	Khmelnytskyi	49.4196404	26.9793793
 division	Khomas	-22.9082553	17.09198004041758
 division	Khon Kaen	16.6022387	102.6352933
 division	Khouribga	32.885508	-6.909238
+division	Khouzestan	31.5535141	49.0077168
 division	Khulna	22.815139549999998	89.44492672055918
 division	Khyber Pakhtunkhwa	33.696621	72.636031
 division	Kiambu	-1.03207695	36.815686702129064
@@ -13669,6 +13670,7 @@ division	Primorsky	45.0526	135
 division	Prince Edward Island	46.344935	-63.405688
 division	Pristina	42.6638771	21.1640849
 division	Prizren	42.2130151	20.7363339
+division	Prizren XK	42.211157650000004	20.694371212378066
 division	Prnjavor	44.8686369	17.6631777
 division	Provence-Alpes-Côte d'Azur	44.0580563	6.0638506
 division	Province 1	27.2308035	87.17636350640461
@@ -13731,6 +13733,7 @@ division	Ratchaburi	13.6317897	99.3558216
 division	Rautahat	26.98897655	85.28288985670432
 division	Rawalpindi	33.583175	73.049347
 division	Rayong	12.7943716	101.3705344
+division	Razavi Khorasan	35.4795009	59.0237291
 division	Razgrad	43.5258211	26.5230603
 division	Red River Delta	21.010949	105.786621
 division	Red Sea	24.6601831	34.1399929
@@ -13831,6 +13834,7 @@ division	San Andres	6.8180711	-72.82070608235979
 division	San Andres y Providencia	12.8086902	-81.4908431
 division	San Jose	9.9281	-84.0907
 division	San Juan	-30.7054363	-69.1988222
+division	San Juan AR	-30.747083887617816	-68.5233835611284
 division	San Luis	-33.2762202	-65.9515546
 division	San Luis Potosi	22.5000001	-100.5000001
 division	San Marcos	14.9533135	-91.91204441598504
@@ -13969,6 +13973,7 @@ division	Soignies	50.567422	4.040613
 division	Sokoto	13.0611195	5.3152203
 division	Sokoto State	13.0611195	5.3152203
 division	Soliman	36.6944327	10.4865924
+division	Solomon Islands	-8.7053941	159.1070693851845
 division	Solothurn	47.207025	7.528326
 division	Somalia	8.3676771	49.083416
 division	Somogy County	46.439656	17.6212956
@@ -14434,6 +14439,7 @@ division	Yala	6.3344846	101.1409694
 division	Yamagata	38.2553393	140.3400205
 division	Yamaguchi	34.1781317	131.4737077
 division	Yamalo-Nenets	67.1471631	74.3415488
+division	Yamalo-Nenets Autonomous Okrug	67.1471631	74.3415488
 division	Yamanashi	35.6928452	138.6871263
 division	Yambol	42.483935	26.5105553
 division	Yamoussoukro	6.869145	-5.2823277
