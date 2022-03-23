@@ -66,27 +66,3 @@ Alternately, download a specific version of the workflow that you know works for
 
    # Change into the workflow's directory.
    cd ncov-7/
-
-3. Run a basic analysis with example data
------------------------------------------
-
-Run a basic workflow with example data, to confirm that your :term:`Nextstrain runtime <docs.nextstrain.org:runtime>` is properly configured.
-
-.. code:: bash
-
-   nextstrain build . --cores 4 \
-     --configfile ./my_profiles/getting_started/builds.yaml
-
-The ``nextstrain build`` command runs a :term:`pathogen workflow <docs.nextstrain.org:workflow>` defined using Snakemake. Since our ``Snakefile`` is in the current directory, we specify the directory as ``.``. All other arguments pass through to Snakemake.
-
-The ``getting_started`` build produces a minimal global phylogeny for visualization in :term:`docs.nextstrain.org:Auspice`. This workflow should complete in about 5 minutes on a MacBook Pro (2.7 GHz Intel Core i5) with four cores.
-
-4. Visualize the phylogeny for example data
--------------------------------------------
-
-`Open auspice.us <https://auspice.us>`__ in your browser. Drag and drop the :term:`JSON file <docs.nextstrain.org:JSONs>` ``auspice/ncov_global.json`` anywhere on the landing page, to visualize the resulting phylogeny. The resulting phylogeny should look something like this:
-
-.. figure:: ../images/getting-started-tree.png
-   :alt: Phylogenetic tree from the “getting started” build as visualized in Auspice
-
-   Phylogenetic tree from the “getting started” build as visualized in Auspice
