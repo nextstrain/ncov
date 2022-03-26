@@ -10911,8 +10911,10 @@ Slovakia/UVZ_PL36_A5_17804/2021
 Slovakia/UVZ_PL36_D11_17986/2021
 Slovakia/UVZ_PL37_C8_18063/2021
 Slovakia/UVZ_PL37_H7_18060/2021
+Timor-Leste/TL979/2021
 Timor-Leste/TL1011/2021
 Timor-Leste/TL1013/2021
+Timor-Leste/TL1015/2021
 Timor-Leste/TL1017/2021
 
 # Under/over diverged Omicron sequences
