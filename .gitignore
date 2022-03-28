@@ -10,6 +10,10 @@ defaults/colors.tsv
 defaults/colors_*.tsv
 stats.json
 
+# common analysis directory names
+ncov-tutorial/
+my-ncov-analyses/
+
 # old analysis directory
 my_profiles/*
 !my_profiles/README.md
