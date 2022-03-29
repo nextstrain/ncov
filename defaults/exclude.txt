@@ -11022,3 +11022,8 @@ PLW/PW-CDC-2-5546708/2021
 
 USA/21U365MD00153_2-23-2022/2021	# Strain has same BioSample accession (SAMN26255250) as USA/21U365MD00153_2-16-2022/2021
 
+USA/UT-03066/2020   # Strain has same BioSample accession (SAMN15901879) as USA/UT-03037/2020
+USA/UT-03070/2020   # Strain has same BioSample accession (SAMN15901883) as USA/UT-03041/2020
+USA/UT-04508/2020   # Strain has same BioSample accession (SAMN15901824) as USA/UT-01653/2020
+USA/UT-08768/2020   # Strain has same BioSample accession (SAMN15901842) as USA/UT-04409/2020
+
