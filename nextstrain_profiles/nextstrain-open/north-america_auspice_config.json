@@ -24,11 +24,6 @@
       "type": "categorical"
     },
     {
-      "key": "clade_membership",
-      "title": "Clade",
-      "type": "categorical"
-    },
-    {
       "key": "S1_mutations",
       "title": "S1 mutations",
       "type": "continuous"
@@ -47,7 +42,7 @@
       "key": "mutational_fitness",
       "title": "Mutational fitness",
       "type": "continuous"
-    },    
+    },
     {
       "key": "division",
       "title": "Admin Division",
