@@ -549,7 +549,7 @@ def missing_coordinates(data, path, geo_location_occurences):
                     missing_latlongs["country"][region] = []
                 missing_latlongs["country"][region].append(country)
 
-            division_threshold_function = lambda division: division not in latlongs["division"] and (geo_location_occurences["division"][division] >= 20 or region == "Africa")
+            division_threshold_function = lambda division: division not in latlongs["division"] and (geo_location_occurences["division"][division] >= 20)
             for division in filter(division_threshold_function, data[region][country]):
                 if region not in missing_latlongs["division"]:
                     missing_latlongs["division"][region] = {}
@@ -1028,19 +1028,18 @@ def create_annotations(metadata_filename, applied_rules_geoLocation, applied_rul
             region = l[region_i]
             division = l[division_i]
             location = l[location_i]
-            host = l[host_i]
             strain = l[strain_i]
 
             if gisaid:
-                id = strain + "\t" + l[gisaid_epi_isl_i]
+                id = l[gisaid_epi_isl_i]
             else:
                 id = l[genbank_accession_i]
 
             if (region, country, division, location) in applied_rules_geoLocation:
-                geoLocationAnnotations[id] = (region, country, division, location), applied_rules_geoLocation[(region, country, division, location)]
+                geoLocationAnnotations[id] = (region, country, division, location), applied_rules_geoLocation[(region, country, division, location)], strain
 
             if (region, country, division, location) in applied_rules_manual:
-                manualAnnotations[id] = (region, country, division, location), applied_rules_manual[(region, country, division, location)]
+                manualAnnotations[id] = (region, country, division, location), applied_rules_manual[(region, country, division, location)], strain
 
             line = f.readline()
 
@@ -1051,11 +1050,12 @@ def create_annotations(metadata_filename, applied_rules_geoLocation, applied_rul
 # that conflict with new rules and adjust the annotation accordingly)
 # For geoLocationRules, only test whether there are conflicting annotations that need adjustment.
 # For manualAnnotationRules, also produce new annotations.
-def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnnotations):
+def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnnotations, gisaid):
     for id in annotations["geography"]:
+        EPI_ISL = id.split("\t")[-1]
         for ruleSet in [geoLocationAnnotations, manualAnnotations]:
-            if id in ruleSet:
-                (region2, country2, division2, location2) = ruleSet[id][1]
+            if EPI_ISL in ruleSet:
+                (region2, country2, division2, location2) = ruleSet[EPI_ISL][1]
                 annotations_correct = {"region": region2, "country": country2, "division": division2, "location": location2}
                 for type in annotations_correct:
                     if type in annotations["geography"][id]:
@@ -1064,14 +1064,19 @@ def find_conflicting_annotations(annotations, geoLocationAnnotations, manualAnno
                         if "#" in name0:
                             (name0, comment) = name0.split(" #")
                         if name0 != annotations_correct[type]:
-                            print("Conflicting annotation: " + id + "\t" + bold(type + " " + name0) + " will be replaced with " + bold(annotations_correct[type]))
+                            print(f"Conflicting annotation: {id}\t{bold(type + ' ' + name0)} will be replaced with {bold(annotations_correct[type])}")
                             annotations["geography"][id][type] = annotations_correct[type]
                             if comment != "":
                                 annotations["geography"][id][type] += " #" + comment
 
-    for id in manualAnnotations:
-        (region, country, division, location) = manualAnnotations[id][0]
-        (region2, country2, division2, location2) = manualAnnotations[id][1]
+    for EPI_ISL in manualAnnotations:
+        (region, country, division, location) = manualAnnotations[EPI_ISL][0]
+        (region2, country2, division2, location2) = manualAnnotations[EPI_ISL][1]
+        strain = manualAnnotations[EPI_ISL][2]
+        if gisaid:
+            id = strain + "\t" + EPI_ISL
+        else:
+            id = EPI_ISL
         annotations_correct = {"region": (region, region2), "country": (country, country2), "division": (division, division2), "location": (location, location2)}
         for type in annotations_correct:
             if annotations_correct[type][0] != annotations_correct[type][1]:
@@ -1294,8 +1299,8 @@ if __name__ == '__main__':
         # Also insert new annotations created by manualAnnotationRules
         print("\n----------\n")
         print("Searching for conflicting annotations and adding manualAnnotationRules...")
-        annotations_gisaid = find_conflicting_annotations(annotations_gisaid, geoLocationAnnotations_gisaid, manualAnnotations_gisaid)
-        annotations_open = find_conflicting_annotations(annotations_open, geoLocationAnnotations_open, manualAnnotations_open)
+        annotations_gisaid = find_conflicting_annotations(annotations_gisaid, geoLocationAnnotations_gisaid, manualAnnotations_gisaid, gisaid = True)
+        annotations_open = find_conflicting_annotations(annotations_open, geoLocationAnnotations_open, manualAnnotations_open, gisaid = False)
 
     print("\n----------\n")
     # Perform special checks on the metadata, e.g. check for Mink host consistency, check if date is consistent with clade...
