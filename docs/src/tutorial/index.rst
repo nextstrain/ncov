@@ -12,4 +12,3 @@ Tutorial
    example-data
    custom-data
    genomic-surveillance
-   running

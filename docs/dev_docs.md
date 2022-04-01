@@ -18,7 +18,7 @@ We've included a test set of sequences that are publicly available via Genbank a
 
 ## Running
 
-Please see [these docs](./docs/running.md) for instructions on how to run this build yourself.
+Please see [the tutorials](./src/tutorial/index.rst) for instructions on how to run this build yourself.
 
 The resulting output JSON at `auspice/ncov.json` can be visualized by running `auspice view --datasetDir auspice` or `nextstrain view auspice/` depending on local vs containerized installation.
 

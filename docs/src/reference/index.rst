@@ -18,3 +18,4 @@ Reference material
    orientation-files
    customizing-analysis
    customizing-visualization
+   troubleshoot

@@ -55,7 +55,7 @@ Subsampling
 Basic subsampling
 ~~~~~~~~~~~~~~~~~
 
-Reasonable defaults are pre-defined. You can find a `description of them here <../tutorial/running.md>`__.
+Reasonable defaults are pre-defined. You can find a :doc:`description of them here <configuration>`.
 
 Custom subsampling schemes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
