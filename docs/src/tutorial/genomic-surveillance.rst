@@ -10,7 +10,7 @@ Prerequisites
 -------------
 
 1. :doc:`custom-data`. This tutorial introduces concepts expanded by the following tutorial.
-2. You have a GISAID account. `Register <https://www.gisaid.org/registration/register/>`__ if you do not have an account yet. However, registration may take a few days. Follow :doc:`alternative data preparation methods <../reference/data-prep/index>` in place of **Curate data from GISAID** if you wish to continue the following tutorial in the meantime.
+2. You have a GISAID account. `Register <https://www.gisaid.org/registration/register/>`__ if you do not have an account yet. However, registration may take a few days. Follow :doc:`alternative data preparation methods <../guides/data-prep/index>` in place of **Curate data from GISAID** if you wish to continue the following tutorial in the meantime.
 
 Setup
 -----

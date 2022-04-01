@@ -1,7 +1,9 @@
-.. cssclass:: configurationparameters
+.. cssclass:: configuration-reference
 
-Configuration parameters for Nextstrain SARS-CoV-2 workflow
-===========================================================
+Workflow config file reference
+==============================
+
+This is the detailed reference for sections in a :term:`workflow config file <config file>`. For example use cases, see :doc:`../guides/workflow-config-file`.
 
 .. contents:: Table of Contents
    :local:
@@ -232,7 +234,7 @@ sampling_scheme
 
 -  type: string
 -  description: A flag to pass to ``augur filter`` that specifies whether to enable probabilistic sampling or not. Probabilistic sampling is useful when there are more groups than requested sequences.
--  default: ``--probabilistic-sampling`` (Augur’s default)
+-  default: ``--probabilistic-sampling`` (Augur's default)
 -  examples:
 
    -  ``--probabilistic-sampling``
@@ -392,7 +394,7 @@ auspice_json_prefix
 -------------------
 
 -  type: string
--  description: Prefix to use for Auspice JSON outputs. Change this value to produce JSONs named like ``auspice/<your_prefix>_global.json`` for a build named ``global``, for example. If you are using `Nextstrain’s Community Sharing <https://docs.nextstrain.org/en/latest/guides/share/community-builds.html>`__ to view your builds, set this value to your GitHub repository name and the ``ncov`` default. For example, if your repository is named ``evolution``, set ``auspice_json_prefix: evolution_ncov`` to get JSONs you can view your ``global`` build at https://nextstrain.org/community/*your_github_organization*/evolution/ncov/global.
+-  description: Prefix to use for Auspice JSON outputs. Change this value to produce JSONs named like ``auspice/<your_prefix>_global.json`` for a build named ``global``, for example. If you are using :doc:`Nextstrain's Community Sharing <docs.nextstrain.org:guides/share/community-builds>` to view your builds, set this value to your GitHub repository name and the ``ncov`` default. For example, if your repository is named ``evolution``, set ``auspice_json_prefix: evolution_ncov`` to get JSONs you can view your ``global`` build at https://nextstrain.org/community/*your_github_organization*/evolution/ncov/global.
 -  default: ``ncov``
 
 
@@ -436,7 +438,7 @@ conda_environment
 -----------------
 
 -  type: string
--  description: Path to a Conda environment file to use for the workflow when the workflow is run with `Snakemake’s ``--use-conda`` flag <https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html#integrated-package-management>`__.
+-  description: Path to a Conda environment file to use for the workflow when the workflow is run with `Snakemake's ``--use-conda`` flag <https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html#integrated-package-management>`__.
 -  default: ``workflow/envs/nextstrain.yaml``
 
 custom_rules
@@ -609,7 +611,7 @@ database_id_columns
 ~~~~~~~~~~~~~~~~~~~
 
 -  type: object
--  description: A list of columns representing external database ids for metadata records. These unique ids represent a snapshot of data at a specific time for a given strain name. The sanitize metadata script resolves duplicate metadata records for the same strain name by selecting the record with the latest database id. Multiple database id columns allow the script to resolve duplicates when one or more columns has ambiguous values (e.g., “?”). Deduplication occurs before renaming of columns, so the default values include GISAID’s own “Accession ID” as well as Nextstrain-style database ids.
+-  description: A list of columns representing external database ids for metadata records. These unique ids represent a snapshot of data at a specific time for a given strain name. The sanitize metadata script resolves duplicate metadata records for the same strain name by selecting the record with the latest database id. Multiple database id columns allow the script to resolve duplicates when one or more columns has ambiguous values (e.g., “?”). Deduplication occurs before renaming of columns, so the default values include GISAID's own “Accession ID” as well as Nextstrain-style database ids.
 -  default:
 
 .. code:: yaml
@@ -714,7 +716,7 @@ run_pangolin
 ------------
 
 -  type: boolean
--  description: Enable annotation of Pangolin lineages for a given build’s subsampled sequences.
+-  description: Enable annotation of Pangolin lineages for a given build's subsampled sequences.
 -  default: ``false``
 
 
@@ -946,7 +948,7 @@ sampling_bias_correction
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  type: float
--  description: A rough estimate of how many more events would have been observed if sequences represented an even sample. `See the documentation for ``augur traits`` for more details <https://docs.nextstrain.org/projects/augur/en/stable/usage/cli/traits.html>`__.
+-  description: A rough estimate of how many more events would have been observed if sequences represented an even sample. :doc:`See the documentation for augur traits for more details <augur:usage/cli/traits>`.
 -  default: ``2.5``
 
 columns
@@ -988,13 +990,13 @@ max_date
    2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
    3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
 
--  default: without value supplied, defaults to today’s date minus ``recent_days_to_censor`` parameter
+-  default: without value supplied, defaults to today's date minus ``recent_days_to_censor`` parameter
 
 recent_days_to_censor
 ~~~~~~~~~~~~~~~~~~~~~
 
 -  type: integer
--  description: How many days back from today’s date should samples be hidden from frequencies calculations? This is in place to help with sampling bias where some regions have faster sequencing turnarounds than other regions.
+-  description: How many days back from today's date should samples be hidden from frequencies calculations? This is in place to help with sampling bias where some regions have faster sequencing turnarounds than other regions.
 -  default: without value supplied, defaults to ``0``
 
 pivot_interval

@@ -1,9 +1,9 @@
-Overview of remote nCoV files (intermediate build assets)
-=========================================================
+Remote inputs
+=============
 
-This page provides an overview of intermediate files which Nextstrain produces. Where appropriate, these files can be starting points for the `ncov pipeline <https://github.com/nextstrain/ncov/>`__ (discussed below).
+This page provides an overview of intermediate files which Nextstrain produces via daily workflow runs. Where appropriate, these files can be starting points for the `ncov workflow <https://github.com/nextstrain/ncov/>`__ (discussed below).
 
-We have two GitHub repositories which routinely upload files to `S3 buckets <https://aws.amazon.com/s3/>`__: `ncov-ingest <https://github.com/nextstrain/ncov-ingest/>`__ and `ncov <https://github.com/nextstrain/ncov/>`__. Each of those runs separate pipelines for GISAID and GenBank (aka “open”) data sources; these pipelines start with data curation and QC steps and end with the phylogenetic analyses you can see on `nextstrain.org <https://nextstrain.org/sars-cov-2/>`__
+We have two GitHub repositories which routinely upload files to `S3 buckets <https://aws.amazon.com/s3/>`__: `ncov-ingest <https://github.com/nextstrain/ncov-ingest/>`__ and `ncov <https://github.com/nextstrain/ncov/>`__. Each of those runs separate pipelines for GISAID and GenBank (aka "open") data sources; these pipelines start with data curation and QC steps and end with the phylogenetic analyses you can see on `nextstrain.org <https://nextstrain.org/sars-cov-2/>`__
 
 The GISAID data is stored at ``s3://nextstrain-ncov-private`` and is not publicly available, in line with the GISAID Terms of Use (this is used internally by Nextstrain).
 
@@ -13,9 +13,9 @@ The open (GenBank) data is publicly available at three endpoints:
 -  ``s3://nextstrain-data/files/ncov/open/``
 -  ``gs://nextstrain-data/files/ncov/open/`` (mirrored daily from S3 by the Broad Institute)
 
-**Our intention is to make GenBank intermediate files open and available for everyone to use, and to keep these files up-to-date.** The paths for specific files are the same under each endpoint, e.g. ``https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz``, ``s3://nextstrain-data/files/ncov/open/metadata.tsv.gz``, and ``gs://nextstrain-data/files/ncov/open/metadata.tsv.gz`` all exist. See below for a list of files that exist. If you’re running workflows on AWS or GCP compute that fetch this data, please use the S3 or GS URLs, respectively, for cheaper (for us) and faster (for you) data transfers. Otherwise, please use the https://data.nextstrain.org URLs.
+**Our intention is to make GenBank intermediate files open and available for everyone to use, and to keep these files up-to-date.** The paths for specific files are the same under each endpoint, e.g. ``https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz``, ``s3://nextstrain-data/files/ncov/open/metadata.tsv.gz``, and ``gs://nextstrain-data/files/ncov/open/metadata.tsv.gz`` all exist. See below for a list of files that exist. If you're running workflows on AWS or GCP compute that fetch this data, please use the S3 or GS URLs, respectively, for cheaper (for us) and faster (for you) data transfers. Otherwise, please use the https://data.nextstrain.org URLs.
 
-Note that even though the ``s3://nextstrain-data/`` and ``gs://nextstrain-data/`` buckets are public, the defaults for most S3 and GS clients require *some* user to be authenticated, though the specific user/account doesn’t matter. In the rare case you need to access the S3 or GS buckets anonymously, the easiest way is to configure your inputs using ``https://nextstrain-data.s3.amazonaws.com/files/ncov/open/`` or ``https://storage.googleapis.com/nextstrain-data/files/ncov/open/`` URLs instead.
+Note that even though the ``s3://nextstrain-data/`` and ``gs://nextstrain-data/`` buckets are public, the defaults for most S3 and GS clients require *some* user to be authenticated, though the specific user/account doesn't matter. In the rare case you need to access the S3 or GS buckets anonymously, the easiest way is to configure your inputs using ``https://nextstrain-data.s3.amazonaws.com/files/ncov/open/`` or ``https://storage.googleapis.com/nextstrain-data/files/ncov/open/`` URLs instead.
 
 Depending on your execution environment, you may need to install additional Python dependencies for specific support of the different URL schemes (``https``, ``s3``, ``gs``). The workflow will produce an error at the start if additional dependencies are needed to fetch your configured inputs. Both ``https`` and ``s3`` should work out of the box in the standard Nextstrain Conda and Docker execution environments.
 
@@ -127,7 +127,7 @@ Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-ameri
 Starting your build from these intermediates
 --------------------------------------------
 
-Each workflow defines one or more inputs in the ``builds.yaml`` file.
+Each workflow defines one or more inputs in the workflow config file.
 
 In the simplest form, an input specifies a local path to some metadata and sequences, like so:
 

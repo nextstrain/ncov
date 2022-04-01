@@ -28,12 +28,44 @@ If you have a specific question, post a note over at the `discussion board <http
 .. toctree::
    :maxdepth: 1
    :titlesonly:
-   :caption: Table of contents
+   :caption: Visualization & Interpretation
+   :hidden:
 
-   tutorial/index
-   guides/index
-   visualization/index
-   guides/index
-   reference/index
-   videos
+   visualization/sharing
+   visualization/interpretation
+   visualization/narratives
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :caption: Guides
+   :hidden:
+
+   guides/update-workflow
+   guides/workflow-config-file
+   guides/customizing-visualization
+   guides/data-prep/index
+   guides/run-analysis-on-terra
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Reference
+   :hidden:
+
+   reference/nextstrain-overview
+   reference/files
+   reference/workflow-config-file
+   reference/remote_inputs
+   reference/metadata-fields
+   reference/naming_clades
+   reference/data_submitter_faq
+   reference/troubleshoot
+   reference/change_log
+   reference/glossary
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
    Stuck? Ask us on the discussion board. We're happy to help! <https://discussion.nextstrain.org/>

@@ -7,6 +7,8 @@ Congratulations! You have completed all of the tutorials for the ncov workflow. 
 .. contents:: Table of Contents
    :local:
 
+.. _create-analysis-directory:
+
 Create your own analysis directory
 ==================================
 
@@ -72,5 +74,5 @@ Additional resources
    - `Genomic Epidemiology Seminar Series <https://czgenepi.org/resources>`__ by Chan Zuckerberg Initiative Genomic Epidemiology (CZ GEN EPI)
    - `COVID-19 Genomic Epidemiology Toolkit <https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html>`__ by Centers for Disease Control and Prevention (CDC)
 
-- :doc:`Review all possible options to configure your SARS-CoV-2 analyses with Nextstrain <../reference/configuration-reference>`.
+- :doc:`Review all possible options to configure your SARS-CoV-2 analyses with Nextstrain <../reference/workflow-config-file>`.
 - Watch `this 1-hour video overview <https://youtu.be/m4_F2tG58Pc>`__ by Heather Blankenship on how to deploy Nextstrain for a Public Health lab.

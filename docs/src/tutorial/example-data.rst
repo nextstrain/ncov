@@ -70,7 +70,7 @@ The workflow can take several minutes to run. While it is running, you can learn
 
       The ``refine`` entry specifies the root sequence for the example GenBank data.
 
-      For more information, see :doc:`../reference/configuration-reference`.
+      For more information, see :doc:`../reference/workflow-config-file`.
 
 The workflow output produces a new directory ``auspice/`` containing a file ``ncov_default-build.json``, which will be visualized in the following section. The workflow also produces intermediate files in a new ``results/`` directory.
 

@@ -10,7 +10,7 @@ Prerequisites
 -------------
 
 1. :doc:`example-data`. This tutorial sets up the command line environment used in the following tutorial.
-2. You have a GISAID account. `Register <https://www.gisaid.org/registration/register/>`__ if you do not have an account yet. However, registration may take a few days. Follow :doc:`alternative data preparation methods <../reference/data-prep/index>` in place of **Curate data from GISAID** if you wish to continue the following tutorial in the meantime.
+2. You have a GISAID account. `Register <https://www.gisaid.org/registration/register/>`__ if you do not have an account yet. However, registration may take a few days. Follow :doc:`alternative data preparation methods <../guides/data-prep/index>` in place of **Curate data from GISAID** if you wish to continue the following tutorial in the meantime.
 
 Setup
 -----
@@ -82,7 +82,7 @@ We will retrieve 10 sequences from GISAID's EpiCoV database.
 
 .. hint::
 
-   Read :doc:`the full data prep guide <../reference/data-prep/index>` for other ways to curate custom data.
+   Read :doc:`the full data prep guide <../guides/data-prep/index>` for other ways to curate custom data.
 
 Run the workflow
 ----------------

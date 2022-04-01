@@ -102,7 +102,7 @@ html_static_path = ['_static']
 # or fully qualified paths (eg. https://...)
 html_css_files = [
     'css/custom.css',
-    'css/configuration-parameters.css'
+    'css/configuration-reference.css'
 ]
 
 # -- Cross-project references ------------------------------------------------
