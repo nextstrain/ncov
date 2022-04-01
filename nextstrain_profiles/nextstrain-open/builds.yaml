@@ -18,8 +18,8 @@ upload:
 # as we re-align everything after subsampling.
 inputs:
   - name: open
-    metadata: "https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz"
-    aligned: "https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz"
+    metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.gz"
+    aligned: "s3://nextstrain-data/files/ncov/open/sequences.fasta.xz"
     skip_sanitize_metadata: true
 
 # Define locations for which builds should be created.
