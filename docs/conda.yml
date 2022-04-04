@@ -12,3 +12,4 @@ dependencies:
     - sphinx-markdown-tables
     - sphinx-argparse
     - sphinx-tabs
+    - sphinx-copybutton
