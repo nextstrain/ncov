@@ -1,10 +1,13 @@
 Customizing analysis
 ====================
 
+.. contents:: Table of Contents
+   :local:
+
 Changing parameters
 -------------------
 
-You can configure most steps of `the workflow <orientation-workflow.md>`__ by specifying values in a ``.yaml`` configuration file. We've provided reasonable default values for each step in the ``defaults/parameters.yaml``; these are the same values the Nextstrain team uses for our analyses. For more details, `see the reference for all workflow configuration parameters <https://nextstrain.github.io/ncov/configuration>`__.
+You can configure most steps of `the workflow <orientation-workflow.html>`__ by specifying values in a ``.yaml`` configuration file. We've provided reasonable default values for each step in the ``defaults/parameters.yaml``; these are the same values the Nextstrain team uses for our analyses. For more details, `see the reference for all workflow configuration parameters <https://nextstrain.github.io/ncov/configuration>`__.
 
 We encourage you to take a few minutes to skim through `the default configuration file <https://github.com/nextstrain/ncov/blob/master/defaults/parameters.yaml>`__. Although these default values should be fine for most users, it's helpful to get a sense for what options are available.
 
@@ -32,7 +35,12 @@ To modify rules for the example profile, create a new file named ``my_profiles/e
 Adding a new place
 ------------------
 
-Places are defined as one of: - ``region`` (e.g., ``North America``, ``Asia``) - ``country`` - ``division`` (i.e., state, province, or canton) - ``location`` (i.e., a county or city within a division)
+Places are defined as one of:
+
+- ``region`` (e.g., ``North America``, ``Asia``)
+- ``country``
+- ``division`` (i.e., state, province, or canton)
+- ``location`` (i.e., a county or city within a division)
 
 To define a new place, you'll need to specify its GPS coordinates and a color.
 
@@ -160,7 +168,7 @@ If you need parameters in a way that isn't represented by the configuration file
 Ancestral trait reconstruction
 ------------------------------
 
-Trait reconstruction is the process by which augur infers the most likely metadata value of an internal node. For example, if an internal node (which always represents a hypothesized, ancestral virus / case) has 3 descendants, all of which were isolated in Washington State, we might infer that the ancestor was most likely also circulating in Washington State (see `“Interpretation” <../visualization/interpretation.md>`__ for more).
+Trait reconstruction is the process by which augur infers the most likely metadata value of an internal node. For example, if an internal node (which always represents a hypothesized, ancestral virus / case) has 3 descendants, all of which were isolated in Washington State, we might infer that the ancestor was most likely also circulating in Washington State (see `“Interpretation” <../visualization/interpretation.html>`__ for more).
 
 For each build, you can specify which categorical metadata fields to use for trait reconstruction.
 
@@ -180,11 +188,11 @@ To specify this on a per-build basis, add a block like the following to your ``m
 Labeling clades
 ---------------
 
-We assign clade labels according to `this schema <../reference/naming_clades.md>`__.
+We assign clade labels according to `this schema <../reference/naming_clades.html>`__.
 
 Because the exact topology of the tree will vary across runs, clades are defined based on their unique mutations. These are specified in ``defaults/clades.tsv`` like so:
 
-.. code:: tsv
+::
 
    # clade gene    site    alt
 
