@@ -4,18 +4,18 @@ Customizing analysis
 Changing parameters
 -------------------
 
-You can configure most steps of `the workflow <orientation-workflow.md>`__ by specifying values in a ``.yaml`` configuration file. We’ve provided reasonable default values for each step in the ``defaults/parameters.yaml``; these are the same values the Nextstrain team uses for our analyses. For more details, `see the reference for all workflow configuration parameters <https://nextstrain.github.io/ncov/configuration>`__.
+You can configure most steps of `the workflow <orientation-workflow.md>`__ by specifying values in a ``.yaml`` configuration file. We've provided reasonable default values for each step in the ``defaults/parameters.yaml``; these are the same values the Nextstrain team uses for our analyses. For more details, `see the reference for all workflow configuration parameters <https://nextstrain.github.io/ncov/configuration>`__.
 
-We encourage you to take a few minutes to **skim through**\ `the default config file <https://github.com/nextstrain/ncov/blob/master/defaults/parameters.yaml>`__\ **. Although these default values should be fine for most users, it’s helpful to get a sense for what options are available.**
+We encourage you to take a few minutes to skim through `the default configuration file <https://github.com/nextstrain/ncov/blob/master/defaults/parameters.yaml>`__. Although these default values should be fine for most users, it's helpful to get a sense for what options are available.
 
-If you’d like to tweak the parameterization, **you can override any of these values by specifying them in the ``my_profiles/<name>/builds.yaml`` file. Any values not overridden in this way will fall back to the default values.** Keeping build-specific parameters separate this way prevents mixups of settings between runs, and gives you a cleaner file to work with (rather than having to wrestle the *entire* default parameterization file).
+If you'd like to tweak the parameterization, **you can override any of these values by specifying them in the workflow configuration file. Any values not overridden in this way will fall back to the default values.** Keeping build-specific parameters separate this way prevents mixups of settings between runs, and gives you a cleaner file to work with (rather than having to wrestle the *entire* default parameterization file).
 
 Adding custom rules
 -------------------
 
 Insert your own custom Snakemake rules into the default workflow without modifying the main Snakemake files, by defining a list of ``custom_rules`` in your ``builds.yaml`` file. Each entry in the ``custom_rules`` list should be a path to a valid Snakemake file (e.g., “my_rules.smk”). The main workflow will detect these custom rules and include them after all other rules have been defined.
 
-As an example, the Nextstrain team’s workflow defines custom export rules that modify the default auspice JSONs. These rules are defined in the ``builds.yaml`` file as follows:
+As an example, the Nextstrain team's workflow defines custom export rules that modify the default auspice JSONs. These rules are defined in the ``builds.yaml`` file as follows:
 
 .. code:: yaml
 
@@ -34,7 +34,7 @@ Adding a new place
 
 Places are defined as one of: - ``region`` (e.g., ``North America``, ``Asia``) - ``country`` - ``division`` (i.e., state, province, or canton) - ``location`` (i.e., a county or city within a division)
 
-To define a new place, you’ll need to specify its GPS coordinates and a color.
+To define a new place, you'll need to specify its GPS coordinates and a color.
 
 1. Add a line to ``defaults/lat_longs.tsv``. This file is separated into sections for each geographic resolution. This looks like:
 
@@ -45,7 +45,7 @@ To define a new place, you’ll need to specify its GPS coordinates and a color.
 
 ..
 
-   Note: keep in mind that ``0.0`` longitude is the prime meridian; to specify something in the Western hemisphere, you’ll need to enter a *negative* value for longitude. Similarly, to specify something in the Southern hemisphere, you’ll need to enter a *negative* value for latitude
+   Note: keep in mind that ``0.0`` longitude is the prime meridian; to specify something in the Western hemisphere, you'll need to enter a *negative* value for longitude. Similarly, to specify something in the Southern hemisphere, you'll need to enter a *negative* value for latitude
 
 2. Add an entry to ``color_ordering.tsv`` such that your newly-defined place is next to geographically nearby places in the list.
 
@@ -60,7 +60,7 @@ Reasonable defaults are pre-defined. You can find a :doc:`description of them he
 Custom subsampling schemes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We implement hierarchical subsampling by producing multiple samples at different geographic scales and merge these samples into one file for further analysis. A build can specify any number of such samples which can be flexibly restricted to particular meta data fields and subsampled from groups with particular properties. When specifying subsampling in this way, we’ll first take sequences from the ‘focal’ area, and the select samples from other geographical areas. Read further for information on how we select these samples. Here, we’ll look at the advanced example (``./my_profiles/example_advanced_customization``) file to explain some of the options.
+We implement hierarchical subsampling by producing multiple samples at different geographic scales and merge these samples into one file for further analysis. A build can specify any number of such samples which can be flexibly restricted to particular meta data fields and subsampled from groups with particular properties. When specifying subsampling in this way, we'll first take sequences from the 'focal' area, and the select samples from other geographical areas. Read further for information on how we select these samples. Here, we'll look at the advanced example (``./my_profiles/example_advanced_customization``) file to explain some of the options.
 
 When specifying how many sequences you want in a subsampling level (for example, from a country or a region), you can do this using either ``seq_per_group`` or ``max_sequences`` - these work with the ``group_by`` argument. For example, ``switzerland`` subsampling rules in the advanced example looks like this:
 
@@ -94,7 +94,7 @@ For ``country``-level sampling above, we specify that we want a maximum of 1,500
 
 Alternatively, in the ``region``-level sampling, we set ``seq_per_group`` to 20. This means that all the sequences from Europe (excluding Switzerland) will be divided into groups by their sampling country, month, and year (as defined by ``group_by``), and then 20 sequences will taken from each group (if there are fewer than 20 in any given group, all of the samples from that group will be taken).
 
-Now we’ll look at a subsampling scheme which defines a multi-``canton`` build. Cantons are regional divisions in Switzerland - below ‘country,’ but above ‘location’ (often city-level). In the advanced example, we’d like to be able to specify a set of neighboring ‘cantons’ and do focal sampling there, with contextual samples from elsewhere in the country, other countries in the region, and other regions in the world.
+Now we'll look at a subsampling scheme which defines a multi-``canton`` build. Cantons are regional divisions in Switzerland - below 'country,' but above 'location' (often city-level). In the advanced example, we'd like to be able to specify a set of neighboring 'cantons' and do focal sampling there, with contextual samples from elsewhere in the country, other countries in the region, and other regions in the world.
 
 For cantons this looks like this:
 
@@ -141,9 +141,9 @@ For cantons this looks like this:
          type: "proximity"
          focus: "country"
 
-All entries above canton level (the ‘contextual’ samples) specify priorities. Currently, we have only implemented one type of priority called ``proximity``. It attempts to selected sequences as close as possible to the focal samples specified as ``focus: division``. The argument of the latter has to match the name of one of the other subsamples.
+All entries above canton level (the 'contextual' samples) specify priorities. Currently, we have only implemented one type of priority called ``proximity``. It attempts to selected sequences as close as possible to the focal samples specified as ``focus: division``. The argument of the latter has to match the name of one of the other subsamples.
 
-In addition to the ``exclude`` filter, you can also specify strains to keep by providing a ``query``. The ``query`` field uses augur filter’s ``--query`` argument (introduced in version 8.0.0) and supports `pandas-style logical operators <https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#indexing-query>`__. For example, the following exclusionary filter,
+In addition to the ``exclude`` filter, you can also specify strains to keep by providing a ``query``. The ``query`` field uses augur filter's ``--query`` argument (introduced in version 8.0.0) and supports `pandas-style logical operators <https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#indexing-query>`__. For example, the following exclusionary filter,
 
 .. code:: yaml
 
@@ -155,7 +155,7 @@ can also be written as an inclusionary filter like so:
 
    query: --query "(region == {region}) & (country == {country}) & (division == '{division}')"
 
-If you need parameters in a way that isn’t represented by the configuration file, `create a new issue in the ncov repository <https://github.com/nextstrain/ncov/issues/new>`__ to let us know.
+If you need parameters in a way that isn't represented by the configuration file, `create a new issue in the ncov repository <https://github.com/nextstrain/ncov/issues/new>`__ to let us know.
 
 Ancestral trait reconstruction
 ------------------------------
