@@ -9,4 +9,7 @@ Tutorial
 
    intro
    setup
+   example-data
+   custom-data
+   genomic-surveillance
    running

@@ -39,3 +39,7 @@
 - type: page
   from_url: /analysis/setup.html
   to_url: /tutorial/setup.html
+
+- type: page
+  from_url: /videos.html
+  to_url: /tutorial/videos.html

@@ -9,9 +9,5 @@ At the end, you will be able to:
 - create phylogenetic trees of SARS-CoV-2 genomes from different sources including GISAID and Nextstrain-curated GenBank data
 - visualize the resulting trees in :term:`docs.nextstrain.org:Auspice`
 - define subsampling logic for your own genomic epidemiological analysis
- 
-After completing these tutorials, you may wish to `learn more about genomic epidemiology <link to Alli's gen epi book or some other resources?>`_ or `review all possible options to configure your SARS-CoV-2 analyses with Nextstrain <../reference/configuration.html>`_.
 
-If you prefer video format to working through these written tutorials, check out the :doc:`video tutorial walkthrough <../videos>`.
-
-We also recommend `this 1-hour video overview <https://youtu.be/m4_F2tG58Pc>`_ by Heather Blankenship on how to deploy Nextstrain for a Public Health lab.
+If you prefer to learn about the workflow through videos, see the :doc:`demo videos <videos>`.

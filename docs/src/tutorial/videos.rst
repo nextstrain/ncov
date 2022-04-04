@@ -2,7 +2,7 @@
 Video tutorial walkthrough
 **************************
 
-If you prefer video format to working through this tutorial in the written documentation, check out the videos below.
+If you prefer to learn about the workflow through videos, see the following:
 
 Running the analysis
 --------------------
