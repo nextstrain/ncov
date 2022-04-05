@@ -54,7 +54,15 @@ author = prose_list(git_authors())
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark', 'sphinx.ext.autodoc', 'sphinxarg.ext', 'sphinx.ext.napoleon', 'sphinx_markdown_tables', 'sphinx.ext.intersphinx']
+extensions = [
+    'recommonmark',
+    'sphinx.ext.autodoc',
+    'sphinxarg.ext',
+    'sphinx.ext.napoleon',
+    'sphinx_markdown_tables',
+    'sphinx.ext.intersphinx',
+    'sphinx_copybutton',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
