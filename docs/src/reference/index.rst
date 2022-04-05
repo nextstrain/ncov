@@ -19,3 +19,4 @@ Reference material
    customizing-analysis
    customizing-visualization
    troubleshoot
+   data-prep/index
