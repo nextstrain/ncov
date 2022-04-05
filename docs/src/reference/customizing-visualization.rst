@@ -10,12 +10,12 @@ Looking at the ``builds.yaml`` file, the last few lines are:
    files:
      auspice_config: "my_profiles/example/my_auspice_config.json"
 
-This points to a JSON file that parameterizes the output files used for visualizion with Auspice. Let’s look at what kinds of customization options we can use this for.
+This points to a JSON file that parametrizes the output files used for visualization with :term:`docs.nextstrain.org:Auspice`. Let's look at what kinds of customization options we can use this for.
 
 Custom color schemes
 --------------------
 
-If you’d like to specify a custom color scale, you can add a ``colors.tsv`` file, where each line is a tab-delimited list of a metadata column name; a metadata value; and a corresponding hex code.
+If you'd like to specify a custom color scale, you can add a ``colors.tsv`` file, where each line is a tab-delimited list of a metadata column name; a metadata value; and a corresponding hex code.
 
 The first few lines of the example file look like this:
 
@@ -56,7 +56,7 @@ If that is not provided, then a per-run description is used, also specified in `
 Adding custom metadata fields to color by
 -----------------------------------------
 
-1. Add a `valid metadata column <../guides/data-prep.md>`__ to your ``metadata.tsv``
+1. Add a :doc:`valid metadata column <./data-prep/local-data>` to your ``metadata.tsv``
 2. Open ``my_profiles/<name>/auspice_config.json``
 3. Add an entry to the ``colorings`` block of this JSON:
 
