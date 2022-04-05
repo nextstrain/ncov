@@ -1,6 +1,10 @@
 Configuration parameters for Nextstrain SARS-CoV-2 workflow
 ===========================================================
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 1
+
 S3_DST_BUCKET
 -------------
 
@@ -92,6 +96,9 @@ builds
 
 Builds support any named attributes that can be referenced by subsampling schemes. Builds also support the following specific attributes.
 
+.. contents::
+   :local:
+
 auspice_config
 ~~~~~~~~~~~~~~
 
@@ -176,6 +183,9 @@ files
 
 -  type: object
 -  description: Additional files used to configure tools used by the workflow (e.g., alignment references, names of strains to exclude during filtering, etc.).
+
+.. contents::
+   :local:
 
 include
 ~~~~~~~
@@ -277,6 +287,9 @@ filter
 -  type: object
 -  description: Filters to apply to strain metadata and sequences prior to subsampling and tree inference. The workflow applies an implicit filter on the maximum collection dates later than today.
 
+.. contents::
+   :local:
+
 min_length
 ~~~~~~~~~~
 
@@ -320,6 +333,9 @@ skip_diagnostics
 
 frequencies
 -----------
+
+.. contents::
+   :local:
 
 .. _min_date-1:
 
@@ -430,6 +446,9 @@ inputs
 
 Valid attributes for list entries in ``inputs`` are provided below.
 
+.. contents::
+   :local:
+
 name
 ~~~~
 
@@ -496,6 +515,9 @@ logistic_growth
    -  ``min_frequency``
    -  ``max_frequency``
 
+.. contents::
+   :local:
+
 delta_pivots
 ~~~~~~~~~~~~
 
@@ -534,6 +556,9 @@ mask
    -  ``mask_from_beginning``
    -  ``mask_from_end``
    -  ``mask_sites``
+
+.. contents::
+   :local:
 
 mask_from_beginning
 ~~~~~~~~~~~~~~~~~~~
@@ -580,6 +605,9 @@ refine
    -  ``date_inference``
    -  ``divergence_unit``
    -  ``clock_filter_iqd``
+
+.. contents::
+   :local:
 
 root
 ~~~~
@@ -701,6 +729,9 @@ sanitize_metadata
 -  type: object
 -  description: Parameters to configure how to sanitize metadata to a Nextstrain-compatible format. The sanitize metadata script resolves duplicate records using database ids, parses a GISAID-style location field into Nextstrain-style location fields, strips prefixes from strain names, and renames fields in that order.
 
+.. contents::
+   :local:
+
 metadata_id_columns
 ~~~~~~~~~~~~~~~~~~~
 
@@ -779,7 +810,22 @@ subsampling
 -  type: object
 -  description: Schemes for subsampling data prior to phylogenetic inference to avoid sampling bias or focus an analysis on specific spatial and/or temporal scales. `See the SARS-CoV-2 tutorial for more details on defining subsampling schemes <https://docs.nextstrain.org/projects/ncov/en/latest/analysis/customizing-analysis.html#subsampling>`__.
 
+Predefined subsampling schemes are:
+
+- ``all``
+- ``region``
+- ``region_global``
+- ``region_grouped_by_country``
+- ``country``
+- ``division``
+- ``location``
+
+See `defaults/parameters.yaml <https://github.com/nextstrain/ncov/blob/master/defaults/parameters.yaml>`__ for definitions.
+
 Each named subsampling scheme supports the following attributes that the workflow passes to ``augur filter``.
+
+.. contents::
+   :local:
 
 group_by
 ~~~~~~~~
@@ -959,6 +1005,9 @@ cluster
 -  type: object
 -  description: Parameters for clustering of closely related strains
 
+.. contents::
+   :local:
+
 .. _min_tips-1:
 
 min_tips
@@ -997,6 +1046,9 @@ traits
        sampling_bias_correction: 5.0
 
 Each named traits configuration (``default`` or build-named) supports the following attributes.
+
+.. contents::
+   :local:
 
 sampling_bias_correction
 ~~~~~~~~~~~~~~~~~~~~~~~~
