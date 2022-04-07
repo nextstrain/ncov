@@ -652,9 +652,15 @@ warn_about_duplicates
 -  default: ``true``
 
 
+priorities
+----------
+
+-  type: object
+-  description: Configures how proximities are calculated, which is used by subsampling schemes which specify it.
+
 
 crowding_penalty
-----------------
+~~~~~~~~~~~~~~~~
 
 -  type: float
 -  description: used when calculating ``priority scores`` during subsampling to decrease the number of identical samples that are included in the tree during random subsampling to provide a broader picture of the viral diversity in your dataset.
