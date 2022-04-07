@@ -3,8 +3,12 @@ Configuration parameters for Nextstrain SARS-CoV-2 workflow
 
 .. contents:: Table of Contents
    :local:
-   :depth: 1
+   :depth: 2
 
+Main Workflow configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Parameters in this section define the main inputs and outputs of the workflow, as well as the important ``subsampling`` parameter. Often these will be the only parameters you need to modify.
 
 inputs
 ------
@@ -341,6 +345,10 @@ priorities
    hCoV-19/USA/CZB-3456/2021   -3.1
 
 
+Cross-Workflow configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 default_build_name
 ------------------
 
@@ -397,14 +405,6 @@ active_builds
 
    -  ``global``
    -  ``global,africa,north-america``
-
-
-run_pangolin
-------------
-
--  type: boolean
--  description: Enable annotation of Pangolin lineages for a given build’s subsampled sequences.
--  default: ``false``
 
 
 
@@ -539,6 +539,10 @@ emerging_lineages
 -  default: ``defaults/emerging_lineages.tsv``
 
 
+Per-Rule configuration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
 sanitize_metadata
 -----------------
 
@@ -651,6 +655,14 @@ crowding_penalty
      # You may wish to set `crowding_penalty = 0.0` (default value = `0.1`) if you are interested in seeing as many samples as possible that are closely related to your `focal` set. 
 
 .. _title-1:
+
+run_pangolin
+------------
+
+-  type: boolean
+-  description: Enable annotation of Pangolin lineages for a given build’s subsampled sequences.
+-  default: ``false``
+
 
 mask
 ----
@@ -1063,6 +1075,9 @@ group_by
 -  description: Metadata column whose values should be used to determine whether closely related strains should be assigned to the same cluster. For example, the default column ensures that strains belong to the same division to be considered part of the same cluster.
 -  default: ``division``
 
+Internal, Nextstrain-only configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 S3_DST_BUCKET
 -------------
 
@@ -1109,6 +1124,9 @@ slack_token
 
 -  type: string
 -  description: `Slack authentication token <https://api.slack.com/authentication/token-types>`__ required for the Slack API calls to notify the defined ``slack_channel``. Only valid for Nextstrain builds.
+
+Miscellaneous
+^^^^^^^^^^^^^
 
 partition_sequences
 -------------------
