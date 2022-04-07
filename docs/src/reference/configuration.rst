@@ -385,7 +385,7 @@ title
 -----
 
 -  type: string
--  description: Title to provide to ``augur export`` and display as the title of the analysis in Auspice.
+-  description: Title to provide to ``augur export`` and display as the title of the analysis in Auspice. Note that this is only used if a title is not defined for the individual build in the ``builds`` object.
 
 
 genes
@@ -394,13 +394,14 @@ genes
 -  type: array
 -  description: A list of genes for which ``nextalign`` should generate amino acid sequences during the alignment process. Gene names must match the names provided in the gene map from the ``annotation`` parameter.
 -  default: ``["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]``
+-  used in rules: ``align``, ``build_align``, ``translate``, ``mutational_fitness``
 
 
 active_builds
 -------------
 
 -  type: string
--  description: Comma-delimited list of names of builds to run (allowing a subset of all builds to be specified).
+-  description: Comma-delimited list of names of builds to run (allowing a subset of all builds to be specified). You only need to use this parameter if you want to run a subset of the builds defined in ``builds``.
 -  examples
 
    -  ``global``
@@ -450,6 +451,7 @@ include
 -  type: string
 -  description: Path to a file with list of strains (one name per line) to include in the analysis regardless of priorities or subsampling during filtering.
 -  default: ``defaults/include.txt``
+-  used in rules: ``subsample``, ``filter``
 
 exclude
 ~~~~~~~
@@ -457,20 +459,23 @@ exclude
 -  type: string
 -  description: Path to a file with list of strains (one name per line) to exclude from the analysis.
 -  default: ``defaults/exclude.txt``
+-  used in rules: ``subsample``, ``filter``
 
 reference
 ~~~~~~~~~
 
 -  type: string
--  description: Path to a GenBank-formatted sequence to use for multiple sequence alignment with ``augur align``
+-  description: Path to a GenBank-formatted sequence to use for sequence translation
 -  default: ``defaults/reference_seq.gb``
+-  used in rules: ``translate``
 
 alignment_reference
 ~~~~~~~~~~~~~~~~~~~
 
 -  type: string
--  description: Path to a FASTA-formatted sequence to use for alignment with ``nextalign`` or ``mafft``\ ’s reference-based alignment
+-  description: Path to a FASTA-formatted sequence to use for alignment with ``nextalign``
 -  default: ``defaults/reference_seq.fasta``
+-  used in rules: ``align``, ``proximity_score`` (subsampling), ``build_align``, ``build_mutation_summary``
 
 annotation
 ~~~~~~~~~~
@@ -478,13 +483,13 @@ annotation
 -  type: string
 -  description: Path to a GFF-formated annotation of gene coordinates (e.g., a “gene map”) for use by ``nextalign`` and mutation summaries.
 -  default: ``defaults/annotation.gff``
+-  used in rules: ``align``, ``build_align``, ``build_mutation_summary``
 
 outgroup
 ~~~~~~~~
 
 -  type: string
 -  description: No longer used.
--  default: ``defaults/outgroup.fasta``
 
 ordering
 ~~~~~~~~
@@ -492,6 +497,7 @@ ordering
 -  type: string
 -  description: Path to tab-delimited mapping of metadata attributes (first column) to corresponding values (second column) with rows ordered by the desired appearance in the Nextstrain color legend. This mapping and ordering is manually curated by the Nextstrain team and updates regularly. Along with the ``color_schemes`` file, this file is used to generate a build-specific color map for use by Auspice.
 -  default: ``defaults/color_ordering.tsv``
+-  used in rules: ``colors``
 
 color_schemes
 ~~~~~~~~~~~~~
@@ -499,6 +505,7 @@ color_schemes
 -  type: string
 -  description: Path to a list of tab-delimited and manually curated categorical color schemes for N total categories where row one defines one color, row two define two colors, and so on. Along with the ``ordering`` file, this file is used to generate a build-specific color map for use by Auspice.
 -  default: ``defaults/color_schemes.tsv``
+-  used in rules: ``colors``
 
 .. _auspice_config-1:
 
@@ -506,8 +513,9 @@ auspice_config
 ~~~~~~~~~~~~~~
 
 -  type: string
--  description: Path to an Auspice configuration JSON file used by ``augur export``.
+-  description: Path to an Auspice configuration JSON file used by ``augur export``. Note that this is only used if a build does not define its own ``auspice_config`` (in the ``builds`` config section).
 -  default: ``defaults/auspice_config.json``
+-  used in rules: ``export``
 
 lat_longs
 ~~~~~~~~~
@@ -515,6 +523,7 @@ lat_longs
 -  type: string
 -  description: Path to a tab-delimited mapping of geographic scales (e.g., ``location`` ,\ ``division``, etc.), geographic names (e.g., ``King County``), and corresponding latitude and longitude values for the given place name. This mapping is manually curated by the Nextstrain team and updates regularly.
 -  default: ``defaults/lat_longs.tsv``
+-  used in rules: ``export``
 
 .. _description-1:
 
@@ -523,6 +532,7 @@ description
 
 -  type: string
 -  description: Path to a Markdown file containing a default description of each build that will be included in the build’s final Auspice JSON and appear in the build’s display in Auspice. Define a build-specific description with a path to that description file in ``builds: <build_name> : description: <path_to_build_specific_description>.md``.
+-  used in rules: ``export``
 
 clades
 ~~~~~~
@@ -530,6 +540,7 @@ clades
 -  type: string
 -  description: Path to `an Augur clade definition file <https://docs.nextstrain.org/en/latest/guides/bioinformatics/defining-clades.html#make-a-tsv-file-containing-your-clade-mutations>`__ where each row is a tab-delimited mapping of clade name to a gene, site (i.e., position), and alternate allele at that site for the corresponding clade.
 -  default: ``defaults/clades.tsv``
+-  used in rules: ``emerging_lineages``, ``clades``
 
 emerging_lineages
 ~~~~~~~~~~~~~~~~~
@@ -537,6 +548,7 @@ emerging_lineages
 -  type: string
 -  description: Path to `an Augur clade definition file <https://docs.nextstrain.org/en/latest/guides/bioinformatics/defining-clades.html#make-a-tsv-file-containing-your-clade-mutations>`__ for emerging lineages of concern that may be a subset or variation of the lineages defined by the ``clades`` parameter or Pangolin lineages.
 -  default: ``defaults/emerging_lineages.tsv``
+-  used in rules: ``emerging_lineages``
 
 
 Per-Rule configuration
