@@ -41,7 +41,7 @@ If you have a specific question, post a note over at the `discussion board <http
    :hidden:
 
    reference/index
-
+   reference/data-prep/index
 
 .. toctree::
    :maxdepth: 1

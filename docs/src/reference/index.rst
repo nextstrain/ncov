@@ -1,6 +1,6 @@
-******************
-Reference material
-******************
+*****************
+General Reference
+*****************
 
 .. toctree::
    :maxdepth: 1
@@ -19,4 +19,3 @@ Reference material
    customizing-analysis
    customizing-visualization
    troubleshoot
-   data-prep/index
