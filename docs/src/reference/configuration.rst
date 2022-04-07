@@ -5,10 +5,11 @@ Configuration parameters for Nextstrain SARS-CoV-2 workflow
    :local:
    :depth: 2
 
-Main Workflow configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Primary configuration
+^^^^^^^^^^^^^^^^^^^^^
 
-Parameters in this section define the main inputs and outputs of the workflow, as well as the important ``subsampling`` parameter. Often these will be the only parameters you need to modify.
+Parameters in this section define the main inputs and outputs of the workflow, as well as the commonly used ``subsampling`` rule.
+Often these will be the only parameters you need to modify.
 
 inputs
 ------
@@ -345,9 +346,10 @@ priorities
    hCoV-19/USA/CZB-3456/2021   -3.1
 
 
-Cross-Workflow configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Secondary configuration
+^^^^^^^^^^^^^^^^^^^^^^^
 
+These parameters are other high-level parameters which may affect multiple Snakemake rules, or modify which rules are run.
 
 default_build_name
 ------------------
@@ -554,6 +556,8 @@ emerging_lineages
 Per-Rule configuration
 ^^^^^^^^^^^^^^^^^^^^^^
 
+Each top-level parameter here corresponds to a single Snakemake rule.
+Note that ``subsampling`` is a commonly used rule configuration which is described separately in the Primary configuration section.
 
 sanitize_metadata
 -----------------
@@ -1096,6 +1100,8 @@ group_by
 Internal, Nextstrain-only configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+You shouldn't need to use parameters in this section unless you are running the core-Nextstrain builds. In addition to these parameters you will need AWS credentials set, e.g. in environment variables.
+
 S3_DST_BUCKET
 -------------
 
@@ -1143,8 +1149,10 @@ slack_token
 -  type: string
 -  description: `Slack authentication token <https://api.slack.com/authentication/token-types>`__ required for the Slack API calls to notify the defined ``slack_channel``. Only valid for Nextstrain builds.
 
-Miscellaneous
-^^^^^^^^^^^^^
+Unused Parameters
+^^^^^^^^^^^^^^^^^
+
+Documented here for completeness / historical accuracy.
 
 partition_sequences
 -------------------
