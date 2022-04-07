@@ -5,60 +5,83 @@ Configuration parameters for Nextstrain SARS-CoV-2 workflow
    :local:
    :depth: 1
 
-S3_DST_BUCKET
--------------
 
--  type: string
--  description: S3 bucket to store files from the ``upload`` rule in ``export_for_nextstrain.smk``. Currently only available to Nextstrain builds.
-
-S3_DST_COMPRESSION
-------------------
-
--  type: string
--  description: Compression format to use for files uploaded to S3 by the ``upload`` rule.
--  examples
-
-   -  ``xz``
-   -  ``gz``
-
-S3_DST_ORIGINS
---------------
+inputs
+------
 
 -  type: array
--  items:
+-  description: A list of named input datasets to use for the workflow. Input order determines the precedence of genome sequences and metadata such that later datasets override earlier datasets. Each input must define a ``name``, a path to ``metadata``, and a path to sequences at one of many possible starting points. The workflow merged all input metadata and sequences into a single metadata and sequences file prior to subsampling.
+-  required
 
-   -  type: string
+   -  ``name``
+   -  ``metadata``
+   -  ``sequences`` or ``aligned``
 
--  description: List of input names (i.e., “origins”) for which intermediate files should be uploaded to S3 by the ``upload`` rule.
--  examples
+-  examples:
 
-   -  ``["gisaid"]``
+.. code:: yaml
 
-active_builds
--------------
+   inputs:
+     - name: example-data
+       metadata: data/example_metadata.tsv.xz
+       sequences: data/example_sequences.fasta.xz
+     - name: prealigned-data
+       metadata: data/other_metadata.tsv.xz
+       aligned: data/other_aligned.fasta.xz
+
+Valid attributes for list entries in ``inputs`` are provided below.
+
+.. contents::
+   :local:
+
+name
+~~~~
 
 -  type: string
--  description: Comma-delimited list of names of builds to run (allowing a subset of all builds to be specified).
--  examples
+-  description: Name of the current dataset. Names cannot contain spaces, as they correspond to files on the file system.
+-  examples:
 
-   -  ``global``
-   -  ``global,africa,north-america``
+   -  ``example-data``
+   -  ``gisaid``
+   -  ``washington``
+   -  ``north-america``
 
-ancestral
----------
+metadata
+~~~~~~~~
 
--  type: object
--  description: Configuration of augur ancestral command that infers ancestral sequences based on a tree.
+-  type: string
+-  description: Path to a local or remote (S3, HTTP(S), GS) tab-delimited metadata file supported by Augur. Metadata can be uncompressed or compressed.
+-  examples:
 
-inference
+   -  ``data/example_metadata.tsv``
+   -  ``data/example_metadata.tsv.xz``
+   -  ``s3://your-bucket/metadata.tsv.gz``
+   -  ``https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz``
+
+sequences
 ~~~~~~~~~
 
 -  type: string
--  description: Calculate joint or marginal maximum likelihood ancestral sequence states
--  examples
+-  description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with \**_un_aligned*\* genome sequences. Sequences can be uncompressed or compressed.
+-  examples:
 
-   -  ``joint``
-   -  ``marginal``
+   -  ``data/example_sequences.fasta``
+   -  ``data/example_sequences.fasta.xz``
+   -  ``s3://your-bucket/sequences.fasta.gz``
+   -  ``https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz``
+
+aligned
+~~~~~~~
+
+-  type: string
+-  description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **aligned** genome sequences. Sequences can be uncompressed or compressed.
+-  examples:
+
+   -  ``data/aligned.fasta``
+   -  ``data/aligned.fasta.xz``
+   -  ``s3://your-bucket/aligned.fasta.gz``
+   -  ``https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz``
+
 
 builds
 ------
@@ -141,668 +164,7 @@ title
 -  type: string
 -  description: Build-specific title to provide to ``augur export`` and display as the title of the analysis in Auspice.
 
-combine_sequences_for_subsampling
----------------------------------
 
--  type: object
--  description: Configuration of logic to combine sequences from multiple input files into a single file for subsampling.
-
-warn_about_duplicates
-~~~~~~~~~~~~~~~~~~~~~
-
--  type: boolean
--  description: Warn users about duplicate sequences identified when merging input sequences and print a list of duplicates to standard out (and log files). Set this to ``false`` to get an error and stop the workflow when duplicates are detected.
--  default: ``true``
-
-conda_environment
------------------
-
--  type: string
--  description: Path to a Conda environment file to use for the workflow when the workflow is run with `Snakemake’s ``--use-conda`` flag <https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html#integrated-package-management>`__.
--  default: ``workflow/envs/nextstrain.yaml``
-
-custom_rules
-------------
-
--  type: array
--  description: List of paths to Snakemake files to include in the workflow, allowing users to inject their own rules at the beginning or the end of the workflow (e.g., to pre-process data prior to the workflow, annotate outputs from the workflow, etc.).
--  examples
-
-   -  ``- workflow/snakemake_rules/export_for_nextstrain.smk``
-   -  ``- nextstrain_profiles/nextstrain-gisaid/subsampling_ranges.smk``
-
-default_build_name
-------------------
-
--  type: string
--  description: Name to assign the default build when a user has not defined any other entries in the ``builds`` config.
--  default: ``default-build``
-
-files
------
-
--  type: object
--  description: Additional files used to configure tools used by the workflow (e.g., alignment references, names of strains to exclude during filtering, etc.).
-
-.. contents::
-   :local:
-
-include
-~~~~~~~
-
--  type: string
--  description: Path to a file with list of strains (one name per line) to include in the analysis regardless of priorities or subsampling during filtering.
--  default: ``defaults/include.txt``
-
-exclude
-~~~~~~~
-
--  type: string
--  description: Path to a file with list of strains (one name per line) to exclude from the analysis.
--  default: ``defaults/exclude.txt``
-
-reference
-~~~~~~~~~
-
--  type: string
--  description: Path to a GenBank-formatted sequence to use for multiple sequence alignment with ``augur align``
--  default: ``defaults/reference_seq.gb``
-
-alignment_reference
-~~~~~~~~~~~~~~~~~~~
-
--  type: string
--  description: Path to a FASTA-formatted sequence to use for alignment with ``nextalign`` or ``mafft``\ ’s reference-based alignment
--  default: ``defaults/reference_seq.fasta``
-
-annotation
-~~~~~~~~~~
-
--  type: string
--  description: Path to a GFF-formated annotation of gene coordinates (e.g., a “gene map”) for use by ``nextalign`` and mutation summaries.
--  default: ``defaults/annotation.gff``
-
-outgroup
-~~~~~~~~
-
--  type: string
--  description: No longer used.
--  default: ``defaults/outgroup.fasta``
-
-ordering
-~~~~~~~~
-
--  type: string
--  description: Path to tab-delimited mapping of metadata attributes (first column) to corresponding values (second column) with rows ordered by the desired appearance in the Nextstrain color legend. This mapping and ordering is manually curated by the Nextstrain team and updates regularly. Along with the ``color_schemes`` file, this file is used to generate a build-specific color map for use by Auspice.
--  default: ``defaults/color_ordering.tsv``
-
-color_schemes
-~~~~~~~~~~~~~
-
--  type: string
--  description: Path to a list of tab-delimited and manually curated categorical color schemes for N total categories where row one defines one color, row two define two colors, and so on. Along with the ``ordering`` file, this file is used to generate a build-specific color map for use by Auspice.
--  default: ``defaults/color_schemes.tsv``
-
-.. _auspice_config-1:
-
-auspice_config
-~~~~~~~~~~~~~~
-
--  type: string
--  description: Path to an Auspice configuration JSON file used by ``augur export``.
--  default: ``defaults/auspice_config.json``
-
-lat_longs
-~~~~~~~~~
-
--  type: string
--  description: Path to a tab-delimited mapping of geographic scales (e.g., ``location`` ,\ ``division``, etc.), geographic names (e.g., ``King County``), and corresponding latitude and longitude values for the given place name. This mapping is manually curated by the Nextstrain team and updates regularly.
--  default: ``defaults/lat_longs.tsv``
-
-.. _description-1:
-
-description
-~~~~~~~~~~~
-
--  type: string
--  description: Path to a Markdown file containing a default description of each build that will be included in the build’s final Auspice JSON and appear in the build’s display in Auspice. Define a build-specific description with a path to that description file in ``builds: <build_name> : description: <path_to_build_specific_description>.md``.
-
-clades
-~~~~~~
-
--  type: string
--  description: Path to `an Augur clade definition file <https://docs.nextstrain.org/en/latest/guides/bioinformatics/defining-clades.html#make-a-tsv-file-containing-your-clade-mutations>`__ where each row is a tab-delimited mapping of clade name to a gene, site (i.e., position), and alternate allele at that site for the corresponding clade.
--  default: ``defaults/clades.tsv``
-
-emerging_lineages
-~~~~~~~~~~~~~~~~~
-
--  type: string
--  description: Path to `an Augur clade definition file <https://docs.nextstrain.org/en/latest/guides/bioinformatics/defining-clades.html#make-a-tsv-file-containing-your-clade-mutations>`__ for emerging lineages of concern that may be a subset or variation of the lineages defined by the ``clades`` parameter or Pangolin lineages.
--  default: ``defaults/emerging_lineages.tsv``
-
-filter
-------
-
--  type: object
--  description: Filters to apply to strain metadata and sequences prior to subsampling and tree inference. The workflow applies an implicit filter on the maximum collection dates later than today.
-
-.. contents::
-   :local:
-
-min_length
-~~~~~~~~~~
-
--  type: integer
--  description: Minimum number of valid nucleotides (A, C, T, or G) for a genome to be included in the analysis by ``augur filter --min-length``.
--  default: ``27000``
-
-exclude_where
-~~~~~~~~~~~~~
-
--  type: string
--  description: Conditional tests of metadata columns used to exclude strains from the analysis by ``augur filter --exclude-where``
--  default: ``"division='USA'"``
-
-exclude_ambiguous_dates_by
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  type: string
--  description: Level date ambiguity used to exclude strains from the analysis by ``augur filter --exclude-ambiguous-dates-by``
--  default: ``any``
--  examples:
-
-   -  ``any``
-   -  ``day``
-   -  ``month``
-   -  ``year``
-
-min_date
-~~~~~~~~
-
--  type: float or string
--  description: Minimum collection date for strains to include in the analysis used by ``augur filter --min-date``. Dates can be numeric floating point values (e.g., ``2019.74``) or ISO 8601-style strings (e.g., ``2019-10-01``).
--  default: ``2019.74``
-
-skip_diagnostics
-~~~~~~~~~~~~~~~~
-
--  type: boolean
--  description: Skip filtering by Nextclade quality control metrics like clock rate deviation, number of SNP clusters, possible contaminations, etc.
--  default: ``false``
-
-frequencies
------------
-
-.. contents::
-   :local:
-
-.. _min_date-1:
-
-min_date
-~~~~~~~~
-
--  type: float or string
--  description: Earliest date to estimate frequencies for. Dates can be numeric floating point values (e.g., ``2019.74``) or ISO 8601-style strings (e.g., ``2019-10-01``).
--  default: without value supplied, defaults to 1 year before present
-
-max_date
-~~~~~~~~
-
--  type: float or string
--  description: Earliest date to estimate frequencies for. Dates can be numeric floating point values (e.g., ``2021.5``) or ISO 8601-style strings (e.g., ``2021-07-01``). Specifying ``max_date`` overrides ``recent_days_to_censor``.
--  default: without value supplied, defaults to today’s date minus ``recent_days_to_censor`` parameter
-
-recent_days_to_censor
-~~~~~~~~~~~~~~~~~~~~~
-
--  type: integer
--  description: How many days back from today’s date should samples be hidden from frequencies calculations? This is in place to help with sampling bias where some regions have faster sequencing turnarounds than other regions.
--  default: without value supplied, defaults to ``0``
-
-pivot_interval
-~~~~~~~~~~~~~~
-
--  type: integer
--  description: Number of units between frequency estimates based on the units defined in the ``pivot_interval_units`` parameter. A “pivot” corresponds to a time point when frequencies are estimated.
--  default: ``1``
-
-pivot_interval_units
-~~~~~~~~~~~~~~~~~~~~
-
--  type: string
--  description: Unit of pivot interval spacing for frequency estimation.
--  default: ``weeks``
--  examples:
-
-   -  ``weeks``
-   -  ``months``
-
-narrow_bandwidth
-~~~~~~~~~~~~~~~~
-
--  type: float
--  description: Variance of the KDE normal distribution in numeric floating point years (e.g., one month ~= 30 days ~= 0.08 years). This bandwidth value controls the smoothing of frequency estimates with higher values producing smoother estimates.
--  default: ``0.05``
-
-proportion_wide
-~~~~~~~~~~~~~~~
-
--  type: float
--  description: Proportion of a second KDE normal distribution to add to each initial normal distribution already parameterized by the ``narrow_bandwidth`` parameter.
--  default: ``0.0``
-
-minimal_frequency
-~~~~~~~~~~~~~~~~~
-
--  Unused
-
-stiffness
-~~~~~~~~~
-
--  Unused
-
-inertia
-~~~~~~~
-
--  Unused
-
-genes
------
-
--  type: array
--  description: A list of genes for which ``nextalign`` should generate amino acid sequences during the alignment process. Gene names must match the names provided in the gene map from the ``annotation`` parameter.
--  default: ``["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]``
-
-include_hcov19_prefix
----------------------
-
--  type: boolean
--  description: Prepend strain names with ``hCoV-19/`` per GISAID requirements for web display
--  default: ``false``
-
-inputs
-------
-
--  type: array
--  description: A list of named input datasets to use for the workflow. Input order determines the precedence of genome sequences and metadata such that later datasets override earlier datasets. Each input must define a ``name``, a path to ``metadata``, and a path to sequences at one of many possible starting points. The workflow merged all input metadata and sequences into a single metadata and sequences file prior to subsampling.
--  required
-
-   -  ``name``
-   -  ``metadata``
-   -  ``sequences`` or ``aligned``
-
--  examples:
-
-.. code:: yaml
-
-   inputs:
-     - name: example-data
-       metadata: data/example_metadata.tsv.xz
-       sequences: data/example_sequences.fasta.xz
-     - name: prealigned-data
-       metadata: data/other_metadata.tsv.xz
-       aligned: data/other_aligned.fasta.xz
-
-Valid attributes for list entries in ``inputs`` are provided below.
-
-.. contents::
-   :local:
-
-name
-~~~~
-
--  type: string
--  description: Name of the current dataset. Names cannot contain spaces, as they correspond to files on the file system.
--  examples:
-
-   -  ``example-data``
-   -  ``gisaid``
-   -  ``washington``
-   -  ``north-america``
-
-metadata
-~~~~~~~~
-
--  type: string
--  description: Path to a local or remote (S3, HTTP(S), GS) tab-delimited metadata file supported by Augur. Metadata can be uncompressed or compressed.
--  examples:
-
-   -  ``data/example_metadata.tsv``
-   -  ``data/example_metadata.tsv.xz``
-   -  ``s3://your-bucket/metadata.tsv.gz``
-   -  ``https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz``
-
-sequences
-~~~~~~~~~
-
--  type: string
--  description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with \**_un_aligned*\* genome sequences. Sequences can be uncompressed or compressed.
--  examples:
-
-   -  ``data/example_sequences.fasta``
-   -  ``data/example_sequences.fasta.xz``
-   -  ``s3://your-bucket/sequences.fasta.gz``
-   -  ``https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz``
-
-aligned
-~~~~~~~
-
--  type: string
--  description: Path to a local or remote (S3, HTTP(S), GS) FASTA file with **aligned** genome sequences. Sequences can be uncompressed or compressed.
--  examples:
-
-   -  ``data/aligned.fasta``
-   -  ``data/aligned.fasta.xz``
-   -  ``s3://your-bucket/aligned.fasta.gz``
-   -  ``https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz``
-
-localrules
-----------
-
--  type: string
--  description: Path to a Snakemake file to include in the workflow. This parameter is redundant with ``custom_rules`` and may be deprecated soon.
-
-logistic_growth
----------------
-
--  type: object
--  description: Parameters for estimation of logistic clade growth based on logit-transformed clade frequencies.
--  required:
-
-   -  ``delta_pivots``
-   -  ``min_tips``
-   -  ``min_frequency``
-   -  ``max_frequency``
-
-.. contents::
-   :local:
-
-delta_pivots
-~~~~~~~~~~~~
-
--  type: integer
--  description: Calculate logistic growth over the last N pivots which corresponds to N times the amount of time represented by the ``pivot_interval_units`` in the frequencies configuration.
--  default: ``6``
-
-min_tips
-~~~~~~~~
-
--  type: integer
--  description: The minimum number of tips a clade must have before its logistic growth is calculated.
--  default: ``50``
-
-min_frequency
-~~~~~~~~~~~~~
-
--  type: float
--  description: The minimum current frequency for a clade to have its logistic growth calculated.
--  default: ``0.000001``
-
-max_frequency
-~~~~~~~~~~~~~
-
--  type: float
--  description: The maximum current frequency for a clade to have its logistic growth calculated.
--  default: ``0.95``
-
-mask
-----
-
--  type: object
--  description: Parameters for masking of invalid or problematic nucleotides in aligned sequences. In addition to the configurable parameters below, the workflow also always masks terminal gaps in the given alignment.
--  required:
-
-   -  ``mask_from_beginning``
-   -  ``mask_from_end``
-   -  ``mask_sites``
-
-.. contents::
-   :local:
-
-mask_from_beginning
-~~~~~~~~~~~~~~~~~~~
-
--  type: integer
--  description: Number of bases to mask from the beginning alignment.
--  default: ``100``
-
-mask_from_end
-~~~~~~~~~~~~~
-
--  type: integer
--  description: Number of bases to mask from the end alignment.
--  default: ``50``
-
-mask_sites
-~~~~~~~~~~
-
--  type: string
--  description: Space-delimited string of 1-based genomic sites to mask
--  default: ``"13402 24389 24390"``
-
-partition_sequences
--------------------
-
--  Unused
-
-reference_node_name
--------------------
-
--  Unused
-
-refine
-------
-
--  type: object
--  description: Parameters for inference of time trees with ``augur refine``.
--  required:
-
-   -  ``root``
-   -  ``clock_rate``
-   -  ``clock_std_dev``
-   -  ``coalescent``
-   -  ``date_inference``
-   -  ``divergence_unit``
-   -  ``clock_filter_iqd``
-
-.. contents::
-   :local:
-
-root
-~~~~
-
--  type: string
--  description: Rooting mechanism or strain name(s) whose sequences should be used to root the time tree. Only one or two (space-delimited) strain names are supported.
--  default: ``Wuhan/WH01/2019``
--  examples:
-
-   -  ``best``
-   -  ``least-squares``
-   -  ``min_dev``
-   -  ``oldest``
-   -  ``Wuhan/Hu-1/2019 Wuhan/WH01/2019``
-
-clock_rate
-~~~~~~~~~~
-
--  type: float
--  description: Fixed clock rate to use for time tree calculations.
--  default: ``0.0008``
-
-clock_std_dev
-~~~~~~~~~~~~~
-
--  type: float
--  description: Standard deviation of the fixed ``clock_rate`` estimate.
--  default: ``0.0004``
-
-coalescent
-~~~~~~~~~~
-
--  type: float or string
--  description: Coalescent timescale in units of inverse clock rate (float), optimized as a scalar (“opt”), or skyline (“skyline”).
--  default: ``skyline``
--  examples:
-
-   -  ``opt``
-   -  ``skyline``
-
-date_inference
-~~~~~~~~~~~~~~
-
--  type: string
--  description: Assign internal nodes to their jointly or marginally most likely dates.
--  default: ``marginal``
--  examples:
-
-   -  ``marginal``
-   -  ``joint``
-
-divergence_unit
-~~~~~~~~~~~~~~~
-
--  type: string
--  description: Units in which sequence divergence is reported.
--  default: ``mutations``
--  examples:
-
-   -  ``mutations``
-   -  ``mutations-per-site``
-
-clock_filter_iqd
-~~~~~~~~~~~~~~~~
-
--  type: integer
--  description: Remove tips that deviate more than this number of interquartile ranges from the root-to-tip by time regression. Disable clock filtering by specifying ``0``
--  default: ``8``
-
-keep_polytomies
-~~~~~~~~~~~~~~~
-
--  type: boolean
--  description: Do not attempt to resolve polytomies.
--  default: ``false``
-
-no_timetree
-~~~~~~~~~~~
-
--  type: boolean
--  description: Do not produce a time tree.
--  default: ``false``
-
-run_pangolin
-------------
-
--  type: boolean
--  description: Enable annotation of Pangolin lineages for a given build’s subsampled sequences.
--  default: ``false``
-
-deploy_url
-----------
-
--  type: string
--  description: URL to an S3 bucket where Auspice JSONs should be uploaded by the ``deploy`` rule of the Nextstrain workflows. Only valid for Nextstrain builds.
-
-slack_channel
--------------
-
--  type: string
--  description: Slack channel to notify when Nextstrain builds start, fail, or get deployed. Only valid for Nextstrain builds.
-
-slack_token
------------
-
--  type: string
--  description: `Slack authentication token <https://api.slack.com/authentication/token-types>`__ required for the Slack API calls to notify the defined ``slack_channel``. Only valid for Nextstrain builds.
-
-strip_strain_prefixes
----------------------
-
--  type: array
--  description: A list of prefixes to strip from strain names in metadata and sequence records to maintain consistent strain names when analyzing data from multiple sources.
--  default: ``["hCoV-19/", "SARS-CoV-2/"]``
-
-sanitize_metadata
------------------
-
--  type: object
--  description: Parameters to configure how to sanitize metadata to a Nextstrain-compatible format. The sanitize metadata script resolves duplicate records using database ids, parses a GISAID-style location field into Nextstrain-style location fields, strips prefixes from strain names, and renames fields in that order.
-
-.. contents::
-   :local:
-
-metadata_id_columns
-~~~~~~~~~~~~~~~~~~~
-
--  type: object
--  description: A list of valid strain name columns in the metadata. The sanitize metadata script will check attempt to use the first of these columns that exists in the metadata. It will exit with an error, if none of the columns exist.
--  default:
-
-.. code:: yaml
-
-     - strain
-     - name
-     - "Virus name"
-
-database_id_columns
-~~~~~~~~~~~~~~~~~~~
-
--  type: object
--  description: A list of columns representing external database ids for metadata records. These unique ids represent a snapshot of data at a specific time for a given strain name. The sanitize metadata script resolves duplicate metadata records for the same strain name by selecting the record with the latest database id. Multiple database id columns allow the script to resolve duplicates when one or more columns has ambiguous values (e.g., “?”). Deduplication occurs before renaming of columns, so the default values include GISAID’s own “Accession ID” as well as Nextstrain-style database ids.
--  default:
-
-.. code:: yaml
-
-     - "Accession ID"
-     - gisaid_epi_isl
-     - genbank_accession
-
-error_on_duplicate_strains
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
--  type: boolean
--  description: Exit the sanitize metadata script with an error when any strains have multiple records in the metadata. The script writes list of all duplicate strains to a file named like ``<input>.duplicates.txt`` that users can review and use to address unexpected duplicates.
--  default: ``false``
-
-parse_location_field
-~~~~~~~~~~~~~~~~~~~~
-
--  type: string
--  description: Field in the metadata that stores GISAID-formatted location details (e.g., ``North America / USA / Washington``) to be parsed into ``region``, ``country``, ``division``, and ``location`` fields.
--  default: ``Location``
-
-rename_fields
-~~~~~~~~~~~~~
-
--  type: array
--  description: List of key/value pairs mapping fields in the input metadata to rename to another value in the sanitized metadata.
--  default:
-
-.. code:: yaml
-
-       - "Virus name=strain"
-       - "Type=type"
-       - "Accession ID=gisaid_epi_isl"
-       - "Collection date=date"
-       - "Additional location information=additional_location_information"
-       - "Sequence length=length"
-       - "Host=host"
-       - "Patient age=patient_age"
-       - "Gender=sex"
-       - "Clade=GISAID_clade"
-       - "Pango lineage=pango_lineage"
-       - "Pangolin version=pangolin_version"
-       - "Variant=variant"
-       - "AA Substitutions=aa_substitutions"
-       - "aaSubtitutions=aa_substitutions"
-       - "Submission date=date_submitted"
-       - "Is reference?=is_reference"
-       - "Is complete?=is_complete"
-       - "Is high coverage?=is_high_coverage"
-       - "Is low coverage?=is_low_coverage"
-       - "N-Content=n_content"
-       - "GC-Content=gc_content"
 
 subsampling
 -----------
@@ -978,6 +340,303 @@ priorities
    hCoV-19/USA/CZB-2345/2021   0
    hCoV-19/USA/CZB-3456/2021   -3.1
 
+
+default_build_name
+------------------
+
+-  type: string
+-  description: Name to assign the default build when a user has not defined any other entries in the ``builds`` config.
+-  default: ``default-build``
+
+
+strip_strain_prefixes
+---------------------
+
+-  type: array
+-  description: A list of prefixes to strip from strain names in metadata and sequence records to maintain consistent strain names when analyzing data from multiple sources.
+-  default: ``["hCoV-19/", "SARS-CoV-2/"]``
+
+
+auspice_json_prefix
+-------------------
+
+-  type: string
+-  description: Prefix to use for Auspice JSON outputs. Change this value to produce JSONs named like ``auspice/<your_prefix>_global.json`` for a build named ``global``, for example. If you are using `Nextstrain’s Community Sharing <https://docs.nextstrain.org/en/latest/guides/share/community-builds.html>`__ to view your builds, set this value to your GitHub repository name and the ``ncov`` default. For example, if your repository is named ``evolution``, set ``auspice_json_prefix: evolution_ncov`` to get JSONs you can view your ``global`` build at https://nextstrain.org/community/*your_github_organization*/evolution/ncov/global.
+-  default: ``ncov``
+
+
+include_hcov19_prefix
+---------------------
+
+-  type: boolean
+-  description: Prepend strain names with ``hCoV-19/`` per GISAID requirements for web display
+-  default: ``false``
+
+
+title
+-----
+
+-  type: string
+-  description: Title to provide to ``augur export`` and display as the title of the analysis in Auspice.
+
+
+genes
+-----
+
+-  type: array
+-  description: A list of genes for which ``nextalign`` should generate amino acid sequences during the alignment process. Gene names must match the names provided in the gene map from the ``annotation`` parameter.
+-  default: ``["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]``
+
+
+active_builds
+-------------
+
+-  type: string
+-  description: Comma-delimited list of names of builds to run (allowing a subset of all builds to be specified).
+-  examples
+
+   -  ``global``
+   -  ``global,africa,north-america``
+
+
+run_pangolin
+------------
+
+-  type: boolean
+-  description: Enable annotation of Pangolin lineages for a given build’s subsampled sequences.
+-  default: ``false``
+
+
+
+conda_environment
+-----------------
+
+-  type: string
+-  description: Path to a Conda environment file to use for the workflow when the workflow is run with `Snakemake’s ``--use-conda`` flag <https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html#integrated-package-management>`__.
+-  default: ``workflow/envs/nextstrain.yaml``
+
+custom_rules
+------------
+
+-  type: array
+-  description: List of paths to Snakemake files to include in the workflow, allowing users to inject their own rules at the beginning or the end of the workflow (e.g., to pre-process data prior to the workflow, annotate outputs from the workflow, etc.).
+-  examples
+
+   -  ``- workflow/snakemake_rules/export_for_nextstrain.smk``
+   -  ``- nextstrain_profiles/nextstrain-gisaid/subsampling_ranges.smk``
+
+
+localrules
+----------
+
+-  type: string
+-  description: Path to a Snakemake file to include in the workflow. This parameter is redundant with ``custom_rules`` and may be deprecated soon.
+
+
+
+
+files
+-----
+
+-  type: object
+-  description: Additional files used to configure tools used by the workflow (e.g., alignment references, names of strains to exclude during filtering, etc.).
+
+.. contents::
+   :local:
+
+include
+~~~~~~~
+
+-  type: string
+-  description: Path to a file with list of strains (one name per line) to include in the analysis regardless of priorities or subsampling during filtering.
+-  default: ``defaults/include.txt``
+
+exclude
+~~~~~~~
+
+-  type: string
+-  description: Path to a file with list of strains (one name per line) to exclude from the analysis.
+-  default: ``defaults/exclude.txt``
+
+reference
+~~~~~~~~~
+
+-  type: string
+-  description: Path to a GenBank-formatted sequence to use for multiple sequence alignment with ``augur align``
+-  default: ``defaults/reference_seq.gb``
+
+alignment_reference
+~~~~~~~~~~~~~~~~~~~
+
+-  type: string
+-  description: Path to a FASTA-formatted sequence to use for alignment with ``nextalign`` or ``mafft``\ ’s reference-based alignment
+-  default: ``defaults/reference_seq.fasta``
+
+annotation
+~~~~~~~~~~
+
+-  type: string
+-  description: Path to a GFF-formated annotation of gene coordinates (e.g., a “gene map”) for use by ``nextalign`` and mutation summaries.
+-  default: ``defaults/annotation.gff``
+
+outgroup
+~~~~~~~~
+
+-  type: string
+-  description: No longer used.
+-  default: ``defaults/outgroup.fasta``
+
+ordering
+~~~~~~~~
+
+-  type: string
+-  description: Path to tab-delimited mapping of metadata attributes (first column) to corresponding values (second column) with rows ordered by the desired appearance in the Nextstrain color legend. This mapping and ordering is manually curated by the Nextstrain team and updates regularly. Along with the ``color_schemes`` file, this file is used to generate a build-specific color map for use by Auspice.
+-  default: ``defaults/color_ordering.tsv``
+
+color_schemes
+~~~~~~~~~~~~~
+
+-  type: string
+-  description: Path to a list of tab-delimited and manually curated categorical color schemes for N total categories where row one defines one color, row two define two colors, and so on. Along with the ``ordering`` file, this file is used to generate a build-specific color map for use by Auspice.
+-  default: ``defaults/color_schemes.tsv``
+
+.. _auspice_config-1:
+
+auspice_config
+~~~~~~~~~~~~~~
+
+-  type: string
+-  description: Path to an Auspice configuration JSON file used by ``augur export``.
+-  default: ``defaults/auspice_config.json``
+
+lat_longs
+~~~~~~~~~
+
+-  type: string
+-  description: Path to a tab-delimited mapping of geographic scales (e.g., ``location`` ,\ ``division``, etc.), geographic names (e.g., ``King County``), and corresponding latitude and longitude values for the given place name. This mapping is manually curated by the Nextstrain team and updates regularly.
+-  default: ``defaults/lat_longs.tsv``
+
+.. _description-1:
+
+description
+~~~~~~~~~~~
+
+-  type: string
+-  description: Path to a Markdown file containing a default description of each build that will be included in the build’s final Auspice JSON and appear in the build’s display in Auspice. Define a build-specific description with a path to that description file in ``builds: <build_name> : description: <path_to_build_specific_description>.md``.
+
+clades
+~~~~~~
+
+-  type: string
+-  description: Path to `an Augur clade definition file <https://docs.nextstrain.org/en/latest/guides/bioinformatics/defining-clades.html#make-a-tsv-file-containing-your-clade-mutations>`__ where each row is a tab-delimited mapping of clade name to a gene, site (i.e., position), and alternate allele at that site for the corresponding clade.
+-  default: ``defaults/clades.tsv``
+
+emerging_lineages
+~~~~~~~~~~~~~~~~~
+
+-  type: string
+-  description: Path to `an Augur clade definition file <https://docs.nextstrain.org/en/latest/guides/bioinformatics/defining-clades.html#make-a-tsv-file-containing-your-clade-mutations>`__ for emerging lineages of concern that may be a subset or variation of the lineages defined by the ``clades`` parameter or Pangolin lineages.
+-  default: ``defaults/emerging_lineages.tsv``
+
+
+sanitize_metadata
+-----------------
+
+-  type: object
+-  description: Parameters to configure how to sanitize metadata to a Nextstrain-compatible format. The sanitize metadata script resolves duplicate records using database ids, parses a GISAID-style location field into Nextstrain-style location fields, strips prefixes from strain names, and renames fields in that order.
+
+.. contents::
+   :local:
+
+metadata_id_columns
+~~~~~~~~~~~~~~~~~~~
+
+-  type: object
+-  description: A list of valid strain name columns in the metadata. The sanitize metadata script will check attempt to use the first of these columns that exists in the metadata. It will exit with an error, if none of the columns exist.
+-  default:
+
+.. code:: yaml
+
+     - strain
+     - name
+     - "Virus name"
+
+database_id_columns
+~~~~~~~~~~~~~~~~~~~
+
+-  type: object
+-  description: A list of columns representing external database ids for metadata records. These unique ids represent a snapshot of data at a specific time for a given strain name. The sanitize metadata script resolves duplicate metadata records for the same strain name by selecting the record with the latest database id. Multiple database id columns allow the script to resolve duplicates when one or more columns has ambiguous values (e.g., “?”). Deduplication occurs before renaming of columns, so the default values include GISAID’s own “Accession ID” as well as Nextstrain-style database ids.
+-  default:
+
+.. code:: yaml
+
+     - "Accession ID"
+     - gisaid_epi_isl
+     - genbank_accession
+
+error_on_duplicate_strains
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  type: boolean
+-  description: Exit the sanitize metadata script with an error when any strains have multiple records in the metadata. The script writes list of all duplicate strains to a file named like ``<input>.duplicates.txt`` that users can review and use to address unexpected duplicates.
+-  default: ``false``
+
+parse_location_field
+~~~~~~~~~~~~~~~~~~~~
+
+-  type: string
+-  description: Field in the metadata that stores GISAID-formatted location details (e.g., ``North America / USA / Washington``) to be parsed into ``region``, ``country``, ``division``, and ``location`` fields.
+-  default: ``Location``
+
+rename_fields
+~~~~~~~~~~~~~
+
+-  type: array
+-  description: List of key/value pairs mapping fields in the input metadata to rename to another value in the sanitized metadata.
+-  default:
+
+.. code:: yaml
+
+       - "Virus name=strain"
+       - "Type=type"
+       - "Accession ID=gisaid_epi_isl"
+       - "Collection date=date"
+       - "Additional location information=additional_location_information"
+       - "Sequence length=length"
+       - "Host=host"
+       - "Patient age=patient_age"
+       - "Gender=sex"
+       - "Clade=GISAID_clade"
+       - "Pango lineage=pango_lineage"
+       - "Pangolin version=pangolin_version"
+       - "Variant=variant"
+       - "AA Substitutions=aa_substitutions"
+       - "aaSubtitutions=aa_substitutions"
+       - "Submission date=date_submitted"
+       - "Is reference?=is_reference"
+       - "Is complete?=is_complete"
+       - "Is high coverage?=is_high_coverage"
+       - "Is low coverage?=is_low_coverage"
+       - "N-Content=n_content"
+       - "GC-Content=gc_content"
+
+
+
+combine_sequences_for_subsampling
+---------------------------------
+
+-  type: object
+-  description: Configuration of logic to combine sequences from multiple input files into a single file for subsampling.
+
+warn_about_duplicates
+~~~~~~~~~~~~~~~~~~~~~
+
+-  type: boolean
+-  description: Warn users about duplicate sequences identified when merging input sequences and print a list of duplicates to standard out (and log files). Set this to ``false`` to get an error and stop the workflow when duplicates are detected.
+-  default: ``true``
+
+
+
 crowding_penalty
 ----------------
 
@@ -993,38 +652,211 @@ crowding_penalty
 
 .. _title-1:
 
-title
------
-
--  type: string
--  description: Title to provide to ``augur export`` and display as the title of the analysis in Auspice.
-
-cluster
--------
+mask
+----
 
 -  type: object
--  description: Parameters for clustering of closely related strains
+-  description: Parameters for masking of invalid or problematic nucleotides in aligned sequences. In addition to the configurable parameters below, the workflow also always masks terminal gaps in the given alignment.
+-  required:
+
+   -  ``mask_from_beginning``
+   -  ``mask_from_end``
+   -  ``mask_sites``
 
 .. contents::
    :local:
 
-.. _min_tips-1:
-
-min_tips
-~~~~~~~~
+mask_from_beginning
+~~~~~~~~~~~~~~~~~~~
 
 -  type: integer
--  description: Number of tips to require in a polytomy to be considered part of a cluster.
--  default: ``3``
+-  description: Number of bases to mask from the beginning alignment.
+-  default: ``100``
 
-.. _group_by-1:
+mask_from_end
+~~~~~~~~~~~~~
 
-group_by
-~~~~~~~~
+-  type: integer
+-  description: Number of bases to mask from the end alignment.
+-  default: ``50``
+
+mask_sites
+~~~~~~~~~~
 
 -  type: string
--  description: Metadata column whose values should be used to determine whether closely related strains should be assigned to the same cluster. For example, the default column ensures that strains belong to the same division to be considered part of the same cluster.
--  default: ``division``
+-  description: Space-delimited string of 1-based genomic sites to mask
+-  default: ``"13402 24389 24390"``
+
+
+
+
+filter
+------
+
+-  type: object
+-  description: Filters to apply to strain metadata and sequences prior to subsampling and tree inference. The workflow applies an implicit filter on the maximum collection dates later than today.
+
+.. contents::
+   :local:
+
+min_length
+~~~~~~~~~~
+
+-  type: integer
+-  description: Minimum number of valid nucleotides (A, C, T, or G) for a genome to be included in the analysis by ``augur filter --min-length``.
+-  default: ``27000``
+
+exclude_where
+~~~~~~~~~~~~~
+
+-  type: string
+-  description: Conditional tests of metadata columns used to exclude strains from the analysis by ``augur filter --exclude-where``
+-  default: ``"division='USA'"``
+
+exclude_ambiguous_dates_by
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  type: string
+-  description: Level date ambiguity used to exclude strains from the analysis by ``augur filter --exclude-ambiguous-dates-by``
+-  default: ``any``
+-  examples:
+
+   -  ``any``
+   -  ``day``
+   -  ``month``
+   -  ``year``
+
+min_date
+~~~~~~~~
+
+-  type: float or string
+-  description: Minimum collection date for strains to include in the analysis used by ``augur filter --min-date``. Dates can be numeric floating point values (e.g., ``2019.74``) or ISO 8601-style strings (e.g., ``2019-10-01``).
+-  default: ``2019.74``
+
+skip_diagnostics
+~~~~~~~~~~~~~~~~
+
+-  type: boolean
+-  description: Skip filtering by Nextclade quality control metrics like clock rate deviation, number of SNP clusters, possible contaminations, etc.
+-  default: ``false``
+
+
+
+tree
+----
+
+-  type: object
+-  description: Parameters for phylogenetic inference by ``augur tree``. The tree “method” is hardcoded to ``iqtree``.
+
+tree-builder-args
+~~~~~~~~~~~~~~~~~
+
+-  type: string
+-  description: Arguments specific to the tree method (``iqtree``) to be passed through to the tree builder command run by ``augur tree``.
+-  default: ``'-ninit 10 -n 4'``
+
+
+
+refine
+------
+
+-  type: object
+-  description: Parameters for inference of time trees with ``augur refine``.
+-  required:
+
+   -  ``root``
+   -  ``clock_rate``
+   -  ``clock_std_dev``
+   -  ``coalescent``
+   -  ``date_inference``
+   -  ``divergence_unit``
+   -  ``clock_filter_iqd``
+
+.. contents::
+   :local:
+
+root
+~~~~
+
+-  type: string
+-  description: Rooting mechanism or strain name(s) whose sequences should be used to root the time tree. Only one or two (space-delimited) strain names are supported.
+-  default: ``Wuhan/WH01/2019``
+-  examples:
+
+   -  ``best``
+   -  ``least-squares``
+   -  ``min_dev``
+   -  ``oldest``
+   -  ``Wuhan/Hu-1/2019 Wuhan/WH01/2019``
+
+clock_rate
+~~~~~~~~~~
+
+-  type: float
+-  description: Fixed clock rate to use for time tree calculations.
+-  default: ``0.0008``
+
+clock_std_dev
+~~~~~~~~~~~~~
+
+-  type: float
+-  description: Standard deviation of the fixed ``clock_rate`` estimate.
+-  default: ``0.0004``
+
+coalescent
+~~~~~~~~~~
+
+-  type: float or string
+-  description: Coalescent timescale in units of inverse clock rate (float), optimized as a scalar (“opt”), or skyline (“skyline”).
+-  default: ``skyline``
+-  examples:
+
+   -  ``opt``
+   -  ``skyline``
+
+date_inference
+~~~~~~~~~~~~~~
+
+-  type: string
+-  description: Assign internal nodes to their jointly or marginally most likely dates.
+-  default: ``marginal``
+-  examples:
+
+   -  ``marginal``
+   -  ``joint``
+
+divergence_unit
+~~~~~~~~~~~~~~~
+
+-  type: string
+-  description: Units in which sequence divergence is reported.
+-  default: ``mutations``
+-  examples:
+
+   -  ``mutations``
+   -  ``mutations-per-site``
+
+clock_filter_iqd
+~~~~~~~~~~~~~~~~
+
+-  type: integer
+-  description: Remove tips that deviate more than this number of interquartile ranges from the root-to-tip by time regression. Disable clock filtering by specifying ``0``
+-  default: ``8``
+
+keep_polytomies
+~~~~~~~~~~~~~~~
+
+-  type: boolean
+-  description: Do not attempt to resolve polytomies.
+-  default: ``false``
+
+no_timetree
+~~~~~~~~~~~
+
+-  type: boolean
+-  description: Do not produce a time tree.
+-  default: ``false``
+
 
 traits
 ------
@@ -1064,22 +896,226 @@ columns
 -  description: A list of columns from the metadata for which ancestral trait values should be inferred for ancestral nodes.
 -  default: ``["country"]``
 
-tree
-----
 
--  type: object
--  description: Parameters for phylogenetic inference by ``augur tree``. The tree “method” is hardcoded to ``iqtree``.
+frequencies
+-----------
 
-tree-builder-args
+.. contents::
+   :local:
+
+.. _min_date-1:
+
+min_date
+~~~~~~~~
+
+-  type: float or string
+-  description: Earliest date to estimate frequencies for. Dates can be numeric floating point values (e.g., ``2019.74``) or ISO 8601-style strings (e.g., ``2019-10-01``).
+-  default: without value supplied, defaults to 1 year before present
+
+max_date
+~~~~~~~~
+
+-  type: float or string
+-  description: Earliest date to estimate frequencies for. Dates can be numeric floating point values (e.g., ``2021.5``) or ISO 8601-style strings (e.g., ``2021-07-01``). Specifying ``max_date`` overrides ``recent_days_to_censor``.
+-  default: without value supplied, defaults to today’s date minus ``recent_days_to_censor`` parameter
+
+recent_days_to_censor
+~~~~~~~~~~~~~~~~~~~~~
+
+-  type: integer
+-  description: How many days back from today’s date should samples be hidden from frequencies calculations? This is in place to help with sampling bias where some regions have faster sequencing turnarounds than other regions.
+-  default: without value supplied, defaults to ``0``
+
+pivot_interval
+~~~~~~~~~~~~~~
+
+-  type: integer
+-  description: Number of units between frequency estimates based on the units defined in the ``pivot_interval_units`` parameter. A “pivot” corresponds to a time point when frequencies are estimated.
+-  default: ``1``
+
+pivot_interval_units
+~~~~~~~~~~~~~~~~~~~~
+
+-  type: string
+-  description: Unit of pivot interval spacing for frequency estimation.
+-  default: ``weeks``
+-  examples:
+
+   -  ``weeks``
+   -  ``months``
+
+narrow_bandwidth
+~~~~~~~~~~~~~~~~
+
+-  type: float
+-  description: Variance of the KDE normal distribution in numeric floating point years (e.g., one month ~= 30 days ~= 0.08 years). This bandwidth value controls the smoothing of frequency estimates with higher values producing smoother estimates.
+-  default: ``0.05``
+
+proportion_wide
+~~~~~~~~~~~~~~~
+
+-  type: float
+-  description: Proportion of a second KDE normal distribution to add to each initial normal distribution already parameterized by the ``narrow_bandwidth`` parameter.
+-  default: ``0.0``
+
+minimal_frequency
 ~~~~~~~~~~~~~~~~~
 
--  type: string
--  description: Arguments specific to the tree method (``iqtree``) to be passed through to the tree builder command run by ``augur tree``.
--  default: ``'-ninit 10 -n 4'``
+-  Unused
 
-auspice_json_prefix
+stiffness
+~~~~~~~~~
+
+-  Unused
+
+inertia
+~~~~~~~
+
+-  Unused
+
+
+logistic_growth
+---------------
+
+-  type: object
+-  description: Parameters for estimation of logistic clade growth based on logit-transformed clade frequencies.
+-  required:
+
+   -  ``delta_pivots``
+   -  ``min_tips``
+   -  ``min_frequency``
+   -  ``max_frequency``
+
+.. contents::
+   :local:
+
+delta_pivots
+~~~~~~~~~~~~
+
+-  type: integer
+-  description: Calculate logistic growth over the last N pivots which corresponds to N times the amount of time represented by the ``pivot_interval_units`` in the frequencies configuration.
+-  default: ``6``
+
+min_tips
+~~~~~~~~
+
+-  type: integer
+-  description: The minimum number of tips a clade must have before its logistic growth is calculated.
+-  default: ``50``
+
+min_frequency
+~~~~~~~~~~~~~
+
+-  type: float
+-  description: The minimum current frequency for a clade to have its logistic growth calculated.
+-  default: ``0.000001``
+
+max_frequency
+~~~~~~~~~~~~~
+
+-  type: float
+-  description: The maximum current frequency for a clade to have its logistic growth calculated.
+-  default: ``0.95``
+
+
+
+ancestral
+---------
+
+-  type: object
+-  description: Configuration of augur ancestral command that infers ancestral sequences based on a tree.
+
+inference
+~~~~~~~~~
+
+-  type: string
+-  description: Calculate joint or marginal maximum likelihood ancestral sequence states
+-  examples
+
+   -  ``joint``
+   -  ``marginal``
+
+
+cluster
+-------
+
+-  type: object
+-  description: Parameters for clustering of closely related strains
+
+.. contents::
+   :local:
+
+.. _min_tips-1:
+
+min_tips
+~~~~~~~~
+
+-  type: integer
+-  description: Number of tips to require in a polytomy to be considered part of a cluster.
+-  default: ``3``
+
+.. _group_by-1:
+
+group_by
+~~~~~~~~
+
+-  type: string
+-  description: Metadata column whose values should be used to determine whether closely related strains should be assigned to the same cluster. For example, the default column ensures that strains belong to the same division to be considered part of the same cluster.
+-  default: ``division``
+
+S3_DST_BUCKET
+-------------
+
+-  type: string
+-  description: S3 bucket to store files from the ``upload`` rule in ``export_for_nextstrain.smk``. Currently only available to Nextstrain builds.
+
+S3_DST_COMPRESSION
+------------------
+
+-  type: string
+-  description: Compression format to use for files uploaded to S3 by the ``upload`` rule.
+-  examples
+
+   -  ``xz``
+   -  ``gz``
+
+S3_DST_ORIGINS
+--------------
+
+-  type: array
+-  items:
+
+   -  type: string
+
+-  description: List of input names (i.e., “origins”) for which intermediate files should be uploaded to S3 by the ``upload`` rule.
+-  examples
+
+   -  ``["gisaid"]``
+
+deploy_url
+----------
+
+-  type: string
+-  description: URL to an S3 bucket where Auspice JSONs should be uploaded by the ``deploy`` rule of the Nextstrain workflows. Only valid for Nextstrain builds.
+
+slack_channel
+-------------
+
+-  type: string
+-  description: Slack channel to notify when Nextstrain builds start, fail, or get deployed. Only valid for Nextstrain builds.
+
+slack_token
+-----------
+
+-  type: string
+-  description: `Slack authentication token <https://api.slack.com/authentication/token-types>`__ required for the Slack API calls to notify the defined ``slack_channel``. Only valid for Nextstrain builds.
+
+partition_sequences
 -------------------
 
--  type: string
--  description: Prefix to use for Auspice JSON outputs. Change this value to produce JSONs named like ``auspice/<your_prefix>_global.json`` for a build named ``global``, for example. If you are using `Nextstrain’s Community Sharing <https://docs.nextstrain.org/en/latest/guides/share/community-builds.html>`__ to view your builds, set this value to your GitHub repository name and the ``ncov`` default. For example, if your repository is named ``evolution``, set ``auspice_json_prefix: evolution_ncov`` to get JSONs you can view your ``global`` build at https://nextstrain.org/community/*your_github_organization*/evolution/ncov/global.
--  default: ``ncov``
+-  Unused
+
+reference_node_name
+-------------------
+
+-  Unused
