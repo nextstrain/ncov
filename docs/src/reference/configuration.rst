@@ -1,3 +1,5 @@
+.. cssclass:: configurationparameters
+
 Configuration parameters for Nextstrain SARS-CoV-2 workflow
 ===========================================================
 
@@ -34,7 +36,7 @@ inputs
        metadata: data/other_metadata.tsv.xz
        aligned: data/other_aligned.fasta.xz
 
-Valid attributes for list entries in ``inputs`` are provided below.
+Valid attributes for list entries in ``inputs``:
 
 .. contents::
    :local:
@@ -122,10 +124,17 @@ builds
 
    -  ``region`` (required to adjust regional metadata)
 
-Builds support any named attributes that can be referenced by subsampling schemes. Builds also support the following specific attributes.
+
+Valid attributes for entries in ``builds``:
 
 .. contents::
    :local:
+
+<user-specified key>
+~~~~~~~~~~~~~~~~~~~~
+
+-  description: Builds support any named attributes that can be referenced by subsampling schemes. In the above example, "country" and "division" are examples of this.
+
 
 auspice_config
 ~~~~~~~~~~~~~~
@@ -443,6 +452,7 @@ files
 
 -  type: object
 -  description: Additional files used to configure tools used by the workflow (e.g., alignment references, names of strains to exclude during filtering, etc.).
+- Valid attributes:
 
 .. contents::
    :local:
@@ -564,6 +574,7 @@ sanitize_metadata
 
 -  type: object
 -  description: Parameters to configure how to sanitize metadata to a Nextstrain-compatible format. The sanitize metadata script resolves duplicate records using database ids, parses a GISAID-style location field into Nextstrain-style location fields, strips prefixes from strain names, and renames fields in that order.
+- Valid attributes:
 
 .. contents::
    :local:
@@ -647,6 +658,11 @@ combine_sequences_for_subsampling
 
 -  type: object
 -  description: Configuration of logic to combine sequences from multiple input files into a single file for subsampling.
+- Valid attributes:
+
+.. contents::
+   :local:
+
 
 warn_about_duplicates
 ~~~~~~~~~~~~~~~~~~~~~
@@ -661,7 +677,10 @@ priorities
 
 -  type: object
 -  description: Configures how proximities are calculated, which is used by subsampling schemes which specify it.
+- Valid attributes:
 
+.. contents::
+   :local:
 
 crowding_penalty
 ~~~~~~~~~~~~~~~~
@@ -696,6 +715,7 @@ mask
    -  ``mask_from_beginning``
    -  ``mask_from_end``
    -  ``mask_sites``
+- Valid attributes:
 
 .. contents::
    :local:
@@ -729,6 +749,7 @@ filter
 
 -  type: object
 -  description: Filters to apply to strain metadata and sequences prior to subsampling and tree inference. The workflow applies an implicit filter on the maximum collection dates later than today.
+- Valid attributes:
 
 .. contents::
    :local:
@@ -805,6 +826,7 @@ refine
    -  ``date_inference``
    -  ``divergence_unit``
    -  ``clock_filter_iqd``
+- Valid attributes:
 
 .. contents::
    :local:
@@ -911,7 +933,7 @@ traits
        # trait columns.
        sampling_bias_correction: 5.0
 
-Each named traits configuration (``default`` or build-named) supports the following attributes.
+Each named traits configuration (``default`` or build-named) supports the following attributes:
 
 .. contents::
    :local:
@@ -933,6 +955,7 @@ columns
 
 frequencies
 -----------
+- Valid attributes:
 
 .. contents::
    :local:
@@ -1019,6 +1042,7 @@ logistic_growth
    -  ``min_tips``
    -  ``min_frequency``
    -  ``max_frequency``
+- Valid attributes:
 
 .. contents::
    :local:
@@ -1058,6 +1082,10 @@ ancestral
 
 -  type: object
 -  description: Configuration of augur ancestral command that infers ancestral sequences based on a tree.
+- Valid attributes:
+
+.. contents::
+   :local:
 
 inference
 ~~~~~~~~~
@@ -1075,6 +1103,7 @@ cluster
 
 -  type: object
 -  description: Parameters for clustering of closely related strains
+- Valid attributes:
 
 .. contents::
    :local:
