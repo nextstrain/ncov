@@ -58,7 +58,6 @@ files:
   reference: "defaults/reference_seq.gb"
   alignment_reference: "defaults/reference_seq.fasta"
   annotation: "defaults/annotation.gff"
-  outgroup: "defaults/outgroup.fasta" # is this arg still used? file doesn't exist in gh repo
   ordering: "defaults/color_ordering.tsv"
   color_schemes: "defaults/color_schemes.tsv"
   auspice_config: "defaults/auspice_config.json"
