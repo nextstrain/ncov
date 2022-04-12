@@ -180,6 +180,7 @@ title
 -  description: Build-specific title to provide to ``augur export`` and display as the title of the analysis in Auspice.
 
 
+.. _configuration-subsampling:
 
 subsampling
 -----------
