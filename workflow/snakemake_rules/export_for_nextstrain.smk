@@ -140,8 +140,8 @@ rule dated_json:
     wildcard_constraints:
         # Allow build names to contain alphanumeric characters, underscores, and hyphens
         # but not special strings used for Nextstrain builds.
-        build_name = r'(?:[a-zA-Z0-9-_](?!(tip-frequencies|\d{4}-\d{2}-\d{2})))+',
-        date = r"[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
+        build_name = r'(?:[-a-zA-Z0-9_](?!(tip-frequencies|\d{4}-\d{2}-\d{2})))+',
+        date = r"\d{4}-\d{2}-\d{2}"
     conda: config["conda_environment"]
     shell:
         """
