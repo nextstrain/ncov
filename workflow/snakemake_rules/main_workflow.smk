@@ -1,3 +1,7 @@
+for key, path in config["files"].items():
+    if path.startswith('defaults/'):
+        config["files"][key] = workflow.source_path("../../" + path)
+
 rule sanitize_metadata:
     input:
         metadata=lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
