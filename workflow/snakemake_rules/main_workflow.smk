@@ -1010,7 +1010,7 @@ rule traits:
         """
 
 def _get_clade_files(wildcards):
-    if "subclades" in config["builds"][wildcards.build_name]:
+    if "subclades" in config["builds"].get(wildcards.build_name, {}):
         return [config["files"]["clades"], config["builds"][wildcards.build_name]["subclades"]]
     else:
         return config["files"]["clades"]
@@ -1346,7 +1346,7 @@ def _get_node_data_by_wildcards(wildcards):
 rule build_description:
     message: "Templating build description for Auspice"
     input:
-        description = lambda w: config["builds"][w.build_name]["description"] if "description" in config["builds"][w.build_name] else config["files"]["description"]
+        description = lambda w: config["builds"][w.build_name]["description"] if "description" in config["builds"].get(w.build_name, {}) else config["files"]["description"]
     output:
         description = "results/{build_name}/description.md"
     log:
@@ -1366,8 +1366,8 @@ rule export:
         tree = rules.refine.output.tree,
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
         node_data = _get_node_data_by_wildcards,
-        auspice_config = lambda w: config["builds"][w.build_name]["auspice_config"] if "auspice_config" in config["builds"][w.build_name] else config["files"]["auspice_config"],
-        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
+        auspice_config = lambda w: config["builds"][w.build_name]["auspice_config"] if "auspice_config" in config["builds"].get(w.build_name, {}) else config["files"]["auspice_config"],
+        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"].get(w.build_name, {}) else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"],
         description = rules.build_description.output.description
     output:
