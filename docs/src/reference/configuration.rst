@@ -710,12 +710,7 @@ mask
 
 -  type: object
 -  description: Parameters for masking of invalid or problematic nucleotides in aligned sequences. In addition to the configurable parameters below, the workflow also always masks terminal gaps in the given alignment.
--  required:
-
-   -  ``mask_from_beginning``
-   -  ``mask_from_end``
-   -  ``mask_sites``
-- Valid attributes:
+-  Valid attributes:
 
 .. contents::
    :local:
@@ -817,16 +812,7 @@ refine
 
 -  type: object
 -  description: Parameters for inference of time trees with ``augur refine``.
--  required:
-
-   -  ``root``
-   -  ``clock_rate``
-   -  ``clock_std_dev``
-   -  ``coalescent``
-   -  ``date_inference``
-   -  ``divergence_unit``
-   -  ``clock_filter_iqd``
-- Valid attributes:
+-  Valid attributes:
 
 .. contents::
    :local:
@@ -1036,13 +1022,7 @@ logistic_growth
 
 -  type: object
 -  description: Parameters for estimation of logistic clade growth based on logit-transformed clade frequencies.
--  required:
-
-   -  ``delta_pivots``
-   -  ``min_tips``
-   -  ``min_frequency``
-   -  ``max_frequency``
-- Valid attributes:
+-  Valid attributes:
 
 .. contents::
    :local:
