@@ -9,7 +9,7 @@ import shutil
 import sys
 from tempfile import NamedTemporaryFile
 
-from utils import extract_tar_file_contents
+from .utils import extract_tar_file_contents
 
 # Define all possible geographic scales we could expect in the GISAID location
 # field.

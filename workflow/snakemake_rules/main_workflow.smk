@@ -14,6 +14,7 @@ rule sanitize_metadata:
     log:
         "logs/sanitize_metadata_{origin}.txt"
     params:
+        script=workflow.source_path("../../" + "scripts/sanitize_metadata.py"),
         metadata_id_columns=config["sanitize_metadata"]["metadata_id_columns"],
         database_id_columns=config["sanitize_metadata"]["database_id_columns"],
         parse_location_field=f"--parse-location-field {config['sanitize_metadata']['parse_location_field']}" if config["sanitize_metadata"].get("parse_location_field") else "",
@@ -24,7 +25,7 @@ rule sanitize_metadata:
         mem_mb=2000
     shell:
         """
-        python3 scripts/sanitize_metadata.py \
+        python3 {params.script} \
             --metadata {input.metadata} \
             --metadata-id-columns {params.metadata_id_columns:q} \
             --database-id-columns {params.database_id_columns:q} \
@@ -50,6 +51,7 @@ rule combine_input_metadata:
     output:
         metadata = "results/combined_metadata.tsv.xz"
     params:
+        script=workflow.source_path("../../" + "scripts/combine_metadata.py"),
         origins = lambda wildcards: list(config["inputs"].keys())
     log:
         "logs/combine_input_metadata.txt"
@@ -58,7 +60,7 @@ rule combine_input_metadata:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/combine_metadata.py --metadata {input.metadata} --origins {params.origins} --output {output.metadata} 2>&1 | tee {log}
+        python3 {params.script} --metadata {input.metadata} --origins {params.origins} --output {output.metadata} 2>&1 | tee {log}
         """
 
 rule align:
@@ -76,6 +78,7 @@ rule align:
         insertions = "results/insertions_{origin}.tsv",
         translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta.xz", gene=config.get('genes', ['S']))
     params:
+        script=workflow.source_path("../../" + "scripts/sanitize_sequences.py"),
         outdir = "results/translations",
         genes = ','.join(config.get('genes', ['S'])),
         basename = "seqs_{origin}",
@@ -93,7 +96,7 @@ rule align:
         mem_mb=3000
     shell:
         """
-        python3 scripts/sanitize_sequences.py \
+        python3 {params.script} \
             --sequences {input.sequences} \
             --strip-prefixes {params.strain_prefixes:q} \
             --output /dev/stdout 2> {params.sanitize_log} \
@@ -230,11 +233,12 @@ rule combine_sequences_for_subsampling:
         "benchmarks/combine_sequences_for_subsampling.txt"
     conda: config["conda_environment"]
     params:
+        script=workflow.source_path("../../" + "scripts/sanitize_sequences.py"),
         error_on_duplicate_strains="--error-on-duplicate-strains" if not config.get("combine_sequences_for_subsampling", {}).get("warn_about_duplicates") else "",
         strain_prefixes=config["strip_strain_prefixes"],
     shell:
         """
-        python3 scripts/sanitize_sequences.py \
+        python3 {params.script} \
                 --sequences {input} \
                 --strip-prefixes {params.strain_prefixes:q} \
                 {params.error_on_duplicate_strains} \
@@ -372,6 +376,7 @@ rule proximity_score:
     benchmark:
         "benchmarks/proximity_score_{build_name}_{focus}.txt"
     params:
+        script=workflow.source_path("../../" + "scripts/get_distance_to_focal_set.py"),
         chunk_size=10000,
         ignore_seqs = config['refine']['root']
     resources:
@@ -380,7 +385,7 @@ rule proximity_score:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/get_distance_to_focal_set.py \
+        python3 {params.script} \
             --reference {input.reference} \
             --alignment {input.alignment} \
             --focal-alignment {input.focal_alignment} \
@@ -398,12 +403,13 @@ rule priority_score:
     benchmark:
         "benchmarks/priority_score_{build_name}_{focus}.txt"
     params:
+        script=workflow.source_path("../../" + "scripts/priorities.py"),
         crowding = config["priorities"]["crowding_penalty"],
         Nweight = 0.003
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/priorities.py \
+        python3 {params.script} \
             --sequence-index {input.sequence_index} \
             --proximities {input.proximity} \
             --crowding-penalty {params.crowding} \
@@ -511,6 +517,8 @@ rule join_metadata_and_nextclade_qc:
         nextclade_qc = "results/{build_name}/nextclade_qc.tsv",
     output:
         metadata = "results/{build_name}/metadata_with_nextclade_qc.tsv",
+    params:
+        script=workflow.source_path("../../" + "scripts/join-metadata-and-clades.py"),
     log:
         "logs/join_metadata_and_nextclade_qc_{build_name}.txt",
     benchmark:
@@ -518,7 +526,7 @@ rule join_metadata_and_nextclade_qc:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/join-metadata-and-clades.py \
+        python3 {params.script} \
             {input.metadata} \
             {input.nextclade_qc} \
             -o {output.metadata} 2>&1 | tee {log}
@@ -531,6 +539,7 @@ rule diagnostic:
     output:
         to_exclude = "results/{build_name}/excluded_by_diagnostics.txt"
     params:
+        script=workflow.source_path("../../" + "scripts/diagnostic.py"),
         clock_filter = 20,
         snp_clusters = 1,
         contamination = 5,
@@ -545,7 +554,7 @@ rule diagnostic:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/diagnostic.py \
+        python3 {params.script} \
             --metadata {input.metadata} \
             --clock-filter {params.clock_filter} \
             --contamination {params.contamination} \
@@ -580,13 +589,14 @@ rule mask:
     benchmark:
         "benchmarks/mask_{build_name}.txt"
     params:
+        script=workflow.source_path("../../" + "scripts/mask-alignment.py"),
         mask_from_beginning = config["mask"]["mask_from_beginning"],
         mask_from_end = config["mask"]["mask_from_end"],
         mask_sites = config["mask"]["mask_sites"]
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/mask-alignment.py \
+        python3 {params.script} \
             --alignment {input.alignment} \
             --mask-from-beginning {params.mask_from_beginning} \
             --mask-from-end {params.mask_from_end} \
@@ -640,6 +650,8 @@ rule annotate_metadata_with_index:
         sequence_index = "results/{build_name}/sequence_index.tsv",
     output:
         metadata="results/{build_name}/metadata_with_index.tsv",
+    params:
+        script=workflow.source_path("../../" + "scripts/annotate_metadata_with_index.py"),
     log:
         "logs/annotate_metadata_with_index_{build_name}.txt",
     benchmark:
@@ -647,7 +659,7 @@ rule annotate_metadata_with_index:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/annotate_metadata_with_index.py \
+        python3 {params.script} \
             --metadata {input.metadata} \
             --sequence-index {input.sequence_index} \
             --output {output.metadata}
@@ -735,6 +747,8 @@ if "run_pangolin" in config and config["run_pangolin"]:
             lineages = rules.run_pangolin.output.lineages
         output:
             node_data = "results/{build_name}/pangolineages.json"
+        params:
+            script=workflow.source_path("../../" + "scripts/make_pangolin_node_data.py"),
         log:
             "logs/pangolin_export_{build_name}.txt"
         conda: config["conda_environment"]
@@ -744,7 +758,7 @@ if "run_pangolin" in config and config["run_pangolin"]:
             "benchmarks/make_pangolin_node_data_{build_name}.txt"
         shell:
             """
-            python3 scripts/make_pangolin_node_data.py \
+            python3 {params.script} \
             --pangolineages {input.lineages} \
             --node_data_outfile {output.node_data} 2>&1 | tee {log}\
             """
@@ -760,6 +774,7 @@ rule adjust_metadata_regions:
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv.xz"
     params:
+        script=workflow.source_path("../../" + "scripts/adjust_regional_meta.py"),
         # Default to a "global" region if none is defined. The adjust metadata
         # script will not modify the metadata if the region is "global".
         region = lambda wildcards: config["builds"][wildcards.build_name].get("region", "global")
@@ -770,7 +785,7 @@ rule adjust_metadata_regions:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/adjust_regional_meta.py \
+        python3 {params.script} \
             --region {params.region:q} \
             --metadata {input.metadata} \
             --output {output.metadata} 2>&1 | tee {log}
@@ -906,6 +921,7 @@ rule translate:
         node_data = "results/{build_name}/aa_muts.json",
         translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}_withInternalNodes.fasta", gene=config.get('genes', ['S']))
     params:
+        script=workflow.source_path("../../" + "scripts/explicit_translation.py"),
         genes = config.get('genes', 'S')
     log:
         "logs/aamuts_{build_name}.txt"
@@ -919,7 +935,7 @@ rule translate:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/explicit_translation.py \
+        python3 {params.script} \
             --tree {input.tree} \
             --reference {input.reference} \
             --translations {input.translations:q} \
@@ -940,12 +956,13 @@ rule build_mutation_summary:
     log:
         "logs/mutation_summary_{build_name}.txt"
     params:
+        script=workflow.source_path("../../" + "scripts/mutation_summary.py"),
         outdir = "results/{build_name}/translations",
         basename = "aligned"
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/mutation_summary.py \
+        python3 {params.script} \
             --alignment {input.alignment} \
             --insertions {input.insertions} \
             --directory {params.outdir} \
@@ -959,7 +976,7 @@ rule distances:
     input:
         tree = rules.refine.output.tree,
         alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
-        distance_maps = ["defaults/distance_maps/S1.json"]
+        distance_maps = [workflow.source_path("../../defaults/distance_maps/S1.json")]
     params:
         genes = 'S',
         comparisons = ['root'],
@@ -1108,6 +1125,8 @@ rule colors:
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         colors = "results/{build_name}/colors.tsv"
+    params:
+        script=workflow.source_path("../../" + "scripts/assign-colors.py"),
     log:
         "logs/colors_{build_name}.txt"
     benchmark:
@@ -1120,7 +1139,7 @@ rule colors:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/assign-colors.py \
+        python3 {params.script} \
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
             --output {output.colors} \
@@ -1133,6 +1152,8 @@ rule recency:
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         node_data = "results/{build_name}/recency.json"
+    params:
+        script=workflow.source_path("../../" + "scripts/construct-recency-from-submission-date.py"),
     log:
         "logs/recency_{build_name}.txt"
     benchmark:
@@ -1143,7 +1164,7 @@ rule recency:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/construct-recency-from-submission-date.py \
+        python3 {params.script} \
             --metadata {input.metadata} \
             --output {output} 2>&1 | tee {log}
         """
@@ -1198,6 +1219,7 @@ rule logistic_growth:
     log:
         "logs/logistic_growth_{build_name}.txt"
     params:
+        script=workflow.source_path("../../" + "scripts/calculate_delta_frequency.py"),
         method="logistic",
         attribute_name = "logistic_growth",
         delta_pivots=config["logistic_growth"]["delta_pivots"],
@@ -1208,7 +1230,7 @@ rule logistic_growth:
         mem_mb=256
     shell:
         """
-        python3 scripts/calculate_delta_frequency.py \
+        python3 {params.script} \
             --tree {input.tree} \
             --frequencies {input.frequencies} \
             --method {params.method} \
@@ -1263,10 +1285,11 @@ rule calculate_epiweeks:
     log:
         "logs/calculate_epiweeks_{build_name}.txt",
     params:
+        script=workflow.source_path("../../" + "scripts/calculate_epiweek.py"),
         metadata_id_columns=config["sanitize_metadata"]["metadata_id_columns"],
     shell:
         """
-        python3 scripts/calculate_epiweek.py \
+        python3 {params.script} \
             --metadata {input.metadata} \
             --metadata-id-columns {params.metadata_id_columns:q} \
             --output-node-data {output.node_data} 2>&1 | tee {log}
@@ -1286,13 +1309,14 @@ rule find_clusters:
     log:
         "logs/find_clusters_{build_name}.txt",
     params:
+        script=workflow.source_path("../../" + "scripts/find_clusters.py"),
         min_tips=config["cluster"]["min_tips"],
         group_by=config["cluster"]["group_by"],
     resources:
         mem_mb=12000,
     shell:
        """
-       python3 scripts/find_clusters.py \
+       python3 {params.script} \
            --tree {input.tree} \
            --metadata {input.metadata} \
            --mutations {input.mutations} \
@@ -1409,12 +1433,14 @@ rule add_branch_labels:
         emerging_clades = rules.emerging_lineages.output.clade_data
     output:
         auspice_json = "results/{build_name}/ncov_with_branch_labels.json"
+    params:
+        script=workflow.source_path("../../" + "scripts/add_branch_labels.py"),
     log:
         "logs/add_branch_labels{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         """
-        python3 ./scripts/add_branch_labels.py \
+        python3 {params.script} \
             --input {input.auspice_json} \
             --emerging-clades {input.emerging_clades} \
             --output {output.auspice_json}
@@ -1432,10 +1458,11 @@ rule include_hcov19_prefix:
         "logs/include_hcov19_prefix{build_name}.txt"
     conda: config["conda_environment"]
     params:
+        script=workflow.source_path("../../" + "scripts/include_prefix.py"),
         prefix = lambda w: "hCoV-19/" if config.get("include_hcov19_prefix", False) else ""
     shell:
         """
-        python3 ./scripts/include_prefix.py \
+        python3 {params.script} \
             --input-auspice {input.auspice_json} \
             --input-tip-frequencies {input.tip_frequencies} \
             --prefix {params.prefix} \
@@ -1453,6 +1480,8 @@ rule finalize:
         auspice_json = f"auspice/{config['auspice_json_prefix']}_{{build_name}}.json",
         tip_frequency_json = f"auspice/{config['auspice_json_prefix']}_{{build_name}}_tip-frequencies.json",
         root_sequence_json = f"auspice/{config['auspice_json_prefix']}_{{build_name}}_root-sequence.json"
+    params:
+        script=workflow.source_path("../../" + "scripts/fix-colorings.py"),
     log:
         "logs/fix_colorings_{build_name}.txt"
     benchmark:
@@ -1460,7 +1489,7 @@ rule finalize:
     conda: config["conda_environment"]
     shell:
         """
-        python3 scripts/fix-colorings.py \
+        python3 {params.script} \
             --input {input.auspice_json} \
             --output {output.auspice_json} 2>&1 | tee {log} &&
         cp {input.frequencies} {output.tip_frequency_json} &&

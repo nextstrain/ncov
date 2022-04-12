@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 import sys
 
-from utils import stream_tar_file_contents
+from .utils import stream_tar_file_contents
 
 
 class DuplicateSequenceError(ValueError):
