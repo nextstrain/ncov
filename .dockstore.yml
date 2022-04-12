@@ -1,0 +1,8 @@
+version: 1.2
+workflows:
+   - subclass: WDL
+     primaryDescriptorPath: /workflow/wdl/workflow.wdl
+     testParameterFiles:
+     - /workflow/wdl/input_ncov.json
+     authors:
+      - name: Nextstrain
