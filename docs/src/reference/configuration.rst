@@ -98,12 +98,11 @@ builds
 
 .. warning::
 
-   Build names currently only allow alpha characters, underscores, and hyphens (``A-Z``, ``a-z``, ``_``, ``-``), but must not contain ``tip-frequencies`` as it is a special string used for Nextstrain builds.
+   Build names only allow alphanumeric characters, underscores, and hyphens (``A-Z``, ``a-z``, ``0-9``, ``_``, ``-``), but must not contain ``tip-frequencies`` as it is a special string used for Nextstrain builds.
 
    Note that these are not allowed:
 
    - Periods (``.``)
-   - Digits (``0-9``)
 
 -  examples:
 
