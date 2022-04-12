@@ -137,6 +137,7 @@ clade	gene	site	alt
 
 21K (Omicron)	nuc	8782	C
 21K (Omicron)	nuc	14408	T
+21K (Omicron)	nuc	18163	G
 21K (Omicron)	nuc	23403	G
 21K (Omicron)	nuc	28881	A
 21K (Omicron)	nuc	28882	A
@@ -148,6 +149,7 @@ clade	gene	site	alt
 
 21L (Omicron)	nuc	8782	C
 21L (Omicron)	nuc	14408	T
+21L (Omicron)	nuc	18163	G
 21L (Omicron)	nuc	23403	G
 21L (Omicron)	nuc	28881	A
 21L (Omicron)	nuc	28882	A
@@ -156,8 +158,8 @@ clade	gene	site	alt
 21L (Omicron)	nuc	23599	G
 
 21M (Omicron)	nuc	8782	C
-21M (Omicron)	nuc	10449	A
 21M (Omicron)	nuc	14408	T
+21M (Omicron)	nuc	18163	G
 21M (Omicron)	nuc	23403	G
 21M (Omicron)	nuc	28881	A
 21M (Omicron)	nuc	28882	A
