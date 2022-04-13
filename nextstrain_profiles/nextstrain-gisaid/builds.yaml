@@ -42,75 +42,60 @@ inputs:
 builds:
   reference:
     subsampling_scheme: nextstrain_reference
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/global_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with clade-focused subsampling
   global_6m:
     subsampling_scheme: nextstrain_global_6m
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/global_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past 6 months
   global_all-time:
     subsampling_scheme: nextstrain_global_all_time
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/global_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally since pandemic start
   africa_6m:
     subsampling_scheme: nextstrain_region_grouped_by_country_6m
     region: Africa
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/africa_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past 6 months
   africa_all-time:
     subsampling_scheme: nextstrain_region_grouped_by_country_all_time
     region: Africa
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/africa_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa since pandemic start
   asia_6m:
     subsampling_scheme: nextstrain_region_grouped_by_country_6m
     region: Asia
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/asia_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia over the past 6 months
   asia_all-time:
     subsampling_scheme: nextstrain_region_grouped_by_country_all_time
     region: Asia
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/asia_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia since pandemic start
   europe_6m:
     subsampling_scheme: nextstrain_region_grouped_by_country_6m
     region: Europe
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/europe_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past 6 months
   europe_all-time:
     subsampling_scheme: nextstrain_region_grouped_by_country_all_time
     region: Europe
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/europe_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe since pandemic start
   north-america_6m:
     subsampling_scheme: nextstrain_region_grouped_by_division_6m
     region: North America
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/north-america_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past 6 months
   north-america_all-time:
     subsampling_scheme: nextstrain_region_grouped_by_division_all_time
     region: North America
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/north-america_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America since pandemic start
   oceania_6m:
     subsampling_scheme: nextstrain_region_grouped_by_division_6m
     region: Oceania
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/oceania_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past 6 months
   oceania_all-time:
     subsampling_scheme: nextstrain_region_grouped_by_division_all_time
     region: Oceania
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/oceania_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania since pandemic start
   south-america_6m:
     subsampling_scheme: nextstrain_region_grouped_by_country_6m
     region: South America
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/south-america_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past 6 months
   south-america_all-time:
     subsampling_scheme: nextstrain_region_grouped_by_country_all_time
     region: South America
-    auspice_config: "nextstrain_profiles/nextstrain-gisaid/south-america_auspice_config.json"
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America since pandemic start
 
 # remove sequences without division label in US
