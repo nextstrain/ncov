@@ -20,7 +20,12 @@
     },
     {
       "key": "pango_lineage",
-      "title": "Pango Lineage",
+      "title": "Pango Lineage (GenBank)",
+      "type": "categorical"
+    },
+    {
+      "key": "Nextclade_pango",
+      "title": "Pango Lineage (Nextclade)",
       "type": "categorical"
     },
     {
@@ -110,6 +115,7 @@
     "clade_membership",
     "emerging_lineage",
     "pango_lineage",
+    "Nextclade_pango",
     "region",
     "country",
     "division",
