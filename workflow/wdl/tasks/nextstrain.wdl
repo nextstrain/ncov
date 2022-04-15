@@ -59,12 +59,13 @@ task nextstrain_build {
 
     if [ -n "~{s3deploy}" ]
     then
-      # s3 deploy
+      # may be replaced with Nextstrain.org login instead, check docs
+      # https://docs.nextstrain.org/projects/cli/en/latest/commands/remote/upload/#
       export AWS_ACCESS_KEY_ID=~{AWS_ACCESS_KEY_ID}
       export AWS_SECRET_ACCESS_KEY=~{AWS_SECRET_ACCESS_KEY}
       
-      # Upload all json files to staging, maybe check for filename collisions
-      nextstrain deploy ~{s3deploy} $INDIR/auspice/*.json
+      # deploy to Nextstrain Groups, todo: rename s3deploy
+      nextstrain remote upload ~{s3deploy} $INDIR/auspice/*.json
     fi
       
     # Prepare output
@@ -77,7 +78,7 @@ task nextstrain_build {
     zip -r results.zip results
   >>>
   output {
-    File auspice_zip = "auspice.zip"  # json files for auspice
+    File auspice_zip = "auspice.zip"  # final output
     File results_zip = "results.zip"  # for debugging
   }
   runtime {
