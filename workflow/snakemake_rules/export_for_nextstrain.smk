@@ -138,8 +138,11 @@ rule dated_json:
     benchmark:
         "benchmarks/dated_json_{prefix}_{build_name}_{date}.txt"
     wildcard_constraints:
-        # Allow build names to contain alphanumeric characters, underscores, and hyphens
-        # but not special strings used for Nextstrain builds.
+        # Allow build names to contain alphanumeric characters, underscores, and
+        # hyphens but not special strings used for Nextstrain builds. Include
+        # the user-defined prefix as a constraint, so Snakemake does not parse
+        # parts of the actual build names as part of the prefix.
+        prefix = config["auspice_json_prefix"],
         build_name = r'(?:[-a-zA-Z0-9_](?!(tip-frequencies|\d{4}-\d{2}-\d{2})))+',
         date = r"\d{4}-\d{2}-\d{2}"
     conda: config["conda_environment"]
