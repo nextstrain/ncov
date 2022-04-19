@@ -4,7 +4,7 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - augur=14.0.0
+  - augur=15.0.0
   - epiweeks=2.1.2
   - iqtree=2.2.0_beta
   - nextalign=1.11.0
