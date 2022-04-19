@@ -1,0 +1,23 @@
+inputs:
+  - name: gisaid
+    metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
+    aligned: "s3://nextstrain-ncov-private/sequences.fasta.xz"
+    skip_sanitize_metadata: true
+builds:
+  omicron:
+    subsampling_scheme: omisampling
+    title: "Genomic epidemiology of SARS-CoV-2 Omicron strains"
+subsampling:
+  omisampling:
+    single:
+      query: --query "(Nextstrain_clade == '21K (Omicron)' | Nextstrain_clade == '21L (Omicron)' | Nextstrain_clade == '21M (Omicron)')"
+      group_by: "region year month"
+      max_sequences: 4000
+refine:
+  root: best
+files:
+  # we force-include the reference at subsampling times 
+  include_for_subsampling: "my_profiles/omicron_gisaid/references.txt"
+  # at filter-time (post alignment, pre IQ-TREE) we remove the references so we have an omicron-only tree
+  exclude: "my_profiles/omicron_gisaid/references.txt"
+  include: "my_profiles/omicron_gisaid/empty.txt"
