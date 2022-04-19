@@ -277,7 +277,7 @@ rule subsample:
         """
     input:
         metadata = _get_unified_metadata,
-        include = config["files"]["include"],
+        include = lambda w: config["files"]["include_for_subsampling"] if "include_for_subsampling" in config["files"] else config["files"]["include"],
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:

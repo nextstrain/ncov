@@ -470,9 +470,17 @@ include
 ~~~~~~~
 
 -  type: string
--  description: Path to a file with list of strains (one name per line) to include in the analysis regardless of priorities or subsampling during filtering.
+-  description: Path to a file with list of strains (one name per line) to include in the analysis regardless of priorities or subsampling during both the subsampling and filtering steps.
 -  default: ``defaults/include.txt``
 -  used in rules: ``subsample``, ``filter``
+
+include_for_subsampling
+~~~~~~~~~~~~~~~~~~~~~~~
+
+-  type: string
+-  description: Use this if you wish to force-include different strains in the subsampling vs. filter stages. This file is used preferentially to ``files["include"]`` for the subsampling rule only.
+-  default: defaults to ``files["include"]`` if not set.
+-  used in rules: ``subsample``
 
 exclude
 ~~~~~~~
