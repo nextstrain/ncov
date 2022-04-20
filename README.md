@@ -19,6 +19,7 @@ In order to download the GISAID data to run the analysis yourself, please see [t
 > Please note that `data/metadata.tsv` is no longer included as part of this repo. However, we provide continually-updated, pre-formatted metadata & fasta files for download through GISAID.
 
 ## Read previous Situation Reports
+
 We issued weekly Situation Reports for the first ~5 months of the pandemic. You can find the Reports and their translations [here](https://nextstrain.org/ncov-sit-reps).
 
 ## FAQs
@@ -36,9 +37,11 @@ Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.
 We welcome contributions from the community! Please note that we strictly adhere to the [Contributor Covenant Code of Conduct](https://github.com/nextstrain/.github/blob/master/CODE_OF_CONDUCT.md).
 
 ### Contributing to software or documentation
+
 Please see our [Contributor Guide](https://github.com/nextstrain/.github/blob/master/CONTRIBUTING.md) to get started!
 
 ### Contributing data
+
 **Please note that we automatically pick up any SARS-CoV-2 data that is submitted to GISAID.**
 
 If you're a lab and you'd like to get started sequencing, please see:
@@ -50,6 +53,6 @@ If you're a lab and you'd like to get started sequencing, please see:
 
 # Get in touch
 
-To report a bug, error, or feature request, please [open an isssue](https://github.com/nextstrain/ncov/issues).
+To report a bug, error, or feature request, please [open an issue](https://github.com/nextstrain/ncov/issues).
 
 For questions, head over to the [discussion board](https://discussion.nextstrain.org/); we're happy to help!
