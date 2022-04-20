@@ -109,4 +109,7 @@ html_css_files = [
 
 intersphinx_mapping = {
     'docs.nextstrain.org': ('https://docs.nextstrain.org/en/latest/', None),
+    'augur': ('https://docs.nextstrain.org/projects/augur/en/stable', None),
+    'auspice': ('https://docs.nextstrain.org/projects/auspice/en/stable', None),
+    'snakemake': ('https://snakemake.readthedocs.io/en/stable', None),
 }
