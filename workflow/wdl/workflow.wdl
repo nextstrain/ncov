@@ -1,8 +1,7 @@
 version 1.0
 
-# import "tasks/nextstrain.wdl" as nextstrain # <= modular method
-import "tasks/buildfile.wdl" as buildfile
-import "tasks/nextstrain.wdl" as nextstrain
+# import "tasks/buildfile.wdl" as buildfile
+import "tasks/nextstrain.wdl" as nextstrain  # <= modular method
 # import "tasks/ncov_ingest.wdl" as ncov_ingest
 
 workflow Nextstrain_WRKFLW {
@@ -33,32 +32,28 @@ workflow Nextstrain_WRKFLW {
     Int? disk_size
   }
 
-  if (defined(sequence_fasta)) {
-    call buildfile.mk_buildconfig as mk_buildconfig {
-      input:
-        sequence_fasta = select_first([sequence_fasta]),
-        metadata_tsv = select_first([metadata_tsv]),
-        build = build_name,
-        dockerImage = docker_path
-    }
-  }
-
-  # call nextstrain.nextstrain build as build {  # <= modular method
   call nextstrain.nextstrain_build as build {
     input:
+      # Option 1
       sequence_fasta = sequence_fasta,
       metadata_tsv = metadata_tsv,
-      build_yaml = select_first([build_yaml, mk_buildconfig.buildconfig]), # Accepts Option 1 or Option 2
+      build_name = build_name,
+
+      # Option 2
+      build_yaml = build_yaml,
       custom_zip = custom_zip,
-      cpu = cpu,
-      memory = memory,
-      disk_size = disk_size,
-      dockerImage = docker_path,
-      pathogen_giturl = pathogen_giturl,
       active_builds = active_builds,
+
+      # Optional deploy to s3 site
+      s3deploy = s3deploy,
       AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID,
       AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY,
-      s3deploy = s3deploy
+
+      pathogen_giturl = pathogen_giturl,
+      dockerImage = docker_path,
+      cpu = cpu,
+      memory = memory,
+      disk_size = disk_size
   }
 
   output {
