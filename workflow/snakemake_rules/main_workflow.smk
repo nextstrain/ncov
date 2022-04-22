@@ -252,10 +252,17 @@ rule index_sequences:
     benchmark:
         "benchmarks/index_sequences.txt"
     conda: config["conda_environment"]
+    params:
+        strain_prefixes=config["strip_strain_prefixes"],
+        sanitize_log="logs/sanitize_sequences_before_index.txt",
     shell:
         """
-        augur index \
+        python3 scripts/sanitize_sequences.py \
             --sequences {input.sequences} \
+            --strip-prefixes {params.strain_prefixes:q} \
+            --output /dev/stdout 2> {params.sanitize_log} \
+            | augur index \
+            --sequences /dev/stdin \
             --output {output.sequence_index} 2>&1 | tee {log}
         """
 
