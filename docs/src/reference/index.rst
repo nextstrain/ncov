@@ -14,3 +14,4 @@ Reference material
    naming_clades
    data_submitter_faq
    change_log
+   run-analysis-on-terra
