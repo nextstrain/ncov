@@ -6,13 +6,13 @@ I. Import ``ncov`` wdl workflow from Dockstore
 --------------------------------------------------------
 
 1. Set up Terra account
-#. Navigate to Dockstore: `ncov:wdl/optionals`_
+#. Navigate to Dockstore: `ncov:wdl/master`_
 #. Top right corner, under **Launch with**, click on **Terra**
 #. Under "Workflow Name" set a name, can also leave default ``ncov``, and select your **Destination Workspace** in the drop down menu.
 #. Click button **IMPORT**
 #. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card
 
-.. _`ncov:wdl/optionals`: https://dockstore.org/workflows/github.com/nextstrain/ncov:wdl/optionals?tab=info
+.. _`ncov:wdl/master`: https://dockstore.org/workflows/github.com/nextstrain/ncov:wdl/master?tab=info
 
 II. Upload your data files into Terra
 --------------------------------------------------------
@@ -70,7 +70,7 @@ III. Connect your data files to the wdl workflow
   +-----------------+-----------------+-------+----------------------+
   |Task name        | Variable	      | Type  |   Attribute          |
   +=================+=================+=======+======================+
-  |Nextstrain_WRKFLW|  aupsice_zip    | File  | this.auspice_zip     |
+  |Nextstrain_WRKFLW|  auspice_zip    | File  | this.auspice_zip     |
   +-----------------+-----------------+-------+----------------------+
   |Nextstrain_WRKFLW|  results_zip    | File  | this.results_zip     |
   +-----------------+-----------------+-------+----------------------+
@@ -78,8 +78,3 @@ III. Connect your data files to the wdl workflow
 12. Click on **Save** then click on **Run Analysis**
 #. Under the tab **JOB HISTORY**, verify that your job is running.
 #. When run is complete, check the **DATA** / **TABLES** / **ncov_examples** tab and download "auspice.zip" file
-
-
-
-
-

@@ -6,7 +6,7 @@ task nextstrain_build {
     File? metadata_tsv
     String build_name = "example"
 
-    File? build_yaml
+    File? configfile_yaml # e.g. builds.yaml
     File? custom_zip      # <= since custom is private
     # String? custom_url = "path to public github"  # Our custom config files are private
     String? active_builds # Wisconsin,Minnesota,Washington
@@ -27,9 +27,16 @@ task nextstrain_build {
     INDIR=`unzip -Z1 master.zip | head -n1 | sed 's:/::g'`
     unzip master.zip  
 
+    export CONFIGFILE_FLAG=""
+    
     if [ -n "~{sequence_fasta}" ]
     then
-      if [ -z "~{build_yaml}" ]; then
+      if [ -z "~{metadata_tsv}" ]; then
+        echo "Error: Provided sequence: ~{sequence_fasta} but missing metadata tsv file."
+        exit 1
+      fi
+
+      if [ -z "~{configfile_yaml}" ]; then
     cat << EOF > builds.yaml
     inputs:
     - name: ~{build_name}
@@ -40,14 +47,15 @@ task nextstrain_build {
       sequences: data/references_sequences.fasta
     EOF
         export CONFIGFILE_FLAG="--configfile builds.yaml"
+        mv builds.yaml $INDIR/.
       fi
-      mv builds.yaml $INDIR/.
+      
       cp ~{sequence_fasta} $INDIR/.
       cp ~{metadata_tsv} $INDIR/.
     fi
 
-    if [ -n "~{build_yaml}" ]; then
-      export CONFIGFILE_FLAG="--configfile ~{build_yaml}"
+    if [ -n "~{configfile_yaml}" ]; then
+      export CONFIGFILE_FLAG="--configfile ~{configfile_yaml}"
     fi
 
     echo "CONFIGFILE_FLAG: " ${CONFIGFILE_FLAG}
@@ -58,12 +66,12 @@ task nextstrain_build {
       cp ~{custom_zip} here_custom.zip
       CUSTOM_DIR=`unzip -Z1 here_custom.zip | head -n1 | sed 's:/::g'`
       unzip here_custom.zip
-      cp -r $CUSTOM_DIR/*_profile $INDIR/.
-    fi
+      cp -r $CUSTOM_DIR $INDIR/.
 
-    # Draft: if passing build file from zip folder
-    # BUILDYAML=`ls -1 $CUSTOM_DIR/*.yaml | head -n1`
-    # cp $BUILDYAML $INDIR/build_custom.yaml
+      # Draft: if passing config file from zip folder
+      # BUILDYAML=`ls -1 $CUSTOM_DIR/*.yaml | head -n1`
+      # cp $BUILDYAML $INDIR/build_custom.yaml
+    fi
     
     # Max out the number of threads
     PROC=`nproc`  

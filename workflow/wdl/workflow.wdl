@@ -1,6 +1,5 @@
 version 1.0
 
-# import "tasks/buildfile.wdl" as buildfile
 import "tasks/nextstrain.wdl" as nextstrain  # <= modular method
 # import "tasks/ncov_ingest.wdl" as ncov_ingest
 
@@ -11,8 +10,8 @@ workflow Nextstrain_WRKFLW {
     File? metadata_tsv
     String? build_name
 
-    # Option 2: Use a custom build_yaml file with https or s3 sequence or metadata files
-    File? build_yaml
+    # Option 2: Use a custom config file (e.g. builds.yaml) with https or s3 sequence or metadata files
+    File? configfile_yaml
     File? custom_zip      # optional modifier: add a my_profiles.zip folder for my_auspice_config.json
     String? active_builds # optional modifier: specify "Wisconsin,Minnesota,Iowa"
 
@@ -40,7 +39,7 @@ workflow Nextstrain_WRKFLW {
       build_name = build_name,
 
       # Option 2
-      build_yaml = build_yaml,
+      configfile_yaml = configfile_yaml,
       custom_zip = custom_zip,
       active_builds = active_builds,
 
