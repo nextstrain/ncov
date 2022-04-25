@@ -5,10 +5,6 @@ description: snakemake configuration file
 type: object
 
 properties:
-  sequences:
-    type: string
-  metadata:
-    type: string
   inputs:
     type:
       - array
