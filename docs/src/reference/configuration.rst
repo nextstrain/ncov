@@ -147,11 +147,13 @@ colors
 -  type: string
 -  description: Path to a build-specific color map to use in Auspice.
 
+.. _configuration-builds-description:
+
 description
 ~~~~~~~~~~~
 
 -  type: string
--  description: Path to a build-specific Markdown file to use as a description in Auspice.
+-  description: Path to a build-specific Markdown file to use as a description in Auspice. Overrides :ref:`files.description <configuration-files-description>`.
 
 region
 ~~~~~~
@@ -546,13 +548,14 @@ lat_longs
 -  default: ``defaults/lat_longs.tsv``
 -  used in rules: ``export``
 
-.. _description-1:
+.. _configuration-files-description:
 
 description
 ~~~~~~~~~~~
 
 -  type: string
--  description: Path to a Markdown file containing a default description of each build that will be included in the build’s final Auspice JSON and appear in the build’s display in Auspice. Define a build-specific description with a path to that description file in ``builds: <build_name> : description: <path_to_build_specific_description>.md``.
+-  description: Path to a Markdown file to use as a description in Auspice for all builds. Overridden per-build by :ref:`builds.description <configuration-builds-description>`.
+-  default: ``defaults/description.md``
 -  used in rules: ``export``
 
 clades
