@@ -191,7 +191,7 @@ Saint Pierre and Miquelon	PM
 Saint Vincent and the Grenadines	VC
 Samoa	WS
 San Marino	SM
-São Tomé & Príncipe	ST
+Sao Tome and Principe	ST
 Saudi Arabia	SA
 Senegal	SN
 Serbia	RS

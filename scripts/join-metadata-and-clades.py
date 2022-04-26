@@ -18,12 +18,15 @@ reference_day = datetime(2020,1,1).toordinal()
 
 column_map = {
     "clade": "Nextstrain_clade",
+    "Nextclade_pango": "Nextclade_pango",
     "totalMissing": "missing_data",
     "totalSubstitutions": "divergence",
     "totalNonACGTNs": "nonACGTN",
     "privateNucMutations.totalUnlabeledSubstitutions":  "rare_mutations",
     "privateNucMutations.totalReversionSubstitutions": "reversion_mutations",
     "privateNucMutations.totalLabeledSubstitutions": "potential_contaminants",
+    "qc.overallScore": "QC_overall_score",
+    "qc.overallStatus": "QC_overall_status",
     "qc.missingData.status": "QC_missing_data",
     "qc.mixedSites.status": "QC_mixed_sites",
     "qc.privateMutations.status": "QC_rare_mutations",

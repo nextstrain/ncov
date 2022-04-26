@@ -143,7 +143,8 @@ frequencies:
   pivot_interval_units: "weeks"
 
   # KDE bandwidths in proportion of a year to use per strain.
-  narrow_bandwidth: 0.05
+  # using 15 day bandwidth
+  narrow_bandwidth: 0.041
   proportion_wide: 0.0
 
   # Diffusion frequency settings

@@ -107,6 +107,31 @@
       "key": "epiweek",
       "title": "Epiweek (CDC)",
       "type": "continuous"
+    },
+    {
+      "key": "QC_overall_score",
+      "title": "Nextclade QC score",
+      "type": "continuous"
+    },
+    {
+      "key": "QC_overall_status",
+      "title": "Nextclade QC status",
+      "type": "categorical"
+    },
+    {
+      "key": "reversion_mutations",
+      "title": "Reversion mutations",
+      "type": "continuous"
+    },
+    {
+      "key": "potential_contaminants",
+      "title": "Potential contaminants",
+      "type": "continuous"
+    },
+    {
+      "key": "rare_mutations",
+      "title": "Rare mutations",
+      "type": "continuous"
     }
   ],
   "geo_resolutions": [
@@ -116,7 +141,7 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "country",
+    "color_by": "clade_membership",
     "distance_measure": "num_date",
     "geo_resolution": "country",
     "map_triplicate": true,
@@ -131,7 +156,8 @@
     "division",
     "location",
     "host",
-    "epiweek"
+    "epiweek",
+    "QC_overall_status"
   ],
   "panels": [
     "tree",

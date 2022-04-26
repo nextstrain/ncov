@@ -103,8 +103,8 @@ rule align:
             --output-basename {params.basename} \
             --output-fasta {params.uncompressed_alignment} \
             --output-insertions {output.insertions} > {log} 2>&1;
-        xz -2 {params.uncompressed_alignment};
-        xz -2 {params.outdir}/{params.basename}*.fasta
+        xz -2 -T {threads} {params.uncompressed_alignment};
+        xz -2 -T {threads} {params.outdir}/{params.basename}*.fasta
         """
 
 def _get_subsampling_settings(wildcards):
@@ -453,6 +453,7 @@ rule prepare_nextclade:
         nextclade_dataset = directory("data/sars-cov-2-nextclade-defaults"),
     params:
         name = "sars-cov-2",
+    conda: config["conda_environment"]
     shell:
         """
         nextclade dataset get --name {params.name} --output-dir {output.nextclade_dataset}
@@ -468,7 +469,7 @@ rule build_align:
         sequences = rules.combine_samples.output.sequences,
         genemap = config["files"]["annotation"],
         reference = config["files"]["alignment_reference"],
-        nextclade_dataset = rules.prepare_nextclade.output.nextclade_dataset,
+        nextclade_dataset = "data/sars-cov-2-nextclade-defaults",
     output:
         alignment = "results/{build_name}/aligned.fasta",
         insertions = "results/{build_name}/insertions.tsv",
@@ -833,7 +834,7 @@ rule refine:
         coalescent = config["refine"]["coalescent"],
         date_inference = config["refine"]["date_inference"],
         divergence_unit = config["refine"]["divergence_unit"],
-        clock_filter_iqd = config["refine"]["clock_filter_iqd"],
+        clock_filter_iqd=f"--clock-filter-iqd {config['refine']['clock_filter_iqd']}" if config["refine"].get("clock_filter_iqd") else "",
         keep_polytomies = "--keep-polytomies" if config["refine"].get("keep_polytomies", False) else "",
         timetree = "" if config["refine"].get("no_timetree", False) else "--timetree"
     conda: config["conda_environment"]
@@ -855,7 +856,7 @@ rule refine:
             --divergence-unit {params.divergence_unit} \
             --date-confidence \
             --no-covariance \
-            --clock-filter-iqd {params.clock_filter_iqd} 2>&1 | tee {log}
+            {params.clock_filter_iqd} 2>&1 | tee {log}
         """
 
 rule ancestral:
@@ -1009,7 +1010,7 @@ rule traits:
         """
 
 def _get_clade_files(wildcards):
-    if "subclades" in config["builds"][wildcards.build_name]:
+    if "subclades" in config["builds"].get(wildcards.build_name, {}):
         return [config["files"]["clades"], config["builds"][wildcards.build_name]["subclades"]]
     else:
         return config["files"]["clades"]
@@ -1224,8 +1225,6 @@ rule mutational_fitness:
         node_data = "results/{build_name}/mutational_fitness.json"
     benchmark:
         "benchmarks/mutational_fitness_{build_name}.txt"
-    conda:
-        config["conda_environment"]
     log:
         "logs/mutational_fitness_{build_name}.txt"
     params:
@@ -1347,7 +1346,7 @@ def _get_node_data_by_wildcards(wildcards):
 rule build_description:
     message: "Templating build description for Auspice"
     input:
-        description = lambda w: config["builds"][w.build_name]["description"] if "description" in config["builds"][w.build_name] else config["files"]["description"]
+        description = lambda w: config["builds"][w.build_name]["description"] if "description" in config["builds"].get(w.build_name, {}) else config["files"]["description"]
     output:
         description = "results/{build_name}/description.md"
     log:
@@ -1367,8 +1366,8 @@ rule export:
         tree = rules.refine.output.tree,
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
         node_data = _get_node_data_by_wildcards,
-        auspice_config = lambda w: config["builds"][w.build_name]["auspice_config"] if "auspice_config" in config["builds"][w.build_name] else config["files"]["auspice_config"],
-        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"][w.build_name] else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
+        auspice_config = lambda w: config["builds"][w.build_name]["auspice_config"] if "auspice_config" in config["builds"].get(w.build_name, {}) else config["files"]["auspice_config"],
+        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"].get(w.build_name, {}) else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"],
         description = rules.build_description.output.description
     output:

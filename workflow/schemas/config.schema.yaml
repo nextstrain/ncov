@@ -39,10 +39,10 @@ properties:
     type: object
     minProperties: 1
     propertyNames:
-      # Allow build names to contain alpha characters, underscores, and hyphens
+      # Allow build names to contain alphanumeric characters, underscores, and hyphens
       # but not special strings used for Nextstrain builds.  Also used in the
       # workflow's wildcard_constraints.
-      pattern: "^(?:[_a-zA-Z-](?!(tip-frequencies)))+$"
+      pattern: "^(?:[-a-zA-Z0-9_](?!(tip-frequencies)))+$"
 
   S3_DST_COMPRESSION:
     type: string
