@@ -5,17 +5,21 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 27 April 2022: Convert to hierarchical clade definitions. This streamlines clade definitions significantly and makes it easier to understand clade relationships. Changes can be seen in `defaults/clades.tsv` and in [PR 855](https://github.com/nextstrain/ncov/pull/855). **This feature requires Augur v14.0 or above.** To upgrade Augur follow the installation guide at [docs.nextstrain.org](https://docs.nextstrain.org/en/latest/install.html).
+
 - 12 April 2022: Add support for numbers in build names. [PR 524](https://github.com/nextstrain/ncov/pull/524)
+
 - 11 April 2022: Update clade definitions to be robust to presence of lineage BA.4 and BA.5 viruses. [PR #913](https://github.com/nextstrain/ncov/pull/913)
+
 - 17 March 2022: Add `Nextclade_pango` column to metadata [PR 892](https://github.com/nextstrain/ncov/pull/892)
+
 - 8 Mar 2022: Support disabling clock filters in the refine step by setting `clock_filter_iqd: 0` in the `refine` section. [PR #884](https://github.com/nextstrain/ncov/pull/884), [Issue #852](https://github.com/nextstrain/ncov/issues/852).
+
 - 11 February 2022: Add colors to default Auspice config for Nextclade quality control columns and a filter for overall Nextclade QC status. [PR #861](https://github.com/nextstrain/ncov/pull/861).
 
 ## v11 (3 February 2022)
 
-- Run Nextclade QC and filtering on the final sample set before building a tree. Nextclade also runs `nextalign` under the hood. Importantly, this enables filtering the final sample set to omit strains with many reversions and/or possible contaminants, significantly improving the quality of Omicron trees. [See the original pull request for more details](https://github.com/nextstrain/ncov/pull/842). To disable this filtering by Nextclade quality control metrics, set `skip_diagnostics: true` in [the `filter` section of your build configuration file](https://docs.nextstrain.org/projects/ncov/en/latest/reference/configuration.html#filter).
-
-## New features since last version update
+- 3 February 2022: Run Nextclade QC and filtering on the final sample set before building a tree. Nextclade also runs `nextalign` under the hood. Importantly, this enables filtering the final sample set to omit strains with many reversions and/or possible contaminants, significantly improving the quality of Omicron trees. [See the original pull request for more details](https://github.com/nextstrain/ncov/pull/842). To disable this filtering by Nextclade quality control metrics, set `skip_diagnostics: true` in [the `filter` section of your build configuration file](https://docs.nextstrain.org/projects/ncov/en/latest/reference/configuration.html#filter).
 
 - 29 January 2022: Update "mutational fitness" coloring based on latest results from [Obermeyer et al model](https://www.medrxiv.org/content/10.1101/2021.09.07.21263228v1) via [github.com/broadinstitute/pyro-cov/](https://github.com/broadinstitute/pyro-cov/blob/master/paper/mutations.tsv).
 
