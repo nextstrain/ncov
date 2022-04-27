@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 27 April 2022: Include new clades 22A, 22B and 22C, where 22A corresponds to Pango lineage BA.4, 22B corresponds to Pango lineage BA.5 and 22C corresponds to Pango lineage BA.2.12.1. Please see [PR 933](https://github.com/nextstrain/ncov/pull/933) for rationale behind these clade updates.
+
 - 27 April 2022: Convert to hierarchical clade definitions. This streamlines clade definitions significantly and makes it easier to understand clade relationships. Changes can be seen in `defaults/clades.tsv` and in [PR 855](https://github.com/nextstrain/ncov/pull/855). **This feature requires Augur v14.0 or above.** To upgrade Augur follow the installation guide at [docs.nextstrain.org](https://docs.nextstrain.org/en/latest/install.html).
 
 - 12 April 2022: Add support for numbers in build names. [PR 524](https://github.com/nextstrain/ncov/pull/524)
