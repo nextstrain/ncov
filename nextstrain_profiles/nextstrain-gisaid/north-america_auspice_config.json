@@ -17,7 +17,7 @@
     },
     {
       "key": "pango_lineage",
-      "title": "PANGO Lineage",
+      "title": "Pango Lineage",
       "type": "categorical"
     },
     {
@@ -27,32 +27,27 @@
     },
     {
       "key": "S1_mutations",
-      "title": "S1 mutations",
+      "title": "S1 Mutations",
       "type": "continuous"
     },
     {
       "key": "logistic_growth",
-      "title": "Logistic growth",
+      "title": "Logistic Growth",
       "type": "continuous"
     },
     {
       "key": "current_frequency",
-      "title": "Current frequency",
+      "title": "Current Frequency",
       "type": "continuous"
     },
     {
       "key": "mutational_fitness",
-      "title": "Mutational fitness",
+      "title": "Mutational Fitness",
       "type": "continuous"
-    },    
-    {
-      "key": "location",
-      "title": "Location",
-      "type": "categorical"
     },
     {
-      "key": "division",
-      "title": "Admin Division",
+      "key": "region",
+      "title": "Region",
       "type": "categorical"
     },
     {
@@ -61,23 +56,18 @@
       "type": "categorical"
     },
     {
-      "key": "region",
-      "title": "Region",
+      "key": "division",
+      "title": "Admin Division",
+      "type": "categorical"
+    },
+    {
+      "key": "location",
+      "title": "Location",
       "type": "categorical"
     },
     {
       "key": "host",
       "title": "Host",
-      "type": "categorical"
-    },
-    {
-      "key": "age",
-      "title": "Age",
-      "type": "continuous"
-    },
-    {
-      "key": "sex",
-      "title": "Sex",
       "type": "categorical"
     },
     {
@@ -101,6 +91,11 @@
       "type": "categorical"
     },
     {
+      "key": "epiweek",
+      "title": "Epiweek (CDC)",
+      "type": "categorical"
+    },
+    {
       "key": "gisaid_epi_isl",
       "type": "categorical"
     },
@@ -110,10 +105,9 @@
     }
   ],
   "geo_resolutions": [
-    "location",
-    "division",
+    "region",
     "country",
-    "region"
+    "division"
   ],
   "display_defaults": {
     "color_by": "clade_membership",
@@ -124,17 +118,18 @@
     "transmission_lines": false
   },
   "filters": [
-    "recency",
     "clade_membership",
     "emerging_lineage",
+    "pango_lineage",
     "region",
     "country",
     "division",
     "location",
     "host",
-    "pango_lineage",
+    "author",
     "originating_lab",
-    "submitting_lab"
+    "submitting_lab",
+    "recency"
   ],
   "panels": [
     "tree",

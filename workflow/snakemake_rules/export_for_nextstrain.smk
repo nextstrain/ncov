@@ -23,6 +23,8 @@ import requests
 import json
 from workflow.lib.persistent_dict import PersistentDict, NoSuchEntryError
 
+ruleorder: dated_json > finalize
+
 def get_todays_date():
     from datetime import datetime
     date = datetime.today().strftime('%Y-%m-%d')
@@ -135,6 +137,11 @@ rule dated_json:
         dated_tip_frequencies_json = "auspice/{prefix}_{build_name}_{date}_tip-frequencies.json"
     benchmark:
         "benchmarks/dated_json_{prefix}_{build_name}_{date}.txt"
+    wildcard_constraints:
+        # Allow build names to contain alphanumeric characters, underscores, and hyphens
+        # but not special strings used for Nextstrain builds.
+        build_name = r'(?:[-a-zA-Z0-9_](?!(tip-frequencies|\d{4}-\d{2}-\d{2})))+',
+        date = r"\d{4}-\d{2}-\d{2}"
     conda: config["conda_environment"]
     shell:
         """

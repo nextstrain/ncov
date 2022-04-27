@@ -5,10 +5,11 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
-- 11 February 2022: Add colors to default Auspice config for Nextclade quality control columns and a filter for overall Nextclade QC status. [PR #861](https://github.com/nextstrain/ncov/pull/861).
-- 8 Mar 2022: Support disabling clock filters in the refine step by setting `clock_filter_iqd: 0` in the `refine` section. [PR #884](https://github.com/nextstrain/ncov/pull/884), [Issue #852](https://github.com/nextstrain/ncov/issues/852).
-- 17 March 2022: Add `Nextclade_pango` column to metadata [PR 892](https://github.com/nextstrain/ncov/pull/892)
+- 12 April 2022: Add support for numbers in build names. [PR 524](https://github.com/nextstrain/ncov/pull/524)
 - 11 April 2022: Update clade definitions to be robust to presence of lineage BA.4 and BA.5 viruses. [PR #913](https://github.com/nextstrain/ncov/pull/913)
+- 17 March 2022: Add `Nextclade_pango` column to metadata [PR 892](https://github.com/nextstrain/ncov/pull/892)
+- 8 Mar 2022: Support disabling clock filters in the refine step by setting `clock_filter_iqd: 0` in the `refine` section. [PR #884](https://github.com/nextstrain/ncov/pull/884), [Issue #852](https://github.com/nextstrain/ncov/issues/852).
+- 11 February 2022: Add colors to default Auspice config for Nextclade quality control columns and a filter for overall Nextclade QC status. [PR #861](https://github.com/nextstrain/ncov/pull/861).
 
 ## v11 (3 February 2022)
 

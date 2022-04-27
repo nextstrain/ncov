@@ -1,201 +1,103 @@
 clade	gene	site	alt
 
-AY.4.2 (Delta)	nuc	22917	G
-AY.4.2 (Delta)	nuc	22995	A
-AY.4.2 (Delta)	nuc	24410	A
-AY.4.2 (Delta)	nuc	27638	C
-AY.4.2 (Delta)	nuc	28881	T
-AY.4.2 (Delta)	nuc	29402	T
-AY.4.2 (Delta)	S	222	V
-AY.4.2 (Delta)	S	145	H
+BA.1.1	nuc	8782	C
+BA.1.1	nuc	14408	T
+BA.1.1	nuc	18163	G
+BA.1.1	nuc	23403	G
+BA.1.1	nuc	28881	A
+BA.1.1	nuc	28882	A
+BA.1.1	nuc	15240	T
+BA.1.1	nuc	23202	A
+BA.1.1	nuc	23525	T
+BA.1.1	nuc	23599	G
+BA.1.1	nuc	27259	C
+BA.1.1	nuc	2470	T
+BA.1.1	nuc	22599	A
 
-AY.34 (Delta)	nuc	22917	G
-AY.34 (Delta)	nuc	22995	A
-AY.34 (Delta)	nuc	24410	A
-AY.34 (Delta)	nuc	27638	C
-AY.34 (Delta)	nuc	28881	T
-AY.34 (Delta)	nuc	29402	T
-AY.34 (Delta)	nuc	9441	T
-AY.34 (Delta)	S	677	H
+BA.2.3	nuc	8782	C
+BA.2.3	nuc	14408	T
+BA.2.3	nuc	18163	G
+BA.2.3	nuc	23403	G
+BA.2.3	nuc	28881	A
+BA.2.3	nuc	28882	A
+BA.2.3	nuc	21618	T
+BA.2.3	nuc	22775	A
+BA.2.3	nuc	23599	G
+BA.2.3	nuc	8991	T
+BA.2.3	nuc	25810	T
 
-AY.36 (Delta)	nuc	22917	G
-AY.36 (Delta)	nuc	22995	A
-AY.36 (Delta)	nuc	24410	A
-AY.36 (Delta)	nuc	27638	C
-AY.36 (Delta)	nuc	28881	T
-AY.36 (Delta)	nuc	15628	C
-AY.36 (Delta)	nuc	21846	T
-AY.36 (Delta)	nuc	28461	G
+BA.4	nuc	8782	C
+BA.4	nuc	14408	T
+BA.4	nuc	18163	G
+BA.4	nuc	23403	G
+BA.4	nuc	28881	A
+BA.4	nuc	28882	A
+BA.4	nuc	21618	T
+BA.4	nuc	22775	A
+BA.4	nuc	23599	G
+BA.4	nuc	12160	A
+BA.4	nuc	9866	C
+BA.4	nuc	27788	T
 
-AY.39 + S:1073N (Delta)	nuc	22917	G
-AY.39 + S:1073N (Delta)	nuc	22995	A
-AY.39 + S:1073N (Delta)	nuc	24410	A
-AY.39 + S:1073N (Delta)	nuc	27638	C
-AY.39 + S:1073N (Delta)	nuc	28881	T
-AY.39 + S:1073N (Delta)	nuc	27604	A
-AY.39 + S:1073N (Delta)	S	1073	N
+BA.5	nuc	8782	C
+BA.5	nuc	14408	T
+BA.5	nuc	18163	G
+BA.5	nuc	23403	G
+BA.5	nuc	28881	A
+BA.5	nuc	28882	A
+BA.5	nuc	21618	T
+BA.5	nuc	22775	A
+BA.5	nuc	23599	G
+BA.5	nuc	12160	A
+BA.5	nuc	9866	C
+BA.5	nuc	27259	A
 
-B.1.1.529 (Omicron)	nuc	8782	C
-B.1.1.529 (Omicron)	nuc	14408	T
-B.1.1.529 (Omicron)	nuc	23403	G
-B.1.1.529 (Omicron)	nuc	28881	A
-B.1.1.529 (Omicron)	nuc	28882	A
-B.1.1.529 (Omicron)	nuc	23525	T
-B.1.1.529 (Omicron)	nuc	23599	G
-B.1.1.529 (Omicron)	nuc	27259	C
+BA.2.9.1	nuc	8782	C
+BA.2.9.1	nuc	14408	T
+BA.2.9.1	nuc	18163	G
+BA.2.9.1	nuc	23403	G
+BA.2.9.1	nuc	28881	A
+BA.2.9.1	nuc	28882	A
+BA.2.9.1	nuc	21618	T
+BA.2.9.1	nuc	22775	A
+BA.2.9.1	nuc	23599	G
+BA.2.9.1	nuc	22916	A
+BA.2.9.1	nuc	24433	G
+BA.2.9.1	nuc	3610	C
 
-BA.2 (Omicron)	nuc	8782	C
-BA.2 (Omicron)	nuc	14408	T
-BA.2 (Omicron)	nuc	23403	G
-BA.2 (Omicron)	nuc	28881	A
-BA.2 (Omicron)	nuc	28882	A
-BA.2 (Omicron)	nuc	21618	T
-BA.2 (Omicron)	nuc	22775	A
-BA.2 (Omicron)	nuc	23525	T
-BA.2 (Omicron)	nuc	23599	G
-BA.2 (Omicron)	nuc	24424	T
-BA.2 (Omicron)	nuc	27259	C
+BA.2.12.1	nuc	8782	C
+BA.2.12.1	nuc	14408	T
+BA.2.12.1	nuc	18163	G
+BA.2.12.1	nuc	23403	G
+BA.2.12.1	nuc	28881	A
+BA.2.12.1	nuc	28882	A
+BA.2.12.1	nuc	21618	T
+BA.2.12.1	nuc	22775	A
+BA.2.12.1	nuc	23599	G
+BA.2.12.1	nuc	22917	A
+BA.2.12.1	nuc	11674	T
+BA.2.12.1	nuc	21721	T
 
-BA.1 (Omicron)	nuc	8782	C
-BA.1 (Omicron)	nuc	14408	T
-BA.1 (Omicron)	nuc	23403	G
-BA.1 (Omicron)	nuc	28881	A
-BA.1 (Omicron)	nuc	28882	A
-BA.1 (Omicron)	nuc	15240	T
-BA.1 (Omicron)	nuc	23202	A
-BA.1 (Omicron)	nuc	23525	T
-BA.1 (Omicron)	nuc	23599	G
-BA.1 (Omicron)	nuc	24424	T
-BA.1 (Omicron)	nuc	27259	C
+BA.2.13	nuc	8782	C
+BA.2.13	nuc	14408	T
+BA.2.13	nuc	18163	G
+BA.2.13	nuc	23403	G
+BA.2.13	nuc	28881	A
+BA.2.13	nuc	28882	A
+BA.2.13	nuc	21618	T
+BA.2.13	nuc	22775	A
+BA.2.13	nuc	23599	G
+BA.2.13	nuc	22916	A
+BA.2.13	nuc	23767	G
 
-19A	nuc	8782	C
-19A	nuc	14408	C
-
-19B	nuc	8782	T
-19B	nuc	28144	C
-
-20A	nuc	8782	C
-20A	nuc	14408	T
-20A	nuc	23403	G
-
-20B	nuc	8782	C
-20B	nuc	14408	T
-20B	nuc	23403	G
-20B	nuc	28881	A
-20B	nuc	28882	A
-
-20C	nuc	1059	T
-20C	nuc	8782	C
-20C	nuc	14408	T
-20C	nuc	23403	G
-20C	nuc	25563	T
-
-20D	nuc	4002	T
-20D	nuc	10097	A
-20D	nuc	13536	T
-20D	nuc	23731	T
-
-20E (EU1)	nuc	8782	C
-20E (EU1)	nuc	14408	T
-20E (EU1)	nuc	23403	G
-20E (EU1)	nuc	22227	T
-20E (EU1)	nuc	28932	T
-20E (EU1)	nuc	29645	T
-
-20F	nuc	1163	T
-20F	nuc	7540	C
-20F	nuc	16647	T
-20F	nuc	18555	T
-20F	nuc	22992	A
-20F	nuc	23401	A
-
-20G	nuc	10319	T
-20G	nuc	18424	G
-20G	nuc	21304	T
-20G	nuc	25907	T
-20G	nuc	27964	T
-20G	nuc	28472	T
-20G	nuc	28869	T
-
-20H (Beta, V2)	nuc	1059	T
-20H (Beta, V2)	nuc	8782	C
-20H (Beta, V2)	nuc	14408	T
-20H (Beta, V2)	nuc	23403	G
-20H (Beta, V2)	nuc	25563	T
-20H (Beta, V2)	nuc	23063	T
-20H (Beta, V2)	nuc	23012	A
-20H (Beta, V2)	nuc	26456	T
-
-20I (Alpha, V1)	nuc	8782	C
-20I (Alpha, V1)	nuc	14408	T
-20I (Alpha, V1)	nuc	23403	G
-20I (Alpha, V1)	nuc	28881	A
-20I (Alpha, V1)	nuc	28882	A
-20I (Alpha, V1)	nuc	23063	T
-20I (Alpha, V1)	nuc	14676	T
-20I (Alpha, V1)	nuc	15279	T
-
-20J (Gamma, V3)	nuc	733	C
-20J (Gamma, V3)	nuc	2749	T
-20J (Gamma, V3)	nuc	3828	T
-20J (Gamma, V3)	nuc	5648	C
-20J (Gamma, V3)	nuc	12778	T
-20J (Gamma, V3)	nuc	13860	T
-
-21A (Delta)	nuc	22917	G
-21A (Delta)	nuc	22995	A
-21A (Delta)	nuc	27638	C
-21A (Delta)	nuc	28881	T
-21A (Delta)	nuc	29402	T
-
-21B (Kappa)	nuc	17523	T
-21B (Kappa)	nuc	22917	G
-21B (Kappa)	nuc	23012	C
-21B (Kappa)	nuc	27638	C
-21B (Kappa)	nuc	28881	T
-21B (Kappa)	nuc	29402	T
-
-21C (Epsilon)	nuc	17014	T
-21C (Epsilon)	nuc	21600	T
-21C (Epsilon)	nuc	22018	T
-21C (Epsilon)	nuc	22917	G
-
-21D (Eta)	nuc	14407	T
-21D (Eta)	nuc	21717	G
-21D (Eta)	nuc	24224	C
-21D (Eta)	nuc	24748	T
-
-21E (Theta)	nuc	12049	T
-21E (Theta)	nuc	23341	C
-21E (Theta)	nuc	23604	A
-21E (Theta)	nuc	24187	A
-21E (Theta)	nuc	24836	A
-
-21F (Iota)	nuc	16500	C
-21F (Iota)	nuc	20262	G
-21F (Iota)	nuc	21575	T
-21F (Iota)	nuc	22320	G
-
-21G (Lambda)	nuc	21786	T
-21G (Lambda)	nuc	21789	T
-21G (Lambda)	nuc	22917	A
-21G (Lambda)	nuc	23031	C
-
-21H (Mu)	nuc	11451	G
-21H (Mu)	nuc	13057	T
-21H (Mu)	nuc	17491	T
-21H (Mu)	nuc	21995	A
-21H (Mu)	nuc	21993	C
-21H (Mu)	nuc	22599	A
-
-21I (Delta)	nuc	5184	T
-21I (Delta)	nuc	9891	T
-21I (Delta)	nuc	11418	C
-21I (Delta)	nuc	11514	T
-21I (Delta)	nuc	22227	T
-
-21J (Delta)	nuc	4181	T
-21J (Delta)	nuc	11201	G
-21J (Delta)	nuc	11332	G
-21J (Delta)	nuc	19220	T
-21J (Delta)	nuc	27874	T
+BA.2.13	nuc	8782	C
+BA.2.13	nuc	14408	T
+BA.2.13	nuc	18163	G
+BA.2.13	nuc	23403	G
+BA.2.13	nuc	28881	A
+BA.2.13	nuc	28882	A
+BA.2.13	nuc	21618	T
+BA.2.13	nuc	22775	A
+BA.2.13	nuc	23599	G
+BA.2.13	nuc	22917	A
+BA.2.13	nuc	7820	C

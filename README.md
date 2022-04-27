@@ -9,29 +9,7 @@ We maintain a number of publicly-available builds, visible at [nextstrain.org/nc
 
 [See our change log for details about backwards-incompatible or breaking changes to the workflow](https://docs.nextstrain.org/projects/ncov/en/latest/reference/change_log.html).
 
-# Resources
-
-## Use Nextstrain to analyze your SARS-CoV-2 data
-
-**We've written a comprehensive guide to get you up and running in <1 hr. Click on the below links to follow it. It covers:**
-
-0. [**Introduction**](https://nextstrain.github.io/ncov/index) _(Start here)_
-1. [**Setup and installation**](https://nextstrain.github.io/ncov/setup)
-2. [**Preparing your data**](https://nextstrain.github.io/ncov/data-prep)
-3. [**Orientation: analysis workflow**](https://nextstrain.github.io/ncov/orientation-workflow)
-4. [**Orientation: which files should I touch?**](https://nextstrain.github.io/ncov/orientation-files)
-5. [**Running & troubleshooting**](https://nextstrain.github.io/ncov/running)
-6. [**Customizing your analysis**](https://nextstrain.github.io/ncov/customizing-analysis) (see also: [reference for all configuration parameters](https://nextstrain.github.io/ncov/configuration))
-7. [**Customizing your visualization**](https://nextstrain.github.io/ncov/customizing-visualization)
-8. [**Options for visualizing and sharing results**](https://nextstrain.github.io/ncov/sharing) (including working with sensitive metadata)
-9. [**Interpreting your results**](https://nextstrain.github.io/ncov/interpretation)
-10. [**Writing a narrative to highlight key findings**](https://nextstrain.github.io/ncov/narratives)
-11. [**Running the pipeline starting with multiple inputs**](https://nextstrain.github.io/ncov/multiple_inputs)
-
-## Reference guides
-
-  - [Metadata field definitions](https://docs.nextstrain.org/projects/ncov/en/latest/reference/metadata-fields.html)
-  - [Workflow configuration parameters](https://docs.nextstrain.org/projects/ncov/en/latest/reference/configuration.html)
+Visit [the workflow documentation](https://docs.nextstrain.org/projects/ncov) for tutorials and reference material.
 
 ## Download formatted datasets
 
@@ -41,6 +19,7 @@ In order to download the GISAID data to run the analysis yourself, please see [t
 > Please note that `data/metadata.tsv` is no longer included as part of this repo. However, we provide continually-updated, pre-formatted metadata & fasta files for download through GISAID.
 
 ## Read previous Situation Reports
+
 We issued weekly Situation Reports for the first ~5 months of the pandemic. You can find the Reports and their translations [here](https://nextstrain.org/ncov-sit-reps).
 
 ## FAQs
@@ -58,9 +37,11 @@ Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.
 We welcome contributions from the community! Please note that we strictly adhere to the [Contributor Covenant Code of Conduct](https://github.com/nextstrain/.github/blob/master/CODE_OF_CONDUCT.md).
 
 ### Contributing to software or documentation
+
 Please see our [Contributor Guide](https://github.com/nextstrain/.github/blob/master/CONTRIBUTING.md) to get started!
 
 ### Contributing data
+
 **Please note that we automatically pick up any SARS-CoV-2 data that is submitted to GISAID.**
 
 If you're a lab and you'd like to get started sequencing, please see:
@@ -72,6 +53,6 @@ If you're a lab and you'd like to get started sequencing, please see:
 
 # Get in touch
 
-To report a bug, error, or feature request, please [open an isssue](https://github.com/nextstrain/ncov/issues).
+To report a bug, error, or feature request, please [open an issue](https://github.com/nextstrain/ncov/issues).
 
 For questions, head over to the [discussion board](https://discussion.nextstrain.org/); we're happy to help!
