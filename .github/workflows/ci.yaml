@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  test-build:
+    uses: nextstrain/.github/.github/workflows/pathogen-repo-ci.yaml@master
+    with:
+      build-args: all_regions -j 2 --profile nextstrain_profiles/nextstrain-ci
+
+  test-cram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+      - run: pip install cram nextstrain-augur
+      - run: cram --shell=/bin/bash tests/sanitize-metadata.t

@@ -5,7 +5,7 @@ active_builds: europe
 inputs:
   - name: gisaid
     metadata: "data/example_metadata.tsv"
-    sequences: "data/example_sequences.fasta"
+    sequences: "data/example_sequences.fasta.gz"
 
 builds:
   # Override the default Nextstrain European build's subsampling scheme for more
