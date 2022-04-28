@@ -1,139 +1,63 @@
 version 1.0
 
-# import "tasks/nextstrain.wdl" as nextstrain  # <= modular method
+import "tasks/nextstrain.wdl" as nextstrain  # <= modular method
+# import "tasks/ncov_ingest.wdl" as ncov_ingest
 
 workflow Nextstrain_WRKFLW {
   input {
-    # Option 1: run the ncov example workflow
-    File? build_yaml
-
-    # Option 2: create a build_yaml from sequence and metadata
+    # Option 1: Pass in a sequence and metadata files, create a configfile_yaml
     File? sequence_fasta
     File? metadata_tsv
     String? build_name
-    # It's possible all of the above files are provided
+
+    # Option 2: Use a custom config file (e.g. builds.yaml) with https or s3 sequence or metadata files
+    File? configfile_yaml
+    File? custom_zip      # optional modifier: add a my_profiles.zip folder for my_auspice_config.json
+    String? active_builds # optional modifier: specify "Wisconsin,Minnesota,Iowa"
 
     # Option 3? GISAID augur zip?
     # File? gisaid_zip # tarball
 
-    String? active_builds # "Wisconsin,Minnesota,Iowa"
-
+    # Optional Keys for deployment
+    String? s3deploy
+    String? AWS_ACCESS_KEY_ID
+    String? AWS_SECRET_ACCESS_KEY
+    
     # By default, run the ncov workflow (can swap it for zika or something else)
-    String giturl = "https://github.com/nextstrain/ncov/archive/refs/heads/master.zip"
+    String pathogen_giturl = "https://github.com/nextstrain/ncov/archive/refs/heads/master.zip"
     String docker_path = "nextstrain/base:latest"
     Int? cpu
     Int? memory       # in GiB
     Int? disk_size
   }
 
-  if (defined(sequence_fasta)) {
-    call mk_buildconfig {
-      input:
-        sequence_fasta = select_first([sequence_fasta]),
-        metadata_tsv = select_first([metadata_tsv]),
-        build = build_name,
-        dockerImage = docker_path
-    }
-  }
-
-  # call nextstrain.nextstrain build as build {  # <= modular method
-  call nextstrain_build as build {
+  call nextstrain.nextstrain_build as build {
     input:
-      build_yaml = select_first([build_yaml, mk_buildconfig.buildconfig]), # Accepts Option 1 or Option 2
+      # Option 1
+      sequence_fasta = sequence_fasta,
+      metadata_tsv = metadata_tsv,
+      build_name = build_name,
+
+      # Option 2
+      configfile_yaml = configfile_yaml,
+      custom_zip = custom_zip,
+      active_builds = active_builds,
+
+      # Optional deploy to s3 site
+      s3deploy = s3deploy,
+      AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID,
+      AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY,
+
+      pathogen_giturl = pathogen_giturl,
+      dockerImage = docker_path,
       cpu = cpu,
       memory = memory,
-      disk_size = disk_size,
-      dockerImage = docker_path,
-      giturl = giturl,
-      active_builds = active_builds
+      disk_size = disk_size
   }
 
   output {
-    Array[File] json_files = build.json_files
+    #Array[File] json_files = build.json_files
     File auspice_zip = build.auspice_zip
-  }
-}
-
-# === Define Tasks
-task mk_buildconfig {
-  input {
-    File sequence_fasta  # Could change this to Array[File] and loop the HEREDOC
-    File metadata_tsv
-    String build = "example"
-    String dockerImage
-    Int cpu = 1
-    Int disk_size = 5
-    Float memory = 3.5
-  }
-  command {
-    cat << EOF > build.yaml
-    inputs:
-    - name: ~{build}
-      metadata: ~{metadata_tsv}
-      sequences: ~{sequence_fasta}
-    - name: references
-      metadata: data/references_metadata.tsv
-      sequences: data/references_sequences.fasta
-    EOF
-  }
-  output {
-    File buildconfig = "build.yaml"
-  }
-  runtime {
-    docker: dockerImage
-    cpu : cpu
-    memory: memory + " GiB"
-    disks: "local-disk " + disk_size + " HDD"
-  }
-}
-
-# Public Reference Datasets in case we want to add default "context" strains for ncov
-# nextstrain remote ls s3://nextstrain-data/files/ncov/open &> list.txt
-# files/ncov/open/LOCATION/metadata.tsv.xz where LOCATION = one of ['africa', 'asia', 'europe', 'global', 'north-america', 'oceania', 'south-america']
-# files/ncov/open/LOCATION/sequences.fasta.xz
-# TODO: since these are all s3, just generate string (avoid download and localazation/delocalization) for the mk_buildconfig
-# Clarification: Do these need to be sampled down?
-
-task nextstrain_build {
-  input {
-    File? build_yaml
-    String? active_builds # Wisconsin,Minnesota,Washington
-    String dockerImage = "nextstrain/base:latest"
-    String nextstrain_app = "nextstrain"
-    String giturl = "https://github.com/nextstrain/ncov/archive/refs/heads/master.zip"
-    Int cpu = 8         # Honestly, I'd max this out unless budget is a consideration.
-    Int disk_size = 30  # In GiB.  Could also check size of sequence or metadata files
-    Float memory = 3.5 
-  }
-  command {
-    # Pull ncov, zika or similar repository
-    wget -O master.zip ~{giturl}
-    INDIR=`unzip -Z1 master.zip | head -n1 | sed 's:/::g'`
-    unzip master.zip  
-    
-    # Max out the number of threads
-    PROC=`nproc`  
-
-    # Run nextstrain
-    "~{nextstrain_app}" build \
-      --cpus $PROC \
-      --memory  ~{memory}Gib \
-      --native $INDIR ~{"--configfile " + build_yaml} \
-      ~{"--config active_builds=" + active_builds}
-      
-    # Prepare output
-    mv $INDIR/auspice .
-    zip -r auspice.zip auspice
-  }
-  output {
-    File auspice_zip = "auspice.zip"
-    Array[File] json_files = glob("auspice/*.json")
-    # Target the s3
-  }
-  runtime {
-    docker: dockerImage
-    cpu : cpu
-    memory: memory + " GiB"
-    disks: "local-disk " + disk_size + " HDD"
+    File results_zip = build.results_zip
   }
 }
