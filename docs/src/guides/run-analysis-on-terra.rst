@@ -38,7 +38,7 @@ III. Connect your data files to the wdl workflow
 
 ::
 
-    entity:ncov_examples_id	metadata	sequences	build_yaml
+    entity:ncov_examples_id	metadata	sequences	configfile_yaml
     example	gs://COPY_PATH_HERE/example_metadata.tsv	gs://COPY_PATH_HERE/example_datasets/example_sequences.fasta.gz	
     example_build		gs://COPY_PATH_HERE/example-build.yaml
 
@@ -57,7 +57,7 @@ III. Connect your data files to the wdl workflow
   +=================+=================+=======+======================+
   |Nextstrain_WRKFLW|  build_name     | String| this.ncov_example.id |
   +-----------------+-----------------+-------+----------------------+
-  |Nextstrain_WRKFLW|  build_yaml     | File  | this.build_yaml      |
+  |Nextstrain_WRKFLW|  configfile_yaml     | File  | this.configfile_yaml      |
   +-----------------+-----------------+-------+----------------------+
   |Nextstrain_WRKFLW|  metadata_tsv   | File  | this.metadata        |
   +-----------------+-----------------+-------+----------------------+

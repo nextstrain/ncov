@@ -5,7 +5,7 @@ import "tasks/nextstrain.wdl" as nextstrain  # <= modular method
 
 workflow Nextstrain_WRKFLW {
   input {
-    # Option 1: Pass in a sequence and metadata files, create a build_yaml
+    # Option 1: Pass in a sequence and metadata files, create a configfile_yaml
     File? sequence_fasta
     File? metadata_tsv
     String? build_name
