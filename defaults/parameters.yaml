@@ -101,7 +101,7 @@ mask:
   # Number of bases to mask from the beginning and end of the alignment. These regions of the genome
   # are difficult to sequence accurately.
   mask_from_beginning: 100
-  mask_from_end: 50
+  mask_from_end: 200
 
   # Specific sites to mask in the reference genome's coordinates.
   # These are 1-indexed coordinates of sites that have been identified as prone to sequencing errors.
