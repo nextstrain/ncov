@@ -36,7 +36,15 @@ def adjust_coloring_for_epiweeks(dataset):
         for child in node.get("children", []):
             recurse(child)
     try:
-        recurse(dataset["tree"])
+        ## typically, trees are a dictionary at dataset['tree'] but they may also be stored
+        ## as an array of dicts (i.e. a list of subtrees)
+        if type(dataset['tree'])==dict:
+            recurse(dataset["tree"])
+        elif type(dataset['tree'])==list:
+            for tree in dataset['tree']:
+                recurse(tree)
+        else:
+            raise Exception("Unknown tree structure in dataset JSON")
     except ValueError as e:
         print(str(e))
         print("Skipping color scale creation for epiweek.")
