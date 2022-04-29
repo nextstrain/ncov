@@ -37,11 +37,13 @@ To maximize the utility and visibility of these generously shared data, [we prov
 
 #### Subsampled sequences and intermediate files
 
-The files below exist for each region / timespan combination, eg `global/6m`, `global/all-time`, `africa/6m`, `africa/all-time`, etc... The links below refer to the `${BUILD}` build, substitute `${BUILD}` with another build name in the links if desired.
+The files below exist for every region (`global`, `africa`, `asia`, `europe`, `north-america`, `oceania` and `south-america`) and correspond to each region's 6 month timespan build (e.g. `global/6m`, `africa/6m`, `asia/6m`, etc).
+Files for the `all-time` builds (e.g. `global/all-time`, etc.) are not yet available.
+The links below refer to the `${BUILD_PART_0}` region; substitute `${BUILD_PART_0}` with another region name in the links if desired.
 
-- [${BUILD} metadata.tsv.xz](https://data.nextstrain.org/files/ncov/open/${BUILD}/metadata.tsv.xz)
-- [${BUILD} sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/${BUILD}/sequences.fasta.xz)
-- [${BUILD} aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/${BUILD}/aligned.fasta.xz)
-- [${BUILD} Auspice tree](https://data.nextstrain.org/files/ncov/open/${BUILD}/${BUILD}.json)
-- [${BUILD} Auspice root sequence](https://data.nextstrain.org/files/ncov/open/${BUILD}/${BUILD}_root-sequence.json)
-- [${BUILD} Auspice tip frequencies](https://data.nextstrain.org/files/ncov/open/${BUILD}/${BUILD}_tip-frequencies.json)
+- [${BUILD_PART_0}/6m metadata.tsv.xz](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/metadata.tsv.xz)
+- [${BUILD_PART_0}/6m sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/sequences.fasta.xz)
+- [${BUILD_PART_0}/6m aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/aligned.fasta.xz)
+- [${BUILD_PART_0}/6m Auspice tree](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/${BUILD_PART_0}.json)
+- [${BUILD_PART_0}/6m Auspice root sequence](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/${BUILD_PART_0}_root-sequence.json)
+- [${BUILD_PART_0}/6m Auspice tip frequencies](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/${BUILD_PART_0}_tip-frequencies.json)

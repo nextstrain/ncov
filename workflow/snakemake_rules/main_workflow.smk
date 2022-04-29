@@ -1365,13 +1365,22 @@ rule build_description:
     log:
         "logs/build_description_{build_name}.txt"
     conda: config["conda_environment"]
-    shell:
-        """
-        env BUILD={wildcards.build_name:q} \
-            perl -pe 's/\$\{{BUILD\}}/$ENV{{BUILD}}/g' \
-                < {input.description:q} \
-                > {output.description:q}
-        """
+    run:
+        from string import Template
+
+        context = {
+            "BUILD": wildcards.build_name,
+            **{
+                f"BUILD_PART_{idx}": part
+                    for idx, part
+                     in enumerate(wildcards.build_name.split("_"))},
+        }
+
+        with open(input.description, "r", encoding = "utf-8") as i:
+            template = Template(i.read())
+
+        with open(output.description, "w", encoding = "utf-8") as o:
+            o.write(template.safe_substitute(context))
 
 rule export:
     message: "Exporting data files for Auspice"
