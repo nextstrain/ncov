@@ -1460,10 +1460,35 @@ rule include_hcov19_prefix:
             --output-tip-frequencies {output.tip_frequencies}
         """
 
+rule restrict_via_time_range:
+    message: """Restricting the tree from {wildcards.build_name} to tips within the last / since {params.cutoff}"""
+    input:
+        auspice_json = rules.include_hcov19_prefix.output.auspice_json,
+    params:
+        cutoff = lambda w: config["builds"][w.build_name]["date_cutoff"],
+        clade_label = "clade",
+    output:
+        auspice_json = "results/{build_name}/ncov_tips_restricted_via_time_range.json",
+    log: "logs/restrict_via_time_range_{build_name}.txt"
+    conda: config["conda_environment"]
+    threads: 1
+    shell:
+        """
+        python3 scripts/restrict_tree_via_cutoff_date.py \
+            --input {input.auspice_json} \
+            --cutoff {params.cutoff} --clade-label {params.clade_label} \
+            --output {output.auspice_json} 2>&1 | tee {log}
+        """
+
+def auspice_json_to_finalize(wildcards):
+    if "date_cutoff" in config["builds"][wildcards.build_name]:
+        return "results/{build_name}/ncov_tips_restricted_via_time_range.json",
+    return rules.include_hcov19_prefix.output.auspice_json
+
 rule finalize:
     message: "Remove extraneous colorings for main build and move frequencies"
     input:
-        auspice_json = lambda w: rules.include_hcov19_prefix.output.auspice_json,
+        auspice_json = auspice_json_to_finalize,
         frequencies = rules.include_hcov19_prefix.output.tip_frequencies,
         root_sequence_json = rules.export.output.root_sequence_json
     output:

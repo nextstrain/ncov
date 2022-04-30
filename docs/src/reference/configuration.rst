@@ -179,6 +179,11 @@ title
 -  type: string
 -  description: Build-specific title to provide to ``augur export`` and display as the title of the analysis in Auspice.
 
+date_cutoff
+~~~~~~~~~~~
+
+-  type: string or number. Either a numeric date with the year as the integer part (e.g. 2020.42), or a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04'), or a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W').
+-  description: Restrict the build to tips observed after this cutoff, and create subtrees for each clade which originates before this time. Note that this happens *after* the tree has been inferred & temporally resolved.
 
 
 subsampling
