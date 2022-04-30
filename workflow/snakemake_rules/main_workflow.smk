@@ -1364,7 +1364,6 @@ rule build_description:
         description = "results/{build_name}/description.md"
     log:
         "logs/build_description_{build_name}.txt"
-    conda: config["conda_environment"]
     run:
         from string import Template
 
