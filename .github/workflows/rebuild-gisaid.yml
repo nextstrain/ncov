@@ -50,14 +50,14 @@ jobs:
         nextstrain build \
           --aws-batch \
           --detach \
-          --cpus 36 \
-          --memory 70GiB \
+          --cpus 72 \
+          --memory 140GiB \
           . \
             deploy \
             upload \
             --config "${config[@]}" \
             --profile nextstrain_profiles/nextstrain-gisaid \
-            --set-threads tree=16 \
+            --set-threads tree=8 \
         |& tee build-launch.log
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
