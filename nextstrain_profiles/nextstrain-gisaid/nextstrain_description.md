@@ -1,14 +1,31 @@
-Compiled Nextstrain SARS-CoV-2 resources are available at [nextstrain.org/sars-cov-2](https://nextstrain.org/sars-cov-2/). Follow [@nextstrain](https://twitter.com/nextstrain) for continual data updates.
+Compiled Nextstrain SARS-CoV-2 resources are available at [nextstrain.org/sars-cov-2](https://nextstrain.org/sars-cov-2/). Follow [@nextstrain](https://twitter.com/nextstrain) for updates.
 
-This phylogeny shows evolutionary relationships of SARS-CoV-2 viruses from the ongoing COVID-19 pandemic. Although the genetic relationships among sampled viruses are quite clear, there is considerable uncertainty surrounding estimates of specific transmission dates and in reconstruction of geographic spread. Please be aware that specific inferred geographic transmission patterns and temporal estimates are only a hypothesis.
+This phylogeny shows evolutionary relationships of SARS-CoV-2 viruses from the ongoing COVID-19 pandemic. Although the genetic relationships among sampled viruses are generally quite clear, there is considerable uncertainty surrounding estimates of specific transmission dates and in reconstruction of geographic spread. Please be aware that specific inferred geographic transmission patterns and temporal estimates are only a hypothesis.
 
-There are millions of complete SARS-CoV-2 genomes available and this number increases every day. This visualization can only handle ~4000 genomes in a single view for performance and legibility reasons. Because of this we subsample available genome data for these analysis views. Our primary [global analysis](/ncov/global/) subsamples to ~600 genomes per continental region with ~400 from the previous 4 months and ~200 from before this. This results in a more equitable global sequence distribution, but hides samples available from regions that are doing lots of sequencing. To mitigate against this, we've set up separate analyses to focus on particular regions. They are available on the "Dataset" dropdown on the left or by clicking on the following links: [Africa](/ncov/africa?f_region=Africa), [Asia](/ncov/asia?f_region=Asia), [Europe](/ncov/europe?f_region=Europe), [North America](/ncov/north-america?f_region=North%20America), [Oceania](/ncov/oceania?f_region=Oceania) and [South America](/ncov/south-america?f_region=South%20America).
+There are millions of complete SARS-CoV-2 genomes available and this number increases every day. This visualization can only handle ~4000 genomes in a single view for performance and legibility reasons. Because of this we subsample available genome data for our analysis views. We provision multiple views to focus subsampling on different geographic regions and different time periods. These views are available through the "Dataset" dropdown on the left or by clicking on the following links:
+
+region        | time period   | URL
+------------- | ------------- | ---
+global        | past 6 months | [/ncov/gisaid/global/6m](/ncov/gisaid/global/6m)
+Africa        | past 6 months | [/ncov/gisaid/africa/6m](/ncov/gisaid/africa/6m?f_region=Africa)
+Asia          | past 6 months | [/ncov/gisaid/asia/6m](/ncov/gisaid/asia/6m?f_region=Asia)
+Europe        | past 6 months | [/ncov/gisaid/europe/6m](/ncov/gisaid/europe/6m?f_region=Europe)
+North America | past 6 months | [/ncov/gisaid/north-america/6m](/ncov/gisaid/north-america/6m?f_region=North%20America)
+Oceania       | past 6 months | [/ncov/gisaid/oceania/6m](/ncov/gisaid/oceania/6m?f_region=Oceania)
+South America | past 6 months | [/ncov/gisaid/south-america/6m](/ncov/gisaid/south-america/6m?f_region=South%20America)
+global        | all time      | [/ncov/gisaid/global/all-time](/ncov/gisaid/global/all-time)
+Africa        | all time      | [/ncov/gisaid/africa/all-time](/ncov/gisaid/africa/all-time?f_region=Africa)
+Asia          | all time      | [/ncov/gisaid/asia/all-time](/ncov/gisaid/asia/all-time?f_region=Asia)
+Europe        | all time      | [/ncov/gisaid/europe/all-time](/ncov/gisaid/europe/all-time?f_region=Europe)
+North America | all time      | [/ncov/gisaid/north-america/all-time](/ncov/gisaid/north-america/all-time?f_region=North%20America)
+Oceania       | all time      | [/ncov/gisaid/oceania/all-time](/ncov/gisaid/oceania/all-time?f_region=Oceania)
+South America | all time      | [/ncov/gisaid/south-america/all-time](/ncov/gisaid/south-america/all-time?f_region=South%20America)
 
 Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 8 &times; 10^-4 subs per site per year. Mutational fitness is calculated using results from [Obermeyer et al (under review)](https://www.medrxiv.org/content/10.1101/2021.09.07.21263228v1). Full details on bioinformatic processing can be found [here](https://github.com/nextstrain/ncov).
 
-We gratefully acknowledge the authors, originating and submitting laboratories of the genetic sequence and metadata made available through [GISAID](https://gisaid.org) on which this research is based. An attribution table is available by clicking on "Download Data" at the bottom of the page and then clicking on "Acknowledgments" in the resulting dialog box.
+We gratefully acknowledge the authors, originating and submitting laboratories of the genetic sequences and metadata made available through [GISAID](https://gisaid.org) on which this research is based. An attribution table is available by clicking on "Download Data" at the bottom of the page and then clicking on "Acknowledgments" in the resulting dialog box.
 
 At the specific request of GISAID, we:
  - maintain the prefix `hCoV-19/` in the names of viral isolates
- - disable download of full metadata TSV and provide instead an acknowledgments TSV in the "download data" link at the bottom of the page
+ - disable download of full metadata TSV and provide instead an acknowledgments TSV in the "Download Data" link at the bottom of the page
  - refrain from sharing alignments or other intermediate files computed in our pipeline

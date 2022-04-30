@@ -1,38 +1,49 @@
-Compiled Nextstrain SARS-CoV-2 resources are available at [nextstrain.org/sars-cov-2](https://nextstrain.org/sars-cov-2/). Follow [@nextstrain](https://twitter.com/nextstrain) for continual data updates.
+Compiled Nextstrain SARS-CoV-2 resources are available at [nextstrain.org/sars-cov-2](https://nextstrain.org/sars-cov-2/). Follow [@nextstrain](https://twitter.com/nextstrain) for updates.
 
-This phylogeny shows evolutionary relationships of SARS-CoV-2 viruses from the ongoing COVID-19 pandemic. Although the genetic relationships among sampled viruses are quite clear, there is considerable uncertainty surrounding estimates of specific transmission dates and in reconstruction of geographic spread. Please be aware that specific inferred geographic transmission patterns and temporal estimates are only a hypothesis.
+This phylogeny shows evolutionary relationships of SARS-CoV-2 viruses from the ongoing COVID-19 pandemic. Although the genetic relationships among sampled viruses are generally quite clear, there is considerable uncertainty surrounding estimates of specific transmission dates and in reconstruction of geographic spread. Please be aware that specific inferred geographic transmission patterns and temporal estimates are only a hypothesis.
 
-There are hundreds of thousands of complete SARS-CoV-2 genomes available on open databases and this number increases every day, but geographical representation varies. This visualization can only handle ~3000 genomes in a single view for performance and legibility reasons. Because of this we subsample available genome data for these analysis views. Our primary [global analysis](/ncov/open/global/) subsamples to ~600 genomes per continental region with ~400 from the previous 4 months and ~200 from before this. This results in a more equitable global sequence distribution, but hides samples available from regions that are doing lots of sequencing. To mitigate against this, we've set up separate analyses to focus on particular regions. They are available on the "Dataset" dropdown on the left or by clicking on the following links: [Africa](/ncov/open/africa?f_region=Africa), [Asia](/ncov/open/asia?f_region=Asia), [Europe](/ncov/open/europe?f_region=Europe), [North America](/ncov/open/north-america?f_region=North%20America), [Oceania](/ncov/open/oceania?f_region=Oceania) and [South America](/ncov/open/south-america?f_region=South%20America).
+There are millions of complete SARS-CoV-2 genomes available on open databases and this number increases every day. This visualization can only handle ~4000 genomes in a single view for performance and legibility reasons. Because of this we subsample available genome data for our analysis views. We provision multiple views to focus subsampling on different geographic regions and different time periods. These views are available through the "Dataset" dropdown on the left or by clicking on the following links:
+
+region        | time period   | URL
+------------- | ------------- | ---
+global        | past 6 months | [/ncov/open/global/6m](/ncov/open/global/6m)
+Africa        | past 6 months | [/ncov/open/africa/6m](/ncov/open/africa/6m?f_region=Africa)
+Asia          | past 6 months | [/ncov/open/asia/6m](/ncov/open/asia/6m?f_region=Asia)
+Europe        | past 6 months | [/ncov/open/europe/6m](/ncov/open/europe/6m?f_region=Europe)
+North America | past 6 months | [/ncov/open/north-america/6m](/ncov/open/north-america/6m?f_region=North%20America)
+Oceania       | past 6 months | [/ncov/open/oceania/6m](/ncov/open/oceania/6m?f_region=Oceania)
+South America | past 6 months | [/ncov/open/south-america/6m](/ncov/open/south-america/6m?f_region=South%20America)
+global        | all time      | [/ncov/open/global/all-time](/ncov/open/global/all-time)
+Africa        | all time      | [/ncov/open/africa/all-time](/ncov/open/africa/all-time?f_region=Africa)
+Asia          | all time      | [/ncov/open/asia/all-time](/ncov/open/asia/all-time?f_region=Asia)
+Europe        | all time      | [/ncov/open/europe/all-time](/ncov/open/europe/all-time?f_region=Europe)
+North America | all time      | [/ncov/open/north-america/all-time](/ncov/open/north-america/all-time?f_region=North%20America)
+Oceania       | all time      | [/ncov/open/oceania/all-time](/ncov/open/oceania/all-time?f_region=Oceania)
+South America | all time      | [/ncov/open/south-america/all-time](/ncov/open/south-america/all-time?f_region=South%20America)
 
 Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 8 &times; 10^-4 subs per site per year. Mutational fitness is calculated using results from [Obermeyer et al (under review)](https://www.medrxiv.org/content/10.1101/2021.09.07.21263228v1). Full details on bioinformatic processing can be found [here](https://github.com/nextstrain/ncov).
 
-The analysis on this page uses data from NCBI GenBank as a source following Open Data principles, such that we can make input data and intermediate files available for further analysis (see below). Open Data is data that can be freely used, re-used and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike. But be aware that not all regions are well represented in open databases and some of the above trees might lack recent data from particular geographic regions.
+The analysis on this page uses data from NCBI GenBank as a source following [Open Data principles](https://opendatahandbook.org/guide/en/what-is-open-data/), such that we can make input data and intermediate files available for further analysis. Open Data is data that can be freely used, re-used and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike. But be aware that not all regions are well represented in open databases and some of the above trees might lack recent data from particular geographic regions.
 
 We gratefully acknowledge the authors, originating and submitting laboratories of the genetic sequences and metadata for sharing their work in open databases. Please note that although data generators have generously shared data in an open fashion, that does not mean there should be free license to publish on this data. Data generators should be cited where possible and collaborations should be sought in some circumstances. Please try to avoid scooping someone else's work. Reach out if uncertain. An attribution table is available by clicking on "Download Data" at the bottom of the page and then clicking on "Strain Metadata" in the resulting dialog box.
 
 To maximize the utility and visibility of these generously shared data, [we provide preprocessed files that can serve as a starting point for additional analyses](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html).
 
-### All sequences and metadata
+#### All sequences and metadata
 
-#### Ingested and parsed data
+- [metadata.tsv.gz](https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz)
+- [sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz)
+- [aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz)
 
- * [sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz)
- * [metadata.tsv.gz](https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz)
+#### Subsampled sequences and intermediate files
 
-#### Pre-processed files
+The files below exist for every region (`global`, `africa`, `asia`, `europe`, `north-america`, `oceania` and `south-america`) and correspond to each region's 6 month timespan build (e.g. `global/6m`, `africa/6m`, `asia/6m`, etc).
+Files for the `all-time` builds (e.g. `global/all-time`, etc.) are not yet available.
+The links below refer to the `${BUILD_PART_0}` region; substitute `${BUILD_PART_0}` with another region name in the links if desired.
 
- * [aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz)
- * [filtered.fasta.xz](https://data.nextstrain.org/files/ncov/open/filtered.fasta.xz)
- * [mutation-summary.tsv.xz](https://data.nextstrain.org/files/ncov/open/mutation-summary.tsv.xz)
-
-### Subsampled sequences and intermediate files
-
-The files below exist for the `global` and the regional builds (`africa`, `asia`, `europe`, `north-america`, `oceania` and `south-america`).
-The links below refer to the `${BUILD}` build, substitute `${BUILD}` with another build name in the links if desired.
-
- * [${BUILD}/sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/${BUILD}/sequences.fasta.xz)
- * [${BUILD}/metadata.tsv.xz](https://data.nextstrain.org/files/ncov/open/${BUILD}/metadata.tsv.xz)
- * [${BUILD}/aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/${BUILD}/aligned.fasta.xz)
- * [${BUILD} auspice tree](https://data.nextstrain.org/files/ncov/open/${BUILD}/${BUILD}.json)
- * [${BUILD} auspice root sequence](https://data.nextstrain.org/files/ncov/open/${BUILD}/${BUILD}_root-sequence.json)
- * [${BUILD} auspice tip frequencies](https://data.nextstrain.org/files/ncov/open/${BUILD}/${BUILD}_tip-frequencies.json)
+- [${BUILD_PART_0}/6m metadata.tsv.xz](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/metadata.tsv.xz)
+- [${BUILD_PART_0}/6m sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/sequences.fasta.xz)
+- [${BUILD_PART_0}/6m aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/aligned.fasta.xz)
+- [${BUILD_PART_0}/6m Auspice tree](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/${BUILD_PART_0}.json)
+- [${BUILD_PART_0}/6m Auspice root sequence](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/${BUILD_PART_0}_root-sequence.json)
+- [${BUILD_PART_0}/6m Auspice tip frequencies](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/${BUILD_PART_0}_tip-frequencies.json)

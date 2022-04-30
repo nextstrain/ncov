@@ -1,6 +1,7 @@
 """Small, shared functions used to generate inputs and parameters.
 """
 import datetime
+from itertools import product
 from urllib.parse import urlsplit
 
 def numeric_date(dt=None):
@@ -167,7 +168,9 @@ def _get_sampling_bias_correction_for_wildcards(wildcards):
         return config["traits"]["default"]["sampling_bias_correction"]
 
 def _get_min_date_for_frequencies(wildcards):
-    if "frequencies" in config and "min_date" in config["frequencies"]:
+    if wildcards.build_name in config["frequencies"] and "min_date" in config["frequencies"][wildcards.build_name]:
+        return config["frequencies"][wildcards.build_name]["min_date"]
+    elif "frequencies" in config and "min_date" in config["frequencies"]:
         return config["frequencies"]["min_date"]
     else:
         # If not explicitly specified, default to 1 year back from the present
@@ -177,7 +180,9 @@ def _get_min_date_for_frequencies(wildcards):
         )
 
 def _get_max_date_for_frequencies(wildcards):
-    if "frequencies" in config and "max_date" in config["frequencies"]:
+    if wildcards.build_name in config["frequencies"] and "max_date" in config["frequencies"][wildcards.build_name]:
+        return config["frequencies"][wildcards.build_name]["max_date"]
+    elif "frequencies" in config and "max_date" in config["frequencies"]:
         return config["frequencies"]["max_date"]
     else:
         # Allow users to censor the N most recent days to minimize effects of
@@ -205,16 +210,35 @@ def _get_upload_inputs(wildcards):
 
     origin = config["S3_DST_ORIGINS"][0]
 
+    # This function bakes in these assumptions here about the build names used
+    # for the nextstrain.org/ncov/gisaid and …/open builds and then
+    # special-cases them below.
+    regions = {"global", "africa", "asia", "europe", "north-america", "oceania", "south-america"}
+    timespans = {"6m", "all-time"}
+    region_timespan_builds = [f"{region}_{timespan}" for region, timespan in product(regions, timespans)]
+
     # mapping of remote → local filenames
     build_files = {}
     for build_name in config["builds"]:
+        if build_name in region_timespan_builds:
+            region, timespan = build_name.split("_")
+
+            # We name remote files only by region (for now), so only include
+            # the 6m timespan builds.
+            if timespan != "6m":
+                continue
+
+            upload_name = region
+        else:
+            upload_name = build_name
+
         build_files.update({
-            f"{build_name}/sequences.fasta.xz": f"results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",   # from `rule combine_samples`
-            f"{build_name}/metadata.tsv.xz":    f"results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",      # from `rule combine_samples`
-            f"{build_name}/aligned.fasta.xz":   f"results/{build_name}/aligned.fasta.xz",                             # from `rule build_align`
+            f"{upload_name}/sequences.fasta.xz": f"results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",   # from `rule combine_samples`
+            f"{upload_name}/metadata.tsv.xz":    f"results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",      # from `rule combine_samples`
+            f"{upload_name}/aligned.fasta.xz":   f"results/{build_name}/aligned.fasta.xz",                             # from `rule build_align`
             # export the auspice dataset which matches the subsampled sequences / metadata (see `rule finalize`)
-            f"{build_name}/{build_name}.json":                  f"auspice/{config['auspice_json_prefix']}_{build_name}.json",
-            f"{build_name}/{build_name}_tip-frequencies.json":  f"auspice/{config['auspice_json_prefix']}_{build_name}_tip-frequencies.json",
-            f"{build_name}/{build_name}_root-sequence.json":    f"auspice/{config['auspice_json_prefix']}_{build_name}_root-sequence.json"
+            f"{upload_name}/{upload_name}.json":                  f"auspice/{config['auspice_json_prefix']}_{build_name}.json",
+            f"{upload_name}/{upload_name}_tip-frequencies.json":  f"auspice/{config['auspice_json_prefix']}_{build_name}_tip-frequencies.json",
+            f"{upload_name}/{upload_name}_root-sequence.json":    f"auspice/{config['auspice_json_prefix']}_{build_name}_root-sequence.json"
         })
     return build_files
