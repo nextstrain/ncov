@@ -167,7 +167,9 @@ def _get_sampling_bias_correction_for_wildcards(wildcards):
         return config["traits"]["default"]["sampling_bias_correction"]
 
 def _get_min_date_for_frequencies(wildcards):
-    if "frequencies" in config and "min_date" in config["frequencies"]:
+    if wildcards.build_name in config["frequencies"] and "min_date" in config["frequencies"][wildcards.build_name]:
+        return config["frequencies"][wildcards.build_name]["min_date"]
+    elif "frequencies" in config and "min_date" in config["frequencies"]:
         return config["frequencies"]["min_date"]
     else:
         # If not explicitly specified, default to 1 year back from the present
@@ -177,7 +179,9 @@ def _get_min_date_for_frequencies(wildcards):
         )
 
 def _get_max_date_for_frequencies(wildcards):
-    if "frequencies" in config and "max_date" in config["frequencies"]:
+    if wildcards.build_name in config["frequencies"] and "max_date" in config["frequencies"][wildcards.build_name]:
+        return config["frequencies"][wildcards.build_name]["max_date"]
+    elif "frequencies" in config and "max_date" in config["frequencies"]:
         return config["frequencies"]["max_date"]
     else:
         # Allow users to censor the N most recent days to minimize effects of
