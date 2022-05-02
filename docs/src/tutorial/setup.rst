@@ -6,6 +6,13 @@ The following steps will prepare you to run complete analyses of SARS-CoV-2 data
 .. contents:: Table of Contents
    :local:
 
+Register for a GISAID account
+-----------------------------
+
+Some tutorials rely on data downloaded from `GISAID <https://gisaid.org/>`_.
+If you do not already have one, `register for a GISAID account <https://www.gisaid.org/registration/register/>`_ now.
+Registration may take a few days.
+
 Install Nextstrain components
 --------------------------------
 
