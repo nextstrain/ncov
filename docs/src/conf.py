@@ -102,11 +102,14 @@ html_static_path = ['_static']
 # or fully qualified paths (eg. https://...)
 html_css_files = [
     'css/custom.css',
-    'css/configuration-parameters.css'
+    'css/configuration-reference.css'
 ]
 
 # -- Cross-project references ------------------------------------------------
 
 intersphinx_mapping = {
     'docs.nextstrain.org': ('https://docs.nextstrain.org/en/latest/', None),
+    'augur': ('https://docs.nextstrain.org/projects/augur/en/stable', None),
+    'auspice': ('https://docs.nextstrain.org/projects/auspice/en/stable', None),
+    'snakemake': ('https://snakemake.readthedocs.io/en/stable', None),
 }

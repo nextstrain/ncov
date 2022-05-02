@@ -2,26 +2,70 @@
 A Getting Started Guide to the Genomic Epidemiology of SARS-CoV-2
 *****************************************************************
 
-This template and tutorial will walk you through the process of running a basic phylogenetic analysis on SARS-CoV-2 data.
-We've created these resources with the goal of enabling Departments of Public Health to start using Nextstrain to understand their SARS-CoV-2 genomic data within 1-2 hours.
+This is the documentation for the SARS-CoV-2 workflow maintained and actively used by the Nextstrain core team.
+
 In addition to the phylogenetic analysis described here, you can use our "drag-and-drop" tool for a clade assignment, mutations calling, and basic sequence quality checks at `clades.nextstrain.org <https://clades.nextstrain.org/>`_.
 
-If you prefer video format to working through this tutorial in the written documentation, check out the :doc:`video tutorial walkthrough <videos>`.
-
-We also recommend `this 1-hour video overview <https://youtu.be/m4_F2tG58Pc>`_ by Heather Blankenship on how to deploy Nextstrain for a Public Health lab.
-
-If something in this tutorial is broken or unclear, please `open an issue <https://github.com/nextstrain/ncov/issues/new/choose>`_ so we can improve it for everyone.
+If something in this documentation is broken or unclear, please `open an issue <https://github.com/nextstrain/ncov/issues/new/choose>`_ so we can improve it for everyone.
 
 If you have a specific question, post a note over at the `discussion board <https://discussion.nextstrain.org/>`_ -- we're happy to help!
 
 .. toctree::
-   :maxdepth: 2
-   :titlesonly:
-   :caption: Table of contents
+    :maxdepth: 1
+    :titlesonly:
+    :caption: Tutorials
+    :hidden:
 
-   analysis/index
-   visualization/index
-   guides/index
-   reference/index
-   videos
+    tutorial/intro
+    tutorial/setup
+    tutorial/example-data
+    tutorial/custom-data
+    tutorial/genomic-surveillance
+    tutorial/next-steps
+    tutorial/videos
+
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :caption: Visualization & Interpretation
+   :hidden:
+
+   visualization/sharing
+   visualization/interpretation
+   visualization/narratives
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :caption: Guides
+   :hidden:
+
+   guides/update-workflow
+   guides/workflow-config-file
+   guides/customizing-visualization
+   guides/data-prep/index
+   guides/run-analysis-on-terra
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Reference
+   :hidden:
+
+   reference/nextstrain-overview
+   reference/files
+   reference/workflow-config-file
+   reference/remote_inputs
+   reference/metadata-fields
+   reference/naming_clades
+   reference/data_submitter_faq
+   reference/troubleshoot
+   reference/change_log
+   reference/glossary
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
    Stuck? Ask us on the discussion board. We're happy to help! <https://discussion.nextstrain.org/>

@@ -1,5 +1,6 @@
-Hi! This is the default description. Edit me in `my_profiles/<build_name>/description.md`, and add this line to your `my_profiles/builds.yaml` file:  
-```
-files:  
-	description: my_profiles/<build_name>/description.md
+Hi! This is the default description, written in [Markdown](https://www.markdownguide.org/getting-started/). You can change this by creating another Markdown file and referencing it in the workflow config file:
+
+```yaml
+files:
+  description: path/to/description.md
 ```

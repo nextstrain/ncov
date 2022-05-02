@@ -1,1 +1,0 @@
-See documentation at docs/multiple_inputs.md

@@ -1,0 +1,61 @@
+# Authoritative list of redirects we have configured in RTD.  See the
+# docs.nextstrain.org repo's  README.md¹ for more information on maintaining
+# redirects.
+#
+# ¹ https://github.com/nextstrain/docs.nextstrain.org#configuring-redirects
+---
+- type: page
+  from_url: /analysis/
+  to_url: /tutorial/index.html
+
+- type: page
+  from_url: /analysis/index.html
+  to_url: /tutorial/index.html
+
+- type: page
+  from_url: /analysis/customizing-analysis.html
+  to_url: /guides/workflow-config-file.html
+
+- type: page
+  from_url: /analysis/customizing-visualization.html
+  to_url: /guides/customizing-visualization.html
+
+- type: page
+  from_url: /analysis/data-prep.html
+  to_url: /guides/data-prep/index.html
+
+- type: page
+  from_url: /analysis/orientation-files.html
+  to_url: /reference/files.html
+
+- type: page
+  from_url: /analysis/orientation-workflow.html
+  to_url: /reference/nextstrain-overview.html
+
+- type: page
+  from_url: /analysis/running.html
+  to_url: /reference/troubleshoot.html
+
+- type: page
+  from_url: /analysis/setup.html
+  to_url: /tutorial/setup.html
+
+- type: page
+  from_url: /videos.html
+  to_url: /tutorial/videos.html
+
+- type: page
+  from_url: /reference/configuration.html
+  to_url: /reference/workflow-config-file.html
+
+- type: page
+  from_url: /reference/multiple_inputs.html
+  to_url: /
+
+- type: page
+  from_url: /visualization/index.html
+  to_url: /visualization/sharing.html
+
+- type: page
+  from_url: /guides/index.html
+  to_url: /guides/run-analysis-on-terra.html
