@@ -52,13 +52,15 @@ We will download a focal set of Idaho sequences from GISAID's EpiCoV database.
 2. Filter to sequences that pass the following criteria:
 
    1. From Idaho, USA
-   2. Collected within the last month (between |last-month| and |today| at the time of writing)
+   2. Collected within the last month (e.g. |last-month| to |today|)
    3. Has a complete genome
    4. Has an exact collection date
 
-   .. image:: ../images/gisaid-select-sequences-idaho-highlighted.png
+   .. figure:: ../images/gisaid-select-sequences-idaho-highlighted.png
       :width: 700
       :alt: GISAID EpiCoV filter and select sequences
+
+      Example of GISAID filters using collection date between 2022-03-01 and 2022-04-01
 
    .. note::
 
