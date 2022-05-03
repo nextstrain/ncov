@@ -37,7 +37,7 @@ Setup
 Run the workflow
 ----------------
 
-From within the ``ncov/`` directory, run the workflow using a configuration file provided in the tutorial directory:
+From within the ``ncov/`` directory, run the workflow using a :term:`configuration file <config file>` provided in the tutorial directory:
 
 .. code:: text
 
