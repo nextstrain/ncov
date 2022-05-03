@@ -2,7 +2,23 @@
 """
 import datetime
 from itertools import product
+from shlex import (
+    quote as shquote,       # shquote() is used in this file and also other workflow files
+    split as shsplitwords,
+)
 from urllib.parse import urlsplit
+
+def shquotewords(s: str) -> str:
+    """
+    Split string *s* into (POSIX) shell words, quote each word, and join them
+    back into a string.
+
+    This is suitable for properly quoting multi-word, user-defined values which
+    should follow shell quoting and escaping semantics (e.g. to allow spaces in
+    single words) but not allow shell features like variable interpolation,
+    command substition, redirection, piping, etc.
+    """
+    return " ".join(shquote(word) for word in shsplitwords(s))
 
 def numeric_date(dt=None):
     """
@@ -74,15 +90,12 @@ def _get_filter_min_length_query(wildcards):
             # as recommended by pandas:
             #
             # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.query.html
-            #
-            # We escape the backticks with backslashes to prevent the bash shell
-            # from expanding the contents between the backticks as a subprocess.
-            query_parts.append(f"(\`{input_name}\` == 'yes' & _length >= {min_length})")
+            query_parts.append(f"(`{input_name}` == 'yes' & _length >= {min_length})")
         else:
             query_parts.append(f"(_length >= {min_length})")
 
     query = " | ".join(query_parts)
-    return f"--query \"{query}\""
+    return f"--query {shquote(query)}"
 
 def _get_filter_value(wildcards, key):
     for input_name in config["inputs"].keys():
