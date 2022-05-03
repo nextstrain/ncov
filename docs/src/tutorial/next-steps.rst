@@ -49,7 +49,8 @@ Then, use the following steps to customize names, titles, and context:
 3. Rename the output dataset from ``idaho`` to your own. Note the name restrictions.
 4. Reword the output dataset title to your own.
 5. Rename the subsampling scheme from ``idaho_scheme`` to your own. Note the name restrictions.
-6. Rename the ``usa_context`` sample and update the ``query`` accordingly.
+6. For each sample, increase the ``max_sequences`` to your own.
+7. Rename the ``usa_context`` sample and update the ``query`` accordingly.
 
 .. warning::
 

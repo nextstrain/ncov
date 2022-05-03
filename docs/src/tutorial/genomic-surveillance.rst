@@ -112,17 +112,17 @@ The workflow can take several minutes to run. While it is running, you can inves
      idaho_scheme:
        custom_sample:
          query: --query "(custom_data == 'yes')"
-         max_sequences: 5000
+         max_sequences: 50
        usa_context:
          query: --query "(custom_data != 'yes') & (country == 'USA')"
-         max_sequences: 1000
+         max_sequences: 10
          group_by: division year month
          priorities:
            type: proximity
            focus: custom_sample
        global_context:
          query: --query "(custom_data != 'yes')"
-         max_sequences: 1000
+         max_sequences: 10
          priorities:
            type: proximity
            focus: custom_sample
@@ -150,16 +150,16 @@ This is a new section that provides a subsampling scheme ``idaho_scheme`` consis
 
 1. ``custom_sample``
 
-   - This selects at most 5000 sequences from the ``custom_data`` input.
+   - This selects at most 50 sequences from the ``custom_data`` input.
 
 2. ``usa_context``
 
-   - This selects at most 1000 sequences from the USA from the ``background_data`` and ``reference_data`` inputs.
+   - This selects at most 10 sequences from the USA from the ``background_data`` and ``reference_data`` inputs.
    - Sequences are subsampled evenly across all combinations of ``division``, ``year``, ``month``, with sequences genetically similar to ``custom_sample`` prioritized over other sequences.
 
 3. ``global_context``
 
-   - This selects at most 1000 sequences outside the USA from the ``background_data`` and ``reference_data`` inputs.
+   - This selects at most 10 sequences outside the USA from the ``background_data`` and ``reference_data`` inputs.
    - As with the ``usa_context`` above, this rule prioritizes sequences for the global context that are genetically similar to sequences in the ``custom_sample``.
 
 Visualize the results
