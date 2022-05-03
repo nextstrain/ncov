@@ -16,8 +16,10 @@ sys.path.insert(0, os.path.abspath('..'))
 
 
 # -- Project information -----------------------------------------------------
-
-from datetime import date
+from datetime import date, timedelta
+from docutils import nodes
+from docutils.parsers import rst
+from docutils.parsers.rst import directives
 import subprocess
 
 def git_authors():
@@ -113,3 +115,40 @@ intersphinx_mapping = {
     'auspice': ('https://docs.nextstrain.org/projects/auspice/en/stable', None),
     'snakemake': ('https://snakemake.readthedocs.io/en/stable', None),
 }
+
+# Custom directives.
+class TimeDeltaDirective(rst.Directive):
+    """Minimal directive to call datetime.timedelta with the given optional
+    arguments and return today's date plus the calculated delta. If no arguments
+    are provided, returns today's date. All dates are formatted in ISO-8601
+    standard of %Y-%m-%d.
+
+    """
+    required_arguments = 0
+    optional_arguments = 7
+
+    option_spec = {
+        "days": directives.unchanged,
+        "seconds": directives.unchanged,
+        "microseconds": directives.unchanged,
+        "milliseconds": directives.unchanged,
+        "minutes": directives.unchanged,
+        "hours": directives.unchanged,
+        "weeks": directives.unchanged,
+    }
+
+    def run(self):
+        kwargs = {}
+        for option in self.option_spec.keys():
+            if option in self.options:
+                kwargs[option] = int(self.options[option])
+
+        date_object = date.today()
+        if kwargs:
+            date_object = date_object + timedelta(**kwargs)
+
+        date_text = date_object.strftime("%Y-%m-%d")
+
+        return [nodes.Text(date_text)]
+
+directives.register_directive("timedelta", TimeDeltaDirective)
