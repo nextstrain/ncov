@@ -12,7 +12,7 @@ Prerequisites
 -------------
 
 1. :doc:`example-data`. This tutorial sets up the command line environment used in the following tutorial.
-2. `Register for a GISAID account <https://www.gisaid.org/registration/register/>`_, if you do not have one yet. However, registration may take a few days. Follow :doc:`alternative data preparation methods <../guides/data-prep/index>` in place of :ref:`curate-data-from-gisaid`, if you wish to continue the following tutorial in the meantime.
+2. `Register for a GISAID account <https://www.gisaid.org/registration/register/>`_, if you do not have one yet. However, registration may take a few days. Follow :doc:`alternative data preparation methods <../guides/data-prep/index>` in place of :ref:`custom-data-curate-data-from-gisaid`, if you wish to continue the following tutorial in the meantime.
 
 Setup
 -----
@@ -29,7 +29,7 @@ and activate the ``nextstrain`` conda environment:
 
       conda activate nextstrain
 
-.. _curate-data-from-gisaid:
+.. _custom-data-curate-data-from-gisaid:
 
 Curate data from GISAID
 -----------------------
