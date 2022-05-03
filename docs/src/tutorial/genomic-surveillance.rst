@@ -32,7 +32,6 @@ and activate the ``nextstrain`` conda environment:
 
       conda activate nextstrain
 
-.. |today| date::
 .. _genomic-surveillance-curate-data-from-gisaid:
 
 Curate data from GISAID
@@ -48,6 +47,8 @@ We will download a focal set of Idaho sequences from GISAID's EpiCoV database.
 
 .. |last-month| timedelta::
    :weeks: -4
+
+.. |today| date::
 
 2. Filter to sequences that pass the following criteria:
 
