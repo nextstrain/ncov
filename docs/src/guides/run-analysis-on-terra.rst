@@ -52,17 +52,17 @@ III. Connect your data files to the wdl workflow
 #. Click on **SELECT DATA** to select all rows
 #. Most of the values will be blank but fill in the values below: 
 
-  +-----------------+-----------------+-------+----------------------+
-  |Task name        | Variable        | Type  |   Attribute          |
-  +=================+=================+=======+======================+
-  |Nextstrain_WRKFLW|  build_name     | String| this.ncov_example.id |
-  +-----------------+-----------------+-------+----------------------+
-  |Nextstrain_WRKFLW|  configfile_yaml     | File  | this.configfile_yaml      |
-  +-----------------+-----------------+-------+----------------------+
-  |Nextstrain_WRKFLW|  metadata_tsv   | File  | this.metadata        |
-  +-----------------+-----------------+-------+----------------------+
-  |Nextstrain_WRKFLW|  sequence_fasta | File  | this.sequences       |
-  +-----------------+-----------------+-------+----------------------+
+  +-----------------+------------------+-------+----------------------+
+  |Task name        | Variable         | Type  |   Attribute          |
+  +=================+==================+=======+======================+
+  |Nextstrain_WRKFLW|  build_name      | String| this.ncov_example.id |
+  +-----------------+------------------+-------+----------------------+
+  |Nextstrain_WRKFLW|  configfile_yaml | File  | this.configfile_yaml |
+  +-----------------+------------------+-------+----------------------+
+  |Nextstrain_WRKFLW|  metadata_tsv    | File  | this.metadata        |
+  +-----------------+------------------+-------+----------------------+
+  |Nextstrain_WRKFLW|  sequence_fasta  | File  | this.sequences       |
+  +-----------------+------------------+-------+----------------------+
 
 10. Click on the **OUTPUTS** tab
 11. Connect your generated output back to the data table, but filling in values:
