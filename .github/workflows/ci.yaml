@@ -19,3 +19,9 @@ jobs:
           python-version: "3.9"
       - run: pip install cram nextstrain-augur
       - run: cram --shell=/bin/bash tests/sanitize-metadata.t
+
+  docs:
+    uses: nextstrain/.github/.github/workflows/docs-ci.yaml@master
+    with:
+      docs-directory: docs/
+      environment-file: docs/conda.yml
