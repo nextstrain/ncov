@@ -47,8 +47,8 @@ Then, use the following steps to customize names, titles, and context:
 1. Change the ``custom_data`` input filenames from ``idaho.metadata.tsv`` and ``idaho.sequences.fasta`` to your own.
 2. Change the regional input dataset from North America to an appropriate region for your custom focal data. :doc:`See the complete list of available URLs <../reference/remote_inputs>`.
 3. Rename the output dataset from ``idaho`` to your own. Note the name restrictions.
-4. Rename the subsampling scheme from ``idaho_scheme`` to your own. Note the name restrictions.
-5. Reword the output dataset title to your own.
+4. Reword the output dataset title to your own.
+5. Rename the subsampling scheme from ``idaho_scheme`` to your own. Note the name restrictions.
 6. Rename the ``usa_context`` sample and update the ``query`` accordingly.
 
 .. warning::
