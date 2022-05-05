@@ -42,9 +42,9 @@ If you have a specific question, `post a note on the discussion board <https://d
    :hidden:
 
    guides/update-workflow
+   guides/data-prep/index
    guides/workflow-config-file
    guides/customizing-visualization
-   guides/data-prep/index
    guides/run-analysis-on-terra
 
 .. toctree::
