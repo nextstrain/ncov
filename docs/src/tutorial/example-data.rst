@@ -1,9 +1,9 @@
 Run using example data
 ======================
 
-The aim of this first tutorial is to introduce our SARS-CoV-2 workflow.
-To do this, we will run the workflow using a small set of reference data which we provide.
-This tutorial leads on to subsequent tutorials where we will walk through more complex scenarios.
+This first tutorial introduces our SARS-CoV-2 workflow.
+You will run the workflow using a small set of reference data that we provide.
+Subsequent tutorials present more complex scenarios that build on this approach.
 
 .. contents:: Table of Contents
    :local:
@@ -28,7 +28,7 @@ Setup
 
       cd ncov
 
-3. Download the example tutorial repository into a new directory ``ncov/ncov-tutorial/``:
+3. Download the example tutorial repository into a new subdirectory of ``ncov/`` called ``ncov-tutorial/``:
 
    .. code:: text
 
@@ -37,7 +37,7 @@ Setup
 Run the workflow
 ----------------
 
-From within the ``ncov/`` directory, run the ``ncov`` workflow using a configuration file provided in the tutorial directory:
+From within the ``ncov/`` directory, run the workflow using a :term:`configuration file <config file>` provided in the tutorial directory:
 
 .. code:: text
 
@@ -54,7 +54,7 @@ The workflow can take several minutes to run. While it is running, you can learn
    - This required Snakemake parameter specifies the number of CPU cores to use (:doc:`more info <snakemake:executing/cli>`).
 - ``--configfile ncov-tutorial/example-data.yaml``
    - ``--configfile`` is another Snakemake parameter used to configure the ncov workflow.
-   - ``ncov-tutorial/example-data.yaml`` is a YAML file which provides custom workflow configuration including inputs and outputs. Contents with comments excluded:
+   - ``ncov-tutorial/example-data.yaml`` is a configuration file that provides custom workflow configuration including inputs and outputs. The contents of this file with comments excluded are:
 
       .. code-block:: yaml
 
@@ -66,11 +66,11 @@ The workflow can take several minutes to run. While it is running, you can learn
          refine:
            root: "Wuhan-Hu-1/2019"
 
-      This provides the workflow with one input named ``reference_data``, which is a small dataset maintained by the Nextstrain team. The metadata and sequences files are downloaded directly from the associated URLs. :doc:`See the complete list of SARS-CoV-2 datasets we provide through data.nextstrain.org <../reference/remote_inputs>`.
+      The ``inputs`` entry provides the workflow with one input named ``reference_data``. The metadata and sequence files refer to a sample of approximately 300 sequences maintained by the Nextstrain team that represent all Nextstrain clades annotated for SARS-CoV-2. The workflow downloads these files directly from the associated URLs. :doc:`See the complete list of SARS-CoV-2 datasets we provide through data.nextstrain.org <../reference/remote_inputs>`.
 
       The ``refine`` entry specifies the root sequence for the example GenBank data.
 
-      For more information, see :doc:`../reference/workflow-config-file`.
+      For more information, :doc:`see the workflow configuration file reference <../reference/workflow-config-file>`.
 
 The workflow output produces a new directory ``auspice/`` containing a file ``ncov_default-build.json``, which will be visualized in the following section. The workflow also produces intermediate files in a new ``results/`` directory.
 

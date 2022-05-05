@@ -1,14 +1,11 @@
-***************
-Data Prep Guide
-***************
-
-Preparing your data
-===================
+**********************
+Data preparation guide
+**********************
 
 To use Nextstrain to analyze your own data, you'll need to prepare two files:
 
-1. A ``fasta`` file with viral genomic sequences
-2. A corresponding ``tsv`` file with metadata describing each sequence
+1. A FASTA file with viral genomic sequences
+2. A corresponding TSV file with metadata describing each sequence
 
 We describe the following ways to prepare data for a SARS-CoV-2 analysis:
 
@@ -19,4 +16,3 @@ We describe the following ways to prepare data for a SARS-CoV-2 analysis:
    local-data
    gisaid-search
    gisaid-full
-

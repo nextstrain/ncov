@@ -1,7 +1,12 @@
 Run using a genomic surveillance configuration
 ==============================================
 
-In the previous tutorial we showed how to analyze a small set of GISAID ("custom") data in the context of a small set of reference data. For genomic surveillance applications, we often have a set of data specific to our question of interest, for instance a set of sequences from a particular geographic area, which is referred to as the focal set. We want to analyze this focal set in a global context, and since there are millions of global sequences we want to subset these based on genomic proximity to our focal set.
+:doc:`In the previous tutorial <./custom-data>`, you learned how to analyze a small set of GISAID ("custom") data in the context of a small set of reference data.
+For genomic surveillance applications, you will often **focus** your analysis on a set of data specific to your question of interest.
+For example, an analysis of SARS-CoV-2 circulation in a specific geographic area requires a focal set of sequences and metadata from that area.
+
+In this tutorial, you will learn to define and analyze a focal set of data from a geographic division in the United States using a global genetic context.
+You will also learn how to define a genetic context that prioritizes sequences that are genetically similar to your focal set.
 
 .. contents:: Table of Contents
    :local:
@@ -10,7 +15,7 @@ Prerequisites
 -------------
 
 1. :doc:`custom-data`. This tutorial introduces concepts expanded by the following tutorial.
-2. You have a GISAID account. `Register <https://www.gisaid.org/registration/register/>`__ if you do not have an account yet. However, registration may take a few days. Follow :doc:`alternative data preparation methods <../guides/data-prep/index>` in place of **Curate data from GISAID** if you wish to continue the following tutorial in the meantime.
+2. `Register for a GISAID account <https://www.gisaid.org/registration/register/>`_, if you do not have one yet. However, registration may take a few days. Follow :doc:`alternative data preparation methods <../guides/data-prep/index>` in place of :ref:`genomic-surveillance-curate-data-from-gisaid`, if you wish to continue the following tutorial in the meantime.
 
 Setup
 -----
@@ -27,6 +32,8 @@ and activate the ``nextstrain`` conda environment:
 
       conda activate nextstrain
 
+.. _genomic-surveillance-curate-data-from-gisaid:
+
 Curate data from GISAID
 -----------------------
 
@@ -38,16 +45,23 @@ We will download a focal set of Idaho sequences from GISAID's EpiCoV database.
       :width: 400
       :alt: GISAID EpiCoV Search
 
+.. |last-month| timedelta::
+   :weeks: -4
+
+.. |today| date::
+
 2. Filter to sequences that pass the following criteria:
 
    1. From Idaho, USA
-   2. Collected within the last month (between ``2022-03-01`` and ``2022-04-01`` at the time of writing)
+   2. Collected within the last month (e.g. |last-month| to |today|)
    3. Has a complete genome
    4. Has an exact collection date
 
-   .. image:: ../images/gisaid-select-sequences-idaho-highlighted.png
+   .. figure:: ../images/gisaid-select-sequences-idaho-highlighted.png
       :width: 700
       :alt: GISAID EpiCoV filter and select sequences
+
+      Example of GISAID filters using collection date between 2022-03-01 and 2022-04-01
 
    .. note::
 
@@ -101,22 +115,22 @@ The workflow can take several minutes to run. While it is running, you can inves
      idaho_scheme:
        custom_sample:
          query: --query "(custom_data == 'yes')"
-         max_sequences: 5000
+         max_sequences: 50
        usa_context:
          query: --query "(custom_data != 'yes') & (country == 'USA')"
-         max_sequences: 1000
+         max_sequences: 10
          group_by: division year month
          priorities:
            type: proximity
            focus: custom_sample
        global_context:
          query: --query "(custom_data != 'yes')"
-         max_sequences: 1000
+         max_sequences: 10
          priorities:
            type: proximity
            focus: custom_sample
 
-This is similar to the previous file. Differences are outlined below, broken down per configuration section.
+This configuration file is similar to the previous file. Differences are outlined below, broken down per configuration section.
 
 inputs
 ******
@@ -139,16 +153,17 @@ This is a new section that provides a subsampling scheme ``idaho_scheme`` consis
 
 1. ``custom_sample``
 
-   - This selects sequences from the ``custom_data`` input, up to a maximum of 5000 sequences.
+   - This selects at most 50 sequences from the ``custom_data`` input.
 
 2. ``usa_context``
 
-   - This selects sequences from the ``background_data`` input, up to a maximum of 1000 sequences.
+   - This selects at most 10 sequences from the USA from the ``background_data`` and ``reference_data`` inputs.
    - Sequences are subsampled evenly across all combinations of ``division``, ``year``, ``month``, with sequences genetically similar to ``custom_sample`` prioritized over other sequences.
 
 3. ``global_context``
 
-   - This selects sequences from the ``reference_data`` input.
+   - This selects at most 10 sequences outside the USA from the ``background_data`` and ``reference_data`` inputs.
+   - As with the ``usa_context`` above, this rule prioritizes sequences for the global context that are genetically similar to sequences in the ``custom_sample``.
 
 Visualize the results
 ---------------------

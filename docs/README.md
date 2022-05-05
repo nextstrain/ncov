@@ -7,11 +7,11 @@ Build dependencies are managed with [Conda](https://conda.io).
 Install them
 into an isolated environment named `ncov-docs` with:
 
-    conda env create
+    mamba env create -f=conda.yml
 
 Enter the environment with:
 
-    conda activate ncov-docs
+    mamba activate ncov-docs
 
 You can now build the documentation with:
 

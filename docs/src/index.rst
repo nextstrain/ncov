@@ -4,11 +4,11 @@ A Getting Started Guide to the Genomic Epidemiology of SARS-CoV-2
 
 This is the documentation for the SARS-CoV-2 workflow maintained and actively used by the Nextstrain core team.
 
-In addition to the phylogenetic analysis described here, you can use our "drag-and-drop" tool for a clade assignment, mutations calling, and basic sequence quality checks at `clades.nextstrain.org <https://clades.nextstrain.org/>`_.
+In addition to the phylogenetic analysis described here, you can use `Nextclade <https://clades.nextstrain.org>`_ our "drag-and-drop" tool for clade assignment, mutation calling, and sequence quality control at `clades.nextstrain.org <https://clades.nextstrain.org/>`_.
 
-If something in this documentation is broken or unclear, please `open an issue <https://github.com/nextstrain/ncov/issues/new/choose>`_ so we can improve it for everyone.
+If something in this documentation is broken or unclear, `open an issue <https://github.com/nextstrain/ncov/issues/new/choose>`_ so we can improve it for everyone.
 
-If you have a specific question, post a note over at the `discussion board <https://discussion.nextstrain.org/>`_ -- we're happy to help!
+If you have a specific question, `post a note on the discussion board <https://discussion.nextstrain.org/>`_ -- we're happy to help!
 
 .. toctree::
     :maxdepth: 1
@@ -42,9 +42,9 @@ If you have a specific question, post a note over at the `discussion board <http
    :hidden:
 
    guides/update-workflow
+   guides/data-prep/index
    guides/workflow-config-file
    guides/customizing-visualization
-   guides/data-prep/index
    guides/run-analysis-on-terra
 
 .. toctree::
