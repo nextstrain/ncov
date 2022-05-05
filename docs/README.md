@@ -7,7 +7,7 @@ Build dependencies are managed with [Conda](https://conda.io).
 Install them
 into an isolated environment named `ncov-docs` with:
 
-    mamba env create
+    mamba env create -f=conda.yml
 
 Enter the environment with:
 
