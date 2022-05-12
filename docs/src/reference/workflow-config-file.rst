@@ -121,10 +121,6 @@ builds
        division: Washington
        subsampling_scheme: all
 
--  required:
-
-   -  ``region`` (required to adjust regional metadata)
-
 
 Valid attributes for entries in ``builds``:
 
@@ -162,6 +158,12 @@ region
 
 -  type: string
 -  description: Name of the region the corresponding build belongs to (based on standard values in the ``region`` metadata field).
+
+.. warning::
+
+   The presence of a ``region`` key will result in the metadata being adjusted in potentially surprising ways.
+   For all metadata rows which are not in this region the 'location' will be removed (set to an empty string), and the 'division' and 'country' will be changed to their corresponding region.
+   Additionally, a 'focal' column will be added, with True/False values depending on if the row matches the provided region.
 
 subclades
 ~~~~~~~~~
