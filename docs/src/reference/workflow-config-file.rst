@@ -111,16 +111,23 @@ builds
 .. code:: yaml
 
    builds:
-     global:
-       region: global
-       subsampling_scheme: global
 
+     # the following build (dataset) will include all samples provided in the inputs
+     everything:
+      subsampling_scheme: all
+
+     # this will use a predefined subsampling scheme (see subsampling section for details)
      washington:
        region: North America
        country: USA
        division: Washington
-       subsampling_scheme: all
+       subsampling_scheme: country
 
+     # this will use a custom subsampling scheme that you provide
+     # which will have access to the provided `my_param` 
+     washington:
+       subsampling_scheme: my_scheme
+       my_param: some value
 
 Valid attributes for entries in ``builds``:
 
@@ -162,8 +169,8 @@ region
 .. warning::
 
    The presence of a ``region`` key will result in the metadata being adjusted in potentially surprising ways.
-   For all metadata rows which are not in this region the 'location' will be removed (set to an empty string), and the 'division' and 'country' will be changed to their corresponding region.
-   Additionally, a 'focal' column will be added, with True/False values depending on if the row matches the provided region.
+   For all metadata rows that are not in this region, ``location`` will be removed (set to an empty string), and ``division`` and ``country`` will be changed to their corresponding region.
+   Additionally, a ``focal`` column will be added, with True/False values depending on if the row matches the provided region.
 
 subclades
 ~~~~~~~~~
@@ -176,6 +183,7 @@ subsampling_scheme
 
 -  type: string
 -  description: Name of the subsampling scheme defined in ``subsampling`` to use for the current build.
+-  default: ``"all"``. In practice, this means that no subsampling will be performed.
 
 title
 ~~~~~
