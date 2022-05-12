@@ -827,6 +827,10 @@ tree
 
 -  type: object
 -  description: Parameters for phylogenetic inference by ``augur tree``. The tree “method” is hardcoded to ``iqtree``.
+-  Valid attributes:
+
+.. contents::
+   :local:
 
 tree-builder-args
 ~~~~~~~~~~~~~~~~~
