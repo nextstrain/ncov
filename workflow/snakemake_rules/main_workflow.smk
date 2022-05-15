@@ -866,6 +866,7 @@ rule refine:
             --clock-std-dev {params.clock_std_dev} \
             --coalescent {params.coalescent} \
             --date-inference {params.date_inference} \
+            --use-fft \
             --divergence-unit {params.divergence_unit} \
             --date-confidence \
             --no-covariance \
