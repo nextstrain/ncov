@@ -145,7 +145,7 @@ rule auspice_config:
         default_geo_resolution = "country" if build_name in ["reference", "global", "africa", "south-america", "asia", "europe"] else "division"
         default_map_triplicate = True if build_name in ["reference", "global"] else False
         if input_set == {"gisaid"}:
-            data_provenance = [{"name": "GISIAD"}]
+            data_provenance = [{"name": "GISAID"}]
             gisaid_clade_coloring = {"key": "GISAID_clade", "title": "GISAID Clade", "type": "categorical"}
             gisaid_epi_isl_coloring = {"key": "gisaid_epi_isl", "type": "categorical"}
             location_coloring = {"key": "location", "title": "Location", "type": "categorical"}
