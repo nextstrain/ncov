@@ -306,12 +306,7 @@ min_date
 ~~~~~~~~
 
 -  type: string
--  description: Argument to ``augur filter`` to set the minimum collection date for strains to include in the subsampling set. Dates can be:
-
-   1. an Augur-style numeric date with the year as the integer part (e.g. 2020.42) or
-   2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
-   3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
-
+-  description: Argument to ``augur filter`` to set the minimum collection date for strains to include in the subsampling set. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
 -  examples:
 
    -  ``--min-date 2019-10-01``
@@ -323,12 +318,7 @@ max_date
 ~~~~~~~~
 
 -  type: string
--  description: Argument to ``augur filter`` to set the maximum collection date for strains to include in the subsampling set. Dates can be:
-
-   1. an Augur-style numeric date with the year as the integer part (e.g. 2020.42) or
-   2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
-   3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
-
+-  description: Argument to ``augur filter`` to set the maximum collection date for strains to include in the subsampling set. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
 -  examples:
 
    -  ``--max-date 2021-04-01``
@@ -805,12 +795,7 @@ min_date
 ~~~~~~~~
 
 -  type: float or string
--  description: Minimum collection date for strains to include in the analysis used by ``augur filter --min-date``. Dates can be:
-
-   1. an Augur-style numeric date with the year as the integer part (e.g. 2020.42) or
-   2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
-   3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
-
+-  description: Minimum collection date for strains to include in the analysis used by ``augur filter --min-date``. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
 -  default: ``2019.74``
 
 skip_diagnostics
@@ -986,24 +971,14 @@ min_date
 ~~~~~~~~
 
 -  type: float or string
--  description: Earliest date to estimate frequencies for. Dates can be:
-
-   1. an Augur-style numeric date with the year as the integer part (e.g. 2020.42) or
-   2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
-   3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
-
+-  description: Earliest date to estimate frequencies for. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
 -  default: without value supplied, defaults to 1 year before present
 
 max_date
 ~~~~~~~~
 
 -  type: float or string
--  description: Earliest date to estimate frequencies for. Specifying ``max_date`` overrides ``recent_days_to_censor``. Dates can be:
-
-   1. an Augur-style numeric date with the year as the integer part (e.g. 2020.42) or
-   2. a date in ISO 8601 date format (i.e. YYYY-MM-DD) (e.g. '2020-06-04') or
-   3. a backwards-looking relative date in ISO 8601 duration format with optional P prefix (e.g. '1W', 'P1W')
-
+-  description: Earliest date to estimate frequencies for. Specifying ``max_date`` overrides ``recent_days_to_censor``. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
 -  default: without value supplied, defaults to today's date minus ``recent_days_to_censor`` parameter
 
 recent_days_to_censor
