@@ -8,6 +8,7 @@ workflow Nextstrain_WRKFLW {
     # Option 1: Pass in a sequence and metadata files, create a configfile_yaml
     File? sequence_fasta
     File? metadata_tsv
+    File? context_targz #<= optional contextual seqs in a tar.gz file
     String? build_name
 
     # Option 2: Use a custom config file (e.g. builds.yaml) with https or s3 sequence or metadata files
@@ -36,6 +37,7 @@ workflow Nextstrain_WRKFLW {
       # Option 1
       sequence_fasta = sequence_fasta,
       metadata_tsv = metadata_tsv,
+      context_targz = context_targz,
       build_name = build_name,
 
       # Option 2
