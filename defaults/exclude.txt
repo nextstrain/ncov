@@ -11061,3 +11061,17 @@ USA/UT-08768/2020   # Strain has same BioSample accession (SAMN15901842) as USA/
 # too many mutations relative to date
 MLI/M00960/2020
 Mongolia/UB-109429/2020
+
+USA/MA-MGB-04620/2022	# Strain has same BioSample accession (SAMN27380803) as USA/MA-MGB-04481/2021
+USA/MA-MGB-04621/2021	# Strain has same BioSample accession (SAMN27380803) as USA/MA-MGB-04481/2021
+USA/MA-MGB-04622/2022	# Strain has same BioSample accession (SAMN27380803) as USA/MA-MGB-04481/2021
+USA/MA-MGB-04623/2022	# Strain has same BioSample accession (SAMN27380803) as USA/MA-MGB-04481/2021
+USA/MA-MGB-04624/2022	# Strain has same BioSample accession (SAMN27380803) as USA/MA-MGB-04481/2021
+USA/MA-MGB-04629/2022	# Strain has same BioSample accession (SAMN27380803) as USA/MA-MGB-04481/2021
+USA/MA-MGB-04630/2022	# Strain has same BioSample accession (SAMN27380803) as USA/MA-MGB-04481/2021
+USA/MA-MGB-04631/2022	# Strain has same BioSample accession (SAMN27380803) as USA/MA-MGB-04481/2021
+USA/MA-MGB-04632/2022	# Strain has same BioSample accession (SAMN27380803) as USA/MA-MGB-04481/2021
+USA/MA-MGB-04633/2022	# Strain has same BioSample accession (SAMN27380803) as USA/MA-MGB-04481/2021
+Switzerland/AG-ETHZ-37212980/2022	# Strain has same BioSample accession (SAMEA14384752) as Switzerland/AG-ETHZ-37191344/2022
+Switzerland/VD-ETHZ-37183848/2022	# Strain has same BioSample accession (SAMEA14384854) as Switzerland/BS-ETHZ-37200739/2022
+Switzerland/VD-ETHZ-37195675/2022	# Strain has same BioSample accession (SAMEA14384844) as Switzerland/BE-ETHZ-37244299/2022

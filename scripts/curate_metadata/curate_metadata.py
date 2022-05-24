@@ -389,6 +389,7 @@ def check_duplicates(data, abbreviations_file):
                     elif len(location.split(" ")[-1]) > 1 and location.upper().split(" ")[-1] == location.split(" ")[-1] or "(" in location:
                         # If parentheses or caps found at the end of the location, consider potential invalid duplicate specifier
                         if not location.split(" ")[-1].isnumeric():
+                            #print(f"{'/'.join([region, country, division, location])}\t{'/'.join([region, country, division, location.split(' ')[0]])}")
                             print("Potential duplicate inconsistent with current rules: " + location)
 
                     if location not in location_origin:
