@@ -18,6 +18,7 @@ if __name__ == '__main__':
     index = pd.read_csv(
         args.sequence_index,
         sep="\t",
+        dtype={"strain": "string"}
     ).drop(
         columns=["length"],
     )
