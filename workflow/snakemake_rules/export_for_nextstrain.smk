@@ -22,6 +22,7 @@
 import re
 import requests
 import json
+from math import ceil
 from workflow.lib.persistent_dict import PersistentDict, NoSuchEntryError
 
 ruleorder: dated_json > finalize
@@ -80,7 +81,7 @@ rule export_all_regions:
         # Memory use scales primarily with the size of the metadata file.
         # Compared to other rules, this rule loads metadata as a pandas
         # DataFrame instead of a dictionary, so it uses much less memory.
-        mem_mb=lambda wildcards, input: 5 * int(input.metadata.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: ceil(5 * (input.metadata.size / 1024 / 1024))
     conda: config["conda_environment"]
     shell:
         """
