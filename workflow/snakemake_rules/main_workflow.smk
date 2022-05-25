@@ -811,7 +811,7 @@ rule tree:
         """
         augur tree \
             --alignment {input.alignment} \
-            --tree-builder-args {params.args} \
+            --tree-builder-args {params.args}' --mem {resources.mem_mb}M' \
             {params.exclude_sites} \
             --output {output.tree} \
             --nthreads {threads} 2>&1 | tee {log}
