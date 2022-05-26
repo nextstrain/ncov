@@ -16,3 +16,8 @@ We describe the following ways to prepare data for a SARS-CoV-2 analysis:
    local-data
    gisaid-search
    gisaid-full
+
+Alternatively, use pre-curated data files:
+
+1. :ref:`Nextstrain remote inputs <remote-inputs-open-files>`
+2. `CDC: US State and Territory subsample datasets and example builds <https://github.com/CDCgov/usa-sars-cov-2-nextstrain-sets>`__
