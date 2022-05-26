@@ -49,6 +49,8 @@ Our GISAID and GenBank (open) profiles each define 7 builds (a Global build and 
 
 --------------
 
+.. _remote-inputs-open-files:
+
 Summary of available GenBank (open) files
 -----------------------------------------
 
