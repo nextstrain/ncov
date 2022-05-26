@@ -184,6 +184,9 @@ def _get_specific_subsampling_setting(setting, optional=False):
         if isinstance(value, str):
             # Load build attributes including geographic details about the
             # build's region, country, division, etc. as needed for subsampling.
+            if wildcards.build_name not in config["builds"]:
+                raise Exception(f"The requested build name {wildcards.build_name!r} does not exist in the given configuration file. This error occurred while looking up the subsampling setting {setting!r}. This missing build might indicate a typo in the build name.")
+
             build = config["builds"][wildcards.build_name]
             value = value.format(**build)
             if value !="":
