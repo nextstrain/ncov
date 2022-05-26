@@ -4,6 +4,7 @@ task nextstrain_build {
   input {
     File? sequence_fasta
     File? metadata_tsv
+    File? context_targz  #<= optional contextual sequence
     String build_name = "example"
 
     File? configfile_yaml # e.g. builds.yaml
@@ -25,10 +26,10 @@ task nextstrain_build {
     # Pull ncov, zika or similar pathogen repo
     wget -O master.zip ~{pathogen_giturl}
     INDIR=`unzip -Z1 master.zip | head -n1 | sed 's:/::g'`
-    unzip master.zip  
+    unzip master.zip
 
+    # If a config file (builds.yaml) file is not provided, generate one
     export CONFIGFILE_FLAG=""
-    
     if [ -n "~{sequence_fasta}" ]
     then
       if [ -z "~{metadata_tsv}" ]; then
@@ -60,6 +61,13 @@ task nextstrain_build {
 
     echo "CONFIGFILE_FLAG: " ${CONFIGFILE_FLAG}
 
+    # If a tar gz of contextual sequences are provided such as GISAID Regional datasets, move it to the ncov folder
+    if [ -n "~{context_targz}" ]
+    then
+      cp ~{context_targz} $INDIR/.
+    fi
+
+    # If a custom zipped folder of configs are provided, move it to ncov
     if [ -n "~{custom_zip}" ]
     then
       # Link custom profile (zipped version)
