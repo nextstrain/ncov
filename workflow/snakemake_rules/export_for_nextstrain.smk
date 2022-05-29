@@ -140,10 +140,16 @@ rule auspice_config:
         input_set = set(config['inputs'])
         build_name = wildcards.build_name
 
+        if "_" in build_name:
+            build_region, build_timespan = build_name.split("_")
+        else:
+            build_region = build_name
+            build_timespan = ""
+
         ## What are the parameters which vary across builds?
         ## Note: set a value to `None` to exclude it from the produced config JSON
-        default_geo_resolution = "country" if build_name in ["reference", "global", "africa", "south-america", "asia", "europe"] else "division"
-        default_map_triplicate = True if build_name in ["reference", "global"] else False
+        default_geo_resolution = "division" if build_region in ["north-america", "oceania"] else "country"
+        default_map_triplicate = True if build_region in ["reference", "global"] else False
         if input_set == {"gisaid"}:
             data_provenance = [{"name": "GISAID"}]
             gisaid_clade_coloring = {"key": "GISAID_clade", "title": "GISAID Clade", "type": "categorical"}
