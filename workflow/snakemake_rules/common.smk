@@ -227,7 +227,7 @@ def _get_upload_inputs(wildcards):
     # for the nextstrain.org/ncov/gisaid and …/open builds and then
     # special-cases them below.
     regions = {"global", "africa", "asia", "europe", "north-america", "oceania", "south-america"}
-    timespans = {"6m", "all-time"}
+    timespans = {"2m", "6m", "all-time"}
     region_timespan_builds = [f"{region}_{timespan}" for region, timespan in product(regions, timespans)]
 
     # mapping of remote → local filenames

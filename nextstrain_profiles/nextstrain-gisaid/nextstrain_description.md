@@ -4,22 +4,15 @@ This phylogeny shows evolutionary relationships of SARS-CoV-2 viruses from the o
 
 There are millions of complete SARS-CoV-2 genomes available and this number increases every day. This visualization can only handle ~4000 genomes in a single view for performance and legibility reasons. Because of this we subsample available genome data for our analysis views. We provision multiple views to focus subsampling on different geographic regions and different time periods. These views are available through the "Dataset" dropdown on the left or by clicking on the following links:
 
-region        | time period   | URL
-------------- | ------------- | ---
-global        | past 6 months | [/ncov/gisaid/global/6m](/ncov/gisaid/global/6m)
-Africa        | past 6 months | [/ncov/gisaid/africa/6m](/ncov/gisaid/africa/6m?f_region=Africa)
-Asia          | past 6 months | [/ncov/gisaid/asia/6m](/ncov/gisaid/asia/6m?f_region=Asia)
-Europe        | past 6 months | [/ncov/gisaid/europe/6m](/ncov/gisaid/europe/6m?f_region=Europe)
-North America | past 6 months | [/ncov/gisaid/north-america/6m](/ncov/gisaid/north-america/6m?f_region=North%20America)
-Oceania       | past 6 months | [/ncov/gisaid/oceania/6m](/ncov/gisaid/oceania/6m?f_region=Oceania)
-South America | past 6 months | [/ncov/gisaid/south-america/6m](/ncov/gisaid/south-america/6m?f_region=South%20America)
-global        | all time      | [/ncov/gisaid/global/all-time](/ncov/gisaid/global/all-time)
-Africa        | all time      | [/ncov/gisaid/africa/all-time](/ncov/gisaid/africa/all-time?f_region=Africa)
-Asia          | all time      | [/ncov/gisaid/asia/all-time](/ncov/gisaid/asia/all-time?f_region=Asia)
-Europe        | all time      | [/ncov/gisaid/europe/all-time](/ncov/gisaid/europe/all-time?f_region=Europe)
-North America | all time      | [/ncov/gisaid/north-america/all-time](/ncov/gisaid/north-america/all-time?f_region=North%20America)
-Oceania       | all time      | [/ncov/gisaid/oceania/all-time](/ncov/gisaid/oceania/all-time?f_region=Oceania)
-South America | all time      | [/ncov/gisaid/south-america/all-time](/ncov/gisaid/south-america/all-time?f_region=South%20America)
+&nbsp;            | past 2 months                                                              | past 6 months                                                              | all time
+----------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------
+**global**        | [global/2m](/ncov/gisaid/global/2m)                                        | [global/6m](/ncov/gisaid/global/6m)                                        | [global/all-time](/ncov/gisaid/global/all-time)
+**Africa**        | [africa/2m](/ncov/gisaid/africa/2m?f_region=Africa)                        | [africa/6m](/ncov/gisaid/africa/6m?f_region=Africa)                        | [africa/all-time](/ncov/gisaid/africa/all-time?f_region=Africa)
+**Asia**          | [asia/2m](/ncov/gisaid/asia/2m?f_region=Asia)                              | [asia/6m](/ncov/gisaid/asia/6m?f_region=Asia)                              | [asia/all-time](/ncov/gisaid/asia/all-time?f_region=Asia)
+**Europe**        | [europe/2m](/ncov/gisaid/europe/2m?f_region=Europe)                        | [europe/6m](/ncov/gisaid/europe/6m?f_region=Europe)                        | [europe/all-time](/ncov/gisaid/europe/all-time?f_region=Europe)
+**North America** | [north-america/2m](/ncov/gisaid/north-america/2m?f_region=North%20America) | [north-america/6m](/ncov/gisaid/north-america/6m?f_region=North%20America) | [north-america/all-time](/ncov/gisaid/north-america/all-time?f_region=North%20America)
+**Oceania**       | [oceania/2m](/ncov/gisaid/oceania/2m?f_region=Oceania)                     | [oceania/6m](/ncov/gisaid/oceania/6m?f_region=Oceania)                     | [oceania/all-time](/ncov/gisaid/oceania/all-time?f_region=Oceania)
+**South America** | [south-america/2m](/ncov/gisaid/south-america/2m?f_region=South%20America) | [south-america/6m](/ncov/gisaid/south-america/6m?f_region=South%20America) | [south-america/all-time](/ncov/gisaid/south-america/all-time?f_region=South%20America)
 
 Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of 8 &times; 10^-4 subs per site per year. Mutational fitness is calculated using results from [Obermeyer et al (under review)](https://www.medrxiv.org/content/10.1101/2021.09.07.21263228v1). Full details on bioinformatic processing can be found [here](https://github.com/nextstrain/ncov).
 
