@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 1 June 2022: Add "2m" timespan in Nextstrain profile builds. [PR 957](https://github.com/nextstrain/ncov/pull/957)
+
 - 29 April 2022: Include multiple timespans in Nextstrain profile builds. [PR 910](https://github.com/nextstrain/ncov/pull/910)
 
 - 29 April 2022: Update default mask parameters to mask 200 bases from the end of the genome rather than the existing 50. This was necessary because there is a large deletion in this region in circulating 21L viruses. This deletion is causing problems with alignment and the resulting mis-alignment appears as excess mutations in the tree. [PR 939](https://github.com/nextstrain/ncov/pull/939).
