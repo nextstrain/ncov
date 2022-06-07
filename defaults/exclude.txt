@@ -11081,3 +11081,10 @@ Switzerland/VD-ETHZ-37195675/2022	# Strain has same BioSample accession (SAMEA14
 
 Switzerland/BE-IFIK-220509_os_64/2022	# Strain has same BioSample accession (SAMEA14395103) as Switzerland/BE-IFIK-220509_os_56/2022
 Switzerland/ZH-UZH-IMV-3ba6364d/2022	# Strain has same BioSample accession (SAMEA14418975) as Switzerland/ZH-UZH-IMV-3ba63445/2022
+
+# Omicrons with 2020 date
+Israel/ICH-741226590/2020
+Israel/ICH-741226592/2020
+Israel/ICH-741237350/2020
+Israel/ICH-741237353/2020
+Israel/ICH-741237329/2020
