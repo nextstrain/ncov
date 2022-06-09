@@ -312,7 +312,7 @@ rule dated_json:
     message: "Copying dated Auspice JSON"
     input:
         auspice_json = rules.finalize.output.auspice_json,
-        tip_frequencies_json = rules.include_hcov19_prefix.output.tip_frequencies
+        tip_frequencies_json = rules.finalize.output.tip_frequency_json
     output:
         dated_auspice_json = "auspice/{prefix}_{build_name}_{date}.json",
         dated_tip_frequencies_json = "auspice/{prefix}_{build_name}_{date}_tip-frequencies.json"
