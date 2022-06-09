@@ -38,7 +38,7 @@ properties:
       # Allow build names to contain alphanumeric characters, underscores, and hyphens
       # but not special strings used for Nextstrain builds.  Also used in the
       # workflow's wildcard_constraints.
-      pattern: "^(?:[-a-zA-Z0-9_](?!(tip-frequencies)))+$"
+      pattern: "^(?:[-a-zA-Z0-9_](?!tip-frequencies|root-sequence))+$"
 
   S3_DST_COMPRESSION:
     type: string
