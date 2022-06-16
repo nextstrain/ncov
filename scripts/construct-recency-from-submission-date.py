@@ -1,6 +1,6 @@
 import argparse
 from datetime import datetime
-from augur.utils import read_metadata
+from augur.io import read_metadata
 import json
 
 def get_recency(date_str, ref_date):
@@ -31,12 +31,12 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=str, required=True, help="output json")
     args = parser.parse_args()
 
-    meta, columns = read_metadata(args.metadata)
+    meta = read_metadata(args.metadata)
 
     node_data = {'nodes':{}}
     ref_date = datetime.now()
 
-    for strain, d in meta.items():
+    for strain, d in meta.iterrows():
         if 'date_submitted' in d and d['date_submitted'] and d['date_submitted'] != "undefined":
             node_data['nodes'][strain] = {'recency': get_recency(d['date_submitted'], ref_date)}
 
