@@ -45,10 +45,9 @@ if __name__ == '__main__':
     metadata = []
     for (origin, fname) in zip(args.origins, args.metadata):
         data = read_metadata(fname)
-        columns = ["strain"] + data.columns.tolist()
+        data.insert(0, "strain", data.index.values)
+        columns = data.columns
         data = data.to_dict(orient="index")
-        for strain in data.keys():
-            data[strain]["strain"] = strain
 
         metadata.append({'origin': origin, "fname": fname, 'data': data, 'columns': columns, 'strains': {s for s in data.keys()}})
 
