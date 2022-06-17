@@ -469,7 +469,7 @@ rule prepare_nextclade:
 rule build_align:
     message:
         """
-        Running nextclade QC and aligning sequences to {input.reference}
+        Running nextclade QC and aligning sequences
             - gaps relative to reference are considered real
         """
     input:
@@ -484,7 +484,7 @@ rule build_align:
         outdir = "results/{build_name}/translations",
         strain_prefixes=config["strip_strain_prefixes"],
         sanitize_log="logs/sanitize_sequences_before_nextclade_{build_name}.txt",
-        output_translations = "results/{build_name}/translations/aligned.gene.{{gene}}.fasta"
+        output_translations = "results/{build_name}/translations/aligned.gene.\{gene\}.fasta"
     log:
         "logs/align_{build_name}.txt"
     benchmark:
