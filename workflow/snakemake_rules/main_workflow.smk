@@ -463,6 +463,7 @@ rule prepare_nextclade:
     conda: config["conda_environment"]
     shell:
         """
+        nextclade --version
         nextclade dataset get --name {params.name} --output-zip {output.nextclade_dataset}
         """
 
