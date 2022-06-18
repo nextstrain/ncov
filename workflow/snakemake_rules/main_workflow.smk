@@ -72,7 +72,7 @@ rule align:
         insertions = "results/insertions_{origin}.tsv",
         translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta.xz", gene=config.get('genes', ['S']))
     params:
-        output_translations = "results/translations/seqs_{origin}.gene.{{gene}}.fasta",
+        output_translations = "results/translations/seqs_{origin}.gene.\{gene\}.fasta",
         output_translations_toxz = "results/translations/seqs_{origin}.gene.*.fasta",
         strain_prefixes=config["strip_strain_prefixes"],
         # Strip the compression suffix for the intermediate output from the aligner.
