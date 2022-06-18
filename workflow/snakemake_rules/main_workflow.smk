@@ -72,7 +72,7 @@ rule align:
         insertions = "results/insertions_{origin}.tsv",
         translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta.xz", gene=config.get('genes', ['S']))
     params:
-        output_translations = "results/translations/seqs_{origin}.gene.\{gene\}.fasta",
+        output_translations = lambda w: f"results/translations/seqs_{w.origin}.gene.{{gene}}.fasta",
         output_translations_toxz = "results/translations/seqs_{origin}.gene.*.fasta",
         strain_prefixes=config["strip_strain_prefixes"],
         # Strip the compression suffix for the intermediate output from the aligner.
@@ -484,7 +484,7 @@ rule build_align:
         outdir = "results/{build_name}/translations",
         strain_prefixes=config["strip_strain_prefixes"],
         sanitize_log="logs/sanitize_sequences_before_nextclade_{build_name}.txt",
-        output_translations = "results/{build_name}/translations/aligned.gene.\{gene\}.fasta"
+        output_translations = lambda w: f"results/{w.build_name}/translations/aligned.gene.{{gene}}.fasta"
     log:
         "logs/align_{build_name}.txt"
     benchmark:
