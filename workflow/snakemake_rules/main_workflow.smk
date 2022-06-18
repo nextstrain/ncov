@@ -100,7 +100,7 @@ rule align:
             --output-fasta {params.uncompressed_alignment} \
             --output-insertions {output.insertions} > {log} 2>&1;
         xz -2 -T {threads} {params.uncompressed_alignment};
-        xz -2 -T {threads} {params.output_translations_toxz}*.fasta
+        xz -2 -T {threads} {params.output_translations_toxz}
         """
 
 def _get_subsampling_settings(wildcards):
