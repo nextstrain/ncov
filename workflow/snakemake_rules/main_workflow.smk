@@ -92,12 +92,11 @@ rule align:
             --sequences {input.sequences} \
             --strip-prefixes {params.strain_prefixes:q} \
             --output /dev/stdout 2> {params.sanitize_log} \
-            | nextalign run \
+            | nextalign2 run \
             --jobs={threads} \
             --reference {input.reference} \
             --genemap {input.genemap} \
             --output-translations {params.output_translations} \
-            --output-basename {params.basename} \
             --output-fasta {params.uncompressed_alignment} \
             --output-insertions {output.insertions} > {log} 2>&1;
         xz -2 -T {threads} {params.uncompressed_alignment};
@@ -463,8 +462,8 @@ rule prepare_nextclade:
     conda: config["conda_environment"]
     shell:
         """
-        nextclade --version
-        nextclade dataset get --name {params.name} --output-zip {output.nextclade_dataset}
+        nextclade2 --version
+        nextclade2 dataset get --name {params.name} --output-zip {output.nextclade_dataset}
         """
 
 rule build_align:
@@ -500,7 +499,7 @@ rule build_align:
             --sequences {input.sequences} \
             --strip-prefixes {params.strain_prefixes:q} \
             --output /dev/stdout 2> {params.sanitize_log} \
-            | nextclade run \
+            | nextclade2 run \
             --jobs {threads} \
             --input-dataset {input.nextclade_dataset} \
             --output-tsv {output.nextclade_qc} \
