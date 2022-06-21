@@ -11818,6 +11818,8 @@ division	Angola	-11.1691767	13.2845209
 division	Anguilla	18.21445329034252	-63.05253050784242
 division	Anhui	31.754331	117.211441
 division	Ankara	39.949377	32.854736
+division	Anse Etoile	-4.5932954	55.455248
+division	Anse Royale	-4.7376121	55.5176065
 division	Antigua	17.086	-61.78629453333333
 division	Antigua and Barbuda	17.2234721	-61.9554608
 division	Antioquia	6.709191	-75.484721
@@ -12090,6 +12092,7 @@ division	Burundi	-3.3634357	29.8870575
 division	Buryatia	52.311711	108.916732
 division	Bushehr	28.8936645	51.3204877
 division	Busia	0.3712048	34.26479520608315
+division	Busia KE	0.3712048	34.26479520608315
 division	Buskerud	59.5435778	11.4230694
 division	Buyo	6.2507192	-7.0057256
 division	Buzau	45.143297	26.816251
@@ -12156,6 +12159,7 @@ division	Ceará	-5.4984	-39.3206
 division	Čelinac	44.724001	17.324755
 division	Celje	46.2293889	15.2616828
 division	Center Kalimantan	-2.2072919	113.9164372
+division	Central	-13.744272500000001	33.712042353397834
 division	Central African Republic	7.0323598	19.9981227
 division	Central Banat District	45.4481444	20.8551358
 division	Central Bohemian Region	49.860420	14.668725
@@ -12534,6 +12538,7 @@ division	Goa	15.3004543	74.0855134
 division	Gobojango	-21.8166465	28.7745568
 division	Goiais	-15.932272	-49.593573
 division	Goiás	-15.8270	-49.8362
+division	Golestan	37.1984436	55.070672
 division	Golfe	6.1862688469732365	1.2239741907971098
 division	Gombe	10.38301	11.206567
 division	Gomel Region	52.4238936	31.0131698
@@ -12922,6 +12927,7 @@ division	Kilkis	40.9935874	22.8741455
 division	Kindia	10.1154374	-13.1916883
 division	Kingman Reef	6.41581875	-162.43869642053994
 division	Kinshasa	-4.2978	15.2962
+division	Kiribati	0.3448612	173.6641773
 division	Kirov Oblast	57.9665589	49.4074599
 division	Kiryat Gat	31.6111	34.7685
 division	Kiryat Ono	32.059259	34.859216
@@ -13641,6 +13647,7 @@ division	Philippeville	50.178836	4.592270
 division	Philippines	12.8797	121.774
 division	Phitsanulok	16.9779975	100.3848239
 division	Phnom Penh	11.568271	104.9224426
+division	Phra Nakhon Si Ayutthaya	14.3189468	100.5111681
 division	Phrae	18.2930601	100.0886757
 division	Phu Tho	21.4000047	105.2238899
 division	Phuket	7.959471	98.339272
@@ -14275,6 +14282,7 @@ division	Turkistan Region	42.4267196	68.0028934
 division	Turks and Caicos Islands	21.7214683	-71.6201783
 division	Turnhout	51.321956	4.940098
 division	Tuscany	43.4586541	11.1389204
+division	Tuyen Quang	21.7879695	105.217387
 division	Tuzla	44.537787	18.680139
 division	Tver	57.0022	33.9853
 division	Tveria	32.7959	35.5310
@@ -14641,6 +14649,7 @@ country	Japan	35.68536	139.75309
 country	Jordan	31.1667049	36.941628
 country	Kazakhstan	48.886304	67.283729
 country	Kenya	0.0236	37.9062
+country	Kiribati	0.3448612	173.6641773
 country	Kosovo	42.6026	20.9030
 country	Kuwait	29.452987	47.447194
 country	Kyrgyzstan	41.2044	74.7661
