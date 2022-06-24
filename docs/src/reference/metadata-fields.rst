@@ -70,7 +70,7 @@ Similarly to ``division``, but for a smaller geographic resolution. This data is
 Column 10: ``region_exposure``
 --------------------------------------
 
-If the sample has a known travel history and infection is thought to have occured in this location, then represent this here. In our example, which represents New Zealand's first known case, the patient had recently arrived from Iran, thus the value here is "Asia". Specifying these travel histories helps inform the model we use to reconstruct the geographical movements of the virus.
+If the sample has a known travel history and infection is thought to have occurred in this location, then represent this here. In our example, which represents New Zealand's first known case, the patient had recently arrived from Iran, thus the value here is "Asia". Specifying these travel histories helps inform the model we use to reconstruct the geographical movements of the virus.
 
 If there is no travel history then set this to be the same value as ``region``.
 
