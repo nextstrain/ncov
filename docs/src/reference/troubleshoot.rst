@@ -1,7 +1,7 @@
 Troubleshoot common issues
 ==========================
 
-If you have a question that is not addressed here, please don't hestitate to `ask for help <https://discussion.nextstrain.org/>`__
+If you have a question that is not addressed here, please don't hesitate to `ask for help <https://discussion.nextstrain.org/>`__
 
 My country / division does not show up on the map
 -------------------------------------------------

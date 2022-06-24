@@ -106,7 +106,7 @@ Share the JSON file and instructions directly.
 Privacy and security
 ^^^^^^^^^^^^^^^^^^^^
 
-When running locally, both the server and the client run on your computer; no internet connection is requried. No data ever leaves your local machine.
+When running locally, both the server and the client run on your computer; no internet connection is required. No data ever leaves your local machine.
 
 Option 4: Sharing with Nextstrain Groups
 ----------------------------------------
