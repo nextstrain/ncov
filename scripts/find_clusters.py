@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
-from augur.utils import read_tree, read_node_data, read_metadata
+from augur.io import read_metadata
+from augur.utils import read_tree, read_node_data
 from collections import Counter
 import csv
 import hashlib
@@ -26,7 +27,7 @@ if __name__ == "__main__":
     tree = read_tree(args.tree)
     tree.collapse_all(lambda c: c.branch_length < 1e-5)
 
-    metadata, columns = read_metadata(args.metadata)
+    metadata = read_metadata(args.metadata)
     muts = read_node_data(args.mutations)
     attribute_name = args.attribute_name
     group_by = args.group_by
@@ -43,7 +44,7 @@ if __name__ == "__main__":
                 child_muts_data = muts["nodes"].get(child.name, {})
                 any_muts = (len(child_muts_data.get("muts", [])) > 0)
                 if not any_muts:
-                    count_by_group[metadata[child.name][group_by]] += 1
+                    count_by_group[metadata.loc[child.name, group_by]] += 1
 
                     if polytomy_sequence_id is None and "sequence" in child_muts_data:
                         polytomy_sequence_id = hashlib.sha256(child_muts_data["sequence"].encode()).hexdigest()[:MAX_HASH_LENGTH]
@@ -72,7 +73,7 @@ if __name__ == "__main__":
                 writer.writerow({
                     "strain": polytomy.name,
                     args.attribute_name: polytomy_sequence_id,
-                    group_by: metadata[polytomy.name][group_by]
+                    group_by: metadata.loc[polytomy.name, group_by]
                 })
 
             for child in polytomy.clades:
@@ -80,7 +81,7 @@ if __name__ == "__main__":
                     writer.writerow({
                         "strain": child.name,
                         args.attribute_name: polytomy_sequence_id,
-                        group_by: metadata[child.name][group_by]
+                        group_by: metadata.loc[child.name, group_by]
                     })
 
             clusters += 1

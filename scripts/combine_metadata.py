@@ -1,6 +1,5 @@
 import argparse
-from augur.io import open_file
-from augur.utils import read_metadata
+from augur.io import open_file, read_metadata
 from Bio import SeqIO
 import csv
 import sys
@@ -45,7 +44,11 @@ if __name__ == '__main__':
     # READ IN METADATA FILES
     metadata = []
     for (origin, fname) in zip(args.origins, args.metadata):
-        data, columns = read_metadata(fname)
+        data = read_metadata(fname)
+        data.insert(0, "strain", data.index.values)
+        columns = data.columns
+        data = data.to_dict(orient="index")
+
         metadata.append({'origin': origin, "fname": fname, 'data': data, 'columns': columns, 'strains': {s for s in data.keys()}})
 
     # SUMMARISE INPUT METADATA
@@ -64,8 +67,8 @@ if __name__ == '__main__':
     for strain in combined_data:
         for column in combined_columns:
             if column not in combined_data[strain]:
-                combined_data[strain][column] = EMPTY    
-    
+                combined_data[strain][column] = EMPTY
+
     for idx in range(1, len(metadata)):
         for strain, row in metadata[idx]['data'].items():
             if strain not in combined_data:
