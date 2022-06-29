@@ -462,8 +462,8 @@ rule prepare_nextclade:
     conda: config["conda_environment"]
     shell:
         """
-        nextclade2 --version
-        nextclade2 dataset get --name {params.name} --output-zip {output.nextclade_dataset}
+        nextclade --version
+        nextclade dataset get --name {params.name} --output-zip {output.nextclade_dataset}
         """
 
 rule build_align:
@@ -499,7 +499,7 @@ rule build_align:
             --sequences {input.sequences} \
             --strip-prefixes {params.strain_prefixes:q} \
             --output /dev/stdout 2> {params.sanitize_log} \
-            | nextclade2 run \
+            | nextclade run \
             --jobs {threads} \
             --input-dataset {input.nextclade_dataset} \
             --output-tsv {output.nextclade_qc} \
