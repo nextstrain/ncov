@@ -92,7 +92,7 @@ rule align:
             --sequences {input.sequences} \
             --strip-prefixes {params.strain_prefixes:q} \
             --output /dev/stdout 2> {params.sanitize_log} \
-            | nextalign2 run \
+            | nextalign run \
             --jobs={threads} \
             --reference {input.reference} \
             --genemap {input.genemap} \
