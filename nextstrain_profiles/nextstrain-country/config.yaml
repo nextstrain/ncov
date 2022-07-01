@@ -1,0 +1,12 @@
+configfile:
+  - defaults/parameters.yaml
+  - nextstrain_profiles/nextstrain-country/builds.yaml
+
+cores: 8
+keep-going: False
+printshellcmds: True
+show-failed-logs: True
+restart-times: 2
+reason: True
+stats: stats.json
+set-threads: tree=4
