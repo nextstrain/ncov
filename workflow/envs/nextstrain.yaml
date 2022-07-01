@@ -7,8 +7,8 @@ dependencies:
   - augur=15.0.1
   - epiweeks=2.1.2
   - iqtree=2.2.0_beta
-  - nextalign=1.11.0
-  - nextclade=1.11.0
+  - nextalign=2.2.0
+  - nextclade=2.2.0
   - pangolin=3.1.20
   - pangolearn=2022.01.20
   - python>=3.7*
