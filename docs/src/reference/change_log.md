@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+## v12 (12 July 2022)
+
 - 1 June 2022: Add "2m" timespan in Nextstrain profile builds. [PR 957](https://github.com/nextstrain/ncov/pull/957)
 
 - 29 April 2022: Include multiple timespans in Nextstrain profile builds. [PR 910](https://github.com/nextstrain/ncov/pull/910)
