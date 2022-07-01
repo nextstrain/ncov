@@ -1,0 +1,172 @@
+auspice_json_prefix: ncov_country
+
+# Define custom rules for pre- or post-standard workflow processing of data.
+custom_rules:
+  - workflow/snakemake_rules/export_for_nextstrain.smk
+
+# These parameters are only used by the `export_for_nextstrain` rule and shouldn't need to be modified.
+# To modify the s3 _source_ bucket, specify this directly in the `inputs` section of the config.
+# P.S. These are intentionally set as top-level keys as this allows command-line overrides.
+S3_DST_BUCKET: "nextstrain-ncov-private"
+S3_DST_COMPRESSION: "xz"
+S3_DST_ORIGINS: ["gisaid"]
+upload:
+  - build-files
+
+# Deploy and Slack options are related to Nextstrain live builds and don't need to be modified for local builds
+deploy_url: s3://nextstrain-data
+slack_token: ~
+slack_channel: "#ncov-gisaid-updates"
+
+genes: ["ORF1a", "ORF1b", "S", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF7b", "ORF8", "N", "ORF9b"]
+use_nextalign: true
+include_hcov19_prefix: True
+
+files:
+  description: "nextstrain_profiles/nextstrain-country/nextstrain_description.md"
+
+# Note: unaligned sequences are provided as "aligned" sequences to avoid an initial full-DB alignment
+# as we re-align everything after subsampling.
+inputs:
+  - name: gisaid
+    metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
+    aligned: "s3://nextstrain-ncov-private/sequences.fasta.xz"
+    skip_sanitize_metadata: true
+
+# Define locations for which builds should be created.
+# For each build we specify a subsampling scheme via an explicit key.
+# These subsampling schemes are defined at the bottom of this file.
+# (They override the defaults)
+# North America and Oceania are subsampled at the "division" level
+# Africa, Asia, Europe and South America are subsampled at the "country" level
+#
+# Auspice config is specified in rule auspice_config in export_for_nextstrain.smk
+builds:
+  nextstrain_country_2m:
+    subsampling_scheme: nextstrain_country_2m
+    title: Genomic epidemiology of SARS-CoV-2 with country-focused subsampling over the past 2 months
+    country: India
+  nextstrain_country_6m:
+    subsampling_scheme: nextstrain_country_6m
+    title: Genomic epidemiology of SARS-CoV-2 with country-focused subsampling over the past 6 months
+    country: India
+  nextstrain_country_all-time:
+    subsampling_scheme: nextstrain_country_all-time
+    title: Genomic epidemiology of SARS-CoV-2 with country-focused subsampling since pandemic start
+    country: India
+
+# remove sequences without division label in US
+filter:
+  exclude_where: "division='USA'"
+
+subsampling:
+
+  # Custom subsampling logic for regions over 2m
+  # Grouping by division for North America and Oceania
+  # 4000 total
+  # 4:1 ratio of recent to early
+  # 4:1 ratio of focal to context
+  nextstrain_country_2m:
+    # Early focal samples for region
+    focal_early:
+      group_by: "division year month"
+      max_sequences: 640
+      max_date: "--max-date 2M"
+      exclude: "--exclude-where 'country!={country}'"
+    # Early contextual samples from the rest of the world
+    context_early:
+      group_by: "country year month"
+      max_sequences: 160
+      max_date: "--max-date 2M"
+      exclude: "--exclude-where 'country={country}'"
+    # Recent focal samples for region
+    focal_recent:
+      group_by: "division year month"
+      max_sequences: 2560
+      min_date: "--min-date 2M"
+      exclude: "--exclude-where 'country!={country}'"
+    # Early contextual samples from the rest of the world
+    context_recent:
+      group_by: "country year month"
+      max_sequences: 640
+      min_date: "--min-date 2M"
+      exclude: "--exclude-where 'country={country}'"
+
+  # Custom subsampling logic for regions over 2m
+  # Grouping by division for North America and Oceania
+  # 4000 total
+  # 4:1 ratio of recent to early
+  # 4:1 ratio of focal to context
+  nextstrain_country_6m:
+    # Early focal samples for region
+    focal_early:
+      group_by: "division year month"
+      max_sequences: 640
+      max_date: "--max-date 6M"
+      exclude: "--exclude-where 'country!={country}'"
+    # Early contextual samples from the rest of the world
+    context_early:
+      group_by: "country year month"
+      max_sequences: 160
+      max_date: "--max-date 6M"
+      exclude: "--exclude-where 'country={country}'"
+    # Recent focal samples for region
+    focal_recent:
+      group_by: "division year month"
+      max_sequences: 2560
+      min_date: "--min-date 6M"
+      exclude: "--exclude-where 'country!={country}'"
+    # Early contextual samples from the rest of the world
+    context_recent:
+      group_by: "country year month"
+      max_sequences: 640
+      min_date: "--min-date 6M"
+      exclude: "--exclude-where 'country={country}'"
+
+  # Custom subsampling logic for regions over 2m
+  # Grouping by division for North America and Oceania
+  # 4000 total
+  # 4:1 ratio of recent to early
+  # 4:1 ratio of focal to context
+  nextstrain_country_all-time:
+    # Focal samples for country
+    focal:
+      group_by: "division year month"
+      max_sequences: 640
+      exclude: "--exclude-where 'country!={country}'"
+    # Contextual samples from the rest of the world
+    context:
+      group_by: "country year month"
+      max_sequences: 160
+      exclude: "--exclude-where 'country={country}'"
+
+# if different traits should be reconstructed for some builds, specify here
+# otherwise the default trait config in defaults/parameters.yaml will used
+traits:
+  nextstrain_country_2m:
+    sampling_bias_correction: 2.5
+    columns: ["country"]
+  nextstrain_country_6m:
+    sampling_bias_correction: 2.5
+    columns: ["country"]
+  nextstrain_country_all-time:
+    sampling_bias_correction: 2.5
+    columns: ["country"]
+
+# Define frequencies parameters
+# Target frequencies to "2m", "6m" and "all-time" builds
+# narrow_bandwidth = 0.019 or 7 days for "2m"
+# narrow_bandwidth = 0.038 or 14 days for "6m" and "all-time"
+frequencies:
+  nextstrain_country_2m:
+    min_date: "2M"
+    narrow_bandwidth: 0.019
+    recent_days_to_censor: 7
+  nextstrain_country_6m:
+    min_date: "6M"
+    narrow_bandwidth: 0.038
+    recent_days_to_censor: 7
+  nextstrain_country_all-time:
+    min_date: "2020-01-01"
+    narrow_bandwidth: 0.038
+    recent_days_to_censor: 7
