@@ -6,7 +6,7 @@ on:
   repository_dispatch:
     types:
       - rebuild
-      - gisaid/rebuild
+      - rebuild-country
   # Manually triggered using GitHub's UI
   workflow_dispatch:
     inputs:
