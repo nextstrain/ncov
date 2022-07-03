@@ -10,15 +10,15 @@ on:
   # Manually triggered using GitHub's UI
   workflow_dispatch:
     inputs:
-      trial_name:
-        description: "Short name for this trial build, for prefixing the uploaded data and results files. WARNING: without this we will overwrite files in s3://nextstrain-ncov-private and the trees on nextstrain.org/ncov/gisaid..."
-        required: false
+      country:
+        description: 'Country target for this build, must match "country" column in metadata'
+        required: true
       image:
         description: 'Specific container image to use for build (will override the default of "nextstrain build")'
         required: false
 
 env:
-  TRIAL_NAME: ${{ github.event.inputs.trial_name }}
+  COUNTRY: ${{ github.event.inputs.country }}
   NEXTSTRAIN_DOCKER_IMAGE: ${{ github.event.inputs.image }}
 
 jobs:
@@ -37,11 +37,11 @@ jobs:
 
         declare -a config
         config+=(build_date=\'$(date +'%Y-%m-%d')\')
-        if [[ "$TRIAL_NAME" ]]; then
+        if [[ "$COUNTRY" ]]; then
           config+=(
-            S3_DST_BUCKET=nextstrain-ncov-private/trial/"$TRIAL_NAME"
+            S3_DST_BUCKET=nextstrain-ncov-private/country/"$COUNTRY"
             deploy_url=s3://nextstrain-staging/
-            auspice_json_prefix=ncov_gisaid_trial_"$TRIAL_NAME"
+            auspice_json_prefix=ncov_gisaid_country_"$COUNTRY"
           )
         else
           config+=(slack_token=$SLACK_TOKEN)
@@ -50,8 +50,8 @@ jobs:
         nextstrain build \
           --aws-batch \
           --detach \
-          --cpus 72 \
-          --memory 140GiB \
+          --cpus 36 \
+          --memory 70GiB \
           . \
             deploy \
             upload \
@@ -66,19 +66,11 @@ jobs:
 
     - name: Build info
       run: |
-        if [[ "$TRIAL_NAME" ]]; then
-          echo "--> Trial name is: $TRIAL_NAME"
-          echo
-          echo "--> When completed, the following will be available:"
-          echo "build files: s3://nextstrain-ncov-private/trial/$TRIAL_NAME/"
-          echo "nextstrain URLs: https://nextstrain.org/staging/ncov/gisaid/trial/$TRIAL_NAME/REGION_NAME"
-        else
-          echo "--> GISAID phylogenetic analysis rebuilding on AWS"
-          echo
-          echo "--> When completed, the following will be updated:"
-          echo "build files: s3://nextstrain-ncov-private/REGION_NAME/"
-          echo "nextstrain URLs: https://nextstrain.org/ncov/gisaid/REGION_NAME"
-        fi
+        echo "--> Country target is: $COUNTRY"
+        echo
+        echo "--> When completed, the following will be available:"
+        echo "build files: s3://nextstrain-ncov-private/country/$COUNTRY/"
+        echo "nextstrain URLs: https://nextstrain.org/staging/ncov/gisaid/country/$COUNTRY/"
         echo
         echo "--> You can attach to this AWS job via:"
         tail -n1 build-launch.log
