@@ -3,15 +3,16 @@
 
 ## Building the docs
 
-Build dependencies are managed with [Conda](https://conda.io).
-Install them
-into an isolated environment named `ncov-docs` with:
+Build dependencies are managed with Pip.
+Install them into an isolated environment under `docs/env/` with:
 
-    mamba env create -f=conda.yml
+    python3 -m venv env/
+    ./env/bin/python3 -m pip install --upgrade pip setuptools wheel
+    ./env/bin/python3 -m pip install -r requirements.txt
 
 Enter the environment with:
 
-    mamba activate ncov-docs
+    source ./env/bin/activate
 
 You can now build the documentation with:
 
@@ -28,4 +29,4 @@ You can clean the build directory for a fresh start with:
 
 Leave the environment with:
 
-    conda deactivate
+    deactivate

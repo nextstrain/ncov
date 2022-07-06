@@ -1,0 +1,8 @@
+nextstrain-sphinx-theme>=2020.2
+recommonmark
+requests
+sphinx
+sphinx-argparse
+sphinx-copybutton
+sphinx-markdown-tables
+sphinx-tabs
