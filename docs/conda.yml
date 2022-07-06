@@ -3,13 +3,14 @@ channels:
   - defaults
 dependencies:
   - make
-  - recommonmark
-  - requests
-  - sphinx
   - pip
   - pip:
     - nextstrain-sphinx-theme>=2020.2
-    - sphinx-markdown-tables
+    - recommonmark
+    - requests
+    - sphinx
+    - docutils<0.18
     - sphinx-argparse
-    - sphinx-tabs
     - sphinx-copybutton
+    - sphinx-markdown-tables
+    - sphinx-tabs
