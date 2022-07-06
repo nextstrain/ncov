@@ -9,6 +9,7 @@ dependencies:
     - recommonmark
     - requests
     - sphinx
+    - docutils<0.18
     - sphinx-argparse
     - sphinx-copybutton
     - sphinx-markdown-tables
