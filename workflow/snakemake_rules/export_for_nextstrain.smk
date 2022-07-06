@@ -35,8 +35,10 @@ rule all_regions:
     input:
         auspice_json = expand("auspice/{prefix}_{build_name}.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES),
         tip_frequencies_json = expand("auspice/{prefix}_{build_name}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES),
+        root_sequence_json = expand("auspice/{prefix}_{build_name}_root-sequence.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES),
         dated_auspice_json = expand("auspice/{prefix}_{build_name}_{date}.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=config.get("build_date", get_todays_date())),
-        dated_tip_frequencies_json = expand("auspice/{prefix}_{build_name}_{date}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=config.get("build_date", get_todays_date()))
+        dated_tip_frequencies_json = expand("auspice/{prefix}_{build_name}_{date}_tip-frequencies.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=config.get("build_date", get_todays_date())),
+        dated_root_sequence_json = expand("auspice/{prefix}_{build_name}_{date}_root-sequence.json", prefix=config["auspice_json_prefix"], build_name=BUILD_NAMES, date=config.get("build_date", get_todays_date()))
 
 # This cleans out files to allow re-run of 'normal' run with `export`
 # to check lat-longs & orderings
@@ -312,10 +314,12 @@ rule dated_json:
     message: "Copying dated Auspice JSON"
     input:
         auspice_json = rules.finalize.output.auspice_json,
-        tip_frequencies_json = rules.include_hcov19_prefix.output.tip_frequencies
+        tip_frequencies_json = rules.finalize.output.tip_frequency_json,
+        root_sequence_json = rules.finalize.output.root_sequence_json
     output:
         dated_auspice_json = "auspice/{prefix}_{build_name}_{date}.json",
-        dated_tip_frequencies_json = "auspice/{prefix}_{build_name}_{date}_tip-frequencies.json"
+        dated_tip_frequencies_json = "auspice/{prefix}_{build_name}_{date}_tip-frequencies.json",
+        dated_root_sequence_json = "auspice/{prefix}_{build_name}_{date}_root-sequence.json"
     benchmark:
         "benchmarks/dated_json_{prefix}_{build_name}_{date}.txt"
     wildcard_constraints:
@@ -324,13 +328,14 @@ rule dated_json:
         # the user-defined prefix as a constraint, so Snakemake does not parse
         # parts of the actual build names as part of the prefix.
         prefix = re.escape(config["auspice_json_prefix"]),
-        build_name = r'(?:[-a-zA-Z0-9_](?!(tip-frequencies|\d{4}-\d{2}-\d{2})))+',
+        build_name = r'(?:[-a-zA-Z0-9_](?!tip-frequencies|root-sequence|\d{4}-\d{2}-\d{2}))+',
         date = r"\d{4}-\d{2}-\d{2}"
     conda: config["conda_environment"]
     shell:
         """
         cp {input.auspice_json} {output.dated_auspice_json}
         cp {input.tip_frequencies_json} {output.dated_tip_frequencies_json}
+        cp {input.root_sequence_json} {output.dated_root_sequence_json}
         """
 
 #

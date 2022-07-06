@@ -1471,7 +1471,7 @@ rule include_hcov19_prefix:
 rule finalize:
     message: "Remove extraneous colorings for main build and move frequencies"
     input:
-        auspice_json = lambda w: rules.include_hcov19_prefix.output.auspice_json,
+        auspice_json = rules.include_hcov19_prefix.output.auspice_json,
         frequencies = rules.include_hcov19_prefix.output.tip_frequencies,
         root_sequence_json = rules.export.output.root_sequence_json
     output:
