@@ -18,15 +18,6 @@ Install Nextstrain components
 
 :doc:`Follow instructions to install Nextstrain components <docs.nextstrain.org:install>`.
 
-.. note::
-
-   If using the :term:`native runtime <docs.nextstrain.org:runtime>`, install these additional packages necessary to run the ncov workflow. Make sure to activate the correct conda environment.
-
-   .. code:: bash
-
-      mamba install -c conda-forge -c bioconda \
-        epiweeks nextclade nextalign pangolin pangolearn
-
 Download the ncov workflow
 -----------------------------
 
