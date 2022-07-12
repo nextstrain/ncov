@@ -19,7 +19,7 @@ Prior to merging a pull request that introduces a new backward incompatible chan
  1. Determine the new version number by incrementing [the current version](https://github.com/nextstrain/ncov/releases/) (e.g., "v2" from "v1").
  2. As part of the pull request, document the change(s) from the pull request in [`docs/src/reference/change_log.md`](https://github.com/nextstrain/ncov/blob/master/docs/src/reference/change_log.md) with the current date and new version number.
  3. Merge the pull request
- 4. [Create a new GitHub release](https://github.com/nextstrain/ncov/releases/new) using the new version as the tag (e.g., "v2") and release title. Leave the release description empty.
+ 4. [Create a new GitHub release](https://github.com/nextstrain/ncov/releases/new) using the new version as the tag (e.g., "v2") and release title. Copy the changelog section for this version into the release description, along with a permalink to the changelog section (e.g. https://github.com/nextstrain/ncov/releases/v12).
 
 We do not release new minor versions for new features, but you should document new features in the change log as part of the corresponding pull request under a heading for the date those features are merged.
 
