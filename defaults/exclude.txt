@@ -11101,3 +11101,9 @@ Israel/ICH-741238457/2020
 
 # Early BA.2.12.1 with excess mutations
 Qatar/DA-USAFSAM-S15231/2022
+
+# Omicrons with too early date
+env/Austria/CeMM31016/2021
+Eswatini/N22721/2021
+USA/NJ-PHEL-V22024328/2021
+Brazil/AM-IEC-182317/2021
