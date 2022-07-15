@@ -470,6 +470,7 @@ if __name__ == '__main__':
             # Replace whitespaces from strain names with nothing to match Nextstrain's
             # convention since whitespaces are not allowed in FASTA record names.
             metadata[strain_field] = metadata[strain_field].str.replace(" ", "")
+            metadata[strain_field] = metadata[strain_field].str.replace("'", "-")
 
             # Rename columns as needed, after transforming strain names. This
             # allows us to avoid keeping track of a new strain name field
