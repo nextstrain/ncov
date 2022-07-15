@@ -153,3 +153,7 @@ clade	gene	site	alt
 22C (Omicron)	clade	21L (Omicron)
 22C (Omicron)	nuc	22917	A
 22C (Omicron)	nuc	23673	T
+
+22D (Omicron)	clade	21L (Omicron)
+22D (Omicron)	nuc	3796	T
+22D (Omicron)	nuc	26275	G
