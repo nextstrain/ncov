@@ -192,8 +192,7 @@ def rearrange_additional_info(additional_info):
                 sorted_info[access].append((id, additional_info[id]["strain"]))
         if info_found > 1:
             if additional_info[id]["additional_location_info"] != additional_info[id]["additional_host_info"]:
-                if not ("zip" in additional_info[id]["additional_location_info"].lower() or "zip" in additional_info[id]["additional_host_info"].lower()):
-                    print("Warning: " + id + " has more than one relevant info (\"" + additional_info[id]["additional_host_info"] + "\" and \"" + additional_info[id]["additional_location_info"] + "\"). Possible conflict!")
+                print("Warning: " + id + " has more than one relevant info (\"" + additional_info[id]["additional_host_info"] + "\" and \"" + additional_info[id]["additional_location_info"] + "\"). Possible conflict!")
 
     return sorted_info
 
@@ -696,13 +695,6 @@ def check_additional_info(additional_info, path_to_config_files, auto):
         while True:
 
             auto_comments = ["travel surveillance"]
-            if info.lower().startswith("zip") or info.lower().startswith("other: zip") or info.lower().startswith("postal code") or info.lower().startswith("other: postal code") or info.endswith(".0") or info.lower() in auto_comments or info.split("Other: ").pop().isnumeric() or (info.isnumeric() and int(info) <= 9999 and int(info) >= 1000):
-                print("Auto-add comment for " + bold(info))
-                for (id, strain) in strain_list:
-                    annotations_append.append("# " + strain + "\t" + id + "\t" + info_type + ": " + info)
-                    print("Add comment for " + id)
-                break
-
 
             # Special case:
             if (info.startswith("Resident of ") or info.startswith("resident of ")) and " tested in " in info:
@@ -807,8 +799,7 @@ def check_additional_info(additional_info, path_to_config_files, auto):
             strain_list = sorted_info[key]
             for (id, strain) in strain_list:
                 if metadata[id]["Nextstrain_clade"] == "21K (Omicron)":
-                    if not "ZIP" in info:
-                        out.write(id + ": " + info + "\n")
+                    out.write(id + ": " + info + "\n")
 
     return annotations_append
 
