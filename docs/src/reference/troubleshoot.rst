@@ -43,17 +43,3 @@ To only run the sequence diagnostic, you can specify any of the three above file
 .. code:: bash
 
    nextstrain build ... diagnostic
-
-In addition, we provide rules to re-examine the sequences in ``config/exclude.txt``. By running
-
-.. code:: bash
-
-   nextstrain build ... diagnose_excluded
-
-the workflow will produce
-
--  ``results/excluded-sequence-diagnostics.tsv``
--  ``results/excluded-flagged-sequences.tsv``
--  ``results/check-exclusion.txt``
-
-These files are meant to facilitate checking whether sequences in ``config/exclude.txt`` are excluded for valid reasons.
