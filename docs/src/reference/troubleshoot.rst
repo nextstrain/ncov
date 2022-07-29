@@ -34,30 +34,12 @@ There are a few steps where sequences can be removed:
 Sequencing and alignment errors
 -------------------------------
 
-Genome sequencing, bioinformatic processing of the raw data, and alignment of the sequences are all steps were errors can slip in. Such errors can distort the phylogenetic analysis. To avoid sequences with known problems to mess up the analysis, we keep a list of problematic sequences in ``config/exclude.txt`` and filter them out. To facilitate spotting such problematic sequences, we added an additional quality control step that produces the files
+Genome sequencing, bioinformatic processing of the raw data, and alignment of the sequences are all steps were errors can slip in. Such errors can distort the phylogenetic analysis. To avoid sequences with known problems to mess up the analysis, we keep a list of problematic sequences in ``config/exclude.txt`` and filter them out. To facilitate spotting such problematic sequences, we added an additional quality control step that produces the file ``results/excluded_by_diagnostics.txt``.
 
--  ``results/sequence-diagnostics.tsv``
--  ``results/flagged-sequences.tsv``
--  ``results/to-exclude.txt``
-
-These files are the output of ``scripts/diagnostics.py`` and are produced by rule ``diagnostic``. The first file contains statistics for every sequence in the alignment, sorted by divergence worst highest to lowest. The second file contains only those sequences with diagnostics exceeding thresholds each with their specific reason for flagging – these are sorted by submission date (newest to oldest). The third file contains only the names of the flagged sequences and mirrors the format of ``config/exclude.txt``. These names could be added to ``config/exclude.txt`` for permanent exclusion. Note, however, that some sequences might look problematic due to alignment issues rather than intrinsic problems with the sequence. The flagged sequences will be excluded from the current run.
+This file is the output of ``scripts/diagnostic.py`` and is produced by rule ``diagnostic``. This file contains only those sequences with diagnostics exceeding thresholds and mirrors the format of ``config/exclude.txt``. These names could be added to ``config/exclude.txt`` for permanent exclusion. Note, however, that some sequences might look problematic due to alignment issues rather than intrinsic problems with the sequence. The flagged sequences will be excluded from the current run.
 
 To only run the sequence diagnostic, you can specify any of the three above files as target, or use the ``diagnostic`` target:
 
 .. code:: bash
 
    nextstrain build ... diagnostic
-
-In addition, we provide rules to re-examine the sequences in ``config/exclude.txt``. By running
-
-.. code:: bash
-
-   nextstrain build ... diagnose_excluded
-
-the workflow will produce
-
--  ``results/excluded-sequence-diagnostics.tsv``
--  ``results/excluded-flagged-sequences.tsv``
--  ``results/check-exclusion.txt``
-
-These files are meant to facilitate checking whether sequences in ``config/exclude.txt`` are excluded for valid reasons.
