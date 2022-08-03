@@ -11821,6 +11821,7 @@ division	Anhui	31.754331	117.211441
 division	Ankara	39.949377	32.854736
 division	Anse Etoile	-4.5932954	55.455248
 division	Anse Royale	-4.7376121	55.5176065
+division	Antalya	36.8872942	30.7074549
 division	Antigua	17.086	-61.78629453333333
 division	Antigua and Barbuda	17.2234721	-61.9554608
 division	Antioquia	6.709191	-75.484721
@@ -12284,6 +12285,7 @@ division	Cotonou	6.372284	2.365266
 division	Cotopaxi	-3.4804754	-80.2302215
 division	Couffo	7.1312662	1.7567394
 division	Counties Manukau	-37.101403	175.005947
+division	Courland	56.9834674	22.1540457
 division	Covasna	45.896679250000005	26.010180611745668
 division	Cox'S Bazar	21.16587175	92.03996424949702
 division	Coyah	9.709041	-13.388956
@@ -13032,6 +13034,7 @@ division	Laken	50.8778	4.3481
 division	Lakes	-38.5882085	175.9492056
 division	Lakshadweep	10.8132489	73.6804620941119
 division	Lalitpur	27.6676649	85.3183888179628
+division	Lam Dong	11.6937725	108.152754
 division	Lambarene	-0.695844	10.2215963
 division	Lambayeque	-6.707066	-79.907239
 division	Lamentin	16.2703423	-61.6303025
@@ -13049,6 +13052,7 @@ division	Lapland	67.700017	26.273752
 division	Lara	10.2284518	-69.8197975
 division	Larnaca	34.9236095	33.6236184
 division	Las Piedras	-34.7274904	-56.2164982
+division	Latgale	56.2218172	27.128817
 division	Latvia	56.799689	25.441386
 division	Lavalleja	-33.9971964	-54.9992242
 division	Lazio	41.994328	12.622686
@@ -13467,6 +13471,7 @@ division	North Dakota	47.6201461	-100.540737
 division	North District	32.8972	35.3027
 division	North-East District	-21.0244816	27.5147504
 division	North East Region	10.3959773	-0.5410794
+division	North Governorate	34.3317701	35.94369639224921
 division	North Holland	52.5206	4.7885
 division	North Jeolla	34.759837149999996	127.65168920003353
 division	North Kalimantan	3.0235817	116.2049306
@@ -13907,8 +13912,10 @@ division	Santander	6.746570	-73.476456
 division	Santarem	39.2849	-8.7041
 division	Santarem PT	39.2363637	-8.6867081
 division	Santiago	15.1200758	-23.634818134026133
+division	Santiago CV	15.1200758	-23.634818134026133
 division	Santiago de Veraguas	8.0989867	-80.9803978
 division	Santiago del Estero	-27.6431016	-63.5408542
+division	Santiago DO	19.3286702	-70.9033942
 division	Santo Domingo	-0.34018899999999996	-79.17154939601922
 division	Santo Domingo de los Tsachilas	-0.2546212	-79.1686724
 division	São Paulo	-23.59806	-46.660537
@@ -14390,6 +14397,7 @@ division	Veurne	51.046671	2.663125
 division	Vichada	5.0000086	-69.5000086
 division	Victoria	-37.121673	144.106178
 division	Vidin	43.9962	22.8679
+division	Vidzeme	57.2995381	25.6660605
 division	Vienna	48.2082	16.3738
 division	Vientiane	17.920654499999998	102.69532189182569
 division	Vietnam	16.16667	107.83333
@@ -14542,6 +14550,7 @@ division	Zavidovici	44.4383939	18.1453909
 division	Zeeland	51.484078	3.802245
 division	Zefat	32.9646	35.4960
 division	Zelezniki	46.2257913	14.1693085
+division	Zemgale	56.6074951	24.8969618
 division	Zenica	44.2010759	17.9055721
 division	Zenica-Doboj	44.2010759	17.9055721
 division	Zepce	44.4287	18.0379
@@ -14683,6 +14692,7 @@ country	Marshall Islands	6.9518742	170.9985095
 country	Mauritania	20.2540382	-9.2399263
 country	Mauritius	-20.2759451	57.5703566
 country	Mexico	19.4325301	-99.1332101
+country	Micronesia	7.0	155.25
 country	Moldova	47.2879608	28.5670941
 country	Monaco	43.73844905	7.424224092532953
 country	Mongolia	47.504782	102.997672
