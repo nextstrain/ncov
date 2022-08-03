@@ -11140,3 +11140,27 @@ France/IDF-LBZCentre-AC111150080/2021
 France/IDF-LBZCentre-1111530063/2021
 France/IDF-LBZCentre-C11115K0077/2021
 France/IDF-LBZCentre-C11115K0686/2021
+
+USA/1014453982_6-8-2022/2022	# Strain has same BioSample accession (SAMN28961820) as USA/1014453982_6-15-2022/2022
+Switzerland/AG-ETHZ-37212980/2022	# Strain has same BioSample accession (SAMEA110039407) as Switzerland/AG-ETHZ-37191344/2022
+Switzerland/BE-IFIK-220509_os_64/2022	# Strain has same BioSample accession (SAMEA110050856) as Switzerland/BE-IFIK-220509_os_56/2022
+Switzerland/BE-SRO-500010_4668/2022	# Strain has same BioSample accession (SAMEA110047347) as Switzerland/BE-SRO-500010_3709/2022
+Switzerland/SO-ETHZ-37354100/2022	# Strain has same BioSample accession (SAMEA110030697) as Switzerland/BE-ETHZ-37259524/2022
+Switzerland/TI-ETHZ-37345260/2022	# Strain has same BioSample accession (SAMEA110048931) as Switzerland/BE-ETHZ-37299864/2022
+Switzerland/VD-ETHZ-37183848/2022	# Strain has same BioSample accession (SAMEA110027445) as Switzerland/BS-ETHZ-37200739/2022
+Switzerland/VD-ETHZ-37195675/2022	# Strain has same BioSample accession (SAMEA110033008) as Switzerland/BE-ETHZ-37244299/2022
+Switzerland/ZH-ETHZ-37326783/2022	# Strain has same BioSample accession (SAMEA110048929) as Switzerland/AG-ETHZ-37278628/2022
+Switzerland/ZH-ETHZ-37345226/2022	# Strain has same BioSample accession (SAMEA110019908) as Switzerland/SG-ETHZ-674753/2022
+Switzerland/ZH-ETHZ-674759/2022	# Strain has same BioSample accession (SAMEA110031163) as Switzerland/AG-ETHZ-37276867/2022
+Switzerland/ZH-UZH-IMV-3ba6364d/2022	# Strain has same BioSample accession (SAMEA110023964) as Switzerland/ZH-UZH-IMV-3ba63445/2022
+Switzerland/BE-ETHZ-674744/2022	# Strain has same BioSample accession (SAMEA110036281) as Switzerland/BE-ETHZ-37316437/2022
+Switzerland/BE-IFIK-8117-6976/2022	# Strain has same BioSample accession (SAMEA110043712) as Switzerland/BE-IFIK-8112-6923/2022
+Switzerland/BE-Risch-20220523R11757/2022	# Strain has same BioSample accession (SAMEA110049311) as Liechtenstein/FL-Risch-20220521R11788/2022
+Switzerland/BE-SRO-500010_8419/2022	# Strain has same BioSample accession (SAMEA110019482) as Switzerland/BE-SRO-500010_7763/2022
+Switzerland/BE-SRO-500011_0155/2022	# Strain has same BioSample accession (SAMEA110019481) as Switzerland/BE-SRO-500010_9828/2022
+Switzerland/GR-Risch-20220523R11747/2022	# Strain has same BioSample accession (SAMEA110049310) as Liechtenstein/FL-Risch-20220519R11766/2022
+Switzerland/GR-Risch-20220525R11718/2022	# Strain has same BioSample accession (SAMEA110049312) as Switzerland/BE-IFIK-8107-6900/2022
+Switzerland/SG-ETHZ-674762/2022	# Strain has same BioSample accession (SAMEA110026640) as Switzerland/AG-ETHZ-37348073/2022
+Switzerland/TI-ETHZ-674743/2022	# Strain has same BioSample accession (SAMEA110048930) as Switzerland/TG-ETHZ-674763/2022
+Switzerland/TI-Risch-20220513R11708/2022	# Strain has same BioSample accession (SAMEA110019483) as Switzerland/GR-Risch-20220523R11753/2022
+Switzerland/TI-Risch-20220518R11793/2022	# Strain has same BioSample accession (SAMEA110054807) as Switzerland/BE-IFIK-8108-6917/2022
