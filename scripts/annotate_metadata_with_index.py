@@ -18,7 +18,8 @@ if __name__ == '__main__':
     index = pd.read_csv(
         args.sequence_index,
         sep="\t",
-        dtype={"strain": "string"}
+        dtype={"strain": "string"},
+        index_col="strain",
     ).drop(
         columns=["length"],
     )
@@ -26,15 +27,12 @@ if __name__ == '__main__':
     new_columns = {
         column: f"_{column}"
         for column in index.columns
-        if column != "strain"
     }
     index = index.rename(columns=new_columns)
 
-    metadata.merge(
+    metadata.join(
         index,
-        on="strain",
     ).to_csv(
         args.output,
         sep="\t",
-        index=False,
     )
