@@ -72,13 +72,13 @@ jobs:
           echo
           echo "--> When completed, the following will be available:"
           echo "build files: s3://nextstrain-staging/files/ncov/open/trial/$TRIAL_NAME/"
-          echo "nextstrain URLs: https://nextstrain.org/staging/ncov/open/trial/$TRIAL_NAME/REGION_NAME"
+          echo "nextstrain URLs: https://nextstrain.org/staging/ncov/open/trial/$TRIAL_NAME/REGION_NAME/TIME_SPAN"
         else
           echo "--> Open (GenBank) phylogenetic analysis rebuilding on AWS"
           echo
           echo "--> When completed, the following will be updated:"
           echo "build files: s3://nextstrain-data/files/ncov/open/REGION_NAME/"
-          echo "nextstrain URLs: https://nextstrain.org/ncov/open/REGION_NAME"
+          echo "nextstrain URLs: https://nextstrain.org/ncov/open/REGION_NAME/TIME_SPAN"
         fi
         echo
         echo "--> You can attach to this AWS job via:"
