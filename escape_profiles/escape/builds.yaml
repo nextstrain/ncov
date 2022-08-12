@@ -1,0 +1,119 @@
+auspice_json_prefix: ncov
+
+genes: ["ORF1a", "ORF1b", "S", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF7b", "ORF8", "N", "ORF9b"]
+use_nextalign: true
+
+files:
+  include: "escape_profiles/escape/include.txt"
+  auspice_config: "escape_profiles/escape/auspice_config.json"
+  description: "escape_profiles/escape/escape_description.md"
+  ordering: "escape_profiles/escape/color_ordering.tsv"  
+
+# Note: unaligned sequences are provided as "aligned" sequences to avoid an initial full-DB alignment
+# as we re-align everything after subsampling.
+inputs:
+  - name: open
+    metadata: "https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz"
+    aligned: "https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.xz"
+    skip_sanitize_metadata: true
+  - name: outgroup
+    metadata: "data/ba2_outgroup_metadata.tsv"
+    sequences: "data/ba2_outgroup_sequences.fasta"
+    skip_sanitize_metadata: true
+
+# Define locations for which builds should be created.
+# For each build we specify a subsampling scheme via an explicit key.
+# These subsampling schemes are defined at the bottom of this file.
+# (They override the defaults)
+# North America and Oceania are subsampled at the "division" level
+# Africa, Asia, Europe and South America are subsampled at the "country" level
+#
+# Auspice config is specified in rule auspice_config in export_for_nextstrain.smk
+builds:
+  escape:
+    subsampling_scheme: nextstrain_global_2m
+    title: SARS-CoV-2 evolution showing immune escape since BA.2
+
+# remove sequences without division label in US
+filter:
+  exclude_where: "division='USA' \
+    Nextstrain_clade='19B' \
+    Nextstrain_clade='20A' \
+    Nextstrain_clade='20B' \
+    Nextstrain_clade='20C' \
+    Nextstrain_clade='20D' \
+    Nextstrain_clade='20E' \
+    Nextstrain_clade='20F' \
+    Nextstrain_clade='20G' \
+    Nextstrain_clade='20H (Beta, V2)' \
+    Nextstrain_clade='20I (Alpha, V1)' \
+    Nextstrain_clade='20J (Gamma, V3)' \
+    Nextstrain_clade='21A (Delta)' \
+    Nextstrain_clade='21B (Kappa)' \
+    Nextstrain_clade='21C (Epsilon)' \
+    Nextstrain_clade='21D (Eta)' \
+    Nextstrain_clade='21E (Theta)' \
+    Nextstrain_clade='21F (Iota)' \
+    Nextstrain_clade='21G (Lambda)' \
+    Nextstrain_clade='21H (Mu)' \
+    Nextstrain_clade='21K (Omicron)' \
+    Nextstrain_clade='21M (Omicron)'"
+
+subsampling:
+
+  # Custom subsampling logic for global region over 2m
+  # 4000 total
+  # 4:1 ratio of focal to context
+  # all regions equal except Oceania at 33%
+  nextstrain_global_2m:
+    africa_recent:
+      group_by: "country year month"
+      max_sequences: 600
+      min_date: "--min-date 2M"
+      exclude: "--exclude-where 'region!=Africa'"
+    asia_recent:
+      group_by: "country year month"
+      max_sequences: 600
+      min_date: "--min-date 2M"
+      exclude: "--exclude-where 'region!=Asia'"
+    europe_recent:
+      group_by: "country year month"
+      max_sequences: 600
+      min_date: "--min-date 2M"
+      exclude: "--exclude-where 'region!=Europe'"
+    north_america_recent:
+      group_by: "division year month"
+      max_sequences: 600
+      min_date: "--min-date 2M"
+      exclude: "--exclude-where 'region!=North America'"
+    south_america_recent:
+      group_by: "country year month"
+      max_sequences: 600
+      min_date: "--min-date 2M"
+      exclude: "--exclude-where 'region!=South America'"
+    oceania_recent:
+      group_by: "division year month"
+      max_sequences: 200
+      min_date: "--min-date 2M"
+      exclude: "--exclude-where 'region!=Oceania'"
+
+# TreeTime settings
+refine:
+  root: "SouthAfrica/NHLS-UCT-LA-Z957/2022"
+
+# if different traits should be reconstructed for some builds, specify here
+# otherwise the default trait config in defaults/parameters.yaml will used
+traits:
+  escape:
+    sampling_bias_correction: 2.5
+    columns: ["region"]
+
+# Define frequencies parameters
+# Target frequencies to "2m", "6m" and "all-time" builds
+# narrow_bandwidth = 0.019 or 7 days for "2m"
+# narrow_bandwidth = 0.038 or 14 days for "6m" and "all-time"
+frequencies:
+  escape:
+    min_date: "2M"
+    narrow_bandwidth: 0.019
+    recent_days_to_censor: 7
