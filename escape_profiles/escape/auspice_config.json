@@ -6,6 +6,11 @@
   ],
   "colorings": [
     {
+      "key": "escape_score",
+      "title": "Escape score",
+      "type": "continuous"
+    },
+    {
       "key": "emerging_lineage",
       "title": "Emerging Lineage",
       "type": "categorical"
@@ -96,7 +101,7 @@
     "region"
   ],
   "display_defaults": {
-    "color_by": "clade_membership",
+    "color_by": "escape_score",
     "distance_measure": "num_date",
     "geo_resolution": "country",
     "map_triplicate": true,

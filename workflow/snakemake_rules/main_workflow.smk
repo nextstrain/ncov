@@ -1254,6 +1254,26 @@ rule mutational_fitness:
             --output {output} 2>&1 | tee {log}
         """
 
+rule escape_score:
+    input:
+        alignment = "results/escape/translations/aligned.gene.S_withInternalNodes.fasta",
+    output:
+        node_data = "results/{build_name}/escape_score.json"
+    benchmark:
+        "benchmarks/escape_score_{build_name}.txt"
+    log:
+        "logs/escape_score_{build_name}.txt"
+    conda:
+        config["conda_environment"],
+    resources:
+        mem_mb=2000
+    shell:
+        """
+        python3 escape_profiles/escape/sequence_to_escape.py \
+            --alignment {input.alignment} \
+            --output {output.node_data}
+        """
+
 rule calculate_epiweeks:
     input:
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
@@ -1340,6 +1360,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.mutational_fitness.output.node_data,
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data,
+        rules.escape_score.output.node_data   
     ]
 
     if "run_pangolin" in config and config["run_pangolin"]:
