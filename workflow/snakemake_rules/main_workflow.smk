@@ -1258,7 +1258,8 @@ rule escape_score:
     input:
         alignment = "results/escape/translations/aligned.gene.S_withInternalNodes.fasta",
     output:
-        node_data = "results/{build_name}/escape_score.json"
+        node_data = "results/{build_name}/escape_score.json",
+        csv = "results/{build_name}/escape_scores.csv",
     benchmark:
         "benchmarks/escape_score_{build_name}.txt"
     log:
@@ -1271,7 +1272,8 @@ rule escape_score:
         """
         python3 escape_profiles/escape/sequence_to_escape.py \
             --alignment {input.alignment} \
-            --output {output.node_data}
+            --output {output.node_data} \
+            --output-csv {output.csv}
         """
 
 rule calculate_epiweeks:
