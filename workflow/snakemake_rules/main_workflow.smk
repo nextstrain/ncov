@@ -863,7 +863,7 @@ rule refine:
             --divergence-unit {params.divergence_unit} \
             --date-confidence \
             --no-covariance \
-            {params.clock_filter_iqd} 2>&1 | tee {log}
+            {params.clock_filter_iqd} 2>&1 > {log}
         """
 
 rule ancestral:
