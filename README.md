@@ -10,3 +10,8 @@ if Nextstrain toolkit is installed locally. Or if using Docker and CLI, run with
 ```
 nextstrain build . --profile escape_profiles/escape auspice/ncov_escape.json
 ```
+
+Visualize locally with:
+```
+auspice view --datasetDir auspice/
+```
