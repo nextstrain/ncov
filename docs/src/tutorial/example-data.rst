@@ -41,7 +41,7 @@ From within the ``ncov/`` directory, run the workflow using a :term:`configurati
 
 .. code:: text
 
-   nextstrain build . --cores all --configfile ncov-tutorial/example-data.yaml
+   nextstrain build . --configfile ncov-tutorial/example-data.yaml
 
 Break down the command
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -50,8 +50,6 @@ The workflow can take several minutes to run. While it is running, you can learn
 
 - ``nextstrain build .``
    - This tells the :term:`docs.nextstrain.org:Nextstrain CLI` to :term:`build <docs.nextstrain.org:build (verb)>` the workflow from ``.``, the current directory. All subsequent command-line parameters are passed to the workflow manager, Snakemake.
-- ``--cores all``
-   - This required Snakemake parameter specifies the number of CPU cores to use (:doc:`more info <snakemake:executing/cli>`).
 - ``--configfile ncov-tutorial/example-data.yaml``
    - ``--configfile`` is another Snakemake parameter used to configure the ncov workflow.
    - ``ncov-tutorial/example-data.yaml`` is a configuration file that provides custom workflow configuration including inputs and outputs. The contents of this file with comments excluded are:
