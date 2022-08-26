@@ -82,7 +82,7 @@ From within the ``ncov/`` directory, run the ``ncov`` workflow using a pre-writt
 
 .. code:: text
 
-   nextstrain build . --cores all --configfile ncov-tutorial/genomic-surveillance.yaml
+   nextstrain build . --configfile ncov-tutorial/genomic-surveillance.yaml
 
 Break down the command
 ~~~~~~~~~~~~~~~~~~~~~~
