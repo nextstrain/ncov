@@ -2,17 +2,24 @@
 Run the workflow on Terra
 *************************
 
+We have wrapped the ncov workflow for use in Terra:
+
+.. image:: ../images/terra-ncov.png
+
+We recommend starting with the "minimal" use case (first row in "User Provided Data") with steps described below:
+
 Import ``ncov`` WDL workflow from Dockstore
 ===========================================
 
-1. `Setup a Terra account <https://terra.bio/>`_
-#. Navigate to Dockstore: `ncov:master`_
-#. Top right corner, under **Launch with**, click on **Terra**
-#. Under "Workflow Name" set a name, can also leave default ``ncov``, and select your **Destination Workspace** in the drop down menu.
-#. Click button **IMPORT**
-#. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card
+1. `Set up a Terra account <https://terra.bio/>`_.
+#. Navigate to Dockstore: `nextstrain/ncov/ncov`_
+#. At the top right corner, under **Launch with**, click on **Terra**. You may be prompted to log in.
+#. Provide a **Workflow Name** (e.g. ``ncov``).
+#. Select a **Destination Workspace** from the dropdown menu.
+#. Click **IMPORT**.
+#. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card.
 
-.. _`ncov:master`: https://dockstore.org/workflows/github.com/nextstrain/ncov:master?tab=info
+.. _`nextstrain/ncov/ncov`: https://dockstore.org/workflows/github.com/nextstrain/ncov/ncov:master?tab=info
 
 Upload your data files into Terra
 =================================
@@ -64,8 +71,38 @@ Connect your data files to the WDL workflow
   |Nextstrain_WRKFLW|  sequence_fasta  | File  | this.sequences       |
   +-----------------+------------------+-------+----------------------+
 
-10. Click on the **OUTPUTS** tab
-11. Connect your generated output back to the data table, but filling in values:
+10. If creating a build with multiple sequence and metadata files, can upload a tarball containing the files as described in `this tutorial`_. Otherwise skip
+
+  +-----------------+-----------------+-------+----------------------+
+  |Task name        | Variable        | Type  |   Attribute          |
+  +=================+=================+=======+======================+
+  |Nextstrain_WRKFLW|  context_targz  | File  | this.context_targz   |
+  +-----------------+-----------------+-------+----------------------+
+
+.. _`this tutorial`: https://docs.nextstrain.org/projects/ncov/en/latest/guides/data-prep/gisaid-search.html#download-contextual-data-for-your-region-of-interest
+
+11. OPTIONAL CHANGE: If you are uploading GISAID/GenBank, or very large sequence files, it is highly recommended to increase disk size.
+
+  +-----------------+-------------------+-------+---------------------------------------------+
+  |Task name        | Variable          | Type  |  Description                                |
+  +=================+===================+=======+=============================================+
+  |Nextstrain_WRKFLW|  disk_size        | Int   | 30 gb by default, may need to expand to 500 |
+  +-----------------+-------------------+-------+---------------------------------------------+
+
+12. OPTIONAL CHANGE: If you have a private/public nextstrain group, specify the following variables to push to an s3 site. Otherwise this step can be skipped.
+
+  +-----------------+-----------------------+--------+--------------------------------+
+  |Task name        | Variable              | Type   |  Description                   |
+  +=================+=======================+========+================================+
+  |Nextstrain_WRKFLW| s3deploy              | String | nextstrain provided url string |
+  +-----------------+-----------------------+--------+--------------------------------+
+  |Nextstrain_WRKFLW| AWS_ACCESS_KEY_ID     | String | your group access key id       |
+  +-----------------+-----------------------+--------+--------------------------------+
+  |Nextstrain_WRKFLW| AWS_SECRET_ACCESS_KEY | String | your group secret access key   |
+  +-----------------+-----------------------+--------+--------------------------------+
+
+13. Click on the **OUTPUTS** tab
+14. Connect your generated output back to the data table, but filling in values:
 
   +-----------------+-----------------+-------+----------------------+
   |Task name        | Variable	      | Type  |   Attribute          |
@@ -75,6 +112,6 @@ Connect your data files to the WDL workflow
   |Nextstrain_WRKFLW|  results_zip    | File  | this.results_zip     |
   +-----------------+-----------------+-------+----------------------+
 
-12. Click on **Save** then click on **Run Analysis**
+15. Click on **Save** then click on **Run Analysis**
 #. Under the tab **JOB HISTORY**, verify that your job is running.
 #. When run is complete, check the **DATA** / **TABLES** / **ncov_examples** tab and download "auspice.zip" file

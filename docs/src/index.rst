@@ -46,6 +46,7 @@ If you have a specific question, `post a note on the discussion board <https://d
    guides/workflow-config-file
    guides/customizing-visualization
    guides/run-analysis-on-terra
+   guides/run-ingest-on-terra   
 
 .. toctree::
    :maxdepth: 1
