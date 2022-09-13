@@ -12017,6 +12017,7 @@ division	Black River	-20.32645475	57.415467680680635
 division	Blagoevgrad	42.0209	23.0943
 division	Blekinge	56.12401225	15.40220875187768
 division	Blida	36.48329	2.808751
+division	Boa Vista	16.099508999999998	-22.800941096303617
 division	Bobonong	-22.092649	28.4756626
 division	Bobrov	49.4291733	19.5421527
 division	Bocas del Toro	9.3040914	-82.12843877974339
@@ -12137,6 +12138,7 @@ division	Canelones	-34.6222482	-55.9903797
 division	Canindeyu	-24.25	-55.25
 division	Cantabria	43.1595664	-4.0878382
 division	Canterbury	-43.346635	172.190743
+division	Cantho	10.0906589	105.5799367
 division	Cao Bang	22.7730867	106.0017225
 division	Capital And Coast	-41.271456689211895	174.7000050015941
 division	Capital Governorate	26.2285	50.5860
@@ -13980,6 +13982,7 @@ division	Setúbal	38.5260	-8.8909
 division	Seychelles	-4.6574977	55.4540146
 division	Sezimovo Usti	49.38422095	14.715199399581845
 division	Sfax	34.72312735	10.33587885553419
+division	Shahrekord	32.3257366	50.8497369
 division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
 division	Sharjah	25.3525369	55.4378628
@@ -14331,6 +14334,7 @@ division	Tyumen Region	58.8206488	70.3658837
 division	Uasin Gishu	0.4771938	35.30505973699228
 division	Ubonratchathani	15.226428	104.8581711
 division	Ucayali	-9.0	-73.5
+division	Udmurtian Republic	57.1961165	52.6959832
 division	Udon Thani	17.5211917	102.6680012
 division	Uganda	1.3733	32.2903
 division	Uhlirske Janovice	49.8807582	15.064492
@@ -14475,7 +14479,7 @@ division	Waremme	50.692236	5.260861
 division	Warminsko-Mazurskie	53.924679	20.844499
 division	Warwick	32.2684491	-64.8029460512908
 division	Washington	47.183945	-119.950361
-division	Washington DC	38.895650	-77.018707
+division	Washington DC	38.8950368	-77.0365427
 division	Waterford	52.2609997	-7.1119081
 division	Wele Nzas	1.4648719	11.131676
 division	Wellington	-41.273449	174.857634
@@ -14703,6 +14707,7 @@ country	Libya	26.4215275	17.30331995251014
 country	Liechtenstein	47.1416307	9.5531527
 country	Lithuania	55.378752	23.945328
 country	Luxembourg	49.755428	6.119486
+country	Macao	22.1899448	113.5380454
 country	Madagascar	-18.9249604	46.4416422
 country	Malawi	-13.2687204	33.9301963
 country	Malaysia	4.264153	102.222436
@@ -14741,6 +14746,7 @@ country	Peru	-9.650468	-75.328211
 country	Philippines	11.383086	123.521862
 country	Poland	52.0977181	19.0258159
 country	Portugal	39.54046	-8.174701
+country	Puerto Rico	18.2247706	-66.4858295
 country	Qatar	25.230573	51.183951
 country	Republic of the Congo	-0.516362	15.877811
 country	Romania	45.9432	24.9668
