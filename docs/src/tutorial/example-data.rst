@@ -16,19 +16,13 @@ Prerequisites
 Setup
 -----
 
-1. Activate the ``nextstrain`` conda environment:
-
-   .. code:: text
-
-      conda activate nextstrain
-
-2. Change directory to the ``ncov`` directory:
+1. Change directory to the ``ncov`` directory:
 
    .. code:: text
 
       cd ncov
 
-3. Download the example tutorial repository into a new subdirectory of ``ncov/`` called ``ncov-tutorial/``:
+2. Download the example tutorial repository into a new subdirectory of ``ncov/`` called ``ncov-tutorial/``:
 
    .. code:: text
 
