@@ -1,0 +1,6 @@
+{
+  "GISAID_INGEST.GISAID_API_ENDPOINT":"${workspace.GISAID_API_ENDPOINT}",
+  "GISAID_INGEST.GISAID_USERNAME_AND_PASSWORD":"${workspace.GISAID_USERNAME_AND_PASSWORD}",
+  "GISAID_INGEST.cache_nextclade_old":"${workspace.gisaid_nextclade_tsv}",
+  "GISAID_INGEST.ingest.giturl":"https://github.com/nextstrain/ncov-ingest/archive/refs/heads/master.zip"
+}

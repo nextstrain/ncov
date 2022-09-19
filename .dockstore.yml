@@ -1,8 +1,24 @@
 version: 1.2
 workflows:
    - subclass: WDL
-     primaryDescriptorPath: /workflow/wdl/workflow.wdl
+     primaryDescriptorPath: /workflow/wdl/ncov_workflow.wdl
      testParameterFiles:
-     - /workflow/wdl/input_ncov.json
+     - /workflow/wdl/ncov_workflow.json
+     name: ncov
      authors:
       - name: Nextstrain
+   - subclass: WDL
+     primaryDescriptorPath: /workflow/wdl/gisaid_ingest.wdl
+     testParameterFiles:
+     - /workflow/wdl/gisaid_ingest.json
+     name: gisaid_ingest
+     authors:
+      - name: Nextstrain
+   - subclass: WDL
+     primaryDescriptorPath: /workflow/wdl/genbank_ingest.wdl
+     testParameterFiles:
+     - /workflow/wdl/genbank_ingest.json
+     name: genbank_ingest
+     authors:
+      - name: Nextstrain
+    
