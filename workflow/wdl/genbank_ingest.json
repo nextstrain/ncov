@@ -1,0 +1,3 @@
+{
+  "GENBANK_INGEST.cache_nextclade_old":"${workspace.genbank_nextclade_tsv}"
+}

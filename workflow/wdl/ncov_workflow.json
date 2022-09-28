@@ -1,0 +1,4 @@
+{
+  "Nextstrain_WRKFLW.metadata_tsv":"${this.metadata}",
+  "Nextstrain_WRKFLW.sequence_fasta":"${this.sequences}"
+}
