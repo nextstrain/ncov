@@ -3237,12 +3237,20 @@ location	Velingara
 location	Freetown
 
 ### Guinea
+# Boke
+location	Boke
+
 # Conakry
 location	Dixin
 location	Dixinn
 location	Kaloum
+location	Matam
 location	Matoto
 location	Ratoma
+
+# Kindia
+location	Coyah
+location	Kindia
 
 # Labe Region
 location	Lelouma
@@ -4167,6 +4175,7 @@ location	Napak
 # Southern Region MW
 location	Blantyre
 location	Chikwawa
+location	Ntcheu
 location	Southern
 location	Thyolo
 location	Zomba
@@ -6890,6 +6899,7 @@ location	Auvers sur Oise
 location	Auzances
 location	Auzat la Combelle
 location	Auzat sur Allier
+location	Auzelles
 location	Avermes
 location	Aveze
 location	Avril sur Loire
@@ -7216,6 +7226,7 @@ location	Le Mont Dore
 location	Le Mont-Dore
 location	Le Monteil
 location	Le Montet
+location	Le Plessy Pate
 location	Le Puy
 location	Le Puy en Velay
 location	Le Puy-en-Velay
@@ -7329,6 +7340,7 @@ location	Murol
 location	Nantes (Auvergne-Rhône-Alpes)
 location	Naucelles
 location	Nebouzat
+location	Neronde sur Dore
 location	Neschers
 location	Neussargues Moissac
 location	Neuveglise
@@ -7337,6 +7349,7 @@ location	Nizerolles
 location	Noailly
 location	Nohanent
 location	Olby
+location	Olliergues
 location	Olloix
 location	Olmet
 location	Orbeil
@@ -7356,6 +7369,7 @@ location	Parent
 location	Paris 03
 location	Paris 05
 location	Paris 11
+location	Paris 16
 location	Paslieres
 location	Paugnat
 location	Paulhac
@@ -7481,6 +7495,7 @@ location	Seneujols
 location	Serbannes
 location	Sermentizon
 location	Sermoise sur Loire
+location	Servant
 location	Seuillet
 location	Siant Ignat
 location	Singles
@@ -7535,6 +7550,7 @@ location	St Germain de Salles
 location	St Gervais D Auvergne
 location	St Gervazy
 location	St Hilaire Les Monges
+location	St Hilaire Pres Pionsat
 location	St Hilaire la Croix
 location	St Hippolyte
 location	St Ignat
@@ -7562,6 +7578,7 @@ location	St Priest D Andelot
 location	St Priest des Champs
 location	St Priest la Vetre
 location	St Privat Du Dragon
+location	St Prix
 location	St Quintin sur Sioule
 location	St Remy de Salers
 location	St Remy en Rollat
@@ -7665,6 +7682,7 @@ location	Voiron
 location	Vollore Ville
 location	Volvic
 location	Vorey
+location	Ygrande
 location	Yolet
 location	Youx
 location	Yronde Et Buron
@@ -12520,6 +12538,7 @@ location	Rozstani
 location	Seloutky
 location	Skalicka
 location	Slatinice
+location	Stepanov U Olomouce
 location	Sternberk
 location	Sudkov
 location	Sumperk
@@ -12671,6 +12690,7 @@ location	Dolni Lutyne
 location	Dolni Zivotice
 location	Doubrava
 location	Drahanovice
+location	Dvorce U Bruntalu
 location	Frenstat Pod Radhostem
 location	Frycovice
 location	Frydlant nad Ostravici
@@ -14924,6 +14944,7 @@ location	Stegny
 location	Stepien
 location	Suchacz
 location	Susz
+location	Suwalski
 location	Swiatki
 location	Szabruk
 location	Szalkowo
@@ -16521,8 +16542,13 @@ location	Skirino
 location	Veliky Novgorod
 
 # Bryansk Oblast
+location	Belaya Beryozka
 location	Bryansk
+location	Fokino
+location	Karachev
+location	Seltso
 location	Unecha
+location	Vygonichi
 
 # Karelia
 location	Derevyanka
@@ -16534,6 +16560,7 @@ location	Pindushi
 location	Podporozhye
 location	Porosoozero
 location	Povenets
+location	Pudozh
 location	Shuya (Karelia)
 location	Sortavala
 location	Sosnovka
@@ -16681,6 +16708,8 @@ location	Uglich
 location	Yaroslavl
 
 # Lipetsk
+location	Chaplygin
+location	Lebedyan
 location	Lipetsk
 
 # Krasnodar
@@ -16934,6 +16963,7 @@ location	Trudovoye
 location	Perm
 
 # Bashkortostan
+location	Birsk
 location	Bogdanova
 location	Burayevo
 location	Chishmy
@@ -16944,6 +16974,7 @@ location	Mikhaylovka
 location	Milovka
 location	Nikolo-Berezovka
 location	Nizhegorodka
+location	Oktyabrsky
 location	Salavat
 location	Sibay
 location	Starobaltachevo
@@ -17034,7 +17065,10 @@ location	Tara
 location	Ust-Ishim
 
 # Yamalo-Nenets Autonomous Okrug
+location	Gubkinsky
+location	Muravlenko
 location	Novy Urengoy
+location	Noyabrsk
 location	Salekhard
 
 # Kursk Region
@@ -17082,16 +17116,19 @@ location	Arkhara
 location	Belogorsk
 location	Blagoveshchensk
 location	Gilchin
+location	Ivanovka
 location	Konstantinovka
 location	Novokiyevsky Uval
 location	Poyarkovo
 location	Progress
 location	Raychikhinsk
 location	Romny
+location	Shimanovsk
 location	Svobodny (Amur Region)
 location	Svobodnyy
 location	Tambovka
 location	Yekaterinoslavka
+location	Yerofey Pavlovich
 location	Zavitinsk
 location	Zeya
 
@@ -17309,6 +17346,7 @@ location	Marcos Paz
 location	Marmol
 location	Mercedes AR
 location	Merlo
+location	Monte Castro
 location	Monte Chingolo
 location	Monte Grande
 location	Moreno AR
@@ -17331,6 +17369,7 @@ location	Salto AR
 location	San Andres de Giles
 location	San Carlos de Bolivar
 location	San Fernando AR
+location	San Francisco Solano
 location	San Isidro AR
 location	San Martin (Buenos Aires)
 location	San Miguel AR
@@ -20748,6 +20787,7 @@ location	Santo Antonio do Aventureiro
 location	Santo Antonio do Grama
 location	Santo Antonio do Monte
 location	Santo Hipolito
+location	Sao Bras do Suacui
 location	Sao Domingos Das Dores
 location	Sao Francisco (Minas Gerais)
 location	Sao Francisco de Sales
@@ -20803,7 +20843,6 @@ location	Urucania
 location	Varginha
 location	Varjão de Minas
 location	Varzelandia
-location	Vermelho Novo
 location	Vespasiano
 location	Vicosa (Minas Gerais)
 location	Virginopolis
@@ -23435,6 +23474,10 @@ location	Puerto Barrios
 location	San Pedro Town
 
 ### Puerto Rico
+### Dominican Republic
+# Distrito Nacional
+location	Santo Domingo
+
 ### Mexico
 # Baja California
 location	Ensenada MX
@@ -24253,11 +24296,13 @@ location	Carbon
 location	Carbon County MT
 location	Carter MT
 location	Cascade County
+location	Chouteau
 location	Chouteau County
 location	Columbiafalls
 location	Custer County MT
 location	Custer MT
 location	Cutbank
+location	Daniels
 location	Daniels County
 location	Dawson County MT
 location	Dawson MT
@@ -24270,7 +24315,6 @@ location	Fergus
 location	Fergus County
 location	Flathead
 location	Flathead County
-location	Ft Shaw
 location	Gallatin County MT
 location	Garfield
 location	Garfield County MT
@@ -24286,11 +24330,11 @@ location	Hill
 location	Hill County MT
 location	Jefferson County MT
 location	Jefferson MT
+location	Judith Basin
 location	Judith Basin County
 location	Lake County MT
 location	Lake MT
 location	Lamedeer
-location	Ledger
 location	Lewis & Clark County
 location	Lewis and Clark
 location	Lewis and Clark County
@@ -24298,7 +24342,6 @@ location	Liberty County MT
 location	Liberty MT
 location	Lincoln County MT
 location	Lincoln MT
-location	Lodgegrass
 location	Madison County MT
 location	Madison MT
 location	McCone County
@@ -24309,9 +24352,9 @@ location	Mineral
 location	Mineral County MT
 location	Missoula County
 location	Musselshell County
+location	North America
 location	Northcentral
 location	Northwest
-location	Orland
 location	Park
 location	Park County MT
 location	Phillips
@@ -24325,7 +24368,6 @@ location	Powell County MT
 location	Powell MT
 location	Prairie
 location	Prairie County MT
-location	Ramsay
 location	Ravalli
 location	Ravalli County
 location	Richland
@@ -24348,7 +24390,6 @@ location	Sweet Grass
 location	Sweet Grass County
 location	Teton
 location	Teton County MT
-location	Threeforks
 location	Toole
 location	Toole County
 location	Treasure
@@ -26530,6 +26571,7 @@ location	Washington County KY
 location	Allegan County
 location	Alpena County
 location	Avoca
+location	Barry County
 location	Bay County MI
 location	Belle River
 location	Berrien County
@@ -29007,6 +29049,7 @@ division	Keelung
 ### Philippines
 division	Bangsamoro Autonomous Region In Muslim Mindanao
 division	Soccsksargen
+division	Soccsksargen Region
 division	Davao Region
 division	Zamboanga Peninsula
 division	Lanao del Norte
@@ -31055,6 +31098,7 @@ division	Amazonas VE
 division	Venezuela
 division	Nueva Esparta
 division	Bolivar VE
+division	Monagas
 division	Delta Amacuro
 
 ### Trinidad and Tobago
