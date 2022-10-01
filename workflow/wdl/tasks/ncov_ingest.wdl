@@ -46,16 +46,16 @@ task gisaid_ingest {
 
       # Detect and decompress xz or zst files
       if [[ $NEXTCLADE_CACHE == *.xz ]]; then
-        mv ~{cache_nextclade_old} .
+        cp ~{cache_nextclade_old} .
         xz -T0 --decompress ~{basename(select_first([cache_nextclade_old,'']))}
         export NEXTCLADE_CACHE="~{basename(select_first([cache_nextclade_old,'']),'.xz')}"
       elif [[ $NEXTCLADE_CACHE == *.zst ]]; then
-        mv ~{cache_nextclade_old} .
+        cp ~{cache_nextclade_old} .
         zstd -T0 -d ~{basename(select_first([cache_nextclade_old,'']))}
         export NEXTCLADE_CACHE="~{basename(select_first([cache_nextclade_old,'']),'.zst')}"
       fi
 
-      mv $NEXTCLADE_CACHE ${NCOV_INGEST_DIR}/data/gisaid/nextclade_old.tsv
+      cp $NEXTCLADE_CACHE ${NCOV_INGEST_DIR}/data/gisaid/nextclade_old.tsv
       echo "nextclade_old.tsv has " `wc -l ${NCOV_INGEST_DIR}/data/gisaid/nextclade_old.tsv` " records."
     fi
 
@@ -175,16 +175,16 @@ task genbank_ingest {
 
       # Detect and decompress xz or zst files
       if [[ $NEXTCLADE_CACHE == *.xz ]]; then
-        mv ~{cache_nextclade_old} .
+        cp ~{cache_nextclade_old} .
         xz -T0 --decompress ~{basename(select_first([cache_nextclade_old,'']))}
         export NEXTCLADE_CACHE="~{basename(select_first([cache_nextclade_old,'']),'.xz')}"
       elif [[ $NEXTCLADE_CACHE == *.zst ]]; then
-        mv ~{cache_nextclade_old} .
+        cp ~{cache_nextclade_old} .
         zstd -T0 -d ~{basename(select_first([cache_nextclade_old]))}
         export NEXTCLADE_CACHE="~{basename(select_first([cache_nextclade_old,'']),'.zst')}"
       fi
 
-      mv $NEXTCLADE_CACHE ${NCOV_INGEST_DIR}/data/genbank/nextclade_old.tsv
+      cp $NEXTCLADE_CACHE ${NCOV_INGEST_DIR}/data/genbank/nextclade_old.tsv
       echo "nextclade_old.tsv has " `wc -l ${NCOV_INGEST_DIR}/data/genbank/nextclade_old.tsv` " records."
     fi
 
