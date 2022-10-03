@@ -1,0 +1,159 @@
+clade	gene	site	alt
+
+19A	nuc	8782	C
+19A	nuc	14408	C
+
+19B	nuc	8782	T
+19B	nuc	28144	C
+
+20A	clade	19A
+20A	nuc	14408	T
+20A	nuc	23403	G
+
+20B	clade	20A
+20B	nuc	28881	A
+20B	nuc	28882	A
+
+20C	clade	20A
+20C	nuc	1059	T
+20C	nuc	25563	T
+
+20D	clade	20B
+20D	nuc	4002	T
+20D	nuc	10097	A
+20D	nuc	13536	T
+20D	nuc	23731	T
+
+20E	clade	20A
+20E	nuc	22227	T
+20E	nuc	28932	T
+20E	nuc	29645	T
+
+20F	clade	20B
+20F	nuc	1163	T
+20F	nuc	7540	C
+20F	nuc	16647	T
+20F	nuc	18555	T
+20F	nuc	22992	A
+20F	nuc	23401	A
+
+20G	clade	20C
+20G	nuc	10319	T
+20G	nuc	18424	G
+20G	nuc	25907	T
+20G	nuc	27964	T
+20G	nuc	28472	T
+20G	nuc	28869	T
+
+20H	clade	20C
+20H	nuc	23012	A
+20H	nuc	23063	T
+20H	nuc	23403	G
+20H	nuc	26456	T
+
+20I	clade	20B
+20I	nuc	14676	T
+20I	nuc	15279	T
+20I	nuc	23063	T
+
+20J	clade	20B
+20J	nuc	733	C
+20J	nuc	2749	T
+20J	nuc	3828	T
+20J	nuc	5648	C
+20J	nuc	12778	T
+20J	nuc	13860	T
+
+21A	clade	20A
+21A	nuc	21618	G
+21A	nuc	26767	C
+21A	nuc	28461	G
+
+21B	clade	20A
+21B	nuc	17523	T
+21B	nuc	22917	G
+21B	nuc	23012	C
+21B	nuc	27638	C
+21B	nuc	28881	T
+21B	nuc	29402	T
+
+21C	clade	20C
+21C	nuc	17014	T
+21C	nuc	21600	T
+21C	nuc	22018	T
+21C	nuc	22917	G
+
+21D	clade	20A
+21D	nuc	14407	T
+21D	nuc	20724	G
+21D	nuc	23593	C
+21D	nuc	24224	C
+21D	nuc	24748	T
+
+21E	clade	20B
+21E	nuc	12049	T
+21E	nuc	23341	C
+21E	nuc	23604	A
+21E	nuc	24187	A
+21E	nuc	24836	A
+
+21F	clade	20C
+21F	nuc	16500	C
+21F	nuc	20262	G
+21F	nuc	21575	T
+21F	nuc	22320	G
+
+21G	clade	20D
+21G	nuc	21786	T
+21G	nuc	21789	T
+21G	nuc	22917	A
+21G	nuc	23031	C
+
+21H	clade	20A
+21H	nuc	3428	G
+21H	nuc	4878	T
+21H	nuc	11451	G
+21H	nuc	13057	T
+21H	nuc	17491	T
+21H	nuc	27925	A
+
+21I	clade	21A
+21I	nuc	5184	T
+21I	nuc	9891	T
+21I	nuc	22227	T
+
+21J	clade	21A
+21J	nuc	11332	G
+21J	nuc	19220	T
+
+21K	clade	21M
+21K	nuc	15240	T
+21K	nuc	23202	A
+21K	nuc	23525	T
+21K	nuc	27259	C
+
+21L	clade	21M
+21L	nuc	21618	T
+21L	nuc	22775	A
+
+21M	clade	20B
+21M	nuc	18163	G
+21M	nuc	23599	G
+
+22A	clade	21L
+22A	nuc	12160	A
+22A	nuc	9866	C
+22A	nuc	28724	T
+
+22B	clade	21L
+22B	nuc	12160	A
+22B	nuc	9866	C
+22B	nuc	27259	A
+
+22C	clade	21L
+22C	nuc	22917	A
+22C	nuc	23673	T
+
+22D	clade	21L
+22D	nuc	3796	T
+22D	nuc	26275	G
