@@ -74,3 +74,5 @@ This repository contains GitHub Actions `rebuild-gisaid` and `rebuild-open` whic
 These will run the respective phylogenetic build pipelines starting from the preprocessed (filtered) files.
 This will ask for an optional “trial name” and upload intermediate files to  `nextstrain-ncov-private/trial/$TRIAL_NAME` and `nextstrain-staging/files/ncov/open/trial/$TRIAL_NAME`; if you don't supply this you will overwrite the files at `nextstrain-ncov-private` and `nextstrain-data/files/ncov/open`, as well as the trees at `nextstrain.org/ncov/gisaid/REGION` and `nextstrain.org/ncov/open/REGION`
 The GitHub action will follow along with the AWS job so that you can monitor the progress; as of October 2021 each action took around 3 hours.
+
+If you want to test a particular branch, you can select the branch to use for the trial build when running the Github action.
