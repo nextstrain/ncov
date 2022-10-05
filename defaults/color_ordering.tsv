@@ -31661,14 +31661,16 @@ clade_membership	22D (Omicron)
 
 ################
 
-
-emerging_lineage	AY.4.2 (Delta)
-emerging_lineage	AY.34 (Delta)
-emerging_lineage	AY.36 (Delta)
-emerging_lineage	AY.39 + S:1073N (Delta)
-emerging_lineage	B.1.1.529 (Omicron)
-emerging_lineage	BA.1 (Omicron)
-emerging_lineage	BA.2 (Omicron)
+emerging_lineages	BQ.1
+emerging_lineages	BQ.1.1
+emerging_lineages	XBB
+emerging_lineages	BA.2.3.20
+emerging_lineages	BN.1
+emerging_lineages	BM.1.1
+emerging_lineages	BA.2.75.2
+emerging_lineages	BA.5.2.23
+emerging_lineages	BS.1
+emerging_lineages	XBCB
 
 ################
 
