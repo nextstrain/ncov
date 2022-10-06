@@ -31661,16 +31661,16 @@ clade_membership	22D (Omicron)
 
 ################
 
-emerging_lineages	BQ.1
-emerging_lineages	BQ.1.1
-emerging_lineages	XBB
-emerging_lineages	BA.2.3.20
-emerging_lineages	BN.1
-emerging_lineages	BM.1.1
-emerging_lineages	BA.2.75.2
-emerging_lineages	BA.5.2.23
-emerging_lineages	BS.1
-emerging_lineages	XBC
+emerging_lineage	BQ.1
+emerging_lineage	BQ.1.1
+emerging_lineage	XBB
+emerging_lineage	BA.2.3.20
+emerging_lineage	BN.1
+emerging_lineage	BM.1.1
+emerging_lineage	BA.2.75.2
+emerging_lineage	BA.5.2.23
+emerging_lineage	BS.1
+emerging_lineage	XBC
 
 ################
 
