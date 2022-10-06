@@ -191,6 +191,11 @@ rule auspice_config:
                     "title": "Pango Lineage",
                     "type": "categorical"
                 },
+                {
+                    "key": "Nextclade_pango",
+                    "title": "Nextclade Pango Lineage",
+                    "type": "categorical"
+                },
                 gisaid_clade_coloring,
                 {
                     "key": "S1_mutations",
@@ -281,6 +286,7 @@ rule auspice_config:
                 "clade_membership",
                 "emerging_lineage",
                 "pango_lineage",
+                "Nextclade_pango",
                 "region",
                 "country",
                 "division",
