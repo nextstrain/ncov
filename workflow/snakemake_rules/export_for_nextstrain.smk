@@ -188,7 +188,7 @@ rule auspice_config:
                 },
                 {
                     "key": "pango_lineage",
-                    "title": "Pango Lineage",
+                    "title": "GISAID Pango Lineage",
                     "type": "categorical"
                 },
                 {
