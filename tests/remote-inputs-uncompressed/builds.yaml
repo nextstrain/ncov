@@ -8,12 +8,15 @@ inputs:
   - name: test-remote-uncompressed-americas-filtered
     metadata: s3://nextstrain-data/files/ncov/test-data/americas_metadata.tsv
     filtered: s3://nextstrain-data/files/ncov/test-data/americas_filtered.fasta
+  - name: references
+    metadata: data/references_metadata.tsv
+    sequences: data/references_sequences.fasta
 
 # As we are not including the test data from Asia (see above), this build will
 # be missing the default root sequence. We instead use
-# `data/references_sequences.fasta` (Wuhan/WH01/2019)
+# `data/references_sequences.fasta` that contains Wuhan/Hu-1/2019
 refine:
-  root: "Wuhan/WH01/2019"
+  root: "Wuhan/Hu-1/2019"
 
 builds:
   test-remote-uncompressed:

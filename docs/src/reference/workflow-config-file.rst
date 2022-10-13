@@ -841,14 +841,14 @@ root
 
 -  type: string
 -  description: Rooting mechanism or strain name(s) whose sequences should be used to root the time tree. Only one or two (space-delimited) strain names are supported.
--  default: ``Wuhan/WH01/2019``
+-  default: ``Wuhan/Hu-1/2019``
 -  examples:
 
    -  ``best``
    -  ``least-squares``
    -  ``min_dev``
    -  ``oldest``
-   -  ``Wuhan/Hu-1/2019 Wuhan/WH01/2019``
+   -  ``Wuhan/Hu-1/2019``
 
 clock_rate
 ~~~~~~~~~~
