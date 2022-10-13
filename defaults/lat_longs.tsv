@@ -11995,6 +11995,7 @@ division	Berrechid	33.2676746	-7.5811465
 division	Bethlehem	31.7043556	35.2061876
 division	Beyla	8.909431999999999	-8.367475476673686
 division	Bhaktapur	27.6720657	85.428171
+division	Bhutan	27.549511	90.5119273
 division	Bicol	13.100588	123.52313310936306
 division	Bicol Region	13.100588	123.52313310936306
 division	Bie	-12.2630485	17.4967812
@@ -12093,6 +12094,7 @@ division	Bujumbura	-3.3638125	29.3675028
 division	Bukhara Region	40.229366	63.5470584
 division	Bulawayo	-20.1560599	28.5887063
 division	Bulgaria	42.6073975	25.4856617
+division	Bumthang	27.707913249999997	90.76974352912633
 division	Bungoma	0.78292445	34.71916810731902
 division	Buraimi	24.268575	55.826808
 division	Burgas	42.446600000000004	27.20620689265119
@@ -12211,6 +12213,7 @@ division	Chaco	-26.3829647	-60.8816092
 division	Chad	15.6134137	19.0156172
 division	Chai Nat	15.1853305	100.1250568
 division	Chaiyaphum	16.2720349	101.7153824
+division	Chalatenango	14.0413868	-88.9394082
 division	Chalkidiki	40.28948215	23.409392443373925
 division	Chandigarh	30.7334421	76.7797143
 division	Changhua County	24.0755667	120.5444667
@@ -12247,6 +12250,7 @@ division	Chongqing	29.858721	107.375623
 division	Chtouka	33.3136606	-8.1672835
 division	Chubu	35.183334	136.899994
 division	Chubut	-43.7128356	-68.7461817
+division	Chukha	26.943123	89.3770528
 division	Chungcheongnam	36.685948	126.799198
 division	Chuquisaca	-19.0477251	-65.2594306
 division	Chushikoku	34.237636	133.058999
@@ -12322,6 +12326,7 @@ division	Dabou	5.322596	-4.3742639
 division	Dadra and Nagar Haveli	20.2733604	73.0044988
 division	Dadra and Nagar Haveli and Daman and Diu	20.718174949999998	70.93238341010638
 division	Daegu	35.8713	128.6018
+division	Dagana	27.0711389	89.820104
 division	Dagestan	43.0574916	47.1332224
 division	Dakar	14.725966	-17.46181
 division	Dakhiliyah	22.316676	57.359135
@@ -12622,6 +12627,7 @@ division	Gyeonggi Province	37.397957	127.380864
 division	Győr-Moson-Sopron County	47.6610134	17.3796437
 division	Ha Nam	20.5269088	105.9543527
 division	Ha Tinh	18.2879059	105.7842774
+division	Haa	27.3596658	89.2357556
 division	Haa Alif Atoll	7.00898255	72.92348820538749
 division	Haa Dhaalu Atoll	6.3103185	72.61034925814599
 division	Hadžići	43.8226456	18.2025181
@@ -13034,6 +13040,7 @@ division	La Pampa	-37.2314643	-65.3972948
 division	La Paz	-16.4955455	-68.1336229
 division	La Paz BO	-16.4955455	-68.1336229
 division	La Paz HN	14.2910717	-87.7912101
+division	La Paz SV	13.46697665	-88.98506215043079
 division	La Rioja	42.2871	-2.5396
 division	La Rioja AR	-29.62487279826059	-66.86176517635946
 division	La Rioja ES	42.31366609897772	-2.583157318755303
@@ -13365,6 +13372,7 @@ division	Mozambique	-19.302233	34.9144977
 division	Mpumalanga	-25.5653	30.5279
 division	Muchinga	-11.385112	31.9525422
 division	Mudug	6.6507279	48.3009945
+division	Mukdahan	16.6972385	104.3470293
 division	Multan	30.1979793	71.4724978
 division	Mumbai	19.0760	72.8777
 division	Munich	48.144747	11.561739
@@ -13646,6 +13654,7 @@ division	Paraiba	-7.1219366	-36.7246845
 division	Paraná	-25.2521	-52.0215
 division	Pardesia	32.3050	34.9117
 division	Pardubice Region	50.0385812	15.7791356
+division	Paro	27.4646365	89.3183409
 division	Partizanske	48.6264092	18.3730067
 division	Pasco	-10.5	-75.25
 division	Pastaza	-1.724421	-76.870721
@@ -13758,8 +13767,10 @@ division	Pskov Oblast	57.5358729	28.8586826
 division	Ptolemaida	40.5122349	21.6785518
 division	Puducherry	10.91564885	79.80694879844232
 division	Puebla	19.0414	-98.2063
+division	Puerto Plata	19.7444333	-70.8000756
 division	Puerto Rico	18.2208	-66.5901
 division	Pula	44.870671	13.867625
+division	Punakha	27.6685526	89.7089548
 division	Punjab	31.1471	75.3412
 division	Punjab IN	30.9293211	75.5004841
 division	Punjab PK	31.0	72.0
@@ -13922,6 +13933,7 @@ division	San Marcos	14.9533135	-91.91204441598504
 division	San Martin	-7.0	-76.833333
 division	San Miguelito	9.0551061	-79.4933063
 division	San Pedro	-24.25	-56.5
+division	San Pedro de Macoris	18.5116478	-69.4799563
 division	San Salvador	13.6989939	-89.1914249
 division	San Salvador SV	13.6989939	-89.1914249
 division	Sangmelima	2.936176	11.975646
@@ -14239,6 +14251,7 @@ division	The Marches	43.3458388	13.1415872
 division	Thessaloniki	40.636023	22.943965
 division	Thessaly	39.5649006	22.15384856543278
 division	Thies	14.791	-16.9359
+division	Thimphu	27.4713546	89.6336729
 division	Thrace	40.7229413	22.9237909
 division	Thuin	50.326454	4.308720
 division	Thurgau	47.576816	9.072051
@@ -14482,6 +14495,7 @@ division	Wales	52.306085	-3.621944
 division	Wallis and Futuna	-13.289402	-176.204224
 division	Wallis and Futuna Islands	-13.289402	-176.204224
 division	Wallonia	50.154533099999995	5.3991821671645575
+division	Wangdue	27.5	90.133333
 division	Waremme	50.692236	5.260861
 division	Warminsko-Mazurskie	53.924679	20.844499
 division	Warwick	32.2684491	-64.8029460512908
@@ -14630,6 +14644,7 @@ country	Belgium	50.707735	4.677726
 country	Belize	16.8259793	-88.7600927
 country	Benin	9.961027	2.327362
 country	Bermuda	32.3018217	-64.7603583
+country	Bhutan	27.549511	90.5119273
 country	Bolivia	-17.0568696	-64.9912286
 country	Bonaire	12.167	-68.29096143734236
 country	Bosnia and Herzegovina	43.9159	17.6791
