@@ -35,6 +35,9 @@ if __name__ == '__main__':
     if args.metadata:
         metadata = pd.read_csv(args.metadata, delimiter='\t')
         for name, trait in assignment.items():
+            if name == "clade_membership" and "Nextstrain_clade" in metadata:
+                subset_present = [x for x in assignment[name] if x in metadata["Nextstrain_clade"].unique()]
+                assignment[name] = subset_present
             if name in metadata:
                 subset_present = [x for x in assignment[name] if x in metadata[name].unique()]
                 assignment[name] = subset_present
