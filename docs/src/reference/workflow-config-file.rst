@@ -124,7 +124,7 @@ builds
        subsampling_scheme: country
 
      # this will use a custom subsampling scheme that you provide
-     # which will have access to the provided `my_param` 
+     # which will have access to the provided `my_param`
      washington:
        subsampling_scheme: my_scheme
        my_param: some value
@@ -708,7 +708,7 @@ crowding_penalty
 
    priorities:
      crowding_penalty: 0.0
-     # You may wish to set `crowding_penalty = 0.0` (default value = `0.1`) if you are interested in seeing as many samples as possible that are closely related to your `focal` set. 
+     # You may wish to set `crowding_penalty = 0.0` (default value = `0.1`) if you are interested in seeing as many samples as possible that are closely related to your `focal` set.
 
 .. _title-1:
 
