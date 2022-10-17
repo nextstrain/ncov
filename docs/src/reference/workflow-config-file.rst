@@ -719,6 +719,7 @@ run_pangolin
 -  description: Enable annotation of Pangolin lineages for a given build's subsampled sequences.
 -  default: ``false``
 
+.. _workflow-config-mask:
 
 mask
 ----
@@ -771,6 +772,10 @@ min_length
 -  type: integer
 -  description: Minimum number of valid nucleotides (A, C, T, or G) for a genome to be included in the analysis by ``augur filter --min-length``.
 -  default: ``27000``
+
+.. note::
+   The ``min_length`` filter is applied to the **masked** sequences, not the original input sequences.
+   Depending on your :ref:`mask config parameters <workflow-config-mask>`, the masked sequences may contain more Ns than the original sequences and fail the ``min_length`` filter.
 
 exclude_where
 ~~~~~~~~~~~~~
