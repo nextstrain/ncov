@@ -23,13 +23,14 @@ There are a few steps where sequences can be removed:
 -  During the ``filter`` step:
 
    -  Samples that are included in `the exclude file <https://github.com/nextstrain/ncov/blob/master/defaults/exclude.txt>`__ are removed
-   -  Samples that fail the current filtering criteria, as defined in the ``parameters.yaml`` file, are removed. You can modify the snakefile as desired, but currently these are:
+   -  Samples that fail the filtering criteria, as defined in your :ref:`filter config <workflow-config-filter>`, are removed.
 
-      -  Minimum sequence length of 25kb
-      -  No ambiguity in (sample collection) date
+      - If you do not have any custom filtering criteria, the default filters in the `parameters.yaml <https://github.com/nextstrain/ncov/blob/master/defaults/parameters.yaml>`__ are applied.
 
-   -  Samples may be randomly removed during subsampling; see :doc:`../guides/workflow-config-file` for more info.
-   -  During the ``refine`` step, where samples that deviate more than 4 interquartile ranges from the root-to-tip vs time are removed
+   - Check the ``results/{build_name}/filtered_log.tsv`` file to see the filtered reason for each sequence.
+
+-  Samples may be randomly removed during subsampling; see :doc:`../guides/workflow-config-file` for more info.
+-  During the ``refine`` step, where samples that deviate more than 4 interquartile ranges from the root-to-tip vs time are removed
 
 Sequencing and alignment errors
 -------------------------------
