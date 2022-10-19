@@ -12,13 +12,13 @@ def find_matching_nodes(clades_fname, basal_clade_label, tree_fname):
                 basal_node_name = name
                 break
     if not basal_node_name:
-        print(f"ERROR: no node found with a clade_annotation of {basal_clade_label}")
-        sys.exit(2)
+        print(f"WARNING: no node found with a clade_annotation of {basal_clade_label}. This script will proceed, but no levels will be exported.")
+        return set()
     print(f"Node representing {basal_clade_label}: {basal_node_name}")
     T = Phylo.read(tree_fname, 'newick')
     basal_node = T.find_any({"name": basal_node_name})
     if not basal_node:
-        print(f"ERROR: {basal_node_name} not found in provided tree")
+        print(f"ERROR: {basal_node_name} not found in provided tree") # this should be fatal as it indicates a mismatch of provided inputs
         sys.exit(2)
     names = set([basal_node_name]) # include parent (the basal_clade_label defining branch)
     for n in basal_node.find_clades():
