@@ -203,6 +203,11 @@ rule auspice_config:
                     "type": "continuous"
                 },
                 {
+                    "key": "rbd_level",
+                    "title": "RBD Level",
+                    "type": "ordinal"
+                },
+                {
                     "key": "logistic_growth",
                     "title": "Logistic Growth",
                     "type": "continuous"
@@ -288,6 +293,7 @@ rule auspice_config:
                 "pango_lineage",
                 "Nextclade_pango",
                 "region",
+                "level",
                 "country",
                 "division",
                 location_filter,

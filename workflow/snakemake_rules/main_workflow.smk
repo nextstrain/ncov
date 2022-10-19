@@ -1304,6 +1304,25 @@ rule find_clusters:
            --output {output.clusters}
        """
 
+rule assign_rbd_levels:
+    input:
+        spike_alignment="results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta"
+    params:
+        config=config["files"]["rbd_level_definitions"],
+    output:
+        node_data="results/{build_name}/rbd_levels.json",
+    benchmark:
+        "benchmarks/assign_levels_{build_name}.txt",
+    conda:
+        config["conda_environment"],
+    shell:
+        """
+        python3 scripts/assign_rbd_levels.py \
+            --spike-alignment {input.spike_alignment} \
+            --config {params.config} \
+            --output-node-data {output.node_data} 2>&1 | tee {log}
+        """
+
 def export_title(wildcards):
     # TODO: maybe we could replace this with a config entry for full/human-readable build name?
     location_name = wildcards.build_name
@@ -1340,6 +1359,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.mutational_fitness.output.node_data,
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data,
+        rules.assign_rbd_levels.output.node_data,
     ]
 
     if "run_pangolin" in config and config["run_pangolin"]:

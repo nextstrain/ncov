@@ -1,0 +1,19 @@
+---
+## Definitions of the RBD mutations (in Spike) which define a genomes "RBD Level"
+## See https://github.com/neherlab/SARS-CoV-2_variant-reports/blob/main/reports/variant_report_latest_draft.md
+
+rbd_mutations:
+  # each entry in this list defines a RBD position. Each entry is a list of length 3 where
+  # [0] is the basal codon, [1] is the 1-based spike aa position, [2] is a list of codons which result in a level elevation
+  - ["R", 346, ["T", "S"]]
+  - ["K", 356, ["T"]]
+  - ["K", 444, ["T", "R", "N", "M"]]
+  - ["V", 445, ["A", "P"]]
+  - ["G", 446, ["S", "D"]]
+  - ["N", 450, ["D"]]
+  - ["L", 452, ["R", "Q", "M"]]
+  - ["N", 460, ["K"]]
+  - ["F", 486, ["S", "V", "L", "P"]]
+  - ["F", 490, ["S", "V", "L", "P"]]
+  - ["R", 493, ["Q"]] # note wuhan was Q, so a reversion here elevates the level
+  - ["S", 494, ["P"]]
