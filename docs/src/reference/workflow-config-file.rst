@@ -124,7 +124,7 @@ builds
        subsampling_scheme: country
 
      # this will use a custom subsampling scheme that you provide
-     # which will have access to the provided `my_param` 
+     # which will have access to the provided `my_param`
      washington:
        subsampling_scheme: my_scheme
        my_param: some value
@@ -708,7 +708,7 @@ crowding_penalty
 
    priorities:
      crowding_penalty: 0.0
-     # You may wish to set `crowding_penalty = 0.0` (default value = `0.1`) if you are interested in seeing as many samples as possible that are closely related to your `focal` set. 
+     # You may wish to set `crowding_penalty = 0.0` (default value = `0.1`) if you are interested in seeing as many samples as possible that are closely related to your `focal` set.
 
 .. _title-1:
 
@@ -719,6 +719,7 @@ run_pangolin
 -  description: Enable annotation of Pangolin lineages for a given build's subsampled sequences.
 -  default: ``false``
 
+.. _workflow-config-mask:
 
 mask
 ----
@@ -753,6 +754,7 @@ mask_sites
 
 
 
+.. _workflow-config-filter:
 
 filter
 ------
@@ -770,6 +772,10 @@ min_length
 -  type: integer
 -  description: Minimum number of valid nucleotides (A, C, T, or G) for a genome to be included in the analysis by ``augur filter --min-length``.
 -  default: ``27000``
+
+.. note::
+   The ``min_length`` filter is applied to the **masked** sequences, not the original input sequences.
+   Depending on your :ref:`mask config parameters <workflow-config-mask>`, the masked sequences may contain more Ns than the original sequences and fail the ``min_length`` filter.
 
 exclude_where
 ~~~~~~~~~~~~~
