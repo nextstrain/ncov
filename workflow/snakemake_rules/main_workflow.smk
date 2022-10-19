@@ -1306,9 +1306,12 @@ rule find_clusters:
 
 rule assign_rbd_levels:
     input:
-        spike_alignment="results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta"
+        spike_alignment="results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
+        clades="results/{build_name}/clades.json",
+        tree = "results/{build_name}/tree.nwk",
     params:
         config=config["files"]["rbd_level_definitions"],
+        basal_clade_label="21L (Omicron)"
     output:
         node_data="results/{build_name}/rbd_levels.json",
     benchmark:
@@ -1320,6 +1323,9 @@ rule assign_rbd_levels:
         python3 scripts/assign_rbd_levels.py \
             --spike-alignment {input.spike_alignment} \
             --config {params.config} \
+            --clades-node-data {input.clades} \
+            --basal-clade-label {params.basal_clade_label:q} \
+            --tree {input.tree} \
             --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
