@@ -68,6 +68,7 @@ files:
   emerging_lineages: "defaults/emerging_lineages.tsv"
   mutational_fitness_distance_map: "defaults/mutational_fitness_distance_map.json"
   sites_to_mask: "defaults/sites_ignored_for_tree_topology.txt"
+  rbd_level_definitions: "defaults/rbd_levels.yaml"
 
 # Define genes to translate during alignment by nextalign.
 genes: ["ORF1a", "ORF1b", "S", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF7b", "ORF8", "N", "ORF9b"]
