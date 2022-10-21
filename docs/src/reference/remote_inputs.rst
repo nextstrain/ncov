@@ -24,12 +24,12 @@ All available genomes and metadata
 
 Entire metadata & sequences data is uploaded from the ``ncov-ingest`` workflows for each of the ``gisaid`` and ``open`` sources:
 
--  ``metadata.tsv.gz``
--  ``sequences.fasta.xz``
--  ``nextclade.tsv.gz``
--  ``aligned.fasta.xz`` (Alignment via `Nextclade <https://docs.nextstrain.org/projects/nextclade/en/stable/user/output-files.html#aligned-nucleotide-sequences>`__. The default reference genome is `MN908947 <https://www.ncbi.nlm.nih.gov/nuccore/MN908947>`__ (Wuhan-Hu-1))
--  ``additional_info.tsv.gz`` (GISAID only)
--  ``flagged_metadata.txt.gz`` (GISAID only)
+-  ``metadata.tsv.gz`` and ``metadata.tsv.zst``
+-  ``sequences.fasta.xz`` and ``sequences.fasta.zst``
+-  ``nextclade.tsv.gz`` and ``nextclade.tsv.zst``
+-  ``aligned.fasta.xz`` and ``aligned.fasta.zst`` (Alignment via `Nextclade <https://docs.nextstrain.org/projects/nextclade/en/stable/user/output-files.html#aligned-nucleotide-sequences>`__. The default reference genome is `MN908947 <https://www.ncbi.nlm.nih.gov/nuccore/MN908947>`__ (Wuhan-Hu-1))
+-  ``additional_info.tsv.gz`` and ``additional_info.tsv.zst`` (GISAID only)
+-  ``flagged_metadata.txt.gz`` and ``flagged_metadata.txt.zst`` (GISAID only)
 
 Subsampled datasets
 -------------------
@@ -54,6 +54,9 @@ Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-ameri
 
    Please note that these files are uploaded in two batches (see above for details). This means that the full GenBank metadata and sequences are typically updated a couple of hours before the more processed files.
 
+.. warning::
+  The zstandard (zstd) files are not yet supported as direct inputs for the pipeline.
+
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 | description           | type                  | address                                                                      |
 +=======================+=======================+==============================================================================+
@@ -62,6 +65,12 @@ Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-ameri
 |                       | sequences             | https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz               |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 |                       | aligned               | https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz                 |
++-----------------------+-----------------------+------------------------------------------------------------------------------+
+|                       | metadata (zstd)       | https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.zst          |
++-----------------------+-----------------------+------------------------------------------------------------------------------+
+|                       | sequences (zstd)      | https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.zst       |
++-----------------------+-----------------------+------------------------------------------------------------------------------+
+|                       | aligned (zstd)        | https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.zst         |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 | Global sample         | metadata              | https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz           |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
