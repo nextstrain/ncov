@@ -1,0 +1,91 @@
+name: Rebuild GISAID 21L phylogenetic datasets
+
+on:
+  # This workflow can be triggered from repository_dispatch events,
+  # for instance, after the appropriate preprocessing actions have completed
+  repository_dispatch:
+    types:
+      - rebuild
+      - rebuild-gisaid-21L
+  # Manually triggered using GitHub's UI
+  workflow_dispatch:
+    inputs:
+      trial_name:
+        description: "Short name for this trial build, for prefixing the uploaded data and results files. WARNING: without this we will overwrite files in s3://nextstrain-ncov-private and the trees on nextstrain.org/ncov/gisaid..."
+        required: false
+      image:
+        description: 'Specific container image to use for build (will override the default of "nextstrain build")'
+        required: false
+
+env:
+  TRIAL_NAME: ${{ github.event.inputs.trial_name }}
+  NEXTSTRAIN_DOCKER_IMAGE: ${{ github.event.inputs.image }}
+
+jobs:
+  gisaid-21L:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: nextstrain/.github/actions/setup-nextstrain-cli@master
+      with:
+        python-version: 3.9
+
+    - name: Launch build
+      run: |
+        set -x
+
+        declare -a config
+        config+=(build_date=\'$(date +'%Y-%m-%d')\')
+        if [[ "$TRIAL_NAME" ]]; then
+          config+=(
+            S3_DST_BUCKET=nextstrain-ncov-private/trial/"$TRIAL_NAME"
+            deploy_url=s3://nextstrain-staging/
+            auspice_json_prefix=ncov_gisaid_21L_trial_"$TRIAL_NAME"
+          )
+        else
+          config+=(slack_token=$SLACK_TOKEN)
+        fi
+
+        nextstrain build \
+          --aws-batch \
+          --detach \
+          --cpus 72 \
+          --memory 140GiB \
+          . \
+            deploy \
+            upload \
+            --config "${config[@]}" \
+            --profile nextstrain_profiles/nextstrain-gisaid-21L \
+            --set-threads tree=8 \
+        |& tee build-launch.log
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+
+    - name: Build info
+      run: |
+        if [[ "$TRIAL_NAME" ]]; then
+          echo "--> Trial name is: $TRIAL_NAME"
+          echo
+          echo "--> When completed, the following will be available:"
+          echo "build files: s3://nextstrain-ncov-private/trial/$TRIAL_NAME/"
+          echo "nextstrain URLs: https://nextstrain.org/staging/ncov/gisaid/21L/trial/$TRIAL_NAME/REGION_NAME/TIME_SPAN"
+          echo "e.g. https://nextstrain.org/staging/ncov/gisaid/21L/trial/$TRIAL_NAME/global/all-time"
+        else
+          echo "--> GISAID 21L phylogenetic analysis rebuilding on AWS"
+          echo
+          echo "--> When completed, the following will be updated:"
+          echo "build files: s3://nextstrain-ncov-private/REGION_NAME/"
+          echo "nextstrain URLs: https://nextstrain.org/ncov/gisaid/21L/REGION_NAME/TIME_SPAN"
+          echo "e.g. https://nextstrain.org/ncov/gisaid/21L/global/all-time"
+        fi
+        echo
+        echo "--> You can attach to this AWS job via:"
+        tail -n1 build-launch.log
+        echo
+        JOBID=$( tail -n1 build-launch.log | sed -E 's/.+attach ([-a-f0-9]+).+/\1/' )
+        echo "--> View this job in the AWS console via"
+        echo "    https://console.aws.amazon.com/batch/home?region=us-east-1#jobs/detail/${JOBID}"
+        echo
