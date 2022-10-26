@@ -81,13 +81,13 @@ subsampling:
       exclude: "--exclude-where 'country={country}'"
     # Recent focal samples for region
     focal_recent:
-      group_by: "division year month"
+      group_by: "division week"
       max_sequences: 2560
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'country!={country}'"
     # Early contextual samples from the rest of the world
     context_recent:
-      group_by: "country year month"
+      group_by: "country week"
       max_sequences: 640
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'country={country}'"

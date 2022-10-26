@@ -159,13 +159,13 @@ subsampling:
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
     focal_recent:
-      group_by: "division year month"
+      group_by: "division week"
       max_sequences: 2560
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_recent:
-      group_by: "country year month"
+      group_by: "country week"
       max_sequences: 640
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region={region}'"
@@ -237,13 +237,13 @@ subsampling:
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
     focal_recent:
-      group_by: "country year month"
+      group_by: "country week"
       max_sequences: 2560
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_recent:
-      group_by: "country year month"
+      group_by: "country week"
       max_sequences: 640
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region={region}'"
@@ -331,32 +331,32 @@ subsampling:
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!=Oceania'"
     africa_recent:
-      group_by: "country year month"
+      group_by: "country week"
       max_sequences: 600
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!=Africa'"
     asia_recent:
-      group_by: "country year month"
+      group_by: "country week"
       max_sequences: 600
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!=Asia'"
     europe_recent:
-      group_by: "country year month"
+      group_by: "country week"
       max_sequences: 600
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!=Europe'"
     north_america_recent:
-      group_by: "division year month"
+      group_by: "division week"
       max_sequences: 600
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!=North America'"
     south_america_recent:
-      group_by: "country year month"
+      group_by: "country week"
       max_sequences: 600
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!=South America'"
     oceania_recent:
-      group_by: "division year month"
+      group_by: "division week"
       max_sequences: 200
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!=Oceania'"
