@@ -12005,6 +12005,7 @@ division	Bihar	25.0961	85.3131
 division	Bihor	46.992055	22.190274243393223
 division	Bijelo Polje	43.0341595	19.7473559
 division	Binh Thuan	11.101462	107.9415938
+division	Binhdinh	14.1525201	108.9239618
 division	Binhduong	11.1969829	106.7080527
 division	Binhphuoc	11.742454571731182	106.9270018272755
 division	Biobío	-37.3391407	-72.4106825
@@ -12226,6 +12227,7 @@ division	Chechen	43.4023	45.7187
 division	Chechen Republic	43.3976147	45.6985005
 division	Chelyabinsk	54.4319	60.8789
 division	Cherkasy	49.1460165	31.2271744
+division	Chernihiv Region	51.272593	31.7417235
 division	Chernivtsi	48.2633717	25.9504602
 division	Chhattisgarh	21.6637359	81.8406351
 division	Chiang Mai	18.7882778	98.9868056
@@ -12352,6 +12354,7 @@ division	Denizli	37.7830	29.0963
 division	Denmark	56.2639	9.5018
 division	Departamento Colon	15.7110008623772	-85.62402914640445
 division	Departamento de Amazonas	-1.420517	-71.257925
+division	Departamento de El Progreso	14.8514688	-90.08597618783097
 division	Departamento Florida	-33.77756072100707	-55.89156584305957
 division	Departamento Rio Negro	-32.74987614834329	-57.488110257077594
 division	Departamento San Jose	-34.270719079415876	-56.750977760339524
@@ -12580,6 +12583,7 @@ division	Gostivar	41.7920222	20.9081703
 division	Gotland	57.4174802	18.536957927499856
 division	Goumenissa	40.9466441	22.4519413
 division	Grace-Hollogne	50.6323039	5.4768436
+division	Granada	11.8134002	-85.9031625
 division	Grand Anse Praslin	-4.3319083	55.7200083
 division	Grand-Bassam	5.212884	-3.743226
 division	Grand Canary Islands	27.9202	-15.5474
@@ -13090,6 +13094,7 @@ division	Leinster	53.11846495	-6.991818291829787
 division	Leiria	39.7437902	-8.8071119
 division	Leitrim	54.140162200000006	-8.052478216276088
 division	Leningrad Oblast	60.0793	31.8927
+division	Leon	12.4345376	-86.8773498
 division	Leribe	-28.866891	28.0579408
 division	Les Abymes	16.2706436	-61.5057749
 division	Leskovac	42.9951304	21.9464271
@@ -13210,6 +13215,7 @@ division	Maluku	-5.3580518	130.35838229206553
 division	Malý Dunaj	48.13132375	17.19760319392066
 division	Mamou	10.6619269	-12.1139542
 division	Manabi	-0.7588025	-80.0612131
+division	Managua	12.1544035	-86.2737642
 division	Manawatu-Whanganui	-39.6407734	175.57135568879124
 division	Mandalay	21.9812746	96.082375
 division	Mandera	3.2285332	40.70561647260599
@@ -13250,6 +13256,7 @@ division	Mashonaland West Province	-17.173987751055357	29.844033588428832
 division	Masovia	54.033698650000005	21.77436913174548
 division	Massachusetts	42.340741	-71.998513
 division	Masvingo	-20.307118600000003	30.88137696875768
+division	Matagalpa	12.9636338	-85.5006651
 division	Matale	7.4720453	80.6234307
 division	Matam	15.0028849	-13.9240088
 division	Matara	5.947822	80.5482919
@@ -13270,6 +13277,7 @@ division	Mbabane	-26.325745	31.144663
 division	Mbalambi	-20.4993247	27.3350357
 division	Mbour	14.427132	-16.966574
 division	Meath	53.649784350000004	-6.588529492009938
+division	Mecca	21.6698063	41.4996029
 division	Mechelen	51.033475	4.444398
 division	Mecklenburg-Vorpommern	53.7735064	12.5755471
 division	Medea	36.265344	2.766957
@@ -13572,6 +13580,7 @@ division	Occitanie	43.8927	3.2828
 division	Oceania	-25.0562891	152.008576
 division	Ocotepeque	14.42512415	-89.22489266426062
 division	Odesa	46.4873195	30.7392776
+division	Odesa Region	46.1147226	29.9567193
 division	Odisha	20.9517	85.0985
 division	Odolena Voda	50.2334117	14.4107808
 division	Öland	56.78159615	16.662156060319074
@@ -13625,6 +13634,7 @@ division	Ouargla	30.9980145	6.766453639443059
 division	Ouarzazate	30.9335	6.9370
 division	Oudenaarde	50.857635	3.629018
 division	Oueme	6.625372	2.532611
+division	Ouest	18.7668687	-72.4387315
 division	Overijssel	52.436273	6.463628
 division	Oyo State	8.154414	3.632978
 division	P.A. Bolzano	46.4981125	11.3547801
@@ -13853,6 +13863,7 @@ division	Rio Grande do Norte	-5.4026	-36.9541
 division	Rio Grande do Sul	-29.615543	-53.220125
 division	Rio Negro	-40.8261	-63.0266
 division	Risaralda	4.921633	-75.900759
+division	Rivas	11.3897472	-85.6237074
 division	Rivera	-30.906491	-55.540612
 division	Rivers	4.8416028	6.8604088
 division	Riviere Du Rempart	-20.0667738	57.65058957251499
@@ -14100,6 +14111,7 @@ division	South Central Coast	13.323058450000001	109.22808897663754
 division	South China	27.022173229024762	103.91491112256124
 division	South Dakota	44.6471761	-100.348761
 division	South District	30.8296	35.0388
+division	South Governorate	33.33971235	35.29259105
 division	South Holland	52.006053	4.485728
 division	South Kalimantan	-2.9285686	115.3700718
 division	South Kazakhstan Region	42.61668616573577	68.41903047442649
@@ -14170,6 +14182,7 @@ division	Sumatera Selatan	-3.1266842	104.0930554
 division	Sumatera Utara	2.1923519	99.3812201
 division	Sumatra	-0.14329415	101.62410241439257
 division	Sumy	50.9070007	34.798386
+division	Sumy Region	50.7696518	34.3289305
 division	Suphan Buri	14.6777	100.0350785
 division	Surany	48.0861055	18.1868344
 division	Surat Thani	9.4674663	98.830042
