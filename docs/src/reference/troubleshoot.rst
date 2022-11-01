@@ -30,7 +30,7 @@ There are a few steps where sequences can be removed:
    - Check the ``results/{build_name}/filtered_log.tsv`` file to see the filtered reason for each sequence.
 
 -  Samples may be randomly removed during subsampling; see :doc:`../guides/workflow-config-file` for more info.
--  During the ``refine`` step, where samples that deviate more than 4 interquartile ranges from the root-to-tip vs time are removed
+-  During the ``refine`` step, Augur can drop samples that deviate from the expected clock rate. Inspect the log file named like ``logs/refine_{build_name}.txt`` to look for samples filtered by this step. :ref:`See the refine configuration guide <workflow-config-refine>`, for details on the clock rate filter.
 
 Sequencing and alignment errors
 -------------------------------

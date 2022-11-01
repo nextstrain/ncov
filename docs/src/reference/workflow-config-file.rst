@@ -831,6 +831,7 @@ tree-builder-args
 -  default: ``'-ninit 10 -n 4'``
 
 
+.. _workflow-config-refine:
 
 refine
 ------
