@@ -5,7 +5,9 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
-- October 21: Implement RGB-level coloring for BA.2 (21L) descendants. For background on this and lineage definitions please see [Variant report 2022-10-17](https://github.com/neherlab/SARS-CoV-2_variant-reports/blob/main/reports/variant_report_latest_draft.md). [PR 1018](https://github.com/nextstrain/ncov/pull/1018).
+- November 2: Make RBD levels filterable [PR 1028](https://github.com/nextstrain/ncov/pull/1028)
+- October 21: Implement RBD-level coloring for BA.2 (21L) descendants. For background on this and lineage definitions please see [Variant report 2022-10-17](https://github.com/neherlab/SARS-CoV-2_variant-reports/blob/main/reports/variant_report_latest_draft.md). [PR 1018](https://github.com/nextstrain/ncov/pull/1018).
+
 
 ## v12 (12 July 2022)
 

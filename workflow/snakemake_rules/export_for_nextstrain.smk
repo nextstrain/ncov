@@ -301,7 +301,8 @@ rule auspice_config:
                 "author",
                 originating_lab_filter,
                 submitting_lab_filter,
-                "recency"
+                "recency",
+                "rbd_level",
             ],
             "panels": [
                 "tree",
