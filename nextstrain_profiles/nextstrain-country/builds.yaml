@@ -92,7 +92,7 @@ subsampling:
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'country={country}'"
 
-  # Custom subsampling logic for regions over 2m
+  # Custom subsampling logic for regions over 6m
   # Grouping by division for North America and Oceania
   # 4000 total
   # 4:1 ratio of recent to early
@@ -123,10 +123,9 @@ subsampling:
       min_date: "--min-date 6M"
       exclude: "--exclude-where 'country={country}'"
 
-  # Custom subsampling logic for regions over 2m
+  # Custom subsampling logic for regions over all-time
   # Grouping by division for North America and Oceania
   # 4000 total
-  # 4:1 ratio of recent to early
   # 4:1 ratio of focal to context
   nextstrain_country_all-time:
     # Focal samples for country
