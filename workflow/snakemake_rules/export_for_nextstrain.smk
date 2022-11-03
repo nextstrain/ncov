@@ -368,16 +368,39 @@ except:
     # means that the Snakefile won't crash.
     deploy_origin = "by an unknown identity"
 
+
+rule deploy_single:
+    input:
+        # Replication of all_regions but with build_name as wildcard
+        auspice_json = expand("auspice/{prefix}_{{build_name}}.json", prefix=config["auspice_json_prefix"]),
+        tip_frequencies_json = expand("auspice/{prefix}_{{build_name}}_tip-frequencies.json", prefix=config["auspice_json_prefix"]),
+        root_sequence_json = expand("auspice/{prefix}_{{build_name}}_root-sequence.json", prefix=config["auspice_json_prefix"]),
+        dated_auspice_json = expand("auspice/{prefix}_{{build_name}}_{date}.json", prefix=config["auspice_json_prefix"], date=config.get("build_date", get_todays_date())),
+        dated_tip_frequencies_json = expand("auspice/{prefix}_{{build_name}}_{date}_tip-frequencies.json", prefix=config["auspice_json_prefix"], date=config.get("build_date", get_todays_date())),
+        dated_root_sequence_json = expand("auspice/{prefix}_{{build_name}}_{date}_root-sequence.json", prefix=config["auspice_json_prefix"], date=config.get("build_date", get_todays_date()))
+    output:
+        temp(touch("auspice/{build_name}.deployed"))
+    params:
+        deploy_url = config["deploy_url"],
+        prefix = config["auspice_json_prefix"]
+    benchmark:
+        "benchmarks/deploy_single_{build_name}.txt"
+    run:
+        shell("nextstrain deploy {params.deploy_url:q} {input:q}")
+        if params.deploy_url == "s3://nextstrain-data":
+            slack_message = f"Deployed {wildcards.build_name} to https://nextstrain.org/{(params.prefix + '_' + wildcards.build_name).replace('_', '/')}"
+        else:
+            slack_message = f"Deployed {wildcards.build_name} to {params.deploy_url}"
+        send_slack_message(slack_message)
+
 rule deploy:
     input:
-        *rules.all_regions.input
+        expand("auspice/{build_name}.deployed", build_name=BUILD_NAMES),
     params:
         slack_message = f"Deployed to {config['deploy_url']} {deploy_origin}",
-        deploy_url = config["deploy_url"]
     benchmark:
         "benchmarks/deploy.txt"
     run:
-        shell("nextstrain deploy {params.deploy_url:q} {input:q}")
         send_slack_message(params.slack_message)
 
 rule upload:
