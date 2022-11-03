@@ -5,13 +5,15 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
-- 4 November 2022: Deploy individual builds to Nextstrain as soon as they are ready, as opposed to only once all builds are ready to speed up the feedback loop [PR #1025](https://github.com/nextstrain/ncov/pull/1025)
+- 4 November 2022: Deploy individual builds to Nextstrain as soon as they are ready, as opposed to only once all builds are ready to speed up the feedback loop [PR #1025](https://github.com/nextstrain/ncov/pull/1025)
+
 - 3 November 2022: Use weekly grouping for "2m" timespan in Nextstrain profile builds. [PR 1023](https://github.com/nextstrain/ncov/pull/1023)
 
 - 2 November 2022: Make RBD levels filterable [PR 1028](https://github.com/nextstrain/ncov/pull/1028)
 
-- 21 October 2022: Implement RGB-level coloring for BA.2 (21L) descendants. For background on this and lineage definitions please see [Variant report 2022-10-17](https://github.com/neherlab/SARS-CoV-2_variant-reports/blob/main/reports/variant_report_latest_draft.md). [PR 1018](https://github.com/nextstrain/ncov/pull/1018).
-## v12 (12 July 2022)
+- 21 October 2022: Implement RBD-level coloring for BA.2 (21L) descendants. For background on this and lineage definitions please see [Variant report 2022-10-17](https://github.com/neherlab/SARS-CoV-2_variant-reports/blob/main/reports/variant_report_latest_draft.md). [PR 1018](https://github.com/nextstrain/ncov/pull/1018).
+
+## v12 (12 July 2022)
 
 - 1 July 2022: Update workflow to support Nextclade v2 (PRs [963](https://github.com/nextstrain/ncov/pull/963), [969](https://github.com/nextstrain/ncov/pull/969)). See [the Nextclade changelog](https://github.com/nextstrain/nextclade/blob/bdfd9cff73f8181bb5891a9a9c49eb0218e7e868/CHANGELOG.md#nextclade-200) for more information.
 
