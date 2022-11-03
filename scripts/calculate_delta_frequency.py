@@ -40,7 +40,13 @@ if __name__ == "__main__":
     )
     parser.add_argument("--tree", required=True, help="Newick tree")
     parser.add_argument("--frequencies", required=True, help="frequencies JSON")
-    parser.add_argument("--delta-pivots", type=int, default=1, help="number of frequency pivots to look back in time for change in frequency calculation")
+    parser.add_argument(
+        "--delta-pivots",
+        type=int,
+        default=1,
+        help="""number of frequency pivots to look back in time for change in frequency calculation.
+        If fewer pivots are available, all of them will be used.
+    """)
     parser.add_argument(
         "--method",
         default="linear",
@@ -79,6 +85,12 @@ if __name__ == "__main__":
     # Load frequencies.
     frequencies, parameters = read_frequencies(args.frequencies)
     pivots = np.array(parameters["pivots"])
+
+    # Lower `delta_pivots` if there are not enough pivots.
+    max_delta_pivots = len(pivots) - 1
+    if args.delta_pivots > max_delta_pivots:
+        print(f"WARNING: Requested {args.delta_pivots} but there are only {max_delta_pivots} available. Using all available pivots.", file=sys.stderr)
+        args.delta_pivots = max_delta_pivots
 
     # Determine the total time that elapsed between the current and past timepoint.
     first_pivot_index = -(args.delta_pivots + 1)
