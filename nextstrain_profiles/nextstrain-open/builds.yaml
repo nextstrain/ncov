@@ -431,12 +431,12 @@ subsampling:
       exclude: "--exclude-where 'region!=Asia'"
     europe_recent:
       group_by: "country week"
-      max_sequences: 600
+      max_sequences: 1500
       min_date: "--min-date 1M"
       exclude: "--exclude-where 'region!=Europe'"
     north_america_recent:
       group_by: "division week"
-      max_sequences: 600
+      max_sequences: 1500
       min_date: "--min-date 1M"
       exclude: "--exclude-where 'region!=North America'"
     south_america_recent:
