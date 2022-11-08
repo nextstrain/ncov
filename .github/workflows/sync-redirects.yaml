@@ -1,0 +1,30 @@
+name: Sync RTD redirects
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - docs/redirects.yaml
+      - .github/workflows/sync-redirects.yaml
+
+  # Manually triggered using GitHub's UI
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+
+      - name: Upgrade Python toolchain
+        run: python3 -m pip install --upgrade pip setuptools wheel
+
+      - name: Install readthedocs-cli
+        run: python3 -m pip install readthedocs-cli
+
+      - name: Sync redirects
+        run: rtd projects nextstrain-ncov redirects sync -f docs/redirects.yaml --wet-run
+        env:
+          RTD_TOKEN: ${{ secrets.RTD_TOKEN }}
