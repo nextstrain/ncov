@@ -5,6 +5,10 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 24 November 2022: Add "1m" timespan in Nextstrain profile builds. [PR 1027](https://github.com/nextstrain/ncov/pull/1027)
+
+- 24 November 2022: calculate_delta_frequency: Allow script to work with fewer pivots available than requested with `--delta-pivots`. [PR 1027](https://github.com/nextstrain/ncov/pull/1027)
+
 - 4 November 2022: Deploy individual builds to Nextstrain as soon as they are ready, as opposed to only once all builds are ready to speed up the feedback loop [PR #1025](https://github.com/nextstrain/ncov/pull/1025)
 
 - 3 November 2022: Use weekly grouping for "2m" timespan in Nextstrain profile builds. [PR 1023](https://github.com/nextstrain/ncov/pull/1023)

@@ -42,6 +42,10 @@ inputs:
 #
 # Auspice config is specified in rule auspice_config in export_for_nextstrain.smk
 builds:
+  nextstrain_country_1m:
+    subsampling_scheme: nextstrain_country_1m
+    title: Genomic epidemiology of SARS-CoV-2 with country-focused subsampling over the past month
+    country: India
   nextstrain_country_2m:
     subsampling_scheme: nextstrain_country_2m
     title: Genomic epidemiology of SARS-CoV-2 with country-focused subsampling over the past 2 months
@@ -60,6 +64,37 @@ filter:
   exclude_where: "division='USA'"
 
 subsampling:
+
+  # Custom subsampling logic for regions over 1m
+  # Grouping by division for North America and Oceania
+  # 4000 total
+  # 4:1 ratio of recent to early
+  # 4:1 ratio of focal to context
+  nextstrain_country_1m:
+    # Early focal samples for region
+    focal_early:
+      group_by: "division year month"
+      max_sequences: 640
+      max_date: "--max-date 1M"
+      exclude: "--exclude-where 'country!={country}'"
+    # Early contextual samples from the rest of the world
+    context_early:
+      group_by: "country year month"
+      max_sequences: 160
+      max_date: "--max-date 1M"
+      exclude: "--exclude-where 'country={country}'"
+    # Recent focal samples for region
+    focal_recent:
+      group_by: "division week"
+      max_sequences: 2560
+      min_date: "--min-date 1M"
+      exclude: "--exclude-where 'country!={country}'"
+    # Early contextual samples from the rest of the world
+    context_recent:
+      group_by: "country week"
+      max_sequences: 640
+      min_date: "--min-date 1M"
+      exclude: "--exclude-where 'country={country}'"
 
   # Custom subsampling logic for regions over 2m
   # Grouping by division for North America and Oceania
@@ -92,7 +127,7 @@ subsampling:
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'country={country}'"
 
-  # Custom subsampling logic for regions over 2m
+  # Custom subsampling logic for regions over 6m
   # Grouping by division for North America and Oceania
   # 4000 total
   # 4:1 ratio of recent to early
@@ -123,10 +158,9 @@ subsampling:
       min_date: "--min-date 6M"
       exclude: "--exclude-where 'country={country}'"
 
-  # Custom subsampling logic for regions over 2m
+  # Custom subsampling logic for regions over all-time
   # Grouping by division for North America and Oceania
   # 4000 total
-  # 4:1 ratio of recent to early
   # 4:1 ratio of focal to context
   nextstrain_country_all-time:
     # Focal samples for country
@@ -143,6 +177,9 @@ subsampling:
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
 traits:
+  nextstrain_country_1m:
+    sampling_bias_correction: 2.5
+    columns: ["country"]
   nextstrain_country_2m:
     sampling_bias_correction: 2.5
     columns: ["country"]
@@ -154,10 +191,13 @@ traits:
     columns: ["country"]
 
 # Define frequencies parameters
-# Target frequencies to "2m", "6m" and "all-time" builds
-# narrow_bandwidth = 0.019 or 7 days for "2m"
+# Target frequencies to "1m", "2m", "6m" and "all-time" builds
+# narrow_bandwidth = 0.019 or 7 days for "1m" and "2m"
 # narrow_bandwidth = 0.038 or 14 days for "6m" and "all-time"
 frequencies:
+  nextstrain_country_1m:
+    min_date: "1M"
+    narrow_bandwidth: 0.019
   nextstrain_country_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
