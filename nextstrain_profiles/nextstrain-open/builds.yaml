@@ -10,8 +10,6 @@ custom_rules:
 S3_DST_BUCKET: "nextstrain-data/files/ncov/open"
 S3_DST_COMPRESSION: "xz"
 S3_DST_ORIGINS: ["open"]
-upload:
-  - build-files
 
 # Deploy and Slack options are related to Nextstrain live builds and don't need to be modified for local builds
 deploy_url: s3://nextstrain-data
