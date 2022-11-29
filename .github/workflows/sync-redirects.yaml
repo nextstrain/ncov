@@ -13,6 +13,8 @@ on:
 
 jobs:
   sync:
+    # Prevent this job from running on forks.
+    if: github.repository_owner == 'nextstrain'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
