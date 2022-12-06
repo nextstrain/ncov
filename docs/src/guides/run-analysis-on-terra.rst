@@ -46,6 +46,7 @@ Connect your data files to the WDL workflow
 ::
 
     entity:ncov_examples_id	metadata	sequences	configfile_yaml
+    blank   
     example	gs://COPY_PATH_HERE/example_metadata.tsv	gs://COPY_PATH_HERE/example_datasets/example_sequences.fasta.gz
     example_build		gs://COPY_PATH_HERE/example-build.yaml
 
