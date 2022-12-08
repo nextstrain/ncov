@@ -467,9 +467,13 @@ if __name__ == '__main__':
                     lambda strain: strip_prefixes(strain, args.strip_prefixes)
                 )
 
-            # Replace whitespaces from strain names with underscores to match GISAID's
+            # Replace whitespaces from strain names with nothing to match Nextstrain's
             # convention since whitespaces are not allowed in FASTA record names.
-            metadata[strain_field] = metadata[strain_field].str.replace(" ", "_")
+            metadata[strain_field] = metadata[strain_field].str.replace(" ", "")
+
+            # Replace standard characters that are not accepted by all downstream
+            # tools as valid FASTA names.
+            metadata[strain_field] = metadata[strain_field].str.replace("'", "-")
 
             # Rename columns as needed, after transforming strain names. This
             # allows us to avoid keeping track of a new strain name field

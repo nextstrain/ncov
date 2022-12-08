@@ -26,6 +26,10 @@ def rename_sequences(sequences, pattern):
         # trailing components of the strain name.
         sequence.id = re.sub(pattern, "", sequence.description)
 
+        # Replace standard characters that are not accepted by all downstream
+        # tools as valid FASTA names.
+        sequence.id = sequence.id.replace("'", "-")
+
         # The name field stores the same information for a simple FASTA input, so we need to override its value, too.
         sequence.name = sequence.id
 
