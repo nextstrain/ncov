@@ -208,6 +208,16 @@ rule auspice_config:
                     "type": "ordinal"
                 },
                 {
+                    "key": "immune_escape",
+                    "title": "Immune Escape vs BA.2",
+                    "type": "continuous"
+                },
+                {
+                    "key": "ace2_binding",
+                    "title": "ACE2 binding vs BA.2",
+                    "type": "continuous"
+                },
+                {
                     "key": "logistic_growth",
                     "title": "Logistic Growth",
                     "type": "continuous"
