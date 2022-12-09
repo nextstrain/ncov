@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 9 December 2022: Add `immune escape` and `ace2_binding` from metadata  as colorings for `nextstrain-open` and `nextstrain-gisaid` builds. [PR 1036](https://github.com/nextstrain/ncov/pull/1036)
+
 - 24 November 2022: Add "1m" timespan in Nextstrain profile builds. [PR 1027](https://github.com/nextstrain/ncov/pull/1027)
 
 - 24 November 2022: calculate_delta_frequency: Allow script to work with fewer pivots available than requested with `--delta-pivots`. [PR 1027](https://github.com/nextstrain/ncov/pull/1027)
