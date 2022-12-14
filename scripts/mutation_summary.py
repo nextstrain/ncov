@@ -1,5 +1,5 @@
 import argparse, os, glob
-from augur.io import open_file
+from augur.io.file import open_file
 from Bio import SeqIO, SeqFeature, Seq
 from Bio.SeqIO.FastaIO import SimpleFastaParser
 import numpy as np

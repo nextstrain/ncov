@@ -1,5 +1,7 @@
 import argparse
-from augur.io import open_file, read_sequences, write_sequences
+from augur.io import read_sequences
+from augur.io.file import open_file
+from augur.io.sequences import write_sequences
 import hashlib
 from pathlib import Path
 import re

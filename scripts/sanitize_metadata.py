@@ -1,5 +1,6 @@
 import argparse
-from augur.io import open_file, read_metadata
+from augur.io import read_metadata
+from augur.io.file import open_file
 import csv
 import os
 from pathlib import Path
