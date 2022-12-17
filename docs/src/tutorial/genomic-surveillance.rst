@@ -26,12 +26,6 @@ If you are not already there, change directory to the ``ncov`` directory:
 
       cd ncov
 
-and activate the ``nextstrain`` conda environment:
-
-   .. code:: text
-
-      conda activate nextstrain
-
 .. _genomic-surveillance-curate-data-from-gisaid:
 
 Curate data from GISAID
