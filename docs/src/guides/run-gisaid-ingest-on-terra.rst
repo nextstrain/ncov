@@ -88,8 +88,13 @@ Connect any workspace variables to the wdl ingest workflow
   |GISAID_INGEST    |  sequences_fasta | File  | workspace.gisaid_sequences_fasta |
   +-----------------+------------------+-------+----------------------------------+
 
-8. Click **SAVE** then **RUN ANALYSIS**.
-9. Optionally enter a job description, then click **LAUNCH**.
-10. The new job will appear in the **JOB HISTORY** tab. You can monitor its status by refreshing that page.
-11. When run is complete, check the **DATA** / **Workspace Data** tab and use the "workspace.gisaid_sequences_fasta" and "workspace.gisaid_metadata.tsv" during normal ncov Terra runs.
+8. Click **SAVE** 
+  
+Run the workflow
+===================
+
+1.   **RUN ANALYSIS**.
+2. Optionally enter a job description, then click **LAUNCH**.
+3. The new job will appear in the **JOB HISTORY** tab. You can monitor its status by refreshing that page.
+4. When run is complete, check the **DATA** / **Workspace Data** tab and use the "workspace.gisaid_sequences_fasta" and "workspace.gisaid_metadata.tsv" during normal ncov Terra runs.
 

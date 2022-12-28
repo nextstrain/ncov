@@ -13,26 +13,24 @@ Import ``ncov`` WDL workflow from Dockstore
 
 1. `Set up a Terra account <https://terra.bio/>`_.
 2. Navigate to Dockstore: `nextstrain/ncov/ncov <https://dockstore.org/workflows/github.com/nextstrain/ncov/ncov:master?tab=info>`_
-#. At the top right corner, under **Launch with**, click on **Terra**. You may be prompted to log in.
-#. Provide a **Workflow Name** (e.g. ``ncov``).
-#. Select a **Destination Workspace** from the dropdown menu.
-#. Click **IMPORT**.
-#. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card.
-
+3. At the top right corner, under **Launch with**, click on **Terra**. You may be prompted to log in.
+4. Provide a **Workflow Name** (e.g. ``ncov``).
+5. Select a **Destination Workspace** from the dropdown menu.
+6. Click **IMPORT**.
+7. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card.
 
 Upload your data files into Terra
 =================================
 
 1. Navigate to: `https://app.terra.bio/#upload <https://app.terra.bio/#upload>`_.
 
-#. Select your workspace
-#. At the top, hit the **+** button to "create a collection"
-#. Within the collection, at bottom right, click **+** button to upload file, or drag and drop files to upload them.
-#. Go back to your Terra Dashboard
-#. Click on the **DATA** tab
-#. On the left, under **OTHER DATA**, click **Files** and there should be an "uploads/" folder shown to the right
-#. Click on "uploads/" to view your collection and verify that your files have been uploaded
-
+2. Select your workspace
+3. At the top, hit the **+** button to "create a collection"
+4. Within the collection, at bottom right, click **+** button to upload file, or drag and drop files to upload them.
+5. Go back to your Terra Dashboard
+6. Click on the **DATA** tab
+7. On the left, under **OTHER DATA**, click **Files** and there should be an "uploads/" folder shown to the right
+8. Click on "uploads/" to view your collection and verify that your files have been uploaded
 
 Connect your data files to the WDL workflow
 ===========================================
@@ -53,10 +51,10 @@ Connect your data files to the WDL workflow
 .. image:: ../images/terra-datatable.png
 
 5. Navigate back to the **Workflow** tab, and click on your imported "ncov" workflow
-#. Click on the radio button "Run workflow(s) with inputs defined by data table"
-#. Under **Step 1**, select your root entity type **ncov_examples** from the drop down menu.
-#. Click on **SELECT DATA** to select all rows
-#. Most of the values will be blank but fill in the values below: 
+6. Click on the radio button "Run workflow(s) with inputs defined by data table"
+7. Under **Step 1**, select your root entity type **ncov_examples** from the drop down menu.
+8. Click on **SELECT DATA** to select all rows
+9. Most of the values will be blank but fill in the values below: 
 
   +-----------------+------------------+-------+----------------------+
   |Task name        | Variable         | Type  |   Attribute          |
@@ -77,7 +75,6 @@ Connect your data files to the WDL workflow
   +=================+=================+=======+======================+
   |Nextstrain_WRKFLW|  context_targz  | File  | this.context_targz   |
   +-----------------+-----------------+-------+----------------------+
-
 
 11. OPTIONAL CHANGE: If you are uploading GISAID/GenBank, or very large sequence files, it is highly recommended to increase disk size.
 
@@ -111,5 +108,5 @@ Connect your data files to the WDL workflow
   +-----------------+-----------------+-------+----------------------+
 
 15. Click on **Save** then click on **Run Analysis**
-#. Under the tab **JOB HISTORY**, verify that your job is running.
-#. When run is complete, check the **DATA** / **TABLES** / **ncov_examples** tab and download "auspice.zip" file
+16. Under the tab **JOB HISTORY**, verify that your job is running.
+17. When run is complete, check the **DATA** / **TABLES** / **ncov_examples** tab and download "auspice.zip" file

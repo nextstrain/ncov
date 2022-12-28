@@ -26,7 +26,6 @@ Import the GenBank ingest wdl workflow from Dockstore
 6. Click **IMPORT**.
 7. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card.
 
-
 Connect any workspace variables to the wdl ingest workflow
 ===========================================================
   
@@ -38,10 +37,10 @@ Connect any workspace variables to the wdl ingest workflow
 
 4. Under **Step 2**:
 
-  1. Click **SELECT DATA**.
-  2. Select **Choose specific ncov_examples to process**.
-  3. Select the 1st row in the data table. The first column should have value ``blank``. Selecting more rows will cause the workflow to run more than once.
-  4. Click **OK**.
+  2. Click **SELECT DATA**.
+  3. Select **Choose specific ncov_examples to process**.
+  4. Select the 1st row in the data table. The first column should have value ``blank``. Selecting more rows will cause the workflow to run more than once.
+  5. Click **OK**.
 
 5. Leave the values blank.
 6. Click on the **OUTPUTS** tab.
@@ -58,8 +57,13 @@ Connect any workspace variables to the wdl ingest workflow
   +-----------------+------------------+-------+----------------------------------+
 
 
-8. Click **SAVE** then **RUN ANALYSIS**.
-9. Optionally enter a job description, then click **LAUNCH**.
-10. The new job will appear in the **JOB HISTORY** tab. You can monitor its status by refreshing that page.
-11. When run is complete, check the **DATA** / **Workspace Data** tab and use the "workspace.genbank_sequences_fasta" and "workspace.genbank_metadata.tsv" during normal ncov Terra runs.
+8. Click **SAVE** 
+
+Run the workflow
+===================
+
+1.  then **RUN ANALYSIS**.
+2.  Optionally enter a job description, then click **LAUNCH**.
+3.  The new job will appear in the **JOB HISTORY** tab. You can monitor its status by refreshing that page.
+4.  When run is complete, check the **DATA** / **Workspace Data** tab and use the "workspace.genbank_sequences_fasta" and "workspace.genbank_metadata.tsv" during normal ncov Terra runs.
 
