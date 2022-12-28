@@ -13,6 +13,7 @@ The pipelines were mainly motivated to provide access to our data pre-processing
 
 This guide describes the **GISAID Ingest**. Importing the workflow and setting up variables should be a one-time process. The workflow can then be run multiple times to pull in new data.
 
+As of September 26 2022, this took `11 hours to finish running with default parameters, and cost ~$44 USD <https://github.com/j23414/wdl_pathogen_build/blob/main/data/benchmarks.tsv>`_.
 Import the GISAID ingest wdl workflow from Dockstore
 =====================================================
 

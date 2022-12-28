@@ -13,6 +13,8 @@ The pipelines were mainly motivated to provide access to our data pre-processing
 
 This guide describes the **GenBank Ingest**. Importing the workflow and setting up variables should be a one-time process. The workflow can then be run multiple times to pull in new data.
 
+As of October 29 2022, this took `37 hours to finish running with default parameters, and cost ~$150 USD <https://github.com/j23414/wdl_pathogen_build/blob/main/data/benchmarks.tsv>`_.
+
 Import the GenBank ingest wdl workflow from Dockstore
 ======================================================
 
