@@ -12,19 +12,18 @@ Import ``ncov`` WDL workflow from Dockstore
 ===========================================
 
 1. `Set up a Terra account <https://terra.bio/>`_.
-#. Navigate to Dockstore: `nextstrain/ncov/ncov`_
+2. Navigate to Dockstore: `nextstrain/ncov/ncov <https://dockstore.org/workflows/github.com/nextstrain/ncov/ncov:master?tab=info>`_
 #. At the top right corner, under **Launch with**, click on **Terra**. You may be prompted to log in.
 #. Provide a **Workflow Name** (e.g. ``ncov``).
 #. Select a **Destination Workspace** from the dropdown menu.
 #. Click **IMPORT**.
 #. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card.
 
-.. _`nextstrain/ncov/ncov`: https://dockstore.org/workflows/github.com/nextstrain/ncov/ncov:master?tab=info
 
 Upload your data files into Terra
 =================================
 
-1. Navigate to: `https://app.terra.bio/#upload`_.
+1. Navigate to: `https://app.terra.bio/#upload <https://app.terra.bio/#upload>`_.
 
 #. Select your workspace
 #. At the top, hit the **+** button to "create a collection"
@@ -34,7 +33,6 @@ Upload your data files into Terra
 #. On the left, under **OTHER DATA**, click **Files** and there should be an "uploads/" folder shown to the right
 #. Click on "uploads/" to view your collection and verify that your files have been uploaded
 
-.. _`https://app.terra.bio/#upload`: https://app.terra.bio/#upload
 
 Connect your data files to the WDL workflow
 ===========================================
@@ -72,7 +70,7 @@ Connect your data files to the WDL workflow
   |Nextstrain_WRKFLW|  sequence_fasta  | File  | this.sequences       |
   +-----------------+------------------+-------+----------------------+
 
-10. If creating a build with multiple sequence and metadata files, can upload a tarball containing the files as described in `this tutorial`_. Otherwise skip
+10. If creating a build with multiple sequence and metadata files, can upload a tarball containing the files as described in `this tutorial <https://docs.nextstrain.org/projects/ncov/en/latest/guides/data-prep/gisaid-search.html#download-contextual-data-for-your-region-of-interest>`_. Otherwise skip
 
   +-----------------+-----------------+-------+----------------------+
   |Task name        | Variable        | Type  |   Attribute          |
@@ -80,7 +78,6 @@ Connect your data files to the WDL workflow
   |Nextstrain_WRKFLW|  context_targz  | File  | this.context_targz   |
   +-----------------+-----------------+-------+----------------------+
 
-.. _`this tutorial`: https://docs.nextstrain.org/projects/ncov/en/latest/guides/data-prep/gisaid-search.html#download-contextual-data-for-your-region-of-interest
 
 11. OPTIONAL CHANGE: If you are uploading GISAID/GenBank, or very large sequence files, it is highly recommended to increase disk size.
 

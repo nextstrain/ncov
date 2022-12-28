@@ -17,14 +17,13 @@ Import the GenBank ingest wdl workflow from Dockstore
 ======================================================
 
 1. `Set up a Terra account <https://terra.bio/>`_.
-2. Navigate to `the workflow <https://dockstore.org/workflows/github.com/nextstrain/ncov/genbank_ingest:master?tab=info>`_ in Dockstore
+2. Navigate to Dockstore: `nextstrain/ncov/genbank_ingest <https://dockstore.org/workflows/github.com/nextstrain/ncov/genbank_ingest:master?tab=info>`_
 3. At the top right corner, under **Launch with**, click on **Terra**. You may be prompted to log in.
 4. Provide a **Workflow Name** (e.g. ``genbank_ingest`` ).
 5. Select a **Destination Workspace** from the dropdown menu.
 6. Click **IMPORT**.
 7. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card.
 
-.. _`nextstrain/ncov/genbank_ingest`: https://dockstore.org/workflows/github.com/nextstrain/ncov/genbank_ingest:master?tab=info
 
 Connect any workspace variables to the wdl ingest workflow
 ===========================================================
