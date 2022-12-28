@@ -50,11 +50,11 @@ Connect any workspace variables to the wdl ingest workflow
   +-----------------+------------------+-------+----------------------------------+
   |Task name        | Variable	       | Type  |   Attribute                      |
   +=================+==================+=======+==================================+
-  |Nextstrain_WRKFLW|  metadata_tsv    | File  | workspace.genbank_metadata_tsv   |
+  |GENBANK_INGEST   |  metadata_tsv    | File  | workspace.genbank_metadata_tsv   |
   +-----------------+------------------+-------+----------------------------------+
-  |Nextstrain_WRKFLW|  nextclade_tsv   | File  | workspace.genbank_nextclade_tsv  |
+  |GENBANK_INGEST   |  nextclade_tsv   | File  | workspace.genbank_nextclade_tsv  |
   +-----------------+------------------+-------+----------------------------------+
-  |Nextstrain_WRKFLW|  sequences_fasta | File  | workspace.genbank_sequences_fasta|
+  |GENBANK_INGEST   |  sequences_fasta | File  | workspace.genbank_sequences_fasta|
   +-----------------+------------------+-------+----------------------------------+
 
 

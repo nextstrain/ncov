@@ -65,9 +65,9 @@ Connect any workspace variables to the wdl ingest workflow
   +-----------------+-------------------------------+-------+----------------------------------------+
   |Task name        | Variable                      | Type  | Attribute                              |
   +=================+===============================+=======+========================================+
-  |Nextstrain_WRKFLW|  GISAID_API_ENDPOINT          | String| workspace.GISAID_API_ENDPOINT          |
+  |GISAID_INGEST    |  GISAID_API_ENDPOINT          | String| workspace.GISAID_API_ENDPOINT          |
   +-----------------+-------------------------------+-------+----------------------------------------+
-  |Nextstrain_WRKFLW|  GISAID_USERNAME_AND_PASSWORD | String| workspace.GISAID_USERNAME_AND_PASSWORD |
+  |GISAID_INGEST    |  GISAID_USERNAME_AND_PASSWORD | String| workspace.GISAID_USERNAME_AND_PASSWORD |
   +-----------------+-------------------------------+-------+----------------------------------------+
 
 6. Click on the **OUTPUTS** tab.
@@ -76,11 +76,11 @@ Connect any workspace variables to the wdl ingest workflow
   +-----------------+------------------+-------+----------------------------------+
   |Task name        | Variable	       | Type  |   Attribute                      |
   +=================+==================+=======+==================================+
-  |Nextstrain_WRKFLW|  metadata_tsv    | File  | workspace.gisaid_metadata_tsv    |
+  |GISAID_INGEST    |  metadata_tsv    | File  | workspace.gisaid_metadata_tsv    |
   +-----------------+------------------+-------+----------------------------------+
-  |Nextstrain_WRKFLW|  nextclade_tsv   | File  | workspace.gisaid_nextclade_tsv   |
+  |GISAID_INGEST    |  nextclade_tsv   | File  | workspace.gisaid_nextclade_tsv   |
   +-----------------+------------------+-------+----------------------------------+
-  |Nextstrain_WRKFLW|  sequences_fasta | File  | workspace.gisaid_sequences_fasta |
+  |GISAID_INGEST    |  sequences_fasta | File  | workspace.gisaid_sequences_fasta |
   +-----------------+------------------+-------+----------------------------------+
 
 8. Click **SAVE** then **RUN ANALYSIS**.
