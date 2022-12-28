@@ -14,6 +14,11 @@ The pipelines were mainly motivated to provide access to our data pre-processing
 This guide describes the **GISAID Ingest**. Importing the workflow and setting up variables should be a one-time process. The workflow can then be run multiple times to pull in new data.
 
 As of September 26 2022, this took `11 hours to finish running with default parameters, and cost ~$44 USD <https://github.com/j23414/wdl_pathogen_build/blob/main/data/benchmarks.tsv>`_.
+
+.. warning::
+  
+  To have access to GISAID Data, you will be required to have an GISAID API Endpoint by `contacting GISAID directly <https://www.gisaid.org>`_
+
 Import the GISAID ingest wdl workflow from Dockstore
 =====================================================
 
@@ -30,7 +35,7 @@ Import the GISAID ingest wdl workflow from Dockstore
 Create Terra Variables for GISAID API Endpoint
 ================================================
 
-If you are pulling GISAID data, you must have your own API key.
+For GISAID data, you must have your own API key by `contacting GISAID directly <https://www.gisaid.org>`_.
 
 1. Navigate to your workspace on Terra.
 2. On the **Data** tab, from the left menu click **Workspace Data**.
