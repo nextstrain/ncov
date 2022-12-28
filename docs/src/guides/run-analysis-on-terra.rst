@@ -6,7 +6,7 @@ We have wrapped the ncov workflow for use in Terra:
 
 .. image:: ../images/terra-ncov.png
 
-We recommend starting with the "minimal" use case (first row in "User Provided Data") with steps described below:
+We recommend starting with the "minimal" use case (second row in "User Provided Data") with steps described below:
 
 Import ``ncov`` WDL workflow from Dockstore
 ===========================================
@@ -38,8 +38,8 @@ Connect your data files to the WDL workflow
 ===========================================
 
 1. On the **DATA** tab, click on **+** next to the **TABLES** section to create a Data Table
-#. Download the "sample_template.tsv" file
-#. Create a tab delimited file similar to below:
+2. Download the "sample_template.tsv" file
+3. Create a tab delimited file similar to below :download:`example script <./ncov_examples.tsv>`:
 
 ::
 
