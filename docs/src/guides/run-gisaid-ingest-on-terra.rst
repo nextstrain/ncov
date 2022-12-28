@@ -11,7 +11,7 @@ The pipelines were mainly motivated to provide access to our data pre-processing
 
 .. image:: ../images/terra-ingest.png
 
-This guide describes the **GISAID Ingest**. 
+This guide describes the **GISAID Ingest**. Importing the workflow and setting up variables should be a one-time process. The workflow can then be run multiple times to pull in new data.
 
 Import the GISAID ingest wdl workflow from Dockstore
 =====================================================
