@@ -1001,6 +1001,7 @@ location	Bhubaneshwar
 location	Boudh
 location	Cuttack
 location	Cuttak
+location	Dhenkanal
 location	Gajapati
 location	Ganjam
 location	Jagatsinghpur
@@ -1616,6 +1617,7 @@ location	Unnao
 location	Varanasi
 location	Villmojiapskotwlai
 location	Virandavancolony
+location	Western Uttar Pradesh
 
 # Sikkim
 location	East District
@@ -2503,6 +2505,9 @@ location	Thakurgaon
 # Yangon
 location	Yangon
 
+# Naypyitaw
+location	Naypyidaw
+
 # Sagaing
 location	Kalay
 
@@ -2614,7 +2619,9 @@ location	Lanzhou
 
 # Sichuan
 location	Chengdu
+location	Dazhou
 location	Leshan
+location	Lixian
 location	Luzhou
 
 # Chongqing
@@ -2715,6 +2722,7 @@ location	Fuzhou (Fujian)
 location	Longyan
 location	Ningde
 location	Putian
+location	Quanzhou
 location	Sanming
 location	Zhangzhou
 
@@ -6329,6 +6337,7 @@ location	L Hermitage
 location	La Bouexiere
 location	La Chapelle Aux Filtzmeens
 location	La Chapelle Bouexic
+location	La Chapelle Du Lou Du Lac
 location	La Chapelle Janson
 location	La Chapelle Thouarault
 location	La Chapelle des Fougeretz
@@ -6360,6 +6369,7 @@ location	Le Sel de Bretagne
 location	Le Theil de Bretagne
 location	Le Verger
 location	Le Vieux Marche
+location	Le Vivier sur Mer
 location	Lecousse
 location	Leferre
 location	Les Champs Geraux
@@ -13711,6 +13721,7 @@ location	Glinka Szlachecka
 location	Glinno
 location	Glowna
 location	Gluchowo
+location	Gnieznienski (Welkopolskie)
 location	Gnieznienski (Wielkopolskie)
 location	Gniezno
 location	Godziesze Male
@@ -13728,6 +13739,7 @@ location	Grodzisk Wielkopolskie
 location	Gruszczyn
 location	Januszowka
 location	Jarocin
+location	Jarocinski (Welkopolskie)
 location	Jarocinski (Wielkopolskie)
 location	Jaroslawiec
 location	Jaroszewice Grodzieckie
@@ -13751,6 +13763,7 @@ location	Klodawa
 location	Klodzisko
 location	Kobylniki
 location	Kolo (Wielkopolskie)
+location	Kolski (Welkopolskie)
 location	Kolski (Wielkopolskie)
 location	Komorniki (Wielkopolskie)
 location	Konarzewo
@@ -13759,6 +13772,7 @@ location	Koninski
 location	Kopanki
 location	Kornik
 location	Koscian
+location	Koscianski (Welkopolskie)
 location	Koscianski (Wielkopolskie)
 location	Kostrzyn (Wielkopolskie)
 location	Koszuty-Huby
@@ -13852,8 +13866,10 @@ location	Pogorzela
 location	Polko
 location	Popowko
 location	Powidz
+location	Poznan (Welkopolskie)
 location	Poznan (Wielkopolskie)
 location	Poznan-Wilda
+location	Poznanski (Welkopolskie)
 location	Poznanski (Wielkopolskie)
 location	Pożarowo
 location	Przebedowo
@@ -16516,6 +16532,8 @@ location	Uzice RS
 
 # Central Serbia
 location	Aleksinac
+location	Jagodina
+location	Paracin
 
 # Moravica District
 location	Cacak
@@ -17008,6 +17026,7 @@ location	Nikolskoye
 location	Oryol
 location	Pokrovskoye
 location	Shablykino
+location	Shamshino
 location	Soskovo
 location	Vasilyevka (Oryol)
 location	Zmiyovka
@@ -17055,6 +17074,7 @@ location	Podolsk (Tula Region)
 location	Repno-Nikolskoye
 location	Revyakino
 location	Schekino
+location	Seleznyovo
 location	Setka
 location	Severo-Zadonsk
 location	Shchyokino
@@ -17167,6 +17187,7 @@ location	Zvezdny Gorodok
 # Yaroslavl
 location	Bolshoye Selo
 location	Borisoglebsky
+location	Breytovo
 location	Burmakino
 location	Danilov
 location	Gavrilov-Yam
@@ -17550,6 +17571,9 @@ location	Kungur
 location	Perm
 location	Zvezdny
 
+# Nenets Autonomous Okrug
+location	Naryan-Mar
+
 # Bashkortostan
 location	Abzakovo
 location	Akhmetovo
@@ -17605,6 +17629,7 @@ location	Zubovo
 
 # Chelyabinsk
 location	Chelyabinsk
+location	Magnitogorsk
 location	Ozersk
 location	Ozyorsk
 
@@ -18555,6 +18580,46 @@ location	Ranco
 location	Rio Bueno (Los Rios CL)
 location	Valdivia (Los Rios CL)
 
+# Region de la Araucania
+location	Angol
+location	Carahue
+location	Cholchol
+location	Collipulli
+location	Cunco
+location	Curacautin
+location	Curarrehue
+location	Ercilla
+location	Freire
+location	Galvarino
+location	Gorbea
+location	Lautaro
+location	Loncoche
+location	Lonquimay
+location	Los Sauces (Region de la Araucania)
+location	Lumaco
+location	Melipeuco
+location	Nueva Imperial
+location	Padre las Casas
+location	Perquenco
+location	Peñalolén
+location	Pitrufquen
+location	Pitrufquén
+location	Pucon
+location	Pucón
+location	Puren
+location	Region de la Araucania
+location	Renaico
+location	Saavedra
+location	Temuco (Araucanía)
+location	Temuco (Region de la Araucania)
+location	Teodoro Schmidt
+location	Tolten
+location	Traiguen
+location	Victoria CL
+location	Vilcun
+location	Vilcún
+location	Villarrica
+
 # Biobío
 location	Alto Bio Bio
 location	Antuco
@@ -18868,7 +18933,6 @@ location	Pozo Almonte
 
 # Arica and Parinacota
 location	Ap
-location	Arica
 location	Arica (Arica and Parinacota)
 location	Camarones
 location	General Lagos
@@ -22349,6 +22413,7 @@ location	Japaratuba
 location	Lagarto
 location	Laranjeiras (Sergipe)
 location	Macambira
+location	Malhada Dos Bois
 location	Malhador
 location	Maruim
 location	Monte Alegre de Sergipe
@@ -22789,6 +22854,7 @@ location	Cuite
 location	Cuite de Mamanguape
 location	Damiao
 location	Dona Ines
+location	Duas Estradas
 location	Esperanca
 location	Fagundes
 location	Frei Martinho
@@ -22798,6 +22864,7 @@ location	Ibiara
 location	Inga
 location	Itabaiana (Paraiba)
 location	Itaporanga (Paraiba)
+location	Itapororoca
 location	Itatuba
 location	Jacarau (Paraiba)
 location	Joao Pessoa
@@ -23751,10 +23818,12 @@ location	San Andres
 ### Panama
 # Chiriqui
 location	Baco
+location	Boqueron (Chiriqui)
 location	Bugaba
 location	Chiriqui
 location	David
 location	Gomez
+location	Penas Gordas
 location	Puerto Armuelles
 location	Volcan
 
@@ -23804,8 +23873,10 @@ location	Llano Grande
 location	Llano Norte
 location	Pajonal
 location	Penonome
+location	Piedras Gordas
 location	Pueblos Unidos
 location	Rio Hato
+location	San Antonio (Cocle)
 location	San Jose del General (Cocle)
 location	San Juan de Dios
 location	Santa Rita PA
@@ -23822,9 +23893,11 @@ location	Barrio Sur
 location	Buena Vista PA
 location	Cativá
 location	Ciricito
+location	Coclesito
 location	Cristobal
 location	El Guabo
 location	Escobal
+location	Los Limites
 location	Maria Chiquita
 location	Nueva Esperanza
 location	Nueva Providencia
@@ -23833,7 +23906,8 @@ location	Portobelo
 location	Rio Indio
 location	Rio Indio Donoso
 location	Sabanitas
-location	San Antonio PA
+location	San Antonio (Colon Province)
+location	San Benito PA
 location	San Jose del General (Colon Province)
 location	San Juan PA
 
@@ -23846,6 +23920,7 @@ location	Burunga
 location	Cabuya Chame
 location	Capira
 location	Cerro Silvestre
+location	Chepo (Panama Oeste)
 location	El Coco (Panama Oeste)
 location	El Coco (la Chorrera)
 location	El Higo (San Carlos)
@@ -23858,7 +23933,10 @@ location	Juan Demóstenes Arosemena
 location	La Chorrera
 location	La Trinidad
 location	Las Lajas PA
+location	Los Llanitos
 location	Lídice
+location	Nuevo Emperador
+location	Pacora (Panama Oeste)
 location	Playa Leona
 location	Puerto Caimito
 location	San Jose San Carlos
@@ -23887,10 +23965,11 @@ location	Bella Vista (Panama)
 location	Bella Vista PA
 location	Bella Vista Panama
 location	Betania PA
-location	Boqueron
+location	Boqueron (Panama Center)
 location	Caimitillo
 location	Calidonia
-location	Chepo
+location	Chanis
+location	Chepo (Panama Center)
 location	Chilibre
 location	Clayton PA
 location	Curundu
@@ -23912,7 +23991,7 @@ location	Ma[?]+-Anitas
 location	Mananitas
 location	Mateo Iturralde
 location	Omar Torrijos
-location	Pacora
+location	Pacora (Panama Center)
 location	Panama Metro
 location	Parque Lefevre
 location	Parque Real
@@ -23922,6 +24001,7 @@ location	Pueblo Nuevo PA
 location	Rio Abajo
 location	Rufina Alfaro
 location	Río Abajo
+location	San Antonio (Panama Center)
 location	San Felipe PA
 location	San Francisco (Panama)
 location	San Francisco PA
@@ -24179,6 +24259,7 @@ location	El Quetzal
 location	El Tumbador
 location	Ixchiguan
 location	La Refoerma
+location	La Reforma (San Marcos)
 location	Malacatan
 location	No Refiere (San Marcos)
 location	San Antonio Sacatepequez
@@ -24194,9 +24275,11 @@ location	Sipacapa
 location	Tejutla
 
 # Retalhuleu
+location	Escuintla (Retalhuleu)
 location	Retalhuleu
 location	San Andres Villa Seca
 location	San Felipe GT
+location	San Martin Zapotitlan
 location	San Sebastian (Retalhuleu)
 location	Santa Cruz Mulua
 
@@ -24204,6 +24287,8 @@ location	Santa Cruz Mulua
 location	Almolonga
 location	Cantel
 location	Coatepeque GT
+location	Colomba
+location	Genova GT
 location	No Refiere (Quetzaltenango)
 location	Quetzaltenago
 location	Quetzaltenango
@@ -24232,7 +24317,22 @@ location	Santa María Chiquimula
 location	Totonicapan
 location	Totonicapán
 
+# Suchitepequez
+location	Cuyotenango
+location	Cuyutenango
+location	Mazatenango
+location	Patulul
+location	Pueblo Nuevo (Suchitepequez)
+location	San Antonio GT
+location	San Francisco GT
+location	San Jose la Maquina
+location	Santa Barbara GT
+location	Santo Domingo GT
+location	Santo Tomas la Union
+location	Suchitepequez
+
 # Quiche
+location	Chichicastenago
 location	Chichicastenango
 location	Chinique
 location	Ixcan
@@ -24255,6 +24355,7 @@ location	Uspantan
 location	Chimaltenango
 location	Comalapa
 location	El Tejar GT
+location	Itzapa
 location	Parramos
 location	Patzicia
 location	Patzun
@@ -24271,13 +24372,14 @@ location	Yepocapa
 location	Zaragoza GT
 
 # Escuintla
-location	Escuintla
+location	Escuintla (Escuintla)
 location	La Democracia
 location	Palin
 location	Puerto San Jose
 location	San Jose GT
 location	Santa Lucia Cotzumalguapa
 location	Santa Lucía Cotzumalguapa
+location	Tiquisate
 
 # Sacatepequez
 location	Antigua
@@ -24288,6 +24390,7 @@ location	Pastores
 location	Sacatepequez
 location	San Bartolome Milpas Alta
 location	San Lucas
+location	Santa Lucia Milpas Altas
 location	Santiago Sacatepequez
 location	Santo Domingo Xenacoj
 location	Sumpango
@@ -24297,6 +24400,7 @@ location	Barberena
 location	Cuilapa
 location	Guazacapan
 location	Nueva Santa Rosa
+location	Oratorio
 location	Santa Rosa GT
 location	Taxisco
 
@@ -24307,6 +24411,7 @@ location	Chamelco
 location	Cobán
 location	Lanquín
 location	San Cristobal GT
+location	San Cristobal Verapaz
 location	San Juan Chamelco
 location	San Pablo Tamahu
 location	San Pedro Carcha
@@ -24328,6 +24433,7 @@ location	San Miguel Chicaj
 # Departamento de El Progreso
 location	El Jicaro
 location	El Jícaro
+location	El Mirador
 location	Guastatoya
 location	Morazan
 location	No Refiere (Departamento de El Progreso)
@@ -24348,10 +24454,12 @@ location	Sanyuyo
 
 # Peten
 location	El Chal
+location	Flores GT
 location	Las Cruces
 location	Peten
 location	Poptu+G51N
 location	Poptun
+location	San Benito GT
 location	San Luis GT
 location	Santa Ana GT
 location	Santa Elena GT
@@ -24398,13 +24506,15 @@ location	Quesada GT
 location	Santa Catarina Mita
 
 # Zacapa
+location	Cabanas
 location	Estanzuela
 location	Gualan
-location	La Reforma GT
+location	La Reforma (Zacapa)
 location	La Union GT
 location	No Refiere (Zacapa)
 location	Rio Hondo
 location	San Diego GT
+location	San Jorge
 location	Teculutan
 location	Teculután
 location	Usumatlán
@@ -25270,6 +25380,7 @@ location	Butte-Silver Bow County
 location	Canyoncreek
 location	Carbon
 location	Carbon County MT
+location	Carter County MT
 location	Carter MT
 location	Cascade County
 location	Chouteau
@@ -25301,7 +25412,9 @@ location	Golden Valley County
 location	Granite
 location	Granite County
 location	Greenough
+location	Harlowtown
 location	Heartbutte
+location	Helena
 location	Hill
 location	Hill County MT
 location	Jefferson County MT
@@ -25324,6 +25437,7 @@ location	McCone County
 location	Mccone
 location	Meagher
 location	Meagher County
+location	Miles Cite
 location	Mineral
 location	Mineral County MT
 location	Missoula County
@@ -29684,6 +29798,7 @@ division	Kostanay Region
 division	Kyzylorda Region
 division	Kazakhstan
 division	Turkistan Region
+division	North-Kazakhstan Region
 division	Akmola Region
 division	Karaganda Region
 division	Astana
@@ -29861,6 +29976,7 @@ division	Myeik
 division	Yangon
 division	Rakhine
 division	Nay Pyi Taw
+division	Naypyitaw
 division	Myanmar
 division	Mandalay
 division	Pyin Oo Lwin
@@ -31905,6 +32021,7 @@ division	Tatarstan
 division	Komi
 division	Orenburg
 division	Perm Krai
+division	Nenets Autonomous Okrug
 division	Bashkortostan
 division	Chelyabinsk
 division	Sverdlovsk
@@ -31992,6 +32109,7 @@ division	Magallanes
 division	Aysén
 division	Los Lagos
 division	Los Rios CL
+division	Region de la Araucania
 division	Biobío
 division	Ñuble
 division	Maule
@@ -32286,6 +32404,7 @@ division	Retalhuleu
 division	Quetzaltenango
 division	Huehuetenango
 division	Totonicapan
+division	Suchitepequez
 division	Quiche
 division	Chimaltenango
 division	Escuintla
@@ -32321,6 +32440,7 @@ division	Métropole
 division	Saint-François
 
 ### Belize
+division	Toledo BZ
 division	Belize
 division	Cayo
 division	Stann Creek
@@ -32353,6 +32473,7 @@ division	Jamaica
 division	Santo Domingo
 division	San Pedro de Macoris
 division	San Cristobal
+division	Monsea'Or Nouel
 division	La Vega
 division	Dominican Republic
 division	Duarte
