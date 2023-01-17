@@ -46,3 +46,9 @@ The links below refer to the `${BUILD_PART_0}` region; substitute `${BUILD_PART_
 - [${BUILD_PART_0}/6m Auspice tree](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/${BUILD_PART_0}.json)
 - [${BUILD_PART_0}/6m Auspice root sequence](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/${BUILD_PART_0}_root-sequence.json)
 - [${BUILD_PART_0}/6m Auspice tip frequencies](https://data.nextstrain.org/files/ncov/open/${BUILD_PART_0}/${BUILD_PART_0}_tip-frequencies.json)
+
+#### Reusing code or images
+
+All source code for Auspice, the visualization tool, is freely available under the terms of the [GNU Affero General Public License](https://github.com/nextstrain/auspice/blob/HEAD/LICENSE.txt).
+
+Screenshots may be used under a [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/) and attribution to nextstrain.org must be provided. A high-quality download option is available by clicking the **DOWNLOAD DATA** button at the bottom of the page and selecting **SCREENSHOT (SVG)**.
