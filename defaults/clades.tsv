@@ -169,3 +169,8 @@ clade	gene	site	alt
 22F (Omicron)	nuc	17859	C
 22F (Omicron)	nuc	23019	C
 22F (Omicron)	nuc	26275	G
+
+23A (Omicron)	clade	22F (Omicron)
+23A (Omicron)	nuc	22317	T
+23A (Omicron)	nuc	23018	C
+23A (Omicron)	nuc	27915	T
