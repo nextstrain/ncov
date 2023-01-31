@@ -32882,6 +32882,7 @@ clade_membership	22C (Omicron)
 clade_membership	22D (Omicron)
 clade_membership	22E (Omicron)
 clade_membership	22F (Omicron)
+clade_membership	23A (Omicron)
 
 ################
 
@@ -32889,11 +32890,10 @@ clade_membership	22F (Omicron)
 emerging_lineage	BQ.1.1
 emerging_lineage	BA.2.3.20
 emerging_lineage	BN.1
-emerging_lineage	BM.1.1
-emerging_lineage	BA.2.75.2
-emerging_lineage	BA.5.2.23
 emerging_lineage	BS.1
 emerging_lineage	XBC
+emerging_lineage	CH.1.1
+emerging_lineage	XAY
 
 ################
 
