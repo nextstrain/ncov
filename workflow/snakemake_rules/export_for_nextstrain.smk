@@ -379,6 +379,30 @@ except:
     deploy_origin = "by an unknown identity"
 
 
+# We limit the number of concurrent `nextstrain deploy` jobs by using a custom
+# resource, concurrent_deploys, for the rule deploy_single (below).  This is
+# because each `nextstrain deploy` to production currently performs a
+# CloudFront wildcard invalidation, and these invalidations have a concurrency
+# limit of 15 per CloudFront distribution.¹
+#
+# Set a default for concurrent_deploys so workflow invocations don't have to
+# specify it with --resources or profile config.  This is particularly
+# important because using --resources (or the equivalent profile config)
+# conflicts with `nextstrain build`'s automatic passing thru of allocated
+# memory to Snakemake.²
+#
+# The default is a very conservative 2 because `nextstrain deploy` does not
+# always wait for invalidation completion before exiting, and thus
+# invalidations may still be running even though the Snakemake job that started
+# it is not.  We also typically have multiple workflow runs occurring
+# simultaneously (e.g. GISAID and Open), and the limit of 15 is effectively
+# shared between them.
+#   -trs, 1 Feb 2023
+#
+# ¹ <https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-invalidations>
+# ² <https://github.com/nextstrain/cli/blob/017c5380/nextstrain/cli/command/build.py#L149-L166>
+workflow.global_resources.setdefault("concurrent_deploys", 2)
+
 rule deploy_single:
     input:
         # Replication of all_regions but with build_name as wildcard
@@ -393,6 +417,8 @@ rule deploy_single:
     params:
         deploy_url = config["deploy_url"],
         prefix = config["auspice_json_prefix"]
+    resources:
+        concurrent_deploys = 1
     benchmark:
         "benchmarks/deploy_single_{build_name}.txt"
     run:
