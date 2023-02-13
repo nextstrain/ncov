@@ -66,11 +66,11 @@ Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-ameri
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 |                       | aligned               | https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz                 |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | metadata (zstd)       | https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.zst          |
+|                       | metadata (zstd)       | https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst                 |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | sequences (zstd)      | https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.zst       |
+|                       | sequences (zstd)      | https://data.nextstrain.org/files/ncov/open/sequences.fasta.zst              |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | aligned (zstd)        | https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.zst         |
+|                       | aligned (zstd)        | https://data.nextstrain.org/files/ncov/open/aligned.fasta.zst                |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 | Global sample         | metadata              | https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz           |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
