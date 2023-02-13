@@ -47,6 +47,11 @@ def extract_tar_file_contents(filename, filetype):
             suffixes = Path(member.name).suffixes
 
             if extension in suffixes:
+                # Only use the last part of the member file name, excluding any
+                # leading directories that might include the root file system.
+                member_path = Path(member.name)
+                member.name = member_path.name
+
                 # By default, return the binary stream for the member file.
                 internal_member = member
                 break
