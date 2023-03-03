@@ -602,6 +602,7 @@ location	Tirupattur
 location	Tiruppur
 location	Tirupur
 location	Tiruvannamalai
+location	Trippur
 location	Trivandrum (Tamil Nadu)
 location	Tuticorin
 location	Tvm
@@ -678,6 +679,7 @@ location	Davanagere
 location	Davangere
 location	Dharwad
 location	Dharwar
+location	Dk
 location	Gadag
 location	Haridwar (Karnataka)
 location	Hassan
@@ -698,6 +700,7 @@ location	Raichur
 location	Ramanagara
 location	Shimamogga
 location	Shimoga
+location	Shivamoga
 location	Shivamogga
 location	South Bangalore
 location	Tumakuru
@@ -1063,6 +1066,7 @@ location	Aravali
 location	Aravalli
 location	Arvalli
 location	Banaskantha
+location	Banswara (Gujarat)
 location	Bardoli
 location	Baroda
 location	Bayad
@@ -1467,7 +1471,7 @@ location	Ajmer (Rajasthan)
 location	Alwar (Rajasthan)
 location	Ambala (Rajasthan)
 location	Banaswara
-location	Banswara
+location	Banswara (Rajasthan)
 location	Baran
 location	Barmer
 location	Bedwas Udaipur
@@ -2573,6 +2577,7 @@ location	Kinta
 location	Kuala Kangsar
 location	Larut Matang Selama
 location	Larut, Matang & Selama
+location	Manjoi
 location	Perak Tengah
 location	Simpang
 location	Tanjung Malim
@@ -2600,12 +2605,43 @@ location	Singapore
 
 ### China
 # Xinjiang
+location	Aksu
+location	Bayingolin
+location	Bingtuan
+location	Bohu
+location	Bozhou (Xinjiang)
+location	Hami
+location	Hejing
+location	Heshuo
+location	Hetian
+location	Karamay City
 location	Kashgar
+location	Kashi Prefecture
+location	Kelamayi
+location	Koral
+location	Korla
+location	Kumul
+location	Luntai
+location	Qiemo
+location	Ruoqiang
+location	Tacheng
+location	Turpan
+location	Urumchi
 location	Urumqi
 location	Wulumuqi
+location	Yanqi
+location	Yining
+location	Yuli
+
+# Qinghai
+location	Haibei
+location	Haidong
+location	Xining
 
 # Yunnan
 location	Baoshan (Yunnan)
+location	Honghe
+location	Honghe Hani and Yi
 location	Honghezhou
 location	Kunming
 location	Lincang
@@ -2613,50 +2649,140 @@ location	Pu'Er
 location	Ruili
 location	Wenshan
 location	Xishuangbanna
+location	Xishuangbanna Dai
+location	Zhaotong
+location	Zhuangmiao Autonomous Prefecture of Wenshan
 
 # Gansu
+location	Baiyin
+location	Dingxi
+location	Dunhuang
+location	Gannan
+location	Jiayuguan
+location	Jinchang
+location	Jiuquan
 location	Lanzhou
+location	Linxia
+location	Longnan
+location	Pingliang
+location	Qingyang
+location	Tianshui
+location	Wuwei
+location	Zhangye
 
 # Sichuan
 location	Chengdu
 location	Dazhou
+location	Deyang
+location	Guang'An
+location	Guangan
 location	Leshan
 location	Lixian
 location	Luzhou
+location	Neijiang
+location	Yibin
+location	Zigong
+location	Ziyang
+
+# Ningxia
+location	Qingtongxia
+location	Shizuishan
+location	Wuling
+location	Wuzhong
+location	Xingqing
+location	Yinchuan
+location	Yingning
+location	Zhongning
+location	Zhongwei
+
+# Guizhou
+location	Guiyang
+location	Tongren
+location	Zunyi
 
 # Chongqing
 location	Shaping
+location	Wanzhou
 location	Yongchuan
+location	Yubei
 location	Zhongxian
 
 # Guangxi
 location	Chongzuo
 location	Fangchenggang
 location	Nanning
+location	Yulin (Guangxi)
+
+# Shaanxi
+location	Ankang
+location	Baoji
+location	Xian
+location	Yanan
+location	Yulin (Shaanxi)
 
 # Hainan
+location	Baisha
 location	Chengmai
+location	Danzhou
+location	Dongfang
+location	Haikou
+location	Ledong
+location	Lingao
+location	Lingshui
+location	Sanya
 location	Wanning
+location	Wenchang
+location	Wuzhishan
 
 # Hunan
 location	Changde
 location	Changsha
 location	Huaihua
+location	Loudi
 location	Shaoyang
 
+# Shanxi
+location	Datong
+location	Jincheng
+location	Jinzhong
+location	Shuozhou
+location	Taiyuan
+location	Yuncheng
+
 # Hubei
+location	Enshi
+location	Ezhou
+location	Huanggang
+location	Huangshi
+location	Jingmen
 location	Jingzhou
+location	Qianjiang
+location	Shenglongjia
+location	Shiyan
+location	Suizhou
 location	Tianmen
 location	Wuhan
+location	Xiangyang
 location	Xianning
+location	Xiantao
+location	Xiaogan
+location	Yichang
 
 # Henan
 location	Jiaozuo
+location	Kaifeng
+location	Luoyang
+location	Nanyang
+location	Pingdingshan
+location	Xinxiang
+location	Xinyang
 location	Xuchang
 location	Zhengzhou
+location	Zhoukou
 
 # Inner Mongolia
 location	Alxa League
+location	Alxa Zuoqi
 location	Baotou
 location	Chifeng
 location	Hinggan League
@@ -2666,6 +2792,9 @@ location	Hulun Buir
 location	Manchurian
 location	Manzhouli
 location	Ordos
+location	Tongliao
+location	Ulanqab
+location	Wuhai
 location	Xilingol League
 
 # Guangdong
@@ -2687,6 +2816,7 @@ location	Zhuhai
 location	Fuzhou (Jiangxi)
 location	Ganzhou
 location	Jian
+location	Jingdezhen
 location	Jiujiang
 location	Nanchang
 location	Pingxiang
@@ -2697,53 +2827,111 @@ location	Yichun
 location	Yingtan
 
 # Hebei
+location	Anxin
+location	Baoding
+location	Cangzhou
+location	Chengde
+location	Dingzhou
 location	Handan
+location	Hengshui
+location	Langfang
+location	Qinhuangdao
 location	Shijiazhuang
+location	Tangshan
 location	Xingtai
+location	Xinji
+location	Zhangjiakou
 
 # Beijing
 location	Beijing
+location	Changping
 location	Chaoyang
 location	Daxing
+location	Dongcheng
 location	Fengtai
 location	Haidian
 location	Pinggu
+location	Xicheng
+
+# Tianjin
+location	Binhai New District
+location	Dongli
+location	Xiqing
 
 # Anhui
+location	Anqing
+location	Bengbu
+location	Bozhou (Anhui)
+location	Chizhou
+location	Chuzhou
 location	Fuyang
 location	Hefei
+location	Huaibei
+location	Huainan
+location	Huangshan
 location	Lu&Apos;An
 location	Lu'An
+location	Luan
+location	Maanshan
 location	Suzhou (Anhui)
+location	Tongling
 location	Wuhu
+location	Xuancheng
 
 # Fujian
 location	Fuzhou (Fujian)
 location	Longyan
+location	Nanping
 location	Ningde
 location	Putian
 location	Quanzhou
 location	Sanming
+location	Xiamen
 location	Zhangzhou
 
 # Shandong
+location	Binzhou
+location	Dezhou
+location	Dongying
+location	Heze
+location	Jinan
+location	Jining
+location	Liaocheng
+location	Linyi
 location	Qingdao
+location	Rizhao
+location	Taian
+location	Weifang
+location	Weihai
 location	Yantai
+location	Zaozhuang
+location	Zibo
 
 # Jiangsu
 location	Changzhou
 location	Huaian
+location	Lianyungang
 location	Nanjing
+location	Nantong
+location	Suqian
 location	Suzhou (Jiangsu)
+location	Taizhou (Jiangsu)
 location	Wuxi
 location	Xuzhou
+location	Yancheng
+location	Yangzhou
 
 # Zhejiang
 location	Hangzhou
+location	Huzhou
+location	Jiaxing
+location	Jinhua
 location	Keqiao
 location	Lishui
 location	Ningbo
+location	Quzhou
 location	Shangyu
+location	Taizhou (Zhejiang)
 location	Wenzhou
 location	Yiwu
 location	Yuecheng
@@ -2751,19 +2939,40 @@ location	Zhoushan
 
 # Shanghai
 location	Baoshan (Shanghai)
+location	Changning
+location	Chongming
 location	Fengxian
+location	Hongkou
+location	Huangpu
+location	Jiading
 location	Jingan
 location	Jinshan
 location	Minhang
+location	Pudong
+location	Putuo
+location	Qingpu
+location	Songjiang
+location	Xuhui
+location	Yangpu
 
 # Liaoning
+location	Anshan
+location	Benxi
 location	Dalian
 location	Dandong
+location	Fushun
+location	Jinzhou
+location	Liaoyang
 location	Shenyang
 location	Yingkou
 
 # Jilin
+location	Baicheng
+location	Changchun
+location	Jilin
 location	Shulan
+location	Siping
+location	Tonghua
 location	Yanbian
 
 # Heilongjiang
@@ -2968,6 +3177,7 @@ location	Tangerang Selatan
 
 # Kepulauan Bangka Belitung
 location	Bangka
+location	Bangka Barat
 location	Bangka Belitung
 location	Bangka Selatan
 location	Bangka Tengah
@@ -3002,13 +3212,18 @@ location	Bogor Regency
 location	Bogor Region
 location	Ciamis
 location	Cianjur
+location	Cimacan
 location	Cimahi
+location	Cimahi City
 location	Cirebon
+location	Cirebon City
 location	Depok
+location	Depok City
 location	Garut
 location	Indramayu
 location	Karawang
 location	Kota Bandung
+location	Kota Bogor
 location	Kuningan
 location	Majalengka
 location	Pangandaran
@@ -3018,6 +3233,7 @@ location	Sukabumi
 location	Sumedang
 location	Tangerang (West Java)
 location	Tasikmalaya
+location	Tasikmalaya City
 location	West Bandung
 
 # West Kalimantan
@@ -3136,6 +3352,7 @@ location	Banjar (South Kalimantan)
 location	Banjar Baru
 location	Banjarbaru
 location	Banjarmasin
+location	Banjarmasin City
 location	Kotabaru
 location	Tanah Bumbu
 location	Tapin
@@ -3297,6 +3514,7 @@ location	Tokyo
 
 # Hokkaido
 location	Asahikawa
+location	Sapporo
 
 ################
 
@@ -3471,7 +3689,7 @@ location	Tarkwa
 location	Tarkwa Gold Fields
 
 # Central Region GH
-location	Cape Coast
+location	Cape Coast (Central Region GH)
 
 # Greater Accra
 location	Accra
@@ -3488,6 +3706,7 @@ location	Accra la Dade-Kotopon
 location	Accra la Nkwantanang
 location	Accra, Ghana
 location	Adenta
+location	Cape Coast (Greater Accra)
 location	La Dadekotopon
 location	La Nkwantaunknownng
 location	Ledzokuku Krowor Municipal
@@ -3535,8 +3754,10 @@ location	Lerigu (North East Region)
 
 # Upper East Region
 location	Bolgatanga (Upper East Region)
+location	Bolgatanga (Upper East)
 location	Lerigu (Upper East Region)
 location	Navrongo (Upper East Region)
+location	Navrongo (Upper East)
 
 ### Togo
 # Golfe
@@ -3898,6 +4119,7 @@ location	Moiyabana
 location	Mokokwana
 location	Paje
 location	Palapye
+location	Pioneer BW
 location	Sefhare
 location	Selebe Phikwe
 location	Selebi Phikwe
@@ -4372,7 +4594,7 @@ location	Xai Xai
 location	Inhambane
 location	Massinga
 location	Maxixe
-location	Zavala
+location	Zavala MZ
 
 # Sofala
 location	Beira
@@ -5165,7 +5387,7 @@ location	Soto del Real
 location	Valdaracete
 
 # Castilla la Mancha
-location	Agudo
+location	Agudo ES
 location	Albacete
 location	Albalate de Zorita
 location	Alcolea De Calatrava
@@ -5361,6 +5583,7 @@ location	Baracaldo
 location	Bermeo
 location	Bilbao
 location	Bizkaia
+location	Bizkiaia
 location	Deba
 location	Derio
 location	Donostia-San Sebastian
@@ -5381,7 +5604,7 @@ location	Portugalete
 location	San Sebastian ES
 location	Santurtzi
 location	Sopelana
-location	Tolosa
+location	Tolosa ES
 location	Trapaga
 location	Vitoria-Gasteiz
 location	Zarauz
@@ -5850,6 +6073,7 @@ location	Montagut I Oix
 location	Montesquiu
 location	Montgat
 location	Montmelo
+location	Montornes del V
 location	Montornes del Valles
 location	Montseny
 location	Mora D'Ebre
@@ -5858,6 +6082,7 @@ location	Nan
 location	Navarcles
 location	Navas
 location	Ocata
+location	Olesa Dde Montserrat
 location	Olesa de Bonesvalls
 location	Olesa de Montserrat
 location	Olost
@@ -6039,6 +6264,7 @@ location	Torroella de Montgri
 location	Torruella de Baix
 location	Tortellà
 location	Tortosa
+location	Tossa de Mar
 location	Tremp
 location	Ullastrell
 location	Ulldecona
@@ -6211,7 +6437,8 @@ location	Arradon
 location	Arzon
 location	Augan
 location	Auray
-location	Bagneux
+location	Bagneux (Bretagne)
+location	Baguer Morvan
 location	Baguer Pican
 location	Bain de Bretagne
 location	Bains sur Oust
@@ -6240,6 +6467,7 @@ location	Bourseul
 location	Bovel
 location	Breal Sous Montfort
 location	Brece
+location	Brest Armees
 location	Brest Armées
 location	Brest FR
 location	Breteil
@@ -6248,6 +6476,7 @@ location	Caen (Bretagne)
 location	Cancale
 location	Carentan Les Marais
 location	Carentoir
+location	Carnoet
 location	Cayenne (Bretagne)
 location	Cempuis
 location	Cesson Sevigne
@@ -6264,6 +6493,7 @@ location	Chemin de St Yves
 location	Cintre
 location	Cleder
 location	Clermont Ferrand
+location	Clohars Carnoet
 location	Coatreven
 location	Colombes (Bretagne)
 location	Colombiers Du Plessis
@@ -6335,6 +6565,7 @@ location	Kervignac
 location	Kourou (Bretagne)
 location	L Hermitage
 location	La Bouexiere
+location	La Boussac
 location	La Chapelle Aux Filtzmeens
 location	La Chapelle Bouexic
 location	La Chapelle Du Lou Du Lac
@@ -6346,6 +6577,7 @@ location	La Fresnais
 location	La Gacilly
 location	La Meziere
 location	La Pellerine
+location	La Richardais
 location	La Roche Bernard
 location	La Roche Jaudy
 location	La Roche sur Yon
@@ -6360,6 +6592,7 @@ location	Lanmerin
 location	Lannilis
 location	Lannion
 location	Lanrelas
+location	Lanvollon
 location	Larchamp
 location	Laurenan
 location	Laval (Bretagne)
@@ -6453,10 +6686,12 @@ location	Ploeuc l Hermitage
 location	Ploezal
 location	Plorec sur Arguenon
 location	Ploubazlanec
+location	Ploubazlannec
 location	Ploubezlanec
 location	Ploubezre
 location	Ploudalmezeau
 location	Plouec sur Lie
+location	Plouer sur Rance
 location	Plouezec
 location	Ploufragan
 location	Plougrescant
@@ -6547,6 +6782,7 @@ location	St Malo
 location	St Malo de Guersac
 location	St Mare
 location	St Mars sur la Futaie
+location	St Martin des Champs
 location	St Medard sur Ille
 location	St Meen le Grand
 location	St Meloir des Ondes
@@ -6638,15 +6874,19 @@ location	Val de Loire
 location	Vendee
 
 # Normandie
+location	Alencon
 location	Argentan
 location	Avranches
 location	Barentin
 location	Bernieres-le-Patry
+location	Bois-Guillaume-Bihorel
 location	Caen (Normandie)
 location	Calvados
 location	Carentan
 location	Cherbourg-Octeville
 location	Coutances
+location	Dieppe
+location	Elbeuf
 location	Eure
 location	Evreux
 location	Gisors
@@ -6655,10 +6895,12 @@ location	La Ferte Mace
 location	Le Havre
 location	Lisieux
 location	Manche
+location	Montivilliers
 location	Orne
 location	Rouen
 location	Saint Etienne Du Rouvray
 location	Saint Valery en Caux
+location	Saint-Lo
 location	Seine-Maritime
 location	Yquelon
 
@@ -6790,6 +7032,7 @@ location	Chartres
 location	Chateauneuf-en-Thymerais
 location	Chateauroux
 location	Cher
+location	Contres
 location	Dreux
 location	Eure-Et-Loir
 location	Fondettes
@@ -6814,6 +7057,7 @@ location	Romilly sur Aigre
 location	Romorantin
 location	Romorantin Lanthenay
 location	Rouziers-de-Touraine
+location	Saint Avertin
 location	Saint Doulchard
 location	Saint-Doulchard
 location	Saint-Piat
@@ -6840,6 +7084,7 @@ location	Clamart
 location	Colombes (Ile de France)
 location	Compans
 location	Creteil
+location	Dammartin en Goele (Ile de France)
 location	Dourdan
 location	Egreville
 location	Essonne
@@ -6855,11 +7100,13 @@ location	Guyancourt
 location	Hauts-de-Seine
 location	Issy-Les-Moulineaux
 location	Ivry-sur-Seine
+location	Jossigny
 location	Juvisy-sur-Orge
 location	L Isle-Adam
 location	L'Isle-Adam
 location	Lagny-sur-Marne
 location	Le Chesnay
+location	Le Kremlin Bicetre
 location	Le Pecq
 location	Le Plessis Robinson
 location	Levallois-Perret
@@ -6874,16 +7121,18 @@ location	Mantes-la-Ville
 location	Meaux
 location	Mennecy
 location	Meudon la Forêt
+location	Montevrain
 location	Montfermeil
 location	Montigny le Bretonneux
 location	Montigny-le-Bretonneux
-location	Montreuil
+location	Montreuil (Ile de France)
 location	Moussy Le Neuf
 location	Nanterre
 location	Nemours
 location	Neuilly sur Seine
 location	Neuilly sur Seine Cédex
 location	Noisy le Roi
+location	Noisy-le-Grand
 location	Noisy-le-Roi
 location	Orsay
 location	Pantin
@@ -6934,6 +7183,7 @@ location	Aisne
 location	Amiens
 location	Armentieres
 location	Arras
+location	Bagneux (Hauts de France)
 location	Bazancourt
 location	Beauvais
 location	Bethune
@@ -6958,18 +7208,22 @@ location	Denain
 location	Douai
 location	Dunkerque
 location	Ecuires
+location	Flers
 location	Flines-lès-Mortagne
 location	Genech
 location	Gondecourt
 location	Gravelines
 location	Helfaut
 location	Henin-Beaumont
+location	Hericourt
 location	Laon
 location	Leers
 location	Lens FR
 location	Lille FR
 location	Lomme
 location	Lyz-Les-Lannoy
+location	Marly
+location	Montreuil (Hauts de France)
 location	Nogent-l'Artaud
 location	Nord
 location	Nord Pas de Calais
@@ -7191,7 +7445,7 @@ location	Cf
 location	Chadeleuf
 location	Chadrac
 location	Challes-Les-Eaux
-location	Chalons en Champagne
+location	Chalons en Champagne (Auvergne-Rhône-Alpes)
 location	Chalus
 location	Chamalieres
 location	Chamalliere
@@ -7261,6 +7515,7 @@ location	Condat en Combraille
 location	Conilhac-Corbieres
 location	Contamine-sur-Arve
 location	Contamines
+location	Contigny
 location	Corbas
 location	Corbel
 location	Coren
@@ -7283,6 +7538,7 @@ location	Couteuges
 location	Crandelles
 location	Craponne
 location	Craponne sur Arzon
+location	Cressanges
 location	Creuzier le Vieux
 location	Crevant Laveine
 location	Cronat
@@ -7292,7 +7548,7 @@ location	Cunlhat
 location	Cussac sur Loire
 location	Cusset
 location	Dallet
-location	Dammartin en Goele
+location	Dammartin en Goele (Auvergne-Rhône-Alpes)
 location	Dardilly
 location	Dauzat sur Vodable
 location	Davayat
@@ -7348,6 +7604,7 @@ location	Fontans
 location	Fontfreyde
 location	Freix Anglards
 location	Fresnes
+location	Frugeres Les Mines
 location	Frugieres le Pin
 location	Gannat
 location	Gardanne
@@ -7498,6 +7755,7 @@ location	Longueville FR
 location	Lonrai
 location	Loriges
 location	Lorlanges
+location	Lorrez le Bocage Preaux
 location	Loubeyrat
 location	Loudes
 location	Louroux Bourbonnais
@@ -7720,6 +7978,7 @@ location	Saint Julien de Coppel
 location	Saint Maixent l Ecole
 location	Saint Nectaire
 location	Saint Ours
+location	Saint Priest des Champs
 location	Saint Prix
 location	Saint Sandoux
 location	Saint Saturnin
@@ -7813,6 +8072,7 @@ location	St Frion
 location	St Gal sur Sioule
 location	St Genes Champanelle
 location	St Genes Champespe
+location	St Genes Du Retz
 location	St Genest
 location	St George de Mont
 location	St Georges (Auvergne-Rhône-Alpes)
@@ -7820,6 +8080,7 @@ location	St Georges D Aurac
 location	St Georges Es Allier
 location	St Georges de Mons
 location	St Georges sur Allier
+location	St Gerand le Puy
 location	St Germain Laprade
 location	St Germain Lavolps
 location	St Germain Lembron
@@ -7871,6 +8132,7 @@ location	St Sauves
 location	St Sauves D Auvergne
 location	St Simon
 location	St Sulpice Lauriere
+location	St Sulpice le Gueretois
 location	St Sylvestre Pragoulin
 location	St Urcize
 location	St Victor
@@ -7985,6 +8247,7 @@ location	Yzeure
 # Bourgogne-France-Comté
 location	Autun
 location	Auxerre
+location	Beaune
 location	Belfort
 location	Besancon (Bourgogne-France-Comté)
 location	Bletterans
@@ -7993,9 +8256,11 @@ location	Burgundy
 location	Chalon sur Saone (Bourgogne-France-Comté)
 location	Charolles
 location	Clamecy
+location	Cosne sur Loire
 location	Cote-D'Or
 location	Creches-sur-Saone
 location	Dijon (Bourgogne-France-Comté)
+location	Dole
 location	Doubs
 location	Echenoz-la-Meline
 location	Haute-Saone
@@ -8003,9 +8268,11 @@ location	Hauteville-Les-Dijon
 location	Joigny
 location	Jura
 location	Lons le Saunier
+location	Louhans
 location	Luxeuil-Les-Bains
 location	Macon FR
 location	Montbeliard
+location	Montceau Les Mines
 location	Montceau-Les -Mines
 location	Montcenis
 location	Montreux-Chateau
@@ -8036,6 +8303,7 @@ location	Biesheim
 location	Bischheim
 location	Brumath
 location	Carignan
+location	Chalons en Champagne (Grand Est)
 location	Champagne Ardenne
 location	Champagne-Ardenne
 location	Charleville-Mezieres
@@ -8049,6 +8317,7 @@ location	Fayl-Billot
 location	Franken
 location	Gondrecourt-le-Chateau
 location	Guebwiller
+location	Haguenau
 location	Ham Sous Varsberg
 location	Haut-Rhin
 location	Haute-Marne
@@ -8088,6 +8357,7 @@ location	Reguisheim
 location	Reims (Grand Est)
 location	Rixheim
 location	Romilly sur Seine (Grand Est)
+location	Romilly-sur-Seine
 location	Rosenau
 location	Saint Dizier
 location	Saint Pierre (Grand Est)
@@ -8095,11 +8365,14 @@ location	Saint-Avold
 location	Saint-Die-des-Vosges
 location	Saint-Germainmont
 location	Sainte Marie Aux Mines
+location	Sarrebourg
 location	Sarreguemines
+location	Saverne
+location	Selestat
 location	Soultz Haut Rhin
 location	Soultzeren
 location	Spicheren
-location	St-Louis
+location	St-Louis FR
 location	Strasbourg (Grand Est)
 location	Talange
 location	Thann
@@ -8107,11 +8380,13 @@ location	Thionville
 location	Troyes
 location	Tucquegnieux
 location	Urbes
+location	Val de Briey
 location	Vandoeuvre-Les-Nancy
 location	Village-Neuf
 location	Vitry le Francois
 location	Vosges
 location	Wissembourg
+location	Witry-Les-Reims
 location	Wittenheim
 location	Woerth
 location	Woippy
@@ -9272,6 +9547,7 @@ location	Évelette
 # Dinant
 location	Achêne
 location	Alle
+location	Baillonville
 location	Baronville
 location	Beauraing
 location	Bièvre
@@ -9674,6 +9950,8 @@ location	Sluis
 location	Terneuzen
 location	Tholen
 location	Vlissingen
+location	Wemeldinge
+location	Yerseke
 
 # South Holland
 location	's Gravenhage
@@ -10549,6 +10827,7 @@ location	Milan
 location	Milano (Lombardy)
 location	Monza
 location	Pavia
+location	Varense
 location	Varese
 
 # Emilia-Romagna
@@ -10729,7 +11008,9 @@ location	Vipiteno
 location	Welsberg
 
 # Veneto
+location	Altra Nazione
 location	Belluno
+location	Cina
 location	Negrar
 location	Padua (Veneto)
 location	Rovigo
@@ -12124,6 +12405,7 @@ location	Dalesice (Liberec Region)
 location	Desna
 location	Dlouhy Most
 location	Doksy
+location	Drzkov
 location	Frydlant
 location	Frydstejn
 location	Harrachov
@@ -12170,10 +12452,13 @@ location	Svitava
 location	Tachov (Liberec Region)
 location	Tanvald
 location	Velke Hamry
+location	Vesela
 location	Visnova
 location	Vratislavice nad Nisou
 location	Vselibice
+location	Vsen
 location	Vysker
+location	Zasada
 location	Zlata Olesnice
 
 # Vysocina Region
@@ -12882,6 +13167,7 @@ location	Tovacov
 location	Troubelice
 location	Uhelna
 location	Unicov
+location	Vapenna
 location	Velky Ujezd
 location	Veselicko
 location	Vikyrovice
@@ -13045,6 +13331,7 @@ location	Hlavnice
 location	Hlucin
 location	Hnevosice
 location	Hnojnik
+location	Hodslavice
 location	Holcovice
 location	Horni Benesov
 location	Horni Bludovice (Moravian-Silesian Region)
@@ -13115,6 +13402,7 @@ location	Prosetin (Moravian-Silesian Region)
 location	Pstruzi
 location	Pusta Polom
 location	Radun CZ
+location	Rybi
 location	Rychvald
 location	Sedliste
 location	Sedlnice
@@ -13122,6 +13410,7 @@ location	Senov
 location	Senov U Noveho Jicina
 location	Senov U Ostravy
 location	Silherovice
+location	Skripov
 location	Slatina (Moravian-Silesian Region)
 location	Slavkov
 location	Slezske Rudoltice
@@ -13168,6 +13457,8 @@ location	Velika Kladuša
 
 # Republic of Srpska
 location	Banjaluka
+location	Bijeljina
+location	Bratunac
 location	Celinac
 location	Doboj
 location	Foca
@@ -13181,13 +13472,17 @@ location	Kotor Varos
 location	Kozarskadubica
 location	Laktasi
 location	Mrkonjic Grad
+location	Mrkonjicgrad
 location	Prijedor
 location	Prnjavor
 location	Ribnik
+location	Sekovici
 location	Sipovo
 location	Srbac
 location	Trebinje
 location	Visegrad
+location	Vlasenica
+location	Zvornik
 
 # West Herzegovina
 location	Grude
@@ -13410,6 +13705,7 @@ location	Kurozwecz
 location	Leczno
 location	Lesno Gorne
 location	Lipiany
+location	Lobeski
 location	Lobez
 location	Lubanowo
 location	Lubianka
@@ -14874,6 +15170,7 @@ location	Modlniczka
 location	Modrzewiowa
 location	Mogilany
 location	Mszana Dolna
+location	Myslenicki
 location	Myślenice
 location	Niedzwiedz
 location	Niegowic
@@ -15258,7 +15555,7 @@ location	Olesno (Warminsko-Mazurskie)
 location	Olsztyn (Warminsko-Mazurskie)
 location	Omule
 location	Orneta
-location	Orzysz
+location	Orzysz (Warminsko-Mazurskie)
 location	Ostodzki
 location	Ostrodzki
 location	Ostroleka (Warminsko-Mazurskie)
@@ -15444,7 +15741,7 @@ location	Laskow
 location	Latchorzew
 location	Laziska
 location	Leczyca (Mazowieckie)
-location	Legionowo
+location	Legionowo (Mazowieckie)
 location	Legionowski (Mazowieckie)
 location	Lekarcice
 location	Lekarcice Stare
@@ -15658,6 +15955,7 @@ location	Łaz
 
 # Masovia
 location	Kazun
+location	Legionowo (Masovia)
 location	Nowy Dwor Mazowiecki (Masovia)
 location	Parzniew
 location	Przasnysz
@@ -16788,13 +17086,17 @@ location	Salaspils Novads
 location	Saulkrastu Novads
 location	Siguldas Novads
 location	Smiltenes Novads
+location	Valkas Novads
 location	Valmieras Novads
 
 # Latgale
 location	Augsdaugavas Novads
 location	Balvu Novads
 location	Daugavpils
+location	Kraslavas Novads
+location	Livanu Novads
 location	Ludzas Novads
+location	Preilu Novads
 location	Rezekne
 location	Rezeknes Novads
 
@@ -16909,6 +17211,7 @@ location	Lomonosov (Leningrad Oblast)
 location	Luga
 location	Murino
 location	Pikkolovo
+location	Podporozhye (Leningrad Oblast)
 location	Roshchino
 location	Sertolovo
 location	Sosnoviy Bor
@@ -16970,7 +17273,7 @@ location	Medvezhyegorsk
 location	Onguday
 location	Petrozavodsk
 location	Pindushi
-location	Podporozhye
+location	Podporozhye (Karelia)
 location	Porosoozero
 location	Povenets
 location	Pudozh
@@ -18071,6 +18374,7 @@ location	Presidente Perón
 location	Puerto Madero
 location	Quilmes
 location	Ramallo
+location	Ramos Mejia
 location	Ringuelet
 location	Rojas
 location	Salto AR
@@ -18089,6 +18393,7 @@ location	Suipacha
 location	Tandil
 location	Temperley
 location	Tigre
+location	Tolosa AR
 location	Torres AR
 location	Tres Arroyos
 location	Tres de Febrero
@@ -18130,6 +18435,7 @@ location	Parana AR
 location	Alta Gracia
 location	Arroyito
 location	Belle Ville
+location	Bellville
 location	Bialet Masse
 location	Brinkmann
 location	Calamuchita
@@ -18244,6 +18550,7 @@ location	Gobernador Crespo
 location	Grutly
 location	Gálvez
 location	Helvecia
+location	Hernandarias
 location	Hughes
 location	Humboldt
 location	La Gallareta
@@ -18358,6 +18665,7 @@ location	Eldorado AR
 location	Garupa
 location	Obera
 location	Posadas
+location	Pto Rico
 location	Puero Rico
 location	Puerto Rico
 location	San Vicente AR
@@ -18498,9 +18806,10 @@ location	Bella Union
 ### Chile
 # Magallanes
 location	Antartica
+location	Cabo de Hornos (Exnavarino)
 location	Laguna Blanca (Magallanes)
 location	Natales (Magallanes)
-location	Porvenir
+location	Porvenir (Magallanes)
 location	Puerto Natales
 location	Puerto Williams
 location	Punta Arenas (Magallanes)
@@ -18508,6 +18817,13 @@ location	Region de Magallanes y la Antartica
 location	San Gregorio
 location	Timaukel
 location	Torres del Paine
+
+# Region de Magallanes y de la Antartica Chilena
+location	Laguna Blanca (Region de Magallanes y de la Antartica Chilena)
+location	Natales (Region de Magallanes y de la Antartica Chilena)
+location	Porvenir (Region de Magallanes y de la Antartica Chilena)
+location	Punta Arena
+location	Punta Arenas (Region de Magallanes y de la Antartica Chilena)
 
 # Aysén
 location	Aisen
@@ -18542,7 +18858,7 @@ location	Maullin
 location	Osorno (Los Lagos)
 location	Palena
 location	Puente Alto (Los Lagos)
-location	Puerto Montt
+location	Puerto Montt (Los Lagos)
 location	Puerto Octay
 location	Puerto Varas
 location	Puqueldon
@@ -18565,7 +18881,8 @@ location	Corral
 location	Coñaripe
 location	Futaleufu (Los Rios CL)
 location	Futrono (Los Rios CL)
-location	La Union (Los Rios CL)
+location	La Union (Region de los Rios)
+location	La Union CL
 location	La Unión
 location	Lago Ranco
 location	Lanco
@@ -18575,10 +18892,13 @@ location	Mafil
 location	Mariquina
 location	Osorno (Los Rios CL)
 location	Paillaco (Los Rios CL)
+location	Paillaco (Region de los Rios)
 location	Panguipulli
+location	Puerto Montt (Los Rios CL)
 location	Ranco
 location	Rio Bueno (Los Rios CL)
-location	Valdivia (Los Rios CL)
+location	Valdivia (Region de los Rios)
+location	Valdivia CL
 
 # Region de la Araucania
 location	Angol
@@ -18618,12 +18938,14 @@ location	Traiguen
 location	Victoria CL
 location	Vilcun
 location	Vilcún
+location	Villarica
 location	Villarrica
 
 # Biobío
 location	Alto Bio Bio
 location	Antuco
 location	Arauco
+location	Bulnes (Biobío)
 location	Cabrero
 location	Canete
 location	Chiguayante
@@ -18633,6 +18955,7 @@ location	Concepcion CL
 location	Contulmo
 location	Coronel
 location	Curanilahue
+location	El Carmen (Biobío)
 location	Florida CL
 location	Hualpen
 location	Hualqui
@@ -18662,13 +18985,14 @@ location	Yumbel
 # Ñuble
 location	A (Ñuble)
 location	A'Iquen
-location	Bulnes
-location	Chillan
+location	Aiquen
+location	Bulnes (Ñuble)
+location	Chillan (Ñuble)
 location	Chillan Viejo (Ñuble)
 location	Cobquecura
 location	Coelemu
 location	Coihueco (Ñuble)
-location	El Carmen CL
+location	El Carmen (Ñuble)
 location	Ninhue
 location	Niquen
 location	Pemuco
@@ -18683,6 +19007,7 @@ location	San Fabian
 location	San Ignacio CL
 location	San Nicolas (Ñuble)
 location	Treguaco
+location	Yungai
 location	Yungay
 location	Ã‘Iquen
 
@@ -18727,6 +19052,7 @@ location	Codegua
 location	Coinco
 location	Coltauco
 location	Donihue (O'Higgins)
+location	Donihue (Region de O'Higgins)
 location	Graneros
 location	La Estrella CL
 location	Las Cabras
@@ -18862,6 +19188,7 @@ location	Salamanca (Valparaiso)
 location	San Antonio CL
 location	San Esteban
 location	San Felipe CL
+location	San Miguel (Valparaiso)
 location	Santa Maria CL
 location	Santo Domingo CL
 location	Valparaiso CL
@@ -18877,6 +19204,7 @@ location	Zapallar
 
 # Coquimbo
 location	Andacollo CL
+location	Calama (Coquimbo)
 location	Canela CL
 location	Combarbala
 location	Coquimbo
@@ -18897,7 +19225,7 @@ location	Vicuna
 
 # Atacama
 location	Alto del Carmen
-location	Caldera
+location	Caldera (Atacama)
 location	Chanaral
 location	Copiapo (Atacama)
 location	Diego de Almagro
@@ -18911,8 +19239,9 @@ location	Vallenar
 
 # Antofagasta
 location	Antofagasta
-location	Calama
+location	Calama (Antofagasta)
 location	Calma
+location	Maria Elena
 location	Mejillones
 location	Ollague
 location	Region de Antogafasta
@@ -18927,6 +19256,7 @@ location	Alto Hospicio
 location	Camina
 location	Colchane
 location	Huara
+location	Iquique (Region de Tarapaca)
 location	Iquique (Tarapacá)
 location	Pica
 location	Pozo Almonte
@@ -19018,8 +19348,13 @@ location	Carmelo Peralta
 location	Sucre BO
 
 # Cochabamba
+location	Ayopaya
+location	Carrasco
+location	Cercado
 location	Cercado Cochabamba
+location	Chapare
 location	Chapare Colomi
+location	Quillacollo
 location	Tiraque Shinahota
 
 # Santa Cruz BO
@@ -19215,7 +19550,7 @@ location	Barra do Garcas
 location	Brasnorte
 location	Caceres BR
 location	Campo Novo do Parecis
-location	Campo Verde
+location	Campo Verde (Mato Grosso)
 location	Campos de Julio
 location	Canarana (Mato Grosso)
 location	Chapada Dos Guimaraes
@@ -19270,6 +19605,7 @@ location	Peixoto de Azevedo
 location	Planalto Da Serra
 location	Pocone
 location	Pontes E Lacerda
+location	Porto Alegre do Norte
 location	Porto Dos Gauchos
 location	Porto Esperdiao
 location	Porto Esperidiao
@@ -19295,6 +19631,7 @@ location	Tangara Da Serra (Mato Grosso)
 location	Tapurah
 location	Terra Nova do Norte
 location	Uniao Sul
+location	Uniao do Sul
 location	Varzea Grande
 location	Vila Bela
 location	Vila Bela Da Santissima Trindade
@@ -19324,6 +19661,7 @@ location	Brasilandia
 location	Caarapo
 location	Camapua
 location	Campo Grande (Mato Grosso do Sul)
+location	Campo Verde (Mato Grosso do Sul)
 location	Caracol
 location	Carapa
 location	Cassilandia
@@ -19386,6 +19724,7 @@ location	Vicentina
 
 # Rio Grande do Sul
 location	Acegua
+location	Agudo BR
 location	Ajuricaba
 location	Alegrete
 location	Alto Feliz
@@ -19420,6 +19759,7 @@ location	Bozano
 location	Braga
 location	Butia
 location	Cacapava do Sul
+location	Cacequi
 location	Cachoeira do Sul
 location	Cachoeirnha
 location	Caicara (Rio Grande do Sul)
@@ -19464,9 +19804,11 @@ location	Cruz Alta
 location	Cruzeiro do Sul (Rio Grande do Sul)
 location	Derrubadas
 location	Dezesseis de Novembro
+location	Dilermando de Aguiar
 location	Dois Irmaos
 location	Dois Irmaos Das Missoes
 location	Dom Pedrito
+location	Dona Francisca
 location	Eldorado do Sul
 location	Encantado
 location	Encruzilhada do Sul
@@ -19486,9 +19828,11 @@ location	Estância Velha
 location	Eugenio de Castro
 location	Fagundes Varela
 location	Farroupilha
+location	Faxinal do Soturno
 location	Flores Da Cunha
 location	Floriano Peixoto
 location	Fontoura Xavier
+location	Formigueiro
 location	Forquetinha
 location	Fortaleza Dos Valos
 location	Frederico Westfalen
@@ -19506,6 +19850,7 @@ location	Gravataí
 location	Guaiba
 location	Guapore
 location	Harmonia
+location	Hulha Negra
 location	Humaita (Rio Grande do Sul)
 location	Ibiraiaras
 location	Ibirapuita
@@ -19513,19 +19858,25 @@ location	Ibiruba
 location	Igrejinha
 location	Ijui
 location	Imbe
+location	Indaial (Rio Grande do Sul)
 location	Independencia (Rio Grande do Sul)
 location	Inhacora
 location	Ipiranga do Sul
 location	Irai
+location	Itaara
 location	Itacurubi
 location	Itaqui
 location	Itatiba do Sul
+location	Ivora
 location	Ivoti
 location	Jaboticaba
 location	Jacutinga
+location	Jaguarao
 location	Jaguari
+location	Jari
 location	Joia
 location	Joinville (Rio Grande do Sul)
+location	Julio de Castilhos
 location	Lagoa Vermelha
 location	Lajeado (Rio Grande do Sul)
 location	Lajeado do Bugre
@@ -19554,11 +19905,13 @@ location	Nova Boa Vista
 location	Nova Brescia
 location	Nova Esperanca do Sul
 location	Nova Hartz
+location	Nova Palma
 location	Nova Petropolis
 location	Nova Ramada
 location	Nova Ramaleada
 location	Nova Roma do Sul
 location	Nova Santa Rita
+location	Novo Barreiro
 location	Novo Cabrais
 location	Novo Hamburgo
 location	Novo Tiradentes
@@ -19570,7 +19923,7 @@ location	Palmeira Das Missoes
 location	Palmitinho
 location	Panamalebi
 location	Panambi
-location	Pantano Grande
+location	Pantano Grande (Rio Grande do Sul)
 location	Parai
 location	Pareci Novo
 location	Parobe
@@ -19584,6 +19937,7 @@ location	Pelotas
 location	Picada Cafe
 location	Pinhal
 location	Pinhal Da Serra
+location	Pinhal Grande
 location	Pinheirinho do Vale
 location	Pinheiro Machado
 location	Pirapo
@@ -19599,14 +19953,18 @@ location	Presidente Lucena
 location	Progresso
 location	Quaraí
 location	Quari
+location	Quevedos
 location	Redentora
+location	Restinga Seca
 location	Rio Grande BR
 location	Rio Pardo
 location	Riozinho
 location	Roca Sales
 location	Rodeio Bonito
 location	Rolante
+location	Ronda Alta
 location	Rondinha
+location	Roque Gonzales
 location	Rosario do Sul
 location	Sagrada Familia BR
 location	Saldanha Marinho
@@ -19619,6 +19977,7 @@ location	Santa Barbara do Sul
 location	Santa Clara do Sul
 location	Santa Cruz do Sul
 location	Santa Maria (Rio Grande do Sul)
+location	Santa Maria do Herval
 location	Santa Rosa BR
 location	Santa Vitoria do Palmar
 location	Santana do Livramento
@@ -19630,11 +19989,13 @@ location	Santo Augusto
 location	Sao Borja
 location	Sao Francisco de Assis
 location	Sao Francisco de Paula
+location	Sao Gabriel
 location	Sao Jeronimo
 location	Sao Joao Da Urtiga
+location	Sao Joao do Polesine
 location	Sao Jose Dos Ausentes
 location	Sao Lourenco do Sul
-location	Sao Luiz Gonzaga
+location	Sao Luiz Gonzaga (Rio Grande do Sul)
 location	Sao Maleartinho
 location	Sao Marcos
 location	Sao Martinho
@@ -19692,6 +20053,8 @@ location	Vera Cruz (Rio Grande do Sul)
 location	Veranopolis
 location	Viamao
 location	Vicente Dutra
+location	Vila Flores
+location	Vila Nova do Sul
 location	Vista Alegre BR
 location	Vista Gaucha
 location	Vitoria Das Missoes
@@ -19792,13 +20155,17 @@ location	Santa Luzia do Para
 location	Santa Maria Das Barreiras
 location	Santa Maria do Para
 location	Santa Maria do Pará
+location	Santana do Araguaia
 location	Santarem (Para)
 location	Santo Antônio do Tauá
 location	Sao Caetano de Odivelas
+location	Sao Domingos do Araguaia
 location	Sao Domingos do Capim
+location	Sao Felix do Xingu
 location	Sao Francisco do Para
 location	Sao Joao Da Ponta
 location	Sao Joao de Pirabas
+location	Sao Joao do Araguaia
 location	Sao Luis (Para)
 location	Sao Sebastiao Da Boa Vista
 location	Senador Jose Porfirio
@@ -19873,11 +20240,12 @@ location	Cascavel (Paraná)
 location	Castro BR
 location	Catanduvas (Paraná)
 location	Centenario do Sul
+location	Ceu Azul
 location	Chopinzinho
 location	Cianorte
 location	Cidade Gaucha
 location	Clevelandia
-location	Colombo
+location	Colombo (Paraná)
 location	Colorado BR
 location	Congonhinhas
 location	Contenda
@@ -19899,6 +20267,7 @@ location	Fernandes Pinheiro
 location	Floresta (Paraná)
 location	Florestopolis
 location	Formosa do Oeste
+location	Foz de Iguacu
 location	Foz do Iguacu
 location	Francisco Beltrao
 location	Goioere
@@ -19999,12 +20368,13 @@ location	Paraguai
 location	Paraiso do Norte
 location	Paranacity
 location	Paranagua
-location	Paranavai
+location	Paranavai (Paraná)
 location	Pato Bragado
 location	Pato Branco
 location	Paula Freitas
 location	Peabiru
 location	Perola
+location	Perola D''Oeste
 location	Perola D’Oeste
 location	Pien
 location	Pinhais
@@ -20050,6 +20420,7 @@ location	Santa Amelia
 location	Santa Cecilia do Pavao
 location	Santa Fe BR
 location	Santa Helena (Paraná)
+location	Santa Izabel do Oeste
 location	Santa Maria do Oeste
 location	Santa Tereza do Oeste
 location	Santa Terezinha de Itaipu
@@ -20089,6 +20460,7 @@ location	Tomazina
 location	Tres Barras do Parana
 location	Tuneiras do Oeste
 location	Tupassi
+location	Turvo (Paraná)
 location	Ubirata
 location	Umuarama
 location	Uniao Da Vitoria
@@ -20103,6 +20475,7 @@ location	Wenceslau Braz
 location	Amapa
 location	Calcoene
 location	Cutias
+location	Ferreira Gomes
 location	Laranjal do Jari
 location	Macapá
 location	Mazagao
@@ -20174,6 +20547,7 @@ location	Cerro Negro
 location	Chapadao do Lageado
 location	Chapeco
 location	Cocal do Sul
+location	Colombo (Santa Catarina)
 location	Concordia BR
 location	Coronel Domingos Soares
 location	Coronel Freitas
@@ -20217,7 +20591,7 @@ location	Icara
 location	Ilhota
 location	Imbituba
 location	Imbuia
-location	Indaial
+location	Indaial (Santa Catarina)
 location	Ipira (Santa Catarina)
 location	Ipuacu
 location	Ipumirim
@@ -20273,6 +20647,7 @@ location	Palmitos
 location	Papanduva
 location	Passo de Torres
 location	Paulo Lopes
+location	Pedras Grandes
 location	Penha
 location	Pescaria Brava
 location	Petrolandia (Santa Catarina)
@@ -20284,6 +20659,7 @@ location	Planalto Alegre
 location	Pomerode
 location	Ponte Alta
 location	Ponte Serrada
+location	Porto Alegre (Santa Catarina)
 location	Porto Belo
 location	Porto Uniao
 location	Praia Grande (Santa Catarina)
@@ -20317,6 +20693,7 @@ location	Sao Jose do Cedro
 location	Sao Jose do Cerrito
 location	Sao Lourenco do Oeste
 location	Sao Ludgero
+location	Sao Luiz Gonzaga (Santa Catarina)
 location	Sao Miguel do Oeste
 location	Sao Pedro de Alcantara
 location	Saudades
@@ -20337,7 +20714,7 @@ location	Treze Tilias
 location	Treze de Maio
 location	Trombudo Central
 location	Tubarao
-location	Turvo
+location	Turvo (Santa Catarina)
 location	Urussanga
 location	Vargeao
 location	Vargem Bonita
@@ -20416,6 +20793,7 @@ location	Damolandia
 location	Davinopolis
 location	Diorama
 location	Divinopolis de Goias
+location	Doverlandia
 location	Edealina
 location	Edeia
 location	Faina
@@ -20487,6 +20865,7 @@ location	Neropolis
 location	Niquelandia
 location	Nova Crixas
 location	Nova Iguacu (Goiás)
+location	Nova Iguacu de Goias
 location	Novo Brasil
 location	Novo Gama
 location	Ouro Verde de Goias
@@ -20579,7 +20958,7 @@ location	Araguaina
 location	Araguana
 location	Araguatins
 location	Arapoema
-location	Arraias
+location	Arraias (Tocantins)
 location	Augustinopolis
 location	Aurora do Tocantins
 location	Babaculandia
@@ -20632,7 +21011,7 @@ location	Monte Santo do Tocantins
 location	Monte do Carmo
 location	Muricilandia
 location	Natividade (Tocantins)
-location	Nazare
+location	Nazare (Tocantins)
 location	Nova Rosalandia
 location	Novo Acordo
 location	Novo Alegre
@@ -20656,6 +21035,7 @@ location	Ponte Alta do Tocantins
 location	Porto Alegre do Tocantins
 location	Porto Nacional
 location	Presidente Kennedy (Tocantins)
+location	Pugmil
 location	Recursolandia
 location	Rio Dos Bois
 location	Rio Sono
@@ -20685,6 +21065,7 @@ location	Ceilandia
 location	Gama BR
 location	Guara (Distrito Federal)
 location	Recanto Das Emas
+location	Regiao Administrativa de Santa Maria
 location	Samambaia
 location	Santa Maria (Distrito Federal)
 location	Sao Sebastiao (Distrito Federal)
@@ -20723,6 +21104,7 @@ location	Araçatuba
 location	Arco-Iris
 location	Arealva
 location	Ariranha
+location	Arraias (São Paulo)
 location	Aruja
 location	Assis
 location	Atibaia (São Paulo)
@@ -20758,6 +21140,7 @@ location	Borborema (São Paulo)
 location	Borebi
 location	Botucatu
 location	Braganca Paulista
+location	Brasilia (São Paulo)
 location	Brauna
 location	Brodowski
 location	Brotas
@@ -20796,6 +21179,7 @@ location	Catigua
 location	Cedral
 location	Cerqueira Cesar
 location	Cesário Lange
+location	Chapada Gaucha
 location	Colina BR
 location	Conchal
 location	Conchas
@@ -20811,6 +21195,7 @@ location	Cunha
 location	Descalvado
 location	Diadema
 location	Divinolandia
+location	Dobrada
 location	Dois Corregos
 location	Dolciopolis
 location	Dourado
@@ -20898,6 +21283,7 @@ location	Itaguaritinga
 location	Itai
 location	Itajobi
 location	Itaju
+location	Itamogi
 location	Itanhaem
 location	Itapecerica Da Serra
 location	Itapetininga
@@ -20979,6 +21365,7 @@ location	Monte Castelo (São Paulo)
 location	Monte Mor
 location	Monteiro Lobato
 location	Morro Agudo
+location	Motuca
 location	Nantes BR
 location	Narandiba
 location	Natividade Da Serra
@@ -21019,6 +21406,7 @@ location	Pardinho
 location	Pareiras
 location	Pariquera-Acu
 location	Parisi
+location	Patos de Minas (São Paulo)
 location	Patrocinio Paulista
 location	Paulinia
 location	Paulo de Faria
@@ -21087,6 +21475,7 @@ location	Rio Claro (São Paulo)
 location	Rio Das Pedras
 location	Rio Grande Da Serra
 location	Riolandia
+location	Rondonopolis (São Paulo)
 location	Rosana
 location	Sales
 location	Sales Oliveira
@@ -21098,9 +21487,9 @@ location	Sandovalina
 location	Santa Adelia
 location	Santa Barbara D'Oeste
 location	Santa Branca
+location	Santa Cruz Da Esperanca
 location	Santa Cruz Das Palmeiras
 location	Santa Cruz do Rio Pardo
-location	Santa Ernestina
 location	Santa Fe do Sul
 location	Santa Isabel (São Paulo)
 location	Santa Lucia BR
@@ -21113,7 +21502,8 @@ location	Santana do Parnaiba
 location	Santo Anastacio
 location	Santo Andre (São Paulo)
 location	Santo Antonio Da Alegria
-location	Santos
+location	Santos (São Paulo)
+location	Sao Benedito Da Cachoeirinha
 location	Sao Bernardo do Campo
 location	Sao Caetano do Sul
 location	Sao Carlos (São Paulo)
@@ -21138,6 +21528,7 @@ location	Sao Vicente (São Paulo)
 location	Sarutaia
 location	Sebastianopolis do Sul
 location	Selaviria
+location	Serra (São Paulo)
 location	Serra Azul
 location	Serrana
 location	Sertaozinho
@@ -21181,6 +21572,7 @@ location	Tupa
 location	Tupi Paulista
 location	Ubarana
 location	Ubatuba
+location	Uberaba (São Paulo)
 location	Uberlandia (São Paulo)
 location	Uchoa
 location	Uniao Paulista
@@ -21203,29 +21595,36 @@ location	Votorantim
 location	Votuporanga
 
 # Maranhão
+location	Acailandia
 location	Alcantara
 location	Anajatuba
 location	Anapurus
 location	Aracagy
+location	Bacabal
 location	Bacabeira
 location	Bacuri
 location	Balsas
 location	Barreirinhas
 location	Buriti
+location	Buritirana
 location	Cachoeira Grande
 location	Cajapio
 location	Caxias
 location	Chapadinha
 location	Codo
 location	Cururupu
+location	Esperantinopolis
 location	Fortuna (Maranhão)
 location	Governador Edson Lobao
 location	Governador Newton Bello
 location	Grajau
 location	Icatu
+location	Igarape do Meio
 location	Imperatriz
 location	Itapecuru Mirim
+location	Jenipapo Dos Vieiras
 location	Lima Campos
+location	Maraja do Sena
 location	Marica (Maranhão)
 location	Matoes
 location	Mirador
@@ -21246,21 +21645,25 @@ location	Santa Ines (Maranhão)
 location	Santa Luzia (Maranhão)
 location	Santa Quiteria do Maranhao
 location	Santo Amaro do Maranhao
-location	Sao Bento (Maranhão)
 location	Sao Francisco do Brejao
 location	Sao Joao Batista (Maranhão)
+location	Sao Joao do Caru
+location	Sao Joao do Paraiso
 location	Sao Jose de Ribamar
 location	Sao Luis (Maranhão)
 location	Sao Raimundo Das Mangabeiras
 location	Sao Vicente Ferrer (Maranhão)
+location	Senador la Rocque
 location	Timon
 location	Trizidela do Vale
 location	Tutoia
 location	Vargem Grande
+location	Viana (Maranhão)
 location	Vitoria do Mearim
 location	Ze Doca
 
 # Minas Gerais
+location	Acaiaca
 location	Aguas Formosas
 location	Aguas Vermelhas
 location	Aimores
@@ -21305,6 +21708,7 @@ location	Boa Esperanca (Minas Gerais)
 location	Bocaiuva
 location	Bom Despacho
 location	Bom Jardim de Minas
+location	Bom Repouso
 location	Bom Sucesso (Minas Gerais)
 location	Bonfim (Minas Gerais)
 location	Botelhos
@@ -21326,7 +21730,7 @@ location	Cambui
 location	Cambuquira
 location	Campanario
 location	Campanha
-location	Campestre
+location	Campestre (Minas Gerais)
 location	Campina Verde
 location	Campo Belo
 location	Campos Gerais
@@ -21363,12 +21767,14 @@ location	Comendador Gomes
 location	Comercinho
 location	Conceicao do Mato Dentro
 location	Conceicao do Para
+location	Conceicao do Rio Verde
 location	Confins
 location	Congonhas
 location	Conselheiro Lafaete
 location	Conselheiro Lafaiete (Minas Gerais)
 location	Conselheiro Pena
 location	Contagem
+location	Coqueiral
 location	Coracao de Jesus
 location	Cordisburgo
 location	Corinto
@@ -21396,10 +21802,12 @@ location	Eloi Mendes
 location	Engenheiro Navarro
 location	Entre Folhas
 location	Entre Rios de Minas
+location	Ervalia
 location	Esmeraldas BR
 location	Espera Feliz
 location	Espinosa
 location	Extrema
+location	Faria Lemos
 location	Felixlandia
 location	Fernandes Tourinho
 location	Ferros
@@ -21423,6 +21831,7 @@ location	Guaranesia (Minas Gerais)
 location	Guaxupe
 location	Gurinhata
 location	Iapu
+location	Ibia
 location	Ibiai
 location	Ibirite
 location	Ibirité
@@ -21430,6 +21839,7 @@ location	Ibitiura de Minas
 location	Igarape
 location	Imbe de Minas
 location	Indianopolis
+location	Ingai
 location	Inhapim
 location	Inimutaba
 location	Ipaba
@@ -21442,6 +21852,7 @@ location	Itacarambi
 location	Itaguara
 location	Itaipe
 location	Itajuba
+location	Itamarandiba
 location	Itamarati de Minas
 location	Itambacuri
 location	Itanhandu
@@ -21453,6 +21864,7 @@ location	Itinga
 location	Itueta
 location	Ituiutaba
 location	Iturama
+location	Jaboticatubas
 location	Jacinto
 location	Jaiba
 location	Janauba
@@ -21469,6 +21881,7 @@ location	Joaima
 location	Joanesia
 location	Joao Monlevade
 location	Joao Pinheiro
+location	Joaquim Felicio
 location	Jordania
 location	Juatuba
 location	Juiz de Fora
@@ -21483,12 +21896,15 @@ location	Lassance
 location	Lavras
 location	Leopoldina
 location	Liberdade
+location	Lontra
+location	Luminarias
 location	Machado
 location	Madre de Deus de Minas
 location	Malacacheta
 location	Manga
 location	Manhuacu
 location	Mantena (Minas Gerais)
+location	Maria Da Fe
 location	Mariana
 location	Mario Campos
 location	Martinho Campos
@@ -21496,11 +21912,13 @@ location	Mateus Leme
 location	Mathias Lobato
 location	Matias Barbosa
 location	Matozinhos
+location	Medina
 location	Mendes Pimentel
 location	Minas Novas
 location	Mirabela
 location	Moema
 location	Monjolos
+location	Monsenhor Paulo
 location	Montalvania
 location	Monte Alegre de Minas
 location	Monte Carmelo
@@ -21513,7 +21931,9 @@ location	Mutum
 location	Muzambinho
 location	Nanuque
 location	Naque
+location	Natalandia
 location	Nazareno
+location	Nepomuceno
 location	Nova Era
 location	Nova Lima
 location	Nova Modica
@@ -21545,6 +21965,7 @@ location	Patos de Minas (Minas Gerais)
 location	Patrocinio
 location	Pavao
 location	Pecanha
+location	Pedra Azul
 location	Pedra Bonita
 location	Pedras de Maria Da Cruz
 location	Pedro Leopoldo
@@ -21570,15 +21991,17 @@ location	Pote
 location	Pouso Alegre
 location	Pouso Alto
 location	Prados
+location	Prata
 location	Presidente Juscelino (Minas Gerais)
 location	Prudente de Morais
-location	Quartel Geral
 location	Raul Soares
 location	Recreio
+location	Resende Costa
 location	Resplendor
 location	Riachinho
 location	Ribeirao Da Neves
 location	Ribeirao Das Neves
+location	Rio Acima
 location	Rio Doce
 location	Rio Espera
 location	Rio Manso
@@ -21609,6 +22032,7 @@ location	Santo Antonio do Amparo
 location	Santo Antonio do Aventureiro
 location	Santo Antonio do Grama
 location	Santo Antonio do Monte
+location	Santo Antonio do Retiro
 location	Santo Hipolito
 location	Sao Bras do Suacui
 location	Sao Domingos Das Dores
@@ -21618,6 +22042,7 @@ location	Sao Goncalo do Abaete
 location	Sao Goncalo do Para
 location	Sao Goncalo do Sapucai
 location	Sao Joao Da Lagoa
+location	Sao Joao Da Ponte
 location	Sao Joao Evangelista
 location	Sao Joao Nepumuceno
 location	Sao Joao del Rei
@@ -21635,9 +22060,11 @@ location	Sao Sebastiao do Pontal
 location	Sao Tomas de Aquino
 location	Sao Viccente de Minas
 location	Sao Vicente de Minas
+location	Senador Modestino Goncalves
 location	Senhora Dos Remedios
 location	Senhora de Oliveira
 location	Serra do Salitre
+location	Serro
 location	Sete Lagoas
 location	Silvianopolis
 location	Simonesia
@@ -21662,7 +22089,7 @@ location	Tupaciguara
 location	Turmalina
 location	Uba
 location	Ubaporanga
-location	Uberaba
+location	Uberaba (Minas Gerais)
 location	Uberlandia (Minas Gerais)
 location	Uberlândia
 location	Umburatiba
@@ -21670,6 +22097,7 @@ location	Unai
 location	Urucania
 location	Varginha
 location	Varjão de Minas
+location	Varzea Da Palma
 location	Varzelandia
 location	Vespasiano
 location	Vicosa (Minas Gerais)
@@ -21690,6 +22118,7 @@ location	Barra do Pirai
 location	Belford Roxo
 location	Bom Jardim (Rio de Janeiro)
 location	Bom Jesus do Itabapoana
+location	Brasilia (Rio de Janeiro)
 location	Cabo Frio
 location	Cachoeiras de Macacu
 location	Cambuci
@@ -21730,6 +22159,7 @@ location	Nilópolis
 location	Niteroi (Rio de Janeiro)
 location	Nova Friburgo
 location	Nova Iguacu (Rio de Janeiro)
+location	Pantano Grande (Rio de Janeiro)
 location	Paracambi
 location	Paraiba do Sul
 location	Parati
@@ -21773,6 +22203,7 @@ location	Taquaracu de Minas
 location	Teresopolis
 location	Trajano de Moraes
 location	Tres Rios BR
+location	Uniao (Rio de Janeiro)
 location	Valenca (Rio de Janeiro)
 location	Varre Sai
 location	Vassouras
@@ -21782,12 +22213,16 @@ location	Volta Redonda
 location	Agricolandia
 location	Alto Longa
 location	Altos BR
+location	Anisio de Abreu
 location	Barras
 location	Batalha
 location	Beneditinos
 location	Biriti Dos Montes
+location	Boa Hora
+location	Bom Principio do Piaui
 location	Boqueirao do Piaui
 location	Brasileira
+location	Buriti Dos Lopes
 location	Buriti Dos Montes
 location	Caldeirao Grande do Piaui
 location	Campo Maior
@@ -21795,6 +22230,7 @@ location	Canto do Buriti
 location	Castelo do Piaui
 location	Cocal
 location	Cocal de Telha
+location	Coivaras
 location	Cristino Castro
 location	Demerval Lobao
 location	Esperantina (Piaui)
@@ -21807,6 +22243,7 @@ location	Jose de Freitas
 location	Lagoa do Piaui
 location	Luis Correia
 location	Matias Olimpio
+location	Miguel Alves
 location	Monsenhor Gil
 location	Nazare do Piaui
 location	Novo Santo Antonio
@@ -21818,15 +22255,17 @@ location	Pedro Ii
 location	Picos
 location	Piracuruca
 location	Piripiri
+location	Porto
 location	Prata do Piauí
 location	Santa Rosa do Piaui
+location	Sao Pedro do Piaui
 location	Sao Raimundo Nonato
 location	Socorro do Piaui (Piaui)
 location	São João Da Canabrava
 location	São João do Piauí
 location	Teresina (Piaui)
 location	Terezina
-location	Uniao
+location	Uniao (Piaui)
 location	União
 location	Uruui
 
@@ -21844,9 +22283,12 @@ location	Andarai
 location	Andorinha
 location	Angical
 location	Anguera
+location	Antas
 location	Antonio Cardoso
 location	Apora
+location	Apuarema
 location	Araci
+location	Aramari
 location	Baixa Grande
 location	Banzae
 location	Barra Da Estiva
@@ -21857,6 +22299,7 @@ location	Biritinga
 location	Boa Nova
 location	Boa Vista do Tupim
 location	Bom Jesus Da Lapa
+location	Bom Jesus Da Serra
 location	Boninal
 location	Bonito (Bahia)
 location	Boquira
@@ -21886,10 +22329,12 @@ location	Cansancao
 location	Canudos
 location	Capela do Alto Alegre
 location	Capim Grosso
+location	Caravelas
 location	Carinhanha
 location	Casa Nova
 location	Castro Alves
 location	Catu
+location	Central BR
 location	Chorrocho
 location	Cicero Dantas
 location	Cipo
@@ -21910,6 +22355,7 @@ location	Cravolandia
 location	Crisopolis
 location	Cristopolis
 location	Cruz Das Almas
+location	Dario Meira
 location	Dias D'Avila
 location	Dias Davila
 location	Dom Basilio
@@ -21925,15 +22371,20 @@ location	Formosa (Bahia)
 location	Gandu
 location	Gentio do Ouro
 location	Governador Mangabeira
+location	Guajeru
 location	Guanambi
 location	Heliopolis
 location	Iacu
+location	Ibiassuce
 location	Ibicarai
+location	Ibicoara
+location	Ibirapitanga
 location	Ibirataia
 location	Ibitita
 location	Ibotirama
 location	Igrapiuna
 location	Ilheus
+location	Inhambupe
 location	Ipecaeta
 location	Ipiau
 location	Ipira (Bahia)
@@ -21946,8 +22397,7 @@ location	Itabuna
 location	Itacare
 location	Itaete
 location	Itagi
-location	Itagiba
-location	Itagimirim
+location	Itagimirim (Bahia)
 location	Itaguacu Da Bahia
 location	Itajuipe
 location	Itamaraju (Bahia)
@@ -21966,6 +22416,7 @@ location	Ituacu
 location	Itubera
 location	Jacobina
 location	Jaguaquara
+location	Jaguarari
 location	Jandaira (Bahia)
 location	Jequie
 location	Jequitinhonha (Bahia)
@@ -21976,9 +22427,11 @@ location	Juazeiro (Bahia)
 location	Jussara (Bahia)
 location	Jussari
 location	Lafaiete Coutinho
+location	Lagoa Real
 location	Laje
 location	Lajedao
 location	Lajedo do Tabocal
+location	Lamarao
 location	Lapao
 location	Lauro de Freitas
 location	Lencois
@@ -21988,6 +22441,7 @@ location	Macajuba
 location	Macarani
 location	Macaubas
 location	Madre de Deus
+location	Maetinga
 location	Maiquinique
 location	Mairi
 location	Malhada
@@ -22003,6 +22457,8 @@ location	Mata de Sao Joao
 location	Medeiros Neto (Bahia)
 location	Miguel Calmon
 location	Milagres (Bahia)
+location	Mirangaba
+location	Mirante
 location	Monte Santo
 location	Morpara
 location	Morro do Chapeu
@@ -22011,7 +22467,9 @@ location	Mucuri (Bahia)
 location	Mundo Novo (Bahia)
 location	Muquem de Sao Francisco
 location	Muritiba
+location	Mutuipe
 location	Natal (Bahia)
+location	Nazare (Bahia)
 location	Nazaré
 location	Nordestina
 location	Nova Fatima (Bahia)
@@ -22023,6 +22481,8 @@ location	Nova Vicosa
 location	Novo Horizonte (Bahia)
 location	Novo Triunfo
 location	Olindina
+location	Palmas de Monte Alto
+location	Paramirim
 location	Paripiranga
 location	Pau Brasil
 location	Paulo Afonso
@@ -22052,6 +22512,7 @@ location	Riacho de Santana (Bahia)
 location	Ribeira do Pombal
 location	Rio Real
 location	Rio do Antonio
+location	Rio do Pires
 location	Rodelas
 location	Ruy Barbosa
 location	Salinas Da Margarida
@@ -22106,6 +22567,7 @@ location	Ubaira
 location	Ubaitaba
 location	Umburanas
 location	Una BR
+location	Urandi
 location	Urucuca
 location	Utinga (Bahia)
 location	Valenca (Bahia)
@@ -22116,6 +22578,7 @@ location	Vereda
 location	Vitoria Da Conquista
 location	Wagner
 location	Wanderley
+location	Xique-Xique
 
 # Espirito Santo
 location	Afonso Claudio
@@ -22158,6 +22621,7 @@ location	Ibitirama
 location	Iconha
 location	Ipatinga (Espirito Santo)
 location	Irupi
+location	Itagimirim (Espirito Santo)
 location	Itaguacu
 location	Itamaraju (Espirito Santo)
 location	Itapemerim
@@ -22206,12 +22670,12 @@ location	Sao Jose do Calcado
 location	Sao Mateus
 location	Sao Miguel Das Matas (Espirito Santo)
 location	Sao Roque do Canaa
-location	Serra
+location	Serra (Espirito Santo)
 location	Sooretama
 location	Teixeira de Freitas (Espirito Santo)
 location	Vargem Alta
 location	Venda Nova do Imigrante
-location	Viana BR
+location	Viana (Espirito Santo)
 location	Vila Pavao
 location	Vila Valerio
 location	Vila Velha
@@ -22431,8 +22895,10 @@ location	Riachuelo (Sergipe)
 location	Ribeiropolis
 location	Salgado
 location	Santo Amaro Das Brotas
+location	Santos (Sergipe)
 location	Sao Cristovao
 location	Simao Dias
+location	Siriri
 location	Telha
 location	Tobias Barreto
 location	Tomar do Geru
@@ -22852,12 +23318,15 @@ location	Cruz do Espirito Santo
 location	Cubati
 location	Cuite
 location	Cuite de Mamanguape
+location	Cuitegi
 location	Damiao
+location	Diamante
 location	Dona Ines
 location	Duas Estradas
 location	Esperanca
 location	Fagundes
 location	Frei Martinho
+location	Gado Bravo
 location	Guarabira
 location	Gurjao
 location	Ibiara
@@ -22918,6 +23387,7 @@ location	Riachao do Bacamarte
 location	Riacho Dos Cavalos
 location	Riacho de Santo Antonio
 location	Rio Tinto
+location	Salgadinho
 location	Salgado de Sao Felix
 location	Santa Cecilia (Paraiba)
 location	Santa Cruz (Paraiba)
@@ -22931,10 +23401,12 @@ location	Sao Bentinho
 location	Sao Bento (Paraiba)
 location	Sao Joao do Rio do Peixe
 location	Sao Joao do Tigre
+location	Sao Jose Dos Cordeiros
 location	Sao Jose Dos Ramos
 location	Sao Jose de Piranhas
 location	Sao Jose do Bonfim
 location	Sao Jose do Brejo do Cruz
+location	Sao Jose do Sabugi
 location	Sao Mamede
 location	Sao Sebastiao de Lagoa de Roca
 location	Sao Sebastiao do Umbuzeiro
@@ -22942,6 +23414,7 @@ location	Sape
 location	Serido
 location	Serra Branca
 location	Serra Redonda
+location	Serraria
 location	Solanea
 location	Soledade (Paraiba)
 location	Sossego
@@ -22949,6 +23422,7 @@ location	Sousa
 location	Sume
 location	Taperoa
 location	Teixeira
+location	Tenorio
 location	Triunfo (Paraiba)
 location	Uirauna
 location	Umbuzeiro
@@ -22966,6 +23440,7 @@ location	Boca Da Mata
 location	Branquinha
 location	Cacimbinhas
 location	Cajueiro
+location	Campestre (Alagoas)
 location	Campo Alegre (Alagoas)
 location	Canapi
 location	Capela (Alagoas)
@@ -22975,6 +23450,7 @@ location	Colonia Leopoldina
 location	Coqueiro Seco
 location	Coruripe
 location	Delmiro Gouveia
+location	Dois Riachos
 location	Estrela de Alagoas
 location	Feliz Deserto
 location	Flexeiras
@@ -22989,6 +23465,7 @@ location	Junqueiro
 location	Limoeiro de Anadia
 location	Maceio (Alagoas)
 location	Maceió
+location	Major Isidoro
 location	Mar Vermelho
 location	Maragogi
 location	Maravilha (Alagoas)
@@ -22996,6 +23473,7 @@ location	Marechal Deodoro
 location	Maribondo
 location	Matriz de Camaragibe
 location	Messias
+location	Monteiropolis
 location	Murici
 location	Novo Lino
 location	Ouro Branco (Alagoas)
@@ -23018,6 +23496,7 @@ location	Santada do Ipanema
 location	Santana do Ipanema
 location	Santana do Mundau
 location	Sao Bras
+location	Sao Jose Da Laje
 location	Sao Miguel Dos Campos
 location	Sao Sebastiao (Alagoas)
 location	Satuba
@@ -23131,7 +23610,7 @@ location	Chone
 location	Colon EC
 location	Crucita
 location	Jipijapa
-location	Manta
+location	Manta (Manabi)
 location	Pajan
 location	Portoviejo (Manabi)
 location	Pueblo Nuevo EC
@@ -23204,6 +23683,7 @@ location	Santo Domingo de los Colorados
 # Bolivar EC
 location	Caluma
 location	Guaranda
+location	Manta (Bolivar EC)
 location	San Miguel EC
 
 # Cañar
@@ -23573,6 +24053,7 @@ location	Saravena
 
 # Antioquia
 location	Abejorral
+location	Alejandria
 location	Amagá
 location	Amalfi
 location	Andes
@@ -23594,6 +24075,7 @@ location	Canasgordas
 location	Caracoli
 location	Carepa
 location	Carmen de Viboral
+location	Carmen de Vivoral
 location	Carmen de Vobiral
 location	Caucasia
 location	Chigorodo
@@ -23649,7 +24131,7 @@ location	Necoclí
 location	Prado CO
 location	Puerto Triunfo
 location	Quibdo (Antioquia)
-location	Remedios
+location	Remedios CO
 location	Retiro CO
 location	Rionegro
 location	Robledo
@@ -23809,7 +24291,7 @@ location	Uribia
 location	Urumita
 
 # San Andres y Providencia
-location	San Andres
+location	San Andres CO
 
 ################
 
@@ -23822,9 +24304,14 @@ location	Boqueron (Chiriqui)
 location	Bugaba
 location	Chiriqui
 location	David
+location	El Puerto
 location	Gomez
 location	Penas Gordas
 location	Puerto Armuelles
+location	Quebrada de Piedra
+location	Remedios PA
+location	Santa Lucia PA
+location	Tole
 location	Volcan
 
 # Bocas del Toro
@@ -23884,6 +24371,7 @@ location	Toabre
 location	Tulu
 
 # Los Santos
+location	Lajamina
 location	Las Tablas
 location	Pocri
 
@@ -23984,6 +24472,7 @@ location	Jose Domingo Espinar
 location	Juan Diaz (Panama)
 location	Juan Diaz Panama
 location	Juan Díaz
+location	Las Cumbre
 location	Las Cumbres
 location	Las Garzas
 location	Las Mañanitas
@@ -24203,14 +24692,6 @@ location	Siquirres
 location	Talamanca
 
 ### El Salvador
-# La Paz SV
-location	Cuyultitan
-location	Olocuilta
-location	San Luis Talpa
-location	San Luis la Herradura
-location	Santiago Nonualco
-location	Zacatecoluca
-
 # La Libertad SV
 location	Chiltiupan
 location	Ciudad Arce
@@ -24223,6 +24704,23 @@ location	San Jose Villanueva
 location	San Pablo Tacachico
 location	Santa Tecla
 
+# La Paz SV
+location	Cuyultitan
+location	Olocuilta
+location	San Luis Talpa
+location	San Luis la Herradura
+location	Santiago Nonualco
+location	Zacatecoluca
+
+# Chalatenango
+location	Chalatenango
+location	El Carrizal
+location	El Paraiso
+location	La Palma SV
+location	La Reina SV
+location	Nueva Concepcion
+location	San Rafael SV
+
 # El Salvador
 location	Ayutuxtepeque
 location	Guazapa
@@ -24233,14 +24731,12 @@ location	Santo Tomas SV
 location	Soyapango
 location	Tonacatepeque
 
-# Chalatenango
-location	Chalatenango
-location	El Carrizal
-location	El Paraiso
-location	La Palma SV
-location	La Reina SV
-location	Nueva Concepcion
-location	San Rafael SV
+# Usulutan
+location	Estanzuelas
+location	Jiquilisco
+location	Mercedes Umana
+location	Ozatlan
+location	Usulutan
 
 ### Honduras
 # Comayagua
@@ -24256,13 +24752,16 @@ location	Catarina GT
 location	Comitancillo
 location	Concepción
 location	El Quetzal
+location	El Rodeo
 location	El Tumbador
 location	Ixchiguan
 location	La Refoerma
 location	La Reforma (San Marcos)
 location	Malacatan
 location	No Refiere (San Marcos)
+location	Nuevo Progreso
 location	San Antonio Sacatepequez
+location	San Jose Ojetenam
 location	San Lorenzo GT
 location	San Marcos
 location	San Miguel GT
@@ -24277,7 +24776,9 @@ location	Tejutla
 # Retalhuleu
 location	Escuintla (Retalhuleu)
 location	Retalhuleu
+location	San Andres GT
 location	San Andres Villa Seca
+location	San Carlos GT
 location	San Felipe GT
 location	San Martin Zapotitlan
 location	San Sebastian (Retalhuleu)
@@ -24288,11 +24789,15 @@ location	Almolonga
 location	Cantel
 location	Coatepeque GT
 location	Colomba
+location	Concepcion GT
 location	Genova GT
 location	No Refiere (Quetzaltenango)
+location	Palestina de los Altos
 location	Quetzaltenago
 location	Quetzaltenango
 location	Salcaja
+location	San Juan Olintepeque
+location	San Juan Ostuncalco
 location	Xela
 
 # Huehuetenango
@@ -24303,7 +24808,9 @@ location	Huehuetenango
 location	La Libertad GT
 location	Malacatancito
 location	No Refiere (Huehuetenango)
+location	Qutzaltenango
 location	San Rafael la Independencia
+location	San Sebastian (Huehuetenango)
 location	Santa Cruz Barillas
 location	Santa Eulalia
 location	Santiago Chimaltenango
@@ -24313,25 +24820,39 @@ location	Todos Santos Cuchumatan
 location	Momostenango
 location	San Cristobal Totonicapan
 location	San Francisco El Alto
+location	Santa Maria Cahabon
 location	Santa María Chiquimula
 location	Totonicapan
 location	Totonicapán
 
 # Suchitepequez
 location	Cuyotenango
+location	Cuyotengo
 location	Cuyutenango
 location	Mazatenango
 location	Patulul
 location	Pueblo Nuevo (Suchitepequez)
+location	Rio Bravo
+location	Samayac
 location	San Antonio GT
+location	San Antonio la Paz (Suchitepequez)
+location	San Bernanrdino
+location	San Bernardino
 location	San Francisco GT
+location	San Gabriel
+location	San Jose El Idolo
 location	San Jose la Maquina
+location	San Miguel Panan
+location	San Pablo Jocopilas
+location	San Sebastian (Suchitepequez)
 location	Santa Barbara GT
 location	Santo Domingo GT
 location	Santo Tomas la Union
 location	Suchitepequez
+location	Tiquisate (Suchitepequez)
 
 # Quiche
+location	Chajul
 location	Chichicastenago
 location	Chichicastenango
 location	Chinique
@@ -24346,9 +24867,11 @@ location	San Antonio Ilotenango
 location	San Juan Cotzal
 location	San Pedro Jocopilas
 location	Santa Cruz Quiche
+location	Santa Cruz Verapaz (Quiche)
 location	Santa Cruz de El Quiche
 location	Santa Cruz de Quiche
 location	Santa Cruz del Quiche
+location	Santa Maria Nebaj
 location	Uspantan
 
 # Chimaltenango
@@ -24360,13 +24883,16 @@ location	Parramos
 location	Patzicia
 location	Patzun
 location	Pochuta
+location	San Andres Itzapa
 location	San Jose Poaquil
 location	San Juan Comalapa
 location	San Martin Jilotepeque
+location	San Miguel Pochuta
 location	San Pedro Yepocapa
 location	Santa Apolonia
 location	Santa Cruz Balanya
 location	Tecpan
+location	Tecpan Guatemala
 location	Tecpán
 location	Yepocapa
 location	Zaragoza GT
@@ -24379,7 +24905,7 @@ location	Puerto San Jose
 location	San Jose GT
 location	Santa Lucia Cotzumalguapa
 location	Santa Lucía Cotzumalguapa
-location	Tiquisate
+location	Tiquisate (Escuintla)
 
 # Sacatepequez
 location	Antigua
@@ -24416,7 +24942,7 @@ location	San Juan Chamelco
 location	San Pablo Tamahu
 location	San Pedro Carcha
 location	San Pedro Carchá
-location	Santa Cruz Verapaz
+location	Santa Cruz Verapaz (Alta Verapaz)
 location	Santa María Cahabón
 location	Tactic
 location	Tamahú
@@ -24434,12 +24960,14 @@ location	San Miguel Chicaj
 location	El Jicaro
 location	El Jícaro
 location	El Mirador
+location	El Progreso (Departamento de El Progreso)
 location	Guastatoya
+location	Gustatoya
 location	Morazan
 location	No Refiere (Departamento de El Progreso)
 location	San Agustin Acasaguastlan
 location	San Agustín Acasaguastlán
-location	San Antonio la Paz
+location	San Antonio la Paz (Departamento de El Progreso)
 location	San Cristobal (El Progreso)
 location	San Cristobal Acasaguastlan
 location	Sanarate
@@ -24448,6 +24976,7 @@ location	Sanarate
 location	Jalapa
 location	Mataquescuintla
 location	Monjas
+location	San Luis Jilotepequez
 location	San Manuel Chaparron
 location	San Pedro Pinula
 location	Sanyuyo
@@ -24468,10 +24997,12 @@ location	Santa Elena GT
 location	Amatitlan
 location	Amatitlán
 location	Barcena
+location	Boca del Monte
 location	Chinautla
 location	Chuarrancho
 location	Ciudad Quetzal
 location	Fraijanes
+location	Guatemal
 location	Guatemala
 location	Lo de Fuentes
 location	Mixco
@@ -24482,14 +25013,17 @@ location	San Jose Pinula
 location	San Jose del Golfo
 location	San Juan Sacatepelquez
 location	San Juan Sacatepequez
+location	San Juan Sacatepquez
 location	San Juan Sacatepéquez
 location	San Julian Chinautla
 location	San Miguel Petapa
 location	San Pedro Ayampuc
 location	San Pedro Sacatepequez (Guatemala)
 location	San Raymundo
+location	Santa Cantarina Pinula
 location	Santa Catalina Pinula
 location	Santa Catarina Pinula
+location	Tacana
 location	Tierra Nueva
 location	Villa Canales
 location	Villa Nueva GT
@@ -24499,7 +25033,7 @@ location	Agua Blanca
 location	Asuncion Mita
 location	Atescatempa
 location	Conguaco
-location	El Progreso
+location	El Progreso (Jutiapa)
 location	Jutiapa
 location	Moyuta
 location	Quesada GT
@@ -24507,8 +25041,10 @@ location	Santa Catarina Mita
 
 # Zacapa
 location	Cabanas
+location	Esquipulas (Zacapa)
 location	Estanzuela
 location	Gualan
+location	Huite
 location	La Reforma (Zacapa)
 location	La Union GT
 location	No Refiere (Zacapa)
@@ -24523,8 +25059,10 @@ location	Zacapa
 # Chiquimula
 location	Camotan
 location	Chiquimula
+location	Chuimula
+location	Comatan
 location	Concepcion las Minas
-location	Esquipulas
+location	Esquipulas (Chiquimula)
 location	Ipala
 location	Jcotan
 location	Jocotan
@@ -24536,6 +25074,7 @@ location	San Juan Ermita
 # Izabal
 location	Izabal
 location	Los Amates
+location	Morales
 location	No Refiere (Izabal)
 location	Puerto Barrios
 
@@ -24608,6 +25147,7 @@ location	Gomez Palacios
 location	Lerdo
 location	Mapimi
 location	Tepehuanes
+location	Victoria de Durango
 
 # Colima
 location	Villa de Alvarez
@@ -24636,6 +25176,7 @@ location	Fresnillo
 location	Guadalupe (Zacatecas)
 location	Huanusco
 location	Jalpa
+location	Loreto MX
 location	Luis Moya
 location	Mazapil
 location	Miguel Auza
@@ -24748,9 +25289,23 @@ location	Santa Rita MX
 location	Santiago MX
 
 # Estado de Mexico
+location	Acambay
 location	Atizapan de Zaragoza
+location	Atlacomulco
+location	Bosques de las Fuentes
+location	Chapultepec
+location	Metepec (Estado de Mexico)
+location	Naucalpan
 location	Naucalpan de Juarez
+location	Nezahualcoyotl (Estado de Mexico)
 location	Nicolas Romero
+location	Nopaltepec
+location	San Antonio la Isla
+location	San Felipe del Progreso
+location	Tejuplico
+location	Texcoco
+location	Tlalnepantla
+location	Toluca (Estado de Mexico)
 
 # Mexico City
 location	Alvaro Obregon
@@ -24769,12 +25324,12 @@ location	Cuautitlan Izcalli
 location	Ecatepec de Morelos
 location	Huehuetoca
 location	Jaltenco
-location	Metepec
-location	Nezahualcoyotl
+location	Metepec (Mexico)
+location	Nezahualcoyotl (Mexico)
 location	Tecamac
 location	Teoloyucan
 location	Tlalnepantla de Baz
-location	Toluca
+location	Toluca (Mexico)
 location	Tultitlan
 location	Zinacantepec
 location	Zumpango
@@ -24920,7 +25475,7 @@ location	Boring
 location	Clackamas County
 location	Clark County OR
 location	Clatsop
-location	Clatsop County
+location	Clatsop County OR
 location	Columbia County OR
 location	Columbia OR
 location	Coos County OR
@@ -24964,7 +25519,7 @@ location	Union County OR
 location	Unk OR
 location	Wallowa County
 location	Walton OR
-location	Wasco County
+location	Wasco County OR
 location	Washington County OR
 location	Wheeler County OR
 location	Yamhill County OR
@@ -24978,6 +25533,7 @@ location	Benton WA
 location	Chelan County
 location	Clallam County
 location	Clark County WA
+location	Clatsop County WA
 location	Columbia County WA
 location	Cowlitz County
 location	Dane
@@ -25017,11 +25573,13 @@ location	Stevens County
 location	Thurston County WA
 location	Wahkiakum County
 location	Walla Walla County
+location	Wasco County WA
 location	Whatcom County
 location	Whitman County
 location	Yakima County
 
 # California
+location	Ada County CA
 location	Alameda County CA
 location	Alpine County
 location	Amador County
@@ -25062,6 +25620,7 @@ location	Humbolt County
 location	Imperial County CA
 location	Inyo County
 location	Irvine County
+location	Jefferson County CA
 location	Kern County
 location	King County CA
 location	Kings County CA
@@ -25085,6 +25644,7 @@ location	Monterey County CA
 location	Montgomery County CA
 location	Multnomah CA
 location	Multnomah County CA
+location	N CA
 location	Na County
 location	Napa County
 location	Nevada County
@@ -25098,6 +25658,7 @@ location	Passaic County CA
 location	Placer County
 location	Plumas County
 location	Porter Ranch
+location	Queens County CA
 location	Richmond County CA
 location	Riverside County
 location	Sacramento County
@@ -25121,6 +25682,7 @@ location	Solano County
 location	Sonoma County
 location	Spokane County CA
 location	Stanislaus County
+location	State of Texas
 location	Studio City
 location	Suffolk County CA
 location	Sunyvale
@@ -25162,7 +25724,7 @@ location	Washoe County NV
 location	White Pine County
 
 # Idaho
-location	Ada County
+location	Ada County ID
 location	Adams County ID
 location	Asotin
 location	Asotin County ID
@@ -25266,7 +25828,7 @@ location	Brown AZ
 location	Burleigh County AZ
 location	Butler County AZ
 location	Cabarrus AZ
-location	Cerro Gordo
+location	Cerro Gordo AZ
 location	Chester AZ
 location	Cobb
 location	Cochise Co.
@@ -25319,7 +25881,7 @@ location	Maricopa County AZ
 location	Martinez
 location	Mckinley
 location	Mckinley County AZ
-location	Miami-Dade
+location	Miami-Dade AZ
 location	Middlesex
 location	Minnehaha AZ
 location	Mohave County
@@ -25337,7 +25899,7 @@ location	Pierce
 location	Pima County
 location	Pinal County
 location	Portsmouth AZ
-location	Pulaski
+location	Pulaski AZ
 location	Queens AZ
 location	Ramsey AZ
 location	Sa Luis
@@ -25414,7 +25976,6 @@ location	Granite County
 location	Greenough
 location	Harlowtown
 location	Heartbutte
-location	Helena
 location	Hill
 location	Hill County MT
 location	Jefferson County MT
@@ -25548,6 +26109,7 @@ location	Valencia County
 location	Adams County CO
 location	Alamosa County
 location	Arapahoe County CO
+location	Baca County
 location	Bailey
 location	Boulder County
 location	Broomfield County
@@ -25578,8 +26140,10 @@ location	Weld County
 location	Wellingon
 
 # North Dakota
+location	Burleigh
 location	Burleigh County ND
 location	Cass County ND
+location	Cass ND
 location	Cavalier County
 location	Grand Forks County
 location	Ramsey ND
@@ -25696,6 +26260,7 @@ location	Desoto TX
 location	Dickens County
 location	Dimmit County
 location	Donley
+location	Donley County
 location	Eastland County
 location	Ector County
 location	Edinburg County
@@ -25709,7 +26274,7 @@ location	Fisher County
 location	Floyd
 location	Floyd County TX
 location	Foard
-location	Follet
+location	Follet TX
 location	Fort Bend County
 location	Franklin TX
 location	Freestone County
@@ -25752,10 +26317,11 @@ location	Hockley County
 location	Hood County
 location	Houston TX
 location	Houston Tx
-location	Howard
 location	Howard County TX
+location	Howard TX
 location	Hunt County
 location	Hutchinson
+location	Hutchinson County TX
 location	Ingrim
 location	Jackson County TX
 location	Jasper County TX
@@ -25771,6 +26337,7 @@ location	Kendallcounty
 location	Kenedy County
 location	Kerr County
 location	Kimble County
+location	Kingston
 location	Kingwood
 location	Kinney
 location	Kleberg County
@@ -25798,7 +26365,9 @@ location	Marion County TX
 location	Martin County TX
 location	Martin TX
 location	Matagorda County
+location	Maverick
 location	Maverick County
+location	May
 location	Mc Camey
 location	McCulloch County
 location	Mcallen
@@ -25828,6 +26397,7 @@ location	Okmulgee
 location	Oldham County TX
 location	Orange County TX
 location	Orangeburg
+location	Palo Pinto County
 location	Panola County TX
 location	Parker County
 location	Parmer County
@@ -25839,7 +26409,7 @@ location	Potter County TX
 location	Presidio County
 location	Randall County
 location	Reagan County TX
-location	Red River County
+location	Red River County TX
 location	Reeves
 location	Refugio County
 location	Robertson County TX
@@ -25854,6 +26424,7 @@ location	San Jacinto County
 location	San Patricio County
 location	San Saba County
 location	Scurry County
+location	Shackelford County
 location	Shelby County TX
 location	Smith County TX
 location	Smithcounty
@@ -25901,6 +26472,7 @@ location	Yoakum
 location	Yoakum County
 location	Young County
 location	Zapata County
+location	Zavala TX
 
 # USA
 location	Tx 75703
@@ -25935,13 +26507,14 @@ location	Sedgwick County KS
 location	Shawnee County
 location	Sumner County KS
 location	Wichita KS
+location	Wyandotte
 location	Wyandotte County
 
 # North America
 location	Oregon,Wheeler County
 
 # Oklahoma
-location	0
+location	0 OK
 location	Adair
 location	Adair County OK
 location	Alfalfa County
@@ -25967,6 +26540,7 @@ location	Bedford
 location	Blaine County OK
 location	Blancharr
 location	Broken
+location	Broken Arow
 location	Broken Arrow Ok
 location	Bruneyville
 location	Bryan
@@ -25998,6 +26572,7 @@ location	Choctaw OK
 location	Choska
 location	Cimarron County
 location	Claremore, Ok
+location	Clarmore
 location	Cleveland County OK
 location	Cleveland OK
 location	Coal County
@@ -26029,17 +26604,20 @@ location	Duke
 location	Durant Ok
 location	Edgewood
 location	Edgewood, Wa
+location	Edmodn
 location	Edmond Ok.
 location	Ekeene
 location	El Reno Ok
 location	Elkcity
 location	Ellis County OK
+location	Elmore
 location	Elreno
 location	Emond
 location	Eucha
 location	Fay
 location	Finley OK
 location	Fittstown
+location	Follet OK
 location	Follett
 location	Fort Cobb,Ok
 location	Fort Sill
@@ -26058,6 +26636,7 @@ location	Gibson
 location	Gleupool
 location	Goldtree
 location	Grady County OK
+location	Graham
 location	Grant County OK
 location	Grant OK
 location	Greer County
@@ -26069,9 +26648,10 @@ location	Guymon Oklahoma
 location	H
 location	Harmon County
 location	Harper County OK
+location	Harville
 location	Haskell
 location	Haskell County OK
-location	Hennepin
+location	Hennepin OK
 location	Hobart, 0
 location	Hodgen
 location	Hoyt
@@ -26143,7 +26723,7 @@ location	Muslogee
 location	Mustand
 location	Mustange
 location	Mwc
-location	N
+location	N OK
 location	Newalla
 location	Newton
 location	Ng OK
@@ -26152,6 +26732,7 @@ location	Noble County OK
 location	Noble OK
 location	Normam
 location	Norman.
+location	Not Given
 location	Not Hispanic Or Latino OK
 location	Nowata County
 location	Odessa
@@ -26170,6 +26751,7 @@ location	Oklahomacounty
 location	Oklahona
 location	Okmulgee County
 location	Omega
+location	Ooogah
 location	Osage County OK
 location	Ottawa County OK
 location	Overbrook
@@ -26189,6 +26771,7 @@ location	Pottawatomie County OK
 location	Preston OK
 location	Pryor
 location	Pushmataha County
+location	Ratliff
 location	Redlands
 location	Redlands, Ca
 location	Reno
@@ -26224,6 +26807,8 @@ location	Texas County OK
 location	Tillman County
 location	Tinkerafb
 location	Tishmingo
+location	Tolala
+location	Transient
 location	Trenton OK
 location	Trenton, Tx
 location	Tulsa
@@ -26232,12 +26817,15 @@ location	Tuttle, Ok
 location	Unit 950683
 location	Unkown
 location	Ush Springs
+location	Village
+location	Vinson
 location	Wagnor
 location	Wagoner County
 location	Washington County OK
 location	Washita
 location	Washita County
 location	Weatherford, Tx
+location	Webber Falls
 location	Wellson
 location	Welston
 location	Westminster
@@ -26258,69 +26846,109 @@ location	Anoka County
 location	Becker
 location	Beltrami County
 location	Benton County MN
+location	Benton MN
+location	Blue Earth
 location	Blue Earth County
 location	Brown County MN
+location	Brown MN
 location	Carlton County
 location	Carver County
 location	Cass County MN
+location	Cass MN
 location	Chisago
 location	Chisago County
+location	Clay
 location	Clay County MN
+location	Cottonwood
+location	Crow Wing
 location	Crow Wing County
 location	Dakota County MN
 location	Dodge County MN
+location	Dodge MN
 location	Douglas County MN
+location	Douglas MN
+location	Faribault
+location	Fillmore
 location	Fillmore County
 location	Freeborn County
 location	Goodhue County
+location	Grant MN
 location	Hennepin County
+location	Hennepin MN
 location	Houston County MN
+location	Hubbard
 location	Isanti County
+location	Itasca
 location	Kandiyohi County
 location	Koochiching County
+location	Lac Qui Parle
 location	Le Sueur County
 location	Martin County MN
+location	Martin MN
 location	McLeod County
+location	Mcleod
 location	Mcleod County
+location	Meeker
+location	Mille Lacs
+location	Morrison
+location	Mower
 location	Mower County
 location	Mpls
 location	New Auborn
+location	Nicollet County
 location	Norman County
+location	Olmsted
 location	Olmsted County
+location	Otter Tail
 location	Otter Tail County
 location	Pine County
 location	Polk County MN
+location	Pope
 location	Ramsey County MN
+location	Redwood
 location	Renville County MN
+location	Rice
 location	Rice County
 location	Rose
+location	Roseau County
 location	Saint Louis Park
 location	Saint Paul
+location	Scott
 location	Scott County MN
 location	Sherburne County
+location	Sherburne MN
 location	Sibley County
 location	St Louis Park
 location	St Paul MN
+location	St-Louis MN
 location	St. Louis County MN
+location	Stearns
 location	Stearns County
+location	Steele
 location	Steele County MN
+location	Swift
 location	Todd County
 location	Wabasha County
 location	Waseca County
 location	Washington County MN
+location	Watonwan
 location	Watonwan County
 location	West Saint Paul
 location	Winona County
+location	Wright
 location	Wright County MN
+location	Yellow Medicine
 
 # Iowa
 location	Allamakee County
 location	Black Hawk County
 location	Bremer County
 location	Buchanan County
-location	Cass
 location	Cass County IA
+location	Cass IA
 location	Cedar County IA
+location	Cerro Gordo IA
+location	Chickasaw
 location	Chickasaw County IA
 location	Clayton County IA
 location	Clinton County IA
@@ -26337,17 +26965,21 @@ location	Guthrie County
 location	Hamilton County IA
 location	Hardin County IA
 location	Howard County IA
+location	Howard IA
 location	Iowa County IA
 location	Jackson County IA
 location	Jasper County IA
 location	Johnson County IA
+location	Kossuth
 location	Lee County IA
 location	Linn
 location	Linn County IA
 location	Marion IA
 location	Mills County IA
+location	Mitchell County IA
 location	Monona County
 location	Muscatine County IA
+location	Palo Alto
 location	Polk County IA
 location	Pottawattamie County
 location	Poweshiek County
@@ -26358,10 +26990,12 @@ location	Story County
 location	Toddville
 location	Warren County IA
 location	Webster County IA
+location	Webster IA
 location	West Desmoines
 location	West des Moines
 location	Winneshiek County
 location	Woodbury County
+location	Worth
 
 # Louisiana
 location	70062
@@ -26413,6 +27047,7 @@ location	Hancock LA
 location	Harris LA
 location	Harrison LA
 location	Husser
+location	Iberia County
 location	Iberia Parish
 location	Iberville Parish
 location	Jackson Parish
@@ -26527,6 +27162,7 @@ location	Mcgehee
 location	Mississippi County AR
 location	Oklahoma City AR
 location	Pope County AR
+location	Pulaski AR
 location	Pulaski County AR
 location	Saline County AR
 location	Sebastian County
@@ -26556,6 +27192,7 @@ location	House Springs
 location	Jackson County MO
 location	Jasper County MO
 location	Jefferson County MO
+location	Jefferson MO
 location	Johnson MO
 location	Kansas Ciyy
 location	Knox County MO
@@ -26594,6 +27231,7 @@ location	St. Louis MO
 location	St.Louis
 location	Sullivan
 location	Taney County
+location	Vernon County MO
 location	Webster County MO
 
 # Mississippi
@@ -26733,6 +27371,7 @@ location	Yazoo County
 
 # Wisconsin
 location	0 County
+location	0 WI
 location	Adams County WI
 location	Ashland County WI
 location	Barron County
@@ -26757,8 +27396,8 @@ location	Crawford County WI
 location	Crawford WI
 location	Dane County WI
 location	Deforest
-location	Dodge
 location	Dodge County WI
+location	Dodge WI
 location	Door County
 location	Douglas County WI
 location	Douglas WI
@@ -26807,6 +27446,7 @@ location	Marinette County
 location	Marquette
 location	Marquette County WI
 location	Mcfarland
+location	Mchenry County
 location	Menominee
 location	Menominee County
 location	Milw
@@ -26919,6 +27559,7 @@ location	Dekalb County IL
 location	Dekalb County, Il
 location	Douglas County IL
 location	Downers Grpve
+location	Du Page
 location	DuPage County
 location	Dupage County
 location	Edgar County
@@ -27505,7 +28146,7 @@ location	Pickett County
 location	Pickwick Dam
 location	Piney Flats
 location	Pinson
-location	Pioneer
+location	Pioneer TN
 location	Pleasant Shade
 location	Pocahontas
 location	Polk County TN
@@ -27654,6 +28295,7 @@ location	LaPorte County
 location	Lake County IN
 location	Laporte County
 location	Macon IN
+location	Madison IN
 location	Marion County IN
 location	Monroe County IN
 location	Newton County IN
@@ -28037,6 +28679,7 @@ location	Citrus County
 location	Clay County FL
 location	Clearwater Beach
 location	Collier County
+location	Deland
 location	Duval County FL
 location	Escambia County FL
 location	Flagler County
@@ -28311,7 +28954,7 @@ location	Mcdowell County
 location	Mecklenburg County NC
 location	Midway Park
 location	Missing NC
-location	Mitchell County
+location	Mitchell County NC
 location	Montgomery County NC
 location	Moore County NC
 location	Nash County
@@ -28323,6 +28966,7 @@ location	Onslow County
 location	Orange County NC
 location	Orange NC
 location	Pasquotank County
+location	Pender County
 location	Person County
 location	Pitt County
 location	Polk County NC
@@ -28480,6 +29124,7 @@ location	Lancaster County PA
 location	Lawrence County PA
 location	Lebanon County
 location	Lehigh County
+location	Luzerne
 location	Luzerne County
 location	Mercer County PA
 location	Monroe County PA
@@ -28663,6 +29308,7 @@ location	Hunterdon
 location	Hunterdon County
 location	Idabel
 location	Jackson NJ
+location	Jersey Shore Medical Center
 location	Jersey Shore University Medical Center
 location	Jfk Medical Center
 location	Keasbey
@@ -28804,8 +29450,8 @@ location	Chautauqua County NY
 location	Cheektowaga
 location	Chemung
 location	Chemung County
-location	Chenango
 location	Chenango County
+location	Chenango NY
 location	Cicero
 location	Clifton Park
 location	Clinton County NY
@@ -28959,7 +29605,7 @@ location	Portage NY
 location	Portchester
 location	Portland NY
 location	Putnam County NY
-location	Queens County
+location	Queens County NY
 location	Randolph NY
 location	Rensselaer County
 location	Richmond County NY
@@ -28983,7 +29629,7 @@ location	Schoharie County
 location	Schuyler County NY
 location	Scio
 location	Seneca County NY
-location	Sherburne
+location	Sherburne NY
 location	South Ozone Park
 location	Southold
 location	Sparta
@@ -29027,7 +29673,7 @@ location	Washington NY
 location	Waterford NY
 location	Wayne County NY
 location	Wayne NY
-location	Webster
+location	Webster NY
 location	Wellsville
 location	West Henrietta
 location	West Seneca
@@ -29054,6 +29700,7 @@ location	Branford
 location	Brookfield
 location	Chaplin
 location	Charlotte CT
+location	Chenango CT
 location	Chester CT
 location	Clinton CT
 location	Colchester CT
@@ -29064,6 +29711,7 @@ location	Dallas CT
 location	Darien CT
 location	Deep River
 location	Durham CT
+location	Dutchess
 location	East Hartford
 location	East Hartland
 location	East Haven
@@ -29095,6 +29743,7 @@ location	Mansfield CT
 location	Marin
 location	Marlborough CT
 location	Meriden
+location	Miami-Dade CT
 location	Middlebury CT
 location	Middlefield
 location	Middlesex County CT
@@ -29223,6 +29872,7 @@ location	Danvers
 location	Dartmouth
 location	Dorchester MA
 location	Dover MA
+location	Dukes
 location	East Boston
 location	East Longmeadow
 location	East Taunton
@@ -29336,6 +29986,7 @@ location	Belknap County
 location	Belmont NH
 location	Carroll County NH
 location	Cheshire County
+location	Coos County NH
 location	Derry
 location	Durham NH
 location	Epping
@@ -29606,6 +30257,7 @@ location	Calgary
 
 # Ontario
 location	Brampton
+location	Hamilton CA
 location	Ottawa CA
 location	Regional Municipality of Durham
 location	Toronto
@@ -29724,6 +30376,7 @@ division	West Azarbayjan
 division	Urmia
 division	East Azerbaijan
 division	East Azerbaijan Province
+division	Ilam
 division	Kurdistan
 division	Ardabil
 division	Lorestan
@@ -30100,15 +30753,20 @@ division	Singapore
 
 ### China
 division	Xinjiang
+division	Qinghai
 division	Yunnan
 division	Gansu
 division	Sichuan
 division	South China
 division	China
+division	Ningxia
+division	Guizhou
 division	Chongqing
 division	Guangxi
+division	Shaanxi
 division	Hainan
 division	Hunan
+division	Shanxi
 division	Hubei
 division	Henan
 division	Inner Mongolia
@@ -30116,7 +30774,7 @@ division	Guangdong
 division	Jiangxi
 division	Hebei
 division	Beijing
-division	Jining
+division	Tianjin
 division	Anhui
 division	Fujian
 division	Shandong
@@ -30947,6 +31605,7 @@ division	Hhohho
 
 ### Uganda
 division	Western
+division	Central Region UG
 division	Central Uganda
 division	Eastern Region UG
 division	Uganda
@@ -31906,6 +32565,7 @@ division	Zakarpattia
 division	Lviv
 division	Ivano-Frankivsk
 division	Volyn
+division	Ternopil Region
 division	Chernivtsi
 division	Rivne
 division	Khmelnytskyi
@@ -32106,6 +32766,7 @@ division	Artigas
 
 ### Chile
 division	Magallanes
+division	Region de Magallanes y de la Antartica Chilena
 division	Aysén
 division	Los Lagos
 division	Los Rios CL
@@ -32370,10 +33031,11 @@ division	Saint Vincent and the Grenadines
 division	Barbados
 
 ### El Salvador
-division	La Paz SV
 division	La Libertad SV
-division	El Salvador
+division	La Paz SV
 division	Chalatenango
+division	El Salvador
+division	Usulutan
 
 ### Saint Lucia
 division	Saint Lucia
@@ -32471,6 +33133,8 @@ division	Jamaica
 
 ### Dominican Republic
 division	Santo Domingo
+division	Peravia
+division	La Romana
 division	San Pedro de Macoris
 division	San Cristobal
 division	Monsea'Or Nouel
@@ -32479,6 +33143,7 @@ division	Dominican Republic
 division	Duarte
 division	Santiago DO
 division	Moca
+division	Hermanas Mirabal
 division	Espaillat
 division	Valverde
 division	Puerto Plata

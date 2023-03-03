@@ -12627,6 +12627,7 @@ division	Guiania	2.5000086	-69.0000086
 division	Guiglo	6.43034025	-7.5909032112704775
 division	Guinea	10.7226226	-10.7083587
 division	Guinea-Bissau	12.100035	-14.9000214
+division	Guizhou	27.0	107.0
 division	Gujarat	22.2587	71.1924
 division	Guna Yala	9.20030225	-77.93252243147037
 division	Gunma	36.52198	139.033483
@@ -12682,6 +12683,7 @@ division	Helsinki	60.1698848	24.9384991
 division	Henan	33.817629	113.690243
 division	Herceg Novi	42.4517622	18.5367516
 division	Heredia	9.997549	-84.121162
+division	Hermanas Mirabal	19.4089668	-70.3928405
 division	Herrera	7.8432774	-80.75877048589277
 division	Herselt	51.0524	4.8807
 division	Herzegowina-Neretva	43.2454799	17.791328206678866
@@ -12746,6 +12748,7 @@ division	Ida-Viru	59.3477264	28.1693889
 division	Idaho	43.810421	-114.351215
 division	Idleb	35.8600391	36.57109063293224
 division	Ieper	50.857716	2.874138
+division	Ilam	33.1545696	46.7576343
 division	Ilava	48.9985674	18.2307598
 division	Ile de France	48.724751	2.491522
 division	Ilfov	44.5017074	26.244907651159284
@@ -13062,6 +13065,7 @@ division	La Paz SV	13.46697665	-88.98506215043079
 division	La Rioja	42.2871	-2.5396
 division	La Rioja AR	-29.62487279826059	-66.86176517635946
 division	La Rioja ES	42.31366609897772	-2.583157318755303
+division	La Romana	18.4975148	-68.9766638
 division	La Vega	19.0520669	-70.6316324
 division	Laamu Atoll	1.95328225	73.40034650846036
 division	Labe	11.7614835	-12.0118889
@@ -13498,6 +13502,7 @@ division	Niigata	37.6452283	138.7669125
 division	Niksic	42.7739388	18.9488097
 division	Nile River Cruise	23.998417	32.873216
 division	Nimba	6.8088813	-8.7461448
+division	Ningxia	37.0000001	105.9999999
 division	Ninh Binh	20.2545421	105.9764854
 division	Ninh Thuan	11.7449715	108.8983408
 division	Nis	43.3211301	21.8959232
@@ -13705,6 +13710,7 @@ division	Penang	5.4065013	100.2559077
 division	Pennsylvania	41.2033	-77.1945
 division	Penza	53.200001	45.0
 division	Perak	4.812181	100.9797908
+division	Peravia	18.3309575	-70.3712349
 division	Perlis	6.4868392	100.2577623
 division	Perm Krai	58.5951603	56.3159546
 division	Pernambuco	-8.8137	-36.9541
@@ -13819,6 +13825,7 @@ division	Qalyubiyya	30.33362925	31.22135686416373
 division	Qashqadaryo Region	38.5639397	65.5311095
 division	Qatar	25.27932	51.52245
 division	Qazvin	36.0156291	49.8398161
+division	Qinghai	35.40709525	95.95211573241954
 division	Qom	34.6423117	50.8800969
 division	Quang Tri	16.8581352	106.8588935
 division	Quangninh	21.0064	107.2925
@@ -13862,6 +13869,7 @@ division	Red River Delta	21.010949	105.786621
 division	Red Sea	24.6601831	34.1399929
 division	Red Sea State	20.0	36.0
 division	Region de la Araucania	-38.6678955	-72.2610066
+division	Region de Magallanes y de la Antartica Chilena	-53.3527518	-71.5547782
 division	Region Metropolitana de Santiago	-33.5739341	-70.6205518
 division	Republic of Bashkortostan	54.4747553	55.9784582
 division	Republic of Crymea	45.3453	34.4997
@@ -14038,9 +14046,11 @@ division	Setúbal	38.5260	-8.8909
 division	Seychelles	-4.6574977	55.4540146
 division	Sezimovo Usti	49.38422095	14.715199399581845
 division	Sfax	34.72312735	10.33587885553419
+division	Shaanxi	35.8894105	109.1357285
 division	Shahrekord	32.3257366	50.8497369
 division	Shandong	36.298013	118.193884
 division	Shanghai	31.171447	121.429896
+division	Shanxi	37.0	112.0
 division	Sharjah	25.3525369	55.4378628
 division	Shaviyani Atoll	7.025023	75.9545415609148
 division	Sheikhupura	31.7085285	73.9864014
@@ -14277,6 +14287,7 @@ division	Temara	33.917166	-6.923804
 division	Tennessee	35.5175	-86.5804
 division	Teramo	42.6611	13.6987
 division	Terengganu	4.8630743	102.9949297
+division	Ternopil Region	49.6630002	25.6167516
 division	Tervuren	50.8259	4.5078
 division	Tessin	46.3356506	8.753706
 division	Tete	-15.5205193	32.7682742
@@ -14297,6 +14308,7 @@ division	Thrace	40.7229413	22.9237909
 division	Thuin	50.326454	4.308720
 division	Thurgau	47.576816	9.072051
 division	Thuringia	50.7333163	11.0747905
+division	Tianjin	39.0856735	117.1951073
 division	Tiapoum	5.257687000000001	-2.8536454090555075
 division	Ticino	46.345334	8.774813
 division	Tielt	51.001589	3.355702
@@ -14423,6 +14435,7 @@ division	Uruguay	-33	-56
 division	USA	38.916963	-98.891372
 division	Ustecky Region	50.5663266	13.820670539566608
 division	Usti nad Labem	50.656527	14.053702
+division	Usulutan	13.3438204	-88.4382264
 division	Utah	39.4225192	-111.7143583
 division	Utena	55.4984381	25.6025772
 division	Utena Apskritis	55.4984381	25.6025772
