@@ -5,7 +5,7 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
-- 30 January 2022: Include new clade 23A correspoding to Pango lineage XBB.1.5. See [PR 1043](https://github.com/nextstrain/ncov/pull/1043) for the rationale behind this clade update.
+- 30 January 2023: Include new clade 23A correspoding to Pango lineage XBB.1.5. See [PR 1043](https://github.com/nextstrain/ncov/pull/1043) for the rationale behind this clade update.
 
 - 9 December 2022: Add `immune escape` and `ace2_binding` from metadata  as colorings for `nextstrain-open` and `nextstrain-gisaid` builds. [PR 1036](https://github.com/nextstrain/ncov/pull/1036)
 
