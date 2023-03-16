@@ -458,7 +458,7 @@ rule prepare_nextclade:
     output:
         nextclade_dataset = "data/sars-cov-2-nextclade-defaults.zip",
     params:
-        name = "sars-cov-2",
+        name = config["nextclade_dataset"],
     conda: config["conda_environment"]
     shell:
         """

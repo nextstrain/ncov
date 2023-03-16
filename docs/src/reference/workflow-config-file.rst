@@ -374,6 +374,17 @@ Secondary configuration
 
 These parameters are other high-level parameters which may affect multiple Snakemake rules, or modify which rules are run.
 
+nextclade_dataset
+-----------------
+
+- type: string
+- description: Name of a Nextclade dataset that appears in the output of ``nextclade dataset list``. The workflow will download the corresponding dataset by running ``nextclade dataset get --name {nextclade_dataset}`` where the value in the curly brackets is the value defined in the configuration file. The final alignment for each build will use the reference sequence and gene map from this dataset.
+- default: ``sars-cov-2``
+- examples:
+
+  - ``sars-cov-2-21L``
+  - ``sars-cov-2-no-recomb``
+
 default_build_name
 ------------------
 

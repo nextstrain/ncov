@@ -47,6 +47,7 @@ sanitize_metadata:
     - "GC-Content=gc_content"
 
 reference_node_name: "USA/WA1/2020"
+nextclade_dataset: sars-cov-2
 
 # Define files used for external configuration. Common examples consist of a
 # list of strains to include and exclude from analyses, a reference sequence to

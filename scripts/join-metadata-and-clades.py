@@ -37,7 +37,9 @@ column_map = {
     "deletions": "deletions",
     "insertions": "insertions",
     "substitutions": "substitutions",
-    "aaSubstitutions": "aaSubstitutions"
+    "aaSubstitutions": "aaSubstitutions",
+    "immune_escape": "immune_escape",
+    "ace2_binding": "ace2_binding",
 }
 
 preferred_types = {
@@ -137,7 +139,8 @@ def main():
     result.loc[np.isnan(div_array)|np.isnan(t), "clock_deviation"] = np.nan
 
     for col in list(column_map.values()) + ["clock_deviation"]:
-        result[col] = result[col].fillna(VALUE_MISSING_DATA)
+        if col in result:
+            result[col] = result[col].fillna(VALUE_MISSING_DATA)
 
     # Move the new column so that it's next to other clade columns
     if INSERT_BEFORE_THIS_COLUMN in result.columns:

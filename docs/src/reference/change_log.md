@@ -5,7 +5,9 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
-- 30 January 2022: Include new clade 23A correspoding to Pango lineage XBB.1.5. See [PR 1043](https://github.com/nextstrain/ncov/pull/1043) for the rationale behind this clade update.
+- 16 March 2023: Add a build configuration option, `nextclade_dataset`, to allow users to change the Nextclade dataset used for alignment and quality control. For example, setting `nextclade_dataset: sars-cov-2-21L` will use the BA.2 (Nextstrain 21L) dataset that provides immune escape and ACE2 binding scores. [See the workflow configuration guide for more details](https://docs.nextstrain.org/projects/ncov/en/latest/reference/workflow-config-file.html#nextclade-dataset). [PR 1046](https://github.com/nextstrain/ncov/pull/1046)
+
+- 30 January 2023: Include new clade 23A correspoding to Pango lineage XBB.1.5. See [PR 1043](https://github.com/nextstrain/ncov/pull/1043) for the rationale behind this clade update.
 
 - 9 December 2022: Add `immune escape` and `ace2_binding` from metadata  as colorings for `nextstrain-open` and `nextstrain-gisaid` builds. [PR 1036](https://github.com/nextstrain/ncov/pull/1036)
 
