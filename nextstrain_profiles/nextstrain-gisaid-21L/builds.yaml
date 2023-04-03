@@ -3,6 +3,7 @@ auspice_json_prefix: ncov_gisaid_21L
 # Define custom rules for pre- or post-standard workflow processing of data.
 custom_rules:
   - workflow/snakemake_rules/export_for_nextstrain.smk
+  - nextstrain_profiles/nextstrain-gisaid-21L/prefilter.smk
 
 # These parameters are only used by the `export_for_nextstrain` rule and shouldn't need to be modified.
 # To modify the s3 _source_ bucket, specify this directly in the `inputs` section of the config.
@@ -26,12 +27,12 @@ files:
   include: "nextstrain_profiles/nextstrain-gisaid-21L/include.txt"
   description: "nextstrain_profiles/nextstrain-gisaid-21L/nextstrain_description.md"
 
-# Note: unaligned sequences are provided as "aligned" sequences to avoid an initial full-DB alignment
-# as we re-align everything after subsampling.
 inputs:
   - name: gisaid
-    metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
-    aligned: "s3://nextstrain-ncov-private/sequences.fasta.xz"
+    # These two files are produced by our custom gisaid_21L prefiltering rules
+    # for this build.
+    metadata: "results/gisaid_21L_metadata.tsv.zst"
+    aligned: "results/gisaid_21L_aligned.fasta.zst"
     skip_sanitize_metadata: true
   - name: references
     metadata: "data/references_metadata.tsv"
@@ -161,32 +162,8 @@ builds:
 
 # remove sequences without division label in US and sequences from prior to clade 21L
 filter:
+  exclude_where: "division='USA'"
   min_date: "2022-01-01"
-  exclude_where: "division='USA' \
-    Nextstrain_clade='19A' \
-    Nextstrain_clade='19B' \
-    Nextstrain_clade='20A' \
-    Nextstrain_clade='20B' \
-    Nextstrain_clade='20C' \
-    Nextstrain_clade='20D' \
-    Nextstrain_clade='20E (EU1)' \
-    Nextstrain_clade='20F' \
-    Nextstrain_clade='20G' \
-    Nextstrain_clade='20H (Beta, V2)' \
-    Nextstrain_clade='20I (Alpha, V1)' \
-    Nextstrain_clade='20J (Gamma, V3)' \
-    Nextstrain_clade='21A (Delta)' \
-    Nextstrain_clade='21B (Kappa)' \
-    Nextstrain_clade='21C (Epsilon)' \
-    Nextstrain_clade='21D (Eta)' \
-    Nextstrain_clade='21E (Theta)' \
-    Nextstrain_clade='21F (Iota)' \
-    Nextstrain_clade='21G (Lambda)' \
-    Nextstrain_clade='21H (Mu)' \
-    Nextstrain_clade='21I (Delta)' \
-    Nextstrain_clade='21J (Delta)' \
-    Nextstrain_clade='21K (Omicron)' \
-    Nextstrain_clade='21M (Omicron)'"
 
 subsampling:
 

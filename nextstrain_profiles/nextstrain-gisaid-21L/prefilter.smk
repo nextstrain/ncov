@@ -1,0 +1,67 @@
+rule gisaid_21L_metadata:
+    input:
+        metadata = path_or_url("s3://nextstrain-ncov-private/metadata.tsv.zst", keep_local=True),
+        exclude_clades = "nextstrain_profiles/nextstrain-gisaid-21L/exclude-clades.tsv",
+    output:
+        metadata = "results/gisaid_21L_metadata.tsv.zst",
+    log: "logs/gisaid_21L_metadata.txt"
+    benchmark: "benchmarks/gisaid_21L_metadata.txt"
+    conda: config["conda_environment"]
+    threads: 8
+    shell:
+        r"""
+        exec 2> {log:q}
+
+        < {input.metadata:q} \
+          unzstd \
+        | tsv-join \
+            --header \
+            --exclude \
+            --filter-file {input.exclude_clades:q} \
+            --key-fields clade \
+            --data-fields Nextstrain_clade \
+        | zstd -T$(({threads} - 2)) \
+        > {output.metadata:q}
+        """
+
+
+rule gisaid_21L_strains:
+    input:
+        metadata = "results/gisaid_21L_metadata.tsv.zst",
+    output:
+        strains = "results/gisaid_21L_strains.txt",
+    log: "logs/gisaid_21L_strains.txt"
+    benchmark: "benchmarks/gisaid_21L_strains.txt"
+    conda: config["conda_environment"]
+    shell:
+        r"""
+        exec 2> {log:q}
+
+        < {input.metadata:q} \
+          unzstd \
+        | tsv-select --header -f strain \
+        | sed 1d \
+        > {output.strains:q}
+        """
+
+
+rule gisaid_21L_aligned:
+    input:
+        aligned = path_or_url("s3://nextstrain-ncov-private/aligned.fasta.zst", keep_local=True),
+        strains = "results/gisaid_21L_strains.txt",
+    output:
+        aligned = "results/gisaid_21L_aligned.fasta.zst",
+    log: "logs/gisaid_21L_aligned.txt"
+    benchmark: "benchmarks/gisaid_21L_aligned.txt"
+    conda: config["conda_environment"]
+    threads: 8
+    shell:
+        r"""
+        exec 2> {log:q}
+
+        < {input.aligned:q} \
+          unzstd \
+        | seqkit grep --by-name -f {input.strains:q} \
+        | zstd -T$(({threads} - 2)) \
+        > {output.aligned:q}
+        """
