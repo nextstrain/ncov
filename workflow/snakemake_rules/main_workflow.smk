@@ -672,6 +672,7 @@ rule filter:
         exclude = _collect_exclusion_files,
     output:
         sequences = "results/{build_name}/filtered.fasta",
+        metadata = "results/{build_name}/metadata_filtered.tsv.xz",
         filter_log = "results/{build_name}/filtered_log.tsv",
     log:
         "logs/filtered_{build_name}.txt"
@@ -699,7 +700,8 @@ rule filter:
             {params.ambiguous} \
             --exclude {input.exclude} \
             --exclude-where {params.exclude_where}\
-            --output {output.sequences} \
+            --output-sequences {output.sequences} \
+            --output-metadata {output.metadata} \
             --output-log {output.filter_log} 2>&1 | tee {log};
         """
 
@@ -759,7 +761,7 @@ rule adjust_metadata_regions:
         Adjusting metadata for build '{wildcards.build_name}'
         """
     input:
-        metadata="results/{build_name}/metadata_with_index.tsv",
+        metadata="results/{build_name}/metadata_filtered.tsv.xz",
     output:
         metadata = "results/{build_name}/metadata_adjusted.tsv.xz"
     params:
