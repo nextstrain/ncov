@@ -1,5 +1,6 @@
 rule gisaid_21L_metadata:
     input:
+        references = "data/references_metadata.tsv",
         metadata = path_or_url("s3://nextstrain-ncov-private/metadata.tsv.zst", keep_local=True),
         exclude_clades = "nextstrain_profiles/nextstrain-gisaid-21L/exclude-clades.tsv",
     output:
@@ -12,6 +13,12 @@ rule gisaid_21L_metadata:
         r"""
         exec 2> {log:q}
 
+        ./scripts/tsv-cast-header \
+            <(unzstd < {input.metadata:q}) \
+            {input.references:q} \
+        | zstd \
+        > {output.metadata:q}
+
         < {input.metadata:q} \
           unzstd \
         | tsv-join \
@@ -20,8 +27,9 @@ rule gisaid_21L_metadata:
             --filter-file {input.exclude_clades:q} \
             --key-fields clade \
             --data-fields Nextstrain_clade \
+        | sed 1d \
         | zstd -T$(({threads} - 2)) \
-        > {output.metadata:q}
+        >> {output.metadata:q}
         """
 
 
@@ -47,6 +55,7 @@ rule gisaid_21L_strains:
 
 rule gisaid_21L_aligned:
     input:
+        references = "data/references_sequences.fasta",
         aligned = path_or_url("s3://nextstrain-ncov-private/aligned.fasta.zst", keep_local=True),
         strains = "results/gisaid_21L_strains.txt",
     output:
@@ -59,9 +68,13 @@ rule gisaid_21L_aligned:
         r"""
         exec 2> {log:q}
 
+        < {input.references:q} \
+          zstd \
+        > {output.aligned}
+
         < {input.aligned:q} \
           unzstd \
         | seqkit grep --by-name -f {input.strains:q} \
         | zstd -T$(({threads} - 2)) \
-        > {output.aligned:q}
+        >> {output.aligned:q}
         """
