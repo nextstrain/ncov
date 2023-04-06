@@ -25,12 +25,10 @@ include_hcov19_prefix: True
 files:
   description: "nextstrain_profiles/nextstrain-country/nextstrain_description.md"
 
-# Note: unaligned sequences are provided as "aligned" sequences to avoid an initial full-DB alignment
-# as we re-align everything after subsampling.
 inputs:
   - name: gisaid
     metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
-    aligned: "s3://nextstrain-ncov-private/sequences.fasta.xz"
+    aligned: "s3://nextstrain-ncov-private/aligned.fasta.xz"
     skip_sanitize_metadata: true
 
 # Define locations for which builds should be created.
