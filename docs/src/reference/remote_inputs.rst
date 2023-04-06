@@ -13,7 +13,7 @@ The open (GenBank) data is publicly available at three endpoints:
 -  ``s3://nextstrain-data/files/ncov/open/``
 -  ``gs://nextstrain-data/files/ncov/open/`` (mirrored daily from S3 by the Broad Institute)
 
-**Our intention is to make GenBank intermediate files open and available for everyone to use, and to keep these files up-to-date.** The paths for specific files are the same under each endpoint, e.g. ``https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz``, ``s3://nextstrain-data/files/ncov/open/metadata.tsv.gz``, and ``gs://nextstrain-data/files/ncov/open/metadata.tsv.gz`` all exist. See below for a list of files that exist. If you're running workflows on AWS or GCP compute that fetch this data, please use the S3 or GS URLs, respectively, for cheaper (for us) and faster (for you) data transfers. Otherwise, please use the https://data.nextstrain.org URLs.
+**Our intention is to make GenBank intermediate files open and available for everyone to use, and to keep these files up-to-date.** The paths for specific files are the same under each endpoint, e.g. ``https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst``, ``s3://nextstrain-data/files/ncov/open/metadata.tsv.zst``, and ``gs://nextstrain-data/files/ncov/open/metadata.tsv.zst`` all exist. See below for a list of files that exist. If you're running workflows on AWS or GCP compute that fetch this data, please use the S3 or GS URLs, respectively, for cheaper (for us) and faster (for you) data transfers. Otherwise, please use the https://data.nextstrain.org URLs.
 
 Note that even though the ``s3://nextstrain-data/`` and ``gs://nextstrain-data/`` buckets are public, the defaults for most S3 and GS clients require *some* user to be authenticated, though the specific user/account doesn't matter. In the rare case you need to access the S3 or GS buckets anonymously, the easiest way is to configure your inputs using ``https://nextstrain-data.s3.amazonaws.com/files/ncov/open/`` or ``https://storage.googleapis.com/nextstrain-data/files/ncov/open/`` URLs instead.
 
@@ -24,12 +24,14 @@ All available genomes and metadata
 
 Entire metadata & sequences data is uploaded from the ``ncov-ingest`` workflows for each of the ``gisaid`` and ``open`` sources:
 
--  ``metadata.tsv.gz`` and ``metadata.tsv.zst``
--  ``sequences.fasta.xz`` and ``sequences.fasta.zst``
--  ``nextclade.tsv.gz`` and ``nextclade.tsv.zst``
--  ``aligned.fasta.xz`` and ``aligned.fasta.zst`` (Alignment via `Nextclade <https://docs.nextstrain.org/projects/nextclade/en/stable/user/output-files.html#aligned-nucleotide-sequences>`__. The default reference genome is `MN908947 <https://www.ncbi.nlm.nih.gov/nuccore/MN908947>`__ (Wuhan-Hu-1))
--  ``additional_info.tsv.gz`` and ``additional_info.tsv.zst`` (GISAID only)
--  ``flagged_metadata.txt.gz`` and ``flagged_metadata.txt.zst`` (GISAID only)
+-  ``metadata.tsv.zst`` and ``metadata.tsv.gz``
+-  ``sequences.fasta.zst`` and ``sequences.fasta.xz``
+-  ``nextclade.tsv.zst`` and ``nextclade.tsv.gz``
+-  ``aligned.fasta.zst`` and ``aligned.fasta.xz`` (Alignment via `Nextclade <https://docs.nextstrain.org/projects/nextclade/en/stable/user/output-files.html#aligned-nucleotide-sequences>`__. The default reference genome is `MN908947 <https://www.ncbi.nlm.nih.gov/nuccore/MN908947>`__ (Wuhan-Hu-1))
+-  ``additional_info.tsv.zst`` and ``additional_info.tsv.gz`` (GISAID only)
+-  ``flagged_metadata.txt.zst`` and ``flagged_metadata.txt.gz`` (GISAID only)
+
+The files compressed with Zstandard (``.zst``) will generally be faster to download (i.e. smaller in size) and faster to decompress than those compressed with ``xz``.
 
 Subsampled datasets
 -------------------
@@ -57,17 +59,17 @@ Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-ameri
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 | description           | type                  | address                                                                      |
 +=======================+=======================+==============================================================================+
-| Full GenBank data     | metadata              | https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz                  |
+| Full GenBank data     | metadata              | https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst                 |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | sequences             | https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz               |
+|                       | sequences             | https://data.nextstrain.org/files/ncov/open/sequences.fasta.zst              |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | aligned               | https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz                 |
+|                       | aligned               | https://data.nextstrain.org/files/ncov/open/aligned.fasta.zst                |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | metadata (zstd)       | https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst                 |
+|                       | metadata (gz)         | https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz                  |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | sequences (zstd)      | https://data.nextstrain.org/files/ncov/open/sequences.fasta.zst              |
+|                       | sequences (xz)        | https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz               |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | aligned (zstd)        | https://data.nextstrain.org/files/ncov/open/aligned.fasta.zst                |
+|                       | aligned (xz)          | https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz                 |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 | Global sample         | metadata              | https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz           |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
@@ -167,4 +169,4 @@ The following starting points are available:
 Compressed vs uncompressed starting points
 ------------------------------------------
 
-The workflow supports compressed metadata and sequences for any input stage. Files may be compressed using ``xz`` (``.xz``) or ``gzip`` (``.gz``) compression.
+The workflow supports compressed metadata and sequences for any input stage. Files may be compressed using Zstandard (``.zst``), xz (``.xz``), or gzip (``.gz``) compression.

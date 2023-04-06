@@ -24,12 +24,6 @@ To maximize the utility and visibility of these generously shared data, [we prov
 
 #### All sequences and metadata
 
-- [metadata.tsv.gz](https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz)
-- [sequences.fasta.xz](https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz)
-- [aligned.fasta.xz](https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz)
-
-Now also available with `zstd` compression allowing much faster decompression:
-
 - [metadata.tsv.zst](https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst)
 - [sequences.fasta.zst](https://data.nextstrain.org/files/ncov/open/sequences.fasta.zst)
 - [aligned.fasta.zst](https://data.nextstrain.org/files/ncov/open/aligned.fasta.zst)
