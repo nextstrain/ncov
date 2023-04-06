@@ -54,9 +54,6 @@ Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-ameri
 
    Please note that these files are uploaded in two batches (see above for details). This means that the full GenBank metadata and sequences are typically updated a couple of hours before the more processed files.
 
-.. warning::
-  The zstandard (zstd) files are not yet supported as direct inputs for the pipeline.
-
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 | description           | type                  | address                                                                      |
 +=======================+=======================+==============================================================================+
