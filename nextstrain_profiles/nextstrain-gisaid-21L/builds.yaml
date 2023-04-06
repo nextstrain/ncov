@@ -24,6 +24,9 @@ use_nextalign: true
 include_hcov19_prefix: True
 
 files:
+  # This file is produced by a custom clades_21L rule in our prefiltering rules
+  # for this build.
+  clades: "results/clades_21L.tsv"
   include: "nextstrain_profiles/nextstrain-gisaid-21L/include.txt"
   description: "nextstrain_profiles/nextstrain-gisaid-21L/nextstrain_description.md"
 

@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""
+usage: expand-clade-definitions <clades.tsv>
+
+Reads in a clade definitions file suitable for `augur clades` and expands any
+hierarchically-defined clades (i.e. clade definitions that inherit from earlier
+clade definitions).
+
+This should probably become a part of Augur in the future, as it's useful for
+programmatic manipulation of clade definitions files.
+"""
+import csv
+from augur.clades import read_in_clade_definitions
+from sys import stdout
+
+
+def write_out_clade_definitions(file, defs):
+    out = csv.writer(file, dialect = "excel-tab", lineterminator = "\n")
+    out.writerow(("clade", "gene", "site", "alt"))
+    out.writerows(
+        (clade, gene, site + 1, alt)
+            for clade, muts in defs.items()
+            for gene, site, alt in muts)
+
+
+if __name__ == "__main__":
+    from argparse import ArgumentParser
+
+    cli = ArgumentParser(description = __doc__.strip().split("\n\n", 1)[1])
+    cli.add_argument("clades", metavar = "<clades.tsv>")
+
+    args = cli.parse_args()
+
+    write_out_clade_definitions(stdout, read_in_clade_definitions(args.clades))

@@ -1,3 +1,26 @@
+rule clades_21L:
+    input:
+        clades = "defaults/clades.tsv",
+        exclude_clades = "nextstrain_profiles/nextstrain-gisaid-21L/exclude-clades.tsv",
+    output:
+        clades = "results/clades_21L.tsv",
+    log: "logs/clades_21L.txt"
+    benchmark: "benchmarks/clades_21L.txt"
+    conda: config["conda_environment"]
+    shell:
+        r"""
+        exec 2> {log:q}
+
+          ./scripts/expand-clade-definitions {input.clades:q} \
+        | tsv-join \
+            --header \
+            --exclude \
+            --filter-file {input.exclude_clades:q} \
+            --key-fields clade \
+        > {output.clades:q}
+        """
+
+
 rule gisaid_21L_metadata:
     input:
         references = "data/references_metadata.tsv",
