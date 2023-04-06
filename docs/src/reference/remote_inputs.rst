@@ -151,8 +151,8 @@ Using the above table, we can easily modify this to create a build which uses th
 
    inputs:
      - name: global-representative-genbank-sample
-       metadata: https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.gz
-       sequences: https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.gz
+       metadata: https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz
+       sequences: https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.xz
 
 To avoid unnecessarily aligning these sequences, we can instead start from the aligned sequences, like so:
 
@@ -160,8 +160,8 @@ To avoid unnecessarily aligning these sequences, we can instead start from the a
 
    inputs:
      - name: global-representative-genbank-sample
-       metadata: https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.gz
-       aligned: https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.gz
+       metadata: https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz
+       aligned: https://data.nextstrain.org/files/ncov/open/global/aligned.fasta.xz
 
 The following starting points are available:
 
