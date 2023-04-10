@@ -27,8 +27,8 @@ files:
 
 inputs:
   - name: gisaid
-    metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
-    aligned: "s3://nextstrain-ncov-private/aligned.fasta.xz"
+    metadata: "s3://nextstrain-ncov-private/metadata.tsv.zst"
+    aligned: "s3://nextstrain-ncov-private/aligned.fasta.zst"
     skip_sanitize_metadata: true
 
 # Define locations for which builds should be created.

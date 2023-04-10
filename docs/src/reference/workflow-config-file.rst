@@ -65,7 +65,7 @@ metadata
    -  ``data/example_metadata.tsv``
    -  ``data/example_metadata.tsv.xz``
    -  ``s3://your-bucket/metadata.tsv.gz``
-   -  ``https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz``
+   -  ``https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst``
 
 sequences
 ~~~~~~~~~
@@ -77,7 +77,7 @@ sequences
    -  ``data/example_sequences.fasta``
    -  ``data/example_sequences.fasta.xz``
    -  ``s3://your-bucket/sequences.fasta.gz``
-   -  ``https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz``
+   -  ``https://data.nextstrain.org/files/ncov/open/sequences.fasta.zst``
 
 aligned
 ~~~~~~~
@@ -89,7 +89,7 @@ aligned
    -  ``data/aligned.fasta``
    -  ``data/aligned.fasta.xz``
    -  ``s3://your-bucket/aligned.fasta.gz``
-   -  ``https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz``
+   -  ``https://data.nextstrain.org/files/ncov/open/aligned.fasta.zst``
 
 
 builds
