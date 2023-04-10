@@ -1,5 +1,5 @@
 """
-Supplementary data S2 from Obermeyer et al (https://www.medrxiv.org/content/10.1101/2021.09.07.21263228v1)
+Supplementary data S2 from Obermeyer et al (https://www.science.org/doi/10.1126/science.abm1208)
 is a TSV table that maps mutations such as "S:D614G" to an estimate of "Δ log R" and is available via GitHub.
 Here, we convert this TSV table into a JSON compatable with the augur distance command.
 To update model run:
