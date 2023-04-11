@@ -5,7 +5,7 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
-- 11 April 2023: Elevate XBB.1.16 as new clade 23B. See [PR TKTK](https://github.com/nextstrain/ncov/pull/TKTK) for the rationale behind this clade update.
+- 11 April 2023: Elevate XBB.1.16 as new clade 23B. See [PR 1059](https://github.com/nextstrain/ncov/pull/1059) for the rationale behind this clade update.
 
 - 6 April 2023: Update conda environment dependencies: augur 19.2.0 -> 21.1.0, nextalign/nextclade 2.9.1 -> 2.13.1, iqtree 2.2.0_beta -> 2.2.0.3. [PR 1056](https://github.com/nextstrain/ncov/pull/1056)
 
