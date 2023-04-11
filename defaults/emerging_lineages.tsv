@@ -175,9 +175,6 @@ clade	gene	site	alt
 23A (Omicron)	nuc	23018	C
 23A (Omicron)	nuc	27915	T
 
-BQ.1.1	clade	22E (Omicron)
-BQ.1.1	nuc	22599	C
-
 BA.2.3.20	clade	21L (Omicron)
 BA.2.3.20	nuc	6770	G
 BA.2.3.20	nuc	22332	A
@@ -188,12 +185,6 @@ BN.1	clade	22D (Omicron)
 BN.1	nuc	22599	C
 BN.1	nuc	22629	C
 BN.1	nuc	23031	C
-
-BS.1	clade	21L (Omicron)
-BS.1	nuc	9866	T
-BS.1	nuc	10393	C
-BS.1	nuc	16418	T
-BS.1	nuc	26733	C
 
 XBC	clade	20A
 XBC	nuc	23670	T
@@ -217,9 +208,3 @@ CH.1.1	nuc	22599	C
 CH.1.1	nuc	20741	G
 CH.1.1	nuc	22893	C
 CH.1.1	nuc	22917	G
-
-XBB.1.16	clade	23A (Omicron)
-XBB.1.16	nuc	12730	A
-XBB.1.16	nuc	14856	G
-XBB.1.16	nuc	18703	T
-XBB.1.16	nuc	28447	G
