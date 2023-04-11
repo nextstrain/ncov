@@ -68,7 +68,7 @@ files:
   clades: "defaults/clades.tsv"
   emerging_lineages: "defaults/emerging_lineages.tsv"
   mutational_fitness_distance_map: "defaults/mutational_fitness_distance_map.json"
-  sites_to_mask: "defaults/sites_ignored_for_tree_topology.txt"
+  sites_to_mask: "defaults/sites_ignored_for_tree_topology.txt" # these are the soft-masked sites, just for topology
   rbd_level_definitions: "defaults/rbd_levels.yaml"
 
 # Define genes to translate during alignment by nextalign.
