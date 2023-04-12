@@ -139,7 +139,7 @@ rule auspice_config:
     benchmark:
         "benchmarks/make_auspice_config_{build_name}.txt"
     run:
-        input_set = set(config['inputs'])
+        input_set = set(config['inputs']) - {"references"}
         build_name = wildcards.build_name
 
         if "_" in build_name:

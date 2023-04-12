@@ -1,0 +1,77 @@
+#!/usr/bin/env python3
+"""
+usage: tsv-cast-header <target.tsv> <source.tsv>
+
+Casts a <source.tsv> into the header of <target.tsv>.
+
+Fields are reordered, dropped, and added as necessary.  Added fields will have
+blank values.
+
+No output will be emitted if <source.tsv> has no rows.  <target.tsv> must have
+at least a header line.
+
+All conversion is performed in a memory efficient manner, and inputs do not
+need to be seekable.
+
+---
+
+This program exists because both `tsv-append` (from tsv-utils) and `csvtk
+concat` are by themselves unsuitable for this task.
+
+`tsv-append` is header line aware, but not field aware: it assumes all inputs
+have the exact same header line and does no re-ordering, adding, or dropping of
+fields.  It will happily mismatch fields between inputs and produce data lines
+with too few or too many fields.
+
+`csvtk concat` is field aware and DTRT, but it buffers each input completely
+into memory, making it a non-starter for large dataset sizes.
+"""
+import csv
+from argparse import ArgumentParser, RawDescriptionHelpFormatter
+from sys import stdin, stdout, stderr, exit
+
+
+cli = ArgumentParser(
+    description     = __doc__.strip().split("\n---\n", 1)[0].split("\n\n", 1)[1],
+    epilog          = __doc__.strip().split("\n---\n", 1)[1],
+    formatter_class = RawDescriptionHelpFormatter)
+
+cli.add_argument("target", metavar = "<target.tsv>")
+cli.add_argument("source", metavar = "<source.tsv>")
+
+args = cli.parse_args()
+
+
+# Read header line of <target.tsv>
+with open(args.target, "r", encoding = "utf-8", newline = "") as target:
+    lines = csv.reader(target, dialect = "excel-tab")
+    try:
+        header = next(lines)
+    except StopIteration:
+        print(f"{cli.prog}: error: {args.target!r} (the target) appears to empty; it must contain at least a header line", file = stderr)
+        exit(1)
+
+
+# Set up output for casting from one dict to another
+output = csv.DictWriter(
+    stdout,
+    header,
+    restval = "",
+    extrasaction = "ignore",
+    dialect = "excel-tab",
+    lineterminator = "\n")
+
+
+# Cast <source.tsv>
+with open(args.source, "r", encoding = "utf-8", newline = "") as source:
+    input = csv.DictReader(source, dialect = "excel-tab")
+
+    for i, row in enumerate(input):
+        if i == 0:
+            if not set(input.fieldnames) & set(output.fieldnames):
+                print(f"{cli.prog}: error: {args.target!r} (the target) and {args.source!r} (the source) share no fields; they must share at least one", file = stderr)
+                exit(1)
+
+            output.writeheader()
+
+        output.writerow(row)

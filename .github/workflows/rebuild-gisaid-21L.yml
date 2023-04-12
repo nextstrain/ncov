@@ -6,7 +6,7 @@ on:
   repository_dispatch:
     types:
       - rebuild
-      - rebuild-gisaid-21L
+      - gisaid/rebuild
   # Manually triggered using GitHub's UI
   workflow_dispatch:
     inputs:
