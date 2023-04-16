@@ -58,7 +58,7 @@ builds:
     subsampling_scheme: nextstrain_global_6m
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused globally over the past 6 months
   global_all-time:
-    subsampling_scheme: nextstrain_global_all-time
+    subsampling_scheme: nextstrain_global_all_time
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused globally since pandemic start
   africa_1m:
     subsampling_scheme: nextstrain_region_grouped_by_country_1m
