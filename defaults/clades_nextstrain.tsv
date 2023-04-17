@@ -174,3 +174,9 @@ clade	gene	site	alt
 23A	nuc	22317	T
 23A	nuc	23018	C
 23A	nuc	27915	T
+
+23B	clade	22F
+23B	nuc	12730	A
+23B	nuc	14856	G
+23B	nuc	18703	T
+23B	nuc	28447	G
