@@ -96,8 +96,8 @@ Rename fields and strip prefixes.
   [1]
   $ rm -f "$TMP/metadata.tsv"
 
-De-duplication happens before strain name sanitization, so there may still be
-duplicates the output metadata.
+De-duplication happens after strain name sanitization, so there should not be
+any duplicates in the output metadata.
 
   $ cat >"$TMP/unsanitized_metadata.tsv" <<~~
   > Virus name	gender	date	gisaid_epi_isl
@@ -111,6 +111,5 @@ duplicates the output metadata.
   >  --output "$TMP/metadata.tsv"
   $ cat "$TMP/metadata.tsv"
   strain	gender	date	gisaid_epi_isl
-  Spain/AS-242164052/2021	male	2020-10-01	EPI_ISL_1
   Spain/AS-242164052/2021	male	2020-10-01	EPI_ISL_2
   $ rm -f "$TMP/metadata.tsv"
