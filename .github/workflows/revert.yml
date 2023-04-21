@@ -28,7 +28,7 @@ jobs:
 
     - uses: nextstrain/.github/actions/setup-nextstrain-cli@master
       with:
-        python-version: 3.9
+        python-version: "3.9"
 
     - name: Revert build
       run: |
