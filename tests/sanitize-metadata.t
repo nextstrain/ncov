@@ -95,3 +95,21 @@ Rename fields and strip prefixes.
   $ grep "SARS-CoV-2" "$TMP/metadata.tsv"
   [1]
   $ rm -f "$TMP/metadata.tsv"
+
+De-duplication happens after strain name sanitization, so there should not be
+any duplicates in the output metadata.
+
+  $ cat >"$TMP/unsanitized_metadata.tsv" <<~~
+  > Virus name	gender	date	gisaid_epi_isl
+  > hCoV-19/Spain/AS-242164052/2021	male	2020-10-01	EPI_ISL_1
+  > hCoV-19/Spain/AS- 242164052/2021	male	2020-10-01	EPI_ISL_2
+  > ~~
+  $ python3 ../scripts/sanitize_metadata.py \
+  >  --metadata "$TMP/unsanitized_metadata.tsv" \
+  >  --rename-fields "Virus name=strain" \
+  >  --strip-prefixes "hCoV-19/" \
+  >  --output "$TMP/metadata.tsv"
+  $ cat "$TMP/metadata.tsv"
+  strain	gender	date	gisaid_epi_isl
+  Spain/AS-242164052/2021	male	2020-10-01	EPI_ISL_2
+  $ rm -f "$TMP/metadata.tsv"
