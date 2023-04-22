@@ -1032,12 +1032,12 @@ rule clade_files:
         "results/{build_name}/clades.tsv"
     benchmark:
         "benchmarks/clade_files_{build_name}.txt"
-    script:
-        '''
+    shell:
+        """
         python3 scripts/rename_clades.py --input-clade-files {input.clade_files} \
             --name-mapping {input.name_mapping} \
             --output-clades {output}
-        '''
+        """
 
 rule clades:
     message: "Adding internal clade labels"
