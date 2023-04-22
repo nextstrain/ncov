@@ -8,13 +8,16 @@ if __name__ == '__main__':
     )
 
     parser.add_argument('--input-clade-files', type=str, nargs='+', required=True, help="input clade files")
-    parser.add_argument('--name-mapping', type=str, required=True, help="YAML mapping between Nextstrain clades and display names")
+    parser.add_argument('--name-mapping', type=str, required=False, help="YAML mapping between Nextstrain clades and display names")
     parser.add_argument('--output-clades', type=str, required=True, help="renamed clade file")
     args = parser.parse_args()
 
     # read name mapping from input yaml file
-    with open(args.name_mapping) as fh:
-        name_mapping = yaml.load(fh, Loader=yaml.FullLoader)
+    if args.name_mapping:
+        with open(args.name_mapping) as fh:
+            name_mapping = yaml.load(fh, Loader=yaml.FullLoader)
+    else:
+        name_mapping = {}
 
 
     # write output into one consolidated file

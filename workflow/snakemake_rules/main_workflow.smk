@@ -1026,16 +1026,18 @@ def _get_clade_files(wildcards):
 
 rule clade_files:
     input:
-        clade_files = _get_clade_files,
-        name_mapping = config["files"]["clade_name_mapping"]
+        clade_files = _get_clade_files
     output:
         "results/{build_name}/clades.tsv"
+    params:
+        name_mapping = lambda w: "--name-mapping " + config["files"]["clade_name_mapping"]\
+                                 if "clade_name_mapping" in config["files"] else ""
     benchmark:
         "benchmarks/clade_files_{build_name}.txt"
     shell:
         """
         python3 scripts/rename_clades.py --input-clade-files {input.clade_files} \
-            --name-mapping {input.name_mapping} \
+            {params.name_mapping} \
             --output-clades {output}
         """
 
