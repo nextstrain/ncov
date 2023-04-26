@@ -14,6 +14,7 @@ if __name__ == '__main__':
     parser.add_argument('--ordering', type=str, required=True, help="input ordering file")
     parser.add_argument('--color-schemes', type=str, required=True, help="input color schemes file")
     parser.add_argument('--metadata', type=str, help="if provided, restrict colors to only those found in metadata")
+    parser.add_argument('--clade-node-data', type=str, help="if provided, restrict to only those clades found in tree")
     parser.add_argument('--output', type=str, required=True, help="output colors tsv")
     args = parser.parse_args()
 
@@ -35,9 +36,6 @@ if __name__ == '__main__':
     if args.metadata:
         metadata = pd.read_csv(args.metadata, delimiter='\t')
         for name, trait in assignment.items():
-            if name == "clade_membership" and "Nextstrain_clade" in metadata:
-                subset_present = [x for x in assignment[name] if x in metadata["Nextstrain_clade"].unique()]
-                assignment[name] = subset_present
             if name in metadata:
                 subset_present = [x for x in assignment[name] if x in metadata[name].unique()]
                 assignment[name] = subset_present
@@ -45,6 +43,15 @@ if __name__ == '__main__':
                 focal_list = metadata.loc[metadata['focal'] == True, name].unique()
                 subset_focal = [x for x in assignment[name] if x in focal_list]
                 assignment[name] = subset_focal
+
+    if args.clade_node_data and "clade_membership" in assignment:
+        with open(args.clade_node_data) as fh:
+            import json
+            clades = json.load(fh)['nodes']
+
+        subset_present = set([x["clade_membership"] for x in clades.values()])
+        assignment["clade_membership"] = list(subset_present)
+
 
     schemes = {}
     counter = 0

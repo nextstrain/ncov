@@ -1116,6 +1116,7 @@ rule colors:
         ordering = config["files"]["ordering"],
         color_schemes = config["files"]["color_schemes"],
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
+        clades = rules.clades.output.clade_data
     output:
         colors = "results/{build_name}/colors.tsv"
     log:
@@ -1134,6 +1135,7 @@ rule colors:
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
             --output {output.colors} \
+            --clade-node-data {input.clades} \
             --metadata {input.metadata} 2>&1 | tee {log}
         """
 
