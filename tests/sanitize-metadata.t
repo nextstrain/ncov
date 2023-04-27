@@ -113,3 +113,23 @@ any duplicates in the output metadata.
   strain	gender	date	gisaid_epi_isl
   Spain/AS-242164052/2021	male	2020-10-01	EPI_ISL_2
   $ rm -f "$TMP/metadata.tsv"
+
+Specifying --parse-location-field produces extra rows. This is a bug.
+
+  $ cat >"$TMP/unsanitized_metadata.tsv" <<~~
+  > Virus name	gender	date	gisaid_epi_isl	Location
+  > hCoV-19/OneVirus/1/2020	male	2020-10-01	EPI_ISL_1	A
+  > SARS-CoV-2/AnotherVirus/1/2021	male	2020-10-01	EPI_ISL_2	B
+  > ~~
+  $ python3 ../scripts/sanitize_metadata.py \
+  >  --metadata "$TMP/unsanitized_metadata.tsv" \
+  >  --rename-fields "Virus name=strain" \
+  >  --parse-location-field Location \
+  >  --output "$TMP/metadata.tsv"
+  $ cat "$TMP/metadata.tsv"
+  	gender	date	gisaid_epi_isl	region	country	division	location
+  hCoV-19/OneVirus/1/2020	male	2020-10-01	EPI_ISL_1				
+  SARS-CoV-2/AnotherVirus/1/2021	male	2020-10-01	EPI_ISL_2				
+  0				A	?	?	?
+  1				B	?	?	?
+  $ rm -f "$TMP/metadata.tsv"
