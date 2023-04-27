@@ -44,13 +44,17 @@ if __name__ == '__main__':
                 subset_focal = [x for x in assignment[name] if x in focal_list]
                 assignment[name] = subset_focal
 
+    # if node json is supplied, restrict to clades names in the tree
     if args.clade_node_data and "clade_membership" in assignment:
         with open(args.clade_node_data) as fh:
             import json
             clades = json.load(fh)['nodes']
 
+        # generate a set of present values
         subset_present = set([x["clade_membership"] for x in clades.values()])
-        assignment["clade_membership"] = list(subset_present)
+        # restrict to only those present while maintaining order
+        assignment["clade_membership"] = [x for x in assignment["clade_membership"]
+                                          if x in subset_present]
 
 
     schemes = {}
