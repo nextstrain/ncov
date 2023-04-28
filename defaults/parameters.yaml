@@ -65,7 +65,7 @@ files:
   auspice_config: "defaults/auspice_config.json"
   lat_longs: "defaults/lat_longs.tsv"
   description: "defaults/description.md"
-  clades: "defaults/clades_nextstrain.tsv"
+  clades: "defaults/clades.tsv"
   clade_name_mapping: "defaults/clade_display_names.yml"
   emerging_lineages: "defaults/emerging_lineages.tsv"
   mutational_fitness_distance_map: "defaults/mutational_fitness_distance_map.json"
