@@ -479,12 +479,13 @@ if __name__ == '__main__':
             # Parse GISAID location field into separate fields for geographic
             # scales. Replace missing field values with "?".
             if args.parse_location_field and args.parse_location_field in metadata.columns:
-                locations = pd.DataFrame(
-                    (
-                        parse_location_string(location, LOCATION_FIELDS)
-                        for location in metadata[args.parse_location_field].values
-                    )
+                locations = pd.DataFrame.from_dict(
+                    {
+                        strain: parse_location_string(location, LOCATION_FIELDS)
+                        for strain, location in metadata[args.parse_location_field].items()
+                    }, orient='index'
                 )
+                locations.index.name = metadata.index.name
 
                 # Combine new location columns with original metadata and drop the
                 # original location column.
