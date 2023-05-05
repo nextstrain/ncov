@@ -6,6 +6,13 @@ on:
     - cron:  '42 12 * * 1'
   # Manually triggered using GitHub's UI
   workflow_dispatch:
+    inputs:
+      image:
+        description: 'Specific container image to use for build (will override the default of "nextstrain build")'
+        required: false
+
+env:
+  NEXTSTRAIN_DOCKER_IMAGE: ${{ github.event.inputs.image }}
 
 jobs:
   gisaid:
