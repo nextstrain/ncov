@@ -208,3 +208,18 @@ CH.1.1	nuc	22599	C
 CH.1.1	nuc	20741	G
 CH.1.1	nuc	22893	C
 CH.1.1	nuc	22917	G
+
+FE.1	clade	22F (Omicron)
+FE.1	nuc	3662	G
+FE.1	nuc	8001	G
+FE.1	nuc	26012	G
+
+XBB.1.9	clade	22F (Omicron)
+XBB.1.9	nuc	5720	A
+XBB.1.9	nuc	12789	T
+XBB.1.9	nuc	28297	C
+
+XBB.2.3	clade	22F (Omicron)
+XBB.2.3	nuc	4234	T
+XBB.2.3	nuc	23123	T
+XBB.2.3	nuc	27431	T
