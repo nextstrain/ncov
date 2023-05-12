@@ -1029,12 +1029,17 @@ rule clade_files:
         clade_files = _get_clade_files
     output:
         "results/{build_name}/clades.tsv"
+    params:
+        name_mapping = lambda w: "--name-mapping " + config["files"]["clade_name_mapping"]\
+                                 if "clade_name_mapping" in config["files"] else ""
     benchmark:
         "benchmarks/clade_files_{build_name}.txt"
     shell:
-        '''
-        cat {input.clade_files} > {output}
-        '''
+        """
+        python3 scripts/rename_clades.py --input-clade-files {input.clade_files} \
+            {params.name_mapping} \
+            --output-clades {output}
+        """
 
 rule clades:
     message: "Adding internal clade labels"
@@ -1111,6 +1116,7 @@ rule colors:
         ordering = config["files"]["ordering"],
         color_schemes = config["files"]["color_schemes"],
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
+        clades = rules.clades.output.clade_data
     output:
         colors = "results/{build_name}/colors.tsv"
     log:
@@ -1129,6 +1135,7 @@ rule colors:
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
             --output {output.colors} \
+            --clade-node-data {input.clades} \
             --metadata {input.metadata} 2>&1 | tee {log}
         """
 
