@@ -844,7 +844,7 @@ rule refine:
         date_inference = config["refine"]["date_inference"],
         divergence_unit = config["refine"]["divergence_unit"],
         clock_filter_iqd=f"--clock-filter-iqd {config['refine']['clock_filter_iqd']}" if config["refine"].get("clock_filter_iqd") else "",
-        keep_polytomies = "--keep-polytomies" if config["refine"].get("keep_polytomies", False) else "",
+        keep_polytomies = "--keep-polytomies" if config["refine"].get("keep_polytomies", False) else "--stochastic-resolve",
         timetree = "" if config["refine"].get("no_timetree", False) else "--timetree"
     conda: config["conda_environment"]
     shell:
