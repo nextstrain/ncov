@@ -17,6 +17,30 @@ import time
 # use of Bash's "strict mode", as we rely on that behaviour.
 shell.prefix("set -euo pipefail; export AUGUR_RECURSION_LIMIT=10000; ")
 
+# Check the installed version of augur matches the minimum for this workflow
+minumim_supported_augur_version = "22.0.0"
+try:
+    if not snakemake.workflow.workflow.use_conda:
+        from packaging import version # an explicit dependency of augur
+        from augur import version as augur_version
+        if version.parse(augur_version.__version__) < version.parse(minumim_supported_augur_version):
+            logger.error(textwrap.dedent(
+                f"\nYour version of augur ({augur_version.__version__}) needs to be upgraded to use this workflow." +
+                f"\nThe minimum augur version required is {minumim_supported_augur_version}." +
+                "\nPlease see https://docs.nextstrain.org/en/latest/guides/manage-installation.html for help with updating your installation." +
+                "\n"
+            ))
+            raise SystemExit
+    else:
+        logger.debug("Not checking augur version as Snakemake is running within our conda environment")
+except SystemExit:
+    sys.exit(1)
+except:
+    # If snakemake internals change then we don't want the workflow to become unusable.
+    # Likewise, if we are running in an environment _without_ augur (and dependencies) installed
+    # then that may be ok in some situations?
+    logger.warning(f"Error while attempting to check augur version compat.\n{sys.exc_info()[0]}")
+
 # Store the user's configuration prior to loading defaults, so we can check for
 # reused subsampling scheme names in the user's config. We need to make a deep
 # copy because Snakemake will deep merge the subsampling dictionary later,
