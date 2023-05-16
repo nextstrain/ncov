@@ -5,6 +5,10 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+## v13 (16 May 2022)
+
+- 16 May 2023: Update workflow to support [Augur v22](https://github.com/nextstrain/augur/releases/tag/22.0.0) which updates the `augur clades` interface and structure of the output files to allow specifying the clade label & coloring keys. Because we use custom scripts to parse these files this worflow also needed updating. This change results in a simplifying of the nCoV pipeline (PR [1000](https://github.com/nextstrain/ncov/pull/1000)).
+
 - 11 April 2023: Elevate XBB.1.16 as new clade 23B. See [PR 1059](https://github.com/nextstrain/ncov/pull/1059) for the rationale behind this clade update.
 
 - 6 April 2023: Update conda environment dependencies: augur 19.2.0 -> 21.1.0, nextalign/nextclade 2.9.1 -> 2.13.1, iqtree 2.2.0_beta -> 2.2.0.3. [PR 1056](https://github.com/nextstrain/ncov/pull/1056)
