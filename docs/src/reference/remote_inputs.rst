@@ -59,7 +59,7 @@ Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-ameri
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 | description           | type                  | address                                                                      |
 +=======================+=======================+==============================================================================+
-| Full open data     | metadata              | https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst                 |
+| Full open data        | metadata              | https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst                 |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 |                       | sequences             | https://data.nextstrain.org/files/ncov/open/sequences.fasta.zst              |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
