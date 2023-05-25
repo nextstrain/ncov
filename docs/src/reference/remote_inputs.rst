@@ -174,4 +174,4 @@ The workflow supports compressed metadata and sequences for any input stage. Fil
 Data origins
 ------------------------------------------
 
-The data for our open dataset comes from [NCBI Genbank](https://www.ncbi.nlm.nih.gov/) (via API), and the [Robert Koch Institute (RKI)](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland). Some UK metadata is augmented with data available from [COG-UK](https://www.cogconsortium.uk/priority-areas/data-linkage-analysis/public-data-analysis/) (via CLIMB).
+The data for our open dataset comes from `NCBI Genbank <https://www.ncbi.nlm.nih.gov/>`__ (via API), and the `Robert Koch Institute (RKI) <https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland>`__. Some UK metadata is augmented with data available from `COG-UK <https://www.cogconsortium.uk/priority-areas/data-linkage-analysis/public-data-analysis/>`__ (via CLIMB).
