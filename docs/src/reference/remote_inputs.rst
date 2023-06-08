@@ -3,17 +3,17 @@ Remote inputs
 
 This page provides an overview of intermediate files which Nextstrain produces via daily workflow runs. Where appropriate, these files can be starting points for the `ncov workflow <https://github.com/nextstrain/ncov/>`__ (discussed below).
 
-We have two GitHub repositories which routinely upload files to `S3 buckets <https://aws.amazon.com/s3/>`__: `ncov-ingest <https://github.com/nextstrain/ncov-ingest/>`__ and `ncov <https://github.com/nextstrain/ncov/>`__. Each of those runs separate pipelines for GISAID and GenBank (aka "open") data sources; these pipelines start with data curation and QC steps and end with the phylogenetic analyses you can see on `nextstrain.org <https://nextstrain.org/sars-cov-2/>`__
+We have two GitHub repositories which routinely upload files to `S3 buckets <https://aws.amazon.com/s3/>`__: `ncov-ingest <https://github.com/nextstrain/ncov-ingest/>`__ and `ncov <https://github.com/nextstrain/ncov/>`__. Each of those runs separate pipelines for GISAID and open (Genbank and Robert Koch Institute (RKI)) data sources; these pipelines start with data curation and QC steps and end with the phylogenetic analyses you can see on `nextstrain.org <https://nextstrain.org/sars-cov-2/>`__
 
 The GISAID data is stored at ``s3://nextstrain-ncov-private`` and is not publicly available, in line with the GISAID Terms of Use (this is used internally by Nextstrain).
 
-The open (GenBank) data is publicly available at three endpoints:
+The open (GenBank and RKI) data is publicly available at three endpoints:
 
 -  ``https://data.nextstrain.org/files/ncov/open/``
 -  ``s3://nextstrain-data/files/ncov/open/``
 -  ``gs://nextstrain-data/files/ncov/open/`` (mirrored daily from S3 by the Broad Institute)
 
-**Our intention is to make GenBank intermediate files open and available for everyone to use, and to keep these files up-to-date.** The paths for specific files are the same under each endpoint, e.g. ``https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst``, ``s3://nextstrain-data/files/ncov/open/metadata.tsv.zst``, and ``gs://nextstrain-data/files/ncov/open/metadata.tsv.zst`` all exist. See below for a list of files that exist. If you're running workflows on AWS or GCP compute that fetch this data, please use the S3 or GS URLs, respectively, for cheaper (for us) and faster (for you) data transfers. Otherwise, please use the https://data.nextstrain.org URLs.
+**Our intention is to make GenBank and RKI intermediate files open and available for everyone to use, and to keep these files up-to-date.** The paths for specific files are the same under each endpoint, e.g. ``https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst``, ``s3://nextstrain-data/files/ncov/open/metadata.tsv.zst``, and ``gs://nextstrain-data/files/ncov/open/metadata.tsv.zst`` all exist. See below for a list of files that exist. If you're running workflows on AWS or GCP compute that fetch this data, please use the S3 or GS URLs, respectively, for cheaper (for us) and faster (for you) data transfers. Otherwise, please use the https://data.nextstrain.org URLs.
 
 Note that even though the ``s3://nextstrain-data/`` and ``gs://nextstrain-data/`` buckets are public, the defaults for most S3 and GS clients require *some* user to be authenticated, though the specific user/account doesn't matter. In the rare case you need to access the S3 or GS buckets anonymously, the easiest way is to configure your inputs using ``https://nextstrain-data.s3.amazonaws.com/files/ncov/open/`` or ``https://storage.googleapis.com/nextstrain-data/files/ncov/open/`` URLs instead.
 
@@ -36,7 +36,7 @@ The files compressed with Zstandard (``.zst``) will generally be faster to downl
 Subsampled datasets
 -------------------
 
-Our GISAID and GenBank (open) profiles each define 7 builds (a Global build and one build per region: Africa, Asia, Europe, Oceania, North and South America). Each of these is a different subsample of the entire dataset, and each will result in the following intermediates uploaded:
+Our GISAID and open profiles each define 7 builds (a Global build and one build per region: Africa, Asia, Europe, Oceania, North and South America). Each of these is a different subsample of the entire dataset, and each will result in the following intermediates uploaded:
 
 -  ``{build_name}/sequences.fasta.xz``
 -  ``{build_name}/metadata.tsv.xz``
@@ -49,7 +49,7 @@ Our GISAID and GenBank (open) profiles each define 7 builds (a Global build and 
 
 .. _remote-inputs-open-files:
 
-Summary of available GenBank (open) files
+Summary of available open files
 -----------------------------------------
 
 Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-america``, ``oceania`` and ``south-america``) contains a subsampled set of approximately 4000 sequences. They are a good starting point if you are seeking a representative sample of data. Where available, this table also provides the URL for the resulting Auspice visualisation of the data.
@@ -59,7 +59,7 @@ Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-ameri
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 | description           | type                  | address                                                                      |
 +=======================+=======================+==============================================================================+
-| Full GenBank data     | metadata              | https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst                 |
+| Full open data        | metadata              | https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst                 |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 |                       | sequences             | https://data.nextstrain.org/files/ncov/open/sequences.fasta.zst              |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
@@ -170,3 +170,8 @@ Compressed vs uncompressed starting points
 ------------------------------------------
 
 The workflow supports compressed metadata and sequences for any input stage. Files may be compressed using Zstandard (``.zst``), xz (``.xz``), or gzip (``.gz``) compression.
+
+Data origins
+------------------------------------------
+
+The data for our open dataset comes from `NCBI Genbank <https://www.ncbi.nlm.nih.gov/>`__ (via API), and the `Robert Koch Institute (RKI) <https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland>`__. Some UK metadata is augmented with data available from `COG-UK <https://www.cogconsortium.uk/priority-areas/data-linkage-analysis/public-data-analysis/>`__ (via CLIMB).
