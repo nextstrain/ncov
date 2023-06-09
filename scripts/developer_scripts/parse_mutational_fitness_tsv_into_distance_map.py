@@ -21,7 +21,6 @@ if __name__ == '__main__':
     parser.add_argument("--output", default="defaults/mutational_fitness_distance_map.json", help="JSON file for augur distance")
     args = parser.parse_args()
 
-    print("fetching pyro-cov mutations.tsv from GitHub")
     # collect simple string mapping from TSV, ie
     # 'S:A522V': -0.00661378
     # 'ORF1a:T4304I': 0.00353199
