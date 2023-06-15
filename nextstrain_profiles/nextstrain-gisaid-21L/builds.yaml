@@ -77,19 +77,19 @@ builds:
     region: Africa
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Africa since pandemic start
   asia_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_1m
+    subsampling_scheme: nextstrain_region_asia_grouped_by_division_1m
     region: Asia
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia over the past month
   asia_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_2m
+    subsampling_scheme: nextstrain_region_asia_grouped_by_division_2m
     region: Asia
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia over the past 2 months
   asia_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_6m
+    subsampling_scheme: nextstrain_region_asia_grouped_by_division_6m
     region: Asia
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia over the past 6 months
   asia_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_country_all_time
+    subsampling_scheme: nextstrain_region_asia_grouped_by_division_all_time
     region: Asia
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia since pandemic start
   europe_1m:
@@ -277,6 +277,205 @@ subsampling:
     context:
       group_by: "country year month"
       max_sequences: 800
+      exclude: "--exclude-where 'region={region}'"
+
+  # Custom subsampling logic for region Asia over 1m
+  # Grouping by division
+  # Separating three buckets for China, India and elsewhere
+  # 4375 total
+  # 4:1 ratio of recent to early
+  # 4:1 ratio of focal to context
+  # 3:2:2 proportions of Asia, China, India
+  nextstrain_region_asia_grouped_by_division_1m:
+    # Early focal samples for Asia
+    asia_early:
+      group_by: "division year month"
+      max_sequences: 300
+      max_date: "--max-date 1M"
+      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
+    # Early focal samples for China
+    china_early:
+      group_by: "division year month"
+      max_sequences: 200
+      max_date: "--max-date 1M"
+      exclude: "--exclude-where 'country!=China'"
+    # Early focal samples for India
+    india_early:
+      group_by: "division year month"
+      max_sequences: 200
+      max_date: "--max-date 1M"
+      exclude: "--exclude-where 'country!=India'"
+    # Early contextual samples from the rest of the world
+    context_early:
+      group_by: "country year month"
+      max_sequences: 175
+      max_date: "--max-date 1M"
+      exclude: "--exclude-where 'region=Asia'"
+    # Recent focal samples for Asia
+    asia_recent:
+      group_by: "division year month"
+      max_sequences: 1200
+      min_date: "--min-date 1M"
+      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
+    # Recent focal samples for China
+    china_recent:
+      group_by: "division year month"
+      max_sequences: 800
+      max_date: "--min-date 1M"
+      exclude: "--exclude-where 'country!=China'"
+    # Recent focal samples for India
+    india_recent:
+      group_by: "division year month"
+      max_sequences: 800
+      max_date: "--min-date 1M"
+      exclude: "--exclude-where 'country!=India'"
+    # Early contextual samples from the rest of the world
+    context_recent:
+      group_by: "country year month"
+      max_sequences: 700
+      min_date: "--min-date 1M"
+      exclude: "--exclude-where 'region=Asia'"
+
+  # Custom subsampling logic for region Asia over 2m
+  # Grouping by division
+  # Separating three buckets for China, India and elsewhere
+  # 4375 total
+  # 4:1 ratio of recent to early
+  # 4:1 ratio of focal to context
+  # 3:2:2 proportions of Asia, China, India
+  nextstrain_region_asia_grouped_by_division_2m:
+    # Early focal samples for Asia
+    asia_early:
+      group_by: "division year month"
+      max_sequences: 300
+      max_date: "--max-date 2M"
+      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
+    # Early focal samples for China
+    china_early:
+      group_by: "division year month"
+      max_sequences: 200
+      max_date: "--max-date 2M"
+      exclude: "--exclude-where 'country!=China'"
+    # Early focal samples for India
+    india_early:
+      group_by: "division year month"
+      max_sequences: 200
+      max_date: "--max-date 2M"
+      exclude: "--exclude-where 'country!=India'"
+    # Early contextual samples from the rest of the world
+    context_early:
+      group_by: "country year month"
+      max_sequences: 175
+      max_date: "--max-date 2M"
+      exclude: "--exclude-where 'region=Asia'"
+    # Recent focal samples for Asia
+    asia_recent:
+      group_by: "division year month"
+      max_sequences: 1200
+      min_date: "--min-date 2M"
+      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
+    # Recent focal samples for China
+    china_recent:
+      group_by: "division year month"
+      max_sequences: 800
+      max_date: "--min-date 2M"
+      exclude: "--exclude-where 'country!=China'"
+    # Recent focal samples for India
+    india_recent:
+      group_by: "division year month"
+      max_sequences: 800
+      max_date: "--min-date 2M"
+      exclude: "--exclude-where 'country!=India'"
+    # Early contextual samples from the rest of the world
+    context_recent:
+      group_by: "country year month"
+      max_sequences: 700
+      min_date: "--min-date 2M"
+      exclude: "--exclude-where 'region=Asia'"
+
+  # Custom subsampling logic for region Asia over 6m
+  # Grouping by division
+  # Separating three buckets for China, India and elsewhere
+  # 4375 total
+  # 4:1 ratio of recent to early
+  # 4:1 ratio of focal to context
+  # 3:2:2 proportions of Asia, China, India
+  nextstrain_region_asia_grouped_by_division_6m:
+    # Early focal samples for Asia
+    asia_early:
+      group_by: "division year month"
+      max_sequences: 300
+      max_date: "--max-date 6M"
+      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
+    # Early focal samples for China
+    china_early:
+      group_by: "division year month"
+      max_sequences: 200
+      max_date: "--max-date 6M"
+      exclude: "--exclude-where 'country!=China'"
+    # Early focal samples for India
+    india_early:
+      group_by: "division year month"
+      max_sequences: 200
+      max_date: "--max-date 6M"
+      exclude: "--exclude-where 'country!=India'"
+    # Early contextual samples from the rest of the world
+    context_early:
+      group_by: "country year month"
+      max_sequences: 175
+      max_date: "--max-date 6M"
+      exclude: "--exclude-where 'region=Asia'"
+    # Recent focal samples for Asia
+    asia_recent:
+      group_by: "division year month"
+      max_sequences: 1200
+      min_date: "--min-date 6M"
+      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
+    # Recent focal samples for China
+    china_recent:
+      group_by: "division year month"
+      max_sequences: 800
+      max_date: "--min-date 6M"
+      exclude: "--exclude-where 'country!=China'"
+    # Recent focal samples for India
+    india_recent:
+      group_by: "division year month"
+      max_sequences: 800
+      max_date: "--min-date 6M"
+      exclude: "--exclude-where 'country!=India'"
+    # Early contextual samples from the rest of the world
+    context_recent:
+      group_by: "country year month"
+      max_sequences: 700
+      min_date: "--min-date 6M"
+      exclude: "--exclude-where 'region=Asia'"
+
+  # Custom subsampling logic for region Asia over all-time
+  # Grouping by division
+  # Separating three buckets for China, India and elsewhere
+  # 4375 total
+  # 4:1 ratio of focal to context
+  # 3:2:2 proportions of Asia, China, India
+  nextstrain_region_asia_grouped_by_division_all_time:
+    # Focal samples for Asia
+    asia:
+      group_by: "division year month"
+      max_sequences: 1500
+      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
+    # Focal samples for China
+    china:
+      group_by: "division year month"
+      max_sequences: 1000
+      exclude: "--exclude-where 'country!=China'"
+    # Focal samples for India
+    india:
+      group_by: "division year month"
+      max_sequences: 1000
+      exclude: "--exclude-where 'country!=India'"
+    # Contextual samples from the rest of the world
+    context:
+      group_by: "country year month"
+      max_sequences: 875
       exclude: "--exclude-where 'region={region}'"
 
   # Custom subsampling logic for regions over 1m
