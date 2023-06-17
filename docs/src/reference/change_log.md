@@ -7,7 +7,7 @@ We also use this change log to document new features that maintain backward comp
 
 - 17 June 2023: Update subsampling strategy for `nextstrain_profiles` to better equilibrate per-capita sampling rates across geographic regions. Primarily this update breaks out China and India as separate subsampling targets because of their large population sizes. It also fine tunes the per-region sampling targets. After this update, URL structure (ie https://nextstrain.org/ncov/gisaid/global/6m) is unchanged. [PR 1074](https://github.com/nextstrain/ncov/pull/1074)
 
-## v13 (16 May 2022)
+## v13 (16 May 2023)
 
 - 16 May 2023: Update workflow to support [Augur v22](https://github.com/nextstrain/augur/releases/tag/22.0.0) which updates the `augur clades` interface and structure of the output files to allow specifying the clade label & coloring keys. Because we use custom scripts to parse these files this worflow also needed updating. This change results in a simplifying of the nCoV pipeline (PR [1000](https://github.com/nextstrain/ncov/pull/1000)).
 
