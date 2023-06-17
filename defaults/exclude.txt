@@ -11182,6 +11182,7 @@ Qatar/DA-USAFSAM-S15231/2022
 Bolivia/CBBA-PUC_MVL_3357/2022
 
 # Omicrons with too early date
+Colombia/TOL-I453/2020
 env/Austria/CeMM31016/2021
 Eswatini/N22721/2021
 USA/NJ-PHEL-V22024328/2021
@@ -11399,6 +11400,10 @@ USA/UT-CDC-2-6185159/2022	# Strain has same BioSample accession (SAMN30051019) a
 # Omicron 21L viruses that are over-diverged relative to sample date
 TrinidadandTobago/171121/2022
 
+# Misdated Eta
+Libya/421067082/2020
+Libya/421067089/2020
+
 # Misdated XBB-derived
 Canada/PE-NML-611219/2022
 Guatemala/10994-LNS/2022
@@ -11406,6 +11411,7 @@ Haiti/IMIS-2022220574/2022
 
 # Misdated BA.5-derived
 AmericanSamoa/AS-H2319334/2022
+Bolivia/CBBA-PUC_MVL_3353/2021
 Colombia/ANT-LDSP3456/2022
 Djibouti/NAMRU3_SOTF_EA_36/2022
 France/GES-HMN-22102310174/2022
@@ -11418,11 +11424,13 @@ USA/IL-S22WGS6542/2022
 Australia/NSW-SAVID-14870/2022
 Australia/WA10703/2022
 Chongqing/YBCDC-0126/2022
+Peru/JUN-INS-41797/2022
 
 # Early divergence
 DRC/ILRI_COVM00360/2020
 Lebanon/LAU-R126/2020
 Lebanon/LAU-R178/2020
+Lebanon/LAU-R350/2020
 OX593060
 Venezuela/Zul183/2020
 
