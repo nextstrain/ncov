@@ -1,0 +1,30 @@
+# This file is largely duplicated from `config-gisaid.yaml` - please
+# see that file for comments
+S3_DST_BUCKET: "nextstrain-data/files/ncov/open/100k" # TODO XXX
+S3_DST_ORIGINS: [needed-for-workflow-but-unused]
+deploy_url: needed_for_workflow_but_unused
+custom_rules:
+  - workflow/snakemake_rules/export_for_nextstrain.smk
+inputs:
+  - name: open
+    metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.zst"
+    aligned: "s3://nextstrain-data/files/ncov/open/sequences.fasta.zst"
+    skip_sanitize_metadata: true
+builds:
+  100k:
+    subsampling_scheme: 100k_scheme
+upload:
+  metadata.tsv.xz: results/100k/100k_subsampled_metadata.tsv.xz
+  sequences.fasta.xz: results/100k/100k_subsampled_sequences.fasta.xz
+filter:
+  exclude_where: "division='USA'"
+subsampling:
+  100k_scheme:
+    50k_early:
+      group_by: "year month country"
+      max_sequences: 50000
+      max_date: "--max-date 1Y"
+    50k_late:
+      group_by: "year month country"
+      max_sequences: 50000
+      min_date: "--min-date 1Y"
