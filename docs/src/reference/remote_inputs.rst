@@ -45,6 +45,13 @@ Our GISAID and open profiles each define 7 builds (a Global build and one build 
 -  ``{build_name}/{build_name}_tip-frequencies.json``
 -  ``{build_name}/{build_name}_root-sequence.json``
 
+100k Subsamples
+---------------
+
+We also produce a subsample of the entire open dataset of around 100,000 samples.
+This is particularly useful for development purposes or to run builds locally as the file sizes are typically around 10Mb (metadata) and 20Mb (sequences).
+The data is chosen by sampling 50,000 samples from the previous 12 months and 50,000 prior to that, and within each sample we group by year, month and country in an attempt at even sampling.
+
 --------------
 
 .. _remote-inputs-open-files:
@@ -70,6 +77,10 @@ Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-ameri
 |                       | sequences (xz)        | https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz               |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 |                       | aligned (xz)          | https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz                 |
++-----------------------+-----------------------+------------------------------------------------------------------------------+
+| 100k sample           | metadata              | https://data.nextstrain.org/files/ncov/open/100k/metadata.tsv.xz             |
++-----------------------+-----------------------+------------------------------------------------------------------------------+
+|                       | sequences             | https://data.nextstrain.org/files/ncov/open/100k/sequences.fasta.xz          |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 | Global sample         | metadata              | https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz           |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+

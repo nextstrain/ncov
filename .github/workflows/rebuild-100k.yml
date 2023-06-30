@@ -17,7 +17,7 @@ jobs:
       with:
         python-version: "3.10"
 
-    - name: Launch build
+    - name: Launch GISAID build
       run: |
         set -x
 
@@ -31,27 +31,60 @@ jobs:
           --memory 31GiB \
           . \
             upload \
-            --configfile nextstrain_profiles/100k/config.yaml \
+            --configfile nextstrain_profiles/100k/config-gisaid.yaml \
             --config "${config[@]}" \
             --set-threads tree=8 \
-        |& tee build-launch.log
+        |& tee build-launch-gisaid.log
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
 
+    - name: Launch open build
+      run: |
+        set -x
+
+        declare -a config
+        config+=(slack_token=$SLACK_TOKEN)
+
+        nextstrain build \
+          --aws-batch \
+          --detach \
+          --cpus 16 \
+          --memory 31GiB \
+          . \
+            upload \
+            --configfile nextstrain_profiles/100k/config-open.yaml \
+            --config "${config[@]}" \
+            --set-threads tree=8 \
+        |& tee build-launch-open.log
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+
+
     - name: Build info
       run: |
-        echo "--> 100k sample rebuilding on AWS"
+        echo "--> 100k samples for GISAID + Open data rebuilding (using separate AWS jobs)"
         echo
-        echo "--> When completed, the following 2 files will be updated:"
+        echo "--> When completed, the following files will be updated:"
+        echo "s3://nextstrain-data/files/ncov/open/100k/metadata.tsv.xz"
+        echo "s3://nextstrain-data/files/ncov/open/100k/sequences.fasta.xz"
         echo "s3://nextstrain-ncov-private/100k/metadata.tsv.xz"
         echo "s3://nextstrain-ncov-private/100k/sequences.fasta.xz"
         echo
-        echo "--> You can attach to this AWS job via:"
-        tail -n1 build-launch.log
+        echo "--> You can attach to the GISAID AWS job via:"
+        tail -n1 build-launch-gisaid.log
         echo
-        JOBID=$( tail -n1 build-launch.log | sed -E 's/.+attach ([-a-f0-9]+).+/\1/' )
-        echo "--> View this job in the AWS console via"
+        echo "--> You can attach to the Open AWS job via:"
+        tail -n1 build-launch-open.log
+        echo
+        JOBID=$( tail -n1 build-launch-gisaid.log | sed -E 's/.+attach ([-a-f0-9]+).+/\1/' )
+        echo "--> View the GISAID job in the AWS console via"
+        echo "    https://console.aws.amazon.com/batch/home?region=us-east-1#jobs/detail/${JOBID}"
+        echo
+        JOBID=$( tail -n1 build-launch-open.log | sed -E 's/.+attach ([-a-f0-9]+).+/\1/' )
+        echo "--> View the Open job in the AWS console via"
         echo "    https://console.aws.amazon.com/batch/home?region=us-east-1#jobs/detail/${JOBID}"
         echo

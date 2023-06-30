@@ -9,8 +9,8 @@ custom_rules:
 # Note: unaligned sequences are provided as "aligned" sequences to avoid an initial full-DB alignment
 inputs:
   - name: gisaid
-    metadata: "s3://nextstrain-ncov-private/metadata.tsv.gz"
-    aligned: "s3://nextstrain-ncov-private/sequences.fasta.xz"
+    metadata: "s3://nextstrain-ncov-private/metadata.tsv.zst"
+    aligned: "s3://nextstrain-ncov-private/sequences.fasta.zst"
     skip_sanitize_metadata: true
 
 builds:
