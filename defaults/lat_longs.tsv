@@ -11832,7 +11832,7 @@ division	Antioquia	6.709191	-75.484721
 division	Antofagasta	-23.6509	-70.3975
 division	Antsiranana	-12.2779134	49.2913394
 division	Antwerpen	51.225698	4.420885
-division	Anzoategui	9.019792500000001	-64.21680012328406
+division	Anzoátegui	9.019792500000001	-64.21680012328406
 division	Aomori	40.886943	140.590121
 division	Aosta Valley	45.730099	7.387426
 division	Appenzell Ausserrhoden	47.3960076	9.3705839
@@ -11941,6 +11941,7 @@ division	Banovce nad Bebravou	48.7216671	18.2598263
 division	Banska Bystrica	48.7384028	19.1573494
 division	Banten	-6.47800285	105.54102849016589
 division	Bar	42.0979745	19.0954528
+division	Barahona	18.1714805	-71.20953
 division	Baranya County	45.9714436	18.1669246
 division	Barbados	13.1500331	-59.5250305
 division	Barcelona	41.394769	2.173828
@@ -12063,6 +12064,7 @@ division	Botosani	47.85234105	26.759511926593397
 division	Botswana	-23.1681782	24.5928742
 division	Bouafle	6.9926792	-5.7444227
 division	Bouaké	7.6906058	-5.0298408
+division	Boucle Du Mouhoun	12.4777805	-3.5879571310124456
 division	Boucle du Mouhoun Region	12.4635117	-3.4593427
 division	Boufarik	36.57709	2.914137
 division	Bouira	36.2316481	3.9082579191011253
@@ -12202,6 +12204,7 @@ division	Central Region GH	5.7244148	-1.3761749
 division	Central Region MW	-13.744272500000001	33.712042353397834
 division	Central Region UG	-0.750285	31.4527977
 division	Central Serbia	43.6642492	20.990682367995184
+division	Central Sudan	14.2461038	35.5083538
 division	Central Sulawesi	-1.6937786	120.8088555
 division	Central Uganda	0.32690195	32.58405552994708
 division	Central Visayas	10.264054	123.86939597334481
@@ -13862,6 +13865,7 @@ division	Ramallah and al-Bireh Governorate	31.989547412077712	35.19407713569646
 division	Ramat Gan	32.0684	34.
 division	Ramla	31.9316	34.8729
 division	Rangpur	25.748894	89.260669
+division	Ranong	10.0469546	98.6870133
 division	Rapla	58.99921345	24.804658825202406
 division	Rasdhoo	4.2628232	72.9919981
 division	Rasina District	43.5002565	21.178018203810293
@@ -14024,6 +14028,7 @@ division	Sarlahi	26.96881835	85.56383497003685
 division	Saskatchewan	53.934278	-106.16006
 division	Satun	7.0366682	99.9615397
 division	Saudi Arabia	25	45
+division	Savannakhet Province	16.500195849999997	105.71559464914924
 division	Savanne	-20.45806125	57.489206513345835
 division	Savinja	46.3171858	15.0169865
 division	Savinjska	46.238152400000004	15.341413795874667
@@ -14048,7 +14053,7 @@ division	Seoul	37.548278	126.990916
 division	Serbia	43.745902	20.848918
 division	Sergipe	-10.5741	-37.3857
 division	Serres	41.0910711	23.5498031
-division	Sétif	36.1892751	5.403493
+division	Setif	36.1895852	5.4024656
 division	Settat	33.002397	-7.619867
 division	Setúbal	38.5260	-8.8909
 division	Seychelles	-4.6574977	55.4540146
@@ -14070,6 +14075,7 @@ division	Shizuoka	34.979149	138.38299
 division	Shoam	31.9958	34.9488
 division	Shumen	43.2703797	26.9247362
 division	Si Sa Ket	15.116794	104.332348
+division	Siauliai County	55.93985585	23.393864437613267
 division	Siauliu Apskritis	55.93985585	23.39385766209714
 division	Siaya	-0.06040135	34.200135009996295
 division	Sibenik-Knin County	43.8410419	16.022628
@@ -14331,6 +14337,7 @@ division	Tindouf	27.54390695	-6.240053867373146
 division	Tinghir	31.52133	-5.531164
 division	Tipaza	36.52727415	2.16836872941747
 division	Tipperary	52.4738	-8.1619
+division	Tirana	41.3281482	19.8184435
 division	Tirat Zvi	32.4225	35.5283
 division	Tissemsilt	35.785897500000004	1.8340956752427218
 division	Tizi-Ouzou	36.6816175	4.237186047040007
@@ -14521,6 +14528,7 @@ division	Villa Nueva	14.5308826	-90.5963325
 division	Villavicencio	4.134000	-73.623483
 division	Vilniaus Apskritis	54.82269205	25.249534001679514
 division	Vilnius	54.697979	25.279095
+division	Vilnius County	54.82269205	25.249534001679514
 division	Vinh Long	10.1069	105.9867653657871
 division	Vinhphuc	21.348702	105.548594
 division	Vinnytsia	49.2320162	28.467975
