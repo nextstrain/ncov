@@ -34040,8 +34040,15 @@ emerging_lineage	BN.1
 emerging_lineage	CH.1.1
 emerging_lineage	XAY
 emerging_lineage	XBC
-emerging_lineage	FE.1
 emerging_lineage	XBB.1.9
+emerging_lineage	XBB.1.9.1
+emerging_lineage	XBB.1.9.2
+emerging_lineage	EG.5
+emerging_lineage	XBB.1.42
+emerging_lineage	XBB.1.22.1
+emerging_lineage	XBB.1.19
+emerging_lineage	XBB.1.17.1
+emerging_lineage	FE.1
 emerging_lineage	XBB.2.3
 
 ################
