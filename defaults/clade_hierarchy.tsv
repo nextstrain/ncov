@@ -31,3 +31,8 @@ clade	parent	WHO
 22F	21L	Omicron
 23A	22F	Omicron
 23B	22F	Omicron
+23C	20A	Delta/Omicron
+23D	22D	Omicron
+23E	22F	Omicron
+23F	22F	Omicron
+23G	23E	Omicron
