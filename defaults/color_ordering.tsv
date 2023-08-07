@@ -34031,11 +34031,10 @@ clade_membership	22E (BQ.1)
 clade_membership	22F (XBB)
 clade_membership	23A (XBB.1.5)
 clade_membership	23B (XBB.1.16)
-clade_membership	23C (XBC)
-clade_membership	23D (CH.1.1)
-clade_membership	23E (XBB.1.9)
-clade_membership	23F (XBB.2.3)
-clade_membership	23G (EG.5)
+clade_membership	23C (CH.1.1)
+clade_membership	23D (XBB.1.9)
+clade_membership	23E (XBB.2.3)
+clade_membership	23F (EG.5.1)
 
 ################
 
@@ -34043,6 +34042,7 @@ clade_membership	23G (EG.5)
 emerging_lineage	BA.2.3.20
 emerging_lineage	BN.1
 emerging_lineage	XAY
+emerging_lineage	XBC
 emerging_lineage	XBB.1.9.1
 emerging_lineage	XBB.1.42
 emerging_lineage	XBB.1.22.1
