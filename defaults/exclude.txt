@@ -11229,6 +11229,7 @@ India/HR-618342786/2021
 India/RJ-SMS-ICMR-INSACOG-TS-453/2021
 Italy/PUG_UNIBA_APU-BA737/2021
 Kazakhstan/NU-05_15/2021
+Kazakhstan/NU-06_15/2021
 Kazakhstan/NU-29_10/2021
 Kazakhstan/NU-48_10/2021
 KAZ/07_15/2021
@@ -11241,6 +11242,8 @@ PAK/271503/2021
 PuertoRico/PR-UPRRP-1171/2021
 PuertoRico/PR-UPRRP-1211/2021
 Reunion/ChuReu-722060096601/2021
+Russia/MOW-CSP-LQ-24036_S22/2021
+Russia/MOW-CSP-LQ-24045_S132/2021
 Uganda/094/2021
 Uganda/081/2021
 Uganda/082/2021
@@ -11442,6 +11445,7 @@ Kyrgyzstan/NRL-52392/2020
 Germany/NW-RKI-I-307412/2020
 PapuaNewGuinea/PNG7196/2021
 U.S.VirginIslands/VI-Yale-10210/2020
+U.S.VirginIslands/VI-Yale-10211/2020
 
 # Misdated Eta
 Libya/421067082/2020
@@ -11461,6 +11465,7 @@ Guatemala/10994-LNS/2022
 Haiti/IMIS-2022220574/2022
 Haiti/LNSP-74020007/2022
 Haiti/LNSP-80180150/2022
+Kenya/SS11921/2022
 Sudan/0046/2022
 
 # Misdated BA.5-derived
@@ -11493,7 +11498,7 @@ OX593060
 USA/CO_c8ftxs_20200117/2020
 Venezuela/Zul183/2020
 
-#seemingly misdated seqs from Mayo Clinic coming in Aug 2023 - dates are late 2020 but are Alpha, Delta, Omicron etc etc 
+# Seemingly misdated seqs from Mayo Clinic coming in Aug 2023 - dates are late 2020 but are Alpha, Delta, Omicron etc etc 
 USA/MN-Mayo-135/2020
 USA/MN-Mayo-1351/2020
 USA/MN-Mayo-137/2020
