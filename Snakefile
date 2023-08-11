@@ -12,10 +12,6 @@ from collections import OrderedDict
 import textwrap
 import time
 
-# Set the maximum recursion limit globally for all shell commands, to avoid
-# issues with large trees crashing the workflow.  Preserve Snakemake's default
-# use of Bash's "strict mode", as we rely on that behaviour.
-shell.prefix("set -euo pipefail; export AUGUR_RECURSION_LIMIT=10000; ")
 
 # Store the user's configuration prior to loading defaults, so we can check for
 # reused subsampling scheme names in the user's config. We need to make a deep
