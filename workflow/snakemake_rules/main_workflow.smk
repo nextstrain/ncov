@@ -1394,6 +1394,14 @@ rule build_description:
         with open(output.description, "w", encoding = "utf-8") as o:
             o.write(template.safe_substitute(context))
 
+def rule_exists(name):
+    # Some versions of Snakemake throw a WorkflowError even with the
+    # three-arg getattr(), so catch any error and assume non-existence.
+    try:
+        return bool(getattr(rules, name, None))
+    except:
+        return False
+
 def get_auspice_config(w):
     """
     Auspice configs are chosen via this heirarchy:
@@ -1403,7 +1411,7 @@ def get_auspice_config(w):
     """
     if "auspice_config" in config["builds"].get(w.build_name, {}):
         return config["builds"][w.build_name]["auspice_config"]
-    if "auspice_config" in rules.__dict__:
+    if rule_exists("auspice_config"):
         return rules.auspice_config.output
     return config["files"]["auspice_config"]
 
