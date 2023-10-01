@@ -260,12 +260,6 @@ XBB.1.17.1	nuc	22205	C
 XBB.1.17.1	nuc	23018	C
 XBB.1.17.1	nuc	27995	C
 
-XBB.1.19	clade	22F
-XBB.1.19	nuc	10042	G
-XBB.1.19	nuc	21363	T
-XBB.1.19	nuc	23018	C
-XBB.1.19	nuc	27915	G
-
 FL.1.5.1	clade	XBB.1.9.1
 FL.1.5.1	nuc	3242	A
 FL.1.5.1	nuc	20060	T
@@ -300,7 +294,10 @@ BA.2.86	nuc	15756	A
 BA.2.86	nuc	897	A
 BA.2.86	nuc	28958	A
 
-GW.5	clade	XBB.1.19
-GW.5	nuc	6501	A
+GW.5	clade	22F
 GW.5	nuc	1170	T
+GW.5	nuc	6501	A
+GW.5	nuc	10042	G
+GW.5	nuc	21363	T
+GW.5	nuc	27915	G
 
