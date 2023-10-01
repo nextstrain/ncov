@@ -260,8 +260,44 @@ XBB.1.17.1	nuc	22205	C
 XBB.1.17.1	nuc	23018	C
 XBB.1.17.1	nuc	27995	C
 
-XBB.1.19	clade	22F
-XBB.1.19	nuc	10042	G
-XBB.1.19	nuc	21363	T
-XBB.1.19	nuc	23018	C
-XBB.1.19	nuc	27915	G
+FL.1.5.1	clade	XBB.1.9.1
+FL.1.5.1	nuc	3242	A
+FL.1.5.1	nuc	20060	T
+FL.1.5.1	nuc	22995	G
+
+XBB.1.5.70	clade	23A
+XBB.1.5.70	nuc	8737	C
+XBB.1.5.70	nuc	25045	G
+XBB.1.5.70	nuc	28005	T
+
+XBB.1.16.6	clade	23B
+XBB.1.16.6	nuc	12397	G
+XBB.1.16.6	nuc	8947	T
+XBB.1.16.6	nuc	22930	A
+
+DV.7.1	clade	23C
+DV.7.1	nuc	4036	A
+DV.7.1	nuc	22927	T
+DV.7.1	nuc	22928	C
+
+HV.1	clade	23F
+HV.1	nuc	5835	T
+HV.1	nuc	22033	A
+HV.1	nuc	22917	G
+
+HK.3	clade	23F
+HK.3	nuc	13627	A
+HK.3	nuc	22927	T
+
+BA.2.86	clade	21L
+BA.2.86	nuc	15756	A
+BA.2.86	nuc	897	A
+BA.2.86	nuc	28958	A
+
+GW.5	clade	22F
+GW.5	nuc	1170	T
+GW.5	nuc	6501	A
+GW.5	nuc	10042	G
+GW.5	nuc	21363	T
+GW.5	nuc	27915	G
+
