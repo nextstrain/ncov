@@ -559,12 +559,16 @@ rule diagnostic:
 
 def _collect_exclusion_files(wildcards):
     # This rule creates a per-input exclude file for `rule filter`. This file contains one or both of the following:
-    # (1) a config-defined exclude file
+    # (1) a config-defined exclude file or list of such files
     # (2) a dynamically created file (`rule diagnostic`) which scans the alignment for potential errors
     # The second file is optional - it may be opted out via config → skip_diagnostics
+    exclude = config["files"]["exclude"]
+    if type(exclude) is not list:
+        exclude = [ exclude ]
     if config["filter"].get("skip_diagnostics", False):
-        return [ config["files"]["exclude"] ]
-    return [ config["files"]["exclude"], f"results/{wildcards.build_name}/excluded_by_diagnostics.txt" ]
+        return exclude
+    else:
+        return exclude + [f"results/{wildcards.build_name}/excluded_by_diagnostics.txt"]
 
 rule mask:
     message:
