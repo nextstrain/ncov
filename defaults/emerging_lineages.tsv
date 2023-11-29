@@ -206,6 +206,20 @@ clade	gene	site	alt
 23F	nuc	22480	T
 23F	nuc	22930	A
 
+23G	clade	23A
+23G	nuc	8737	C
+23G	nuc	25045	G
+23G	nuc	28005	T
+
+23H	clade	23F
+23H	nuc	13627	A
+23H	nuc	22927	T
+
+23I	clade	21L
+23I	nuc	897	A
+23I	nuc	15756	A
+23I	nuc	28958	A
+
 
 BA.2.3.20	clade	21L
 BA.2.3.20	nuc	6770	G
@@ -265,11 +279,6 @@ FL.1.5.1	nuc	3242	A
 FL.1.5.1	nuc	20060	T
 FL.1.5.1	nuc	22995	G
 
-XBB.1.5.70	clade	23A
-XBB.1.5.70	nuc	8737	C
-XBB.1.5.70	nuc	25045	G
-XBB.1.5.70	nuc	28005	T
-
 XBB.1.16.6	clade	23B
 XBB.1.16.6	nuc	12397	G
 XBB.1.16.6	nuc	8947	T
@@ -285,15 +294,6 @@ HV.1	nuc	5835	T
 HV.1	nuc	22033	A
 HV.1	nuc	22917	G
 
-HK.3	clade	23F
-HK.3	nuc	13627	A
-HK.3	nuc	22927	T
-
-BA.2.86	clade	21L
-BA.2.86	nuc	15756	A
-BA.2.86	nuc	897	A
-BA.2.86	nuc	28958	A
-
 GW.5	clade	22F
 GW.5	nuc	1170	T
 GW.5	nuc	6501	A
@@ -301,3 +301,15 @@ GW.5	nuc	10042	G
 GW.5	nuc	21363	T
 GW.5	nuc	27915	G
 
+JD.1	clade	23A
+JD.1	nuc	14634	G
+JD.1	nuc	22927	T
+JD.1	nuc	22928	C
+
+XBB.1.41	clade	22F
+XBB.1.41	nuc	1473	T
+XBB.1.41	nuc	20102	T
+
+JN.1	clade	23I
+JN.1	nuc	11727	A
+JN.1	nuc	22926	C
