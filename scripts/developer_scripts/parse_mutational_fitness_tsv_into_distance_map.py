@@ -7,6 +7,10 @@ To update model run:
 python scripts/developer_scripts/parse_mutational_fitness_tsv_into_distance_map.py
 
 and the version the resulting changes to defaults/mutational_fitness_distance_map.json
+
+Updated model outputs are available at https://github.com/bkotzen/sars-cov2-modeling following:
+
+https://raw.githubusercontent.com/bkotzen/sars-cov2-modeling/main/2023-11-28/PyR0/mutations.tsv
 """
 import argparse
 import pandas as pd
