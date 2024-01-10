@@ -10,7 +10,7 @@ and the version the resulting changes to defaults/mutational_fitness_distance_ma
 
 Updated model outputs are available at https://github.com/bkotzen/sars-cov2-modeling following:
 
-https://raw.githubusercontent.com/bkotzen/sars-cov2-modeling/main/2023-11-28/PyR0/mutations.tsv
+https://raw.githubusercontent.com/bkotzen/sars-cov2-modeling/main/2024-01-04/PyR0/mutations.tsv
 """
 import argparse
 import pandas as pd
@@ -21,7 +21,7 @@ if __name__ == '__main__':
         description="Convert mutational fitness values to an Augur distance map",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
-    parser.add_argument("--input", default="https://raw.githubusercontent.com/broadinstitute/pyro-cov/master/paper/mutations.tsv", help="TSV file of mutational effects")
+    parser.add_argument("--input", default="https://raw.githubusercontent.com/bkotzen/sars-cov2-modeling/main/2024-01-04/PyR0/mutations.tsv", help="TSV file of mutational effects")
     parser.add_argument("--output", default="defaults/mutational_fitness_distance_map.json", help="JSON file for augur distance")
     args = parser.parse_args()
 
