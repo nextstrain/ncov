@@ -499,7 +499,7 @@ rule build_align:
             --sequences {input.sequences} \
             --strip-prefixes {params.strain_prefixes:q} \
             --output /dev/stdout 2> {params.sanitize_log} \
-            | nextclade run \
+            | nextclade2 run \
             --jobs {threads} \
             --input-dataset {input.nextclade_dataset} \
             --output-tsv {output.nextclade_qc} \
