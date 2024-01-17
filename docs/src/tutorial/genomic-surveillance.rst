@@ -46,7 +46,7 @@ We will download a focal set of Idaho sequences from GISAID's EpiCoV database.
 
 2. Filter to sequences that pass the following criteria:
 
-   1. From Idaho, USA
+   1. From North America / USA / Idaho
    2. Collected within the last month (e.g. |last-month| to |today|)
    3. Has a complete genome
    4. Has an exact collection date
@@ -72,7 +72,7 @@ We will download a focal set of Idaho sequences from GISAID's EpiCoV database.
 Run the workflow
 ----------------
 
-From within the ``ncov/`` directory, run the ``ncov`` workflow using a pre-written ``--configfile``:
+From within the ``ncov/`` directory, run the ``ncov`` workflow using a pre-written :term:`config file`:
 
 .. code:: text
 

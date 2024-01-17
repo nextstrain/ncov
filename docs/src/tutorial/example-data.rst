@@ -43,10 +43,10 @@ Break down the command
 The workflow can take several minutes to run. While it is running, you can learn about the parts of this command:
 
 - ``nextstrain build .``
-   - This tells the :term:`docs.nextstrain.org:Nextstrain CLI` to :term:`build <docs.nextstrain.org:build (verb)>` the workflow from ``.``, the current directory. All subsequent command-line parameters are passed to the workflow manager, Snakemake.
+   - This tells the :term:`docs.nextstrain.org:Nextstrain CLI` to :term:`build <docs.nextstrain.org:build (verb)>` the workflow from ``.``, the current directory. All subsequent command-line arguments are passed to the workflow manager, Snakemake.
 - ``--configfile ncov-tutorial/example-data.yaml``
-   - ``--configfile`` is another Snakemake parameter used to configure the ncov workflow.
-   - ``ncov-tutorial/example-data.yaml`` is a configuration file that provides custom workflow configuration including inputs and outputs. The contents of this file with comments excluded are:
+   - ``--configfile`` is a Snakemake option used to `configure <https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html#standard-configuration>`__ the ncov workflow. It takes a file path as the value.
+   - ``ncov-tutorial/example-data.yaml`` is the value given to ``--configfile``. It is a :term:`config file` that provides custom workflow configuration including inputs and outputs. The contents of this file with comments excluded are:
 
       .. code-block:: yaml
 
@@ -64,7 +64,10 @@ The workflow can take several minutes to run. While it is running, you can learn
 
       For more information, :doc:`see the workflow configuration file reference <../reference/workflow-config-file>`.
 
-The workflow output produces a new directory ``auspice/`` containing a file ``ncov_default-build.json``, which will be visualized in the following section. The workflow also produces intermediate files in a new ``results/`` directory.
+Running the workflow produces two new directories:
+
+- ``auspice/`` contains a few files that represent a Nextstrain :term:`docs.nextstrain.org:dataset` to be visualized in the following section.
+- ``results/`` contains intermediate files generated during workflow execution.
 
 Visualize the results
 ---------------------

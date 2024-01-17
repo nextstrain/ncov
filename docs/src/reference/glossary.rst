@@ -14,9 +14,9 @@ Glossary
       A JSON file used to configure visualization in :term:`docs.nextstrain.org:Auspice`.
 
    config file
-      also *workflow configuration file*, ``builds.yaml``
+      also *workflow config file*, *workflow configuration file*, ``builds.yaml``
 
-      A YAML file used for :term:`Snakemake`'s ``--configfile`` parameter. Appends to and overrides default configuration in ``defaults/parameters.yaml``.
+      A YAML file used to `configure <https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html#standard-configuration>`__ the :term:`Snakemake` workflow (via the ``--configfile`` option). Appends to and overrides default configuration in ``defaults/parameters.yaml``. For the :term:`ncov workflow`, this file must follow a :doc:`specific format <workflow-config-file>`.
 
    customization file
 
