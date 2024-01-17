@@ -22,6 +22,15 @@ You can view them by running:
 
     open build/html/index.html
 
+
+To monitor the source files for changes and automatically rebuild as necessary,
+run:
+
+    make livehtml
+
+and then open <http://localhost:8000>.  Pages open in the browser will
+automatically refresh when they're rebuilt.
+
 You can clean the build directory for a fresh start with:
 
     make clean
