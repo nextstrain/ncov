@@ -85,7 +85,7 @@ We will retrieve 10 sequences from GISAID's EpiCoV database.
 Run the workflow
 ----------------
 
-From within the ``ncov/`` directory, run the ``ncov`` workflow using a pre-written ``--configfile``:
+From within the ``ncov/`` directory, run the ``ncov`` workflow using a pre-written :term:`config file`:
 
 .. code:: text
 
