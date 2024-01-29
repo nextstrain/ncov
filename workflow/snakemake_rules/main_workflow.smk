@@ -1304,7 +1304,7 @@ rule assign_rbd_levels:
         tree = "results/{build_name}/tree.nwk",
     params:
         config=config["files"]["rbd_level_definitions"],
-        basal_clade_label="21L (Omicron)"
+        basal_clade_label="21L (BA.2)"
     output:
         node_data="results/{build_name}/rbd_levels.json",
     log:
