@@ -7,12 +7,12 @@ import argparse
 def find_matching_nodes(clades_fname, basal_clade_label, tree_fname):
     basal_node_name = None
     with open(clades_fname) as fh:
-        for name, node_data in json.load(fh)['nodes'].items():
-            if node_data.get('clade_annotation', '') == basal_clade_label:
+        for name, node_data in json.load(fh)['branches'].items():
+            if node_data.get('labels', {}).get('clade', '') == basal_clade_label:
                 basal_node_name = name
                 break
     if not basal_node_name:
-        print(f"WARNING: no node found with a clade_annotation of {basal_clade_label}. This script will proceed, but no levels will be exported.")
+        print(f"WARNING: no branch found with a clade of {basal_clade_label}. This script will proceed, but no levels will be exported.")
         return set()
     print(f"Node representing {basal_clade_label}: {basal_node_name}")
     T = Phylo.read(tree_fname, 'newick')
