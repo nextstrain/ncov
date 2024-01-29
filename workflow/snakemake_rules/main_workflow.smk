@@ -1310,7 +1310,7 @@ rule assign_rbd_levels:
     log:
         "logs/assign_rbd_levels_{build_name}.txt"
     benchmark:
-        "benchmarks/assign_levels_{build_name}.txt",
+        "benchmarks/assign_rbd_levels_{build_name}.txt",
     conda:
         config["conda_environment"],
     shell:
