@@ -1307,6 +1307,8 @@ rule assign_rbd_levels:
         basal_clade_label="21L (Omicron)"
     output:
         node_data="results/{build_name}/rbd_levels.json",
+    log:
+        "logs/assign_rbd_levels_{build_name}.txt"
     benchmark:
         "benchmarks/assign_levels_{build_name}.txt",
     conda:
