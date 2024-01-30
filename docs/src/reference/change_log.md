@@ -5,7 +5,10 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 30 January 2024: Fix RBD-level coloring by updating clade label and clade parsing. [PR 1094](https://github.com/nextstrain/ncov/pull/1094)
+
 - 14 Dec 2023: Use `nextclade2` binary that makes the version explicit [PR 1089](https://github.com/nextstrain/ncov/pull/1089)
+
 - 17 June 2023: Update subsampling strategy for `nextstrain_profiles` to better equilibrate per-capita sampling rates across geographic regions. Primarily this update breaks out China and India as separate subsampling targets because of their large population sizes. It also fine tunes the per-region sampling targets. After this update, URL structure (ie https://nextstrain.org/ncov/gisaid/global/6m) is unchanged. [PR 1074](https://github.com/nextstrain/ncov/pull/1074)
 
 ## v13 (16 May 2023)
