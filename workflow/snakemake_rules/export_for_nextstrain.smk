@@ -203,11 +203,6 @@ rule auspice_config:
                     "type": "continuous"
                 },
                 {
-                    "key": "rbd_level",
-                    "title": "RBD Level",
-                    "type": "ordinal"
-                },
-                {
                     "key": "immune_escape",
                     "title": "Immune Escape vs BA.2",
                     "type": "continuous"
@@ -311,7 +306,6 @@ rule auspice_config:
                 originating_lab_filter,
                 submitting_lab_filter,
                 "recency",
-                "rbd_level",
             ],
             "panels": [
                 "tree",
