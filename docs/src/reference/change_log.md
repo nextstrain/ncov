@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 31 January 2024: Remove RBD-level related rules and files since this feature has been broken since May 2023 and is no longer relevant. [PR 1097](https://github.com/nextstrain/ncov/pull/1097)
+
 - 30 January 2024: Fix RBD-level coloring by updating clade label and clade parsing. [PR 1094](https://github.com/nextstrain/ncov/pull/1094)
 
 - 14 Dec 2023: Use `nextclade2` binary that makes the version explicit [PR 1089](https://github.com/nextstrain/ncov/pull/1089)
