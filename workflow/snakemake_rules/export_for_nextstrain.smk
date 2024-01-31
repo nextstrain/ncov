@@ -303,7 +303,6 @@ rule auspice_config:
                 "pango_lineage",
                 "Nextclade_pango",
                 "region",
-                "level",
                 "country",
                 "division",
                 location_filter,

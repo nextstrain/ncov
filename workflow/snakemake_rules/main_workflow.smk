@@ -1304,11 +1304,13 @@ rule assign_rbd_levels:
         tree = "results/{build_name}/tree.nwk",
     params:
         config=config["files"]["rbd_level_definitions"],
-        basal_clade_label="21L (Omicron)"
+        basal_clade_label="21L (BA.2)"
     output:
         node_data="results/{build_name}/rbd_levels.json",
+    log:
+        "logs/assign_rbd_levels_{build_name}.txt"
     benchmark:
-        "benchmarks/assign_levels_{build_name}.txt",
+        "benchmarks/assign_rbd_levels_{build_name}.txt",
     conda:
         config["conda_environment"],
     shell:
