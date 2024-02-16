@@ -14,8 +14,6 @@ jobs:
     - uses: actions/checkout@v4
 
     - uses: nextstrain/.github/actions/setup-nextstrain-cli@master
-      with:
-        python-version: "3.10"
 
     - name: Launch GISAID build
       run: |
