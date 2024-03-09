@@ -154,7 +154,6 @@ rule auspice_config:
         default_map_triplicate = True if build_region in ["reference", "global"] else False
         if input_set == {"gisaid"}:
             data_provenance = [{"name": "GISAID"}]
-            gisaid_clade_coloring = {"key": "GISAID_clade", "title": "GISAID Clade", "type": "categorical"}
             gisaid_epi_isl_coloring = {"key": "gisaid_epi_isl", "type": "categorical"}
             location_coloring = {"key": "location", "title": "Location", "type": "categorical"}
             location_filter = "location"
@@ -162,7 +161,6 @@ rule auspice_config:
             submitting_lab_filter  = "submitting_lab"
         elif input_set == {"open"}:
             data_provenance = [{"name": "GenBank", "url": "https://www.ncbi.nlm.nih.gov/genbank/"}]
-            gisaid_clade_coloring = None
             gisaid_epi_isl_coloring = None
             location_coloring = None
             location_filter = None
@@ -196,7 +194,6 @@ rule auspice_config:
                     "title": "Nextclade Pango Lineage",
                     "type": "categorical"
                 },
-                gisaid_clade_coloring,
                 {
                     "key": "S1_mutations",
                     "title": "S1 Mutations",
