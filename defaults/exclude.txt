@@ -11238,6 +11238,7 @@ India/RJ-SMS-ICMR-INSACOG-TS-453/2021
 Italy/PUG_UNIBA_APU-BA737/2021
 Kazakhstan/NLA-16-68/2021
 Kazakhstan/NU-01_10/2021
+Kazakhstan/NU-02_15/2021
 Kazakhstan/NU-05_15/2021
 Kazakhstan/NU-06_15/2021
 Kazakhstan/NU-25_12/2021
@@ -11247,6 +11248,7 @@ Kazakhstan/NU-37_10/2021
 Kazakhstan/NU-39_14/2021
 Kazakhstan/NU-48_10/2021
 Kazakhstan/NU-48_14/2021
+Kazakhstan/NU-77_10/2021
 KAZ/07_15/2021
 Kenya/KNPHLGEN094/2021
 Mali/168043/2021
