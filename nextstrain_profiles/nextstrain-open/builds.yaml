@@ -882,6 +882,9 @@ refine:
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
 traits:
+  reference:
+    sampling_bias_correction: 2.5
+    columns: ["region"]
   global_1m:
     sampling_bias_correction: 2.5
     columns: ["region"]
@@ -972,6 +975,10 @@ traits:
 # narrow_bandwidth = 0.019 or 7 days for "1m" and "2m"
 # narrow_bandwidth = 0.038 or 14 days for "6m" and "all-time"
 frequencies:
+  reference:
+    min_date: "2020-01-01"
+    narrow_bandwidth: 0.038
+    recent_days_to_censor: 7  
   global_1m:
     min_date: "1M"
     narrow_bandwidth: 0.019
