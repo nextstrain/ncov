@@ -5,6 +5,7 @@ This phylogeny shows evolutionary relationships of circulating SARS-CoV-2 viruse
 There are millions of complete SARS-CoV-2 genomes available and this number increases every day. This visualization can only handle ~4000 genomes in a single view for performance and legibility reasons. Because of this we subsample available genome data for our analysis views. We provision multiple views to focus subsampling with different reference viruses, different geographic regions and different time periods. These views are available through the "Dataset" dropdown on the left or by clicking on the following links:
 
 **Using ancestral Wuhan viruses as phylogeny root**
+
 &nbsp;            | past 1 month                                                               | past 2 months                                                              | past 6 months                                                              | all time
 ----------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------
 **global**        | [global/1m](/ncov/gisaid/global/1m)                                        | [global/2m](/ncov/gisaid/global/2m)                                        | [global/6m](/ncov/gisaid/global/6m)                                        | [global/all-time](/ncov/gisaid/global/all-time)                                        |
@@ -16,6 +17,7 @@ There are millions of complete SARS-CoV-2 genomes available and this number incr
 **South America** | [south-america/1m](/ncov/gisaid/south-america/1m?f_region=South%20America) | [south-america/2m](/ncov/gisaid/south-america/2m?f_region=South%20America) | [south-america/6m](/ncov/gisaid/south-america/6m?f_region=South%20America) | [south-america/all-time](/ncov/gisaid/south-america/all-time?f_region=South%20America) |
 
 **Using clade 21L (lineage BA.2) as phylogeny root**
+
 &nbsp;            | past 1 month                                                                       | past 2 months                                                                      | past 6 months                                                                      | all time
 ----------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------
 **global**        | [21L/global/1m](/ncov/gisaid/21L/global/1m)                                        | [21L/global/2m](/ncov/gisaid/21L/global/2m)                                        | [21L/global/6m](/ncov/gisaid/21L/global/6m)                                        | [21L/global/all-time](/ncov/gisaid/21L/global/all-time)                                        |
