@@ -10,12 +10,12 @@ samples:
     max_date: --max-date 6M
     exclude: --exclude-where 'region=Africa'
   focal_recent:
-    group_by: country year month
+    group_by: country month
     max_sequences: 2560
     min_date: --min-date 6M
     exclude: --exclude-where 'region!=Africa'
   context_recent:
-    group_by: country year month
+    group_by: country month
     max_sequences: 640
     min_date: --min-date 6M
     exclude: --exclude-where 'region=Africa'

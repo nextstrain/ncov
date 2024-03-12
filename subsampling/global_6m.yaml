@@ -40,42 +40,42 @@ samples:
     max_date: --max-date 6M
     exclude: --exclude-where 'region!=Oceania'
   africa_recent:
-    group_by: country year month
+    group_by: country month
     max_sequences: 600
     min_date: --min-date 6M
     exclude: --exclude-where 'region!=Africa'
   asia_recent:
-    group_by: country year month
+    group_by: country month
     max_sequences: 800
     min_date: --min-date 6M
     exclude: --exclude-where 'region!=Asia' 'country=China' 'country=India'
   china_recent:
-    group_by: division year month
+    group_by: division month
     max_sequences: 700
     min_date: --min-date 6M
     exclude: --exclude-where 'country!=China'
   europe_recent:
-    group_by: country year month
+    group_by: country month
     max_sequences: 500
     min_date: --min-date 6M
     exclude: --exclude-where 'region!=Europe'
   india_recent:
-    group_by: division year month
+    group_by: division month
     max_sequences: 700
     min_date: --min-date 6M
     exclude: --exclude-where 'country!=India'
   north_america_recent:
-    group_by: division year month
+    group_by: division month
     max_sequences: 400
     min_date: --min-date 6M
     exclude: --exclude-where 'region!=North America'
   south_america_recent:
-    group_by: country year month
+    group_by: country month
     max_sequences: 360
     min_date: --min-date 6M
     exclude: --exclude-where 'region!=South America'
   oceania_recent:
-    group_by: division year month
+    group_by: division month
     max_sequences: 60
     min_date: --min-date 6M
     exclude: --exclude-where 'region!=Oceania'

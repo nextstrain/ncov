@@ -27,12 +27,12 @@ samples:
   china_recent:
     group_by: division year month
     max_sequences: 800
-    max_date: --min-date 1M
+    min_date: --min-date 1M
     exclude: --exclude-where 'country!=China'
   india_recent:
     group_by: division year month
     max_sequences: 800
-    max_date: --min-date 1M
+    min_date: --min-date 1M
     exclude: --exclude-where 'country!=India'
   context_recent:
     group_by: country year month
