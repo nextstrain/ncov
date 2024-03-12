@@ -1,0 +1,9 @@
+samples:
+  focal:
+    group_by: division year month
+    max_sequences: 640
+    exclude: --exclude-where 'country!=India'
+  context:
+    group_by: country year month
+    max_sequences: 160
+    exclude: --exclude-where 'country=India'

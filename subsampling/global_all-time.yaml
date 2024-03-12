@@ -1,0 +1,33 @@
+samples:
+  africa:
+    group_by: country year month
+    max_sequences: 750
+    exclude: --exclude-where 'region!=Africa'
+  asia:
+    group_by: country year month
+    max_sequences: 1000
+    exclude: --exclude-where 'region!=Asia' 'country=China' 'country=India'
+  china:
+    group_by: division year month
+    max_sequences: 875
+    exclude: --exclude-where 'country!=China'
+  europe:
+    group_by: country year month
+    max_sequences: 625
+    exclude: --exclude-where 'region!=Europe'
+  india:
+    group_by: division year month
+    max_sequences: 875
+    exclude: --exclude-where 'country!=India'
+  north_america:
+    group_by: division year month
+    max_sequences: 500
+    exclude: --exclude-where 'region!=North America'
+  south_america:
+    group_by: country year month
+    max_sequences: 450
+    exclude: --exclude-where 'region!=South America'
+  oceania:
+    group_by: division year month
+    max_sequences: 75
+    exclude: --exclude-where 'region!=Oceania'

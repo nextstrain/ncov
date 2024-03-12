@@ -1,0 +1,41 @@
+samples:
+  asia_early:
+    group_by: division year month
+    max_sequences: 300
+    max_date: --max-date 1M
+    exclude: --exclude-where 'region!=Asia' 'country=China' 'country=India'
+  china_early:
+    group_by: division year month
+    max_sequences: 200
+    max_date: --max-date 1M
+    exclude: --exclude-where 'country!=China'
+  india_early:
+    group_by: division year month
+    max_sequences: 200
+    max_date: --max-date 1M
+    exclude: --exclude-where 'country!=India'
+  context_early:
+    group_by: country year month
+    max_sequences: 175
+    max_date: --max-date 1M
+    exclude: --exclude-where 'region=Asia'
+  asia_recent:
+    group_by: division year month
+    max_sequences: 1200
+    min_date: --min-date 1M
+    exclude: --exclude-where 'region!=Asia' 'country=China' 'country=India'
+  china_recent:
+    group_by: division year month
+    max_sequences: 800
+    max_date: --min-date 1M
+    exclude: --exclude-where 'country!=China'
+  india_recent:
+    group_by: division year month
+    max_sequences: 800
+    max_date: --min-date 1M
+    exclude: --exclude-where 'country!=India'
+  context_recent:
+    group_by: country year month
+    max_sequences: 700
+    min_date: --min-date 1M
+    exclude: --exclude-where 'region=Asia'

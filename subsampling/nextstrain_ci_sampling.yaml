@@ -1,0 +1,14 @@
+samples:
+  region:
+    group_by: division year month
+    max_sequences: 20
+    sampling_scheme: --no-probabilistic-sampling
+    exclude: --exclude-where 'region!=Europe'
+  global:
+    group_by: year month
+    max_sequences: 10
+    sampling_scheme: --no-probabilistic-sampling
+    exclude: --exclude-where 'region=Europe'
+    priorities:
+      type: proximity
+      focus: region

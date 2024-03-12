@@ -1,0 +1,12 @@
+samples:
+  region:
+    group_by: country year month
+    seq_per_group: 64
+    exclude: --exclude-where 'region!={region}'
+  global:
+    group_by: country year month
+    seq_per_group: 6
+    exclude: --exclude-where 'region={region}'
+    priorities:
+      type: proximity
+      focus: region

@@ -1,0 +1,3 @@
+samples:
+  all:
+    no_subsampling: true

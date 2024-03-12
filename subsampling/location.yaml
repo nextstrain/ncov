@@ -1,0 +1,17 @@
+samples:
+  focal:
+    group_by: year month
+    seq_per_group: 300
+    exclude: --exclude-where 'region!={region}' 'country!={country}' 'division!={division}'
+      'location!={location}'
+  related:
+    group_by: country year month
+    seq_per_group: 20
+    exclude: --exclude-where 'location={location}'
+    priorities:
+      type: proximity
+      focus: focal
+  contextual:
+    group_by: country year month
+    seq_per_group: 10
+    exclude: --exclude-where 'location={location}'

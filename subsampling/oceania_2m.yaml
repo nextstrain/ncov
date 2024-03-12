@@ -1,0 +1,21 @@
+samples:
+  focal_early:
+    group_by: division year month
+    max_sequences: 640
+    max_date: --max-date 2M
+    exclude: --exclude-where 'region!=Oceania'
+  context_early:
+    group_by: country year month
+    max_sequences: 160
+    max_date: --max-date 2M
+    exclude: --exclude-where 'region=Oceania'
+  focal_recent:
+    group_by: division week
+    max_sequences: 2560
+    min_date: --min-date 2M
+    exclude: --exclude-where 'region!=Oceania'
+  context_recent:
+    group_by: country week
+    max_sequences: 640
+    min_date: --min-date 2M
+    exclude: --exclude-where 'region=Oceania'
