@@ -9,6 +9,3 @@ samples:
     max_sequences: 10
     sampling_scheme: --no-probabilistic-sampling
     exclude: --exclude-where 'region=Europe'
-    priorities:
-      type: proximity
-      focus: region
