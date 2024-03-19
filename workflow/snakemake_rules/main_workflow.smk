@@ -163,7 +163,7 @@ def get_priority_argument(wildcards):
         return ""
 
 
-def _get_specific_subsampling_setting(setting, optional=False):
+def _get_specific_subsampling_setting(setting):
     # Note -- this function contains a lot of conditional logic because
     # we have the situation where some config options must define the
     # augur argument in their value, and some must not. For instance:
@@ -172,10 +172,7 @@ def _get_specific_subsampling_setting(setting, optional=False):
     # Since there are a lot of subsampling schemes out there, backwards compatability
     # is important!                                 james hadfield, feb 2021
     def _get_setting(wildcards):
-        if optional:
-            value = _get_subsampling_settings(wildcards).get(setting, "")
-        else:
-            value = _get_subsampling_settings(wildcards)[setting]
+        value = _get_subsampling_settings(wildcards).get(setting, "")
 
         if isinstance(value, str):
             # Load build attributes including geographic details about the
@@ -293,16 +290,16 @@ rule subsample:
     benchmark:
         "benchmarks/subsample_{build_name}_{subsample}.txt"
     params:
-        group_by = _get_specific_subsampling_setting("group_by", optional=True),
-        sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
-        subsample_max_sequences = _get_specific_subsampling_setting("max_sequences", optional=True),
-        sampling_scheme = _get_specific_subsampling_setting("sampling_scheme", optional=True),
-        exclude_argument = _get_specific_subsampling_setting("exclude", optional=True),
-        include_argument = _get_specific_subsampling_setting("include", optional=True),
-        query_argument = _get_specific_subsampling_setting("query", optional=True),
-        exclude_ambiguous_dates_argument = _get_specific_subsampling_setting("exclude_ambiguous_dates_by", optional=True),
-        min_date = _get_specific_subsampling_setting("min_date", optional=True),
-        max_date = _get_specific_subsampling_setting("max_date", optional=True),
+        group_by = _get_specific_subsampling_setting("group_by"),
+        sequences_per_group = _get_specific_subsampling_setting("seq_per_group"),
+        subsample_max_sequences = _get_specific_subsampling_setting("max_sequences"),
+        sampling_scheme = _get_specific_subsampling_setting("sampling_scheme"),
+        exclude_argument = _get_specific_subsampling_setting("exclude"),
+        include_argument = _get_specific_subsampling_setting("include"),
+        query_argument = _get_specific_subsampling_setting("query"),
+        exclude_ambiguous_dates_argument = _get_specific_subsampling_setting("exclude_ambiguous_dates_by"),
+        min_date = _get_specific_subsampling_setting("min_date"),
+        max_date = _get_specific_subsampling_setting("max_date"),
         priority_argument = get_priority_argument
     resources:
         # Memory use scales with the number of sequences per group * number of groups.
