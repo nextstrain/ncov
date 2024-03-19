@@ -140,29 +140,6 @@ def _get_subsampling_settings(wildcards):
     return subsampling_settings
 
 
-def get_priorities(wildcards):
-    subsampling_settings = _get_subsampling_settings(wildcards)
-
-    if "priorities" in subsampling_settings and subsampling_settings["priorities"]["type"] == "proximity":
-        return f"results/{wildcards.build_name}/priorities_{subsampling_settings['priorities']['focus']}.tsv"
-    else:
-        # TODO: find a way to make the list of input files depend on config
-        return config["files"]["include"]
-
-
-def get_priority_argument(wildcards):
-    subsampling_settings = _get_subsampling_settings(wildcards)
-    if "priorities" not in subsampling_settings:
-        return ""
-
-    if subsampling_settings["priorities"]["type"] == "proximity":
-        return "--priority " + shquote(get_priorities(wildcards))
-    elif subsampling_settings["priorities"]["type"] == "file" and "file" in subsampling_settings["priorities"]:
-        return "--priority " + shquote(subsampling_settings["priorities"]["file"])
-    else:
-        return ""
-
-
 def _get_specific_subsampling_setting(setting, optional=False):
     # Note -- this function contains a lot of conditional logic because
     # we have the situation where some config options must define the
@@ -279,12 +256,10 @@ rule subsample:
          - exclude: {params.exclude_argument}
          - include: {params.include_argument}
          - query: {params.query_argument}
-         - priority: {params.priority_argument}
         """
     input:
         metadata = _get_unified_metadata,
         include = config["files"]["include"],
-        priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
         strains="results/{build_name}/sample-{subsample}.txt",
@@ -303,7 +278,6 @@ rule subsample:
         exclude_ambiguous_dates_argument = _get_specific_subsampling_setting("exclude_ambiguous_dates_by", optional=True),
         min_date = _get_specific_subsampling_setting("min_date", optional=True),
         max_date = _get_specific_subsampling_setting("max_date", optional=True),
-        priority_argument = get_priority_argument
     resources:
         # Memory use scales with the number of sequences per group * number of groups.
         # We pin this to a reasonably high value based on Nextstrain production builds.
@@ -321,7 +295,6 @@ rule subsample:
             {params.include_argument} \
             {params.query_argument} \
             {params.exclude_ambiguous_dates_argument} \
-            {params.priority_argument} \
             {params.group_by} \
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \

@@ -219,9 +219,7 @@ subsampling:
       group_by: "country year month"
       seq_per_group: 4
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "region"
+      # FIXME: remove priorities from other files
 
   # Custom subsampling logic for global region.
   region_global:
@@ -242,9 +240,6 @@ subsampling:
       group_by: "country year month"
       seq_per_group: 6
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "region"
 
   # Default subsampling logic for countries
   country:
@@ -258,18 +253,12 @@ subsampling:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where 'country={country}' 'region!={region}'"
-      priorities:
-        type: "proximity"
-        focus: "country"
     # Contextual samples from the rest of the world,
     # excluding the current region to avoid resampling.
     global:
       group_by: "country year month"
       seq_per_group: 10
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "country"
 
   # Default subsampling logic for divisions
   division:
@@ -283,26 +272,17 @@ subsampling:
       group_by: "division year month"
       seq_per_group: 20
       exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}'"
-      priorities:
-        type: "proximity"
-        focus: "division"
     # Contextual samples from division's region
     region:
       group_by: "country year month"
       seq_per_group: 10
       exclude: "--exclude-where 'region!={region}' 'country={country}'"
-      priorities:
-        type: "proximity"
-        focus: "division"
     # Contextual samples from the rest of the world, excluding the current
     # division to avoid resampling.
     global:
       group_by: "country year month"
       seq_per_group: 5
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "division"
 
   # Default subsampling logic for locations
   location:
@@ -316,9 +296,6 @@ subsampling:
       group_by: "country year month"
       seq_per_group: 20
       exclude: "--exclude-where 'location={location}'"
-      priorities:
-        type: "proximity"
-        focus: "focal"
     # Contextual samples from the rest of the world
     contextual:
       group_by: "country year month"
