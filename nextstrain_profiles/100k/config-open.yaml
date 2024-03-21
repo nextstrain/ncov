@@ -12,19 +12,9 @@ inputs:
     skip_sanitize_metadata: true
 builds:
   100k:
-    subsampling_scheme: 100k_scheme
+    subsampling_scheme: subsampling/100k.yaml
 upload:
   metadata.tsv.xz: results/100k/100k_subsampled_metadata.tsv.xz
   sequences.fasta.xz: results/100k/100k_subsampled_sequences.fasta.xz
 filter:
   exclude_where: "division='USA'"
-subsampling:
-  100k_scheme:
-    50k_early:
-      group_by: "year month country"
-      max_sequences: 50000
-      max_date: "--max-date 1Y"
-    50k_late:
-      group_by: "year month country"
-      max_sequences: 50000
-      min_date: "--min-date 1Y"

@@ -15,7 +15,7 @@ inputs:
 
 builds:
   100k:
-    subsampling_scheme: 100k_scheme
+    subsampling_scheme: subsampling/100k.yaml
 
 # mapping of remote: local files to be uploaded under S3_DST_BUCKET
 upload:
@@ -26,6 +26,7 @@ upload:
 filter:
   exclude_where: "division='USA'"
 
+# FIXME: move this comment to somewhere else then delete the entire entry.
 # We wish to subsample 50k in the previous 12 months and 50k prior to that.
 # Note 1: both --max-date and --min-date are inclusive of the boundary date,
 #         so sequences from that date will be available to both sub-samples

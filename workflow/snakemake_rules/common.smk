@@ -42,7 +42,7 @@ def numeric_date(dt=None):
 
     return res
 
-def _get_subsampling_scheme_by_build_name(build_name):
+def _get_subsampling_config_by_build_name(build_name):
     return config["builds"].get(build_name, {}).get("subsampling_scheme", build_name)
 
 def _get_skipped_inputs_for_diagnostic(wildcards):
