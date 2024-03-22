@@ -1,4 +1,0 @@
-samples:
-  global:
-    group_by: country year month
-    seq_per_group: 20
