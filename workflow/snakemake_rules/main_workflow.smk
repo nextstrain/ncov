@@ -268,14 +268,14 @@ rule subsample:
         Subsample all sequences by '{wildcards.subsample}' scheme for build '{wildcards.build_name}' with the following parameters:
 
          - group by: {params.group_by}
-         - sequences per group: {params.sequences_per_group}
-         - subsample max sequences: {params.subsample_max_sequences}
+         - sequences per group: {params.seq_per_group}
+         - subsample max sequences: {params.max_sequences}
          - min-date: {params.min_date}
          - max-date: {params.max_date}
-         - {params.exclude_ambiguous_dates_argument}
-         - exclude: {params.exclude_argument}
-         - include: {params.include_argument}
-         - query: {params.query_argument}
+         - {params.exclude_ambiguous_dates_by}
+         - exclude: {params.exclude}
+         - include: {params.include}
+         - query: {params.query}
          - priority: {params.priority_argument}
         """
     input:
@@ -291,13 +291,13 @@ rule subsample:
         "benchmarks/subsample_{build_name}_{subsample}.txt"
     params:
         group_by = _get_specific_subsampling_setting("group_by"),
-        sequences_per_group = _get_specific_subsampling_setting("seq_per_group"),
-        subsample_max_sequences = _get_specific_subsampling_setting("max_sequences"),
+        seq_per_group = _get_specific_subsampling_setting("seq_per_group"),
+        max_sequences = _get_specific_subsampling_setting("max_sequences"),
         sampling_scheme = _get_specific_subsampling_setting("sampling_scheme"),
-        exclude_argument = _get_specific_subsampling_setting("exclude"),
-        include_argument = _get_specific_subsampling_setting("include"),
-        query_argument = _get_specific_subsampling_setting("query"),
-        exclude_ambiguous_dates_argument = _get_specific_subsampling_setting("exclude_ambiguous_dates_by"),
+        exclude = _get_specific_subsampling_setting("exclude"),
+        include = _get_specific_subsampling_setting("include"),
+        query = _get_specific_subsampling_setting("query"),
+        exclude_ambiguous_dates_by = _get_specific_subsampling_setting("exclude_ambiguous_dates_by"),
         min_date = _get_specific_subsampling_setting("min_date"),
         max_date = _get_specific_subsampling_setting("max_date"),
         priority_argument = get_priority_argument
@@ -314,14 +314,14 @@ rule subsample:
             --exclude {input.exclude} \
             {params.min_date} \
             {params.max_date} \
-            {params.exclude_argument} \
-            {params.include_argument} \
-            {params.query_argument} \
-            {params.exclude_ambiguous_dates_argument} \
+            {params.exclude} \
+            {params.include} \
+            {params.query} \
+            {params.exclude_ambiguous_dates_by} \
             {params.priority_argument} \
             {params.group_by} \
-            {params.sequences_per_group} \
-            {params.subsample_max_sequences} \
+            {params.seq_per_group} \
+            {params.max_sequences} \
             {params.sampling_scheme} \
             --output-strains {output.strains} 2>&1 | tee {log}
         """
