@@ -103,23 +103,31 @@ rule align:
         xz -2 -T {threads} {params.output_translations_toxz}
         """
 
+
+import ruamel.yaml
+
+yaml=ruamel.yaml.YAML()
+
 def _get_subsampling_settings(wildcards):
     # Allow users to override default subsampling with their own settings keyed
     # by location type and name. For example, "region_europe" or
     # "country_iceland". Otherwise, default to settings for the location type.
-    subsampling_scheme = _get_subsampling_scheme_by_build_name(wildcards.build_name)
+
+    subsampling_config_file = _get_subsampling_config_by_build_name(wildcards.build_name)
+    with open(subsampling_config_file) as f:
+        subsampling_config = yaml.load(f)
 
     # When there is no well-defined subsampling scheme, default to using all
     # available samples.
-    if subsampling_scheme not in config["subsampling"]:
-        print(
-            f"WARNING: No valid subsampling scheme is defined for build '{wildcards.build_name}'.",
-            "Skipping subsampling and using all available samples.",
-            file=sys.stderr
-        )
-        subsampling_scheme = "all"
+    # FIXME: handle case where no subsampling YAML is available
+        # print(
+        #     f"WARNING: No valid subsampling scheme is defined for build '{wildcards.build_name}'.",
+        #     "Skipping subsampling and using all available samples.",
+        #     file=sys.stderr
+        # )
+        # subsampling_scheme = "all"
 
-    subsampling_settings = config["subsampling"][subsampling_scheme]
+    subsampling_settings = subsampling_config["samples"]
 
     if hasattr(wildcards, "subsample"):
         subsampling_settings = subsampling_settings[wildcards.subsample]
@@ -418,8 +426,8 @@ def _get_subsampled_files(wildcards):
     subsampling_settings = _get_subsampling_settings(wildcards)
 
     return [
-        f"results/{wildcards.build_name}/sample-{subsample}.txt"
-        for subsample in subsampling_settings
+        f"results/{wildcards.build_name}/sample-{sample}.txt"
+        for sample in subsampling_settings
     ]
 
 rule combine_samples:

@@ -1,0 +1,9 @@
+samples:
+  50k_early:
+    group_by: year month country
+    max_sequences: 50000
+    max_date: --max-date 1Y
+  50k_late:
+    group_by: year month country
+    max_sequences: 50000
+    min_date: --min-date 1Y

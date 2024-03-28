@@ -1,0 +1,21 @@
+samples:
+  focal_early:
+    group_by: country year month
+    max_sequences: 640
+    max_date: --max-date 1M
+    exclude: --exclude-where 'region!=South America'
+  context_early:
+    group_by: country year month
+    max_sequences: 160
+    max_date: --max-date 1M
+    exclude: --exclude-where 'region=South America'
+  focal_recent:
+    group_by: country week
+    max_sequences: 2560
+    min_date: --min-date 1M
+    exclude: --exclude-where 'region!=South America'
+  context_recent:
+    group_by: country week
+    max_sequences: 640
+    min_date: --min-date 1M
+    exclude: --exclude-where 'region=South America'

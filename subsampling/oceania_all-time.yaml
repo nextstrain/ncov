@@ -1,0 +1,9 @@
+samples:
+  focal:
+    group_by: division year month
+    max_sequences: 3200
+    exclude: --exclude-where 'region!=Oceania'
+  context:
+    group_by: country year month
+    max_sequences: 800
+    exclude: --exclude-where 'region=Oceania'
