@@ -1,81 +1,158 @@
+size: 5150
 samples:
   africa_early:
-    group_by: country year month
-    max_sequences: 150
-    max_date: --max-date 2M
-    exclude: --exclude-where 'region!=Africa'
+    weight: 30
+    filters:
+      max_date: 2M
+      exclude:
+      - region!=Africa
+    uniform_sampling:
+    - country
+    - year
+    - month
   asia_early:
-    group_by: country year month
-    max_sequences: 200
-    max_date: --max-date 2M
-    exclude: --exclude-where 'region!=Asia' 'country=China' 'country=India'
+    weight: 40
+    filters:
+      max_date: 2M
+      exclude:
+      - region!=Asia
+      - country=China
+      - country=India
+    uniform_sampling:
+    - country
+    - year
+    - month
   china_early:
-    group_by: division year month
-    max_sequences: 175
-    max_date: --max-date 2M
-    exclude: --exclude-where 'country!=China'
+    weight: 35
+    filters:
+      max_date: 2M
+      exclude:
+      - country!=China
+    uniform_sampling:
+    - division
+    - year
+    - month
   europe_early:
-    group_by: country year month
-    max_sequences: 125
-    max_date: --max-date 2M
-    exclude: --exclude-where 'region!=Europe'
+    weight: 25
+    filters:
+      max_date: 2M
+      exclude:
+      - region!=Europe
+    uniform_sampling:
+    - country
+    - year
+    - month
   india_early:
-    group_by: division year month
-    max_sequences: 175
-    max_date: --max-date 2M
-    exclude: --exclude-where 'country!=India'
+    weight: 35
+    filters:
+      max_date: 2M
+      exclude:
+      - country!=India
+    uniform_sampling:
+    - division
+    - year
+    - month
   north_america_early:
-    group_by: division year month
-    max_sequences: 100
-    max_date: --max-date 2M
-    exclude: --exclude-where 'region!=North America'
+    weight: 20
+    filters:
+      max_date: 2M
+      exclude:
+      - region!=North America
+    uniform_sampling:
+    - division
+    - year
+    - month
   south_america_early:
-    group_by: country year month
-    max_sequences: 90
-    max_date: --max-date 2M
-    exclude: --exclude-where 'region!=South America'
+    weight: 18
+    filters:
+      max_date: 2M
+      exclude:
+      - region!=South America
+    uniform_sampling:
+    - country
+    - year
+    - month
   oceania_early:
-    group_by: division year month
-    max_sequences: 15
-    max_date: --max-date 2M
-    exclude: --exclude-where 'region!=Oceania'
+    weight: 3
+    filters:
+      max_date: 2M
+      exclude:
+      - region!=Oceania
+    uniform_sampling:
+    - division
+    - year
+    - month
   africa_recent:
-    group_by: country week
-    max_sequences: 600
-    min_date: --min-date 2M
-    exclude: --exclude-where 'region!=Africa'
+    weight: 120
+    filters:
+      min_date: 2M
+      exclude:
+      - region!=Africa
+    uniform_sampling:
+    - country
+    - week
   asia_recent:
-    group_by: country week
-    max_sequences: 800
-    min_date: --min-date 2M
-    exclude: --exclude-where 'region!=Asia' 'country=China' 'country=India'
+    weight: 160
+    filters:
+      min_date: 2M
+      exclude:
+      - region!=Asia
+      - country=China
+      - country=India
+    uniform_sampling:
+    - country
+    - week
   china_recent:
-    group_by: division week
-    max_sequences: 700
-    min_date: --min-date 2M
-    exclude: --exclude-where 'country!=China'
+    weight: 140
+    filters:
+      min_date: 2M
+      exclude:
+      - country!=China
+    uniform_sampling:
+    - division
+    - week
   europe_recent:
-    group_by: country week
-    max_sequences: 500
-    min_date: --min-date 2M
-    exclude: --exclude-where 'region!=Europe'
+    weight: 100
+    filters:
+      min_date: 2M
+      exclude:
+      - region!=Europe
+    uniform_sampling:
+    - country
+    - week
   india_recent:
-    group_by: division week
-    max_sequences: 700
-    min_date: --min-date 2M
-    exclude: --exclude-where 'country!=India'
+    weight: 140
+    filters:
+      min_date: 2M
+      exclude:
+      - country!=India
+    uniform_sampling:
+    - division
+    - week
   north_america_recent:
-    group_by: division week
-    max_sequences: 400
-    min_date: --min-date 2M
-    exclude: --exclude-where 'region!=North America'
+    weight: 80
+    filters:
+      min_date: 2M
+      exclude:
+      - region!=North America
+    uniform_sampling:
+    - division
+    - week
   south_america_recent:
-    group_by: country week
-    max_sequences: 360
-    min_date: --min-date 2M
-    exclude: --exclude-where 'region!=South America'
+    weight: 72
+    filters:
+      min_date: 2M
+      exclude:
+      - region!=South America
+    uniform_sampling:
+    - country
+    - week
   oceania_recent:
-    group_by: division week
-    max_sequences: 60
-    min_date: --min-date 2M
-    exclude: --exclude-where 'region!=Oceania'
+    weight: 12
+    filters:
+      min_date: 2M
+      exclude:
+      - region!=Oceania
+    uniform_sampling:
+    - division
+    - week

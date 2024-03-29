@@ -1,17 +1,40 @@
+size: 4375
 samples:
   asia:
-    group_by: division year month
-    max_sequences: 1500
-    exclude: --exclude-where 'region!=Asia' 'country=China' 'country=India'
+    weight: 12
+    filters:
+      exclude:
+      - region!=Asia
+      - country=China
+      - country=India
+    uniform_sampling:
+    - division
+    - year
+    - month
   china:
-    group_by: division year month
-    max_sequences: 1000
-    exclude: --exclude-where 'country!=China'
+    weight: 8
+    filters:
+      exclude:
+      - country!=China
+    uniform_sampling:
+    - division
+    - year
+    - month
   india:
-    group_by: division year month
-    max_sequences: 1000
-    exclude: --exclude-where 'country!=India'
+    weight: 8
+    filters:
+      exclude:
+      - country!=India
+    uniform_sampling:
+    - division
+    - year
+    - month
   context:
-    group_by: country year month
-    max_sequences: 875
-    exclude: --exclude-where 'region=Asia'
+    weight: 1
+    filters:
+      exclude:
+      - region=Asia
+    uniform_sampling:
+    - country
+    - year
+    - month

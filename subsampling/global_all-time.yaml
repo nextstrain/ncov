@@ -1,33 +1,76 @@
+size: 5150
 samples:
   africa:
-    group_by: country year month
-    max_sequences: 750
-    exclude: --exclude-where 'region!=Africa'
+    weight: 30
+    filters:
+      exclude:
+      - region!=Africa
+    uniform_sampling:
+    - country
+    - year
+    - month
   asia:
-    group_by: country year month
-    max_sequences: 1000
-    exclude: --exclude-where 'region!=Asia' 'country=China' 'country=India'
+    weight: 40
+    filters:
+      exclude:
+      - region!=Asia
+      - country=China
+      - country=India
+    uniform_sampling:
+    - country
+    - year
+    - month
   china:
-    group_by: division year month
-    max_sequences: 875
-    exclude: --exclude-where 'country!=China'
+    weight: 35
+    filters:
+      exclude:
+      - country!=China
+    uniform_sampling:
+    - division
+    - year
+    - month
   europe:
-    group_by: country year month
-    max_sequences: 625
-    exclude: --exclude-where 'region!=Europe'
+    weight: 25
+    filters:
+      exclude:
+      - region!=Europe
+    uniform_sampling:
+    - country
+    - year
+    - month
   india:
-    group_by: division year month
-    max_sequences: 875
-    exclude: --exclude-where 'country!=India'
+    weight: 35
+    filters:
+      exclude:
+      - country!=India
+    uniform_sampling:
+    - division
+    - year
+    - month
   north_america:
-    group_by: division year month
-    max_sequences: 500
-    exclude: --exclude-where 'region!=North America'
+    weight: 20
+    filters:
+      exclude:
+      - region!=North America
+    uniform_sampling:
+    - division
+    - year
+    - month
   south_america:
-    group_by: country year month
-    max_sequences: 450
-    exclude: --exclude-where 'region!=South America'
+    weight: 18
+    filters:
+      exclude:
+      - region!=South America
+    uniform_sampling:
+    - country
+    - year
+    - month
   oceania:
-    group_by: division year month
-    max_sequences: 75
-    exclude: --exclude-where 'region!=Oceania'
+    weight: 3
+    filters:
+      exclude:
+      - region!=Oceania
+    uniform_sampling:
+    - division
+    - year
+    - month

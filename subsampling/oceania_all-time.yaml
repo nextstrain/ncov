@@ -1,9 +1,20 @@
+size: 4000
 samples:
   focal:
-    group_by: division year month
-    max_sequences: 3200
-    exclude: --exclude-where 'region!=Oceania'
+    weight: 4
+    filters:
+      exclude:
+      - region!=Oceania
+    uniform_sampling:
+    - division
+    - year
+    - month
   context:
-    group_by: country year month
-    max_sequences: 800
-    exclude: --exclude-where 'region=Oceania'
+    weight: 1
+    filters:
+      exclude:
+      - region=Oceania
+    uniform_sampling:
+    - country
+    - year
+    - month

@@ -1,21 +1,40 @@
+size: 4000
 samples:
   focal_early:
-    group_by: country year month
-    max_sequences: 640
-    max_date: --max-date 2M
-    exclude: --exclude-where 'region!=Europe'
+    weight: 4
+    filters:
+      max_date: 2M
+      exclude:
+      - region!=Europe
+    uniform_sampling:
+    - country
+    - year
+    - month
   context_early:
-    group_by: country year month
-    max_sequences: 160
-    max_date: --max-date 2M
-    exclude: --exclude-where 'region=Europe'
+    weight: 1
+    filters:
+      max_date: 2M
+      exclude:
+      - region=Europe
+    uniform_sampling:
+    - country
+    - year
+    - month
   focal_recent:
-    group_by: country week
-    max_sequences: 2560
-    min_date: --min-date 2M
-    exclude: --exclude-where 'region!=Europe'
+    weight: 16
+    filters:
+      min_date: 2M
+      exclude:
+      - region!=Europe
+    uniform_sampling:
+    - country
+    - week
   context_recent:
-    group_by: country week
-    max_sequences: 640
-    min_date: --min-date 2M
-    exclude: --exclude-where 'region=Europe'
+    weight: 4
+    filters:
+      min_date: 2M
+      exclude:
+      - region=Europe
+    uniform_sampling:
+    - country
+    - week
