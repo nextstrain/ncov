@@ -25,8 +25,8 @@ files:
 
 inputs:
   - name: open
-    metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.zst"
-    aligned: "s3://nextstrain-data/files/ncov/open/aligned.fasta.zst"
+    metadata: "s3://nextstrain-data/files/ncov/open/100k/metadata.tsv.xz"
+    aligned: "s3://nextstrain-data/files/ncov/open/100k/sequences.fasta.xz"
     skip_sanitize_metadata: true
 
 # Define locations for which builds should be created.
