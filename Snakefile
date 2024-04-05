@@ -47,28 +47,6 @@ validate(config, schema="workflow/schemas/config.schema.yaml")
 if isinstance(config.get("inputs"), list):
     config["inputs"] = OrderedDict((v["name"], v) for v in config["inputs"])
 
-# Check for overlapping subsampling schemes in user and default
-# configurations. For now, issue a deprecation warning, so users know they
-# should rename their subsampling schemes. In the future, this reuse of the same
-# name will cause an error.
-subsampling_config = config.get("subsampling", {})
-overlapping_schemes = []
-for scheme_name, scheme in user_subsampling.items():
-    if scheme_name in subsampling_config and subsampling_config.get(scheme_name) != scheme:
-        overlapping_schemes.append(scheme_name)
-
-if len(overlapping_schemes) > 0:
-    logger.warning(f"WARNING: The following subsampling scheme(s) have the same name as a default scheme in this workflow but different definitions:")
-    logger.warning("")
-    for scheme in overlapping_schemes:
-        logger.warning(f"  - {scheme}")
-    logger.warning("")
-    logger.warning("  This means Snakemake will merge your scheme with the default scheme and may produce unexpected behavior.")
-    logger.warning(f"  To avoid errors in your workflow, rename your schemes with unique names (e.g., 'custom_{overlapping_schemes[0]}')")
-    logger.warning("  In future versions of this workflow, overlapping subsampling scheme names will produce an error.")
-    logger.warning("")
-    time.sleep(5)
-
 # Assign a default build if none are specified in the config. Users can define a
 # `default_build_name` in their builds config without assigning any other build
 # information. Otherwise, we use a generic name for the default build.
