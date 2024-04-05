@@ -1,17 +1,35 @@
 samples:
   asia:
-    group_by: division year month
+    group_by:
+    - division
+    - year
+    - month
     max_sequences: 1500
-    exclude: --exclude-where 'region!=Asia' 'country=China' 'country=India'
+    exclude:
+    - region!=Asia
+    - country=China
+    - country=India
   china:
-    group_by: division year month
+    group_by:
+    - division
+    - year
+    - month
     max_sequences: 1000
-    exclude: --exclude-where 'country!=China'
+    exclude:
+    - country!=China
   india:
-    group_by: division year month
+    group_by:
+    - division
+    - year
+    - month
     max_sequences: 1000
-    exclude: --exclude-where 'country!=India'
+    exclude:
+    - country!=India
   context:
-    group_by: country year month
+    group_by:
+    - country
+    - year
+    - month
     max_sequences: 875
-    exclude: --exclude-where 'region=Asia'
+    exclude:
+    - region=Asia

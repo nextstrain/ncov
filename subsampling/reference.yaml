@@ -1,4 +1,5 @@
 samples:
   clades:
-    group_by: Nextstrain_clade
+    group_by:
+    - Nextstrain_clade
     max_sequences: 300

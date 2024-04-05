@@ -1,21 +1,35 @@
 samples:
   focal_early:
-    group_by: division year month
+    group_by:
+    - division
+    - year
+    - month
     max_sequences: 640
-    max_date: --max-date 2M
-    exclude: --exclude-where 'region!=North America'
+    max_date: 2M
+    exclude:
+    - region!=North America
   context_early:
-    group_by: country year month
+    group_by:
+    - country
+    - year
+    - month
     max_sequences: 160
-    max_date: --max-date 2M
-    exclude: --exclude-where 'region=North America'
+    max_date: 2M
+    exclude:
+    - region=North America
   focal_recent:
-    group_by: division week
+    group_by:
+    - division
+    - week
     max_sequences: 2560
-    min_date: --min-date 2M
-    exclude: --exclude-where 'region!=North America'
+    min_date: 2M
+    exclude:
+    - region!=North America
   context_recent:
-    group_by: country week
+    group_by:
+    - country
+    - week
     max_sequences: 640
-    min_date: --min-date 2M
-    exclude: --exclude-where 'region=North America'
+    min_date: 2M
+    exclude:
+    - region=North America

@@ -1,11 +1,18 @@
 samples:
   region:
-    group_by: division year month
+    group_by:
+    - division
+    - year
+    - month
     max_sequences: 20
-    sampling_scheme: --no-probabilistic-sampling
-    exclude: --exclude-where 'region!=Europe'
+    disable_probabilistic_sampling: true
+    exclude:
+    - region!=Europe
   global:
-    group_by: year month
+    group_by:
+    - year
+    - month
     max_sequences: 10
-    sampling_scheme: --no-probabilistic-sampling
-    exclude: --exclude-where 'region=Europe'
+    disable_probabilistic_sampling: true
+    exclude:
+    - region=Europe

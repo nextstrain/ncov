@@ -3,6 +3,10 @@ from pathlib import Path
 from typing import Any, List, Optional
 import yaml
 
+# Avoid writing aliases for identical objects.
+# https://stackoverflow.com/a/30682604
+yaml.Dumper.ignore_aliases = lambda *args: True
+
 
 SUBSAMPLING_CONFIG_DIR = 'subsampling/'
 Path(SUBSAMPLING_CONFIG_DIR).mkdir(exist_ok=True)
@@ -32,22 +36,22 @@ class Sample:
         options = dict()
 
         if self.group_by:
-            options['group_by'] = ' '.join(field for field in self.group_by)
+            options['group_by'] = self.group_by
 
         if self.size:
             options['max_sequences'] = self.size
 
         if self.min_date:
-            options['min_date'] = f"--min-date {self.min_date}"
+            options['min_date'] = self.min_date
 
         if self.max_date:
-            options['max_date'] = f"--max-date {self.max_date}"
+            options['max_date'] = self.max_date
 
         if self.disable_probabilistic_sampling:
-            options['sampling_scheme'] = '--no-probabilistic-sampling'
+            options['disable_probabilistic_sampling'] = True
 
         if self.excludes:
-            options['exclude'] = f"--exclude-where {' '.join(repr(exclude) for exclude in self.excludes)}"
+            options['exclude'] = self.excludes
 
         return options
 
