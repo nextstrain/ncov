@@ -9,6 +9,8 @@ jobs:
     uses: nextstrain/.github/.github/workflows/pathogen-repo-ci.yaml@master
     with:
       build-args: all_regions -j 2 --profile nextstrain_profiles/nextstrain-ci
+      env: |
+        NEXTSTRAIN_DOCKER_IMAGE: nextstrain/base:branch-victorlin-augur-subsample
 
   test-cram:
     runs-on: ubuntu-latest
