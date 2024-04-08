@@ -11202,6 +11202,7 @@ Albania/IPH-TR-0534/2021
 Argentina/PAIS-F0400/2021
 Brazil/AM-IEC-182317/2021
 Cameroon/CAF004/2021
+CentralAfricanRepublic/LNBCSP097/2021
 Colombia/QUI-UTP-VG-883/2021
 Colombia/TOL-I451/2020
 Colombia/TOL-I453/2020
@@ -11756,3 +11757,7 @@ USA/MN-Mayo-1761/2020
 USA/MN-Mayo-1762/2020
 USA/MN-Mayo-1763/2020
 
+# BA.2.86 / JN.1 with too many mutations relative to date
+Botswana/R233B75_BHP_day003/2023
+SouthAfrica/NICD-N56098/2023
+SouthAfrica/NICD-N56974/2023
