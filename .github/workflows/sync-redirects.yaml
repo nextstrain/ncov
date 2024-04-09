@@ -8,6 +8,11 @@ on:
       - docs/redirects.yaml
       - .github/workflows/sync-redirects.yaml
 
+  pull_request:
+    paths:
+      - docs/redirects.yaml
+      - .github/workflows/sync-redirects.yaml
+
   # Manually triggered using GitHub's UI
   workflow_dispatch:
 
