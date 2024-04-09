@@ -8,6 +8,11 @@ on:
       - docs/redirects.yaml
       - .github/workflows/sync-redirects.yaml
 
+  pull_request:
+    paths:
+      - docs/redirects.yaml
+      - .github/workflows/sync-redirects.yaml
+
   # Manually triggered using GitHub's UI
   workflow_dispatch:
 
@@ -15,18 +20,10 @@ jobs:
   sync:
     # Prevent this job from running on forks.
     if: github.repository_owner == 'nextstrain'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-
-      - name: Upgrade Python toolchain
-        run: python3 -m pip install --upgrade pip setuptools wheel
-
-      - name: Install readthedocs-cli
-        run: python3 -m pip install readthedocs-cli
-
-      - name: Sync redirects
-        run: rtd projects nextstrain-ncov redirects sync -f docs/redirects.yaml --wet-run
-        env:
-          RTD_TOKEN: ${{ secrets.RTD_TOKEN }}
+    name: rtd redirects
+    uses: nextstrain/.github/.github/workflows/sync-rtd-redirects.yaml@master
+    with:
+      project: nextstrain-ncov
+      file: docs/redirects.yaml
+    secrets:
+      RTD_TOKEN: ${{ secrets.RTD_TOKEN }}
