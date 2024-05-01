@@ -189,6 +189,17 @@ rule priority_score:
         """
 
 
+rule get_weights:
+    # FIXME: reference this filepath dynamically in subsampling config.
+    # currently it's hardcoded in the individual YAMLs which is not great
+    output: "data/country_population_weights.tsv"
+    shell:
+        """
+        python3 scripts/get_population_sizes.py \
+            --output {output}
+        """
+
+
 rule subsample:
     message:
         """
@@ -200,6 +211,7 @@ rule subsample:
         subsampling_scheme = lambda wildcards: config["builds"][wildcards.build_name]["subsampling_scheme"],
         exclude = config["files"]["exclude"],
         include = config["files"]["include"],
+        weights = "data/country_population_weights.tsv"
     output:
         sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",
         metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz"

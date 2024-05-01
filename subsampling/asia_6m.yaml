@@ -1,33 +1,14 @@
 samples:
-  asia_early:
+  focal_early:
     group_by:
-    - division
+    - country
     - year
     - month
-    max_sequences: 300
+    group_by_weights: data/country_population_weights.tsv
+    max_sequences: 700
     max_date: 6M
     exclude:
     - region!=Asia
-    - country=China
-    - country=India
-  china_early:
-    group_by:
-    - division
-    - year
-    - month
-    max_sequences: 200
-    max_date: 6M
-    exclude:
-    - country!=China
-  india_early:
-    group_by:
-    - division
-    - year
-    - month
-    max_sequences: 200
-    max_date: 6M
-    exclude:
-    - country!=India
   context_early:
     group_by:
     - country
@@ -37,35 +18,16 @@ samples:
     max_date: 6M
     exclude:
     - region=Asia
-  asia_recent:
+  focal_recent:
     group_by:
-    - division
+    - country
     - year
     - month
-    max_sequences: 1200
+    group_by_weights: data/country_population_weights.tsv
+    max_sequences: 2800
     min_date: 6M
     exclude:
     - region!=Asia
-    - country=China
-    - country=India
-  china_recent:
-    group_by:
-    - division
-    - year
-    - month
-    max_sequences: 800
-    min_date: 6M
-    exclude:
-    - country!=China
-  india_recent:
-    group_by:
-    - division
-    - year
-    - month
-    max_sequences: 800
-    min_date: 6M
-    exclude:
-    - country!=India
   context_recent:
     group_by:
     - country

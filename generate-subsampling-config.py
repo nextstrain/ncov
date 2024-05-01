@@ -14,6 +14,7 @@ Path(SUBSAMPLING_CONFIG_DIR).mkdir(exist_ok=True)
 
 class Sample:
     group_by: Optional[List[str]]
+    group_by_weights: Optional[str]
     size: Optional[int]
     min_date: Optional[str]
     max_date: Optional[str]
@@ -37,6 +38,9 @@ class Sample:
 
         if self.group_by:
             options['group_by'] = self.group_by
+
+        if self.group_by_weights:
+            options['group_by_weights'] = self.group_by_weights
 
         if self.size:
             options['max_sequences'] = self.size
@@ -219,49 +223,26 @@ def write_region_time_builds():
                         excludes=excludes[location],
                     ))
 
-        # Asia gets special treatment because two countries must be weighted differently.
+        # Asia gets special treatment because we will weight based on country population sizes.
         elif region == 'Asia':
             target_size = 4375
 
-            locations = [
-                'Asia',
-                'China',
-                'India',
-            ]
-
-            weights = {
-                'Asia': 3,
-                'China': 2,
-                'India': 2,
-            }
-
-            sum_location_weights = sum(weights.values())
-            assert sum_location_weights == 7
-
-            excludes = {
-                'Asia': ['region!=Asia', 'country=China', 'country=India'],
-                'China': ['country!=China'],
-                'India': ['country!=India'],
-            }
-
             if time == 'all-time':
                 # Focal sequences for region
-                for location in locations:
-                    config.add(Sample(
-                        name=location.lower().replace(' ', '_'),
-                        group_by=[
-                            # TODO: use GROUP_BY_GEOGRAPHICAL_RESOLUTION?
-                            'division',
-                            'year',
-                            'month',
-                        ],
-                        size=int(
-                            target_size
-                            * WEIGHT_FOCAL / (WEIGHT_FOCAL + WEIGHT_CONTEXTUAL)
-                            * weights[location] / sum_location_weights
-                        ),
-                        excludes=excludes[location],
-                    ))
+                config.add(Sample(
+                    name='focal',
+                    group_by=[
+                        'country',
+                        'year',
+                        'month',
+                    ],
+                    group_by_weights='data/country_population_weights.tsv',
+                    size=int(
+                        target_size
+                        * WEIGHT_FOCAL / (WEIGHT_FOCAL + WEIGHT_CONTEXTUAL)
+                    ),
+                    excludes=['region!=Asia'],
+                ))
                 
                 # Contextual sequences from the rest of the world
                 config.add(Sample(
@@ -280,24 +261,22 @@ def write_region_time_builds():
 
             else:
                 # Early focal sequences for region
-                for location in locations:
-                    config.add(Sample(
-                        name=f"{location.lower().replace(' ', '_')}_early",
-                        group_by=[
-                            # TODO: use GROUP_BY_GEOGRAPHICAL_RESOLUTION?
-                            'division',
-                            'year',
-                            'month',
-                        ],
-                        size=int(
-                            target_size
-                            * WEIGHT_EARLY / (WEIGHT_EARLY + WEIGHT_RECENT)
-                            * WEIGHT_FOCAL / (WEIGHT_FOCAL + WEIGHT_CONTEXTUAL)
-                            * weights[location] / sum_location_weights
-                        ),
-                        max_date=time,
-                        excludes=excludes[location],
-                    ))
+                config.add(Sample(
+                    name='focal_early',
+                    group_by=[
+                        'country',
+                        'year',
+                        'month',
+                    ],
+                    group_by_weights='data/country_population_weights.tsv',
+                    size=int(
+                        target_size
+                        * WEIGHT_EARLY / (WEIGHT_EARLY + WEIGHT_RECENT)
+                        * WEIGHT_FOCAL / (WEIGHT_FOCAL + WEIGHT_CONTEXTUAL)
+                    ),
+                    max_date=time,
+                    excludes=['region!=Asia'],
+                ))
 
                 # Early contextual sequences from the rest of the world
                 config.add(Sample(
@@ -317,25 +296,23 @@ def write_region_time_builds():
                 ))
 
                 # Recent focal sequences for region
-                for location in locations:
-                    config.add(Sample(
-                        name=f"{location.lower().replace(' ', '_')}_recent",
-                        group_by=[
-                            # TODO: use GROUP_BY_GEOGRAPHICAL_RESOLUTION?
-                            'division',
-                            # TODO: use GROUP_BY_RECENT_TEMPORAL_RESOLUTION?
-                            'year',
-                            'month',
-                        ],
-                        size=int(
-                            target_size
-                            * WEIGHT_RECENT / (WEIGHT_EARLY + WEIGHT_RECENT)
-                            * WEIGHT_FOCAL / (WEIGHT_FOCAL + WEIGHT_CONTEXTUAL)
-                            * weights[location] / sum_location_weights
-                        ),
-                        min_date=time,
-                        excludes=excludes[location],
-                    ))
+                config.add(Sample(
+                    name='focal_recent',
+                    group_by=[
+                        'country',
+                        # TODO: use GROUP_BY_RECENT_TEMPORAL_RESOLUTION?
+                        'year',
+                        'month',
+                    ],
+                    group_by_weights='data/country_population_weights.tsv',
+                    size=int(
+                        target_size
+                        * WEIGHT_RECENT / (WEIGHT_EARLY + WEIGHT_RECENT)
+                        * WEIGHT_FOCAL / (WEIGHT_FOCAL + WEIGHT_CONTEXTUAL)
+                    ),
+                    min_date=time,
+                    excludes=['region!=Asia'],
+                ))
 
                 # Recent contextual sequences from the rest of the world
                 config.add(Sample(

@@ -1,30 +1,13 @@
 samples:
-  asia:
+  focal:
     group_by:
-    - division
+    - country
     - year
     - month
-    max_sequences: 1500
+    group_by_weights: data/country_population_weights.tsv
+    max_sequences: 3500
     exclude:
     - region!=Asia
-    - country=China
-    - country=India
-  china:
-    group_by:
-    - division
-    - year
-    - month
-    max_sequences: 1000
-    exclude:
-    - country!=China
-  india:
-    group_by:
-    - division
-    - year
-    - month
-    max_sequences: 1000
-    exclude:
-    - country!=India
   context:
     group_by:
     - country
