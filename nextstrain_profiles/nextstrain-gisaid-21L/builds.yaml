@@ -313,25 +313,25 @@ subsampling:
       exclude: "--exclude-where 'region=Asia'"
     # Recent focal samples for Asia
     asia_recent:
-      group_by: "division year month"
+      group_by: "division week"
       max_sequences: 1200
       min_date: "--min-date 1M"
       exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
     # Recent focal samples for China
     china_recent:
-      group_by: "division year month"
+      group_by: "division week"
       max_sequences: 800
       max_date: "--min-date 1M"
       exclude: "--exclude-where 'country!=China'"
     # Recent focal samples for India
     india_recent:
-      group_by: "division year month"
+      group_by: "division week"
       max_sequences: 800
       max_date: "--min-date 1M"
       exclude: "--exclude-where 'country!=India'"
     # Early contextual samples from the rest of the world
     context_recent:
-      group_by: "country year month"
+      group_by: "country week"
       max_sequences: 700
       min_date: "--min-date 1M"
       exclude: "--exclude-where 'region=Asia'"
@@ -370,25 +370,25 @@ subsampling:
       exclude: "--exclude-where 'region=Asia'"
     # Recent focal samples for Asia
     asia_recent:
-      group_by: "division year month"
+      group_by: "division week"
       max_sequences: 1200
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
     # Recent focal samples for China
     china_recent:
-      group_by: "division year month"
+      group_by: "division week"
       max_sequences: 800
       max_date: "--min-date 2M"
       exclude: "--exclude-where 'country!=China'"
     # Recent focal samples for India
     india_recent:
-      group_by: "division year month"
+      group_by: "division week"
       max_sequences: 800
       max_date: "--min-date 2M"
       exclude: "--exclude-where 'country!=India'"
     # Early contextual samples from the rest of the world
     context_recent:
-      group_by: "country year month"
+      group_by: "country week"
       max_sequences: 700
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region=Asia'"
