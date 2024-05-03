@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+# FIXME: document when/how to use this file
+
+import argparse
+import os
+from pathlib import Path
+import pandas as pd
+
+
+def export_world_factbook(output):
+    # Retrieve this file by going to <https://www.cia.gov/the-world-factbook/field/population/country-comparison/>,
+    # and selecting "DOWNLOAD DATA" (no filters).
+    csv = Path(os.path.dirname(__file__)) / "data/world_factbook_population_sizes.csv"
+
+    df = pd.read_csv(csv, thousands=',')
+
+    # Rename columns to match names in metadata
+    column_name_map = {
+        'name': 'country',
+        'value': 'weight',
+    }
+    df = df.rename(columns=column_name_map)
+
+    # Keep only the columns used above
+    df = df[column_name_map.values()]
+
+    # Set country as index
+    df = df.set_index('country')
+
+    # Rename countries to match values in metadata
+    # NOTE: This has only been checked for countries in Asia. If population
+    # weights are used for other regions, it's likely that this will need to be
+    # updated.
+    country_name_map = {
+        "Korea, South": "South Korea",
+        "Macau": "Macao",
+    }
+    df = df.rename(index=country_name_map)
+
+    # Add missing countries
+    df.loc['Palestine', 'weight'] = df.loc['West Bank', 'weight'] + df.loc['Gaza Strip', 'weight']
+
+    # Ensure int weights are written without decimals
+    df['weight'] = df['weight'].astype('Int64')
+
+    # Export
+    df.to_csv(output, index=True, sep='\t')
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(
+        description="Create population sizes file",
+    )
+
+    parser.add_argument('--output', type=str, metavar="FILE",
+        default="defaults/population_weights.tsv",
+        help="Path to output population sizes file",
+    )
+    args = parser.parse_args()
+
+    export_world_factbook(args.output)
