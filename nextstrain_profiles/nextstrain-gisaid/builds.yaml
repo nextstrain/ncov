@@ -38,37 +38,6 @@ inputs:
 #
 # Auspice config is specified in rule auspice_config in export_for_nextstrain.smk
 builds:
-  reference:
-    subsampling_scheme: nextstrain_reference
-    title: Genomic epidemiology of SARS-CoV-2 with clade-focused subsampling
-  global_1m:
-    subsampling_scheme: nextstrain_global_1m
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past month
-  global_2m:
-    subsampling_scheme: nextstrain_global_2m
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past 2 months
-  global_6m:
-    subsampling_scheme: nextstrain_global_6m
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past 6 months
-  global_all-time:
-    subsampling_scheme: nextstrain_global_all_time
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally since pandemic start
-  africa_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_1m
-    region: Africa
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past month
-  africa_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_2m
-    region: Africa
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past 2 months
-  africa_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_6m
-    region: Africa
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past 6 months
-  africa_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_country_all_time
-    region: Africa
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa since pandemic start
   asia_1m:
     subsampling_scheme: nextstrain_region_asia_grouped_by_division_1m
     region: Asia
@@ -85,70 +54,6 @@ builds:
     subsampling_scheme: nextstrain_region_asia_grouped_by_division_all_time
     region: Asia
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia since pandemic start
-  europe_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_1m
-    region: Europe
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past month
-  europe_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_2m
-    region: Europe
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past 2 months
-  europe_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_6m
-    region: Europe
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past 6 months
-  europe_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_country_all_time
-    region: Europe
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe since pandemic start
-  north-america_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_1m
-    region: North America
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past month
-  north-america_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_2m
-    region: North America
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past 2 months
-  north-america_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_6m
-    region: North America
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past 6 months
-  north-america_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_division_all_time
-    region: North America
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America since pandemic start
-  oceania_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_1m
-    region: Oceania
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past month
-  oceania_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_2m
-    region: Oceania
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past 2 months
-  oceania_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_6m
-    region: Oceania
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past 6 months
-  oceania_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_division_all_time
-    region: Oceania
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania since pandemic start
-  south-america_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_1m
-    region: South America
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past month
-  south-america_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_2m
-    region: South America
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past 2 months
-  south-america_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_6m
-    region: South America
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past 6 months
-  south-america_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_country_all_time
-    region: South America
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America since pandemic start
 
 # remove sequences without division label in US
 filter:
