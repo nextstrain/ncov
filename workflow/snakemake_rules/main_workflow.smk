@@ -190,6 +190,8 @@ def _get_specific_subsampling_setting(setting, optional=False):
                     value = f"--exclude-ambiguous-dates-by {value}"
                 elif setting == 'group_by':
                     value = f"--group-by {value}"
+                elif setting == 'group_by_weights':
+                    value = f"--group-by-weights {value}"
         elif value is not None:
             # If is 'seq_per_group' or 'max_sequences' build subsampling setting,
             # need to return the 'argument' for augur
@@ -265,6 +267,14 @@ rule index_sequences:
             --output {output.sequence_index} 2>&1 | tee {log}
         """
 
+rule get_weights:
+    output: "data/country_population_weights.tsv"
+    shell:
+        """
+        python3 scripts/get_population_sizes.py \
+            --output {output}
+        """
+
 rule subsample:
     message:
         """
@@ -285,7 +295,11 @@ rule subsample:
         metadata = _get_unified_metadata,
         include = config["files"]["include"],
         priorities = get_priorities,
-        exclude = config["files"]["exclude"]
+        exclude = config["files"]["exclude"],
+        # FIXME: check if one weights file for all calls is appropriate. so
+        # far it seems fine, but maybe not in the future if weighting
+        # columns will vary across different samples.
+        weights = "data/country_population_weights.tsv"
     output:
         strains="results/{build_name}/sample-{subsample}.txt",
     log:
@@ -294,6 +308,7 @@ rule subsample:
         "benchmarks/subsample_{build_name}_{subsample}.txt"
     params:
         group_by = _get_specific_subsampling_setting("group_by", optional=True),
+        group_by_weights = _get_specific_subsampling_setting("group_by_weights", optional=True),
         sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
         subsample_max_sequences = _get_specific_subsampling_setting("max_sequences", optional=True),
         sampling_scheme = _get_specific_subsampling_setting("sampling_scheme", optional=True),
@@ -323,6 +338,7 @@ rule subsample:
             {params.exclude_ambiguous_dates_argument} \
             {params.priority_argument} \
             {params.group_by} \
+            {params.group_by_weights} \
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
