@@ -268,10 +268,10 @@ rule index_sequences:
         """
 
 rule get_weights:
-    output: "data/country_week_weights.tsv"
+    output: "data/country_population_weights.tsv"
     shell:
         """
-        python3 scripts/get_weights.py \
+        python3 scripts/get_population_sizes.py \
             --output {output}
         """
 
@@ -299,7 +299,7 @@ rule subsample:
         # FIXME: check if one weights file for all calls is appropriate. so
         # far it seems fine, but maybe not in the future if weighting
         # columns will vary across different samples.
-        weights = "data/country_week_weights.tsv"
+        weights = "data/country_population_weights.tsv"
     output:
         strains="results/{build_name}/sample-{subsample}.txt",
     log:
