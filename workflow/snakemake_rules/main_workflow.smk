@@ -1421,7 +1421,7 @@ rule export:
             --metadata {input.metadata} \
             --node-data {input.node_data} \
             --auspice-config {input.auspice_config} \
-            --include-root-sequence \
+            --include-root-sequence-inline \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --title {params.title:q} \
