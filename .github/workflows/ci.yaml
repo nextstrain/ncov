@@ -6,7 +6,7 @@ on:
 
 jobs:
   test-build:
-    uses: nextstrain/.github/.github/workflows/pathogen-repo-ci.yaml@master
+    uses: nextstrain/.github/.github/workflows/pathogen-repo-ci.yaml@v0
     with:
       build-args: all_regions -j 2 --profile nextstrain_profiles/nextstrain-ci
 
