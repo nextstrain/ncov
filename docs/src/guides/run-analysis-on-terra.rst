@@ -2,43 +2,47 @@
 Run the workflow on Terra
 *************************
 
+We have wrapped the ncov workflow for use in Terra:
+
+.. image:: ../images/terra-ncov.png
+
+We recommend starting with the "minimal" use case (second row in "User Provided Data") with steps described below:
+
 Import ``ncov`` WDL workflow from Dockstore
 ===========================================
 
-1. `Setup a Terra account <https://terra.bio/>`_
-#. Navigate to Dockstore: `ncov:master`_
-#. Top right corner, under **Launch with**, click on **Terra**
-#. Under "Workflow Name" set a name, can also leave default ``ncov``, and select your **Destination Workspace** in the drop down menu.
-#. Click button **IMPORT**
-#. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card
-
-.. _`ncov:master`: https://dockstore.org/workflows/github.com/nextstrain/ncov:master?tab=info
+1. `Set up a Terra account <https://terra.bio/>`_.
+2. Navigate to Dockstore: `nextstrain/ncov/ncov <https://dockstore.org/workflows/github.com/nextstrain/ncov/ncov:master?tab=info>`_
+3. At the top right corner, under **Launch with**, click on **Terra**. You may be prompted to log in.
+4. Provide a **Workflow Name** (e.g. ``ncov``).
+5. Select a **Destination Workspace** from the dropdown menu.
+6. Click **IMPORT**.
+7. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card.
 
 Upload your data files into Terra
 =================================
 
-1. Navigate to: `https://app.terra.bio/#upload`_.
+1. Navigate to: `https://app.terra.bio/#upload <https://app.terra.bio/#upload>`_.
 
-#. Select your workspace
-#. At the top, hit the **+** button to "create a collection"
-#. Within the collection, at bottom right, click **+** button to upload file, or drag and drop files to upload them.
-#. Go back to your Terra Dashboard
-#. Click on the **DATA** tab
-#. On the left, under **OTHER DATA**, click **Files** and there should be an "uploads/" folder shown to the right
-#. Click on "uploads/" to view your collection and verify that your files have been uploaded
-
-.. _`https://app.terra.bio/#upload`: https://app.terra.bio/#upload
+2. Select your workspace
+3. At the top, hit the **+** button to "create a collection"
+4. Within the collection, at bottom right, click **+** button to upload file, or drag and drop files to upload them.
+5. Go back to your Terra Dashboard
+6. Click on the **DATA** tab
+7. On the left, under **OTHER DATA**, click **Files** and there should be an "uploads/" folder shown to the right
+8. Click on "uploads/" to view your collection and verify that your files have been uploaded
 
 Connect your data files to the WDL workflow
 ===========================================
 
 1. On the **DATA** tab, click on **+** next to the **TABLES** section to create a Data Table
-#. Download the "sample_template.tsv" file
-#. Create a tab delimited file similar to below:
+2. Download the "sample_template.tsv" file
+3. Create a tab delimited file similar to below :download:`example script <./ncov_examples.tsv>`:
 
 ::
 
     entity:ncov_examples_id	metadata	sequences	configfile_yaml
+    blank   
     example	gs://COPY_PATH_HERE/example_metadata.tsv	gs://COPY_PATH_HERE/example_datasets/example_sequences.fasta.gz
     example_build		gs://COPY_PATH_HERE/example-build.yaml
 
@@ -47,10 +51,10 @@ Connect your data files to the WDL workflow
 .. image:: ../images/terra-datatable.png
 
 5. Navigate back to the **Workflow** tab, and click on your imported "ncov" workflow
-#. Click on the radio button "Run workflow(s) with inputs defined by data table"
-#. Under **Step 1**, select your root entity type **ncov_examples** from the drop down menu.
-#. Click on **SELECT DATA** to select all rows
-#. Most of the values will be blank but fill in the values below: 
+6. Click on the radio button "Run workflow(s) with inputs defined by data table"
+7. Under **Step 1**, select your root entity type **ncov_examples** from the drop down menu.
+8. Click on **SELECT DATA** to select all rows
+9. Most of the values will be blank but fill in the values below: 
 
   +-----------------+------------------+-------+----------------------+
   |Task name        | Variable         | Type  |   Attribute          |
@@ -64,8 +68,36 @@ Connect your data files to the WDL workflow
   |Nextstrain_WRKFLW|  sequence_fasta  | File  | this.sequences       |
   +-----------------+------------------+-------+----------------------+
 
-10. Click on the **OUTPUTS** tab
-11. Connect your generated output back to the data table, but filling in values:
+10. If creating a build with multiple sequence and metadata files, can upload a tarball containing the files as described in `this tutorial <https://docs.nextstrain.org/projects/ncov/en/latest/guides/data-prep/gisaid-search.html#download-contextual-data-for-your-region-of-interest>`_. Otherwise skip
+
+  +-----------------+-----------------+-------+----------------------+
+  |Task name        | Variable        | Type  |   Attribute          |
+  +=================+=================+=======+======================+
+  |Nextstrain_WRKFLW|  context_targz  | File  | this.context_targz   |
+  +-----------------+-----------------+-------+----------------------+
+
+11. OPTIONAL CHANGE: If you are uploading GISAID/GenBank, or very large sequence files, it is highly recommended to increase disk size.
+
+  +-----------------+-------------------+-------+---------------------------------------------+
+  |Task name        | Variable          | Type  |  Description                                |
+  +=================+===================+=======+=============================================+
+  |Nextstrain_WRKFLW|  disk_size        | Int   | 30 gb by default, may need to expand to 500 |
+  +-----------------+-------------------+-------+---------------------------------------------+
+
+12. OPTIONAL CHANGE: If you have a private/public nextstrain group, specify the following variables to push to an s3 site. Otherwise this step can be skipped.
+
+  +-----------------+-----------------------+--------+--------------------------------+
+  |Task name        | Variable              | Type   |  Description                   |
+  +=================+=======================+========+================================+
+  |Nextstrain_WRKFLW| s3deploy              | String | nextstrain provided url string |
+  +-----------------+-----------------------+--------+--------------------------------+
+  |Nextstrain_WRKFLW| AWS_ACCESS_KEY_ID     | String | your group access key id       |
+  +-----------------+-----------------------+--------+--------------------------------+
+  |Nextstrain_WRKFLW| AWS_SECRET_ACCESS_KEY | String | your group secret access key   |
+  +-----------------+-----------------------+--------+--------------------------------+
+
+13. Click on the **OUTPUTS** tab
+14. Connect your generated output back to the data table, but filling in values:
 
   +-----------------+-----------------+-------+----------------------+
   |Task name        | Variable	      | Type  |   Attribute          |
@@ -75,6 +107,6 @@ Connect your data files to the WDL workflow
   |Nextstrain_WRKFLW|  results_zip    | File  | this.results_zip     |
   +-----------------+-----------------+-------+----------------------+
 
-12. Click on **Save** then click on **Run Analysis**
-#. Under the tab **JOB HISTORY**, verify that your job is running.
-#. When run is complete, check the **DATA** / **TABLES** / **ncov_examples** tab and download "auspice.zip" file
+15. Click on **Save** then click on **Run Analysis**
+16. Under the tab **JOB HISTORY**, verify that your job is running.
+17. When run is complete, check the **DATA** / **TABLES** / **ncov_examples** tab and download "auspice.zip" file

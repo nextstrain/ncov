@@ -1,0 +1,69 @@
+*********************************************
+Ingest SARS-CoV-2 data from GenBank on Terra
+*********************************************
+
+We have provided two pipelines for importing data into Terra:
+
+* **GenBank Ingest - pull a public dataset and send them through our preprocessing scripts.**
+* GISAID Ingest - pull a private dataset if a user has their own API endpoint, username, and password.
+
+The pipelines were mainly motivated to provide access to our data pre-processing scripts. Currently, these are focused on pulling datasets for the ncov workflow and is roughly diagrammed below:
+
+.. image:: ../images/terra-ingest.png
+
+This guide describes the **GenBank Ingest**. Importing the workflow and setting up variables should be a one-time process. The workflow can then be run multiple times to pull in new data.
+
+As of October 29 2022, this took `37 hours to finish running with default parameters, and cost ~$150 USD <https://github.com/j23414/wdl_pathogen_build/blob/main/data/benchmarks.tsv>`_.
+
+Import the GenBank ingest wdl workflow from Dockstore
+======================================================
+
+1. `Set up a Terra account <https://terra.bio/>`_.
+2. Navigate to Dockstore: `nextstrain/ncov/genbank_ingest <https://dockstore.org/workflows/github.com/nextstrain/ncov/genbank_ingest:master?tab=info>`_
+3. At the top right corner, under **Launch with**, click on **Terra**. You may be prompted to log in.
+4. Provide a **Workflow Name** (e.g. ``genbank_ingest`` ).
+5. Select a **Destination Workspace** from the dropdown menu.
+6. Click **IMPORT**.
+7. In your workspace, click on the **WORKFLOWS** tab and verify that the imported workflow is showing a card.
+
+Connect any workspace variables to the wdl ingest workflow
+===========================================================
+  
+1. Navigate back to the **Workflow** tab, and click on the workflow imported to your workspace.
+2. Click on the radio button **Run workflow(s) with inputs defined by data table**.
+3. Under **Step 1**:
+
+  1. Select root entity type as **ncov_examples** from the drop down menu.
+
+4. Under **Step 2**:
+
+  2. Click **SELECT DATA**.
+  3. Select **Choose specific ncov_examples to process**.
+  4. Select the 1st row in the data table. The first column should have value ``blank``. Selecting more rows will cause the workflow to run more than once.
+  5. Click **OK**.
+
+5. Leave the values blank.
+6. Click on the **OUTPUTS** tab.
+7. Connect your generated output back to the workspace data, but filling in values:
+
+  +-----------------+------------------+-------+----------------------------------+
+  |Task name        | Variable	       | Type  |   Attribute                      |
+  +=================+==================+=======+==================================+
+  |GENBANK_INGEST   |  metadata_tsv    | File  | workspace.genbank_metadata_tsv   |
+  +-----------------+------------------+-------+----------------------------------+
+  |GENBANK_INGEST   |  nextclade_tsv   | File  | workspace.genbank_nextclade_tsv  |
+  +-----------------+------------------+-------+----------------------------------+
+  |GENBANK_INGEST   |  sequences_fasta | File  | workspace.genbank_sequences_fasta|
+  +-----------------+------------------+-------+----------------------------------+
+
+
+8. Click **SAVE** 
+
+Run the workflow
+===================
+
+1.  then **RUN ANALYSIS**.
+2.  Optionally enter a job description, then click **LAUNCH**.
+3.  The new job will appear in the **JOB HISTORY** tab. You can monitor its status by refreshing that page.
+4.  When run is complete, check the **DATA** / **Workspace Data** tab and use the "workspace.genbank_sequences_fasta" and "workspace.genbank_metadata.tsv" during normal ncov Terra runs.
+
