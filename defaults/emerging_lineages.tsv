@@ -309,3 +309,22 @@ JD.1	nuc	22928	C
 XBB.1.41	clade	22F
 XBB.1.41	nuc	1473	T
 XBB.1.41	nuc	20102	T
+
+LB.1	clade	24A
+LB.1	nuc	22111	T
+LB.1	nuc	22928	C
+LB.1	nuc	22599	C
+
+KP.2.3	clade	24B
+KP.2.3	nuc	22599	C
+KP.2.3	nuc	25563	T
+
+JN.1.50	clade	24A
+JN.1.50	nuc 9298	T
+JN.1.50	nuc 22309	C
+JN.1.50	nuc 22930	G
+
+XDY	clade	24A
+XDY	nuc	19669	A
+XDY	nuc	22131	C
+XDY	nuc	23039	G
