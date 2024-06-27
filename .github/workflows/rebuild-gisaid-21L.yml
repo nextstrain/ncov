@@ -17,19 +17,17 @@ on:
         description: 'Specific container image to use for build (will override the default of "nextstrain build")'
         required: false
 
-env:
-  TRIAL_NAME: ${{ github.event.inputs.trial_name }}
-  NEXTSTRAIN_DOCKER_IMAGE: ${{ github.event.inputs.image }}
-
 jobs:
   gisaid-21L:
-    runs-on: ubuntu-22.04
-    steps:
-    - uses: actions/checkout@v4
-
-    - uses: nextstrain/.github/actions/setup-nextstrain-cli@master
-
-    - name: Launch build
+    permissions:
+      id-token: write
+    uses: nextstrain/.github/.github/workflows/pathogen-repo-build.yaml@master
+    secrets: inherit
+    with:
+      runtime: aws-batch
+      env: |
+        TRIAL_NAME: ${{ github.event.inputs.trial_name }}
+        NEXTSTRAIN_DOCKER_IMAGE: ${{ github.event.inputs.image }}
       run: |
         set -x
 
@@ -46,7 +44,6 @@ jobs:
         fi
 
         nextstrain build \
-          --aws-batch \
           --detach \
           --cpus 72 \
           --memory 140GiB \
@@ -55,35 +52,4 @@ jobs:
             upload \
             --config "${config[@]}" \
             --profile nextstrain_profiles/nextstrain-gisaid-21L \
-            --set-threads tree=8 \
-        |& tee build-launch.log
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-
-    - name: Build info
-      run: |
-        if [[ "$TRIAL_NAME" ]]; then
-          echo "--> Trial name is: $TRIAL_NAME"
-          echo
-          echo "--> When completed, the following will be available:"
-          echo "build files: s3://nextstrain-ncov-private/trial/$TRIAL_NAME/"
-          echo "nextstrain URLs: https://nextstrain.org/staging/ncov/gisaid/21L/trial/$TRIAL_NAME/REGION_NAME/TIME_SPAN"
-          echo "e.g. https://nextstrain.org/staging/ncov/gisaid/21L/trial/$TRIAL_NAME/global/all-time"
-        else
-          echo "--> GISAID 21L phylogenetic analysis rebuilding on AWS"
-          echo
-          echo "--> When completed, the following will be updated:"
-          echo "build files: s3://nextstrain-ncov-private/REGION_NAME/"
-          echo "nextstrain URLs: https://nextstrain.org/ncov/gisaid/21L/REGION_NAME/TIME_SPAN"
-          echo "e.g. https://nextstrain.org/ncov/gisaid/21L/global/all-time"
-        fi
-        echo
-        echo "--> You can attach to this AWS job via:"
-        tail -n1 build-launch.log
-        echo
-        JOBID=$( tail -n1 build-launch.log | sed -E 's/.+attach ([-a-f0-9]+).+/\1/' )
-        echo "--> View this job in the AWS console via"
-        echo "    https://console.aws.amazon.com/batch/home?region=us-east-1#jobs/detail/${JOBID}"
-        echo
+            --set-threads tree=8
