@@ -34040,6 +34040,7 @@ clade_membership	23H (HK.3)
 clade_membership	23I (BA.2.86)
 clade_membership	24A (JN.1)
 clade_membership	24B (JN.1.11.1)
+clade_membership	24C (KP.3)
 
 ################
 
@@ -34060,6 +34061,10 @@ emerging_lineage	HV.1
 emerging_lienage	GW.5
 emerging_lineage	JD.1
 emerging_lineage	XBB.1.41
+emerging_lineage	LB.1
+emerging_lineage	KP.2.3
+emerging_lineage	JN.1.50
+emerging_lineage	XDY
 
 ################
 
