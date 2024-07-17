@@ -1,0 +1,3 @@
+# Allow Git to decide if file is text or binary
+# Always use LF line endings even on Windows.
+* text=auto eol=lf
