@@ -9,7 +9,7 @@ dependencies:
     - recommonmark
     - requests
     - sphinx
-    - docutils<0.18
+    - docutils
     - sphinx-argparse
     - sphinx-autobuild
     - sphinx-copybutton
