@@ -20,7 +20,9 @@ genes: ["ORF1a", "ORF1b", "S", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF7b", "ORF
 use_nextalign: true
 include_hcov19_prefix: True
 
+# use custom include file that doesn't specify Wuhan/1
 files:
+  include: "nextstrain_profiles/nextstrain-gisaid/include.txt"
   description: "nextstrain_profiles/nextstrain-gisaid/nextstrain_description.md"
 
 inputs:
@@ -927,6 +929,10 @@ subsampling:
       group_by: "division year month"
       max_sequences: 75
       exclude: "--exclude-where 'region!=Oceania'"
+
+# root via temporal fit rather than explicit outgroup
+refine:
+  root: "best"
 
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
