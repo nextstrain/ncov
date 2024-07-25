@@ -2,6 +2,7 @@ auspice_json_prefix: ncov_gisaid
 
 # Define custom rules for pre- or post-standard workflow processing of data.
 custom_rules:
+  - workflow/snakemake_rules/prefilter.smk
   - workflow/snakemake_rules/export_for_nextstrain.smk
 
 # These parameters are only used by the `export_for_nextstrain` rule and shouldn't need to be modified.
@@ -25,7 +26,7 @@ files:
 
 inputs:
   - name: gisaid
-    metadata: "s3://nextstrain-ncov-private/metadata.tsv.zst"
+    metadata: "data/prefiltered_metadata.tsv"
     aligned: "s3://nextstrain-ncov-private/aligned.fasta.zst"
     skip_sanitize_metadata: true
 
