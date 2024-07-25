@@ -174,14 +174,14 @@ subsampling:
     focal_early:
       group_by: "division year month"
       max_sequences: 256
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
       max_sequences: 64
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
@@ -207,14 +207,14 @@ subsampling:
     focal_early:
       group_by: "division year month"
       max_sequences: 256
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
       max_sequences: 64
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
@@ -240,14 +240,14 @@ subsampling:
     focal_early:
       group_by: "division year month"
       max_sequences: 256
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
       max_sequences: 64
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
@@ -291,28 +291,28 @@ subsampling:
     asia_early:
       group_by: "division year month"
       max_sequences: 120
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
     # Early focal samples for China
     china_early:
       group_by: "division year month"
       max_sequences: 80
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'country!=China'"
     # Early focal samples for India
     india_early:
       group_by: "division year month"
       max_sequences: 80
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'country!=India'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
       max_sequences: 70
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region=Asia'"
     # Recent focal samples for Asia
@@ -352,28 +352,28 @@ subsampling:
     asia_early:
       group_by: "division year month"
       max_sequences: 120
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
     # Early focal samples for China
     china_early:
       group_by: "division year month"
       max_sequences: 80
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'country!=China'"
     # Early focal samples for India
     india_early:
       group_by: "division year month"
       max_sequences: 80
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'country!=India'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
       max_sequences: 70
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region=Asia'"
     # Recent focal samples for Asia
@@ -413,28 +413,28 @@ subsampling:
     asia_early:
       group_by: "division year month"
       max_sequences: 120
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
     # Early focal samples for China
     china_early:
       group_by: "division year month"
       max_sequences: 80
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'country!=China'"
     # Early focal samples for India
     india_early:
       group_by: "division year month"
       max_sequences: 80
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'country!=India'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
       max_sequences: 70
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region=Asia'"
     # Recent focal samples for Asia
@@ -500,14 +500,14 @@ subsampling:
     focal_early:
       group_by: "country year month"
       max_sequences: 256
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
       max_sequences: 64
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
@@ -533,14 +533,14 @@ subsampling:
     focal_early:
       group_by: "country year month"
       max_sequences: 256
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
       max_sequences: 64
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
@@ -566,14 +566,14 @@ subsampling:
     focal_early:
       group_by: "country year month"
       max_sequences: 256
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
       max_sequences: 64
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
@@ -609,55 +609,55 @@ subsampling:
   # ~4500 total (expect ~3400)
   # 10:1 ratio of recent to early
   # recent is present to 1m, n = 4120
-  # early is 1m to 25m, n = 412
+  # early is 1m to 13M, n = 412
   # regions are proportional to population size
   nextstrain_global_1m:
     africa_early:
       group_by: "country year month"
       max_sequences: 60
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region!=Africa'"
     asia_early:
       group_by: "country year month"
       max_sequences: 80
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
     china_early:
       group_by: "division year month"
       max_sequences: 70
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'country!=China'"
     europe_early:
       group_by: "country year month"
       max_sequences: 50
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region!=Europe'"
     india_early:
       group_by: "division year month"
       max_sequences: 70
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'country!=India'"
     north_america_early:
       group_by: "division year month"
       max_sequences: 40
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region!=North America'"
     south_america_early:
       group_by: "country year month"
       max_sequences: 36
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region!=South America'"
     oceania_early:
       group_by: "division year month"
       max_sequences: 6
-      min_date: "--min-date 25M"
+      min_date: "--min-date 13M"
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region!=Oceania'"
     africa_recent:
@@ -705,55 +705,55 @@ subsampling:
   # ~4500 total (expect ~3400)
   # 10:1 ratio of recent to early
   # recent is present to 2m, n = 4120
-  # early is 2m to 26m, n = 412
+  # early is 2m to 14M, n = 412
   # regions are proportional to population size
   nextstrain_global_2m:
     africa_early:
       group_by: "country year month"
       max_sequences: 60
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!=Africa'"
     asia_early:
       group_by: "country year month"
       max_sequences: 80
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
     china_early:
       group_by: "division year month"
       max_sequences: 70
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'country!=China'"
     europe_early:
       group_by: "country year month"
       max_sequences: 50
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!=Europe'"
     india_early:
       group_by: "division year month"
       max_sequences: 70
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'country!=India'"
     north_america_early:
       group_by: "division year month"
       max_sequences: 40
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!=North America'"
     south_america_early:
       group_by: "country year month"
       max_sequences: 36
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!=South America'"
     oceania_early:
       group_by: "division year month"
       max_sequences: 6
-      min_date: "--min-date 26M"
+      min_date: "--min-date 14M"
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!=Oceania'"
     africa_recent:
@@ -801,55 +801,55 @@ subsampling:
   # ~4500 total (expect ~3400)
   # 10:1 ratio of recent to early
   # recent is present to 6m, n = 4120
-  # early is 6m to 30m, n = 412
+  # early is 6m to 18M, n = 412
   # regions are proportional to population size
   nextstrain_global_6m:
     africa_early:
       group_by: "country year month"
       max_sequences: 60
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region!=Africa'"
     asia_early:
       group_by: "country year month"
       max_sequences: 80
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
     china_early:
       group_by: "division year month"
       max_sequences: 70
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'country!=China'"
     europe_early:
       group_by: "country year month"
       max_sequences: 50
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region!=Europe'"
     india_early:
       group_by: "division year month"
       max_sequences: 70
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'country!=India'"
     north_america_early:
       group_by: "division year month"
       max_sequences: 40
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region!=North America'"
     south_america_early:
       group_by: "country year month"
       max_sequences: 36
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region!=South America'"
     oceania_early:
       group_by: "division year month"
       max_sequences: 6
-      min_date: "--min-date 30M"
+      min_date: "--min-date 18M"
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region!=Oceania'"
     africa_recent:
