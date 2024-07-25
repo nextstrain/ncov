@@ -1,7 +1,7 @@
 rule clades_21L:
     input:
         clades = "defaults/clades.tsv",
-        exclude_clades = "nextstrain_profiles/nextstrain-gisaid-21L/exclude-clades.tsv",
+        exclude_clades = "nextstrain_profiles/nextstrain-open-21L/exclude-clades.tsv",
     output:
         clades = "results/clades_21L.tsv",
     log: "logs/clades_21L.txt"
@@ -21,15 +21,15 @@ rule clades_21L:
         """
 
 
-rule gisaid_21L_metadata:
+rule open_21L_metadata:
     input:
         references = "data/references_metadata.tsv",
-        metadata = path_or_url("s3://nextstrain-ncov-private/metadata.tsv.zst", keep_local=True),
-        exclude_clades = "nextstrain_profiles/nextstrain-gisaid-21L/exclude-clades.tsv",
+        metadata = path_or_url("s3://nextstrain-data/files/ncov/open/metadata.tsv.zst", keep_local=True),
+        exclude_clades = "nextstrain_profiles/nextstrain-open-21L/exclude-clades.tsv",
     output:
-        metadata = "results/gisaid_21L_metadata.tsv.zst",
-    log: "logs/gisaid_21L_metadata.txt"
-    benchmark: "benchmarks/gisaid_21L_metadata.txt"
+        metadata = "results/open_21L_metadata.tsv.zst",
+    log: "logs/open_21L_metadata.txt"
+    benchmark: "benchmarks/open_21L_metadata.txt"
     conda: config["conda_environment"]
     threads: 8
     shell:
@@ -56,13 +56,13 @@ rule gisaid_21L_metadata:
         """
 
 
-rule gisaid_21L_strains:
+rule open_21L_strains:
     input:
-        metadata = "results/gisaid_21L_metadata.tsv.zst",
+        metadata = "results/open_21L_metadata.tsv.zst",
     output:
-        strains = "results/gisaid_21L_strains.txt",
-    log: "logs/gisaid_21L_strains.txt"
-    benchmark: "benchmarks/gisaid_21L_strains.txt"
+        strains = "results/open_21L_strains.txt",
+    log: "logs/open_21L_strains.txt"
+    benchmark: "benchmarks/open_21L_strains.txt"
     conda: config["conda_environment"]
     shell:
         r"""
@@ -76,15 +76,15 @@ rule gisaid_21L_strains:
         """
 
 
-rule gisaid_21L_aligned:
+rule open_21L_aligned:
     input:
         references = "data/references_sequences.fasta",
-        aligned = path_or_url("s3://nextstrain-ncov-private/aligned.fasta.zst", keep_local=True),
-        strains = "results/gisaid_21L_strains.txt",
+        aligned = path_or_url("s3://nextstrain-data/files/ncov/open/aligned.fasta.zst", keep_local=True),
+        strains = "results/open_21L_strains.txt",
     output:
-        aligned = "results/gisaid_21L_aligned.fasta.zst",
-    log: "logs/gisaid_21L_aligned.txt"
-    benchmark: "benchmarks/gisaid_21L_aligned.txt"
+        aligned = "results/open_21L_aligned.fasta.zst",
+    log: "logs/open_21L_aligned.txt"
+    benchmark: "benchmarks/open_21L_aligned.txt"
     conda: config["conda_environment"]
     threads: 8
     shell:

@@ -1,39 +1,39 @@
-auspice_json_prefix: ncov_gisaid_21L
+auspice_json_prefix: ncov_open_21L
 
 # Define custom rules for pre- or post-standard workflow processing of data.
 custom_rules:
   - workflow/snakemake_rules/export_for_nextstrain.smk
-  - nextstrain_profiles/nextstrain-gisaid-21L/prefilter.smk
+  - nextstrain_profiles/nextstrain-open-21L/prefilter.smk
 
 # These parameters are only used by the `export_for_nextstrain` rule and shouldn't need to be modified.
 # To modify the s3 _source_ bucket, specify this directly in the `inputs` section of the config.
 # P.S. These are intentionally set as top-level keys as this allows command-line overrides.
-S3_DST_BUCKET: "nextstrain-ncov-private"
+S3_DST_BUCKET: "nextstrain-data/files/ncov/open"
 S3_DST_COMPRESSION: "xz"
-S3_DST_ORIGINS: ["gisaid"]
+S3_DST_ORIGINS: ["open"]
 
 # Deploy and Slack options are related to Nextstrain live builds and don't need to be modified for local builds
 deploy_url: s3://nextstrain-data
 slack_token: ~
-slack_channel: "#ncov-gisaid-updates"
+slack_channel: "#ncov-genbank-updates"
 
 genes: ["ORF1a", "ORF1b", "S", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF7b", "ORF8", "N", "ORF9b"]
 use_nextalign: true
-include_hcov19_prefix: True
+include_hcov19_prefix: False
 
 files:
   # This file is produced by a custom clades_21L rule in our prefiltering rules
   # for this build.
   clades: "results/clades_21L.tsv"
-  include: "nextstrain_profiles/nextstrain-gisaid-21L/include.txt"
-  description: "nextstrain_profiles/nextstrain-gisaid-21L/nextstrain_description.md"
+  include: "nextstrain_profiles/nextstrain-open-21L/include.txt"
+  description: "nextstrain_profiles/nextstrain-open-21L/nextstrain_description.md"
 
 inputs:
-  - name: gisaid
+  - name: open
     # These two files are produced by our custom gisaid_21L prefiltering rules
     # for this build.
-    metadata: "results/gisaid_21L_metadata.tsv.zst"
-    aligned: "results/gisaid_21L_aligned.fasta.zst"
+    metadata: "results/open_21L_metadata.tsv.zst"
+    aligned: "results/open_21L_aligned.fasta.zst"
     skip_sanitize_metadata: true
 
 # Define locations for which builds should be created.
@@ -313,25 +313,25 @@ subsampling:
       exclude: "--exclude-where 'region=Asia'"
     # Recent focal samples for Asia
     asia_recent:
-      group_by: "division week"
+      group_by: "division year month"
       max_sequences: 1200
       min_date: "--min-date 1M"
       exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
     # Recent focal samples for China
     china_recent:
-      group_by: "division week"
+      group_by: "division year month"
       max_sequences: 800
       max_date: "--min-date 1M"
       exclude: "--exclude-where 'country!=China'"
     # Recent focal samples for India
     india_recent:
-      group_by: "division week"
+      group_by: "division year month"
       max_sequences: 800
       max_date: "--min-date 1M"
       exclude: "--exclude-where 'country!=India'"
     # Early contextual samples from the rest of the world
     context_recent:
-      group_by: "country week"
+      group_by: "country year month"
       max_sequences: 700
       min_date: "--min-date 1M"
       exclude: "--exclude-where 'region=Asia'"
@@ -370,25 +370,25 @@ subsampling:
       exclude: "--exclude-where 'region=Asia'"
     # Recent focal samples for Asia
     asia_recent:
-      group_by: "division week"
+      group_by: "division year month"
       max_sequences: 1200
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
     # Recent focal samples for China
     china_recent:
-      group_by: "division week"
+      group_by: "division year month"
       max_sequences: 800
       max_date: "--min-date 2M"
       exclude: "--exclude-where 'country!=China'"
     # Recent focal samples for India
     india_recent:
-      group_by: "division week"
+      group_by: "division year month"
       max_sequences: 800
       max_date: "--min-date 2M"
       exclude: "--exclude-where 'country!=India'"
     # Early contextual samples from the rest of the world
     context_recent:
-      group_by: "country week"
+      group_by: "country year month"
       max_sequences: 700
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region=Asia'"
@@ -985,7 +985,7 @@ frequencies:
   reference:
     min_date: "2022-01-01"
     narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
+    recent_days_to_censor: 7  
   global_1m:
     min_date: "1M"
     narrow_bandwidth: 0.019
