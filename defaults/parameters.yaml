@@ -134,6 +134,10 @@ refine:
 ancestral:
   inference: "joint"
 
+# Gray out clades that are older than 18 months when constructing a color ramp
+colors:
+  clade_recency: 18
+
 # Frequencies settings
 frequencies:
 
