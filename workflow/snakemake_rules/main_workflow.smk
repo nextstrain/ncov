@@ -1105,6 +1105,8 @@ rule colors:
         color_schemes = config["files"]["color_schemes"],
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
         clades = rules.clades.output.clade_data
+    params:
+        clade_recency = config["colors"]["clade_recency"]
     output:
         colors = "results/{build_name}/colors.tsv"
     log:
@@ -1124,6 +1126,7 @@ rule colors:
             --color-schemes {input.color_schemes} \
             --output {output.colors} \
             --clade-node-data {input.clades} \
+            --clade-recency {params.clade_recency} \
             --metadata {input.metadata} 2>&1 | tee {log}
         """
 
