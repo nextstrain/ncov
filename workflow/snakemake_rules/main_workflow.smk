@@ -1164,7 +1164,7 @@ rule tip_frequencies:
         max_date = _get_max_date_for_frequencies,
         pivot_interval = config["frequencies"]["pivot_interval"],
         pivot_interval_units = config["frequencies"]["pivot_interval_units"],
-        narrow_bandwidth = config["frequencies"]["narrow_bandwidth"],
+        narrow_bandwidth = _get_narrow_bandwidth_for_wildcards,
         proportion_wide = config["frequencies"]["proportion_wide"]
     resources:
         # Memory use scales primarily with the size of the metadata file.
