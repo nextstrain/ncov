@@ -328,6 +328,68 @@ subsampling:
 
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
+colors:
+  reference:
+    clade_recency: ""
+  global_1m:
+    clade_recency: 1
+  global_2m:
+    clade_recency: 2
+  global_6m:
+    clade_recency: 6
+  global_all-time:
+    clade_recency: ""
+  africa_1m:
+    clade_recency: 1
+  africa_2m:
+    clade_recency: 2
+  africa_6m:
+    clade_recency: 6
+  africa_all-time:
+    clade_recency: ""
+  asia_1m:
+    clade_recency: 1
+  asia_2m:
+    clade_recency: 2
+  asia_6m:
+    clade_recency: 6
+  asia_all-time:
+    clade_recency: ""
+  europe_1m:
+    clade_recency: 1
+  europe_2m:
+    clade_recency: 2
+  europe_6m:
+    clade_recency: 6
+  europe_all-time:
+    clade_recency: ""
+  north-america_1m:
+    clade_recency: 1
+  north-america_2m:
+    clade_recency: 2
+  north-america_6m:
+    clade_recency: 6
+  north-america_all-time:
+    clade_recency: ""
+  oceania_1m:
+    clade_recency: 1
+  oceania_2m:
+    clade_recency: 2
+  oceania_6m:
+    clade_recency: 6
+  oceania_all-time:
+    clade_recency: ""
+  south-america_1m:
+    clade_recency: 1
+  south-america_2m:
+    clade_recency: 2
+  south-america_6m:
+    clade_recency: 6
+  south-america_all-time:
+    clade_recency: ""
+
+# if different traits should be reconstructed for some builds, specify here
+# otherwise the default trait config in defaults/parameters.yaml will used
 traits:
   reference:
     sampling_bias_correction: 2.5

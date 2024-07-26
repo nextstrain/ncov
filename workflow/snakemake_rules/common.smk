@@ -168,6 +168,12 @@ def _get_metadata_by_wildcards(wildcards):
     """
     return _get_metadata_by_build_name(wildcards.build_name)
 
+def _get_clade_recency_for_wildcards(wildcards):
+    if wildcards.build_name in config["colors"] and 'clade_recency' in config["colors"][wildcards.build_name]:
+        return config["colors"][wildcards.build_name]["clade_recency"]
+    else:
+        return config["colors"]["default"]["clade_recency"]
+
 def _get_trait_columns_by_wildcards(wildcards):
     if wildcards.build_name in config["traits"]:
         return config["traits"][wildcards.build_name]["columns"]

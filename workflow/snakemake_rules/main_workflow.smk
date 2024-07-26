@@ -1106,7 +1106,7 @@ rule colors:
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
         clades = rules.clades.output.clade_data
     params:
-        clade_recency = config["colors"]["clade_recency"]
+        clade_recency = _get_clade_recency_for_wildcards
     output:
         colors = "results/{build_name}/colors.tsv"
     log:
