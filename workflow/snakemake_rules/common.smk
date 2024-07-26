@@ -207,6 +207,17 @@ def _get_max_date_for_frequencies(wildcards):
             datetime.date.today() - offset
         )
 
+def _get_narrow_bandwidth_for_wildcards(wildcards):
+    # check if builds.yaml contains frequencies:{build_name}:narrow_bandwidth
+    if wildcards.build_name in config["frequencies"] and 'narrow_bandwidth' in config["frequencies"][wildcards.build_name]:
+        return config["frequencies"][wildcards.build_name]["narrow_bandwidth"]
+    # check if parameters.yaml contains frequencies:narrow_bandwidth
+    elif "frequencies" in config and "narrow_bandwidth" in config["frequencies"]:
+        return config["frequencies"]["narrow_bandwidth"]
+    # else return augur frequencies default value
+    else:
+        return 0.0833
+
 def _get_upload_inputs(wildcards):
     # Do whatever the configuration says if it has opinions.
     if "upload" in config:
