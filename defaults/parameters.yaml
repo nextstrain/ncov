@@ -134,6 +134,10 @@ refine:
 ancestral:
   inference: "joint"
 
+colors:
+  # Months back to color clades, if "" then all clades are colored
+  clade_recency: ""
+
 # Frequencies settings
 frequencies:
 
