@@ -200,7 +200,7 @@ subsampling
 -----------
 
 -  type: object
--  description: Schemes for subsampling data prior to phylogenetic inference to avoid sampling bias or focus an analysis on specific spatial and/or temporal scales. `See the SARS-CoV-2 tutorial for more details on defining subsampling schemes <../reference/customizing-analysis.html#subsampling>`__.
+-  description: Schemes for subsampling data prior to phylogenetic inference to avoid sampling bias or focus an analysis on specific spatial and/or temporal scales. See the :doc:`genomic surveillance tutorial <../tutorial/genomic-surveillance>` for an example.
 
 Predefined subsampling schemes are:
 
