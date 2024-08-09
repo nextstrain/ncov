@@ -73,7 +73,7 @@ Additional resources
 
    - `An applied genomic epidemiological handbook <https://alliblk.github.io/genepi-book/intro.html>`__ by Allison Black and Gytis Dudas
    - `Genomic Epidemiology Seminar Series <https://czgenepi.org/resources>`__ by Chan Zuckerberg Initiative Genomic Epidemiology (CZ GEN EPI)
-   - `COVID-19 Genomic Epidemiology Toolkit <https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html>`__ by Centers for Disease Control and Prevention (CDC)
+   - `COVID-19 Genomic Epidemiology Toolkit <https://www.cdc.gov/advanced-molecular-detection/php/training/?CDC_AAref_Val=https://www.cdc.gov/amd/training/covid-19-gen-epi-toolkit.html>`__ by Centers for Disease Control and Prevention (CDC)
 
 - :doc:`Review all possible options to configure your SARS-CoV-2 analyses with Nextstrain <../reference/workflow-config-file>`.
 - Watch `this 1-hour video overview <https://youtu.be/m4_F2tG58Pc>`__ by Heather Blankenship on how to deploy Nextstrain for a Public Health lab.
