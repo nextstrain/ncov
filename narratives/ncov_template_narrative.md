@@ -9,7 +9,7 @@ authorLinks:
   - https://author2.io
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 
-license: "CC-BY"  
+license: "CC-BY"
 licenseLink: "https://creativecommons.org/licenses/by/4.0/"
 dataset: "https://nextstrain.org/ncov/gisaid/global/6m?legend=closed" # must be accessible to the auspice server running the narrative
 
@@ -42,6 +42,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Example using markdown for the right side  
+# Example using markdown for the right side
 We can also replace the right side view with whatever markdown contents we choose, including links, images, etc.
 ```
