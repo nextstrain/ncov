@@ -9,9 +9,9 @@ authorLinks:
   - https://author2.io
 affiliations: "Fred Hutch, Seattle, USA; Biozentrum, Basel, Switzerland; CZI, CA, USA"
 
-license: "CC-BY"  
+license: "CC-BY"
 licenseLink: "https://creativecommons.org/licenses/by/4.0/"
-dataset: "https://nextstrain.org/ncov/global?legend=closed" # must be accessible to the auspice server running the narrative
+dataset: "https://nextstrain.org/ncov/gisaid/global/6m?legend=closed" # must be accessible to the auspice server running the narrative
 
 abstract: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 ---
@@ -23,7 +23,7 @@ abstract: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius
 <!-- ############ SLIDE BREAK ############# -->
 <!-- SLIDE 1 -->
 <!--  Each slide MUST start with a link to a specific view of the dataset (must match the `dataset` specified above) -->
-# [SLIDE 1 TITLE](https://nextstrain.org/ncov/global?c=country)
+# [SLIDE 1 TITLE](https://nextstrain.org/ncov/gisaid/global/6m?c=country)
 
 <!-- This is left-side text -->
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -33,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 <!-- ############ SLIDE BREAK ############# -->
 <!-- SLIDE 2 -->
-# [SLIDE 2 TITLE](https://nextstrain.org/ncov/global?c=region)
+# [SLIDE 2 TITLE](https://nextstrain.org/ncov/gisaid/global/6m?c=region)
 
 <!-- This is the left-side text -->
 
@@ -42,6 +42,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 <!-- This is right-side text -->
 ```auspiceMainDisplayMarkdown
-# Example using markdown for the right side  
+# Example using markdown for the right side
 We can also replace the right side view with whatever markdown contents we choose, including links, images, etc.
 ```
