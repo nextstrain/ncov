@@ -10,7 +10,7 @@ Introductory resources
 
 -  How to interact with Auspice (the engine for viewing trees): https://neherlab.org/201901_krisp_auspice.html
 
--  Overview of genomic epidemiology (older, but still relevant and clear): http://evolve.zoo.ox.ac.uk/Evolve/Oliver_Pybus_files/EvolAnalysisOfDynamicsOfViruses.pdf
+-  Overview of genomic epidemiology (older, but still relevant and clear): https://www.nature.com/articles/nrg2583
 
 Case Studies
 ------------
