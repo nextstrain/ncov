@@ -139,5 +139,7 @@ linkcheck_anchors_ignore_for_url = [
     r'^https://app\.terra\.bio/',
     # client is blocked but links work
     r'^https://www\.science\.org/doi/10\.1126/science\.abb9263',
-
+    # linkchecker doesn't support text fragments, and we link to one
+    # anchored to this page
+    r'^https://en\.wikipedia\.org/wiki/Consensus_sequence',
 ]
