@@ -15,7 +15,7 @@ Prerequisites
 -------------
 
 1. :doc:`custom-data`. This tutorial introduces concepts expanded by the following tutorial.
-2. `Register for a GISAID account <https://www.gisaid.org/registration/register/>`_, if you do not have one yet. However, registration may take a few days. Follow :doc:`alternative data preparation methods <../guides/data-prep/index>` in place of :ref:`genomic-surveillance-curate-data-from-gisaid`, if you wish to continue the following tutorial in the meantime.
+2. `Register for a GISAID account <https://www.gisaid.org/registration/>`_, if you do not have one yet. However, registration may take a few days. Follow :doc:`alternative data preparation methods <../guides/data-prep/index>` in place of :ref:`genomic-surveillance-curate-data-from-gisaid`, if you wish to continue the following tutorial in the meantime.
 
 Setup
 -----
