@@ -30,7 +30,7 @@ Curate data from GISAID
 
 We will retrieve 10 sequences from GISAID's EpiCoV database.
 
-1. Navigate to `GISAID <https://www.gisaid.org/>`__ and select **Login**.
+1. Navigate to `GISAID <https://gisaid.org/>`__ and select **Login**.
 
    .. image:: ../images/gisaid-homepage.png
       :width: 400

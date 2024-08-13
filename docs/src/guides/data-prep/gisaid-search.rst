@@ -9,7 +9,7 @@ The following instructions describe how to curate data for a region-specific ana
 Login to GISAID
 ---------------
 
-Navigate to `GISAID (gisaid.org) <https://www.gisaid.org/>`__ and select the “Login” link.
+Navigate to `GISAID (gisaid.org) <https://gisaid.org/>`__ and select the “Login” link.
 
 .. figure:: ../../images/gisaid-homepage.png
    :alt: GISAID homepage with login link
