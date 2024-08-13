@@ -56,7 +56,7 @@ When your browser connects to auspice.us, it downloads from the server a version
 Option 2: Nextstrain community pages
 ------------------------------------
 
--  **Example:** `CZBiohub's California COVID Tracker <https://nextstrain.org/community/czbiohub/covidtracker/>`__
+-  **Example:** `ESR-NZ's "GenomicsNarrativeSARSCoV2" community builds <https://nextstrain.org/community/ESR-NZ/GenomicsNarrativeSARSCoV2>`__
 -  **Advantages:** Fully featured, plug-and-play visualization of any JSON file hosted on Github.
 -  **Limitations:** Only available for publicly viewable JSON files in public repositories.
 
