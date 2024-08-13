@@ -126,8 +126,10 @@ linkcheck_ignore = [
     # they block the client, probably anti-scraping measure
     r'^https://czgenepi\.org/resources',
     r'^https://science\.sciencemag\.org/content/early/2020/06/05/science\.abb9263',
-    # FIXME https://github.com/nextstrain/ncov/issues/1136
-    r'https://nextstrain.org/community/czbiohub/covidtracker/',
+    # this link is correct but the lack of a top-level dataset means
+    # it 404s initially — because the point of this link is showing
+    # the community page, allow it to fail here:
+    r'^https://nextstrain\.org/community/ESR-NZ/GenomicsNarrativeSARSCoV2$'
 ]
 linkcheck_anchors_ignore_for_url = [
     # Github uses anchor-looking links for highlighting lines but
