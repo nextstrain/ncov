@@ -34,7 +34,7 @@ Within these major clades, we subclades, which we will label by their parent cla
 Current Clades
 --------------
 
-You can view the current clades on the Global SARS-CoV-2 Nextstrain tree `here <https://nextstrain.org/ncov/global?branchLabel=clade&c=clade_membership>`__.
+You can view the current clades on the `GISAID reference dataset <https://nextstrain.org/ncov/gisaid/reference?branchLabel=clade&c=clade_membership>`__ or `open reference dataset <https://nextstrain.org/ncov/open/reference?branchLabel=clade&c=clade_membership>`__.
 
 Identifying Nextstrain Clades
 -----------------------------
