@@ -34,21 +34,7 @@ Within these major clades, we subclades, which we will label by their parent cla
 Current Clades
 --------------
 
-+-----------------+--------------------------------------------+-------------------------+-------------------------+
-| Clade           | Primary Countries                          | Mutations               | Max Frequency           |
-+=================+============================================+=========================+=========================+
-| 19A             | Asia: China/Thailand                       | Root clade              | 65-47% Globally in Jan  |
-+-----------------+--------------------------------------------+-------------------------+-------------------------+
-| 19B             | Asia: China                                | C8782T T28144C          | 28-33% Globally in Jan  |
-+-----------------+--------------------------------------------+-------------------------+-------------------------+
-| 20A             | N America/Europe/Asia: USA, Belgium, India | C14408T A23403G         | 41-46% Globally Apr-May |
-+-----------------+--------------------------------------------+-------------------------+-------------------------+
-| 20B             | Europe: UK, Belgium, Sweden                | G28881A G28882A G28883C | 19-20% Globally Mar-Apr |
-+-----------------+--------------------------------------------+-------------------------+-------------------------+
-| 20C             | N America: USA                             | C1059T G25563T          | 19-21% Globally Apr     |
-+-----------------+--------------------------------------------+-------------------------+-------------------------+
-
-You can view the current clades on the Global SARS-CoV-2 Nextstrain tree `here <https://nextstrain.org/ncov/global?branchLabel=clade&c=clade_membership>`__.
+You can view the current clades on the `GISAID reference dataset <https://nextstrain.org/ncov/gisaid/reference?branchLabel=clade&c=clade_membership>`__ or `open reference dataset <https://nextstrain.org/ncov/open/reference?branchLabel=clade&c=clade_membership>`__.
 
 Identifying Nextstrain Clades
 -----------------------------
