@@ -15,6 +15,8 @@ Primary configuration
 Parameters in this section define the main inputs and outputs of the workflow, as well as the commonly used ``subsampling`` rule.
 Often these will be the only parameters you need to modify.
 
+.. _inputs:
+
 inputs
 ------
 
@@ -198,7 +200,7 @@ subsampling
 -----------
 
 -  type: object
--  description: Schemes for subsampling data prior to phylogenetic inference to avoid sampling bias or focus an analysis on specific spatial and/or temporal scales. `See the SARS-CoV-2 tutorial for more details on defining subsampling schemes <../reference/customizing-analysis.html#subsampling>`__.
+-  description: Schemes for subsampling data prior to phylogenetic inference to avoid sampling bias or focus an analysis on specific spatial and/or temporal scales. See the :doc:`genomic surveillance tutorial <../tutorial/genomic-surveillance>` for an example.
 
 Predefined subsampling schemes are:
 
@@ -400,6 +402,7 @@ strip_strain_prefixes
 -  description: A list of prefixes to strip from strain names in metadata and sequence records to maintain consistent strain names when analyzing data from multiple sources.
 -  default: ``["hCoV-19/", "SARS-CoV-2/"]``
 
+.. _auspice_json_prefix:
 
 auspice_json_prefix
 -------------------
@@ -594,6 +597,8 @@ Per-Rule configuration
 
 Each top-level parameter here corresponds to a single Snakemake rule.
 Note that ``subsampling`` is a commonly used rule configuration which is described separately in the Primary configuration section.
+
+.. _sanitize_metadata:
 
 sanitize_metadata
 -----------------

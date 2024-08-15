@@ -10,7 +10,7 @@ Register for a GISAID account
 -----------------------------
 
 Some tutorials rely on data downloaded from `GISAID <https://gisaid.org/>`_.
-If you do not already have one, `register for a GISAID account <https://www.gisaid.org/registration/register/>`_ now.
+If you do not already have one, `register for a GISAID account <https://gisaid.org/registration/>`_ now.
 Registration may take a few days.
 
 Install Nextstrain components

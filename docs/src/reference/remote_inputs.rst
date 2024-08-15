@@ -27,7 +27,7 @@ Entire metadata & sequences data is uploaded from the ``ncov-ingest`` workflows 
 -  ``metadata.tsv.zst`` and ``metadata.tsv.gz``
 -  ``sequences.fasta.zst`` and ``sequences.fasta.xz``
 -  ``nextclade.tsv.zst`` and ``nextclade.tsv.gz``
--  ``aligned.fasta.zst`` and ``aligned.fasta.xz`` (Alignment via `Nextclade <https://docs.nextstrain.org/projects/nextclade/en/stable/user/output-files.html#aligned-nucleotide-sequences>`__. The default reference genome is `MN908947 <https://www.ncbi.nlm.nih.gov/nuccore/MN908947>`__ (Wuhan-Hu-1))
+-  ``aligned.fasta.zst`` and ``aligned.fasta.xz`` (Alignment via `Nextclade <https://docs.nextstrain.org/projects/nextclade/en/stable/user/output-files/02-nuc-alignment.html>`__. The default reference genome is `MN908947 <https://www.ncbi.nlm.nih.gov/nuccore/MN908947>`__ (Wuhan-Hu-1))
 -  ``additional_info.tsv.zst`` and ``additional_info.tsv.gz`` (GISAID only)
 -  ``flagged_metadata.txt.zst`` and ``flagged_metadata.txt.gz`` (GISAID only)
 

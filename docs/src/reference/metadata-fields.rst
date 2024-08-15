@@ -21,7 +21,7 @@ Name of the pathogen.
 Column 3: ``gisaid_epi_isl``
 --------------------------------------
 
-If this genome is shared via `GISAID <https://www.gisaid.org/>`__ then please include the EPI ISL here. In our example this is ``EPI_ISL_413490``.
+If this genome is shared via `GISAID <https://gisaid.org/>`__ then please include the EPI ISL here. In our example this is ``EPI_ISL_413490``.
 
 Column 4: ``genbank_accession``
 --------------------------------------
@@ -112,12 +112,12 @@ Sex of the patient from whom the sample was collected. This will show up in ausp
 Column 18: ``originating_lab``
 --------------------------------------
 
-Please see `GISAID <https://www.gisaid.org/help/publish-with-gisaid-references/>`__ for more information.
+Please see `GISAID <https://gisaid.org/publish/>`__ for more information.
 
 Column 19: ``submitting_lab``
 --------------------------------------
 
-Please see `GISAID <https://www.gisaid.org/help/publish-with-gisaid-references/>`__ for more information.
+Please see `GISAID <https://gisaid.org/publish/>`__ for more information.
 
 Column 20: ``authors``
 --------------------------------------
@@ -127,7 +127,7 @@ Author of the genome sequence, or the paper which announced this genome. Typical
 Column 21: ``url``
 --------------------------------------
 
-The URL, if available, pointing to the genome data. For most SARS-CoV-2 data this is https://www.gisaid.org.
+The URL, if available, pointing to the genome data. For most SARS-CoV-2 data this is https://gisaid.org.
 
 Column 22: ``title``
 --------------------------------------

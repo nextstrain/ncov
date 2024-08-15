@@ -107,7 +107,7 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
- - 11 August 2021: Add support for "Sequences" and "Patient status metadata" downloads from GISAID's search interface including [documentation in the tutorial of how to use these data](../guides/data-prep.html#curate-data-from-gisaid-search-and-downloads). ([#701](https://github.com/nextstrain/ncov/pull/701))
+ - 11 August 2021: Add support for "Sequences" and "Patient status metadata" downloads from GISAID's search interface including [documentation in the tutorial of how to use these data](https://docs.nextstrain.org/projects/ncov/en/latest/guides/data-prep/gisaid-search.html). ([#701](https://github.com/nextstrain/ncov/pull/701))
  - 6 August 2021: We've replaced the mechanisms that support remote file inputs (e.g. `s3://` URLs) to improve internal workflow structure, extend support to `gs://`, `http://`, and `https://` URLs, and expand support for compressed inputs.
    Our [remote file inputs documentation](remote_inputs) is updated to reflect the changes.
 
@@ -128,7 +128,7 @@ We also use this change log to document new features that maintain backward comp
 
 ## v7 (27 May 2021)
 
-For more details about this release, see [the configuration reference for the new "sanitize metadata" parameters](configuration.html#sanitize_metadata) and [the corresponding pull request](https://github.com/nextstrain/ncov/pull/640).
+For more details about this release, see [the configuration reference for the new "sanitize metadata" parameters](https://docs.nextstrain.org/projects/ncov/en/latest/reference/workflow-config-file.html#sanitize-metadata) and [the corresponding pull request](https://github.com/nextstrain/ncov/pull/640).
 
 ### Major changes
 
@@ -141,7 +141,7 @@ For more details about this release, see [the configuration reference for the ne
 
 ## New features since last version update
 
- - 25 May 2021: Support custom Auspice JSON prefixes with a new configuration parameter, `auspice_json_prefix`. [See the configuration reference for more details](configuration.html#auspice_json_prefix). ([#643](https://github.com/nextstrain/ncov/pull/643))
+ - 25 May 2021: Support custom Auspice JSON prefixes with a new configuration parameter, `auspice_json_prefix`. [See the configuration reference for more details](https://docs.nextstrain.org/projects/ncov/en/latest/reference/workflow-config-file.html#auspice-json-prefix). ([#643](https://github.com/nextstrain/ncov/pull/643))
 
 ## v6 (20 May 2021)
 
@@ -161,7 +161,7 @@ For more details about this release, see [the configuration reference for the ne
 
 ### Major changes
 
-- Drop support for old sequence/metadata inputs. This change removes support for the `config["sequences"]` and `config["metadata"]` starting points for the workflow in favor of the more flexible [`config["inputs"]` format](configuration.html#inputs).
+- Drop support for old sequence/metadata inputs. This change removes support for the `config["sequences"]` and `config["metadata"]` starting points for the workflow in favor of the more flexible [`config["inputs"]` format](https://docs.nextstrain.org/projects/ncov/en/latest/reference/workflow-config-file.html#inputs).
 - Use `nextalign` for alignment instead of `mafft`. This change completely removes support for `mafft` in favor of `nextalign`. Future versions may reinstate `mafft` support as part of `augur align` updates.
 
 ### Minor changes
@@ -188,7 +188,7 @@ For more details about this release, see [the configuration reference for the ne
 
 ## New features since last version update
 
-- 20 April 2021: Surface emerging lineage as a colorby. This replaces the rather stale color by "Emerging Clade" with a new color by "Emerging Lineage". This focuses on PANGO lineages that are of interest triangulated by [CoVariants](https://covariants.org/), [PANGO](https://cov-lineages.org/) international lineage reports, [CDC](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html) VUIs and VOCs and [PHE](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/975742/Variants_of_Concern_VOC_Technical_Briefing_8_England.pdf) VUIs and VOCs. The intention is for the listing at `emerging_lineages.tsv` to be updated frequently with new lineages added and no longer interesting lineages dropped. [#609](https://github.com/nextstrain/ncov/pull/609)
+- 20 April 2021: Surface emerging lineage as a colorby. This replaces the rather stale color by "Emerging Clade" with a new color by "Emerging Lineage". This focuses on PANGO lineages that are of interest triangulated by [CoVariants](https://covariants.org/), [PANGO](https://cov-lineages.org/) international lineage reports, [CDC](https://www.cdc.gov/covid/php/variants/index.html) VUIs and VOCs and [PHE](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/975742/Variants_of_Concern_VOC_Technical_Briefing_8_England.pdf) VUIs and VOCs. The intention is for the listing at `emerging_lineages.tsv` to be updated frequently with new lineages added and no longer interesting lineages dropped. [#609](https://github.com/nextstrain/ncov/pull/609)
 
 - 12 April 2021: Calculate current clade frequency and logistic growth rate across nodes in the phylogeny. This produces a new `logistic_growth.json` file and uses this file to add a coloring the final Auspice JSON. Implementation choices are discussed in PR [#595](https://github.com/nextstrain/ncov/pull/595).
 

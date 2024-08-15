@@ -113,3 +113,35 @@ intersphinx_mapping = {
     'auspice': ('https://docs.nextstrain.org/projects/auspice/en/stable', None),
     'snakemake': ('https://snakemake.readthedocs.io/en/stable', None),
 }
+
+# -- Linkchecking ------------------------------------------------------------
+
+linkcheck_ignore = [
+    # we have links to localhost for explanatory purposes; obviously
+    # they will never work in the linkchecker
+    r'^http://127\.0\.0\.1:\d+',
+    r'^http://localhost:\d+',
+    # the top level bucket link 404s
+    r'^https://data\.nextstrain\.org$',
+    # they block the client, probably anti-scraping measure
+    r'^https://czgenepi\.org/resources',
+    r'^https://science\.sciencemag\.org/content/early/2020/06/05/science\.abb9263',
+    # this link is correct but the lack of a top-level dataset means
+    # it 404s initially — because the point of this link is showing
+    # the community page, allow it to fail here:
+    r'^https://nextstrain\.org/community/ESR-NZ/GenomicsNarrativeSARSCoV2$'
+]
+linkcheck_anchors_ignore_for_url = [
+    # Github uses anchor-looking links for highlighting lines but
+    # handles the actual resolution with Javascript, so skip anchor
+    # checks for Github URLs:
+    r'^https://github\.com',
+    # you need to be logged in to see the anchor (and it looks like
+    # Terra is using it for redirecting more than anchoring too…)
+    r'^https://app\.terra\.bio/',
+    # client is blocked but links work
+    r'^https://www\.science\.org/doi/10\.1126/science\.abb9263',
+    # linkchecker doesn't support text fragments, and we link to one
+    # anchored to this page
+    r'^https://en\.wikipedia\.org/wiki/Consensus_sequence',
+]
