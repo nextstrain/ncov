@@ -41,7 +41,7 @@ Throw an error when metadata doesn't have any of the requested strain id columns
   >  --metadata-id-columns strain \
   >  --database-id-columns gisaid_epi_isl genbank_accession \
   >  --output "$TMP/metadata.tsv"
-  ERROR: None of the possible id columns (['strain']) were found in the metadata's columns ('Virus name', 'gender', 'date', 'gisaid_epi_isl')
+  ERROR: None of the possible id columns ('strain') were found in the metadata's columns ('Virus name', 'gender', 'date', 'gisaid_epi_isl')
   [1]
 
 Print a warning when metadata doesn't have any of the requested database id columns.
