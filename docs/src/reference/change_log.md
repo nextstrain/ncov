@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 22 August 2024: Use population-based weighted sampling for Asia builds. This requires a minimum Augur version of 25.3.0. [PR 1106](https://github.com/nextstrain/ncov/pull/1106)
+
 - 31 January 2024: Remove RBD-level related rules and files since this feature has been broken since May 2023 and is no longer relevant. [PR 1097](https://github.com/nextstrain/ncov/pull/1097)
 
 - 30 January 2024: Fix RBD-level coloring by updating clade label and clade parsing. [PR 1094](https://github.com/nextstrain/ncov/pull/1094)
