@@ -85,7 +85,7 @@ rule export_all_regions:
         mem_mb=lambda wildcards, input: 5 * int(input.metadata.size / 1024 / 1024)
     conda: config["conda_environment"]
     shell:
-        """
+        r"""
         python3 ./scripts/check_missing_locations.py \
             --metadata {input.metadata} \
             --colors {input.colors} \
@@ -113,7 +113,7 @@ rule mutation_summary:
         genes=config["genes"],
     conda: config["conda_environment"]
     shell:
-        """
+        r"""
         python3 scripts/mutation_summary.py \
             --alignment {input.alignment} \
             --insertions {input.insertions} \
@@ -345,7 +345,7 @@ rule dated_json:
         date = r"\d{4}-\d{2}-\d{2}"
     conda: config["conda_environment"]
     shell:
-        """
+        r"""
         cp {input.auspice_json} {output.dated_auspice_json}
         cp {input.tip_frequencies_json} {output.dated_tip_frequencies_json}
         cp {input.root_sequence_json} {output.dated_root_sequence_json}

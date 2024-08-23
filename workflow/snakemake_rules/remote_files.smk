@@ -78,7 +78,7 @@ def path_or_url(path_or_url, stay_on_remote = False, keep_local = False):
             input: path_or_url(config["sequences"])
             output: "results/aligned.fasta"
             shell:
-                '''
+                r'''
                 augur align --sequences {input} --output {output} …
                 '''
 
