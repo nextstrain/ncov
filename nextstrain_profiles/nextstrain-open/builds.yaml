@@ -272,7 +272,6 @@ subsampling:
       exclude: "--exclude-where 'region={region}'"
 
   # Custom subsampling logic for region Asia over 1m
-  # Grouping by division
   # Grouping by country weighted by population size
   # 4375 total
   # 4:1 ratio of recent to early
@@ -306,7 +305,6 @@ subsampling:
       exclude: "--exclude-where 'region=Asia'"
 
   # Custom subsampling logic for region Asia over 2m
-  # Grouping by division
   # Grouping by country weighted by population size
   # 4375 total
   # 4:1 ratio of recent to early
@@ -340,7 +338,6 @@ subsampling:
       exclude: "--exclude-where 'region=Asia'"
 
   # Custom subsampling logic for region Asia over 6m
-  # Grouping by division
   # Grouping by country weighted by population size
   # 4375 total
   # 4:1 ratio of recent to early
