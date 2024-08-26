@@ -293,7 +293,7 @@ subsampling:
       exclude: "--exclude-where 'region=Asia'"
     # Recent focal samples for Asia
     asia_recent:
-      group_by: "country year month"
+      group_by: "country week"
       group_by_weights: "defaults/population_weights.tsv"
       max_sequences: 2800
       min_date: "--min-date 1M"
@@ -327,7 +327,7 @@ subsampling:
       exclude: "--exclude-where 'region=Asia'"
     # Recent focal samples for Asia
     asia_recent:
-      group_by: "country year month"
+      group_by: "country week"
       group_by_weights: "defaults/population_weights.tsv"
       max_sequences: 2800
       min_date: "--min-date 2M"
