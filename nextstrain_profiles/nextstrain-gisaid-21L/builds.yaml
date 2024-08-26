@@ -77,19 +77,19 @@ builds:
     region: Africa
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Africa since pandemic start
   asia_1m:
-    subsampling_scheme: nextstrain_region_asia_grouped_by_division_1m
+    subsampling_scheme: nextstrain_region_asia_1m
     region: Asia
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia over the past month
   asia_2m:
-    subsampling_scheme: nextstrain_region_asia_grouped_by_division_2m
+    subsampling_scheme: nextstrain_region_asia_2m
     region: Asia
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia over the past 2 months
   asia_6m:
-    subsampling_scheme: nextstrain_region_asia_grouped_by_division_6m
+    subsampling_scheme: nextstrain_region_asia_6m
     region: Asia
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia over the past 6 months
   asia_all-time:
-    subsampling_scheme: nextstrain_region_asia_grouped_by_division_all_time
+    subsampling_scheme: nextstrain_region_asia_all_time
     region: Asia
     title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia since pandemic start
   europe_1m:
@@ -286,7 +286,7 @@ subsampling:
   # 4:1 ratio of recent to early
   # 4:1 ratio of focal to context
   # 3:2:2 proportions of Asia, China, India
-  nextstrain_region_asia_grouped_by_division_1m:
+  nextstrain_region_asia_1m:
     # Early focal samples for Asia
     asia_early:
       group_by: "division year month"
@@ -343,7 +343,7 @@ subsampling:
   # 4:1 ratio of recent to early
   # 4:1 ratio of focal to context
   # 3:2:2 proportions of Asia, China, India
-  nextstrain_region_asia_grouped_by_division_2m:
+  nextstrain_region_asia_2m:
     # Early focal samples for Asia
     asia_early:
       group_by: "division year month"
@@ -400,7 +400,7 @@ subsampling:
   # 4:1 ratio of recent to early
   # 4:1 ratio of focal to context
   # 3:2:2 proportions of Asia, China, India
-  nextstrain_region_asia_grouped_by_division_6m:
+  nextstrain_region_asia_6m:
     # Early focal samples for Asia
     asia_early:
       group_by: "division year month"
@@ -456,7 +456,7 @@ subsampling:
   # 4375 total
   # 4:1 ratio of focal to context
   # 3:2:2 proportions of Asia, China, India
-  nextstrain_region_asia_grouped_by_division_all_time:
+  nextstrain_region_asia_all_time:
     # Focal samples for Asia
     asia:
       group_by: "division year month"
