@@ -5,7 +5,7 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
-- 22 August 2024: Use population-based weighted sampling for Asia builds. This requires a minimum Augur version of 25.3.0. [PR 1106](https://github.com/nextstrain/ncov/pull/1106)
+- 30 September 2024: Use population-based weighted sampling for `nextstrain_profiles`. This requires a minimum Augur version of 25.3.0. PRs [1106](https://github.com/nextstrain/ncov/pull/1106), [1150](https://github.com/nextstrain/ncov/pull/1150), [1151](https://github.com/nextstrain/ncov/pull/1151)
 
 - 31 January 2024: Remove RBD-level related rules and files since this feature has been broken since May 2023 and is no longer relevant. [PR 1097](https://github.com/nextstrain/ncov/pull/1097)
 
