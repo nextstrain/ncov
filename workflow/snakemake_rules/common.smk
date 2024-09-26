@@ -172,9 +172,9 @@ def _get_clade_recency_for_wildcards(wildcards):
     # check if builds.yaml contains colors:{build_name}:clade_recency
     if wildcards.build_name in config["colors"] and 'clade_recency' in config["colors"][wildcards.build_name]:
         return config["colors"][wildcards.build_name]["clade_recency"]
-    # check if builds.yaml or parameters.yaml contains colors:clade_recency
-    elif "colors" in config and "clade_recency" in config["colors"]:
-        return config["colors"]["clade_recency"]
+    # check if builds.yaml or parameters.yaml contains colors:default:clade_recency
+    elif "colors" in config and "clade_recency" in config["colors"]["default"]:
+        return config["colors"]["default"]["clade_recency"]
     # else return sensible default value
     else:
         return "all"

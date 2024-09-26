@@ -329,7 +329,7 @@ subsampling:
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
 colors:
-  reference:
+  default:
     clade_recency: "all"
   global_1m:
     clade_recency: 1
@@ -337,56 +337,42 @@ colors:
     clade_recency: 2
   global_6m:
     clade_recency: 6
-  global_all-time:
-    clade_recency: "all"
   africa_1m:
     clade_recency: 1
   africa_2m:
     clade_recency: 2
   africa_6m:
     clade_recency: 6
-  africa_all-time:
-    clade_recency: "all"
   asia_1m:
     clade_recency: 1
   asia_2m:
     clade_recency: 2
   asia_6m:
     clade_recency: 6
-  asia_all-time:
-    clade_recency: "all"
   europe_1m:
     clade_recency: 1
   europe_2m:
     clade_recency: 2
   europe_6m:
     clade_recency: 6
-  europe_all-time:
-    clade_recency: "all"
   north-america_1m:
     clade_recency: 1
   north-america_2m:
     clade_recency: 2
   north-america_6m:
     clade_recency: 6
-  north-america_all-time:
-    clade_recency: "all"
   oceania_1m:
     clade_recency: 1
   oceania_2m:
     clade_recency: 2
   oceania_6m:
     clade_recency: 6
-  oceania_all-time:
-    clade_recency: "all"
   south-america_1m:
     clade_recency: 1
   south-america_2m:
     clade_recency: 2
   south-america_6m:
     clade_recency: 6
-  south-america_all-time:
-    clade_recency: "all"
 
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used

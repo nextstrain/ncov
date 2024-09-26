@@ -952,7 +952,7 @@ colors
 
    colors:
      default:
-       clade_recency: ""
+       clade_recency: "all"
      global-6m:
        # Override clade recency colors for "global-6m" build
        clade_recency: 6
@@ -966,8 +966,8 @@ clade_recency
 ~~~~~~~~~~~~~
 
 -  type: integer
--  description: if provided, restrict to clades found in tree within X months of present
--  default: ````
+-  description: if integer value is provided, restrict to clades found in tree within X months of present
+-  default: ``all``
 
 traits
 ------

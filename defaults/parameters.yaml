@@ -135,8 +135,10 @@ ancestral:
   inference: "joint"
 
 colors:
-  # Months back to color clades, if "" then all clades are colored
-  clade_recency: ""
+  # Months back to color clades, if "all" then all clades are colored
+  # Can be specified per build in builds.yaml
+  default:
+    clade_recency: "all"
 
 # Frequencies settings
 frequencies:
