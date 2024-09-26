@@ -177,6 +177,15 @@ def _get_clade_recency_for_wildcards(wildcards):
         return config["colors"]["clade_recency"]
     # else return sensible default value
     else:
+        return "all"
+
+def _get_clade_recency_argument(wildcards):
+    clade_recency_setting = _get_clade_recency_for_wildcards(wildcards)
+    if clade_recency_setting == "all":
+        return ""
+    elif isinstance(clade_recency_setting, int):
+        return "--clade-recency " + shquote(str(clade_recency_setting))
+    else:
         return ""
 
 def _get_trait_columns_by_wildcards(wildcards):

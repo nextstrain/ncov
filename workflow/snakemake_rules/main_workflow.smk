@@ -1106,7 +1106,7 @@ rule colors:
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
         clades = rules.clades.output.clade_data
     params:
-        clade_recency = _get_clade_recency_for_wildcards
+        clade_recency_argument = _get_clade_recency_argument
     output:
         colors = "results/{build_name}/colors.tsv"
     log:
@@ -1126,7 +1126,7 @@ rule colors:
             --color-schemes {input.color_schemes} \
             --output {output.colors} \
             --clade-node-data {input.clades} \
-            --clade-recency {params.clade_recency} \
+            {params.clade_recency_argument} \
             --metadata {input.metadata} 2>&1 | tee {log}
         """
 

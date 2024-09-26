@@ -25,7 +25,7 @@ if __name__ == '__main__':
     parser.add_argument('--color-schemes', type=str, required=True, help="input color schemes file")
     parser.add_argument('--metadata', type=str, help="if provided, restrict colors to only those found in metadata")
     parser.add_argument('--clade-node-data', type=str, help="if provided, restrict to only those clades found in tree")
-    parser.add_argument('--clade-recency', type=int, nargs='?', const=None, help="if provided, restrict to clades found in tree within X months of present")
+    parser.add_argument('--clade-recency', type=int, help="if provided, restrict to clades found in tree within X months of present")
     parser.add_argument('--output', type=str, required=True, help="output colors tsv")
     args = parser.parse_args()
 
