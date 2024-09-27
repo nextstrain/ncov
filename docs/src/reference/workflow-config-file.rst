@@ -983,12 +983,29 @@ columns
 
 frequencies
 -----------
-- Valid attributes:
+-  type: object
+-  description: Parameters for specifying tip frequency calculations via ``augur frequencies``
+-  examples:
+
+.. code:: yaml
+
+   frequencies:
+     pivot_interval_units: "weeks"
+     default:
+       min_date: "6M"
+       narrow_bandwidth: 0.038
+     global_1m:
+       min_date: "1M"
+       narrow_bandwidth: 0.019
+     global_2020_to_2022:
+       min_date: "2020-01-01"
+       max_date: "2022-01-01"
+       narrow_bandwidth: 0.076
+
+Each named traits configuration (``default`` or build-named) supports specification of ``min_date``, ``max_date`` and ``narrow_bandwidth``. Other parameters can only be specified across all builds.
 
 .. contents::
    :local:
-
-.. _min_date-1:
 
 min_date
 ~~~~~~~~

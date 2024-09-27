@@ -183,8 +183,8 @@ def _get_sampling_bias_correction_for_wildcards(wildcards):
 def _get_min_date_for_frequencies(wildcards):
     if wildcards.build_name in config["frequencies"] and "min_date" in config["frequencies"][wildcards.build_name]:
         return config["frequencies"][wildcards.build_name]["min_date"]
-    elif "frequencies" in config and "min_date" in config["frequencies"]:
-        return config["frequencies"]["min_date"]
+    elif "frequencies" in config and "min_date" in config["frequencies"]["default"]:
+        return config["frequencies"]["default"]["min_date"]
     else:
         # If not explicitly specified, default to 1 year back from the present
         min_date_cutoff = datetime.date.today() - datetime.timedelta(weeks=52)
@@ -195,8 +195,8 @@ def _get_min_date_for_frequencies(wildcards):
 def _get_max_date_for_frequencies(wildcards):
     if wildcards.build_name in config["frequencies"] and "max_date" in config["frequencies"][wildcards.build_name]:
         return config["frequencies"][wildcards.build_name]["max_date"]
-    elif "frequencies" in config and "max_date" in config["frequencies"]:
-        return config["frequencies"]["max_date"]
+    elif "frequencies" in config and "max_date" in config["frequencies"]["default"]:
+        return config["frequencies"]["default"]["max_date"]
     else:
         # Allow users to censor the N most recent days to minimize effects of
         # uneven recent sampling.
@@ -211,9 +211,9 @@ def _get_narrow_bandwidth_for_wildcards(wildcards):
     # check if builds.yaml contains frequencies:{build_name}:narrow_bandwidth
     if wildcards.build_name in config["frequencies"] and 'narrow_bandwidth' in config["frequencies"][wildcards.build_name]:
         return config["frequencies"][wildcards.build_name]["narrow_bandwidth"]
-    # check if parameters.yaml contains frequencies:narrow_bandwidth
-    elif "frequencies" in config and "narrow_bandwidth" in config["frequencies"]:
-        return config["frequencies"]["narrow_bandwidth"]
+    # check if parameters.yaml contains frequencies:default:narrow_bandwidth
+    elif "frequencies" in config and "narrow_bandwidth" in config["frequencies"]["default"]:
+        return config["frequencies"]["default"]["narrow_bandwidth"]
     # else return augur frequencies default value
     else:
         return 0.0833
