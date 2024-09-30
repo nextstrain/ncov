@@ -33,8 +33,6 @@ inputs:
 # For each build we specify a subsampling scheme via an explicit key.
 # These subsampling schemes are defined at the bottom of this file.
 # (They override the defaults)
-# North America and Oceania are subsampled at the "division" level
-# Africa, Asia, Europe and South America are subsampled at the "country" level
 #
 # Auspice config is specified in rule auspice_config in export_for_nextstrain.smk
 builds:
@@ -54,99 +52,99 @@ builds:
     subsampling_scheme: nextstrain_global_all_time
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally since pandemic start
   africa_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_1m
+    subsampling_scheme: nextstrain_region_1m
     region: Africa
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past month
   africa_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_2m
+    subsampling_scheme: nextstrain_region_2m
     region: Africa
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past 2 months
   africa_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_6m
+    subsampling_scheme: nextstrain_region_6m
     region: Africa
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past 6 months
   africa_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_country_all_time
+    subsampling_scheme: nextstrain_region_all_time
     region: Africa
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa since pandemic start
   asia_1m:
-    subsampling_scheme: nextstrain_region_asia_1m
+    subsampling_scheme: nextstrain_region_1m
     region: Asia
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia over the past month
   asia_2m:
-    subsampling_scheme: nextstrain_region_asia_2m
+    subsampling_scheme: nextstrain_region_2m
     region: Asia
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia over the past 2 months
   asia_6m:
-    subsampling_scheme: nextstrain_region_asia_6m
+    subsampling_scheme: nextstrain_region_6m
     region: Asia
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia over the past 6 months
   asia_all-time:
-    subsampling_scheme: nextstrain_region_asia_all_time
+    subsampling_scheme: nextstrain_region_all_time
     region: Asia
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia since pandemic start
   europe_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_1m
+    subsampling_scheme: nextstrain_region_1m
     region: Europe
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past month
   europe_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_2m
+    subsampling_scheme: nextstrain_region_2m
     region: Europe
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past 2 months
   europe_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_6m
+    subsampling_scheme: nextstrain_region_6m
     region: Europe
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past 6 months
   europe_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_country_all_time
+    subsampling_scheme: nextstrain_region_all_time
     region: Europe
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe since pandemic start
   north-america_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_1m
+    subsampling_scheme: nextstrain_region_1m
     region: North America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past month
   north-america_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_2m
+    subsampling_scheme: nextstrain_region_2m
     region: North America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past 2 months
   north-america_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_6m
+    subsampling_scheme: nextstrain_region_6m
     region: North America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past 6 months
   north-america_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_division_all_time
+    subsampling_scheme: nextstrain_region_all_time
     region: North America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America since pandemic start
   oceania_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_1m
+    subsampling_scheme: nextstrain_region_1m
     region: Oceania
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past month
   oceania_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_2m
+    subsampling_scheme: nextstrain_region_2m
     region: Oceania
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past 2 months
   oceania_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_division_6m
+    subsampling_scheme: nextstrain_region_6m
     region: Oceania
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past 6 months
   oceania_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_division_all_time
+    subsampling_scheme: nextstrain_region_all_time
     region: Oceania
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania since pandemic start
   south-america_1m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_1m
+    subsampling_scheme: nextstrain_region_1m
     region: South America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past month
   south-america_2m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_2m
+    subsampling_scheme: nextstrain_region_2m
     region: South America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past 2 months
   south-america_6m:
-    subsampling_scheme: nextstrain_region_grouped_by_country_6m
+    subsampling_scheme: nextstrain_region_6m
     region: South America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past 6 months
   south-america_all-time:
-    subsampling_scheme: nextstrain_region_grouped_by_country_all_time
+    subsampling_scheme: nextstrain_region_all_time
     region: South America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America since pandemic start
 
@@ -162,634 +160,171 @@ subsampling:
       group_by: "Nextstrain_clade"
       max_sequences: 300
 
-  # Custom subsampling logic for regions over 1m
-  # Grouping by division for North America and Oceania
-  # 4000 total
+  # Custom subsampling logic for a region over 1m
+  # Grouping by country weighted by population size
+  # 4375 total
   # 4:1 ratio of recent to early
   # 4:1 ratio of focal to context
-  nextstrain_region_grouped_by_division_1m:
+  nextstrain_region_1m:
     # Early focal samples for region
-    focal_early:
-      group_by: "division year month"
-      max_sequences: 640
+    region_early:
+      group_by: "country year month"
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 700
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
-      max_sequences: 160
+      max_sequences: 175
       max_date: "--max-date 1M"
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
-    focal_recent:
-      group_by: "division week"
-      max_sequences: 2560
+    region_recent:
+      group_by: "country week"
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 2800
       min_date: "--min-date 1M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_recent:
       group_by: "country week"
-      max_sequences: 640
+      max_sequences: 700
       min_date: "--min-date 1M"
       exclude: "--exclude-where 'region={region}'"
 
-  # Custom subsampling logic for regions over 2m
-  # Grouping by division for North America and Oceania
-  # 4000 total
+  # Custom subsampling logic for a region over 2m
+  # Grouping by country weighted by population size
+  # 4375 total
   # 4:1 ratio of recent to early
   # 4:1 ratio of focal to context
-  nextstrain_region_grouped_by_division_2m:
+  nextstrain_region_2m:
     # Early focal samples for region
-    focal_early:
-      group_by: "division year month"
-      max_sequences: 640
+    region_early:
+      group_by: "country year month"
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 700
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
-      max_sequences: 160
+      max_sequences: 175
       max_date: "--max-date 2M"
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
-    focal_recent:
-      group_by: "division week"
-      max_sequences: 2560
+    region_recent:
+      group_by: "country week"
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 2800
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_recent:
       group_by: "country week"
-      max_sequences: 640
+      max_sequences: 700
       min_date: "--min-date 2M"
       exclude: "--exclude-where 'region={region}'"
 
-  # Custom subsampling logic for regions over 6m
-  # Grouping by division for North America and Oceania
-  # 4000 total
+  # Custom subsampling logic for a region over 6m
+  # Grouping by country weighted by population size
+  # 4375 total
   # 4:1 ratio of recent to early
   # 4:1 ratio of focal to context
-  nextstrain_region_grouped_by_division_6m:
+  nextstrain_region_6m:
     # Early focal samples for region
-    focal_early:
-      group_by: "division year month"
-      max_sequences: 640
+    region_early:
+      group_by: "country year month"
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 700
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_early:
       group_by: "country year month"
-      max_sequences: 160
+      max_sequences: 175
       max_date: "--max-date 6M"
       exclude: "--exclude-where 'region={region}'"
     # Recent focal samples for region
-    focal_recent:
-      group_by: "division year month"
-      max_sequences: 2560
+    region_recent:
+      group_by: "country year month"
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 2800
       min_date: "--min-date 6M"
       exclude: "--exclude-where 'region!={region}'"
     # Early contextual samples from the rest of the world
     context_recent:
       group_by: "country year month"
-      max_sequences: 640
+      max_sequences: 700
       min_date: "--min-date 6M"
       exclude: "--exclude-where 'region={region}'"
 
-  # Custom subsampling logic for regions over all-time
-  # Grouping by division for North America and Oceania
-  # 4000 total
+  # Custom subsampling logic for a region over all-time
+  # Grouping by country weighted by population size
+  # 4375 total
   # 4:1 ratio of focal to context
-  nextstrain_region_grouped_by_division_all_time:
+  nextstrain_region_all_time:
     # Focal samples for region
-    focal:
-      group_by: "division year month"
-      max_sequences: 3200
-      exclude: "--exclude-where 'region!={region}'"
-    # Contextual samples from the rest of the world
-    context:
-      group_by: "country year month"
-      max_sequences: 800
-      exclude: "--exclude-where 'region={region}'"
-
-  # Custom subsampling logic for region Asia over 1m
-  # Grouping by country weighted by population size
-  # 4375 total
-  # 4:1 ratio of recent to early
-  # 4:1 ratio of focal to context
-  nextstrain_region_asia_1m:
-    # Early focal samples for Asia
-    asia_early:
-      group_by: "country year month"
-      group_by_weights: "defaults/population_weights.tsv"
-      max_sequences: 700
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region!=Asia'"
-    # Early contextual samples from the rest of the world
-    context_early:
-      group_by: "country year month"
-      max_sequences: 175
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region=Asia'"
-    # Recent focal samples for Asia
-    asia_recent:
-      group_by: "country week"
-      group_by_weights: "defaults/population_weights.tsv"
-      max_sequences: 2800
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region!=Asia'"
-    # Early contextual samples from the rest of the world
-    context_recent:
-      group_by: "country week"
-      max_sequences: 700
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region=Asia'"
-
-  # Custom subsampling logic for region Asia over 2m
-  # Grouping by country weighted by population size
-  # 4375 total
-  # 4:1 ratio of recent to early
-  # 4:1 ratio of focal to context
-  nextstrain_region_asia_2m:
-    # Early focal samples for Asia
-    asia_early:
-      group_by: "country year month"
-      group_by_weights: "defaults/population_weights.tsv"
-      max_sequences: 700
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'region!=Asia'"
-    # Early contextual samples from the rest of the world
-    context_early:
-      group_by: "country year month"
-      max_sequences: 175
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'region=Asia'"
-    # Recent focal samples for Asia
-    asia_recent:
-      group_by: "country week"
-      group_by_weights: "defaults/population_weights.tsv"
-      max_sequences: 2800
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'region!=Asia'"
-    # Early contextual samples from the rest of the world
-    context_recent:
-      group_by: "country week"
-      max_sequences: 700
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'region=Asia'"
-
-  # Custom subsampling logic for region Asia over 6m
-  # Grouping by country weighted by population size
-  # 4375 total
-  # 4:1 ratio of recent to early
-  # 4:1 ratio of focal to context
-  nextstrain_region_asia_6m:
-    # Early focal samples for Asia
-    asia_early:
-      group_by: "country year month"
-      group_by_weights: "defaults/population_weights.tsv"
-      max_sequences: 700
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'region!=Asia'"
-    # Early contextual samples from the rest of the world
-    context_early:
-      group_by: "country year month"
-      max_sequences: 175
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'region=Asia'"
-    # Recent focal samples for Asia
-    asia_recent:
-      group_by: "country year month"
-      group_by_weights: "defaults/population_weights.tsv"
-      max_sequences: 2800
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'region!=Asia'"
-    # Early contextual samples from the rest of the world
-    context_recent:
-      group_by: "country year month"
-      max_sequences: 700
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'region=Asia'"
-
-  # Custom subsampling logic for region Asia over all-time
-  # Grouping by country weighted by population size
-  # 4375 total
-  # 4:1 ratio of focal to context
-  nextstrain_region_asia_all_time:
-    # Focal samples for Asia
-    asia:
+    region:
       group_by: "country year month"
       group_by_weights: "defaults/population_weights.tsv"
       max_sequences: 3500
-      exclude: "--exclude-where 'region!=Asia'"
+      exclude: "--exclude-where 'region!={region}'"
     # Contextual samples from the rest of the world
     context:
       group_by: "country year month"
       max_sequences: 875
-      exclude: "--exclude-where 'region={region}'"
-
-  # Custom subsampling logic for regions over 1m
-  # Grouping by country for Africa, Asia, Europe and South America
-  # 4000 total
-  # 4:1 ratio of recent to early
-  # 4:1 ratio of focal to context
-  nextstrain_region_grouped_by_country_1m:
-    # Early focal samples for region
-    focal_early:
-      group_by: "country year month"
-      max_sequences: 640
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region!={region}'"
-    # Early contextual samples from the rest of the world
-    context_early:
-      group_by: "country year month"
-      max_sequences: 160
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region={region}'"
-    # Recent focal samples for region
-    focal_recent:
-      group_by: "country week"
-      max_sequences: 2560
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region!={region}'"
-    # Early contextual samples from the rest of the world
-    context_recent:
-      group_by: "country week"
-      max_sequences: 640
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region={region}'"
-
-  # Custom subsampling logic for regions over 2m
-  # Grouping by country for Africa, Asia, Europe and South America
-  # 4000 total
-  # 4:1 ratio of recent to early
-  # 4:1 ratio of focal to context
-  nextstrain_region_grouped_by_country_2m:
-    # Early focal samples for region
-    focal_early:
-      group_by: "country year month"
-      max_sequences: 640
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'region!={region}'"
-    # Early contextual samples from the rest of the world
-    context_early:
-      group_by: "country year month"
-      max_sequences: 160
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'region={region}'"
-    # Recent focal samples for region
-    focal_recent:
-      group_by: "country week"
-      max_sequences: 2560
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'region!={region}'"
-    # Early contextual samples from the rest of the world
-    context_recent:
-      group_by: "country week"
-      max_sequences: 640
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'region={region}'"
-
-  # Custom subsampling logic for regions over 6m
-  # Grouping by country for Africa, Asia, Europe and South America
-  # 4000 total
-  # 4:1 ratio of recent to early
-  # 4:1 ratio of focal to context
-  nextstrain_region_grouped_by_country_6m:
-    # Early focal samples for region
-    focal_early:
-      group_by: "country year month"
-      max_sequences: 640
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'region!={region}'"
-    # Early contextual samples from the rest of the world
-    context_early:
-      group_by: "country year month"
-      max_sequences: 160
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'region={region}'"
-    # Recent focal samples for region
-    focal_recent:
-      group_by: "country year month"
-      max_sequences: 2560
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'region!={region}'"
-    # Early contextual samples from the rest of the world
-    context_recent:
-      group_by: "country year month"
-      max_sequences: 640
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'region={region}'"
-
-  # Custom subsampling logic for regions over all-time
-  # Grouping by country for Africa, Asia, Europe and South America
-  # 4000 total
-  # 4:1 ratio of focal to context
-  nextstrain_region_grouped_by_country_all_time:
-    # Focal samples for region
-    focal:
-      group_by: "country year month"
-      max_sequences: 3200
-      exclude: "--exclude-where 'region!={region}'"
-    # Contextual samples from the rest of the world
-    context:
-      group_by: "country year month"
-      max_sequences: 800
       exclude: "--exclude-where 'region={region}'"
 
   # Custom subsampling logic for global region over 1m
   # 5125 total (expect ~3400)
   # 4:1 ratio of recent to early
-  # all eight regions equal except Oceania at 20%
   nextstrain_global_1m:
-    africa_early:
+    early:
       group_by: "country year month"
-      max_sequences: 150
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 1025
       max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region!=Africa'"
-    asia_early:
-      group_by: "country year month"
-      max_sequences: 200
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
-    china_early:
-      group_by: "division year month"
-      max_sequences: 175
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'country!=China'"
-    europe_early:
-      group_by: "country year month"
-      max_sequences: 125
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region!=Europe'"
-    india_early:
-      group_by: "division year month"
-      max_sequences: 175
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'country!=India'"
-    north_america_early:
-      group_by: "division year month"
-      max_sequences: 100
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region!=North America'"
-    south_america_early:
-      group_by: "country year month"
-      max_sequences: 90
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region!=South America'"
-    oceania_early:
-      group_by: "division year month"
-      max_sequences: 15
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region!=Oceania'"
-    africa_recent:
+    recent:
       group_by: "country week"
-      max_sequences: 600
+      max_sequences: 4100
       min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region!=Africa'"
-    asia_recent:
-      group_by: "country week"
-      max_sequences: 800
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
-    china_recent:
-      group_by: "division week"
-      max_sequences: 700
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'country!=China'"
-    europe_recent:
-      group_by: "country week"
-      max_sequences: 500
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region!=Europe'"
-    india_recent:
-      group_by: "division week"
-      max_sequences: 700
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'country!=India'"
-    north_america_recent:
-      group_by: "division week"
-      max_sequences: 400
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region!=North America'"
-    south_america_recent:
-      group_by: "country week"
-      max_sequences: 360
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region!=South America'"
-    oceania_recent:
-      group_by: "division week"
-      max_sequences: 60
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region!=Oceania'"
 
   # Custom subsampling logic for global region over 2m
   # 5125 total (expect ~3400)
   # 4:1 ratio of recent to early
-  # all eight regions equal except Oceania at 20%
   nextstrain_global_2m:
-    africa_early:
+    early:
       group_by: "country year month"
-      max_sequences: 150
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 1025
       max_date: "--max-date 2M"
-      exclude: "--exclude-where 'region!=Africa'"
-    asia_early:
-      group_by: "country year month"
-      max_sequences: 200
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
-    china_early:
-      group_by: "division year month"
-      max_sequences: 175
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'country!=China'"
-    europe_early:
-      group_by: "country year month"
-      max_sequences: 125
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'region!=Europe'"
-    india_early:
-      group_by: "division year month"
-      max_sequences: 175
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'country!=India'"
-    north_america_early:
-      group_by: "division year month"
-      max_sequences: 100
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'region!=North America'"
-    south_america_early:
-      group_by: "country year month"
-      max_sequences: 90
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'region!=South America'"
-    oceania_early:
-      group_by: "division year month"
-      max_sequences: 15
-      max_date: "--max-date 2M"
-      exclude: "--exclude-where 'region!=Oceania'"
-    africa_recent:
+    recent:
       group_by: "country week"
-      max_sequences: 600
+      max_sequences: 4100
       min_date: "--min-date 2M"
-      exclude: "--exclude-where 'region!=Africa'"
-    asia_recent:
-      group_by: "country week"
-      max_sequences: 800
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
-    china_recent:
-      group_by: "division week"
-      max_sequences: 700
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'country!=China'"
-    europe_recent:
-      group_by: "country week"
-      max_sequences: 500
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'region!=Europe'"
-    india_recent:
-      group_by: "division week"
-      max_sequences: 700
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'country!=India'"
-    north_america_recent:
-      group_by: "division week"
-      max_sequences: 400
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'region!=North America'"
-    south_america_recent:
-      group_by: "country week"
-      max_sequences: 360
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'region!=South America'"
-    oceania_recent:
-      group_by: "division week"
-      max_sequences: 60
-      min_date: "--min-date 2M"
-      exclude: "--exclude-where 'region!=Oceania'"
 
   # Custom subsampling logic for global region over 6m
   # 5125 total (expect ~3400)
   # 4:1 ratio of recent to early
-  # all eight regions equal except Oceania at 20%
   nextstrain_global_6m:
-    africa_early:
+    early:
       group_by: "country year month"
-      max_sequences: 150
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 1025
       max_date: "--max-date 6M"
-      exclude: "--exclude-where 'region!=Africa'"
-    asia_early:
+    recent:
       group_by: "country year month"
-      max_sequences: 200
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
-    china_early:
-      group_by: "division year month"
-      max_sequences: 175
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'country!=China'"
-    europe_early:
-      group_by: "country year month"
-      max_sequences: 125
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'region!=Europe'"
-    india_early:
-      group_by: "division year month"
-      max_sequences: 175
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'country!=India'"
-    north_america_early:
-      group_by: "division year month"
-      max_sequences: 100
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'region!=North America'"
-    south_america_early:
-      group_by: "country year month"
-      max_sequences: 90
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'region!=South America'"
-    oceania_early:
-      group_by: "division year month"
-      max_sequences: 15
-      max_date: "--max-date 6M"
-      exclude: "--exclude-where 'region!=Oceania'"
-    africa_recent:
-      group_by: "country year month"
-      max_sequences: 600
+      max_sequences: 4100
       min_date: "--min-date 6M"
-      exclude: "--exclude-where 'region!=Africa'"
-    asia_recent:
-      group_by: "country year month"
-      max_sequences: 800
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
-    china_recent:
-      group_by: "division year month"
-      max_sequences: 700
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'country!=China'"
-    europe_recent:
-      group_by: "country year month"
-      max_sequences: 500
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'region!=Europe'"
-    india_recent:
-      group_by: "division year month"
-      max_sequences: 700
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'country!=India'"
-    north_america_recent:
-      group_by: "division year month"
-      max_sequences: 400
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'region!=North America'"
-    south_america_recent:
-      group_by: "country year month"
-      max_sequences: 360
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'region!=South America'"
-    oceania_recent:
-      group_by: "division year month"
-      max_sequences: 60
-      min_date: "--min-date 6M"
-      exclude: "--exclude-where 'region!=Oceania'"
 
   # Custom subsampling logic for global region over all-time
   # 4320 total (expect ~3200)
-  # all eight regions equal except Oceania at 20%
   nextstrain_global_all_time:
-    africa:
+    all:
       group_by: "country year month"
-      max_sequences: 750
-      exclude: "--exclude-where 'region!=Africa'"
-    asia:
-      group_by: "country year month"
-      max_sequences: 1000
-      exclude: "--exclude-where 'region!=Asia' 'country=China' 'country=India'"
-    china:
-      group_by: "division year month"
-      max_sequences: 875
-      exclude: "--exclude-where 'country!=China'"
-    europe:
-      group_by: "country year month"
-      max_sequences: 625
-      exclude: "--exclude-where 'region!=Europe'"
-    india:
-      group_by: "division year month"
-      max_sequences: 875
-      exclude: "--exclude-where 'country!=India'"
-    north_america:
-      group_by: "division year month"
-      max_sequences: 500
-      exclude: "--exclude-where 'region!=North America'"
-    south_america:
-      group_by: "country year month"
-      max_sequences: 450
-      exclude: "--exclude-where 'region!=South America'"
-    oceania:
-      group_by: "division year month"
-      max_sequences: 75
-      exclude: "--exclude-where 'region!=Oceania'"
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 4320
 
 # GenBank data includes "Wuhan-Hu-1/2019" which we use as the root for this build
 # as Wuhan/Hu-1/2019 is not in the data.
