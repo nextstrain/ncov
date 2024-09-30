@@ -1,12 +1,30 @@
 """Small, shared functions used to generate inputs and parameters.
 """
 import datetime
+import isodate
 from itertools import product
 from shlex import (
     quote as shquote,       # shquote() is used in this file and also other workflow files
     split as shsplitwords,
 )
 from urllib.parse import urlsplit
+
+# TODO: deduplicate this with the same function in scripts/assign-colors.py.
+# There is no easy way to share functions between the workflow and that file at
+# the moment. One approach would be to surface it via Augur's Python API.
+def relative_date(duration: str):
+    """
+    Convert an ISO 8601 duration to an absolute date by subtracting it from the
+    current date.
+
+    `duration` should be a backwards-looking relative date in ISO 8601 duration
+    format with optional P prefix (e.g. '1W', 'P1W').
+    """
+    if duration.startswith('P'):
+        duration = duration
+    else:
+        duration = 'P' + duration
+    return datetime.date.today() - isodate.parse_duration(duration)
 
 def shquotewords(s: str) -> str:
     """
@@ -183,10 +201,11 @@ def _get_clade_recency_argument(wildcards):
     clade_recency_setting = _get_clade_recency_for_wildcards(wildcards)
     if clade_recency_setting == "all":
         return ""
-    elif isinstance(clade_recency_setting, int):
-        return "--clade-recency " + shquote(str(clade_recency_setting))
-    else:
-        raise Exception(f'clade_recency must be "all" or an integer number of months. Got: {clade_recency_setting!r}')
+    try:
+        relative_date(clade_recency_setting)
+        return "--clade-recency " + shquote(clade_recency_setting)
+    except:
+        raise Exception(f'clade_recency must be "all" or a duration string (e.g. "6M", "1Y"). Got: {clade_recency_setting!r}')
 
 def _get_trait_columns_by_wildcards(wildcards):
     if wildcards.build_name in config["traits"]:

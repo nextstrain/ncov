@@ -136,7 +136,7 @@ ancestral:
 
 colors:
   default:
-    # Months back to color clades, if "all" then all clades are colored
+    # Amount of time back to color clades, if "all" then all clades are colored
     # Can be specified per build in builds.yaml
     clade_recency: "all"
 

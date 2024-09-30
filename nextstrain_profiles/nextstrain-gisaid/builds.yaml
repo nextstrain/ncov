@@ -332,47 +332,47 @@ colors:
   default:
     clade_recency: "all"
   global_1m:
-    clade_recency: 1
+    clade_recency: "1M"
   global_2m:
-    clade_recency: 2
+    clade_recency: "2M"
   global_6m:
-    clade_recency: 6
+    clade_recency: "6M"
   africa_1m:
-    clade_recency: 1
+    clade_recency: "1M"
   africa_2m:
-    clade_recency: 2
+    clade_recency: "2M"
   africa_6m:
-    clade_recency: 6
+    clade_recency: "6M"
   asia_1m:
-    clade_recency: 1
+    clade_recency: "1M"
   asia_2m:
-    clade_recency: 2
+    clade_recency: "2M"
   asia_6m:
-    clade_recency: 6
+    clade_recency: "6M"
   europe_1m:
-    clade_recency: 1
+    clade_recency: "1M"
   europe_2m:
-    clade_recency: 2
+    clade_recency: "2M"
   europe_6m:
-    clade_recency: 6
+    clade_recency: "6M"
   north-america_1m:
-    clade_recency: 1
+    clade_recency: "1M"
   north-america_2m:
-    clade_recency: 2
+    clade_recency: "2M"
   north-america_6m:
-    clade_recency: 6
+    clade_recency: "6M"
   oceania_1m:
-    clade_recency: 1
+    clade_recency: "1M"
   oceania_2m:
-    clade_recency: 2
+    clade_recency: "2M"
   oceania_6m:
-    clade_recency: 6
+    clade_recency: "6M"
   south-america_1m:
-    clade_recency: 1
+    clade_recency: "1M"
   south-america_2m:
-    clade_recency: 2
+    clade_recency: "2M"
   south-america_6m:
-    clade_recency: 6
+    clade_recency: "6M"
 
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
