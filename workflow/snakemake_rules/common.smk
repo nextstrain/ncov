@@ -186,7 +186,7 @@ def _get_clade_recency_argument(wildcards):
     elif isinstance(clade_recency_setting, int):
         return "--clade-recency " + shquote(str(clade_recency_setting))
     else:
-        return ""
+        raise Exception(f'clade_recency must be "all" or an integer number of months. Got: {clade_recency_setting!r}')
 
 def _get_trait_columns_by_wildcards(wildcards):
     if wildcards.build_name in config["traits"]:
