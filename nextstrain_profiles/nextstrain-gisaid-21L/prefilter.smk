@@ -92,7 +92,8 @@ rule gisaid_21L_aligned:
         exec 2> {log:q}
 
         < {input.references:q} \
-          zstd \
+          seqkit grep --by-name --pattern 21L \
+        | zstd \
         > {output.aligned}
 
         < {input.aligned:q} \
