@@ -941,6 +941,34 @@ no_timetree
 -  description: Do not produce a time tree.
 -  default: ``false``
 
+colors
+------
+
+-  type: object
+-  description: Parameters for assigning colors in ``scripts/assign-colors.py``
+-  examples:
+
+.. code:: yaml
+
+   colors:
+     default:
+       clade_recency: "all"
+     global-6m:
+       # Override clade recency colors for "global-6m" build
+       clade_recency: "6M"
+
+Each named traits configuration (``default`` or build-named) supports the following attributes:
+
+.. contents::
+   :local:
+
+clade_recency
+~~~~~~~~~~~~~
+
+-  type: string
+-  format: `ISO 8601 <https://en.wikipedia.org/wiki/ISO_8601#Durations>`__ duration with optional ``P`` prefix (e.g. ``2M``, ``18M``, ``1Y6M``)
+-  description: restrict to clades found in tree within this duration from present
+-  default: ``all`` (no restriction)
 
 traits
 ------
