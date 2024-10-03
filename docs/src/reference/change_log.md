@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 2 October 2024: Include a new parameter for `clade_recency` under `colors`. This parameter is used to define which clades should receive a color from the standard rainbow palette. A value of `6M` will cause clades with strains in the tree sampled within the last 6 months to be colored and earlier strains to not receive a color (and be colored in a palette of grays by Auspice). This `clade_recency` parameter is used in `builds.yaml` in `nextstrain_profiles` to color clades according for the `1m`, `2m`, `6m` and `all-time` timepoints. If `clade_recency` is not supplied then all clades will be colored. [PR 1132](https://github.com/nextstrain/ncov/pull/1132)
+
 - 30 September 2024: Use population-based weighted sampling for `nextstrain_profiles`. This requires a minimum Augur version of 25.3.0. PRs [1106](https://github.com/nextstrain/ncov/pull/1106), [1150](https://github.com/nextstrain/ncov/pull/1150), [1151](https://github.com/nextstrain/ncov/pull/1151)
 
 - 31 January 2024: Remove RBD-level related rules and files since this feature has been broken since May 2023 and is no longer relevant. [PR 1097](https://github.com/nextstrain/ncov/pull/1097)
