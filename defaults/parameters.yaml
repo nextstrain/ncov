@@ -137,8 +137,21 @@ ancestral:
 # Frequencies settings
 frequencies:
 
-  # min_date is set by default to 1 year before present
-  # but can be explicitly set if desired
+  # default settings that can be over-ridden for specific builds
+  default:
+
+    # min_date is set by default to 1 year before present
+    min_date: "1Y"
+
+    # max_date is set by default to present date - recent_days_to_censor
+
+    # KDE bandwidths in proportion of a year to use per strain.
+    # using 1M bandwidth by default
+    narrow_bandwidth: 0.0833
+
+
+  # settings that can be over-ridden across all builds, but not for specific builds
+  recent_days_to_censor: 0
 
   # Number of weeks between pivots
   pivot_interval: 1
@@ -146,9 +159,7 @@ frequencies:
   # Measure pivots in weeks
   pivot_interval_units: "weeks"
 
-  # KDE bandwidths in proportion of a year to use per strain.
-  # using 15 day bandwidth
-  narrow_bandwidth: 0.041
+  # Weight of KDE that uses wide bandwidth
   proportion_wide: 0.0
 
   # Diffusion frequency settings

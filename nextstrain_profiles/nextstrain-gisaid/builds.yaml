@@ -422,119 +422,62 @@ traits:
 # narrow_bandwidth = 0.019 or 7 days for "1m" and "2m"
 # narrow_bandwidth = 0.038 or 14 days for "6m" and "all-time"
 frequencies:
-  reference:
+  default:
     min_date: "2020-01-01"
     narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
   global_1m:
     min_date: "1M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   global_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   global_6m:
     min_date: "6M"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
-  global_all-time:
-    min_date: "2020-01-01"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
   africa_1m:
     min_date: "1M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   africa_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   africa_6m:
     min_date: "6M"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
-  africa_all-time:
-    min_date: "2020-01-01"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
   asia_1m:
     min_date: "1M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   asia_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   asia_6m:
     min_date: "6M"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
-  asia_all-time:
-    min_date: "2020-01-01"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
   europe_1m:
     min_date: "1M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   europe_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   europe_6m:
     min_date: "6M"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
-  europe_all-time:
-    min_date: "2020-01-01"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
   north-america_1m:
     min_date: "1M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   north-america_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   north-america_6m:
     min_date: "6M"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
-  north-america_all-time:
-    min_date: "2020-01-01"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
   oceania_1m:
     min_date: "1M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   oceania_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   oceania_6m:
     min_date: "6M"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
-  oceania_all-time:
-    min_date: "2020-01-01"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
   south-america_1m:
     min_date: "1M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   south-america_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
-    recent_days_to_censor: 7
   south-america_6m:
     min_date: "6M"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
-  south-america_all-time:
-    min_date: "2020-01-01"
-    narrow_bandwidth: 0.038
-    recent_days_to_censor: 7
