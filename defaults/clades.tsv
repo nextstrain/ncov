@@ -244,3 +244,16 @@ clade	gene	site	alt
 24E	nuc	13121	T
 24E	nuc	15372	T
 24E	nuc	19722	G
+
+24F	clade	24A
+24F	nuc	18657	T
+24F	nuc	19716	T
+24F	nuc	21627	A
+24F	nuc	21738	C
+24F	nuc	22928	C
+24F	nuc	23039	G
+24F	nuc	24872	T
+
+24G	clade	24B
+24G	nuc	22599	C
+24G	nuc	25593	T
