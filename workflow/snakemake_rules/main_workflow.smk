@@ -936,34 +936,6 @@ rule translate:
             --output {output.node_data} 2>&1 | tee {log}
         """
 
-rule build_mutation_summary:
-    message: "Summarizing {input.alignment}"
-    input:
-        alignment = rules.build_align.output.alignment,
-        insertions = rules.build_align.output.insertions,
-        translations = rules.build_align.output.translations,
-        reference = config["files"]["alignment_reference"],
-        genemap = config["files"]["annotation"]
-    output:
-        mutation_summary = "results/{build_name}/mutation_summary.tsv"
-    log:
-        "logs/mutation_summary_{build_name}.txt"
-    params:
-        outdir = "results/{build_name}/translations",
-        basename = "aligned"
-    conda: config["conda_environment"]
-    shell:
-        r"""
-        python3 scripts/mutation_summary.py \
-            --alignment {input.alignment} \
-            --insertions {input.insertions} \
-            --directory {params.outdir} \
-            --basename {params.basename} \
-            --reference {input.reference} \
-            --genemap {input.genemap} \
-            --output {output.mutation_summary} 2>&1 | tee {log}
-        """
-
 rule distances:
     input:
         tree = rules.refine.output.tree,

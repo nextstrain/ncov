@@ -515,7 +515,7 @@ alignment_reference
 -  type: string
 -  description: Path to a FASTA-formatted sequence to use for alignment with ``nextalign``
 -  default: ``defaults/reference_seq.fasta``
--  used in rules: ``align``, ``proximity_score`` (subsampling), ``build_align``, ``build_mutation_summary``
+-  used in rules: ``align``, ``proximity_score`` (subsampling), ``build_align``
 
 annotation
 ~~~~~~~~~~
@@ -523,7 +523,7 @@ annotation
 -  type: string
 -  description: Path to a GFF-formatted annotation of gene coordinates (e.g., a “gene map”) for use by ``nextalign`` and mutation summaries.
 -  default: ``defaults/annotation.gff``
--  used in rules: ``align``, ``build_align``, ``build_mutation_summary``
+-  used in rules: ``align``, ``build_align``
 
 outgroup
 ~~~~~~~~
