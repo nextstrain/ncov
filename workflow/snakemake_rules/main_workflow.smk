@@ -67,7 +67,7 @@ rule align:
         sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
         # Annotation used for codon-aware nucleotide alignment
         # <https://docs.nextstrain.org/projects/nextclade/en/stable/user/algorithm/01-sequence-alignment.html>
-        genemap = config["files"]["annotation"],
+        annotation = config["files"]["annotation"],
         reference = config["files"]["alignment_reference"]
     output:
         alignment = "results/aligned_{origin}.fasta.xz",
@@ -90,10 +90,10 @@ rule align:
             --sequences {input.sequences} \
             --strip-prefixes {params.strain_prefixes:q} \
             --output /dev/stdout 2> {params.sanitize_log} \
-            | nextalign run \
+            | nextclade run \
             --jobs={threads} \
-            --reference {input.reference} \
-            --genemap {input.genemap} \
+            --input-ref {input.reference} \
+            --input-annotation {input.annotation} \
             --output-fasta {params.uncompressed_alignment} > {log} 2>&1;
         xz -2 -T {threads} {params.uncompressed_alignment};
         """
@@ -461,8 +461,8 @@ rule prepare_nextclade:
     conda: config["conda_environment"]
     shell:
         r"""
-        nextclade2 --version
-        nextclade2 dataset get --name {params.name} --output-zip {output.nextclade_dataset}
+        nextclade --version
+        nextclade dataset get --name {params.name} --output-zip {output.nextclade_dataset}
         """
 
 rule build_align:
@@ -476,14 +476,13 @@ rule build_align:
         nextclade_dataset = "data/sars-cov-2-nextclade-defaults.zip",
     output:
         alignment = "results/{build_name}/aligned.fasta",
-        insertions = "results/{build_name}/insertions.tsv",
         nextclade_qc = 'results/{build_name}/nextclade_qc.tsv',
         translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S']))
     params:
         outdir = "results/{build_name}/translations",
         strain_prefixes=config["strip_strain_prefixes"],
         sanitize_log="logs/sanitize_sequences_before_nextclade_{build_name}.txt",
-        output_translations = lambda w: f"results/{w.build_name}/translations/aligned.gene.{{gene}}.fasta"
+        output_translations = lambda w: f"results/{w.build_name}/translations/aligned.gene.{{cds}}.fasta"
     log:
         "logs/align_{build_name}.txt"
     benchmark:
@@ -498,13 +497,12 @@ rule build_align:
             --sequences {input.sequences} \
             --strip-prefixes {params.strain_prefixes:q} \
             --output /dev/stdout 2> {params.sanitize_log} \
-            | nextclade2 run \
+            | nextclade run \
             --jobs {threads} \
             --input-dataset {input.nextclade_dataset} \
             --output-tsv {output.nextclade_qc} \
             --output-fasta {output.alignment} \
-            --output-translations {params.output_translations} \
-            --output-insertions {output.insertions} 2>&1 | tee {log}
+            --output-translations {params.output_translations} 2>&1 | tee {log}
         """
 
 rule join_metadata_and_nextclade_qc:
