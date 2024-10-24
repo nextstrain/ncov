@@ -93,38 +93,6 @@ rule export_all_regions:
         """
 
 
-rule mutation_summary:
-    message: "Summarizing {input.alignment}"
-    input:
-        alignment = rules.align.output.alignment,
-        insertions = rules.align.output.insertions,
-        translations = rules.align.output.translations,
-        reference = config["files"]["alignment_reference"],
-        genemap = config["files"]["annotation"]
-    output:
-        mutation_summary = "results/mutation_summary_{origin}.tsv.xz"
-    log:
-        "logs/mutation_summary_{origin}.txt"
-    benchmark:
-        "benchmarks/mutation_summary_{origin}.txt"
-    params:
-        outdir = "results/translations",
-        basename = "seqs_{origin}",
-        genes=config["genes"],
-    conda: config["conda_environment"]
-    shell:
-        r"""
-        python3 scripts/mutation_summary.py \
-            --alignment {input.alignment} \
-            --insertions {input.insertions} \
-            --directory {params.outdir} \
-            --basename {params.basename} \
-            --reference {input.reference} \
-            --genes {params.genes:q} \
-            --genemap {input.genemap} \
-            --output {output.mutation_summary} 2>&1 | tee {log}
-        """
-
 #
 # Rule for generating a per-build auspice config
 #

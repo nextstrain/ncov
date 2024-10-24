@@ -18,7 +18,6 @@ slack_token: ~
 slack_channel: "#ncov-gisaid-updates"
 
 genes: ["ORF1a", "ORF1b", "S", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF7b", "ORF8", "N", "ORF9b"]
-use_nextalign: true
 include_hcov19_prefix: True
 
 files:
