@@ -65,15 +65,13 @@ rule align:
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
+        # Annotation used for codon-aware nucleotide alignment
+        # <https://docs.nextstrain.org/projects/nextclade/en/stable/user/algorithm/01-sequence-alignment.html>
         genemap = config["files"]["annotation"],
         reference = config["files"]["alignment_reference"]
     output:
         alignment = "results/aligned_{origin}.fasta.xz",
-        insertions = "results/insertions_{origin}.tsv",
-        translations = expand("results/translations/seqs_{{origin}}.gene.{gene}.fasta.xz", gene=config.get('genes', ['S']))
     params:
-        output_translations = lambda w: f"results/translations/seqs_{w.origin}.gene.{{gene}}.fasta",
-        output_translations_toxz = "results/translations/seqs_{origin}.gene.*.fasta",
         strain_prefixes=config["strip_strain_prefixes"],
         # Strip the compression suffix for the intermediate output from the aligner.
         uncompressed_alignment=lambda wildcards, output: Path(output.alignment).with_suffix(""),
@@ -96,11 +94,8 @@ rule align:
             --jobs={threads} \
             --reference {input.reference} \
             --genemap {input.genemap} \
-            --output-translations {params.output_translations} \
-            --output-fasta {params.uncompressed_alignment} \
-            --output-insertions {output.insertions} > {log} 2>&1;
+            --output-fasta {params.uncompressed_alignment} > {log} 2>&1;
         xz -2 -T {threads} {params.uncompressed_alignment};
-        xz -2 -T {threads} {params.output_translations_toxz}
         """
 
 def _get_subsampling_settings(wildcards):

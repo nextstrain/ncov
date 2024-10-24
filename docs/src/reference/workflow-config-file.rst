@@ -521,9 +521,9 @@ annotation
 ~~~~~~~~~~
 
 -  type: string
--  description: Path to a GFF-formatted annotation of gene coordinates (e.g., a “gene map”) for use by ``nextalign`` and mutation summaries.
+-  description: Path to a GFF-formatted annotation of gene coordinates (e.g., a “gene map”) for use by ``nextalign`` for codon-aware alignment.
 -  default: ``defaults/annotation.gff``
--  used in rules: ``align``, ``build_align``
+-  used in rules: ``align``
 
 outgroup
 ~~~~~~~~
