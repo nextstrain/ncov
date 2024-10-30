@@ -431,7 +431,7 @@ genes
 -----
 
 -  type: array
--  description: A list of genes for which ``nextalign`` should generate amino acid sequences during the alignment process. Gene names must match the names provided in the gene map from the ``annotation`` parameter.
+-  description: A list of genes for which ``nextclade`` should generate amino acid sequences during the alignment process. Gene names must match the names provided in the gene map from the ``annotation`` parameter.
 -  default: ``["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]``
 -  used in rules: ``align``, ``build_align``, ``translate``, ``mutational_fitness``
 
@@ -513,17 +513,17 @@ alignment_reference
 ~~~~~~~~~~~~~~~~~~~
 
 -  type: string
--  description: Path to a FASTA-formatted sequence to use for alignment with ``nextalign``
+-  description: Path to a FASTA-formatted sequence to use for alignment with ``nextclade``
 -  default: ``defaults/reference_seq.fasta``
--  used in rules: ``align``, ``proximity_score`` (subsampling), ``build_align``, ``build_mutation_summary``
+-  used in rules: ``align``, ``proximity_score`` (subsampling)
 
 annotation
 ~~~~~~~~~~
 
 -  type: string
--  description: Path to a GFF-formatted annotation of gene coordinates (e.g., a “gene map”) for use by ``nextalign`` and mutation summaries.
+-  description: Path to a GFF-formatted annotation of gene coordinates (e.g., a “gene map”) for use by ``nextclade`` for codon-aware alignment.
 -  default: ``defaults/annotation.gff``
--  used in rules: ``align``, ``build_align``, ``build_mutation_summary``
+-  used in rules: ``align``
 
 outgroup
 ~~~~~~~~
