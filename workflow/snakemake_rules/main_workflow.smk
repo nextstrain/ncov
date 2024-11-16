@@ -292,6 +292,8 @@ rule subsample:
     params:
         group_by = _get_specific_subsampling_setting("group_by", optional=True),
         group_by_weights = _get_specific_subsampling_setting("group_by_weights", optional=True),
+        # only set this if using group_by_weights
+        output_group_by_weights = lambda wildcards: f"--output-group-by-sizes results/{wildcards.build_name}/sizes-{wildcards.subsample}.tsv" if _get_subsampling_settings(wildcards).get("group_by_weights", False) else "",
         sequences_per_group = _get_specific_subsampling_setting("seq_per_group", optional=True),
         subsample_max_sequences = _get_specific_subsampling_setting("max_sequences", optional=True),
         sampling_scheme = _get_specific_subsampling_setting("sampling_scheme", optional=True),
@@ -325,6 +327,7 @@ rule subsample:
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
+            {params.output_group_by_weights} \
             --output-strains {output.strains} 2>&1 | tee {log}
         """
 
