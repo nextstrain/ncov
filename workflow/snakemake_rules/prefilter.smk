@@ -4,7 +4,7 @@ rule download_metadata:
     output:
         metadata="data/metadata.tsv.zst",
     shell:
-        """
+        r"""
         aws s3 cp {params.metadata_url} {output.metadata}
         """
 
@@ -17,7 +17,7 @@ rule filter_metadata:
         max_sequences=500000,
         group_by="division year month",
     shell:
-        """
+        r"""
         augur filter \
             --metadata {input.metadata} \
             --subsample-max-sequences {params.max_sequences} \
