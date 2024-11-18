@@ -11,6 +11,7 @@ rule download_metadata:
 rule filter_metadata:
     input:
         metadata="data/metadata.tsv.zst",
+        include = config["files"]["include"],
     output:
         metadata="data/prefiltered_metadata.tsv",
     params:
@@ -21,6 +22,7 @@ rule filter_metadata:
         augur filter \
             --metadata {input.metadata} \
             --subsample-max-sequences {params.max_sequences} \
+            --include {input.include} \
             --group-by {params.group_by} \
             --output-metadata {output.metadata}
         """
