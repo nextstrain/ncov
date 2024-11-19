@@ -3,7 +3,7 @@ Update the workflow
 
 We update the official workflow regularly with:
 
--  `curated metadata including latitudes/longitudes, clade annotations, and low quality sequences <https://github.com/nextstrain/ncov/commits/master>`__
+-  curated metadata including latitudes/longitudes, clade annotations, and low quality sequences
 -  bug fixes
 -  :doc:`new features <../reference/change_log>`
 
