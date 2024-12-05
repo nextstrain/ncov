@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- Remove `run_pangolin` configuration option from the workflow, since the pangoLEARN tool that this enabled has been deprecated
+
 ## v14 (23 October 2024)
 
 - 23 October 2024: Update workflow to use Nextclade v3. This includes the removal of unused mutation summary script and rules that expected Nextclade v2 outputs. Dropping the mutation summary rules removed the need for the full alignment rule `align` to produce the insertions and translations outputs, so they have been removed. The `build_align` rule no longer produces a separate `insertions.tsv` since insertions are now included in the `nextclade_qc.tsv`. [PR 1160](https://github.com/nextstrain/ncov/pull/1160)
