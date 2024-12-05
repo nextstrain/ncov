@@ -728,13 +728,6 @@ crowding_penalty
 
 .. _title-1:
 
-run_pangolin
-------------
-
--  type: boolean
--  description: Enable annotation of Pangolin lineages for a given build's subsampled sequences.
--  default: ``false``
-
 .. _workflow-config-mask:
 
 mask

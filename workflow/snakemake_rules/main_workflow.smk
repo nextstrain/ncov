@@ -702,55 +702,6 @@ rule filter:
             --output-log {output.filter_log} 2>&1 | tee {log};
         """
 
-if "run_pangolin" in config and config["run_pangolin"]:
-    rule run_pangolin:
-        message:
-            """
-            Running pangolin to assign lineage labels to samples. Includes putative lineage definitions by default.
-            Please remember to update your installation of pangolin regularly to ensure the most up-to-date classifications.
-            """
-        input:
-            alignment = "results/{build_name}/aligned.fasta",
-        output:
-            lineages = "results/{build_name}/pangolineages.csv",
-        params:
-            outdir = "results/{build_name}",
-            csv_outfile = "pangolineages.csv",
-            node_data_outfile = "pangolineages.json"
-        log:
-            "logs/pangolin_{build_name}.txt"
-        conda: config["conda_environment"]
-        threads: 1
-        resources:
-            mem_mb=3000
-        benchmark:
-            "benchmarks/pangolineages_{build_name}.txt"
-        shell: ## once pangolin fully supports threads, add `--threads {threads}` to the below (existing pango cli param)
-            r"""
-            pangolin {input.alignment}\
-                --outdir {params.outdir} \
-                --outfile {params.csv_outfile} 2>&1 | tee {log}\
-            """
-
-    rule make_pangolin_node_data:
-        input:
-            lineages = rules.run_pangolin.output.lineages
-        output:
-            node_data = "results/{build_name}/pangolineages.json"
-        log:
-            "logs/pangolin_export_{build_name}.txt"
-        conda: config["conda_environment"]
-        resources:
-            mem_mb=3000
-        benchmark:
-            "benchmarks/make_pangolin_node_data_{build_name}.txt"
-        shell:
-            r"""
-            python3 scripts/make_pangolin_node_data.py \
-            --pangolineages {input.lineages} \
-            --node_data_outfile {output.node_data} 2>&1 | tee {log}\
-            """
-
 # TODO: This will probably not work for build names like "country_usa" where we need to know the country is "USA".
 rule adjust_metadata_regions:
     message:
@@ -1307,9 +1258,6 @@ def _get_node_data_by_wildcards(wildcards):
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data,
     ]
-
-    if "run_pangolin" in config and config["run_pangolin"]:
-        inputs.append(rules.make_pangolin_node_data.output.node_data)
 
     # Convert input files from wildcard strings to real file names.
     inputs = [input_file.format(**wildcards_dict) for input_file in inputs]
