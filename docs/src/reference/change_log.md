@@ -5,7 +5,9 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
-- Remove `run_pangolin` configuration option from the workflow, since the pangoLEARN tool that this enabled has been deprecated
+## v15 (5 December 2024)
+
+- Remove `run_pangolin` configuration option from the workflow, since the pangoLEARN tool that this enabled has been deprecated. [PR 1164](https://github.com/nextstrain/ncov/pull/1164)
 
 ## v14 (23 October 2024)
 
