@@ -728,6 +728,8 @@ crowding_penalty
 
 .. _title-1:
 
+.. _workflow-config-mask:
+
 mask
 ----
 
