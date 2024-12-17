@@ -294,6 +294,7 @@ subsampling:
       max_date: "--max-date 1M"
     recent:
       group_by: "country week"
+      group_by_weights: "defaults/population_weights.tsv"
       max_sequences: 4100
       min_date: "--min-date 1M"
 
@@ -308,6 +309,7 @@ subsampling:
       max_date: "--max-date 2M"
     recent:
       group_by: "country week"
+      group_by_weights: "defaults/population_weights.tsv"
       max_sequences: 4100
       min_date: "--min-date 2M"
 
@@ -322,6 +324,7 @@ subsampling:
       max_date: "--max-date 6M"
     recent:
       group_by: "country year month"
+      group_by_weights: "defaults/population_weights.tsv"
       max_sequences: 4100
       min_date: "--min-date 6M"
 
