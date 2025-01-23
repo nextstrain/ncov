@@ -5,9 +5,11 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 23 January 2025: Include a new `mlr_lineage_fitness` coloring. This uses live estimates of lineage fitness from [nextstrain.org/sars-cov-2/forecasts](https://nextstrain.org/sars-cov-2/forecasts) to provide a strain-level coloring to the tree. The lineage fitness estimates are automatically updated as new data comes in and so this coloring should stay current. [PR 1169](https://github.com/nextstrain/ncov/pull/1169)
+
 ## v15 (5 December 2024)
 
-- Remove `run_pangolin` configuration option from the workflow, since the pangoLEARN tool that this enabled has been deprecated. [PR 1164](https://github.com/nextstrain/ncov/pull/1164)
+- 5 December 2024: Remove `run_pangolin` configuration option from the workflow, since the pangoLEARN tool that this enabled has been deprecated. [PR 1164](https://github.com/nextstrain/ncov/pull/1164)
 
 ## v14 (23 October 2024)
 
