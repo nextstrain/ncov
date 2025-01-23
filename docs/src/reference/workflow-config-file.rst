@@ -1097,46 +1097,6 @@ inertia
 -  Unused
 
 
-logistic_growth
----------------
-
--  type: object
--  description: Parameters for estimation of logistic clade growth based on logit-transformed clade frequencies.
--  Valid attributes:
-
-.. contents::
-   :local:
-
-delta_pivots
-~~~~~~~~~~~~
-
--  type: integer
--  description: Calculate logistic growth over the last N pivots which corresponds to N times the amount of time represented by the ``pivot_interval_units`` in the frequencies configuration.
--  default: ``6``
-
-min_tips
-~~~~~~~~
-
--  type: integer
--  description: The minimum number of tips a clade must have before its logistic growth is calculated.
--  default: ``50``
-
-min_frequency
-~~~~~~~~~~~~~
-
--  type: float
--  description: The minimum current frequency for a clade to have its logistic growth calculated.
--  default: ``0.000001``
-
-max_frequency
-~~~~~~~~~~~~~
-
--  type: float
--  description: The maximum current frequency for a clade to have its logistic growth calculated.
--  default: ``0.95``
-
-
-
 ancestral
 ---------
 

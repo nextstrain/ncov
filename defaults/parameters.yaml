@@ -172,22 +172,6 @@ frequencies:
   stiffness: 20
   inertia: 0.2
 
-# Logistic growth settings
-logistic_growth:
-  # Calculate logistic growth over the last N pivots which corresponds to N
-  # times the amount of time represented by the `pivot_interval_units` in the
-  # frequencies configuration.
-  delta_pivots: 6
-
-  # Set the minimum number of tips a clade must have before its logistic growth
-  # is calculated.
-  min_tips: 50
-
-  # Set the minimum and maximum current frequency a clade must for its logistic
-  # growth to be calculated.
-  min_frequency: 0.000001
-  max_frequency: 0.95
-
 # Cluster-specific settings
 cluster:
   # Require a minimum number of tips to be annotated as a cluster.

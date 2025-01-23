@@ -178,16 +178,6 @@ rule auspice_config:
                     "type": "continuous"
                 },
                 {
-                    "key": "logistic_growth",
-                    "title": "Logistic Growth",
-                    "type": "continuous"
-                },
-                {
-                    "key": "current_frequency",
-                    "title": "Current Frequency",
-                    "type": "continuous"
-                },
-                {
                     "key": "mlr_lineage_fitness",
                     "title": "MLR lineage fitness",
                     "type": "continuous"

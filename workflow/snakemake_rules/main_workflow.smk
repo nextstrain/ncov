@@ -1103,41 +1103,46 @@ rule tip_frequencies:
             --proportion-wide {params.proportion_wide} \
             --output {output.tip_frequencies_json} 2>&1 | tee {log}
         """
-
-rule logistic_growth:
-    input:
-        tree="results/{build_name}/tree.nwk",
-        frequencies="results/{build_name}/tip-frequencies.json",
-    output:
-        node_data="results/{build_name}/logistic_growth.json"
-    benchmark:
-        "benchmarks/logistic_growth_{build_name}.txt"
-    conda:
-        config["conda_environment"]
-    log:
-        "logs/logistic_growth_{build_name}.txt"
-    params:
-        method="logistic",
-        attribute_name = "logistic_growth",
-        delta_pivots=config["logistic_growth"]["delta_pivots"],
-        min_tips=config["logistic_growth"]["min_tips"],
-        min_frequency=config["logistic_growth"]["min_frequency"],
-        max_frequency=config["logistic_growth"]["max_frequency"],
-    resources:
-        mem_mb=256
-    shell:
-        r"""
-        python3 scripts/calculate_delta_frequency.py \
-            --tree {input.tree} \
-            --frequencies {input.frequencies} \
-            --method {params.method} \
-            --delta-pivots {params.delta_pivots} \
-            --min-tips {params.min_tips} \
-            --min-frequency {params.min_frequency} \
-            --max-frequency {params.max_frequency} \
-            --attribute-name {params.attribute_name} \
-            --output {output.node_data} 2>&1 | tee {log}
-        """
+# This analysis is deprecated as of 2025-01-23
+# This uses frequencies of strains in the tree to estimate logistic growth rates
+# However, analyses at nextstrain.org/sars-cov-2/forecasts use all the available
+# sequence data and provide a more sophisticated estimate of growth rate accounting
+# for competition between circulating viruses. This updated results are available
+# in the `mlr_lineage_fitness` analysis
+# rule logistic_growth:
+#     input:
+#         tree="results/{build_name}/tree.nwk",
+#         frequencies="results/{build_name}/tip-frequencies.json",
+#     output:
+#         node_data="results/{build_name}/logistic_growth.json"
+#     benchmark:
+#         "benchmarks/logistic_growth_{build_name}.txt"
+#     conda:
+#         config["conda_environment"]
+#     log:
+#         "logs/logistic_growth_{build_name}.txt"
+#     params:
+#         method="logistic",
+#         attribute_name = "logistic_growth",
+#         delta_pivots=config["logistic_growth"]["delta_pivots"],
+#         min_tips=config["logistic_growth"]["min_tips"],
+#         min_frequency=config["logistic_growth"]["min_frequency"],
+#         max_frequency=config["logistic_growth"]["max_frequency"],
+#     resources:
+#         mem_mb=256
+#     shell:
+#         r"""
+#         python3 scripts/calculate_delta_frequency.py \
+#             --tree {input.tree} \
+#             --frequencies {input.frequencies} \
+#             --method {params.method} \
+#             --delta-pivots {params.delta_pivots} \
+#             --min-tips {params.min_tips} \
+#             --min-frequency {params.min_frequency} \
+#             --max-frequency {params.max_frequency} \
+#             --attribute-name {params.attribute_name} \
+#             --output {output.node_data} 2>&1 | tee {log}
+#         """
 
 # This analysis is deprecated as of 2025-01-23
 # This was drawn from results at https://github.com/bkotzen/sars-cov2-modeling
@@ -1278,7 +1283,6 @@ def _get_node_data_by_wildcards(wildcards):
         rules.emerging_lineages.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data,
-        rules.logistic_growth.output.node_data,
         rules.mlr_lineage_fitness.output.node_data,
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data,
