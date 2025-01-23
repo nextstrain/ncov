@@ -1170,6 +1170,27 @@ rule mutational_fitness:
             --output {output} 2>&1 | tee {log}
         """
 
+rule mlr_lineage_fitness:
+    input:
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
+    output:
+        node_data="results/{build_name}/mlr_lineage_fitness.json",
+    benchmark:
+        "benchmarks/mlr_lineage_fitness_{build_name}.txt",
+    conda:
+        config["conda_environment"],
+    log:
+        "logs/mlr_lineage_fitness_{build_name}.txt",
+    params:
+        metadata_id_columns=config["sanitize_metadata"]["metadata_id_columns"],
+    shell:
+        r"""
+        python3 scripts/fetch_mlr_lineage_fitness.py \
+            --metadata {input.metadata} \
+            --metadata-id-columns {params.metadata_id_columns:q} \
+            --output-node-data {output.node_data} 2>&1 | tee {log}
+        """
+
 rule calculate_epiweeks:
     input:
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
@@ -1255,6 +1276,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.traits.output.node_data,
         rules.logistic_growth.output.node_data,
         rules.mutational_fitness.output.node_data,
+        rules.mlr_lineage_fitness.output.node_data,
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data,
     ]

@@ -193,6 +193,11 @@ rule auspice_config:
                     "type": "continuous"
                 },
                 {
+                    "key": "mlr_lineage_fitness",
+                    "title": "MLR lineage fitness",
+                    "type": "continuous"
+                },
+                {
                     "key": "region",
                     "title": "Region",
                     "type": "categorical"
