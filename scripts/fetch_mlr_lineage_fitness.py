@@ -1,16 +1,25 @@
-from augur.io import read_metadata
-from augur.utils import write_json
 import requests
 import json
 import pandas as pd
 import argparse
 import math
+from augur.io import read_metadata
+from augur.utils import write_json
+
+# This script is currently assuming a match on lineage fitness this uses
+# https://data.nextstrain.org/files/workflows/forecasts-ncov/gisaid/pango_lineages/global/mlr/latest_results.json
+# that backs the live estimates on https://nextstrain.org/sars-cov-2/forecasts
+# This uses "Nextclade_pango" metadata label to derive sequence counts from
+# GISAID data and estimate relative growth advantages across collapsed Pango
+# lineages. It will be most relevant for 1m, 2m and 6m builds, but is not at all
+# broken for the all-time builds. It would be possible to swap this to key on
+# clade instead, but I think the greater detail of lineages is better in this case
 
 # Set up argument parser
-parser = argparse.ArgumentParser(description="Process metadata and growth advantage data.")
-parser.add_argument("--metadata", required=True, help="Path to the metadata file (TSV or compressed .tsv.xz format).")
-parser.add_argument("--metadata-id-columns", default=["strain", "name", "Virus name"], nargs="+", help="List of columns to use as identifiers in the metadata file.")
-parser.add_argument("--metadata-clade-attribute", default="Nextclade_pango", help="Matched attribute to MLR variants.")
+parser = argparse.ArgumentParser(description="Fetch MLR lineage fitness and match to strain-level metadata")
+parser.add_argument("--metadata", required=True, help="Path to the metadata TSV")
+parser.add_argument("--metadata-id-columns", default=["strain", "name", "Virus name"], nargs="+", help="List of columns to use as identifiers in the metadata file")
+parser.add_argument("--metadata-clade-attribute", default="Nextclade_pango", help="Matched attribute to MLR variants")
 parser.add_argument("--mlr-url", default="https://data.nextstrain.org/files/workflows/forecasts-ncov/gisaid/pango_lineages/global/mlr/latest_results.json", help="URL to fetch the forecasts JSON data.")
 parser.add_argument("--output-node-data", required=True, help="Path to save the output JSON node data.")
 
@@ -49,9 +58,6 @@ try:
         metadata[args.metadata_clade_attribute] = metadata[args.metadata_clade_attribute].map(growth_advantages)
     else:
         metadata[args.metadata_clade_attribute] = math.nan
-
-    # Output rows with matched data
-    print(metadata.head())  # Display the first few rows as an example
 
     # Create a node data object with growth advantages
     node_data = {}

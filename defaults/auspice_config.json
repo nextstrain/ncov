@@ -51,6 +51,11 @@
       "type": "continuous"
     },
     {
+      "key": "mlr_lineage_fitness",
+      "title": "MLR lineage fitness",
+      "type": "continuous"
+    },    
+    {
       "key": "location",
       "title": "Location",
       "type": "categorical"
