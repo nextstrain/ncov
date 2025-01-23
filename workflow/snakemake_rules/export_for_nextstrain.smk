@@ -188,11 +188,6 @@ rule auspice_config:
                     "type": "continuous"
                 },
                 {
-                    "key": "mutational_fitness",
-                    "title": "Mutational Fitness",
-                    "type": "continuous"
-                },
-                {
                     "key": "mlr_lineage_fitness",
                     "title": "MLR lineage fitness",
                     "type": "continuous"

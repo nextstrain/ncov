@@ -68,7 +68,6 @@ files:
   clades: "defaults/clades.tsv"
   clade_name_mapping: "defaults/clade_display_names.yml"
   emerging_lineages: "defaults/emerging_lineages.tsv"
-  mutational_fitness_distance_map: "defaults/mutational_fitness_distance_map.json"
   sites_to_mask: "defaults/sites_ignored_for_tree_topology.txt"
 
 # Define genes to translate during alignment by nextclade.

@@ -433,7 +433,7 @@ genes
 -  type: array
 -  description: A list of genes for which ``nextclade`` should generate amino acid sequences during the alignment process. Gene names must match the names provided in the gene map from the ``annotation`` parameter.
 -  default: ``["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]``
--  used in rules: ``align``, ``build_align``, ``translate``, ``mutational_fitness``
+-  used in rules: ``align``, ``build_align``, ``translate``
 
 
 active_builds

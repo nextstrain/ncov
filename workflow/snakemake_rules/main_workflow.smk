@@ -1139,36 +1139,40 @@ rule logistic_growth:
             --output {output.node_data} 2>&1 | tee {log}
         """
 
-rule mutational_fitness:
-    input:
-        tree = "results/{build_name}/tree.nwk",
-        alignments = lambda w: rules.translate.output.translations,
-        distance_map = config["files"]["mutational_fitness_distance_map"]
-    output:
-        node_data = "results/{build_name}/mutational_fitness.json"
-    benchmark:
-        "benchmarks/mutational_fitness_{build_name}.txt"
-    log:
-        "logs/mutational_fitness_{build_name}.txt"
-    params:
-        genes = ' '.join(config.get('genes', ['S'])),
-        compare_to = "root",
-        attribute_name = "mutational_fitness"
-    conda:
-        config["conda_environment"],
-    resources:
-        mem_mb=2000
-    shell:
-        r"""
-        augur distance \
-            --tree {input.tree} \
-            --alignment {input.alignments} \
-            --gene-names {params.genes} \
-            --compare-to {params.compare_to} \
-            --attribute-name {params.attribute_name} \
-            --map {input.distance_map} \
-            --output {output} 2>&1 | tee {log}
-        """
+# This analysis is deprecated as of 2025-01-23
+# This was drawn from results at https://github.com/bkotzen/sars-cov2-modeling
+# But this analysis hasn't been updated since 2024-07-22
+# If these results become updated more frequently, we should restore this analysis
+# rule mutational_fitness:
+#     input:
+#         tree = "results/{build_name}/tree.nwk",
+#         alignments = lambda w: rules.translate.output.translations,
+#         distance_map = config["files"]["mutational_fitness_distance_map"]
+#     output:
+#         node_data = "results/{build_name}/mutational_fitness.json"
+#     benchmark:
+#         "benchmarks/mutational_fitness_{build_name}.txt"
+#     log:
+#         "logs/mutational_fitness_{build_name}.txt"
+#     params:
+#         genes = ' '.join(config.get('genes', ['S'])),
+#         compare_to = "root",
+#         attribute_name = "mutational_fitness"
+#     conda:
+#         config["conda_environment"],
+#     resources:
+#         mem_mb=2000
+#     shell:
+#         r"""
+#         augur distance \
+#             --tree {input.tree} \
+#             --alignment {input.alignments} \
+#             --gene-names {params.genes} \
+#             --compare-to {params.compare_to} \
+#             --attribute-name {params.attribute_name} \
+#             --map {input.distance_map} \
+#             --output {output} 2>&1 | tee {log}
+#         """
 
 rule mlr_lineage_fitness:
     input:
@@ -1275,7 +1279,6 @@ def _get_node_data_by_wildcards(wildcards):
         rules.recency.output.node_data,
         rules.traits.output.node_data,
         rules.logistic_growth.output.node_data,
-        rules.mutational_fitness.output.node_data,
         rules.mlr_lineage_fitness.output.node_data,
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data,
