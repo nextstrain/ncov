@@ -70,6 +70,6 @@ try:
     write_json({"nodes": node_data}, args.output_node_data)
 
 except FileNotFoundError as e:
-    print(f"Error reading metadata file: {e}")
+    print(f"Error reading metadata file: {e}", file=sys.stderr)
 except Exception as e:
-    print(f"An unexpected error occurred: {e}")
+    print(f"An unexpected error occurred: {e}", file=sys.stderr)
