@@ -11,7 +11,46 @@ and the version the resulting changes to defaults/mutational_fitness_distance_ma
 Updated model outputs are available at https://github.com/bkotzen/sars-cov2-modeling following:
 
 https://raw.githubusercontent.com/bkotzen/sars-cov2-modeling/main/2024-07-22/PyR0/mutations.tsv
+
+--------------------------------------------------------------
+
+This analysis was removed from the workflow on 2025-01-23
+This was drawn from results at https://github.com/bkotzen/sars-cov2-modeling
+But this repo hasn't been updated since 2024-07-22
+If these results become updated more frequently, we should restore this analysis
+
+This was used in the workflow following:
+
+rule mutational_fitness:
+    input:
+        tree = "results/{build_name}/tree.nwk",
+        alignments = lambda w: rules.translate.output.translations,
+        distance_map = config["files"]["mutational_fitness_distance_map"]
+    output:
+        node_data = "results/{build_name}/mutational_fitness.json"
+    benchmark:
+        "benchmarks/mutational_fitness_{build_name}.txt"
+    log:
+        "logs/mutational_fitness_{build_name}.txt"
+    params:
+        genes = ' '.join(config.get('genes', ['S'])),
+        compare_to = "root",
+        attribute_name = "mutational_fitness"
+    conda:
+        config["conda_environment"],
+    resources:
+        mem_mb=2000
+    shell:
+        augur distance \
+            --tree {input.tree} \
+            --alignment {input.alignments} \
+            --gene-names {params.genes} \
+            --compare-to {params.compare_to} \
+            --attribute-name {params.attribute_name} \
+            --map {input.distance_map} \
+            --output {output} 2>&1 | tee {log}
 """
+
 import argparse
 import pandas as pd
 import json
