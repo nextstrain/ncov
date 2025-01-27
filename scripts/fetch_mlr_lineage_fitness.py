@@ -1,8 +1,9 @@
-import requests
+import argparse
 import json
 import pandas as pd
-import argparse
+import requests
 import math
+import sys
 from augur.io import read_metadata
 from augur.utils import write_json
 
@@ -14,16 +15,6 @@ from augur.utils import write_json
 # lineages. It will be most relevant for 1m, 2m and 6m builds, but is not at all
 # broken for the all-time builds. It would be possible to swap this to key on
 # clade instead, but I think the greater detail of lineages is better in this case
-
-# Set up argument parser
-parser = argparse.ArgumentParser(description="Fetch MLR lineage fitness and match to strain-level metadata")
-parser.add_argument("--metadata", required=True, help="Path to the metadata TSV")
-parser.add_argument("--metadata-id-columns", default=["strain", "name", "Virus name"], nargs="+", help="List of columns to use as identifiers in the metadata file")
-parser.add_argument("--metadata-clade-attribute", default="Nextclade_pango", help="Matched attribute to MLR variants")
-parser.add_argument("--mlr-url", default="https://data.nextstrain.org/files/workflows/forecasts-ncov/gisaid/pango_lineages/global/mlr/latest_results.json", help="URL to fetch the forecasts JSON data.")
-parser.add_argument("--output-node-data", required=True, help="Path to save the output JSON node data.")
-
-args = parser.parse_args()
 
 def fetch_growth_advantages(mlr_url):
     try:
@@ -42,18 +33,30 @@ def fetch_growth_advantages(mlr_url):
         print(f"Error fetching the JSON file: {e}")
         return None
 
-try:
-    # Fetch the growth advantages
+def main():
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description="Fetch MLR lineage fitness and match to strain-level metadata")
+    parser.add_argument("--metadata", required=True, help="Path to the metadata TSV")
+    parser.add_argument("--metadata-id-columns", default=["strain", "name", "Virus name"], nargs="+", help="List of columns to use as identifiers in the metadata file")
+    parser.add_argument("--metadata-clade-attribute", default="Nextclade_pango", help="Matched attribute to MLR variants")
+    parser.add_argument("--mlr-url", default="https://data.nextstrain.org/files/workflows/forecasts-ncov/gisaid/pango_lineages/global/mlr/latest_results.json", help="URL to fetch the forecasts JSON data.")
+    parser.add_argument("--output-node-data", required=True, help="Path to save the output JSON node data.")
+
+    args = parser.parse_args()
+
+    # Fetch the remote growth advantages
     growth_advantages = fetch_growth_advantages(args.mlr_url)
 
-    # Load the local metadata file
-    metadata_file = args.metadata
-    metadata = read_metadata(
-        metadata_file,
-        id_columns=args.metadata_id_columns
-    )
+    # Load the local metadata
+    try:
+        metadata = read_metadata(
+            args.metadata,
+            id_columns=args.metadata_id_columns
+        )
+    except FileNotFoundError as e:
+        print(f"Error reading metadata file: {e}", file=sys.stderr)
 
-    # Match Nextclade_pango entries to the growth advantage
+    # Match Nextclade_pango entries in metadata to the fetched growth advantages
     if growth_advantages:
         metadata[args.metadata_clade_attribute] = metadata[args.metadata_clade_attribute].map(growth_advantages)
     else:
@@ -69,7 +72,8 @@ try:
     # Save node data
     write_json({"nodes": node_data}, args.output_node_data)
 
-except FileNotFoundError as e:
-    print(f"Error reading metadata file: {e}", file=sys.stderr)
-except Exception as e:
-    print(f"An unexpected error occurred: {e}", file=sys.stderr)
+if __name__ == '__main__':
+    try:
+        main()
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}", file=sys.stderr)
