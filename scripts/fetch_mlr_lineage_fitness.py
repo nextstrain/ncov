@@ -2,7 +2,6 @@ import argparse
 import json
 import pandas as pd
 import requests
-import math
 import sys
 from augur.io import read_metadata
 from augur.utils import write_json
@@ -30,7 +29,7 @@ def fetch_growth_advantages(mlr_url):
                     growth_advantages[entry["variant"]] = entry["value"]
         return growth_advantages
     except Exception as e:
-        print(f"Error fetching the JSON file: {e}")
+        print(f"Error fetching the JSON file: {e}", file=sys.stderr)
         return None
 
 def main():
@@ -60,13 +59,13 @@ def main():
     if growth_advantages:
         metadata[args.metadata_clade_attribute] = metadata[args.metadata_clade_attribute].map(growth_advantages)
     else:
-        metadata[args.metadata_clade_attribute] = math.nan
+        metadata[args.metadata_clade_attribute] = None
 
     # Create a node data object with growth advantages
     node_data = {}
     for index, record in metadata.iterrows():
         node_data[index] = {
-            "mlr_lineage_fitness": record[args.metadata_clade_attribute]
+            "mlr_lineage_fitness": record[args.metadata_clade_attribute] if pd.notna(record[args.metadata_clade_attribute]) else None
         }
 
     # Save node data
