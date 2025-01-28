@@ -455,7 +455,7 @@ rule prepare_nextclade:
         Downloading reference files for nextclade (used for alignment and qc).
         """
     output:
-        nextclade_dataset = "data/sars-cov-2-nextclade-defaults",
+        nextclade_dataset = directory("data/sars-cov-2-nextclade-defaults"),
     params:
         name = config["nextclade_dataset"],
     conda: config["conda_environment"]
