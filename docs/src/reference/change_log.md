@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+## v16 (29 January 2025)
+
 - 23 January 2025: Include a new `mlr_lineage_fitness` coloring. This uses live estimates of lineage fitness from [nextstrain.org/sars-cov-2/forecasts](https://nextstrain.org/sars-cov-2/forecasts) to provide a strain-level coloring to the tree. The lineage fitness estimates are automatically updated as new data comes in and so this coloring should stay current. [PR 1169](https://github.com/nextstrain/ncov/pull/1169)
 
 - 23 January 2025: Deprecate previous fitness-related colorings of `mutational_fitness`, `logistic_growth` and `current_frequency` (used by logistic growth). The new `mlr_lineage_fitess` should be more accurate / more current than these previous approaches. [PR 1169](https://github.com/nextstrain/ncov/pull/1169)
