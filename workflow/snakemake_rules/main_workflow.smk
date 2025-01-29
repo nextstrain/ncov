@@ -1104,70 +1104,25 @@ rule tip_frequencies:
             --output {output.tip_frequencies_json} 2>&1 | tee {log}
         """
 
-rule logistic_growth:
+rule mlr_lineage_fitness:
     input:
-        tree="results/{build_name}/tree.nwk",
-        frequencies="results/{build_name}/tip-frequencies.json",
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
-        node_data="results/{build_name}/logistic_growth.json"
+        node_data="results/{build_name}/mlr_lineage_fitness.json",
     benchmark:
-        "benchmarks/logistic_growth_{build_name}.txt"
-    conda:
-        config["conda_environment"]
-    log:
-        "logs/logistic_growth_{build_name}.txt"
-    params:
-        method="logistic",
-        attribute_name = "logistic_growth",
-        delta_pivots=config["logistic_growth"]["delta_pivots"],
-        min_tips=config["logistic_growth"]["min_tips"],
-        min_frequency=config["logistic_growth"]["min_frequency"],
-        max_frequency=config["logistic_growth"]["max_frequency"],
-    resources:
-        mem_mb=256
-    shell:
-        r"""
-        python3 scripts/calculate_delta_frequency.py \
-            --tree {input.tree} \
-            --frequencies {input.frequencies} \
-            --method {params.method} \
-            --delta-pivots {params.delta_pivots} \
-            --min-tips {params.min_tips} \
-            --min-frequency {params.min_frequency} \
-            --max-frequency {params.max_frequency} \
-            --attribute-name {params.attribute_name} \
-            --output {output.node_data} 2>&1 | tee {log}
-        """
-
-rule mutational_fitness:
-    input:
-        tree = "results/{build_name}/tree.nwk",
-        alignments = lambda w: rules.translate.output.translations,
-        distance_map = config["files"]["mutational_fitness_distance_map"]
-    output:
-        node_data = "results/{build_name}/mutational_fitness.json"
-    benchmark:
-        "benchmarks/mutational_fitness_{build_name}.txt"
-    log:
-        "logs/mutational_fitness_{build_name}.txt"
-    params:
-        genes = ' '.join(config.get('genes', ['S'])),
-        compare_to = "root",
-        attribute_name = "mutational_fitness"
+        "benchmarks/mlr_lineage_fitness_{build_name}.txt",
     conda:
         config["conda_environment"],
-    resources:
-        mem_mb=2000
+    log:
+        "logs/mlr_lineage_fitness_{build_name}.txt",
+    params:
+        metadata_id_columns=config["sanitize_metadata"]["metadata_id_columns"],
     shell:
         r"""
-        augur distance \
-            --tree {input.tree} \
-            --alignment {input.alignments} \
-            --gene-names {params.genes} \
-            --compare-to {params.compare_to} \
-            --attribute-name {params.attribute_name} \
-            --map {input.distance_map} \
-            --output {output} 2>&1 | tee {log}
+        python3 scripts/fetch_mlr_lineage_fitness.py \
+            --metadata {input.metadata} \
+            --metadata-id-columns {params.metadata_id_columns:q} \
+            --output-node-data {output.node_data} 2>&1 | tee {log}
         """
 
 rule calculate_epiweeks:
@@ -1253,8 +1208,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.emerging_lineages.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data,
-        rules.logistic_growth.output.node_data,
-        rules.mutational_fitness.output.node_data,
+        rules.mlr_lineage_fitness.output.node_data,
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data,
     ]
