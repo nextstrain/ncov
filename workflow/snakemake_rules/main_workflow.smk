@@ -1276,8 +1276,7 @@ rule export:
         lat_longs = config["files"]["lat_longs"],
         description = rules.build_description.output.description
     output:
-        auspice_json = "results/{build_name}/ncov_with_accessions.json",
-        root_sequence_json = "results/{build_name}/ncov_with_accessions_root-sequence.json"
+        auspice_json = "results/{build_name}/ncov_with_accessions.json"
     log:
         "logs/export_{build_name}.txt"
     benchmark:
@@ -1295,7 +1294,7 @@ rule export:
             --metadata {input.metadata} \
             --node-data {input.node_data} \
             --auspice-config {input.auspice_config} \
-            --include-root-sequence \
+            --include-root-sequence-inline \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --title {params.title:q} \
