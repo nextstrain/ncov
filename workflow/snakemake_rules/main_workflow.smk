@@ -1,3 +1,5 @@
+from math import ceil
+
 rule sanitize_metadata:
     input:
         metadata=lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
@@ -747,13 +749,13 @@ rule tree:
         # Multiple sequence alignments can use up to 40 times their disk size in
         # memory, especially for larger alignments.
         # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
-        mem_mb=lambda wildcards, input: 40 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: ceil(40 * (input.size / 1024 / 1024))
     conda: config["conda_environment"]
     shell:
         r"""
         augur tree \
             --alignment {input.alignment} \
-            --tree-builder-args {params.args} \
+            --tree-builder-args {params.args}' --mem {resources.mem_mb}M' \
             {params.exclude_sites} \
             --output {output.tree} \
             --nthreads {threads} 2>&1 | tee {log}
@@ -783,7 +785,7 @@ rule refine:
         # Multiple sequence alignments can use up to 15 times their disk size in
         # memory.
         # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
-        mem_mb=lambda wildcards, input: 15 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: ceil(15 * (input.size / 1024 / 1024))
     params:
         root = config["refine"]["root"],
         clock_rate = config["refine"]["clock_rate"],
@@ -837,7 +839,7 @@ rule ancestral:
         # Multiple sequence alignments can use up to 15 times their disk size in
         # memory.
         # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
-        mem_mb=lambda wildcards, input: 15 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: ceil(15 * (input.size / 1024 / 1024))
     conda: config["conda_environment"]
     shell:
         r"""
@@ -868,7 +870,7 @@ rule translate:
         # Multiple sequence alignments can use up to 15 times their disk size in
         # memory.
         # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
-        mem_mb=lambda wildcards, input: 15 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: ceil(15 * (input.size / 1024 / 1024))
     conda: config["conda_environment"]
     shell:
         r"""
@@ -976,7 +978,7 @@ rule clades:
         "benchmarks/clades_{build_name}.txt"
     resources:
         # Memory use scales primarily with size of the node data.
-        mem_mb=lambda wildcards, input: 3 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: ceil(3 * (input.size / 1024 / 1024))
     conda: config["conda_environment"]
     shell:
         r"""
@@ -1002,7 +1004,7 @@ rule emerging_lineages:
         "benchmarks/emerging_lineages_{build_name}.txt"
     resources:
         # Memory use scales primarily with size of the node data.
-        mem_mb=lambda wildcards, input: 3 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: ceil(3 * (input.size / 1024 / 1024))
     conda: config["conda_environment"]
     shell:
         r"""
@@ -1033,7 +1035,7 @@ rule colors:
         # Memory use scales primarily with the size of the metadata file.
         # Compared to other rules, this rule loads metadata as a pandas
         # DataFrame instead of a dictionary, so it uses much less memory.
-        mem_mb=lambda wildcards, input: 5 * int(input.metadata.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: ceil(5 * (input.metadata.size / 1024 / 1024))
     conda: config["conda_environment"]
     shell:
         r"""
