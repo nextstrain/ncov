@@ -152,7 +152,7 @@ colors
 ~~~~~~
 
 -  type: string
--  description: Path to a build-specific color map to use in Auspice.
+-  description: Path to a build-specific color map file. Format: tab-delimited, no header. Each row should contain a metadata field as the first column, metadata value in the second column, and hex color code in the third column.
 
 .. _configuration-builds-description:
 
