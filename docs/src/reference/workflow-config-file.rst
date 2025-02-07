@@ -547,6 +547,14 @@ color_schemes
 -  default: ``defaults/color_schemes.tsv``
 -  used in rules: ``colors``
 
+colors
+~~~~~~
+
+-  type: string
+-  description: Path to a color map file. Format: tab-delimited, no header. Each row should contain a metadata field as the first column, metadata value in the second column, and hex color code in the third column.
+-  default: colors generated from the ``colors`` rule
+-  used in rules: ``export``
+
 .. _auspice_config-1:
 
 auspice_config
