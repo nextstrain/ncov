@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 10 February 2025: Improve documentation regarding custom color map files.
+
 ## v16 (29 January 2025)
 
 - 23 January 2025: Include a new `mlr_lineage_fitness` coloring. This uses live estimates of lineage fitness from [nextstrain.org/sars-cov-2/forecasts](https://nextstrain.org/sars-cov-2/forecasts) to provide a strain-level coloring to the tree. The lineage fitness estimates are automatically updated as new data comes in and so this coloring should stay current. [PR 1169](https://github.com/nextstrain/ncov/pull/1169)

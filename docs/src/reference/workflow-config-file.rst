@@ -152,7 +152,7 @@ colors
 ~~~~~~
 
 -  type: string
--  description: Path to a build-specific color map to use in Auspice.
+-  description: Path to a build-specific color map file. Format: tab-delimited, no header. Each row should contain a metadata field as the first column, metadata value in the second column, and hex color code in the third column.
 
 .. _configuration-builds-description:
 
@@ -546,6 +546,14 @@ color_schemes
 -  description: Path to a list of tab-delimited and manually curated categorical color schemes for N total categories where row one defines one color, row two define two colors, and so on. Along with the ``ordering`` file, this file is used to generate a build-specific color map for use by Auspice.
 -  default: ``defaults/color_schemes.tsv``
 -  used in rules: ``colors``
+
+colors
+~~~~~~
+
+-  type: string
+-  description: Path to a color map file. Format: tab-delimited, no header. Each row should contain a metadata field as the first column, metadata value in the second column, and hex color code in the third column.
+-  default: colors generated from the ``colors`` rule
+-  used in rules: ``export``
 
 .. _auspice_config-1:
 
