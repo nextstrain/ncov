@@ -439,9 +439,12 @@ def send_slack_message(message, broadcast=False):
     except NoSuchEntryError:
         pass
 
-    response = requests.post("https://slack.com/api/chat.postMessage", headers=headers, data=json.dumps(data))
-    response.raise_for_status()
-    storage.store_if_not_present("slack_thread_ts", response.json()["ts"])
+    try:
+        response = requests.post("https://slack.com/api/chat.postMessage", headers=headers, data=json.dumps(data))
+        response.raise_for_status()
+        storage.store_if_not_present("slack_thread_ts", response.json()["ts"])
+    except Exception as error:
+        print("An error occurred when sending Slack message:", error)
 
 # onstart handler will be executed before the workflow starts.
 onstart:
