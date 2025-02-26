@@ -22,6 +22,8 @@
 import re
 import requests
 import json
+import sys
+import traceback
 from workflow.lib.persistent_dict import PersistentDict, NoSuchEntryError
 
 ruleorder: dated_json > finalize
@@ -439,9 +441,14 @@ def send_slack_message(message, broadcast=False):
     except NoSuchEntryError:
         pass
 
-    response = requests.post("https://slack.com/api/chat.postMessage", headers=headers, data=json.dumps(data))
-    response.raise_for_status()
-    storage.store_if_not_present("slack_thread_ts", response.json()["ts"])
+    try:
+        response = requests.post("https://slack.com/api/chat.postMessage", headers=headers, data=json.dumps(data))
+        response.raise_for_status()
+        storage.store_if_not_present("slack_thread_ts", response.json()["ts"])
+    except Exception as error:
+        print("An error occurred when sending Slack message:", file=sys.stderr)
+        traceback.print_exc()
+        print("Oh well. Ignoring and moving on…", file=sys.stderr)
 
 # onstart handler will be executed before the workflow starts.
 onstart:
