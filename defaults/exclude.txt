@@ -10950,6 +10950,9 @@ Uganda/009/2020
 USA/VI-Yale-10211/2020
 USA/WV121217/2020
 
+# Overdiverged Delta
+Mauritania/IPM-19/2020
+
 # Under/over diverged Omicron sequences
 AntiguaandBarbuda/114024/2021
 AntiguaandBarbuda/114031/2021
@@ -11115,8 +11118,10 @@ India/MZ-INSACOG-1526500005999/2020
 Indonesia/JA-GS-EIJK-RSRM-0172/2020
 Indonesia/KI-FKUNMUL-1765/2020
 Iraq/Erbil-10/2022
+Mozambique/INS-MT0060943/2022
 TrinidadandTobago/397052/2022
 Vietnam/PIHCM_1540/2022
+Vietnam/PIHCM_1544/2022
 
 # group of misdated Omicron from Palau
 Palau/PW-CDC-2-5546529/2021
@@ -11484,6 +11489,7 @@ TrinidadandTobago/171121/2022
 Kenya/MKU-10/2020
 Kyrgyzstan/NRL-18920/2020
 Nigeria/CRL-013/2020
+Nigeria/S02/2020
 Romania/SV_SJU_18749/2020
 Senegal/24961/2020
 Spain/AN-CBA-02819/2020
