@@ -11094,6 +11094,9 @@ USA/TX-DSHS-14306/2021
 Nigeria/NCDC-NR1188/2021
 Nigeria/NCDC-NR1219/2021
 
+# Homoplasic mutations with later BA.5 viruses from Pakistan, presumed misdated or contaminated
+Pakistan/AKU-02/2022
+
 # misdated Omicron
 Bermuda/WR-NYGC-DEC-6126-GNOP644/2021
 Bermuda/WR-NYGC-DEC-6131-LYLI165/2021
