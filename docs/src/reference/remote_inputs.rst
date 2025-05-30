@@ -1,7 +1,7 @@
 Remote inputs
 =============
 
-This page provides an overview of intermediate files which Nextstrain produces via daily workflow runs. Where appropriate, these files can be starting points for the `ncov workflow <https://github.com/nextstrain/ncov/>`__ (discussed below).
+This page provides an overview of intermediate files which Nextstrain produces via weekly workflow runs. Where appropriate, these files can be starting points for the `ncov workflow <https://github.com/nextstrain/ncov/>`__ (discussed below).
 
 We have two GitHub repositories which routinely upload files to `S3 buckets <https://aws.amazon.com/s3/>`__: `ncov-ingest <https://github.com/nextstrain/ncov-ingest/>`__ and `ncov <https://github.com/nextstrain/ncov/>`__. Each of those runs separate pipelines for GISAID and open (Genbank and Robert Koch Institute (RKI)) data sources; these pipelines start with data curation and QC steps and end with the phylogenetic analyses you can see on `nextstrain.org <https://nextstrain.org/sars-cov-2/>`__
 
