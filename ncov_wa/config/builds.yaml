@@ -1,0 +1,68 @@
+custom_rules:
+  - ncov_wa/workflow/filter_wa_data.smk
+
+
+# update input location, this is the dataset you will be including in build
+inputs:
+  - name: ncov-wa
+    metadata: "data/wa-sequences.tar.xz"
+    sequences: "data/wa-sequences.tar.xz"
+  - name: contextual
+    metadata: "https://data.nextstrain.org/files/ncov/open/global/metadata.tsv.xz"
+    sequences: "https://data.nextstrain.org/files/ncov/open/global/sequences.fasta.xz"
+  - name: references
+    metadata: "data/references_metadata.tsv"
+    sequences: "data/references_sequences.fasta"
+
+# define auspice config file to enable frequencies
+files:
+  auspice_config: "ncov_wa/config/auspice_config.json"
+
+# define WA builds
+builds:
+  ncov_wa_six_mon:
+    title: "Washington-focused SARS-CoV-2 genomic analysis: Past six months"
+    colors: "ncov_wa/config/colors.tsv"
+    description: "ncov_wa/config/description.md"
+    division: Washington
+    subsampling_scheme: six-month-priority
+
+filters:
+  min_length: 27000
+
+# Define subsampling scheme for builds. This scheme should include as much
+# local diversity for a given division as possible and contextual samples from
+# the rest of the USA and the world.
+subsampling:
+  six-month-priority:
+    local-focus:
+      min_date: --min-date {earliest_date}
+      min_length: --min_length 27000
+      query: --query "(country == 'USA' & division == '{division}')"
+      other_filters: "--include-where 'division=Washington'"
+      #max_sequences: 17000
+    # Included to accurately reconstruct # of introductions.
+    contextual-proximity:
+      min_date: --min-date 2020
+      min_length: --min_length 27000
+      max_sequences: 1000
+      query: --query "contextual == 'yes'"
+      priorities:
+        type: proximity
+        focus: local-focus
+    # Included for accurate clade timing.
+    contextual-random:
+      min_date: --min-date 2020
+      max_sequences: 500
+      group_by: "month year"
+      query: --query "contextual == 'yes'"
+
+# mask sites in genomes
+# These are 1-indexed coordinates of sites that have been identified as prone to sequencing errors
+mask:
+  mask_sites: "21987 21846"
+
+# not sure if this feature works anymore? will include it anyways
+cluster:
+    min_tips: 5
+    group_by: location

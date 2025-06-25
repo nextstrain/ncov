@@ -1,0 +1,100 @@
+division	Louisiana	#5E1D9D
+division	Texas	#BEBADA
+division	Mississippi	#4274CE
+division	New Mexico	#E69337
+division	Arkansas	#85BA6F
+division	Hawaii	#511EA8
+division	Alaska	#4B25B0
+division	Oregon	#472EB9
+division	Washington	#DB2823
+division	California	#4040C6
+division	Nevada	#3F4BCA
+division	Idaho	#3F56CE
+division	Utah	#3F60D0
+division	Arizona	#416ACF
+division	Montana	#4885C7
+division	Wyoming	#4B8DC2
+division	Colorado	#4E95BD
+division	North Dakota	#049ED6
+division	South Dakota	#529BB6
+division	Nebraska	#56A0AE
+division	Kansas	#5BA6A7
+division	Oklahoma	#60AA9F
+division	Minnesota	#65AD96
+division	Iowa	#6BB18E
+division	Missouri	#71B486
+division	Wisconsin	#78B67E
+division	Illinois	#7EB976
+division	Alabama	#8CBC68
+division	Tennessee	#94BD62
+division	Indiana	#9BBE5B
+division	Kentucky	#A3BE57
+division	Michigan	#ABBD52
+division	Georgia	#B2BD4D
+division	Ohio	#BABC4A
+division	Florida	#C1BA47
+division	Puerto Rico	#F0EA8B
+division	South Carolina	#C8B944
+division	North Carolina	#D3B23F
+division	Virginia	#D9AE3E
+division	West Virginia	#E8CF8E
+division	Pennsylvania	#DDA83C
+division	Washington DC	#E0A13A
+division	Maryland	#E39A39
+division	New Jersey	#E68935
+division	New York	#E67F33
+division	Connecticut	#E67431
+division	Vermont	#E4682F
+division	Massachusetts	#E25B2C
+division	New Hampshire	#E04E2A
+division	Rhode Island	#DF4227
+division	Maine	#DD3525
+division	Delaware	#E0AB22
+
+
+recency	Older	#416DCE
+recency	One month ago	#59A3AA
+recency	One week ago	#84BA6F
+recency	3-7 days ago	#BBBC49
+recency	1-2 days ago	#E29D39
+recency	New	#E1502A
+
+region	Oceania	#416DCE
+region	Asia	#59A3AA
+region	Africa	#84BA6F
+region	Europe	#BBBC49
+region	North America	#E29D39
+region	South America	#E1502A
+
+location	Clallam County	#511EA8
+location	Douglas County WA	#4928B4
+location	Cowlitz County	#4334BF
+location	Grant County WA	#4041C7
+location	San Juan County	#3F50CC
+location	Klickitat County	#3F5ED0
+location	Whatcom County	#416CCE
+location	Franklin County WA	#4379CD
+location	Lewis County WA	#4B8FC1
+location	Snohomish County	#5098B9
+location	Mason County WA	#56A0AF
+location	Adams County WA	#5CA7A4
+location	Walla Walla County	#63AC99
+location	Thurston County	#6BB18E
+location	Kittitas County	#73B583
+location	Clark County WA	#7CB878
+location	Island County	#90BC65
+location	Jefferson County WA	#9ABD5C
+location	Benton County WA	#A4BE56
+location	Lincoln County WA	#AFBD4F
+location	Yakima County	#B9BC4A
+location	King County	#C2BA46
+location	Asotin County	#CCB742
+location	Kitsap County	#D3B240
+location	Pierce County WA	#DFA43B
+location	Skagit County	#E39B39
+location	Chelan County	#E68F36
+location	Tacoma	#E68234
+location	Pacific County	#E67431
+location	Grays Harbor County	#E4632E
+location	Spokane County	#E1512A
+location	Stevens County	#DF4027
