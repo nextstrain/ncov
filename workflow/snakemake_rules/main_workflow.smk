@@ -445,6 +445,7 @@ rule combine_samples:
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
+            --skip-checks \
             --exclude-all \
             --include {input.include} \
             --output-sequences {output.sequences} \
