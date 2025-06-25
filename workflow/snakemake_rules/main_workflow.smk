@@ -432,7 +432,8 @@ rule combine_samples:
         include=_get_subsampled_files,
     output:
         sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",
-        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz"
+        metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz",
+        stats = "results/stats-{build_name}.prof",
     log:
         "logs/combine_samples_{build_name}.txt"
     benchmark:
@@ -441,7 +442,7 @@ rule combine_samples:
     threads: 4
     shell:
         r"""
-        augur filter \
+        AUGUR_DEBUG=1 AUGUR_STATS={output.stats} augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
             --skip-checks \

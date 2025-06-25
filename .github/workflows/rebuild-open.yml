@@ -49,8 +49,6 @@ jobs:
           --cpus 72 \
           --memory 140GiB \
           . \
-            deploy \
-            upload \
             --config "${config[@]}" \
             --profile nextstrain_profiles/nextstrain-open \
             --set-threads tree=8
