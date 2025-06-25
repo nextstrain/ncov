@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 7 July 2025: Improved performance of calls to `augur filter`. This requires a minimum Augur version of 31.3.0. [PR 1178](https://github.com/nextstrain/ncov/pull/1178)
+
 - 10 February 2025: Improve documentation regarding custom color map files.
 
 ## v16 (29 January 2025)
