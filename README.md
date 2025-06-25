@@ -1,10 +1,10 @@
-# ncov_wa
+# SARS-CoV-2 Washington focused build
 
 ## Build Overview
-- **Build Name**: [ncov_wa_six_mon]
-- **Pathogen/Strain**: [ncov]
-- **Scope**: [WGS of SARS-CoV-2 in Washington state]
-- **Purpose**: [Genomic surveillance of SARS-CoV-2 in Washington State for past six months]
+- **Build Name**: SARS-CoV-2 Washington focused build
+- **Pathogen/Strain**: SARS-CoV-2
+- **Scope**: Whole Genome Sequences of SARS-CoV-2 in Washington state from the past 6 months
+- **Purpose**: This repository contains the Nextstrain build for the genomic surveillance of SARS-CoV-2 in Washington State for past six months.
 - **Nextstrain Build Location**: [Washington-focused SARS-CoV-2 genomic analysis: Past six months](https://nextstrain.org/groups/waphl/ncov/wa/6m)
 
 ## Table of Contents:
@@ -26,23 +26,50 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Getting Started
+This build utilizes the [Nextstrain.org remote datasets](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html) to produce a Washington-focused SC2 Nextstrain build that can be used for genomic surveillance purposes.
+
+Some high-level build features and capabilities are:
+- **6 month Washington focus sampling**: more here
+- **Tiered subsampling**: more here
 
 ### Data Sources & Inputs
-This build uses the Full Remote Dataset and Global Remote Datasets available on [Nextstrain](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html). This build is designed to pull Washington state sequences and metadata from the full remote dataset as the inputs to the ncov Nextstrain pipeline. The Global dataset (alignment and metadata) is used for contextual sequences in the build. To include more contextualization, one could use the Full Remote Dataset for the contextual sequences, however doing so may require AWS Batch to subsample from the dataset.
+This build uses the full SC2 Remote Dataset and SC2 Global Remote Datasets available on [Nextstrain.org](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html). This data is sourced from GenBank cleaned/maintainted by the Nextstrain team.  This build subset Washington State sequences and metadata from the full remote dataset as the inputs to the ncov Nextstrain pipeline. The Global Remote Dataset (alignment and metadata) is used for contextual sequences in the build.
+
+To include more contextualization, one could use the Full Remote Dataset for the contextual sequences, however doing so may require AWS Batch to subsample from the dataset.
+
+- **Sequence Data**: Nextstrain.org SC2 Remote Dataset sourced from GenBank
+- **Metadata**: Nexxtstrain.org SC2 Remote Dataset sourced from GenBank and WA DOH county-level data
+- **Expected Inputs**:
+    - `ncov_wa/data/county_metadata.csv` (contains most recent line list of GenBank accession number and Washington State county designation)
 
 ### Setup & dependencies
-See installation.
+#### Installation
+Ensure that you have [Nextstrain](https://docs.nextstrain.org/en/latest/install.html) installed.
 
-### Installation
-First, install the [ncov nextstrain pipeline](https://github.com/nextstrain/ncov) and clone the ncov repository using `git clone https://github.com/nextstrain/ncov` or `gh repo clone nextstrain/ncov`.
+To check that Nextstrain is installed:
+```
+nextstrain check-setup
+```
+If Nextstrain is not installed, follow [Nextstrain installation guidelines](https://docs.nextstrain.org/en/latest/install.html)
 
-### Clone the Repository
-Clone this repository in the `ncov` folder. You can do this in the command-line terminal by navigating to the `ncov` repository using `cd ncov` and then cloning the repository using `git clone https://github.com/DOH-SML1303/ncov_wa.git` or `gh repo clone DOH-SML1303/ncov_wa`.
+##### Clone the Nextstrain Team [SARS-CoV-2 repository](https://github.com/nextstrain/ncov):
+```
+git clone https://github.com/nextstrain/ncov.git
+```
+
+##### Clone this ncov_wa repository:
+Clone this repository in the `ncov` folder. You can do this in the command-line terminal by navigating to the `ncov` repository using `cd ncov` and then cloning the repository using
+
+```
+cd ncov
+git clone https://github.com/NW-PaGe/ncov_wa.git
+```
+
 
 ## Run the Build
-This ncov Nexstrain build sources data from Genbank and includes a 6m build. If you're running Nextstrain in a conda environment or `Nextstrain shell` then you want to make sure you pull the latest ncov github repository updates first by running `git pull` in the `ncov` directory, activating the conda environment using `conda activate nextstrain` or Nexstrain shell using `Nextstrain shell .` followed by `nextstrain update` to update Nextstrain. (To update the `Nextstrain shell`, you must run `nextstrain update` outside of the shell) It's recommended to pull updates prior to running the pipeline. The same could also be said for this repo as well! :)
+This ncov_wa Nexstrain build sources data from Genbank and includes a 6 month build. If you're running Nextstrain in a conda environment or `Nextstrain shell` then you want to make sure you pull the latest ncov github repository updates first by running `git pull` in the `ncov` directory, activating the conda environment using `conda activate nextstrain` or Nexstrain shell using `Nextstrain shell .` followed by `nextstrain update` to update Nextstrain. To update the `Nextstrain shell`, you must run `nextstrain update` outside of the shell. It's recommended to pull updates prior to running the pipeline.
 
-### To run the builds using inputs stored on an AWS Bucket:
+<!--### To run the builds using inputs stored on an AWS Bucket:
 You can configure your `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` in your AWS credentials file which can be accessed in terminal using `nano ~/.aws/credentials`, or you can simply export the environmental variables upon opening a terminal window using:
 `export AWS_ACCESS_KEY_ID=
 export AWS_SECRET_ACCESS_KEY=`
@@ -60,55 +87,100 @@ upload:
 If you're running Batch then you need to make sure all of the information is included in your `~/.nextstrain/config`. File. See [this documentation](https://docs.nextstrain.org/projects/cli/en/stable/aws-batch/) for more information.
 
 To run the builds with your data stored in an AWS Bucket, navigate to the `ncov` directory and run:
-`nextstrain build --aws-batch-s3-bucket bucket-name --cpus=6 . --configfile ncov_wa/config/builds.yaml`
+`nextstrain build --aws-batch-s3-bucket bucket-name --cpus=6 . --configfile ncov_wa/config/builds.yaml` -->
 
 ### Run the builds locally
-`nextstrain build --cpus=6 . --configfile ncov_wa/config/builds.yaml`
+
+To run the build, make sure you are in the correct directory file "ncov".  The below code specifies hw many CPUs to use as well as which config file to use. In this case, we are specifying to use the  **ncov_wa/config/build.yaml** with our Washington-specific parameters.
+
+```
+nextstrain build --cpus=6 . --configfile ncov_wa/config/builds.yaml
+```
+
+## Repository File Structure Overview
+The file structure of the repository is as follows with `*`  denoting folders that are the build's expected outputs.
+
+```
+ncov/
+├──auspice/*
+├──benchmarks/*
+├──data/
+├──data.nextstrain.org/*
+├──defaults/
+├──docs/
+├──logs/*
+├──my_profiles/
+├──narratives/
+├──nextstrain_profiles/
+├──results/
+├──scripts/
+├──tests/
+├──workflow/
+├──Snakefile
+├──ncov_wa/
+|   ├──config/
+|   |   ├──auspice_config.json         #  Variables to include in Color-By feature
+|   |   ├──builds.yaml                 #  The builds file that customizes the Nextstrain build; includes subsampling scheme, filters and sites to be masked
+|   |   ├──colors.tsv                  #  File the designates the colors for division, region, and location in Auspice
+|   |   ├──config.yaml                 #  File that includes dependencies and path to the builds.yaml
+|   |   ├──description.md
+|   ├──data/
+|   |   ├──county_metadata.csv         #  Most recent CSV line list of  GenBank accession and associated Washington County. This file need to be updated before running build.
+|   |   ├──headers.tsv                 #  TSV file with the headers of interest for the metadata file.  This file is needed for the smk workflow to use the metadata file for Washington filtering.
+|   |   ├──tmp.tsv                     # Temporary file used in filtering Washington sequences step
+|   ├──scripts/
+|   |   ├──filter_wa_metadata.sh                            # Bash script that filters the remote metadata set to WA metadata. This is called in the workflow/filter_wa_datas.smk file
+|   |   ├──filter_wa_sequences.sh                           # Bash script that filters the remote dataset sequences to WA sequences. This is called in the workflow/filter_wa_data.smk file
+|   |   ├──pull_full_data.sh                                # Bash script that pulls in the full remote dataset. This is called in the workflow/filter_wa_data.smk file
+|   |   ├──wa-nextstrain-update-location-genbank.py         # Python script that joins the county_metadata.csv file to the WA metadata
+|   ├──workflow/
+|   |   ├──filter_wa_data.smk                              # Pulls the full remote dataset and then filters for WA data to be the input into the Nextstrain build
+|   |   ├──add_to_builds.smk                               # Calculates dates and specifies date scheme for timeframe of data the build should include
+```
 
 ## Visualizing the results
-You can check your results once the pipeline is done running using `nextstrain view auspice`
+You can check your results once the pipeline is done running using `nextstrain view auspice` or by uploading the output JSON file into [auspice.us](https://auspice.us/).
 
-## Repository FIle Structure Overview
-The file hierachy for this customized build:
-```
-ncov_wa/
-├──config/
-|   ├──auspice_config.json         #variables to include in Color By feature
-|   ├──builds.yaml                 #the builds file that customizes nextstrain build
-|   ├──colors.tsv                  #WA county colors
-|   ├──config.yaml                 #file that includes dependencies and path to the builds.yaml
-|   ├──description.md
-├──data/
-|   ├──county_metadata.tsv         #to add WA counties to the metadata so they can be included in the build
-|   ├──headers.tsv                 #needed for the smk workflow to create metadata file
-├──scripts/
-|   ├──wa-nextstrain-update-location-genbank.py #adds county metadata to the filtered wa seqs metadata
-|   ├──filter_wa_metadata.sh       #for the smk workflow to pull the WA metadata from the full remote dataset
-|   ├──filter_wa_sequences.sh      #for the smk workflow to pull the WA sequences from the full remote dataset
-|   ├──pull_full_data.sh           #for the smk workflow to pull the full remote dataset to filter out anything that's not WA seqs and metadata
-├──workflow/
-|   ├──filter_wa_data.smk          #pulls the full data and then filters for WA data to be the input into the Nextstrain build
-```
+## Files that  need to be updated
+When running the build, the *county_metadata.csv* should be updated to capture the most up-to-date county data. This metadata file is generated by WA DOH and contains two columns: **SEQUENCE_GENBANK_STRAIN** containing GenkBank accession IDs that match to the sequence FASTA headers, and **COUNTY_NAME** column listing the associated county for each sequence.
 
-## Files that may need to be changed
-When you pull updates for the ncov repo there are a few files that you want to keep an eye for for any changes. This includes the following files the default ncov build:
+<!-- When you pull updates for the ncov repo there are a few files that you want to keep an eye for for any changes. This includes the following files the default ncov build:
 - `ncov/defaults/auspice_config.json`
-- `ncov/nextstrain_profiles/.../builds.yaml`
+- `ncov/nextstrain_profiles/.../builds.yaml` <--
 
 If there are any changes to these two files then changes may need to be made to their custom counterparts in this focused build.
 - Changes to `ncov/defaults/auspice_config.json` > make changes to > `ncov_wa/config/auspice_config.json`
-- Changes to `ncov/nextstrain_profiles/.../builds.yaml` > *may require changes to* > `ncov_wa/config/builds.yaml`
+- Changes to `ncov/nextstrain_profiles/.../builds.yaml` > *may require changes to* > `ncov_wa/config/builds.yaml` -->
 
 ## Expected Outputs
-- `ncov/auspice/ncov_ncov_wa_six_mon.json`
-- `ncov/auspice/ncov_ncov_wa_six_mon_root-sequence.json`
-- `ncov/auspice/ncov_ncov_wa_six_mon_tip-frequencies.json`
 
+Within the `ncov/auspice/` folder, the expected outputs include:
+- `ncov_ncov_wa_six_mon.json`
+- `ncov_ncov_wa_six_mon_root-sequence.json`
+- `ncov_ncov_wa_six_mon_tip-frequencies.json`
+
+[TO DO] Look into why output files named with two ncov?
 ## Scientific Decisions
+- **Subsampling**:
+  - **6 month Washington focus sampling**: Subsampling includes all Washington sequences (no maximum number of sequences) from the past 6 months
+  - **Contextual proximity sampling**: Subsampling includes 1000 sequences sampled from 2020 through current. This sampling helps to accurately reconstruct the number of introduction.  Proximity sampling selects sequences as close as possible to the focal samples (Currently set to Washington).  The genetic proximity between sequences in the focal set to other sequences are calculated in the [priorities.py](https://github.com/nextstrain/ncov/blob/5555ece97bafe1aa2cb19dcaac183d5a718d29fa/scripts/priorities.py) script.
+    - **Crowding penalty**: The crowding penalty in proximity subsampling controls how strongly the subsampling penalizes sequences that are genetically similar to each other. This build set the crowding penalty to 0. The default setting is 0.25.  A crowding penalty value closer to 1 creates a bushier tree and discourages sequence redundancy. A crowding penalty closer to 0 allows more clustering. A crowding penalty of 0 disables crowding.
+  - **Contextual random sampling**: Subsampling includes 500 sequences sampled over month-year that allow for accurate clade timing in the tree.
+- **Reference selection**: [MN908947](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) is used as the reference because it is the complete genome of the SARS-CoV-2 Wuhan strain collected in December 2019.
+- **Clade labeling**: Internal clade labels are included in the tree through the [main_workflow.smk](https://github.com/nextstrain/ncov/blob/5555ece97bafe1aa2cb19dcaac183d5a718d29fa/workflow/snakemake_rules/main_workflow.smk#L954)
 
 ## Adapting for Another Jursidiction
+- The jurisdiction-focused sampling time frame of the build can be changed. It is currently set up to focus on the last 6 months of Washington sequences, but this time frame can be altered to be shorter/longer by adjusting the add_to_builds.smk and the build.yaml subsampling scheme. [TO DO add more here]
+- To adapt the build to a new jurisdiction, the current filters for Washington should be changed to filter for jurisdiction of interest.  These filtering steps are in the [filter_wa_metadata.sh](https://github.com/NW-PaGe/ncov_wa/blob/main/scripts/filter_wa_metadata.sh) bash script that pattern matches the metadata, and that is called within the [filter_wa.smk](https://github.com/NW-PaGe/ncov_wa/blob/main/workflow/filter_wa_data.smk) workflow. Note: when working with bash scripts, be careful about editing the files in a Windows application, and be sure the files are saved with only the line feed character (LF) instead of the carriage return plus line feed (CRLF).
+- The [colors.tsv](https://github.com/NW-PaGe/ncov_wa/blob/main/config/colors.tsv) file can be adapted to change colors visualized in Auspice Color-By. The tsv file should include the divisions of interest that are to appear in the Color-By.
 
 ## Contributing
+For any questions please submit them to our [Discussions](https://github.com/NW-PaGe/ncov_wa/discussions) page otherwise software issues and requests can be logged as a Git [Issue](https://github.com/NW-PaGe/ncov_wa/issues).
+## License
+This project is licensed under a modified GPL-3.0 License.
+You may use, modify, and distribute this work, but commercial use is strictly prohibited without prior written permission.
+## Acknowledgments
+
 
 ## License
 
