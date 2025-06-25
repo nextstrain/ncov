@@ -1,0 +1,168 @@
+{
+  "title": "Genomic epidemiology of novel coronavirus",
+  "build_url": "https://github.com/nextstrain/ncov",
+  "maintainers": [
+    {"name": "Steph Lunn, MPH, MS", "url": "https://github.com/doh-sml1303"}
+  ],
+  "colorings": [
+    {
+      "key": "emerging_lineage",
+      "title": "Emerging Lineage",
+      "type": "categorical"
+    },
+    {
+        "key": "immune_escape",
+        "title": "Immune Escape vs BA.2",
+        "type": "continuous"
+    },
+    {
+        "key": "ace2_binding",
+        "title": "ACE2 binding vs BA.2",
+        "type": "continuous"
+    },
+    {
+      "key": "pango_lineage",
+      "title": "PANGO Lineage",
+      "type": "categorical"
+    },
+    {
+      "key": "GISAID_clade",
+      "title": "GISAID Clade",
+      "type": "categorical"
+    },
+    {
+      "key": "S1_mutations",
+      "title": "S1 mutations",
+      "type": "continuous"
+    },
+    {
+      "key": "mlr_lineage_fitness",
+      "title": "MLR lineage fitness",
+      "type": "continuous"
+    },
+    {
+      "key": "location",
+      "title": "Location",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Admin Division",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    },
+    {
+      "key": "host",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "age",
+      "title": "Age",
+      "type": "continuous"
+    },
+    {
+      "key": "sex",
+      "title": "Sex",
+      "type": "categorical"
+    },
+    {
+      "key": "author",
+      "title": "Authors",
+      "type": "categorical"
+    },
+    {
+      "key": "originating_lab",
+      "title": "Originating Lab",
+      "type": "categorical"
+    },
+    {
+      "key": "submitting_lab",
+      "title": "Submitting Lab",
+      "type": "categorical"
+    },
+    {
+      "key": "recency",
+      "title": "Submission Date",
+      "type": "categorical"
+    },
+    {
+      "key": "gisaid_epi_isl",
+      "type": "categorical"
+    },
+    {
+      "key": "genbank_accession",
+      "type": "categorical"
+    },
+    {
+      "key": "epiweek",
+      "title": "Epiweek (CDC)",
+      "type": "continuous"
+    },
+    {
+      "key": "QC_overall_score",
+      "title": "Nextclade QC score",
+      "type": "continuous"
+    },
+    {
+      "key": "QC_overall_status",
+      "title": "Nextclade QC status",
+      "type": "categorical"
+    },
+    {
+      "key": "reversion_mutations",
+      "title": "Reversion mutations",
+      "type": "continuous"
+    },
+    {
+      "key": "potential_contaminants",
+      "title": "Potential contaminants",
+      "type": "continuous"
+    },
+    {
+      "key": "rare_mutations",
+      "title": "Rare mutations",
+      "type": "continuous"
+    }
+  ],
+  "geo_resolutions": [
+    "location",
+    "division",
+    "country",
+    "region"
+  ],
+  "display_defaults": {
+    "color_by": "clade_membership",
+    "distance_measure": "num_date",
+    "geo_resolution": "country",
+    "map_triplicate": true,
+    "branch_label": "clade"
+  },
+  "filters": [
+    "recency",
+    "clade_membership",
+    "emerging_lineage",
+    "region",
+    "country",
+    "division",
+    "location",
+    "host",
+    "epiweek",
+    "QC_overall_status"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy",
+    "frequencies"
+  ]
+}
