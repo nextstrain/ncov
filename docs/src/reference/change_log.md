@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 24 July 2025: Improved performance of calls to `augur filter`. This requires a minimum Augur version of 31.3.0. [PR 1178](https://github.com/nextstrain/ncov/pull/1178)
+
 ## v17 (17 July 2025)
 
 - 17 July 2025: Snakemake version 8 (or above) is now required. Various aspects of the workflow were incompatible with v8 including our support for remote files and have now been updated. The nextstrain runtimes have been correspondingly updated; see [the nextstrain-cli docs for how to upgrade these](https://docs.nextstrain.org/projects/cli/en/stable/commands/update/). [PR 1180](https://github.com/nextstrain/ncov/pull/1180)
