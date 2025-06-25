@@ -1,58 +1,115 @@
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/nextstrain/ncov)](https://github.com/nextstrain/ncov/releases)
-[![See recent changes](https://img.shields.io/badge/changelog-See%20recent%20changes-blue)](https://docs.nextstrain.org/projects/ncov/en/latest/reference/change_log.html)
+# ncov_wa
 
-# About
+## Build Overview
+- **Build Name**: [ncov_wa_six_mon]
+- **Pathogen/Strain**: [ncov]
+- **Scope**: [WGS of SARS-CoV-2 in Washington state]
+- **Purpose**: [Genomic surveillance of SARS-CoV-2 in Washington State for past six months]
+- **Nextstrain Build Location**: [Washington-focused SARS-CoV-2 genomic analysis: Past six months](https://nextstrain.org/groups/waphl/ncov/wa/6m)
 
-This repository analyzes viral genomes using [Nextstrain](https://nextstrain.org) to understand how SARS-CoV-2, the virus that is responsible for the COVID-19 pandemic, evolves and spreads.
+## Table of Contents:
+- [Getting Started](#getting-started)
+  - [Data Sources & Inputs](#data-sources--inputs)
+  - [Setup & Dependencies](#setup--dependencies)
+    - [Installation](#installation)
+    - [Clone the repository](#clone-the-repository)
+- [Run the Build](#run-the-build)
+  - [To run the builds using inputs stored on an AWS Bucket](#to-run-the-builds-using-inputs-stored-on-an-AWS-Bucket)
+  - [Run the builds locally](#run-the-builds-locally)
+- [Visualizing the results](#Visualizing-the-resules)
+- [Repository File Structure Overview](#repository-file-structure-overview)
+- [Expected Outputs](#expected-outputs)
+- [Scientific Decisions](#scientific-decisions)
+- [Adapting for Another Jurisdiction](#adapting-for-another-jurisdiction)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
-We maintain a number of publicly-available builds, visible at [nextstrain.org/ncov](https://nextstrain.org/ncov).
+## Getting Started
 
-[See our change log for details about backwards-incompatible or breaking changes to the workflow](https://docs.nextstrain.org/projects/ncov/en/latest/reference/change_log.html).
+### Data Sources & Inputs
+This build uses the Full Remote Dataset and Global Remote Datasets available on [Nextstrain](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html). This build is designed to pull Washington state sequences and metadata from the full remote dataset as the inputs to the ncov Nextstrain pipeline. The Global dataset (alignment and metadata) is used for contextual sequences in the build. To include more contextualization, one could use the Full Remote Dataset for the contextual sequences, however doing so may require AWS Batch to subsample from the dataset.
 
-Visit [the workflow documentation](https://docs.nextstrain.org/projects/ncov) for tutorials and reference material.
+### Setup & dependencies
+See installation.
 
-## Download formatted datasets
+### Installation
+First, install the [ncov nextstrain pipeline](https://github.com/nextstrain/ncov) and clone the ncov repository using `git clone https://github.com/nextstrain/ncov` or `gh repo clone nextstrain/ncov`.
 
-The hCoV-19 / SARS-CoV-2 genomes were generously shared via GISAID. We gratefully acknowledge the Authors, Originating and Submitting laboratories of the genetic sequence and metadata made available through GISAID on which this research is based.
+### Clone the Repository
+Clone this repository in the `ncov` folder. You can do this in the command-line terminal by navigating to the `ncov` repository using `cd ncov` and then cloning the repository using `git clone https://github.com/DOH-SML1303/ncov_wa.git` or `gh repo clone DOH-SML1303/ncov_wa`.
 
-In order to download the GISAID data to run the analysis yourself, please see [this guide](https://docs.nextstrain.org/projects/ncov/en/latest/analysis/data-prep.html).
-> Please note that `data/metadata.tsv` is no longer included as part of this repo. However, we provide continually-updated, pre-formatted metadata & fasta files for download through GISAID.
+## Run the Build
+This ncov Nexstrain build sources data from Genbank and includes a 6m build. If you're running Nextstrain in a conda environment or `Nextstrain shell` then you want to make sure you pull the latest ncov github repository updates first by running `git pull` in the `ncov` directory, activating the conda environment using `conda activate nextstrain` or Nexstrain shell using `Nextstrain shell .` followed by `nextstrain update` to update Nextstrain. (To update the `Nextstrain shell`, you must run `nextstrain update` outside of the shell) It's recommended to pull updates prior to running the pipeline. The same could also be said for this repo as well! :)
 
-## Read previous Situation Reports
+### To run the builds using inputs stored on an AWS Bucket:
+You can configure your `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` in your AWS credentials file which can be accessed in terminal using `nano ~/.aws/credentials`, or you can simply export the environmental variables upon opening a terminal window using:
+`export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=`
 
-We issued weekly Situation Reports for the first ~5 months of the pandemic. You can find the Reports and their translations [here](https://nextstrain.org/ncov-sit-reps).
+There's some additional modifications you would have to include in the `ncov_wa/config/builds.yaml` to ensure the pipeline know to read from your bucket. You could just include the following code at the top of the file:
 
-## FAQs
+```
+S3_DST_BUCKET: <bucket path>
+S3_DST_COMPRESSION: "xz" #if your outputs are compressed
+S3_DST_ORIGINS: [ncov-wa] #name of your inputs
+upload:
+  - build-files
+```
 
-- Can't find your sequences in Nextstrain? Check [here](./docs/data_faq.md) for common reasons why your sequences may not be appearing.
-You can also use [clades.nextstrain.org](https://clades.nextstrain.org/) to perform some basic quality control on your sequences. If they are flagged by this tool, they will likely be excluded by our pipeline.
-- For information about how clades are defined, and the currently named clades, please see [here](./docs/naming_clades.md). To assign clades to your own sequences, you can use our clade assignment tool at [clades.nextstrain.org](https://clades.nextstrain.org/).
+If you're running Batch then you need to make sure all of the information is included in your `~/.nextstrain/config`. File. See [this documentation](https://docs.nextstrain.org/projects/cli/en/stable/aws-batch/) for more information.
 
-## Bioinformatics notes
+To run the builds with your data stored in an AWS Bucket, navigate to the `ncov` directory and run:
+`nextstrain build --aws-batch-s3-bucket bucket-name --cpus=6 . --configfile ncov_wa/config/builds.yaml`
 
-Site numbering and genome structure uses [Wuhan-Hu-1/2019](https://www.ncbi.nlm.nih.gov/nuccore/MN908947) as reference. The phylogeny is rooted relative to early samples from Wuhan. Temporal resolution assumes a nucleotide substitution rate of [8 &times; 10^-4 subs per site per year](http://virological.org/t/phylodynamic-analysis-176-genomes-6-mar-2020/356). There were SNPs present in the nCoV samples in the first and last few bases of the alignment that were masked as likely sequencing artifacts.
+### Run the builds locally
+`nextstrain build --cpus=6 . --configfile ncov_wa/config/builds.yaml`
 
-# Contributing
+## Visualizing the results
+You can check your results once the pipeline is done running using `nextstrain view auspice`
 
-We welcome contributions from the community! Please note that we strictly adhere to the [Contributor Covenant Code of Conduct](https://github.com/nextstrain/.github/blob/master/CODE_OF_CONDUCT.md).
+## Repository FIle Structure Overview
+The file hierachy for this customized build:
+```
+ncov_wa/
+├──config/
+|   ├──auspice_config.json         #variables to include in Color By feature
+|   ├──builds.yaml                 #the builds file that customizes nextstrain build
+|   ├──colors.tsv                  #WA county colors
+|   ├──config.yaml                 #file that includes dependencies and path to the builds.yaml
+|   ├──description.md
+├──data/
+|   ├──county_metadata.tsv         #to add WA counties to the metadata so they can be included in the build
+|   ├──headers.tsv                 #needed for the smk workflow to create metadata file
+├──scripts/
+|   ├──wa-nextstrain-update-location-genbank.py #adds county metadata to the filtered wa seqs metadata
+|   ├──filter_wa_metadata.sh       #for the smk workflow to pull the WA metadata from the full remote dataset
+|   ├──filter_wa_sequences.sh      #for the smk workflow to pull the WA sequences from the full remote dataset
+|   ├──pull_full_data.sh           #for the smk workflow to pull the full remote dataset to filter out anything that's not WA seqs and metadata
+├──workflow/
+|   ├──filter_wa_data.smk          #pulls the full data and then filters for WA data to be the input into the Nextstrain build
+```
 
-### Contributing to software or documentation
+## Files that may need to be changed
+When you pull updates for the ncov repo there are a few files that you want to keep an eye for for any changes. This includes the following files the default ncov build:
+- `ncov/defaults/auspice_config.json`
+- `ncov/nextstrain_profiles/.../builds.yaml`
 
-Please see our [Contributor Guide](https://github.com/nextstrain/.github/blob/master/CONTRIBUTING.md) to get started!
+If there are any changes to these two files then changes may need to be made to their custom counterparts in this focused build.
+- Changes to `ncov/defaults/auspice_config.json` > make changes to > `ncov_wa/config/auspice_config.json`
+- Changes to `ncov/nextstrain_profiles/.../builds.yaml` > *may require changes to* > `ncov_wa/config/builds.yaml`
 
-### Contributing data
+## Expected Outputs
+- `ncov/auspice/ncov_ncov_wa_six_mon.json`
+- `ncov/auspice/ncov_ncov_wa_six_mon_root-sequence.json`
+- `ncov/auspice/ncov_ncov_wa_six_mon_tip-frequencies.json`
 
-**Please note that we automatically pick up any SARS-CoV-2 data that is submitted to GISAID.**
+## Scientific Decisions
 
-If you're a lab and you'd like to get started sequencing, please see:
-* [Protocols from the ARTIC network](https://www.protocols.io/groups/artic/publications)
-* [Funding opportunities for sequencing efforts](https://twitter.com/firefoxx66/status/1242147905768751106)
-* Or, if these don't meet your needs, [get in touch](mailto:hello@nextstrain.org)
+## Adapting for Another Jursidiction
 
----
+## Contributing
 
-# Get in touch
+## License
 
-To report a bug, error, or feature request, please [open an issue](https://github.com/nextstrain/ncov/issues).
-
-For questions, head over to the [discussion board](https://discussion.nextstrain.org/); we're happy to help!
+## Acknowledgments
