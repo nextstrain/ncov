@@ -440,6 +440,7 @@ rule combine_samples:
     benchmark:
         "benchmarks/combine_samples_{build_name}.txt"
     conda: config["conda_environment"]
+    threads: 2
     shell:
         r"""
         augur filter \
@@ -448,6 +449,7 @@ rule combine_samples:
             --skip-checks \
             --exclude-all \
             --include {input.include} \
+            --nthreads {threads} \
             --output-sequences {output.sequences} \
             --output-metadata {output.metadata} 2>&1 | tee {log}
         """
