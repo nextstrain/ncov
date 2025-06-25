@@ -10,6 +10,7 @@ inputs:
     metadata: "s3://nextstrain-data/files/ncov/open/metadata.tsv.zst"
     aligned: "s3://nextstrain-data/files/ncov/open/sequences.fasta.zst"
     skip_sanitize_metadata: true
+    deduplicated: true
 builds:
   100k:
     subsampling_scheme: 100k_scheme

@@ -431,6 +431,8 @@ rule combine_samples:
     output:
         sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",
         metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz"
+    params:
+        skip_checks = lambda w: "--skip-checks" if all(input_record.get("deduplicated", False) for input_record in config["inputs"].values()) else ""
     log:
         "logs/combine_samples_{build_name}.txt"
     benchmark:
@@ -441,6 +443,7 @@ rule combine_samples:
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
+            {params.skip_checks} \
             --exclude-all \
             --include {input.include} \
             --output-sequences {output.sequences} \
