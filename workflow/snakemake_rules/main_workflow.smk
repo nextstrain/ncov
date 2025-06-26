@@ -439,7 +439,7 @@ rule combine_samples:
     benchmark:
         "benchmarks/combine_samples_{build_name}.txt"
     conda: config["conda_environment"]
-    threads: 1
+    threads: 2
     shell:
         r"""
         AUGUR_DEBUG=1 AUGUR_STATS={output.stats} augur filter \
