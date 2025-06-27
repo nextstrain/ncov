@@ -142,7 +142,7 @@ localrules: clean
 # Create a standard ncov build for auspice, by default.
 rule all:
     input:
-        expand("results/{build_name}/{build_name}_subsampled_sequences.fasta.xz", build_name=BUILD_NAMES),
+        "results/global_all-time/global_all-time_subsampled_sequences.fasta.xz"
 
 rule clean:
     message: "Removing directories: {params}"
