@@ -434,17 +434,20 @@ rule combine_samples:
         sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",
         metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz"
     log:
-        "logs/subsample_regions_{build_name}.txt"
+        "logs/combine_samples_{build_name}.txt"
     benchmark:
-        "benchmarks/subsample_regions_{build_name}.txt"
+        "benchmarks/combine_samples_{build_name}.txt"
     conda: config["conda_environment"]
+    threads: 2
     shell:
         r"""
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
+            --skip-checks \
             --exclude-all \
             --include {input.include} \
+            --nthreads {threads} \
             --output-sequences {output.sequences} \
             --output-metadata {output.metadata} 2>&1 | tee {log}
         """
