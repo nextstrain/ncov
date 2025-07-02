@@ -21,11 +21,11 @@ files:
 # define WA builds
 builds:
   ncov_wa_six_mon:
-    title: "Washington-focused SARS-CoV-2 genomic analysis: Past six months"
+    title: "Washington-focused SARS-CoV-2 genomic analysis: Past year"
     colors: "ncov_wa/config/colors.tsv"
     description: "ncov_wa/config/description.md"
     division: Washington
-    subsampling_scheme: six-month-priority
+    subsampling_scheme: one-year-priority
 
 filters:
   min_length: 27000
@@ -34,12 +34,12 @@ filters:
 # local diversity for a given division as possible and contextual samples from
 # the rest of the USA and the world.
 subsampling:
-  six-month-priority:
+  one-year-priority:
     local-focus:
       min_date: --min-date {earliest_date}
       min_length: --min_length 27000
       query: --query "(country == 'USA' & division == '{division}')"
-      other_filters: "--include-where 'division=Washington'"
+      #other_filters: "--include-where 'division=Washington'"
       #max_sequences: 17000
     # Included to accurately reconstruct # of introductions.
     contextual-proximity:
@@ -50,6 +50,7 @@ subsampling:
       priorities:
         type: proximity
         focus: local-focus
+        crowding_penalty: 0
     # Included for accurate clade timing.
     contextual-random:
       min_date: --min-date 2020
