@@ -1,8 +1,14 @@
 {
-  "title": "Genomic epidemiology of novel coronavirus",
-  "build_url": "https://github.com/nextstrain/ncov",
+  "title": "Genomic epidemiology of novel coronavirus - Washington focused",
+  "build_url": "https://github.com/NW-PaGe/ncov",
   "maintainers": [
-    {"name": "Steph Lunn, MPH, MS", "url": "https://github.com/doh-sml1303"}
+    {"name": "WA DOH Molecular Epidemiology Program", "url": "https://github.com/NW-PaGe"}
+  ],
+  "data_provenance":[
+    {
+      "name": "GenBank",
+      "url": "https://www.ncbi.nlm.nih.gov/genbank/"
+    }
   ],
   "colorings": [
     {
