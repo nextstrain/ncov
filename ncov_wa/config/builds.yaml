@@ -20,7 +20,7 @@ files:
 
 # define WA builds
 builds:
-  ncov_wa_six_mon:
+  wa_1y:
     title: "Washington-focused SARS-CoV-2 genomic analysis: Past year"
     colors: "ncov_wa/config/colors.tsv"
     description: "ncov_wa/config/description.md"
