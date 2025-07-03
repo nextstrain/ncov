@@ -14,7 +14,7 @@ if "wa_two_mon" in config["builds"]:
 
 if "wa_four_mon" in config["builds"]:
     config["builds"]["wa_four_mon"]["earliest_date"]= four_m.strftime('%Y-%m-%d')
-    
+
 if "wa_six_mon" in config["builds"]:
     config["builds"]["wa_six_mon"]["earliest_date"]= six_m.strftime('%Y-%m-%d')
 
