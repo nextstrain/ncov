@@ -84,7 +84,7 @@ rule export_all_regions:
         # Memory use scales primarily with the size of the metadata file.
         # Compared to other rules, this rule loads metadata as a pandas
         # DataFrame instead of a dictionary, so it uses much less memory.
-        mem_mb=lambda wildcards, input: 5 * int(input.metadata.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: 5 * int(input.metadata.size_mb)
     conda: config["conda_environment"]
     shell:
         r"""
