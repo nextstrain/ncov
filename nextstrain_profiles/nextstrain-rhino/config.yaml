@@ -6,7 +6,6 @@ cores: 20
 keep-going: True
 printshellcmds: True
 show-failed-logs: True
-stats: stats.json
 
 # Custom settings for running builds on a SLURM cluster with DRMAA bindings.
 

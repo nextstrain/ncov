@@ -7,5 +7,4 @@ keep-going: False
 printshellcmds: True
 show-failed-logs: True
 restart-times: 2
-stats: stats.json
 set-threads: tree=4

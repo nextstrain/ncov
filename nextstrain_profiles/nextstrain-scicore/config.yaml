@@ -6,7 +6,6 @@ configfile:
 keep-going: True
 printshellcmds: True
 show-failed-logs: True
-stats: stats.json
 
 # Wait a fixed number of seconds for missing files since the cluster file system
 # can be quite slow and the workflow can fail unnecessarily due to this latency.
