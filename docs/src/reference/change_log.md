@@ -5,6 +5,10 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+## v17 (TKTK - July 2025)
+
+- TKTK July 2025: **Breaking change** Snakemake version 8 (or above) is now required. Various aspects of the workflow were incompatible with v8 including our support for remote files and have now been updated. The nextstrain runtimes have been correspondingly updated TODO XXX [PR 1180](https://github.com/nextstrain/ncov/pull/1180)
+
 - 10 February 2025: Improve documentation regarding custom color map files.
 
 ## v16 (29 January 2025)
