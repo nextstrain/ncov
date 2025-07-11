@@ -1,114 +1,165 @@
 """
-Shared functions to transparently handle local and remote inputs/outputs.
+Helper functions to set-up storage plugins for remote inputs/outputs. See the
+docstring of `path_or_url` for usage instructions.
 
-Snakemake itself tries to offer a similar sort of scheme-level transparency for
-remote files through its ``AUTO`` provider, but it's broken.
+The errors raised by storage plugins are often confusing. For instance, a HTTP
+404 error will result in a `MissingInputException` with little hint as to the
+underlying issue. S3 credentials errors are similarly confusing and we attempt
+to check these ourselves to improve UX here.
 
-The ``AUTO`` provider enumerates and loads all the various
-``snakemake.remote.*`` modules on each call to ``AUTO.remote()``.  This slows
-things down unnecessarily, though isn't a deal breaker.  However, during
-enumeration, it protects against unsupported modules due to missing deps, but
-*not* supported modules which fail to initialize because of missing required
-credentials/config from the environment or missing required parameters to the
-remote provider constructor or ``AUTO.remote()``.  This alone makes it
-completely unusable.  Even with a usable ``AUTO``, we'd still need some
-additional handling for local paths.
-
-We could make a better functioning ``AUTO`` equivalent ourselves by similarly
-building the scheme → remote function mapping dynamically, but it didn't seem
-worth it to support use cases that aren't concrete right now (http(s), s3, gs
-are all known use cases for us).  The implementation here could certainly be
-further developed in that direction in the future, however.
+NOTE: This was first implemented in ncov as part of our move to Snakemake v8+ in
+<https://github.com/nextstrain/ncov/pull/1180> which was needed as ncov
+previously implemented a v7-specific version of this code. This file will be
+moved to the github.com/nextstrain/shared/ repo and vendored across pathogen
+repos. (Delete this comment when we do so!)
 """
-from functools import partial
-from importlib import import_module
-from urllib.parse import urlsplit, urljoin
 
+from urllib.parse import urlparse
 
-def _remote_producer(remote_name, init):
+# Keep a list of known public buckets, which we'll allow uncredentialled (unsigned) access to
+# We could make this config-definable in the future
+PUBLIC_BUCKETS = set(['nextstrain-data'])
+
+# Keep track of registered storage plugins to enable reuse
+_storage_registry = {}
+
+class RemoteFilesMissingCredentials(Exception):
+    pass
+
+def _storage_s3(*, bucket, keep_local, retries) -> snakemake.storage.StorageProviderProxy:
     """
-    Produce a remote input function by loading the :class:`snakemake.remote`
-    module named by *remote_name* and passing the module to an *init* function.
+    Registers and returns an instance of snakemake-storage-plugin-s3. Typically AWS
+    credentials are required for _any_ request however we allow requests to known
+    public buckets (see `PUBLIC_BUCKETS`) to be unsigned which allows for a nice user
+    experience in the common case of downloading inputs from s3://nextstrain-data.
 
-    *init* will be called with the loaded module and is expected to return a
-    remote input function suitable for use inside :func:`path_or_url`.
+    The intended behaviour for various (S3) URIs supplied to `path_or_url` is:
 
-    Returns a "producer" function which when called with no arguments returns
-    the remote input function.
-
-    The call to *init* (that is, the production of the remote input function)
-    is deferred until the first time the producer is called.
-
-    If the remote module is not available because required dependencies aren't
-    installed, then a :exc:`WorkflowError` exception object is returned on the
-    first call of the producer.
+    |          | S3 buckets                 | credentials present | credentials missing |
+    |----------|----------------------------|---------------------|---------------------|
+    | download | private / private + public | signed              | Credentials Error   |
+    |          | public                     | signed              | unsigned            |
+    | upload   | private / private + public | signed              | Credentials Error   |
+    |          | public                     | signed              | AccessDenied Error  |
     """
-    # Name of first argument to *init*.
-    remote = None
+    # If the bucket is public then we may use an unsigned request which has the nice UX
+    # of not needing credentials to be present. If we've made other signed requests _or_
+    # credentials are present then we just sign everything. This has implications for upload:
+    # if you attempt to upload to a public bucket without credentials then we allow that here
+    # and you'll get a subsequent `AccessDenied` error when the upload is attempted.
+    if bucket in PUBLIC_BUCKETS and \
+        "s3_signed" not in _storage_registry and \
+        ("s3_unsigned" in _storage_registry or not _aws_credentials_present()):
 
-    def producer():
-        nonlocal remote
-        if not remote:
-            remote = init(import_module(f"snakemake.remote.{remote_name}"))
-        return remote
+        if provider:=_storage_registry.get('s3_unsigned', None):
+            return provider
 
-    return producer
+        from botocore import UNSIGNED # dependency of snakemake-storage-plugin-s3
+        storage s3_unsigned:
+            provider="s3",
+            signature_version=UNSIGNED,
+            retries=retries,
+            keep_local=keep_local,
 
+        _storage_registry['s3_unsigned'] = storage.s3_unsigned
+        return _storage_registry['s3_unsigned']
 
-SCHEME_REMOTES = {
-    "https": _remote_producer("HTTP", lambda HTTP: HTTP.RemoteProvider().remote),
-    "http": _remote_producer("HTTP", lambda HTTP: partial(HTTP.RemoteProvider().remote, insecure = True)),
-    "s3": _remote_producer("S3", lambda S3: S3.RemoteProvider().remote),
-    "gs": _remote_producer("GS", lambda GS: GS.RemoteProvider().remote),
-    "": lambda: lambda local_path, **kwargs: local_path,
-}
+    # Resource fetched/uploaded via a signed request, which will require AWS credentials
+    if provider:=_storage_registry.get('s3_signed', None):
+        return provider
 
+    # Enforce the presence of credentials to paper over <https://github.com/snakemake/snakemake/issues/3663>
+    if not _aws_credentials_present():
+        raise RemoteFilesMissingCredentials()
 
-def path_or_url(path_or_url, stay_on_remote = False, keep_local = False):
+    # the tag appears in the local file path, so reference 'signed' to give a hint about credential errors
+    storage s3_signed:
+        provider="s3",
+        retries=retries,
+        keep_local=keep_local,
+
+    _storage_registry['s3_signed'] = storage.s3_signed
+    return _storage_registry['s3_signed']
+
+def _aws_credentials_present() -> bool:
+    import boto3 # dependency of snakemake-storage-plugin-s3
+    session = boto3.Session()
+    creds = session.get_credentials()
+    return creds is not None
+
+def _storage_http(*, keep_local, retries) -> snakemake.storage.StorageProviderProxy:
     """
-    Wrap rule inputs and outputs which may be local paths or remote URLs.
+    Registers and returns an instance of snakemake-storage-plugin-http
+    """
+    if provider:=_storage_registry.get('http', None):
+        return provider
 
-    Automatically maps well-known URL schemes to the appropriate remote
-    providers in the ``snakemake.remote.*`` classes.  The returned objects
-    should be interchangeable for most rules.  For example:
+    storage:
+        provider="http",
+        allow_redirects=True,
+        supports_head=True,
+        keep_local=keep_local,
+        retries=retries,
 
-    ::
+    _storage_registry['http'] = storage.http
+    return _storage_registry['http']
 
-        rule align:
-            input: path_or_url(config["sequences"])
-            output: "results/aligned.fasta"
+
+def path_or_url(uri, *, keep_local=True, retries=2) -> str:
+    """
+    Intended for use in Snakemake inputs / outputs to transparently use remote
+    resources. Returns the URI wrapped by an applicable storage plugin. Local
+    filepaths will be returned unchanged.
+
+    For example, the following rule will download inputs from HTTPs and upload
+    the output to S3:
+
+        rule filter:
+            input:
+                sequences = path_or_url("https://data.nextstrain.org/..."),
+                metadata = path_or_url("https://data.nextstrain.org/..."),
+            output:
+                sequences = path_or_url("s3://...")
             shell:
                 r'''
-                augur align --sequences {input} --output {output} …
+                augur filter \
+                    --sequences {input.sequences:q} \
+                    --metadata {input.metadata:q} \
+                    --metadata-id-columns accession \
+                    --output-sequences {output.sequences:q}
                 '''
 
-    If ``config["sequences"]`` is a URL, then Snakemake will first temporarily
-    download the referenced file to a local path and then substitute that local
-    path as the new value of ``input`` when running the ``shell`` block.
+    If *keep_local* is True (the default) then downloaded/uploaded files will
+    remain in `.snakemake/storage/`. The presence of a previously downloaded
+    file (via `keep_local=True`) does not guarantee that the file will not be
+    re-downloaded if the storage plugin decides the local file is out of date.
 
-    See `https://snakemake.readthedocs.io/en/stable/snakefiles/remote_files.html`__
-    for more information on Snakemake's remote files support, including the
-    supported keyword args ``keep_local`` and ``stay_on_remote``.
+    Depending on the *uri* authentication may be required. See the specific
+    helper functions (such as `_storage_s3`) for more details.
+
+    See <https://snakemake.readthedocs.io/en/stable/snakefiles/storage.html> for
+    more information on Snakemake storage plugins. Note: various snakemake
+    plugins will be required depending on the URIs provided.
     """
-    url = urlsplit(path_or_url)
+    info = urlparse(uri)
 
-    if url.scheme not in SCHEME_REMOTES:
-        raise ValueError(f"Unsupported URL scheme: {path_or_url!r} (supported schemes are {set(SCHEME_REMOTES)})")
+    if info.scheme=='': # local
+        return uri      # no storage wrapper
 
-    # Snakemake's providers want scheme-less URLs without even the leading
-    # hierarchy root prefix (//).  urljoin() will discard the query and
-    # fragment (including their leading delimiters) if they're empty.
-    schemeless_url = urljoin(url.netloc + url.path, f"?{url.query}#{url.fragment}")
+    if info.scheme=='s3':
+        try:
+            return _storage_s3(bucket=info.netloc, keep_local=keep_local, retries=retries)(uri)
+        except RemoteFilesMissingCredentials as e:
+            raise Exception(f"AWS credentials are required to access {uri!r}") from e
 
-    url = SCHEME_REMOTES[url.scheme]()(
-        schemeless_url,
-        stay_on_remote = stay_on_remote,
-        keep_local     = keep_local,
-    )
+    if info.scheme=='https':
+        return _storage_http(keep_local=keep_local, retries=retries)(uri)
+    elif info.scheme=='http':
+        raise Exception(f"HTTP remote file support is not implemented in nextstrain workflows (attempting to access {uri!r}).\n"
+            "Please use an HTTPS address instead.")
 
-    # Remote files may be returned as lists with a single item, so we need to
-    # flatten to a scalar.
-    if isinstance(url, list):
-        url = url[0]
+    if info.scheme in ['gs', 'gcs']:
+        raise Exception(f"Google Storage is not yet implemented for nextstrain workflows (attempting to access {uri!r}).\n"
+            "Please get in touch if you require this functionality and we can add it to our workflows")
 
-    return url
+    raise Exception(f"Input address {uri!r} (scheme={info.scheme!r}) is from a non-supported remote")

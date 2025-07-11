@@ -8,6 +8,7 @@ auspice/
 data/*
 defaults/colors.tsv
 defaults/colors_*.tsv
+# stats.json was removed in Snakemake v8
 stats.json
 
 # common analysis directory names

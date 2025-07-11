@@ -7,11 +7,14 @@ from os import environ
 from socket import getfqdn
 from getpass import getuser
 from snakemake.logging import logger
-from snakemake.utils import validate
+from snakemake.utils import min_version, validate
 from collections import OrderedDict
 import textwrap
 import time
 
+
+# Minimum Snakemake version needed for the storage plugins used in remote_files.smk
+min_version("8.0.0")
 
 # Store the user's configuration prior to loading defaults, so we can check for
 # reused subsampling scheme names in the user's config. We need to make a deep
