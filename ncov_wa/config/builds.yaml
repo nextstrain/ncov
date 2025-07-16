@@ -4,7 +4,7 @@ custom_rules:
 
 # update input location, this is the dataset you will be including in build
 inputs:
-  - name: ncov-wa
+  - name: wa_1y
     metadata: "data/wa-sequences.tar.xz"
     sequences: "data/wa-sequences.tar.xz"
   - name: contextual
