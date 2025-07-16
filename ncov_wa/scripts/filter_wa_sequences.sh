@@ -5,7 +5,7 @@ tmp_file="$3"
 output_fasta_file="$4" #Filtered WA fasta file
 
 # Decompress fasta files into temp
-xzcat "$input_fasta_file" > temp_decompressed.fasta
+zstd -dc "$input_fasta_file" > temp_decompressed.fasta
 
 # 1. Extract strain names (assumes 'strain' is the first column)
 cut -f1 "$filtered_metadata_file" | tail -n +2 | tr -d '\r' > "$tmp_file" #ensures temp files does not contain and \r characters

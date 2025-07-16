@@ -1,10 +1,10 @@
 rule pull_full_data:
     output:
-        full_metadata="data/full_metadata.tsv.gz",
-        full_sequences="data/full_sequences.fasta.xz"
+        full_metadata="data/full_metadata.tsv.zst",
+        full_sequences="data/full_sequences.fasta.zst"
     params:
-        full_metadata_url="https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz",
-        full_sequences_url="https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz"
+        full_metadata_url="https://data.nextstrain.org/files/ncov/open/metadata.tsv.zst",
+        full_sequences_url="https://data.nextstrain.org/files/ncov/open/sequences.fasta.zst"
     shell:
         """
         bash ncov_wa/scripts/pull_full_data.sh {params.full_metadata_url} {params.full_sequences_url} {output.full_metadata} {output.full_sequences}
@@ -13,7 +13,7 @@ rule pull_full_data:
 
 rule filter_wa_metadata_step:
     input:
-        metadata="data/full_metadata.tsv.gz"
+        metadata="data/full_metadata.tsv.zst"
     output:
         filtered_wa_metadata="data/filtered_wa_metadata.tsv"
     shell:
@@ -23,7 +23,7 @@ rule filter_wa_metadata_step:
 
 rule filter_wa_sequences_step:
     input:
-        fasta="data/full_sequences.fasta.xz",
+        fasta="data/full_sequences.fasta.zst",
         metadata="data/filtered_wa_metadata.tsv"
     output:
         temp="ncov_wa/data/tmp.tsv",
