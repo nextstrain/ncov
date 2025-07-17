@@ -84,7 +84,7 @@ rule export_all_regions:
         # Memory use scales primarily with the size of the metadata file.
         # Compared to other rules, this rule loads metadata as a pandas
         # DataFrame instead of a dictionary, so it uses much less memory.
-        mem_mb=lambda wildcards, input: 5 * int(input.metadata.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: 5 * int(input.metadata.size_mb)
     conda: config["conda_environment"]
     shell:
         r"""
@@ -408,7 +408,7 @@ rule upload:
             message += f"\n\ts3://{params.s3_bucket}/{remote}"
         send_slack_message(message)
 
-storage = PersistentDict("slack")
+persistent_storage = PersistentDict("slack")
 
 def send_slack_message(message, broadcast=False):
     """
@@ -435,7 +435,7 @@ def send_slack_message(message, broadcast=False):
 
     # if slack_thread_ts has been stored, then there is a parent message, so we thread this messaege
     try:
-        data["thread_ts"]=str(storage.fetch("slack_thread_ts"))
+        data["thread_ts"]=str(persistent_storage.fetch("slack_thread_ts"))
         if broadcast:
             data["reply_broadcast"]=True
     except NoSuchEntryError:
@@ -444,7 +444,7 @@ def send_slack_message(message, broadcast=False):
     try:
         response = requests.post("https://slack.com/api/chat.postMessage", headers=headers, data=json.dumps(data))
         response.raise_for_status()
-        storage.store_if_not_present("slack_thread_ts", response.json()["ts"])
+        persistent_storage.store_if_not_present("slack_thread_ts", response.json()["ts"])
     except Exception as error:
         print("An error occurred when sending Slack message:", file=sys.stderr)
         traceback.print_exc()
@@ -465,10 +465,10 @@ onstart:
 onsuccess:
     message = "✅ This pipeline has successfully finished 🎉"
     send_slack_message(message)
-    storage.clear() # clear any persistent storage
+    persistent_storage.clear() # clear any persistent storage
 
 # onerror handler is executed if the workflow finished with an error.
 onerror:
     message = "❌ This pipeline has FAILED 😞. Please see linked thread for more information."
     send_slack_message(message, broadcast=True)
-    storage.clear() # clear any persistent storage
+    persistent_storage.clear() # clear any persistent storage
