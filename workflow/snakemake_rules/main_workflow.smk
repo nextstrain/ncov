@@ -236,33 +236,73 @@ rule combine_sequences_for_subsampling:
                 | xz -c -2 > {output}
         """
 
-rule index_sequences:
+rule extract_subsampling_scheme:
     message:
         """
-        Index sequence composition for faster filtering.
+        Extracting subsampling scheme for build "{wildcards.build_name}" into its own YAML file
         """
-    input:
-        sequences = _get_unified_alignment
     output:
-        sequence_index = "results/combined_sequence_index.tsv.xz"
-    log:
-        "logs/index_sequences.txt"
-    benchmark:
-        "benchmarks/index_sequences.txt"
-    conda: config["conda_environment"]
-    params:
-        strain_prefixes=config["strip_strain_prefixes"],
-        sanitize_log="logs/sanitize_sequences_before_index.txt",
-    shell:
-        r"""
-        python3 scripts/sanitize_sequences.py \
-            --sequences {input.sequences} \
-            --strip-prefixes {params.strain_prefixes:q} \
-            --output /dev/stdout 2> {params.sanitize_log} \
-            | augur index \
-            --sequences /dev/stdin \
-            --output {output.sequence_index} 2>&1 | tee {log}
-        """
+        scheme="results/{build_name}/subsampling_scheme.yaml",
+    run:
+        # Note that the syntax is slightly different between the YAML which `./scripts/subsample.py`
+        # expects (this script is a precursor for `augur subsample`) and the way in which we write
+        # subsampling definitions in our `builds.yaml` file.
+        # (1) wildcards must be filled in
+        # (2) we use `augur filter`-like syntax, e.g. "sequences_per_group" not "seq_per_group"
+        import yaml
+        import json
+        import shlex
+        scheme = _get_subsampling_settings(wildcards)
+
+        # fill in templates, e.g `{country}`, with build-specific data
+        # (prior art existed in the function _get_specific_subsampling_setting)
+        build = config["builds"][wildcards.build_name]
+        for sample_description in scheme.values():
+            for key,value in sample_description.items():
+                if isinstance(value, str):
+                    sample_description[key]=value.format(**build)
+
+        # map ncov-specific syntax into general subsampling syntax
+        # (prior art existed in the function _get_specific_subsampling_setting)
+        for sample in scheme.values():
+            if "seq_per_group" in sample:
+                sample["sequences_per_group"] = sample['seq_per_group']
+                del sample["seq_per_group"]
+            if "max_sequences" in sample:
+                sample["subsample_max_sequences"] = sample['max_sequences']
+                del sample["max_sequences"]
+            if "exclude_ambiguous_dates_by" in sample:
+                sample["exclude-ambiguous-dates-by"] = sample["exclude_ambiguous_dates_by"]
+                del sample["exclude_ambiguous_dates_by"]
+
+            # Certain settings require that the argument is defined in the value,
+            # e.g. max_date: "--max-date 2020-01-02", which should be removed
+            if "query" in sample: # ncov syntax includes the `--query` argument
+                sample["query"] = sample['query'].lstrip("--query ").strip('"').strip("'")
+            if "min_date" in sample: # ncov syntax includes `--min-date` in the value
+                sample["min_date"] = sample["min_date"].lstrip("--min-date ")
+            if "max_date" in sample: # ncov syntax includes `--max-date` in the value
+                sample["max_date"] = sample["max_date"].lstrip("--max-date ")
+
+            # the include/exclude ncov subsampling settings mean {include,exclude}_where
+            # and also include the argument in their values, which should be removed
+            if "exclude" in sample:
+                sample["exclude_where"] = shlex.split(sample['exclude'])[1:]
+                del sample["exclude"]
+            if "include" in sample:
+                sample["include_where"] = shlex.split(sample['include'])[1:]
+                del sample["include"]
+
+            if "sampling_scheme" in sample: # ncov syntax for expressing additional filter arguments
+                if sample["sampling_scheme"]=="--probabilistic-sampling":
+                    sample["probabilistic_sampling"] = True
+                elif sample["sampling_scheme"]=="--no-probabilistic-sampling":
+                    sample["probabilistic_sampling"] = False
+                del sample["sampling_scheme"]
+
+        with open(output.scheme, 'w', encoding='utf-8') as fh:
+            # to avoid a YAML with type annotations, we roundtrip through a JSON
+            yaml.dump(json.loads(json.dumps(scheme)), fh, default_flow_style=False)
 
 rule subsample:
     message:
