@@ -424,10 +424,6 @@ def _get_subsampled_files(wildcards):
     ]
 
 rule combine_samples:
-    message:
-        """
-        Combine and deduplicate FASTAs
-        """
     input:
         sequences=_get_unified_alignment,
         metadata=_get_unified_metadata,
