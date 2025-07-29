@@ -424,10 +424,6 @@ def _get_subsampled_files(wildcards):
     ]
 
 rule combine_samples:
-    message:
-        """
-        Combine and deduplicate FASTAs
-        """
     input:
         sequences=_get_unified_alignment,
         metadata=_get_unified_metadata,
@@ -435,16 +431,19 @@ rule combine_samples:
     output:
         sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",
         metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz"
+    params:
+        skip_checks = lambda w: "--skip-checks" if all(input_record.get("deduplicated", False) for input_record in config["inputs"].values()) else ""
     log:
-        "logs/subsample_regions_{build_name}.txt"
+        "logs/combine_samples_{build_name}.txt"
     benchmark:
-        "benchmarks/subsample_regions_{build_name}.txt"
+        "benchmarks/combine_samples_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         r"""
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
+            {params.skip_checks} \
             --exclude-all \
             --include {input.include} \
             --output-sequences {output.sequences} \
