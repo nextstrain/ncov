@@ -31,7 +31,7 @@ def drop_index_dup(doh_metadata):
 
 # update location
 def update_location(doh_metadata, genbank_metadata):
-    doh_metadata['location'] = doh_metadata['County'] + ' County'
+    doh_metadata['location'] = doh_metadata['County'] 
     # merge the dataframes on a common column
     merged_df = pd.merge(genbank_metadata, doh_metadata, on='strain', how='left')
     # update the location column in the genbank dataframe
