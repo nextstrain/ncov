@@ -74,6 +74,7 @@ location	San Juan County	#3F50CC
 location	Klickitat County	#3F5ED0
 location	Whatcom County	#416CCE
 location	Franklin County WA	#4379CD
+location	Franklin County	#4379CD
 location	Lewis County WA	#4B8FC1
 location	Snohomish County	#5098B9
 location	Mason County WA	#56A0AF
@@ -85,12 +86,14 @@ location	Clark County WA	#7CB878
 location	Island County	#90BC65
 location	Jefferson County WA	#9ABD5C
 location	Benton County WA	#A4BE56
+location	Benton County	#A4BE56
 location	Lincoln County WA	#AFBD4F
 location	Yakima County	#B9BC4A
 location	King County	#C2BA46
 location	Asotin County	#CCB742
 location	Kitsap County	#D3B240
 location	Pierce County WA	#DFA43B
+location	Pierce County	#DFA43B
 location	Skagit County	#E39B39
 location	Chelan County	#E68F36
 location	Tacoma	#E68234
