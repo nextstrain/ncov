@@ -24,7 +24,7 @@ jobs:
   revert:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
 
     - uses: nextstrain/.github/actions/setup-nextstrain-cli@master
 
