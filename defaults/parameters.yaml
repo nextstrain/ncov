@@ -118,7 +118,8 @@ combine_sequences_for_subsampling:
   warn_about_duplicates: true
 
 tree:
-  tree-builder-args: "'-ninit 10 -n 4'"
+  tree-builder-args: "'-ninit 10 -n 4 -me 0.05'"
+  override_default_args: true
 
 # TreeTime settings
 refine:
