@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: "3.10"
       - run: pip install cram nextstrain-augur
-      - run: cram --shell=/bin/bash tests/sanitize-metadata.t
+      - run: cram --shell=/bin/bash tests/sanitize-metadata.t tests/annotate_metadata_with_index.t
 
   docs:
     uses: nextstrain/.github/.github/workflows/docs-ci.yaml@master
