@@ -5,6 +5,16 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 29 July 2025: Improved performance of calls to `augur filter`. This requires a minimum Augur version of 31.3.0. [PR 1178](https://github.com/nextstrain/ncov/pull/1178)
+
+## v17 (17 July 2025)
+
+- 17 July 2025: Snakemake version 8 (or above) is now required. Various aspects of the workflow were incompatible with v8 including our support for remote files and have now been updated. The nextstrain runtimes have been correspondingly updated; see [the nextstrain-cli docs for how to upgrade these](https://docs.nextstrain.org/projects/cli/en/stable/commands/update/). [PR 1180](https://github.com/nextstrain/ncov/pull/1180)
+
+- 17 July 2025: Support for Google Cloud Storage via `path_or_url` has been removed. Please get in touch if this is needed as it should be possible to restore it. Implemented in [PR 1180](https://github.com/nextstrain/ncov/pull/1180) and discussed [in this zika PR](https://github.com/nextstrain/zika/pull/89#discussion_r2190671313).
+
+- 17 July 2025: Cluster support (both rhino and scicore) has been removed. [PR 1180](https://github.com/nextstrain/ncov/pull/1180)
+
 - 10 February 2025: Improve documentation regarding custom color map files.
 
 ## v16 (29 January 2025)

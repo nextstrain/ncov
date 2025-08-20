@@ -1,4 +1,4 @@
-$schema: "http://json-schema.org/draft-06/schema#"
+$schema: https://json-schema.org/draft/2020-12/schema
 
 description: snakemake configuration file
 
@@ -28,6 +28,8 @@ properties:
           type: string
           minLength: 1
         skip_sanitize_metadata:
+          type: boolean
+        deduplicated:
           type: boolean
       additionalProperties: false
 

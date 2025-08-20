@@ -126,6 +126,7 @@ linkcheck_ignore = [
     # they block the client, probably anti-scraping measure
     r'^https://czgenepi\.org/resources',
     r'^https://science\.sciencemag\.org/content/early/2020/06/05/science\.abb9263',
+    r'^https://www\.medrxiv\.org',
     # this link is correct but the lack of a top-level dataset means
     # it 404s initially — because the point of this link is showing
     # the community page, allow it to fail here:

@@ -34,6 +34,7 @@ inputs:
     metadata: "results/gisaid_21L_metadata.tsv.zst"
     aligned: "results/gisaid_21L_aligned.fasta.zst"
     skip_sanitize_metadata: true
+    deduplicated: true
 
 # Define locations for which builds should be created.
 # For each build we specify a subsampling scheme via an explicit key.

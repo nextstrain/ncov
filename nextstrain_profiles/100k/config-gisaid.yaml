@@ -12,6 +12,7 @@ inputs:
     metadata: "s3://nextstrain-ncov-private/metadata.tsv.zst"
     aligned: "s3://nextstrain-ncov-private/sequences.fasta.zst"
     skip_sanitize_metadata: true
+    deduplicated: true
 
 builds:
   100k:

@@ -1,3 +1,5 @@
+from snakemake.common import async_run
+
 rule sanitize_metadata:
     input:
         metadata=lambda wildcards: _get_path_for_input("metadata", wildcards.origin)
@@ -422,10 +424,6 @@ def _get_subsampled_files(wildcards):
     ]
 
 rule combine_samples:
-    message:
-        """
-        Combine and deduplicate FASTAs
-        """
     input:
         sequences=_get_unified_alignment,
         metadata=_get_unified_metadata,
@@ -433,16 +431,19 @@ rule combine_samples:
     output:
         sequences = "results/{build_name}/{build_name}_subsampled_sequences.fasta.xz",
         metadata = "results/{build_name}/{build_name}_subsampled_metadata.tsv.xz"
+    params:
+        skip_checks = lambda w: "--skip-checks" if all(input_record.get("deduplicated", False) for input_record in config["inputs"].values()) else ""
     log:
-        "logs/subsample_regions_{build_name}.txt"
+        "logs/combine_samples_{build_name}.txt"
     benchmark:
-        "benchmarks/subsample_regions_{build_name}.txt"
+        "benchmarks/combine_samples_{build_name}.txt"
     conda: config["conda_environment"]
     shell:
         r"""
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
+            {params.skip_checks} \
             --exclude-all \
             --include {input.include} \
             --output-sequences {output.sequences} \
@@ -746,8 +747,7 @@ rule tree:
     resources:
         # Multiple sequence alignments can use up to 40 times their disk size in
         # memory, especially for larger alignments.
-        # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
-        mem_mb=lambda wildcards, input: 40 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: 40 * int(input.size_mb)
     conda: config["conda_environment"]
     shell:
         r"""
@@ -782,8 +782,7 @@ rule refine:
     resources:
         # Multiple sequence alignments can use up to 15 times their disk size in
         # memory.
-        # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
-        mem_mb=lambda wildcards, input: 15 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: 15 * int(input.size_mb)
     params:
         root = config["refine"]["root"],
         clock_rate = config["refine"]["clock_rate"],
@@ -836,8 +835,7 @@ rule ancestral:
     resources:
         # Multiple sequence alignments can use up to 15 times their disk size in
         # memory.
-        # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
-        mem_mb=lambda wildcards, input: 15 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: 15 * int(input.size_mb)
     conda: config["conda_environment"]
     shell:
         r"""
@@ -867,8 +865,7 @@ rule translate:
     resources:
         # Multiple sequence alignments can use up to 15 times their disk size in
         # memory.
-        # Note that Snakemake >5.10.0 supports input.size_mb to avoid converting from bytes to MB.
-        mem_mb=lambda wildcards, input: 15 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: 15 * int(input.size_mb)
     conda: config["conda_environment"]
     shell:
         r"""
@@ -976,7 +973,7 @@ rule clades:
         "benchmarks/clades_{build_name}.txt"
     resources:
         # Memory use scales primarily with size of the node data.
-        mem_mb=lambda wildcards, input: 3 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: 3 * int(input.size_mb)
     conda: config["conda_environment"]
     shell:
         r"""
@@ -1002,7 +999,7 @@ rule emerging_lineages:
         "benchmarks/emerging_lineages_{build_name}.txt"
     resources:
         # Memory use scales primarily with size of the node data.
-        mem_mb=lambda wildcards, input: 3 * int(input.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: 3 * int(input.size_mb)
     conda: config["conda_environment"]
     shell:
         r"""
@@ -1033,7 +1030,7 @@ rule colors:
         # Memory use scales primarily with the size of the metadata file.
         # Compared to other rules, this rule loads metadata as a pandas
         # DataFrame instead of a dictionary, so it uses much less memory.
-        mem_mb=lambda wildcards, input: 5 * int(input.metadata.size / 1024 / 1024)
+        mem_mb=lambda wildcards, input: 5 * int(async_run(input['metadata'].size()) / 1024 / 1024)
     conda: config["conda_environment"]
     shell:
         r"""
