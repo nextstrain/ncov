@@ -25,22 +25,25 @@
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
+### Pathogen Epidemiology
+
 ### Getting Started
 This build utilizes the [Nextstrain.org remote datasets](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html) to produce a Washington-focused SC2 Nextstrain build that can be used for genomic surveillance purposes.
 
 Some high-level build features and capabilities are:
-- **1 year Washington focus sampling**: more here
-- **Tiered subsampling**: more here
+- **1 year Washington focus sampling**: All Washington sequences from the last year are included in this build.
+- **Tiered subsampling**: Additional sequences from the rest of the USA & the world are selected by genetic similarity to the state-level sequences. Additionally, earlier sequences from Washington and globally are provided for temporal context.
 
 ### Data Sources & Inputs
-This build uses the full SC2 Remote Dataset and SC2 Global Remote Datasets available on [Nextstrain.org](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html). This data is sourced from GenBank cleaned/maintainted by the Nextstrain team.  This build subsets Washington State sequences and metadata from the full remote dataset as the inputs to the ncov Nextstrain pipeline. The Global Remote Dataset (alignment and metadata) is used for contextual sequences in the build.
+This build uses NCBI data and the SARS-Cov-2 Global Remote Dataset available on [Nextstrain.org](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html). The Remote Dataset data is sourced from GenBank cleaned/maintainted by the Nextstrain team.  This build pulls in subsets Washington State sequences  and metadata from GenBank, and pulls in contextual data from Nextstrain Global Remote Dataset that are the inputs to the ncov Nextstrain pipeline.
 
-To include more contextualization, one could use the Full Remote Dataset for the contextual sequences, however doing so may require AWS Batch to subsample from the dataset.
+To include more contextualization, one could use the Full SARS-Covo2 Remote Dataset for the contextual sequences, however doing so may require AWS Batch to subsample from the dataset.
 
-- **Sequence Data**: Nextstrain.org SC2 Remote Dataset sourced from GenBank
-- **Metadata**: Nexxtstrain.org SC2 Remote Dataset sourced from GenBank and WA DOH county-level data
+- **Sequence Data**: GenBank SARS-Cov-2 data from Datasets and Nextstrain.org SC2 Remote Dataset sourced GenBank
+- **Metadata**: GenBank SARS-Cov-2 data from Datasets, Nextstrain.org SC2 Remote Dataset sourced GenBank and WA DOH county-level data
 - **Expected Inputs**:
     - `ncov_wa/data/county_metadata.csv` (contains most recent line list of GenBank accession number and Washington State county designation)
+    -  Other sequencing and metadata will be automatically downloaded and ingested as part of the pipeline
 
 ### Setup & dependencies
 #### Installation
@@ -92,22 +95,7 @@ nextstrain build --cpus=6 . --configfile ncov_wa/config/builds.yaml
 The file structure of the repository is as follows with `*`  denoting folders that are the build's expected outputs.
 
 ```
-ncov/
-├──auspice/*
-├──benchmarks/*
-├──data/
-├──data.nextstrain.org/*
-├──defaults/
-├──docs/
-├──logs/*
-├──my_profiles/
-├──narratives/
-├──nextstrain_profiles/
-├──results/
-├──scripts/
-├──tests/
-├──workflow/
-├──Snakefile
+.
 ├──ncov_wa/
 |   ├──config/
 |   |   ├──auspice_config.json         #  Variables to include in Color-By feature
@@ -128,6 +116,7 @@ ncov/
 |   |   ├──filter_wa_data.smk                              # Pulls the full remote dataset and then filters for WA data to be the input into the Nextstrain build
 |   |   ├──add_to_builds.smk                               # Calculates dates and specifies date scheme for timeframe of data the build should include
 ```
+More details on the file structure of this build can be found [here](https://github.com/NW-PaGe/ncov/wiki/_new)
 
 ### Visualizing the results
 You can check your results once the pipeline is done running using `nextstrain view auspice` or by uploading the output JSON file into [auspice.us](https://auspice.us/).
@@ -146,14 +135,13 @@ If there are any changes to these two files then changes may need to be made to 
 ### Expected Outputs
 
 Within the `ncov/auspice/` folder, the expected outputs include:
-- `ncov_ncov_wa_six_mon.json`
-- `ncov_ncov_wa_six_mon_root-sequence.json`
-- `ncov_ncov_wa_six_mon_tip-frequencies.json`
+- `ncov_ncov_wa_1y.json`
+- `ncov_ncov_wa_1y_root-sequence.json`
+- `ncov_ncov_wa_1y_tip-frequencies.json`
 
-[TO DO] Look into why output files named with two ncov?
 ### Scientific Decisions
 - **Subsampling**:
-  - **6 month Washington focus sampling**: Subsampling includes all Washington sequences (no maximum number of sequences) from the past 6 months
+  - **1 year Washington focus sampling**: Subsampling includes all Washington sequences (no maximum number of sequences) from the past year
   - **Contextual proximity sampling**: Subsampling includes 1000 sequences sampled from 2020 through current. This sampling helps to accurately reconstruct the number of introduction.  Proximity sampling selects sequences as close as possible to the focal samples (Currently set to Washington).  The genetic proximity between sequences in the focal set to other sequences are calculated in the [priorities.py](https://github.com/nextstrain/ncov/blob/5555ece97bafe1aa2cb19dcaac183d5a718d29fa/scripts/priorities.py) script.
     - **Crowding penalty**: The crowding penalty in proximity subsampling controls how strongly the subsampling penalizes sequences that are genetically similar to each other. This build set the crowding penalty to 0. The default setting is 0.25.  A crowding penalty value closer to 1 creates a bushier tree and discourages sequence redundancy. A crowding penalty closer to 0 allows more clustering. A crowding penalty of 0 disables crowding.
   - **Contextual random sampling**: Subsampling includes 500 sequences sampled over month-year that allow for accurate clade timing in the tree.
@@ -161,7 +149,7 @@ Within the `ncov/auspice/` folder, the expected outputs include:
 - **Clade labeling**: Internal clade labels are included in the tree through the [main_workflow.smk](https://github.com/nextstrain/ncov/blob/5555ece97bafe1aa2cb19dcaac183d5a718d29fa/workflow/snakemake_rules/main_workflow.smk#L954)
 
 ## Adapting for Another Jursidiction
-- The jurisdiction-focused sampling time frame of the build can be changed. It is currently set up to focus on the last 6 months of Washington sequences, but this time frame can be altered to be shorter/longer by adjusting the add_to_builds.smk and the build.yaml subsampling scheme. [TO DO add more here]
+- The jurisdiction-focused sampling time frame of the build can be changed. It is currently set up to focus on the last year of Washington sequences, but this time frame can be altered to be shorter/longer by adjusting the add_to_builds.smk and the build.yaml subsampling scheme.
 - To adapt the build to a new jurisdiction, the current filters for Washington should be changed to filter for jurisdiction of interest.  These filtering steps are in the [filter_wa_metadata.sh](https://github.com/NW-PaGe/ncov_wa/blob/main/scripts/filter_wa_metadata.sh) bash script that pattern matches the metadata, and that is called within the [filter_wa.smk](https://github.com/NW-PaGe/ncov_wa/blob/main/workflow/filter_wa_data.smk) workflow. Note: when working with bash scripts, be careful about editing the files in a Windows application, and be sure the files are saved with only the line feed character (LF) instead of the carriage return plus line feed (CRLF).
 - The [colors.tsv](https://github.com/NW-PaGe/ncov_wa/blob/main/config/colors.tsv) file can be adapted to change colors visualized in Auspice Color-By. The tsv file should include the divisions of interest that are to appear in the Color-By.
 
@@ -170,8 +158,6 @@ For any questions please submit them to our [Discussions](https://github.com/NW-
 ## License
 This project is licensed under a modified GPL-3.0 License.
 You may use, modify, and distribute this work, but commercial use is strictly prohibited without prior written permission.
-## Acknowledgments
-
 
 ## License
 
