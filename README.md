@@ -27,6 +27,16 @@
 
 ### Pathogen Epidemiology
 
+Overview:
+
+- SARS-CoV-2 is
+
+- Taxonomic designations
+- Geographic distribution and seasonality
+- Public Health importance
+- Genomic relevance
+- Additional resources
+
 ### Getting Started
 This build utilizes the [Nextstrain.org remote datasets](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html) to produce a Washington-focused SC2 Nextstrain build that can be used for genomic surveillance purposes.
 
