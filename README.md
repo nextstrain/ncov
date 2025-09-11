@@ -29,8 +29,6 @@
 
 Overview:
 
-- SARS-CoV-2 is
-
 - Taxonomic designations
 - Geographic distribution and seasonality
 - Public Health importance
