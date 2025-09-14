@@ -178,3 +178,21 @@ if "localrules" in config:
 if "custom_rules" in config:
     for rule_file in config["custom_rules"]:
         include: rule_file
+
+onerror:
+    # If the workflow failed and the user isn't using the workflow's Conda
+    # environment, report the required and installed Augur versions and a
+    # recommendation to use the `--use-conda` flag.
+    if not workflow.use_conda:
+        min_augur_version, actual_augur_version = report_augur_versions(config["conda_environment"])
+
+        print(f"Required Augur version: {min_augur_version}", file=sys.stderr)
+        print(f"Installed Augur version: {actual_augur_version}", file=sys.stderr)
+        print(
+            textwrap.fill(
+                "Run this workflow with Snakemake's `--use-conda` flag " +
+                "or update your Docker image " +
+                "to ensure you're using the latest versions of the required software."
+            ),
+            file=sys.stderr
+        )
