@@ -456,14 +456,20 @@ rule prepare_nextclade:
         Downloading reference files for nextclade (used for alignment and qc).
         """
     output:
-        nextclade_dataset = "data/sars-cov-2-nextclade-defaults.zip",
+        nextclade_dataset = directory("data/sars-cov-2-nextclade-defaults"),
     params:
         name = config["nextclade_dataset"],
     conda: config["conda_environment"]
     shell:
         r"""
         nextclade --version
-        nextclade dataset get --name {params.name} --output-zip {output.nextclade_dataset}
+        nextclade dataset get --name {params.name} --output-dir {output.nextclade_dataset}
+
+        # override tree.json with nightly tree
+        curl -fsSL \
+            -o {output.nextclade_dataset}/tree.json \
+            -H "Accept: application/vnd.nextstrain.dataset.main+json;q=1, application/json;q=0.9, text/plain;q=0.8, */*;q=0.1" \
+            "https://nextstrain.org/staging/nextclade/sars-cov-2"
         """
 
 rule build_align:
@@ -474,7 +480,7 @@ rule build_align:
         """
     input:
         sequences = rules.combine_samples.output.sequences,
-        nextclade_dataset = "data/sars-cov-2-nextclade-defaults.zip",
+        nextclade_dataset = "data/sars-cov-2-nextclade-defaults",
     output:
         alignment = "results/{build_name}/aligned.fasta",
         nextclade_qc = 'results/{build_name}/nextclade_qc.tsv',
