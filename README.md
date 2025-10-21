@@ -17,20 +17,27 @@
 - [Repository File Structure Overview](#repository-file-structure-overview)
 - [Expected Outputs and Interpretations](#expected-outputs-and-interpretations)
 - [Scientific Decisions](#scientific-decisions)
-- [Adapting for Another Jurisdiction](#adapting-for-another-jurisdiction)
+- [Adapting for Another Jurisdiction](#adapting-for-Another-Jurisdiction)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ### Pathogen Epidemiology
 
-Overview:
+#### Overview:
 
-- Taxonomic designations
-- Geographic distribution and seasonality
-- Public Health importance
-- Genomic relevance
-- Additional resources
+- SARS-CoV-2 (SC2) is a single-stranded RNA virus and was first detected in Wuhan, China in December 2019
+- Infection with the SARS-Cov-2 virus can cause a COVID-19 respiratory illness.  SC2 is a coronavirus that encodes structural spike glycoprotein. This spike protein is the primary target of natural and vaccine immunity as well as the target for most monoclonal antibody therapies [(O'Toole et al 2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8832810/)  [(Zhou et al 2020)](https://www.nature.com/articles/s41586-020-2012-7)
+- The virus spread through respiratory droplets from an infected persons through coughing, sneezing, speaking, etc. [WHO)](https://www.who.int/health-topics/coronavirus#tab=tab_1). Most infected people will have mild to moderate respiratory illness, but in some cases the illness can be more severe are require medical attention.
+
+#### Taxonomic designations
+
+- The [Pango nomenclature system](https://pango.network/) is a widely-used tool for SARS-CoV-2 lineage classification
+
+#### Geographic distribution and seasonality
+
+- SC2 circulates endemically in the human population, with seasonality similar to that of other respiratory pathogens, peaking in late fall through spring [(Wiekman et al 2023)](https://www.nature.com/articles/s41598-023-31057-1)
+
 
 ### Getting Started
 This build utilizes the [Nextstrain.org remote datasets](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html) to produce a Washington-focused SC2 Nextstrain build that can be used for genomic surveillance purposes.
@@ -137,7 +144,7 @@ If there are any changes to these two files then changes may need to be made to 
 - Changes to `ncov/defaults/auspice_config.json` > make changes to > `ncov_wa/config/auspice_config.json`
 - Changes to `ncov/nextstrain_profiles/.../builds.yaml` > *may require changes to* > `ncov_wa/config/builds.yaml` -->
 
-### Expected Outputs
+### Expected Outputs and Interpretations
 
 Within the `ncov/auspice/` folder, the expected outputs include:
 - `ncov_wa_1y.json`
