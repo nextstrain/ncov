@@ -167,6 +167,4 @@ For any questions please submit them to our [Discussions](https://github.com/NW-
 This project is licensed under a modified GPL-3.0 License.
 You may use, modify, and distribute this work, but commercial use is strictly prohibited without prior written permission.
 
-## License
-
 ## Acknowledgments

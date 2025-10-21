@@ -8,30 +8,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  gisaid:
-    permissions:
-      id-token: write
-    uses: nextstrain/.github/.github/workflows/pathogen-repo-build.yaml@master
-    secrets: inherit
-    with:
-      runtime: aws-batch
-      run: |
-        set -x
-
-        declare -a config
-        config+=(slack_token=$SLACK_TOKEN)
-
-        nextstrain build \
-          --detach \
-          --cpus 16 \
-          --memory 31GiB \
-          . \
-            upload \
-            --configfile nextstrain_profiles/100k/config-gisaid.yaml \
-            --config "${config[@]}" \
-            --set-threads tree=8
-      artifact-name: gisaid-build-output
-
   open:
     permissions:
       id-token: write

@@ -7,6 +7,8 @@ inputs:
     metadata: "data/example_metadata.tsv"
     sequences: "data/example_sequences.fasta.gz"
 
+warning: "Test warning"
+
 builds:
   # Override the default Nextstrain European build's subsampling scheme for more
   # stable subsampling of a fixed dataset in continuous integration tests.

@@ -193,6 +193,11 @@ title
 -  type: string
 -  description: Build-specific title to provide to ``augur export`` and display as the title of the analysis in Auspice.
 
+warning
+~~~~~~~
+
+- type: string
+- description: Build-specific warning to provide to ``augur export`` and display in a warning banner in Auspice.
 
 .. _configuration-subsampling:
 
@@ -425,6 +430,13 @@ title
 
 -  type: string
 -  description: Title to provide to ``augur export`` and display as the title of the analysis in Auspice. Note that this is only used if a title is not defined for the individual build in the ``builds`` object.
+
+
+warning
+-------
+
+-  type: string
+-  description: Warning to provide to ``augur export`` and display in a warning banner in Auspice. Note that this is only used if a warning is not defined for the individual build in the ``builds`` object.
 
 
 genes

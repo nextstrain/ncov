@@ -1192,6 +1192,15 @@ def export_title(wildcards):
         location_title = location_name.replace("-", " ").title()
         return f"Genomic epidemiology of novel coronavirus - {location_title}-focused subsampling"
 
+def export_warning(wildcards):
+    warning = config["builds"][wildcards.build_name].get("warning", False) or \
+              config.get("warning", False)
+
+    if warning and isinstance(warning, str):
+        return f"--warning {warning!r}"
+    else:
+        return ""
+
 def _get_node_data_by_wildcards(wildcards):
     """Return a list of node data files to include for a given build's wildcards.
     """
@@ -1280,7 +1289,8 @@ rule export:
     benchmark:
         "benchmarks/export_{build_name}.txt"
     params:
-        title = export_title
+        title = export_title,
+        warning = export_warning,
     resources:
         # Memory use scales primarily with the size of the metadata file.
         mem_mb=12000
@@ -1296,6 +1306,7 @@ rule export:
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --title {params.title:q} \
+            {params.warning} \
             --description {input.description} \
             --output {output.auspice_json} 2>&1 | tee {log}
         """
