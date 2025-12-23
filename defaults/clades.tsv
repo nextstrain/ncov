@@ -283,3 +283,28 @@ clade	gene	site	alt
 25C	clade	24A
 25C	nuc	4214	C
 25C	nuc	8350	C
+
+25D	clade	24E
+25D	nuc	6454	T
+25D	nuc 	16041	T
+
+25E	clade	24H
+25E	nuc	10978	T
+25E	nuc	25523	A
+
+25F	clade	25A
+25F	nuc	4723	C
+25F	nuc	11941	T
+
+25G	clade	24A
+25G	nuc	12892	A
+25G	nuc	23598	G
+25G	nuc	25925	T
+
+25H	clade	24A
+25H	nuc	25844	T
+25H	nuc	27414	A
+
+25I	clade	21M
+25I	nuc	12095	C
+25I	nuc	25114	A
