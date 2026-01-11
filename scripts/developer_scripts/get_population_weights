@@ -11,9 +11,9 @@ import urllib.request
 
 
 def download_source_data(path):
-    # This is the link for "1950-2100, all scenarios"¹ on the UN population CSV
-    # download page: <https://population.un.org/wpp/Download/Standard/CSV/>
-    url = 'https://population.un.org/wpp/Download/Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_TotalPopulationBySex.csv.gz'
+    # This is the link for "1950-2100, all scenarios" on the UN population CSV
+    # download page: <https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=CSV%20format>
+    url = 'https://population.un.org/wpp/assets/Excel%20Files/1_Indicator%20(Standard)/CSV_FILES/WPP2024_TotalPopulationBySex.csv.gz'
 
     # As of 2024-08-07, the URL requires a workaround to download programmatically:
     # <https://github.com/urllib3/urllib3/issues/2653#issuecomment-1165307051>
@@ -30,7 +30,7 @@ def download_source_data(path):
 def export_population_weights(output):
     csv = Path(os.path.dirname(__file__)) / "data/WPP2024_TotalPopulationBySex.csv.gz"
     source = 'the United Nations World Population Prospects'
-    if os.path.exists(output):
+    if os.path.exists(csv):
         print(f'Source data already exists: {str(csv)!r}')
         print(f'... skipping download.')
     else:
@@ -91,6 +91,16 @@ def export_population_weights(output):
         "Viet Nam": "Vietnam",
     }
     df = df.rename(index=country_name_map)
+
+    # Additional countries/territories not in the UN population data.
+    # These are typically disputed territories or other special cases.
+    additional_countries = {
+        "Lugansk": 2,
+    }
+    additional_df = pd.DataFrame.from_dict(additional_countries, orient='index', columns=['weight'])
+    additional_df.index.name = 'country'
+    df = pd.concat([df, additional_df])
+    df = df.sort_index()
 
     # Ensure int weights are written without decimals
     df['weight'] = pd.to_numeric(df['weight']).astype(int)
