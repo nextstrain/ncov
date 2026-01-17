@@ -86,4 +86,4 @@ if __name__ == '__main__':
     adjust_coloring_for_epiweeks(input_json)
 
     with open(args.output, 'w') as f:
-        json.dump(input_json, f, indent=2)
+        json.dump(input_json, f, indent=0)
