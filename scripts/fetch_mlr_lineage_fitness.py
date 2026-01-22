@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 import sys
 from augur.io import read_metadata
-from augur.utils import write_json
+from augur.io import write_json
 
 # This script is currently assuming a match on lineage fitness this uses
 # https://data.nextstrain.org/files/workflows/forecasts-ncov/gisaid/pango_lineages/global/mlr/latest_results.json
