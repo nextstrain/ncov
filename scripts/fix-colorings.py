@@ -1,6 +1,7 @@
 import argparse
 import json
 import re
+from augur.io import write_json
 from numpy import linspace
 from math import floor
 
@@ -85,5 +86,4 @@ if __name__ == '__main__':
 
     adjust_coloring_for_epiweeks(input_json)
 
-    with open(args.output, 'w') as f:
-        json.dump(input_json, f, indent=2)
+    write_json(input_json, args.output)

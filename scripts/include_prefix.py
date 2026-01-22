@@ -1,5 +1,6 @@
 import argparse
 import json
+from augur.io import write_json
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -28,8 +29,7 @@ if __name__ == '__main__':
                     update_strain_names(c)
         update_strain_names(auspice_json["tree"])
 
-    with open(args.output_auspice, 'w') as f:
-        json.dump(auspice_json, f, indent=2)
+    write_json(auspice_json, args.output_auspice)
 
     # update tip frequencies JSON
     with open(args.input_tip_frequencies, "r") as f:
@@ -48,5 +48,4 @@ if __name__ == '__main__':
     else:
         modified_tip_frequencies_json = tip_frequencies_json
 
-    with open(args.output_tip_frequencies, 'w') as f:
-        json.dump(modified_tip_frequencies_json, f, indent=2)
+    write_json(modified_tip_frequencies_json, args.output_tip_frequencies)

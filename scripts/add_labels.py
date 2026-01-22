@@ -2,6 +2,7 @@ import argparse
 import json
 from Bio import Phylo
 from collections import defaultdict
+from augur.io import write_json
 
 def attach_labels(d, labeled_nodes):
     if "children" in d:
@@ -61,5 +62,4 @@ if __name__ == '__main__':
 
     attach_labels(input_json["tree"], labeled_nodes)
 
-    with open(args.output, 'w') as f:
-        json.dump(input_json, f, indent=2)
+    write_json(input_json, args.output)

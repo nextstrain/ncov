@@ -1,6 +1,7 @@
 import argparse
 from datetime import datetime
 from augur.io import read_metadata
+from augur.io import write_json
 import json
 
 def get_recency(date_str, ref_date):
@@ -40,5 +41,4 @@ if __name__ == '__main__':
         if 'date_submitted' in d and d['date_submitted'] and d['date_submitted'] != "undefined":
             node_data['nodes'][strain] = {'recency': get_recency(d['date_submitted'], ref_date)}
 
-    with open(args.output, 'w') as fh:
-        json.dump(node_data, fh)
+    write_json(node_data, args.output)
