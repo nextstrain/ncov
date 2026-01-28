@@ -187,6 +187,7 @@ def get_database_ids_by_strain(metadata_file, metadata_id_columns, database_id_c
             metadata_file,
             id_columns=metadata_id_columns,
             chunk_size=metadata_chunk_size,
+            keep_id_as_column=True,
         )
     except Exception as error:
         # Augur's `read_metadata` function can throw a generic Exception when
@@ -270,10 +271,7 @@ def sanitize_strain_names(metadata, prefixes_to_strip):
     prefixes_to_strip : list[str]
         A list of prefixes to be stripped from the strain name.
     """
-    # Reset the data frame index, to make the "strain" column available
-    # for transformation.
     strain_field = metadata.index.name
-    metadata = metadata.reset_index()
 
     # Strip prefixes from strain names.
     if prefixes_to_strip:
@@ -461,6 +459,7 @@ if __name__ == '__main__':
         metadata_file,
         id_columns=metadata_id_columns,
         chunk_size=args.metadata_chunk_size,
+        keep_id_as_column=True,
     )
     emit_header = True
 
