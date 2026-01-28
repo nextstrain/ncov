@@ -7,6 +7,7 @@ We also use this change log to document new features that maintain backward comp
 
 - 10 October 2025: Add parameter `warning` to display provided string in warning banner in Auspice. This can be defined per build or at the top level config. [PR 1186](https://github.com/nextstrain/ncov/pull/1186)
 - 29 July 2025: Improved performance of calls to `augur filter`. This requires a minimum Augur version of 31.3.0. [PR 1178](https://github.com/nextstrain/ncov/pull/1178)
+- 28 January 2026: Large JSON files are now automatically minified. This requires a minimum Augur version of 33.0.0. [PR 1194](https://github.com/nextstrain/ncov/pull/1194)
 
 ## v17 (17 July 2025)
 
