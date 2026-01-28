@@ -7,6 +7,7 @@ import argparse
 import pandas as pd
 import csv
 import json
+from augur.io import write_json
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -40,6 +41,4 @@ if __name__ == '__main__':
 
     metadata.to_csv(args.output_meta, index=False, sep="\t")
 
-    with open(args.output_config, 'w') as fh:
-        json.dump(input_json, fh, indent=2)
-    
+    write_json(input_json, args.output_config)

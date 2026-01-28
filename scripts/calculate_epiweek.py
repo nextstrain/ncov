@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 from augur.io import read_metadata
-from augur.utils import write_json
+from augur.io import write_json
 import epiweeks
 import pandas as pd
 import re

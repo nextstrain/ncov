@@ -3,7 +3,7 @@ import json
 from Bio import Phylo, SeqIO
 from Bio.Align import MultipleSeqAlignment
 from treetime import TreeAnc
-from augur.utils import load_features
+from augur.utils import load_features, write_json
 
 
 def annotation_json(features, reference):
@@ -71,5 +71,4 @@ if __name__ == '__main__':
                 fh.write(f">{n.name}\n{tt.sequence(n, as_string=True, reconstructed=True)}\n")
 
     annotations = annotation_json(features, ref)
-    with open(args.output, 'w') as fh:
-        json.dump({"nodes":node_data, "annotations":annotations, "reference":root_sequence_translations}, fh)
+    write_json({"nodes":node_data, "annotations":annotations, "reference":root_sequence_translations}, args.output)
