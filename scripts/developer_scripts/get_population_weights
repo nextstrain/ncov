@@ -95,6 +95,7 @@ def export_population_weights(output):
     # Additional countries/territories not in the UN population data.
     # These are typically disputed territories or other special cases.
     additional_countries = {
+        "Kherson Region": 1,
         "Lugansk": 2,
     }
     additional_df = pd.DataFrame.from_dict(additional_countries, orient='index', columns=['weight'])
