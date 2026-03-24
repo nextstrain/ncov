@@ -75,4 +75,4 @@ These files are used to generate the `workflow documentation <https://docs.nexts
 Nextstrain user files
 ~~~~~~~~~~~~~~~~~~~~~
 
-The Nextstrain team maintains user files in the ``ncov/`` repo, under ``nextstrain_profiles/``.
+The Nextstrain team maintains user files in the ``ncov/`` repo, under ``nextstrain_configs/``.

@@ -11,7 +11,7 @@ jobs:
   test-build:
     uses: nextstrain/.github/.github/workflows/pathogen-repo-ci.yaml@v0
     with:
-      build-args: all_regions -j 2 --profile nextstrain_profiles/nextstrain-ci
+      build-args: all_regions -j 2 --configfile nextstrain_configs/gisaid/builds.yaml nextstrain_configs/ci/builds.yaml
 
   test-cram:
     runs-on: ubuntu-latest
