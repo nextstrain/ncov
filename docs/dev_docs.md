@@ -36,8 +36,8 @@ Stepping back, the process can be broken into three steps:
 
 To run these pipelines locally, without uploading the results:
 ```sh
-snakemake -pf all --profile nextstrain_profiles/nextstrain-open
-snakemake -pf all --profile nextstrain_profiles/nextstrain-gisaid
+nextstrain build . all --profile nextstrain_profiles/nextstrain-open
+nextstrain build . all --profile nextstrain_profiles/nextstrain-gisaid
 ```
 You can replace `all` with, for instance, `auspice/ncov_open_global.json` to avoid building all regions.
 The resulting dataset(s) can be visualised in the browser by running `auspice view --datasetDir auspice`.
@@ -48,13 +48,13 @@ The `deploy` rule uploads the dataset files such that they are accessible via ne
 You may wish to overwrite these parameters for your local runs to avoid overwriting data which is already present.
 For instance, here are the commands used by the trial builds action (see below):
 ```sh
-snakemake -pf upload deploy \
+nextstrain build . upload deploy \
     --profile nextstrain_profiles/nextstrain-open \
     --config \
         S3_DST_BUCKET=nextstrain-staging/files/ncov/open/trial/TRIAL_NAME \
         deploy_url=s3://nextstrain-staging/ \
         auspice_json_prefix=ncov_open_trial_TRIAL_NAME
-snakemake -pf upload deploy \
+nextstrain build . upload deploy \
     --profile nextstrain_profiles/nextstrain-gisaid \
     --config \
         S3_DST_BUCKET=nextstrain-ncov-private/trial/TRIAL_NAME \
