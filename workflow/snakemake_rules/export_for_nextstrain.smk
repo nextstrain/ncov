@@ -2,8 +2,6 @@
 # If a region is selected, it'll do 280/division for that region, and 20/division in the rest of the world
 #       -- preferentially sequences near the focal sequences
 #
-# To run a regional build, be sure to update the list of regions in `config/nextstrain_profiles.yaml`.
-#
 # You can run all builds in parallel!
 #   nextstrain build . --profile nextstrain_profiles/nextstrain-gisaid all_regions
 #
