@@ -5,18 +5,18 @@
 # To run a regional build, be sure to update the list of regions in `config/nextstrain_profiles.yaml`.
 #
 # You can run all builds in parallel!
-#   snakemake --profile nextstrain_profiles/nextstrain-gisaid all_regions
+#   nextstrain build . --profile nextstrain_profiles/nextstrain-gisaid all_regions
 #
 # Or you can specify final or intermediate output files like so:
-#   snakemake --profile nextstrain_profiles/nextstrain-gisaid auspice/ncov_europe.json (subsampled regional focal)
-#   snakemake --profile nextstrain_profiles/nextstrain-gisaid auspice/ncov_global.json (subsampled global)
+#   nextstrain build . --profile nextstrain_profiles/nextstrain-gisaid auspice/ncov_europe.json (subsampled regional focal)
+#   nextstrain build . --profile nextstrain_profiles/nextstrain-gisaid auspice/ncov_global.json (subsampled global)
 #
 # To update ordering/lat_longs after AWS download:
-#   snakemake --touch --forceall --profile nextstrain_profiles/nextstrain-gisaid
-#   snakemake --profile nextstrain_profiles/nextstrain-gisaid clean_export_regions
-#   snakemake --profile nextstrain_profiles/nextstrain-gisaid export_all_regions
+#   nextstrain build . --touch --forceall --profile nextstrain_profiles/nextstrain-gisaid
+#   nextstrain build . --profile nextstrain_profiles/nextstrain-gisaid clean_export_regions
+#   nextstrain build . --profile nextstrain_profiles/nextstrain-gisaid export_all_regions
 # When done adjusting lat-longs & orders, remember to run
-#   snakemake --profile nextstrain_profiles/nextstrain-gisaid all_regions
+#   nextstrain build . --profile nextstrain_profiles/nextstrain-gisaid all_regions
 # to produce the final Auspice files!
 
 import re
