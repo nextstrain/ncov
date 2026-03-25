@@ -351,7 +351,8 @@ except:
 #
 # ¹ <https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cloudfront-limits.html#limits-invalidations>
 # ² <https://github.com/nextstrain/cli/blob/017c5380/nextstrain/cli/command/build.py#L149-L166>
-workflow.global_resources.setdefault("concurrent_deploys", 2)
+if "concurrent_deploys" not in workflow.global_resources:
+    workflow.global_resources["concurrent_deploys"] = 2
 
 rule deploy_single:
     input:
