@@ -1,0 +1,26 @@
+name: Docs
+
+on:
+  push:
+    branches:
+      - master
+    paths: &paths
+      - docs/**
+      - .github/workflows/docs.yaml
+
+  pull_request:
+    paths: *paths
+
+  workflow_dispatch:
+
+  # Routinely check that we continue to work in the face of external changes.
+  schedule:
+    # Every Monday at 17:42 UTC / 9:42 Seattle (winter) / 10:42 Seattle (summer)
+    - cron: "42 17 * * 1"
+
+jobs:
+  ci:
+    uses: nextstrain/.github/.github/workflows/docs-ci.yaml@master
+    with:
+      docs-directory: docs/
+      environment-file: docs/conda.yml
