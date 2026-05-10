@@ -29,15 +29,15 @@ We do not release new minor versions for new features, but you should document n
 The "core" nextstrain builds consist of a global analysis and six regional analyses, performed independently for GISAID data and open data (currently open data is GenBank data).
 Stepping back, the process can be broken into three steps:
 1. Ingest and curation of raw data. This is performed by the [ncov-ingest](https://github.com/nextstrain/ncov-ingest/) repo and resulting files are uploaded to S3 buckets.
-2. Phylogenetic builds, which start from the files produced by the previous step. This is performed by the profiles `nextstrain_profiles/nextstrain-open` and `nextstrain_profiles/nextstrain-gisaid`. The resulting files are uploaded to S3 buckets by the `upload` rule. 
+2. Phylogenetic builds, which start from the files produced by the previous step. These are configured by files under `nextstrain_configs`. Shared Snakemake execution defaults are defined in `profiles/default/config.yaml`. The resulting files are uploaded to S3 buckets by the `upload` rule. 
 
 
 ### Manually running phylogenetic builds
 
 To run these pipelines locally, without uploading the results:
 ```sh
-snakemake -pf all --profile nextstrain_profiles/nextstrain-open
-snakemake -pf all --profile nextstrain_profiles/nextstrain-gisaid
+nextstrain build . all --configfile nextstrain_configs/open/builds.yaml
+nextstrain build . all --configfile nextstrain_configs/gisaid/builds.yaml
 ```
 You can replace `all` with, for instance, `auspice/ncov_open_global.json` to avoid building all regions.
 The resulting dataset(s) can be visualised in the browser by running `auspice view --datasetDir auspice`.
@@ -48,14 +48,14 @@ The `deploy` rule uploads the dataset files such that they are accessible via ne
 You may wish to overwrite these parameters for your local runs to avoid overwriting data which is already present.
 For instance, here are the commands used by the trial builds action (see below):
 ```sh
-snakemake -pf upload deploy \
-    --profile nextstrain_profiles/nextstrain-open \
+nextstrain build . upload deploy \
+    --configfile nextstrain_configs/open/builds.yaml \
     --config \
         S3_DST_BUCKET=nextstrain-staging/files/ncov/open/trial/TRIAL_NAME \
         deploy_url=s3://nextstrain-staging/ \
         auspice_json_prefix=ncov_open_trial_TRIAL_NAME
-snakemake -pf upload deploy \
-    --profile nextstrain_profiles/nextstrain-gisaid \
+nextstrain build . upload deploy \
+    --configfile nextstrain_configs/gisaid/builds.yaml \
     --config \
         S3_DST_BUCKET=nextstrain-ncov-private/trial/TRIAL_NAME \
         deploy_url=s3://nextstrain-staging/ \

@@ -1,9 +1,8 @@
-auspice_json_prefix: ncov_gisaid_21L
+auspice_json_prefix: ncov_gisaid
 
 # Define custom rules for pre- or post-standard workflow processing of data.
 custom_rules:
   - workflow/snakemake_rules/export_for_nextstrain.smk
-  - nextstrain_profiles/nextstrain-gisaid-21L/prefilter.smk
 
 # These parameters are only used by the `export_for_nextstrain` rule and shouldn't need to be modified.
 # To modify the s3 _source_ bucket, specify this directly in the `inputs` section of the config.
@@ -27,18 +26,12 @@ warning: >-
   are continuing at their regular weekly cadence.
 
 files:
-  # This file is produced by a custom clades_21L rule in our prefiltering rules
-  # for this build.
-  clades: "results/clades_21L.tsv"
-  include: "nextstrain_profiles/nextstrain-gisaid-21L/include.txt"
-  description: "nextstrain_profiles/nextstrain-gisaid-21L/nextstrain_description.md"
+  description: "nextstrain_configs/gisaid/nextstrain_description.md"
 
 inputs:
   - name: gisaid
-    # These two files are produced by our custom gisaid_21L prefiltering rules
-    # for this build.
-    metadata: "results/gisaid_21L_metadata.tsv.zst"
-    aligned: "results/gisaid_21L_aligned.fasta.zst"
+    metadata: "s3://nextstrain-ncov-private/metadata.tsv.zst"
+    aligned: "s3://nextstrain-ncov-private/aligned.fasta.zst"
     skip_sanitize_metadata: true
     deduplicated: true
 
@@ -51,120 +44,119 @@ inputs:
 builds:
   reference:
     subsampling_scheme: nextstrain_reference
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with clade-focused subsampling
+    title: Genomic epidemiology of SARS-CoV-2 with clade-focused subsampling
   global_1m:
     subsampling_scheme: nextstrain_global_1m
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused globally over the past month
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past month
   global_2m:
     subsampling_scheme: nextstrain_global_2m
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused globally over the past 2 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past 2 months
   global_6m:
     subsampling_scheme: nextstrain_global_6m
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused globally over the past 6 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past 6 months
   global_all-time:
     subsampling_scheme: nextstrain_global_all_time
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused globally since pandemic start
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally since pandemic start
   africa_1m:
     subsampling_scheme: nextstrain_region_1m
     region: Africa
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Africa over the past month
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past month
   africa_2m:
     subsampling_scheme: nextstrain_region_2m
     region: Africa
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Africa over the past 2 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past 2 months
   africa_6m:
     subsampling_scheme: nextstrain_region_6m
     region: Africa
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Africa over the past 6 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past 6 months
   africa_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: Africa
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Africa since pandemic start
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa since pandemic start
   asia_1m:
     subsampling_scheme: nextstrain_region_1m
     region: Asia
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia over the past month
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia over the past month
   asia_2m:
     subsampling_scheme: nextstrain_region_2m
     region: Asia
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia over the past 2 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia over the past 2 months
   asia_6m:
     subsampling_scheme: nextstrain_region_6m
     region: Asia
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia over the past 6 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia over the past 6 months
   asia_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: Asia
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Asia since pandemic start
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia since pandemic start
   europe_1m:
     subsampling_scheme: nextstrain_region_1m
     region: Europe
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Europe over the past month
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past month
   europe_2m:
     subsampling_scheme: nextstrain_region_2m
     region: Europe
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Europe over the past 2 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past 2 months
   europe_6m:
     subsampling_scheme: nextstrain_region_6m
     region: Europe
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Europe over the past 6 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past 6 months
   europe_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: Europe
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Europe since pandemic start
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe since pandemic start
   north-america_1m:
     subsampling_scheme: nextstrain_region_1m
     region: North America
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on North America over the past month
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past month
   north-america_2m:
     subsampling_scheme: nextstrain_region_2m
     region: North America
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on North America over the past 2 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past 2 months
   north-america_6m:
     subsampling_scheme: nextstrain_region_6m
     region: North America
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on North America over the past 6 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past 6 months
   north-america_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: North America
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on North America since pandemic start
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America since pandemic start
   oceania_1m:
     subsampling_scheme: nextstrain_region_1m
     region: Oceania
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Oceania over the past month
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past month
   oceania_2m:
     subsampling_scheme: nextstrain_region_2m
     region: Oceania
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Oceania over the past 2 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past 2 months
   oceania_6m:
     subsampling_scheme: nextstrain_region_6m
     region: Oceania
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Oceania over the past 6 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past 6 months
   oceania_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: Oceania
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on Oceania since pandemic start
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania since pandemic start
   south-america_1m:
     subsampling_scheme: nextstrain_region_1m
     region: South America
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on South America over the past month
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past month
   south-america_2m:
     subsampling_scheme: nextstrain_region_2m
     region: South America
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on South America over the past 2 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past 2 months
   south-america_6m:
     subsampling_scheme: nextstrain_region_6m
     region: South America
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on South America over the past 6 months
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past 6 months
   south-america_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: South America
-    title: Evolution SARS-CoV-2 relative to clade 21L reference virus with subsampling focused on South America since pandemic start
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America since pandemic start
 
-# remove sequences without division label in US and sequences from prior to clade 21L
+# remove sequences without division label in US
 filter:
   exclude_where: "division='USA'"
-  min_date: "2022-01-01"
 
 subsampling:
 
@@ -340,10 +332,6 @@ subsampling:
       group_by_weights: "defaults/population_weights.tsv"
       max_sequences: 4320
 
-# Root to clade 21L
-refine:
-  root: "21L"
-
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
 colors:
@@ -395,6 +383,9 @@ colors:
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
 traits:
+  reference:
+    sampling_bias_correction: 2.5
+    columns: ["region"]
   global_1m:
     sampling_bias_correction: 2.5
     columns: ["region"]

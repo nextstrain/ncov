@@ -51,5 +51,6 @@ jobs:
             deploy \
             upload \
             --config "${config[@]}" \
-            --profile nextstrain_profiles/nextstrain-gisaid \
+            --configfile nextstrain_configs/gisaid/builds.yaml \
+            --restart-times 2 \
             --set-threads tree=8

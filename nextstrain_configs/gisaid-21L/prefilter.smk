@@ -1,7 +1,7 @@
 rule clades_21L:
     input:
         clades = "defaults/clades.tsv",
-        exclude_clades = "nextstrain_profiles/nextstrain-gisaid-21L/exclude-clades.tsv",
+        exclude_clades = "nextstrain_configs/gisaid-21L/exclude-clades.tsv",
     output:
         clades = "results/clades_21L.tsv",
     log: "logs/clades_21L.txt"
@@ -25,7 +25,7 @@ rule gisaid_21L_metadata:
     input:
         references = "data/references_metadata.tsv",
         metadata = path_or_url("s3://nextstrain-ncov-private/metadata.tsv.zst", keep_local=True),
-        exclude_clades = "nextstrain_profiles/nextstrain-gisaid-21L/exclude-clades.tsv",
+        exclude_clades = "nextstrain_configs/gisaid-21L/exclude-clades.tsv",
     output:
         metadata = "results/gisaid_21L_metadata.tsv.zst",
     log: "logs/gisaid_21L_metadata.txt"

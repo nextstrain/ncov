@@ -475,7 +475,6 @@ custom_rules
 -  examples
 
    -  ``- workflow/snakemake_rules/export_for_nextstrain.smk``
-   -  ``- nextstrain_profiles/nextstrain-gisaid/subsampling_ranges.smk``
 
 
 localrules
