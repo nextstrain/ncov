@@ -24,3 +24,4 @@ jobs:
     with:
       docs-directory: docs/
       environment-file: docs/conda.yml
+      run-linkcheck: ${{ github.event_name == 'schedule' }}
