@@ -4,12 +4,8 @@ on:
   push:
     branches:
       - master
-    paths: &paths
-      - docs/**
-      - .github/workflows/docs.yaml
 
   pull_request:
-    paths: *paths
 
   workflow_dispatch:
 
@@ -24,3 +20,4 @@ jobs:
     with:
       docs-directory: docs/
       environment-file: docs/conda.yml
+      run-linkcheck: ${{ github.event_name == 'schedule' }}
