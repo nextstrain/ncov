@@ -45,11 +45,11 @@ jobs:
 
         nextstrain build \
           --detach \
-          --cpus 72 \
-          --memory 140GiB \
+          --cpus 32 \
+          --memory 60GiB \
           . \
             deploy \
             upload \
             --config "${config[@]}" \
             --profile nextstrain_profiles/nextstrain-gisaid-21L \
-            --set-threads tree=8
+            --set-threads tree=2

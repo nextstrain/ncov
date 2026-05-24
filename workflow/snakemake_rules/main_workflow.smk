@@ -83,7 +83,7 @@ rule align:
     benchmark:
         "benchmarks/align_{origin}.txt"
     conda: config["conda_environment"]
-    threads: 8
+    threads: 2
     resources:
         mem_mb=3000
     shell:
@@ -489,7 +489,7 @@ rule build_align:
     benchmark:
         "benchmarks/align_{build_name}.txt"
     conda: config["conda_environment"]
-    threads: 8
+    threads: 2
     resources:
         mem_mb=3000
     shell:
@@ -743,7 +743,7 @@ rule tree:
         "logs/tree_{build_name}.txt"
     benchmark:
         "benchmarks/tree_{build_name}.txt"
-    threads: 8
+    threads: 2
     resources:
         # Multiple sequence alignments can use up to 40 times their disk size in
         # memory, especially for larger alignments.
