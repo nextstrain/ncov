@@ -738,6 +738,7 @@ rule tree:
         tree = "results/{build_name}/tree_raw.nwk"
     params:
         args = lambda w: config["tree"].get("tree-builder-args","") if "tree" in config else "",
+        override_default_args = lambda wildcards: "--override-default-args" if config["tree"].get("override_default_args", False) else "",
         exclude_sites = lambda w: f"--exclude-sites {config['files']['sites_to_mask']}" if "sites_to_mask" in config["files"] else ""
     log:
         "logs/tree_{build_name}.txt"
@@ -754,6 +755,7 @@ rule tree:
         augur tree \
             --alignment {input.alignment} \
             --tree-builder-args {params.args} \
+            {params.override_default_args} \
             {params.exclude_sites} \
             --output {output.tree} \
             --nthreads {threads} 2>&1 | tee {log}
