@@ -24,14 +24,12 @@ All available genomes and metadata
 
 Entire metadata & sequences data is uploaded from the ``ncov-ingest`` workflows for each of the ``gisaid`` and ``open`` sources:
 
--  ``metadata.tsv.zst`` and ``metadata.tsv.gz``
--  ``sequences.fasta.zst`` and ``sequences.fasta.xz``
--  ``nextclade.tsv.zst`` and ``nextclade.tsv.gz``
--  ``aligned.fasta.zst`` and ``aligned.fasta.xz`` (Alignment via `Nextclade <https://docs.nextstrain.org/projects/nextclade/en/stable/user/output-files/02-nuc-alignment.html>`__. The default reference genome is `MN908947 <https://www.ncbi.nlm.nih.gov/nuccore/MN908947>`__ (Wuhan-Hu-1))
--  ``additional_info.tsv.zst`` and ``additional_info.tsv.gz`` (GISAID only)
--  ``flagged_metadata.txt.zst`` and ``flagged_metadata.txt.gz`` (GISAID only)
-
-The files compressed with Zstandard (``.zst``) will generally be faster to download (i.e. smaller in size) and faster to decompress than those compressed with ``xz``.
+-  ``metadata.tsv.zst``
+-  ``sequences.fasta.zst``
+-  ``nextclade.tsv.zst``
+-  ``aligned.fasta.zst`` (Alignment via `Nextclade <https://docs.nextstrain.org/projects/nextclade/en/stable/user/output-files/02-nuc-alignment.html>`__. The default reference genome is `MN908947 <https://www.ncbi.nlm.nih.gov/nuccore/MN908947>`__ (Wuhan-Hu-1))
+-  ``additional_info.tsv.zst`` (GISAID only)
+-  ``flagged_metadata.txt.zst`` (GISAID only)
 
 Subsampled datasets
 -------------------
@@ -71,12 +69,6 @@ Each regional build (``global``, ``africa``, ``asia``, ``europe``, ``north-ameri
 |                       | sequences             | https://data.nextstrain.org/files/ncov/open/sequences.fasta.zst              |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 |                       | aligned               | https://data.nextstrain.org/files/ncov/open/aligned.fasta.zst                |
-+-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | metadata (gz)         | https://data.nextstrain.org/files/ncov/open/metadata.tsv.gz                  |
-+-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | sequences (xz)        | https://data.nextstrain.org/files/ncov/open/sequences.fasta.xz               |
-+-----------------------+-----------------------+------------------------------------------------------------------------------+
-|                       | aligned (xz)          | https://data.nextstrain.org/files/ncov/open/aligned.fasta.xz                 |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
 | 100k sample           | metadata              | https://data.nextstrain.org/files/ncov/open/100k/metadata.tsv.xz             |
 +-----------------------+-----------------------+------------------------------------------------------------------------------+
