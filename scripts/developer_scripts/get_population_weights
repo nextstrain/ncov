@@ -95,6 +95,7 @@ def export_population_weights(output):
     # Additional countries/territories not in the UN population data.
     # These are typically disputed territories or other special cases.
     additional_countries = {
+        "Donetsk": 1,
         "Kherson Region": 1,
         "Lugansk": 2,
     }
