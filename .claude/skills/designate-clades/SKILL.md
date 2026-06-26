@@ -35,14 +35,18 @@ frequency reads the dossier gives you (build tip-freq, LAPIS exact, MLR modeled)
 ## Step 1 — Generate the dossier
 
 ```
-python3 scripts/propose_clades.py
+python3 scripts/propose_clades.py --data-source open               # global + NA + Europe
+python3 scripts/propose_clades.py --data-source gisaid --group blab # global + all 6 regions
 ```
 
-Needs `auspice/ncov_open_global_6m.json` (+ `_tip-frequencies.json`) present locally;
-fetches the North America / Europe builds, the Nextclade reference tree, LAPIS open
-frequencies, and forecasts-ncov open MLR fitness automatically (cached under
-`results/clade_cache/`; add `--refresh` to re-pull). Useful flags: `--skip-lapis`,
-`--skip-mlr`, `--skip-regional` for a fast offline pass.
+Everything is fetched live (cached under `results/clade_cache/`; `--refresh` to re-pull): the
+Nextclade reference tree, the Nextstrain 6m builds (region-filtered tip-frequencies), forecasts-ncov
+MLR fitness, and — for **open** only — LAPIS exact frequencies. **gisaid** auto-discovers the
+group's latest dated Groups builds, so the date is handled for you (`--gisaid-date` pins an older
+one). open is GISAID-free but North-America-dominated; gisaid covers all regions and surfaces sweeps
+open misses, but has no LAPIS backstop — lean harder on the per-region `⚠low-n=<n>` warnings (a
+region's latest-pivot estimate can rest on very few effective sequences) and on Cov-Spectrum /
+forecasts cross-checks.
 
 Outputs:
 - `results/clade_candidates.md` — human-readable dossier (read this)
