@@ -43,33 +43,41 @@ see below) makes the call and writes the edits.
 
 ### Running the script
 
+The script runs on **open** or **GISAID** data via `--data-source`, uses only the Python
+standard library, and fetches every input live (cached under `results/clade_cache/`, re-pulled
+with `--refresh`):
+
 ```sh
-python3 scripts/propose_clades.py
+# Open (GenBank/INSDC): live global + North America + Europe core builds
+python3 scripts/propose_clades.py --data-source open
+
+# GISAID: auto-discovers your group's latest dated 6m builds (global + all 6 regions)
+python3 scripts/propose_clades.py --data-source gisaid --group blab
 ```
 
-The script uses only the Python standard library. It expects the local open global build
-(`auspice/ncov_open_global_6m.json` and `…_tip-frequencies.json`) to be present (this is 
-purposeful as next steps rely on re-running build with updated `clades.tsv`), and fetches
-the rest automatically (cached under `results/clade_cache/`, re-pulled with `--refresh`):
+Both fetch the [Nextclade reference tree](https://nextstrain.org/nextclade/nextstrain/sars-cov-2/wuhan-hu-1/orfs)
+for clean lineage-defining mutations + parent clade, and the Nextstrain 6m builds (via charon
+`getDataset`) for region-filtered tip-frequencies. **open** also queries the
+[LAPIS open API](https://lapis.cov-spectrum.org/open/v2/) for an exact per-lineage read and the
+open [forecasts-ncov MLR](https://nextstrain.github.io/forecasts-ncov/) for fitness; **gisaid**
+uses the GISAID MLR endpoint and skips LAPIS (no API access). GISAID builds come from the group's
+Nextstrain Groups uploads (`groups/<group>/ncov/gisaid/<region>/6m/<date>`), auto-discovered via
+charon `getAvailable` — the latest upload date is chosen automatically (`--gisaid-date` pins an
+older one; `--gisaid-url-template` with `{region}` overrides discovery).
 
-- the [Nextclade SARS-CoV-2 reference tree](https://nextstrain.org/nextclade/nextstrain/sars-cov-2/wuhan-hu-1/orfs) — clean lineage-defining mutations + parent clade;
-- the North America and Europe open 6m builds — regional tip-frequencies;
-- the [LAPIS open API](https://lapis.cov-spectrum.org/open/v2/) — exact per-lineage regional frequency;
-- the [forecasts-ncov open MLR results](https://nextstrain.github.io/forecasts-ncov/) — growth advantage (fitness) and modeled frequency.
+Each region's frequency is computed over **only the tips from that region** (the
+`?f_region=<Region>` equivalent), since regional builds are subsampled focal+contextual. A
+candidate flags if it exceeds 20% globally or 30% in any region (with ≥1 spike mutation). Because
+sequencing is sparse and lagged, a region's latest-pivot estimate can rest on few effective
+sequences — the dossier prints a `⚠low-n=<n>` warning (effective sample size) so thin regions are
+visibly unreliable and should be cross-checked against the live resources.
 
-Useful flags: `--refresh` (ignore cache), `--skip-lapis` / `--skip-mlr` / `--skip-regional` for a
-fast offline pass, and `--designation-year` to override the year used for suggested clade names
-(defaults to the current year — the name's year is the *designation* year, not the lineage's
-emergence year). Run `python3 scripts/propose_clades.py --help` for the full list.
+Useful flags: `--refresh`, `--skip-lapis` / `--skip-mlr` / `--skip-regional`, and
+`--designation-year` (defaults to the current year — the name's year is the *designation* year,
+not the lineage's emergence year). Run `python3 scripts/propose_clades.py --help` for the full list.
 
-Outputs are written to (git-ignored) `results/`:
-
-- `results/clade_candidates.md` — the human-readable dossier;
-- `results/clade_candidates.json` — the same data, structured, with paste-ready file edits.
-
-Because open data is sparse and ~2 months lagged, the dossier shows each frequency alongside its
-source (build tip-frequency, LAPIS, MLR) so the numbers can be triangulated and cross-checked
-against the live resources rather than trusted blindly.
+Outputs are written to (git-ignored) `results/`: `clade_candidates.md` (the human-readable dossier)
+and `clade_candidates.json` (the same data, structured, with paste-ready file edits).
 
 ### Intended path for Claude Code
 
