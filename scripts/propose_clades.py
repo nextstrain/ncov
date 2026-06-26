@@ -38,18 +38,29 @@ NEXTCLADE_TREE_URL = (
     "https://nextstrain.org/charon/getDataset"
     "?prefix=/nextclade/nextstrain/sars-cov-2/wuhan-hu-1/orfs"
 )
-BUILD_URL = "https://data.nextstrain.org/ncov_open_{region}_6m.json"
-TIP_FREQ_URL = "https://data.nextstrain.org/ncov_open_{region}_6m_tip-frequencies.json"
-MLR_URL = (
-    "https://data.nextstrain.org/files/workflows/forecasts-ncov/open"
-    "/pango_lineages/global/mlr/latest_results.json"
-)
+CHARON = "https://nextstrain.org/charon"
+# Open run analyzes these core builds (dataset prefix /ncov/open/<region>/6m).
+OPEN_REGIONS = ["global", "north-america", "europe"]
+GISAID_GROUP_DEFAULT = "blab"
+MLR_URLS = {
+    "open": "https://data.nextstrain.org/files/workflows/forecasts-ncov/open"
+            "/pango_lineages/global/mlr/latest_results.json",
+    "gisaid": "https://data.nextstrain.org/files/workflows/forecasts-ncov/gisaid"
+              "/pango_lineages/global/mlr/latest_results.json",
+}
+# LAPIS open instance needs no auth; the GISAID instance requires API access we no
+# longer have, so LAPIS is skipped for GISAID runs.
 LAPIS_URL = "https://lapis.cov-spectrum.org/open/v2/sample/aggregated"
 
-# Region keys: build-name suffix -> LAPIS region value
-REGIONS = {
+# Region slug -> `region` node-attribute value. Used to region-filter a regional
+# build's frequency (its tips are focal+contextual) and as the LAPIS region name.
+REGION_NAMES = {
     "north-america": "North America",
+    "south-america": "South America",
     "europe": "Europe",
+    "asia": "Asia",
+    "africa": "Africa",
+    "oceania": "Oceania",
 }
 
 # Designation thresholds (fractions).
@@ -57,9 +68,10 @@ GLOBAL_THRESHOLD = 0.20
 REGIONAL_THRESHOLD = 0.30
 # Candidates below this everywhere are not worth surfacing at all.
 ENUMERATION_FLOOR = 0.05
-# LAPIS recent window (days) and small-sample warning level.
+# LAPIS recent window (days) and small-sample warning levels.
 LAPIS_WINDOW_DAYS = 180
-LOW_DENOMINATOR = 100
+LOW_DENOMINATOR = 100      # LAPIS total-count warning
+LOW_REGION_TIPS = 30       # effective regional sequences backing a latest-pivot frequency
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -91,6 +103,56 @@ def fetch_json(url, cache_dir=None, cache_name=None):
         with open(cache_path, "wb") as fh:
             fh.write(raw)
     return json.loads(raw)
+
+
+def charon_url(prefix, sidecar=None):
+    """Build a nextstrain.org charon getDataset URL for a dataset path."""
+    params = {"prefix": prefix}
+    if sidecar:
+        params["type"] = sidecar
+    return f"{CHARON}/getDataset?" + urllib.parse.urlencode(params)
+
+
+def _cache_key(prefix):
+    return prefix.strip("/").replace("/", "_")
+
+
+def fetch_build(prefix, cache_dir, refresh=False):
+    """Fetch an auspice build (main tree + tip-frequencies) by dataset path -> Build."""
+    key = _cache_key(prefix)
+    main_cache = None if refresh else f"{key}.json"
+    tf_cache = None if refresh else f"{key}_tf.json"
+    tree = fetch_json(charon_url(prefix), cache_dir, main_cache)
+    tf = fetch_json(charon_url(prefix, "tip-frequencies"), cache_dir, tf_cache)
+    return Build(tree, tf)
+
+
+def discover_gisaid_prefixes(group, pin_date=None):
+    """
+    Find this group's GISAID 6m datasets via charon getAvailable.
+
+    Returns (date, {region_slug: dataset_prefix}). Picks one consistent date for all
+    regions: `pin_date` if given, else the latest date the global build is available.
+    Regions present at that date are returned; any missing region is the caller's to warn on.
+    """
+    avail = fetch_json(f"{CHARON}/getAvailable?prefix=/groups/{group}")
+    # request paths look like 'groups/<group>/ncov/gisaid/<region>/6m/<date>'
+    import re
+    pat = re.compile(rf"^groups/{re.escape(group)}/ncov/gisaid/([a-z-]+)/6m/(\d{{4}}-\d{{2}}-\d{{2}})$")
+    by_region = defaultdict(dict)  # region -> {date: prefix}
+    for entry in avail.get("datasets", []):
+        req = entry.get("request", "").strip("/")
+        m = pat.match(req)
+        if m:
+            region, date = m.group(1), m.group(2)
+            by_region[region][date] = "/" + req
+    if not by_region:
+        raise RuntimeError(f"No GISAID 6m datasets found under /groups/{group}")
+    date = pin_date or max(by_region.get("global", {}), default=None)
+    if date is None:
+        raise RuntimeError(f"No global GISAID 6m build found under /groups/{group}")
+    prefixes = {region: dates[date] for region, dates in by_region.items() if date in dates}
+    return date, prefixes
 
 
 def lapis_count(lineage=None, region=None, date_from=None):
@@ -432,6 +494,19 @@ class Build:
     def all_lineages(self):
         return set(filter(None, self.tip_lineage.values()))
 
+    def region_effective_n(self, region):
+        """Effective # of regional sequences backing the latest-pivot frequency.
+
+        The KDE concentrates the final pivot on the few most-recent tips, so a plain
+        count overstates support. Kish effective sample size (Σw)²/Σw² over the
+        region's last-pivot tip frequencies measures how many sequences actually back
+        the headline number — the signal that should drive the small-sample warning.
+        """
+        w = [self.freqs[name][-1] for name, r in self.tip_region.items()
+             if r == region and name in self.freqs]
+        s1, s2 = sum(w), sum(x * x for x in w)
+        return round(s1 * s1 / s2) if s2 > 0 else 0
+
 
 def trajectory_slope(traj, window=6):
     """Recent change in frequency over the last `window` pivots (model-free dynamics)."""
@@ -445,10 +520,10 @@ def trajectory_slope(traj, window=6):
 # MLR growth advantage + modeled frequency
 # ---------------------------------------------------------------------------
 
-def load_mlr(url, cache_dir):
-    """variant -> {location -> {'ga', 'freq', 'freq_forecast'}} from open MLR results."""
+def load_mlr(url, cache_dir, cache_name="mlr.json"):
+    """variant -> {location -> {'ga', 'freq', 'freq_forecast'}} from MLR results."""
     try:
-        payload = fetch_json(url, cache_dir, "mlr_open.json")
+        payload = fetch_json(url, cache_dir, cache_name)
     except Exception as exc:
         print(f"  ! MLR fetch failed ({exc})", file=sys.stderr)
         return {}
@@ -506,29 +581,32 @@ def build_candidate(lineage, ref, builds, mlr, designated_lineages, lineage_to_c
                     if l == lineage or l.startswith(lineage + ".")}
 
     freq = {"build": {}, "lapis": {}, "mlr": {}}
-    traj_global = []
-    for region_key, build in builds.items():
-        if region_key == "global":
-            traj_global, _ = build.trajectory(members)
-            freq["build"]["global"] = build.current_freq(members)
-        else:
-            freq["build"][region_key] = build.current_freq(members)
+    gb = builds["global"]
+    traj_global, _ = gb.trajectory(members)  # global = no region filter
+    freq["build"]["global"] = traj_global[-1] if traj_global else 0.0
+    # Each regional build is focal+contextual, so a region's frequency is taken over only
+    # the tips whose `region` attribute matches (the ?f_region=<Region> equivalent).
+    regional_keys = [k for k in builds if k != "global"]
+    for rk in regional_keys:
+        freq["build"][rk] = builds[rk].current_freq(members, region=REGION_NAMES.get(rk))
 
-    g = freq["build"].get("global", 0.0)
-    na = freq["build"].get("north-america", 0.0)
-    eu = freq["build"].get("europe", 0.0)
-    peak_build = max(g, na, eu)
+    g = freq["build"]["global"]
+    regional_vals = [freq["build"][rk] for rk in regional_keys]
+    peak_build = max([g] + regional_vals)
     if peak_build < ENUMERATION_FLOOR:
         return None
-    passes_build = g > GLOBAL_THRESHOLD or na > REGIONAL_THRESHOLD or eu > REGIONAL_THRESHOLD
+    passes_build = g > GLOBAL_THRESHOLD or any(v > REGIONAL_THRESHOLD for v in regional_vals)
 
     # LAPIS is the exact read but costs queries — only run it for the shortlist.
     if use_lapis and (passes_build or peak_build >= lapis_min):
-        for region_key, region_val in REGIONS.items():
+        for rk in regional_keys:
+            region_val = REGION_NAMES.get(rk)
+            if region_val is None:
+                continue
             lin_count = lapis_count(lineage + "*", region_val, date_from)
             total = lapis_count(None, region_val, date_from)
             if lin_count is not None and total:
-                freq["lapis"][region_key] = {
+                freq["lapis"][rk] = {
                     "freq": lin_count / total, "n": lin_count, "total": total}
         g_lin = lapis_count(lineage + "*", None, date_from)
         g_total = lapis_count(None, None, date_from)
@@ -538,16 +616,16 @@ def build_candidate(lineage, ref, builds, mlr, designated_lineages, lineage_to_c
     for loc, vals in mlr.get(lineage, {}).items():
         freq["mlr"][loc] = vals
 
-    earliest_dec = builds["global"].earliest_date(members) if "global" in builds else None
+    earliest_dec = gb.earliest_date(members)
     earliest_date = decimal_to_date(earliest_dec)
     first_sequence = f"{earliest_date.year:04d}-{earliest_date.month:02d}-01" if earliest_date else None
 
-    lapis_na = freq["lapis"].get("north-america", {}).get("freq", 0.0)
-    lapis_eu = freq["lapis"].get("europe", {}).get("freq", 0.0)
+    lapis_regional = [v["freq"] for k, v in freq["lapis"].items() if k != "global"]
     lapis_g = freq["lapis"].get("global", {}).get("freq", 0.0)
-    passes_lapis = (lapis_g > GLOBAL_THRESHOLD or lapis_na > REGIONAL_THRESHOLD
-                    or lapis_eu > REGIONAL_THRESHOLD)
+    passes_lapis = (lapis_g > GLOBAL_THRESHOLD
+                    or any(v > REGIONAL_THRESHOLD for v in lapis_regional))
     passes = passes_build or passes_lapis
+    peak_freq = max([peak_build, lapis_g] + lapis_regional)
 
     return {
         "lineage": lineage,
@@ -566,7 +644,7 @@ def build_candidate(lineage, ref, builds, mlr, designated_lineages, lineage_to_c
         "trajectory_global": traj_global,
         "slope_global": trajectory_slope(traj_global),
         "mlr_ga": hier_ga(mlr, lineage),
-        "peak_freq": max(peak_build, lapis_na, lapis_eu, lapis_g),
+        "peak_freq": peak_freq,
         "has_spike": len(spike) > 0,
         "passes_threshold": passes,
         "passes_build": passes_build,
@@ -615,14 +693,31 @@ def pct(x):
     return "n/a" if x is None else f"{100 * x:.0f}%"
 
 
+def _region_freq_line(cand, meta):
+    """global X | <Region> Y (⚠low-n) | ... for whatever regions were analyzed."""
+    b = cand["frequency"]["build"]
+    region_tips = meta.get("region_tips", {})
+    parts = [f"global {pct(b.get('global'))}"]
+    for rk in meta.get("regions", []):
+        n = region_tips.get(rk, 0)
+        warn = f" ⚠low-n={n}" if n < LOW_REGION_TIPS else ""
+        parts.append(f"{REGION_NAMES.get(rk, rk)} {pct(b.get(rk))}{warn}")
+    return " | ".join(parts)
+
+
 def write_markdown(path, flagged, watch, suggested_names, meta):
+    source = meta.get("source", "open")
+    date = meta.get("gisaid_date")
+    src = f"**{source}**" + (f" ({date})" if date else "")
+    region_list = ", ".join(["global"] + [REGION_NAMES.get(r, r) for r in meta.get("regions", [])])
     lines = []
     lines.append("# Clade designation candidates\n")
-    lines.append(f"_Generated from open data. Ref tree updated {meta.get('ref_updated','?')}; "
+    lines.append(f"_Generated from {src} data. Ref tree updated {meta.get('ref_updated','?')}; "
                  f"global build latest pivot {meta.get('latest_pivot','?')}._\n")
-    lines.append("Criteria: >=1 spike mutation vs parent clade AND (>20% global OR >30% "
-                 "regional). Open data is sparse/lagged — treat percentages as approximate "
-                 "and cross-check against the live resources.\n")
+    lines.append(f"Regions analyzed: {region_list}.\n")
+    lines.append("Criteria: >=1 spike mutation vs parent clade AND (>20% global OR >30% in any "
+                 "region). Regional frequency filters tips to that region; data is sparse/lagged, so "
+                 "treat percentages as approximate and cross-check the live resources.\n")
     lines.append("Suggested names use the **designation year** (the current year), not the "
                  "lineage's emergence year — so the next name is the first unused letter for "
                  "this year.\n")
@@ -630,7 +725,7 @@ def write_markdown(path, flagged, watch, suggested_names, meta):
     if not flagged:
         lines.append("\n**No lineages currently pass the designation threshold.**\n")
     for cand in flagged:
-        _render_candidate(lines, cand, suggested_names.get(cand["lineage"]), header="## ")
+        _render_candidate(lines, cand, suggested_names.get(cand["lineage"]), meta, header="## ")
 
     lines.append("\n---\n## Watch list (rising, not yet over threshold)\n")
     if not watch:
@@ -638,10 +733,7 @@ def write_markdown(path, flagged, watch, suggested_names, meta):
     for cand in watch:
         lines.append(
             f"- **{cand['lineage']}** (parent clade {cand['parent_clade']}, "
-            f"{len(cand['spike_mutations'])} spike mut) — "
-            f"global {pct(cand['frequency']['build'].get('global'))}, "
-            f"NA {pct(cand['frequency']['build'].get('north-america'))}, "
-            f"EU {pct(cand['frequency']['build'].get('europe'))}; "
+            f"{len(cand['spike_mutations'])} spike mut) — {_region_freq_line(cand, meta)}; "
             f"MLR ga {cand['mlr_ga'] if cand['mlr_ga'] is not None else 'n/a'}"
         )
 
@@ -649,7 +741,7 @@ def write_markdown(path, flagged, watch, suggested_names, meta):
         fh.write("\n".join(lines) + "\n")
 
 
-def _render_candidate(lines, cand, suggested, header="## "):
+def _render_candidate(lines, cand, suggested, meta, header="## "):
     lin = cand["lineage"]
     lines.append(f"\n{header}{lin}  →  suggested name **{suggested}** "
                  f"(parent clade {cand['parent_clade']})")
@@ -659,17 +751,16 @@ def _render_candidate(lines, cand, suggested, header="## "):
     if cand["is_recombinant"]:
         lines.append("\n> ⚠ Recombinant (X*) lineage — sanity-check the breakpoint and that the "
                      "defining mutations are inherited cleanly, not split across parents.")
-    b = cand["frequency"]["build"]
-    lines.append("\n**Frequency (Nextstrain open 6m builds — headline):**")
-    lines.append(f"- global {pct(b.get('global'))} | North America {pct(b.get('north-america'))} "
-                 f"| Europe {pct(b.get('europe'))}")
+    lines.append("\n**Frequency (Nextstrain 6m build tip-frequencies — headline):**")
+    lines.append(f"- {_region_freq_line(cand, meta)}")
     if cand["frequency"]["lapis"]:
         parts = []
-        for rk in ("global", "north-america", "europe"):
+        for rk in ["global"] + meta.get("regions", []):
             if rk in cand["frequency"]["lapis"]:
                 v = cand["frequency"]["lapis"][rk]
                 warn = "  ⚠low-n" if v["total"] < LOW_DENOMINATOR else ""
-                parts.append(f"{rk} {pct(v['freq'])} ({v['n']}/{v['total']}{warn})")
+                label = "global" if rk == "global" else REGION_NAMES.get(rk, rk)
+                parts.append(f"{label} {pct(v['freq'])} ({v['n']}/{v['total']}{warn})")
         lines.append("\n**Frequency (LAPIS open, exact, 180d):** " + " | ".join(parts))
     if cand["frequency"]["mlr"]:
         parts = []
@@ -684,12 +775,12 @@ def _render_candidate(lines, cand, suggested, header="## "):
             if seg:
                 parts.append(f"{loc}: " + ", ".join(seg))
         if parts:
-            lines.append("\n**MLR fitness/frequency (open):** " + " | ".join(parts))
+            lines.append("\n**MLR fitness/frequency:** " + " | ".join(parts))
     lines.append(f"\n**Spike mutations vs parent clade ({len(cand['spike_mutations'])}):** "
                  + (", ".join(cand["spike_mutations"]) or "none"))
     lines.append(f"\n**Global frequency trend (last 6 pivots):** "
                  f"{cand['slope_global']:+.2f}")
-    lines.append(f"\n**First seen (open data):** {cand.get('first_sequence') or 'unknown'}"
+    lines.append(f"\n**First seen:** {cand.get('first_sequence') or 'unknown'}"
                  f"  ·  WHO: {cand.get('who') or 'n/a'}")
 
     chain = cand.get("demarcation", [])
@@ -743,8 +834,14 @@ def _render_candidate(lines, cand, suggested, header="## "):
 def main():
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--global-build", default=os.path.join(REPO_ROOT, "auspice", "ncov_open_global_6m.json"))
-    parser.add_argument("--global-tip-frequencies", default=os.path.join(REPO_ROOT, "auspice", "ncov_open_global_6m_tip-frequencies.json"))
+    parser.add_argument("--data-source", choices=["open", "gisaid"], default="open",
+                        help="open: fetch live /ncov/open/{global,north-america,europe}/6m. "
+                             "gisaid: auto-discover the group's dated /groups/<group>/ncov/gisaid/<region>/6m builds.")
+    parser.add_argument("--group", default=GISAID_GROUP_DEFAULT, help="Nextstrain group for GISAID builds")
+    parser.add_argument("--gisaid-date", default=None, help="Pin a GISAID upload date (default: latest available)")
+    parser.add_argument("--gisaid-url-template", default=None,
+                        help="Override discovery with an explicit dataset-path template containing '{region}', "
+                             "e.g. /groups/blab/ncov/gisaid/{region}/6m/2026-06-25")
     parser.add_argument("--clades", default=os.path.join(REPO_ROOT, "defaults", "clades.tsv"))
     parser.add_argument("--display-names", default=os.path.join(REPO_ROOT, "defaults", "clade_display_names.yml"))
     parser.add_argument("--cache-dir", default=os.path.join(REPO_ROOT, "results", "clade_cache"))
@@ -754,7 +851,7 @@ def main():
     parser.add_argument("--designation-year", type=int, default=None, help="Year for clade names (default: current year, i.e. the designation year)")
     parser.add_argument("--lapis-min", type=float, default=0.15, help="Only run LAPIS for candidates at/above this build frequency")
     parser.add_argument("--skip-lapis", action="store_true", help="Skip exact LAPIS frequency queries")
-    parser.add_argument("--skip-regional", action="store_true", help="Skip fetching NA/Europe builds")
+    parser.add_argument("--skip-regional", action="store_true", help="Analyze the global build only")
     parser.add_argument("--skip-mlr", action="store_true", help="Skip forecasts-ncov MLR fitness")
     parser.add_argument("--refresh", action="store_true", help="Ignore cached downloads")
     args = parser.parse_args()
@@ -769,23 +866,36 @@ def main():
     ref = RefTree(ref_json)
     ref_updated = ref_json.get("meta", {}).get("updated", "?")
 
-    print("Loading global open build ...", file=sys.stderr)
-    builds = {"global": Build(json.load(open(args.global_build)),
-                              json.load(open(args.global_tip_frequencies)))}
+    source = args.data_source
+    gisaid_date = None
+    if source == "open":
+        prefixes = {r: f"/ncov/open/{r}/6m" for r in OPEN_REGIONS}
+    elif args.gisaid_url_template:
+        prefixes = {r: args.gisaid_url_template.format(region=r)
+                    for r in ["global"] + list(REGION_NAMES)}
+    else:
+        print(f"Discovering GISAID builds under /groups/{args.group} ...", file=sys.stderr)
+        gisaid_date, prefixes = discover_gisaid_prefixes(args.group, args.gisaid_date)
+        print(f"  date {gisaid_date}: {', '.join(sorted(prefixes))}", file=sys.stderr)
+
+    if "global" not in prefixes:
+        sys.exit("ERROR: no global build available for this data source.")
+    if args.skip_regional:
+        prefixes = {"global": prefixes["global"]}
+
+    builds = {}
+    for region, prefix in prefixes.items():
+        try:
+            print(f"Fetching {source} {region} build ...", file=sys.stderr)
+            builds[region] = fetch_build(prefix, cache_dir)
+        except Exception as exc:
+            if region == "global":
+                sys.exit(f"ERROR: could not load global build {prefix}: {exc}")
+            print(f"  ! skipping {region} build ({exc})", file=sys.stderr)
     latest_pivot = builds["global"].pivots[-1]
 
-    if not args.skip_regional:
-        for region_key in REGIONS:
-            try:
-                print(f"Fetching {region_key} open build ...", file=sys.stderr)
-                tree = fetch_json(BUILD_URL.format(region=region_key), cache_dir, f"{region_key}.json")
-                tf = fetch_json(TIP_FREQ_URL.format(region=region_key), cache_dir, f"{region_key}_tf.json")
-                builds[region_key] = Build(tree, tf)
-            except Exception as exc:
-                print(f"  ! could not load {region_key} build ({exc}); "
-                      f"regional frequency will fall back to LAPIS", file=sys.stderr)
-
-    mlr = {} if args.skip_mlr else load_mlr(MLR_URL, cache_dir)
+    mlr = {} if args.skip_mlr else load_mlr(MLR_URLS[source], cache_dir, f"mlr_{source}.json")
+    use_lapis = (source == "open") and not args.skip_lapis
 
     clade_names, designated_lineages, lineage_to_clade = load_designated(args.clades, args.display_names)
 
@@ -812,7 +922,7 @@ def main():
     records = []
     for lineage in candidates_in:
         rec = build_candidate(lineage, ref, builds, mlr, designated_lineages, lineage_to_clade,
-                              use_lapis=not args.skip_lapis, lapis_min=args.lapis_min,
+                              use_lapis=use_lapis, lapis_min=args.lapis_min,
                               date_from=date_from)
         if rec is not None:
             records.append(rec)
@@ -853,17 +963,23 @@ def main():
             rec["alternatives"] = [l for l in siblings if l != rec["lineage"]]
             rec["demarcation"] = demarcation_chain(rec["lineage"], ref, builds, mlr)
 
+    regional_keys = [r for r in builds if r != "global"]
+    region_tips = {r: builds[r].region_effective_n(REGION_NAMES.get(r)) for r in regional_keys}
+    meta = {
+        "source": source,
+        "gisaid_date": gisaid_date,
+        "regions": regional_keys,
+        "region_tips": region_tips,
+        "ref_updated": ref_updated,
+        "latest_pivot": round(latest_pivot, 3),
+        "thresholds": {"global": GLOBAL_THRESHOLD, "regional": REGIONAL_THRESHOLD},
+    }
+
     os.makedirs(os.path.dirname(args.output_md), exist_ok=True)
-    write_markdown(args.output_md, flagged, watch, suggested_names,
-                   {"ref_updated": ref_updated, "latest_pivot": round(latest_pivot, 3)})
+    write_markdown(args.output_md, flagged, watch, suggested_names, meta)
     with open(args.output_json, "w") as fh:
-        json.dump({
-            "meta": {"ref_updated": ref_updated, "latest_pivot": latest_pivot,
-                     "date_from": date_from, "thresholds": {
-                         "global": GLOBAL_THRESHOLD, "regional": REGIONAL_THRESHOLD}},
-            "flagged": flagged,
-            "watch": watch,
-        }, fh, indent=2)
+        json.dump({"meta": {**meta, "date_from": date_from},
+                   "flagged": flagged, "watch": watch}, fh, indent=2)
 
     print(f"\nFlagged {len(flagged)} candidate(s); {len(watch)} on the watch list.", file=sys.stderr)
     print(f"Wrote {args.output_md}", file=sys.stderr)
