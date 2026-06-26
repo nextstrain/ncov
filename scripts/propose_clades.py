@@ -938,6 +938,8 @@ def main():
     parser.add_argument("--lapis-min", type=float, default=0.15, help="Only run LAPIS for candidates at/above this build frequency")
     parser.add_argument("--skip-lapis", action="store_true", help="Skip exact LAPIS frequency queries")
     parser.add_argument("--skip-regional", action="store_true", help="Analyze the global build only")
+    parser.add_argument("--skip-regions", nargs="*", default=[], metavar="REGION",
+                        help="Exclude specific regions, e.g. --skip-regions oceania")
     parser.add_argument("--skip-mlr", action="store_true", help="Skip forecasts-ncov MLR fitness")
     parser.add_argument("--refresh", action="store_true", help="Ignore cached downloads")
     args = parser.parse_args()
@@ -968,6 +970,13 @@ def main():
         sys.exit("ERROR: no global build available for this data source.")
     if args.skip_regional:
         prefixes = {"global": prefixes["global"]}
+    for r in (s.lower().replace(" ", "-") for s in args.skip_regions):
+        if r == "global":
+            continue
+        if prefixes.pop(r, None) is not None:
+            print(f"Skipping region: {r}", file=sys.stderr)
+        else:
+            print(f"  ! --skip-regions: '{r}' is not an analyzed region; ignoring", file=sys.stderr)
 
     builds = {}
     for region, prefix in prefixes.items():
