@@ -746,6 +746,15 @@ def _geo_label(geo):
     return "global" if geo == "global" else REGION_NAMES.get(geo, geo)
 
 
+def genotype_url(prefix, region_attr, sites):
+    """Live Auspice link: tree colored by the candidate's nuc genotypes, region-filtered."""
+    q = "c=gt-nuc_" + ",".join(sites)
+    if region_attr:  # None for the global geography
+        q += "&f_region=" + urllib.parse.quote(region_attr)
+    q += "&gmax=29903"
+    return f"https://nextstrain.org{prefix}?{q}"
+
+
 def _watch_freq(cand, meta):
     """Compact per-geography peak line for the watch list."""
     b = cand["frequency"]["build"]
@@ -804,8 +813,15 @@ def _render_candidate(lines, cand, suggested, meta, header="## "):
     lines.append(f"\n{header}{lin}  →  suggested name **{suggested}** "
                  f"(parent clade {cand['parent_clade']})")
     if cand.get("alternatives"):
-        lines.append(f"\n> Alternative demarcation of the same sweep — choose ONE of "
-                     f"{lin} or {', '.join(cand['alternatives'])} to carry {suggested}.")
+        lines.append(f"\n> **Alternative demarcations of the same sweep** — choose ONE to carry "
+                     f"{suggested}; they share {cand.get('alt_common', '?')} common nuc and differ by:")
+        for c in cand.get("alt_compare", []):
+            if c["extra"]:
+                muts = ", ".join(r["nuc"] + (f" ({r['spike_aa']})" if r["spike_aa"] else "")
+                                 for r in c["extra"])
+                lines.append(f"> - **{c['lineage']}** ({c['n_nuc']} nuc): + {muts}")
+            else:
+                lines.append(f"> - **{c['lineage']}** ({c['n_nuc']} nuc): shared core only (broadest cut)")
     if cand["is_recombinant"]:
         lines.append("\n> ⚠ Recombinant (X*) lineage — sanity-check the breakpoint and that the "
                      "defining mutations are inherited cleanly, not split across parents.")
@@ -815,6 +831,11 @@ def _render_candidate(lines, cand, suggested, meta, header="## "):
         a = b.get(geo)
         if a is not None:
             lines.append(f"- {_geo_label(geo)}: {_fmt_assess(a)}")
+    if cand.get("verify_links"):
+        lines.append("\n**Verify in Auspice** (tree colored by the candidate's nuc genotypes, "
+                     "filtered to each flagging region):")
+        for lk in cand["verify_links"]:
+            lines.append(f"- [{lk['label']} — peak {pct(lk['peak'])}]({lk['url']})")
     if cand["frequency"]["lapis"]:
         parts = []
         for rk in ["global"] + meta.get("regions", []):
@@ -1036,12 +1057,34 @@ def main():
         name = next_clade_name(working_names, designation_year)
         working_names.add(name)
         siblings = [r["lineage"] for r in cl]
+        # How the nested alternatives differ: the mutations each carries beyond the core
+        # shared by all of them (broadest cut first).
+        common = set.intersection(*[set(r["nuc"] for r in rec["nuc_rows"]) for rec in cl])
+        alt_compare = sorted(
+            ({"lineage": rec["lineage"], "n_nuc": len(rec["nuc_rows"]),
+              "extra": [r for r in rec["nuc_rows"] if r["nuc"] not in common]} for rec in cl),
+            key=lambda c: c["n_nuc"])
         for rec in cl:
             suggested_names[rec["lineage"]] = name
             rec["suggested_name"] = name
             rec["alternatives"] = [l for l in siblings if l != rec["lineage"]]
+            rec["alt_compare"] = alt_compare
+            rec["alt_common"] = len(common)
             rec["demarcation"] = demarcation_chain(rec["lineage"], ref, builds, mlr,
                                                    band_lo, band_hi, z, n_window)
+
+    # Live "verify in Auspice" links: one per geography that cleared the line, coloring the
+    # tree by the candidate's nuc genotypes and filtering to that region.
+    for rec in flagged:
+        sites = [r["site"] for r in rec["nuc_rows"]]
+        links = []
+        for geo, a in rec["frequency"]["build"].items():
+            if a and a.get("flagged") and geo in prefixes:
+                region_attr = None if geo == "global" else REGION_NAMES.get(geo)
+                links.append({"geo": geo, "label": _geo_label(geo),
+                              "peak": a["peak"]["p_hat"],
+                              "url": genotype_url(prefixes[geo], region_attr, sites)})
+        rec["verify_links"] = sorted(links, key=lambda x: x["peak"], reverse=True)
 
     regional_keys = [r for r in builds if r != "global"]
     meta = {
