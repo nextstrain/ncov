@@ -65,16 +65,28 @@ Nextstrain Groups uploads (`groups/<group>/ncov/gisaid/<region>/6m/<date>`), aut
 charon `getAvailable` — the latest upload date is chosen automatically (`--gisaid-date` pins an
 older one; `--gisaid-url-template` with `{region}` overrides discovery).
 
-Each region's frequency is computed over **only the tips from that region** (the
-`?f_region=<Region>` equivalent), since regional builds are subsampled focal+contextual. A
-candidate flags if it exceeds 20% globally or 30% in any region (with ≥1 spike mutation). Because
-sequencing is sparse and lagged, a region's latest-pivot estimate can rest on few effective
-sequences — the dossier prints a `⚠low-n=<n>` warning (effective sample size) so thin regions are
-visibly unreliable and should be cross-checked against the live resources.
+Each geography's frequency is computed over **only the tips from that geography** (global = the
+global build unfiltered; each region = its build filtered to `region == <Region>`, the
+`?f_region=<Region>` equivalent), from the build's **subsample counts**. The build subsample is
+population-weighted (`group_by country/month` + `population_weights`), which is the object historical
+clade frequencies use and is deliberately *less* country-biased than raw GISAID counts (recent "Asia"
+in raw metadata is ~54% Singapore, which the build caps).
 
-Useful flags: `--refresh`, `--skip-lapis` / `--skip-mlr` / `--skip-regional`, and
-`--designation-year` (defaults to the current year — the name's year is the *designation* year,
-not the lineage's emergence year). Run `python3 scripts/propose_clades.py --help` for the full list.
+Rather than read a single latest-pivot value (which rests on a handful of recent, KDE-extrapolated
+sequences), the threshold is judged as a **one-sided test on a proportion**: slide a **fixed-N=50**
+window of date-sorted tips across a backward-looking band (**~6 months ago → ~3 weeks ago**, the lag
+guard) and flag only if the **one-sided 95% Wilson lower bound** (rough Bonferroni over the
+effective independent windows, `m ≈ band/4wk`) clears the threshold (>20% global / >30% regional) in
+**some** window. Fixing the *sample size* (not the time-width) avoids splitting a real peak across
+under-powered windows; a flag therefore means *confidently* over the line, not a noisy point estimate
+(at N=50 the effective point-estimate bar is ≈46% regional / ≈34% global — `N` is a knob). A geography
+with **< 50** tips in the band reports `insufficient` and never flags. The dossier reports each flag's
+**peak window** (`peak X% [n, as of <date>, lo Y%]`) and the **current** window, so a lineage that was
+dominant months ago still surfaces, with its trajectory.
+
+Useful flags: `--window-n`, `--lookback-months`, `--lag-days`, `--refresh`, `--skip-lapis` /
+`--skip-mlr` / `--skip-regional`, and `--designation-year` (defaults to the current year — the name's
+year is the *designation* year, not emergence). Run `python3 scripts/propose_clades.py --help` for all.
 
 Outputs are written to (git-ignored) `results/`: `clade_candidates.md` (the human-readable dossier)
 and `clade_candidates.json` (the same data, structured, with paste-ready file edits).

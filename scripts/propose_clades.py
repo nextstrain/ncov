@@ -24,7 +24,9 @@ the dossier surfaces every number alongside its source so they can be cross-chec
 import argparse
 import gzip
 import json
+import math
 import os
+import statistics
 import sys
 import urllib.parse
 import urllib.request
@@ -68,10 +70,19 @@ GLOBAL_THRESHOLD = 0.20
 REGIONAL_THRESHOLD = 0.30
 # Candidates below this everywhere are not worth surfacing at all.
 ENUMERATION_FLOOR = 0.05
-# LAPIS recent window (days) and small-sample warning levels.
+
+# Windowed-frequency assessment. The threshold is judged as a one-sided test on a
+# proportion: slide a fixed-N window of date-sorted tips across a backward-looking band
+# and flag only if the one-sided Wilson lower bound clears the threshold in some window.
+N_WINDOW = 50            # tips per window (fixed sample size, time-width floats)
+LOOKBACK_YEARS = 0.5     # band starts ~6 months before "now"
+LAG_YEARS = 21 / 365     # band ends ~3 weeks before "now" (reporting-lag guard)
+ALPHA = 0.05             # one-sided confidence (95%)
+WINDOW_COHERENCE_DAYS = 28   # nominal independent-window width for the Bonferroni count
+
+# LAPIS recent window (days) and small-sample warning level (open-only corroboration).
 LAPIS_WINDOW_DAYS = 180
-LOW_DENOMINATOR = 100      # LAPIS total-count warning
-LOW_REGION_TIPS = 30       # effective regional sequences backing a latest-pivot frequency
+LOW_DENOMINATOR = 100
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -444,12 +455,14 @@ def next_clade_name(clade_names, year):
 # ---------------------------------------------------------------------------
 
 class Build:
-    """A Nextstrain auspice build + its tip-frequencies, for label-based frequency."""
+    """A Nextstrain auspice build; tips carry lineage/region/date for windowed counts.
+
+    The tip-frequencies sidecar is used only for its `pivots` (the build's time horizon,
+    i.e. the "now" reference); per-tip frequencies are not used.
+    """
 
     def __init__(self, tree_json, tipfreq_json):
         self.pivots = tipfreq_json["pivots"]
-        self.freqs = {k: v["frequencies"] for k, v in tipfreq_json.items()
-                      if isinstance(v, dict) and "frequencies" in v}
         self.tip_lineage = {}
         self.tip_region = {}
         self.tip_numdate = {}
@@ -472,48 +485,75 @@ class Build:
                  if lin in members and self.tip_numdate.get(name) is not None]
         return min(dates) if dates else None
 
-    def trajectory(self, member_lineages, region=None):
-        """Summed frequency per pivot for tips in member_lineages (optionally one region)."""
-        totals = [0.0] * len(self.pivots)
-        denom = [0.0] * len(self.pivots)
-        members = set(member_lineages)
-        for name, series in self.freqs.items():
-            if region is not None and self.tip_region.get(name) != region:
-                continue
-            for i, val in enumerate(series):
-                denom[i] += val
-            if self.tip_lineage.get(name) in members:
-                for i, val in enumerate(series):
-                    totals[i] += val
-        return [t / d if d else 0.0 for t, d in zip(totals, denom)], denom
-
-    def current_freq(self, member_lineages, region=None):
-        traj, _ = self.trajectory(member_lineages, region)
-        return traj[-1] if traj else 0.0
-
     def all_lineages(self):
         return set(filter(None, self.tip_lineage.values()))
 
-    def region_effective_n(self, region):
-        """Effective # of regional sequences backing the latest-pivot frequency.
+    def band_tips(self, lo, hi, region=None):
+        """Sorted [(num_date, lineage), …] for tips collected in [lo, hi] (decimal years).
 
-        The KDE concentrates the final pivot on the few most-recent tips, so a plain
-        count overstates support. Kish effective sample size (Σw)²/Σw² over the
-        region's last-pivot tip frequencies measures how many sequences actually back
-        the headline number — the signal that should drive the small-sample warning.
+        Optionally region-filtered to that region's focal tips (the regional builds are
+        focal+contextual, so a region's sample = tips whose `region` attribute matches).
         """
-        w = [self.freqs[name][-1] for name, r in self.tip_region.items()
-             if r == region and name in self.freqs]
-        s1, s2 = sum(w), sum(x * x for x in w)
-        return round(s1 * s1 / s2) if s2 > 0 else 0
+        out = [(nd, self.tip_lineage.get(name))
+               for name, nd in self.tip_numdate.items()
+               if nd is not None and lo <= nd <= hi
+               and (region is None or self.tip_region.get(name) == region)]
+        out.sort(key=lambda t: t[0])
+        return out
 
 
-def trajectory_slope(traj, window=6):
-    """Recent change in frequency over the last `window` pivots (model-free dynamics)."""
-    if len(traj) < 2:
+# ---------------------------------------------------------------------------
+# Windowed frequency assessment (one-sided Wilson lower bound over fixed-N windows)
+# ---------------------------------------------------------------------------
+
+def wilson_lower(k, n, z):
+    """One-sided lower bound of the Wilson score interval for k successes in n trials."""
+    if n == 0:
         return 0.0
-    window = min(window, len(traj) - 1)
-    return traj[-1] - traj[-1 - window]
+    p = k / n
+    denom = 1 + z * z / n
+    center = (p + z * z / (2 * n)) / denom
+    half = (z / denom) * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n))
+    return max(0.0, center - half)
+
+
+def decimal_to_iso(dec):
+    """Decimal year -> 'YYYY-MM-DD' (approximate), for an 'as of' date."""
+    d = decimal_to_date(dec)
+    return d.isoformat() if d else None
+
+
+def windowed_assessment(band, member_set, threshold, z, n=N_WINDOW):
+    """
+    Slide a fixed-N window of date-sorted tips and test the threshold via a one-sided
+    Wilson lower bound. `band` is [(num_date, lineage), …] sorted by date.
+
+    Returns {sufficient, flagged, peak, current} where peak is the window with the
+    largest lower bound and current is the most-recent window; each is
+    {date, n, k, p_hat, lower} or None when there is too little data (< N tips).
+    """
+    W = len(band)
+    if W < n:
+        return {"sufficient": False, "flagged": False, "peak": None, "current": None,
+                "band_n": W}
+    members = set(member_set)
+    is_mem = [1 if lin in members else 0 for _, lin in band]
+    k = sum(is_mem[:n])
+    best = None
+    for start in range(0, W - n + 1):
+        if start > 0:
+            k += is_mem[start + n - 1] - is_mem[start - 1]
+        lower = wilson_lower(k, n, z)
+        if best is None or lower > best["lower"]:
+            mid = band[start + n // 2][0]
+            best = {"date": decimal_to_iso(mid), "n": n, "k": k,
+                    "p_hat": k / n, "lower": lower}
+    cur_k = sum(is_mem[W - n:])
+    cur_mid = band[W - n + n // 2][0]
+    current = {"date": decimal_to_iso(cur_mid), "n": n, "k": cur_k,
+               "p_hat": cur_k / n, "lower": wilson_lower(cur_k, n, z)}
+    return {"sufficient": True, "flagged": best["lower"] > threshold,
+            "peak": best, "current": current, "band_n": W}
 
 
 # ---------------------------------------------------------------------------
@@ -559,7 +599,7 @@ def hier_ga(mlr, lineage):
 # ---------------------------------------------------------------------------
 
 def build_candidate(lineage, ref, builds, mlr, designated_lineages, lineage_to_clade,
-                    use_lapis, lapis_min, date_from):
+                    use_lapis, lapis_min, date_from, band_lo, band_hi, z, n_window):
     """Assemble the full evidence record for one candidate lineage, or None to skip."""
     descendants = ref.descendants(lineage)
     # Skip ancestral catch-alls: a lineage that already contains a designated clade
@@ -580,25 +620,31 @@ def build_candidate(lineage, ref, builds, mlr, designated_lineages, lineage_to_c
         members |= {l for l in build.all_lineages()
                     if l == lineage or l.startswith(lineage + ".")}
 
-    freq = {"build": {}, "lapis": {}, "mlr": {}}
     gb = builds["global"]
-    traj_global, _ = gb.trajectory(members)  # global = no region filter
-    freq["build"]["global"] = traj_global[-1] if traj_global else 0.0
-    # Each regional build is focal+contextual, so a region's frequency is taken over only
-    # the tips whose `region` attribute matches (the ?f_region=<Region> equivalent).
     regional_keys = [k for k in builds if k != "global"]
+    # Per-geography date-sorted sample over the backward-looking band. Global is the
+    # global build unfiltered; each region is its dedicated build's focal tips.
+    bands = {"global": gb.band_tips(band_lo, band_hi)}
     for rk in regional_keys:
-        freq["build"][rk] = builds[rk].current_freq(members, region=REGION_NAMES.get(rk))
+        bands[rk] = builds[rk].band_tips(band_lo, band_hi, region=REGION_NAMES.get(rk))
 
-    g = freq["build"]["global"]
-    regional_vals = [freq["build"][rk] for rk in regional_keys]
-    peak_build = max([g] + regional_vals)
-    if peak_build < ENUMERATION_FLOOR:
+    # Cheap pre-filter: skip the scan unless the lineage reaches the floor somewhere in-band.
+    def overall_prop(band):
+        return (sum(1 for _, lin in band if lin in members) / len(band)) if band else 0.0
+    if max((overall_prop(b) for b in bands.values()), default=0.0) < ENUMERATION_FLOOR:
         return None
-    passes_build = g > GLOBAL_THRESHOLD or any(v > REGIONAL_THRESHOLD for v in regional_vals)
 
-    # LAPIS is the exact read but costs queries — only run it for the shortlist.
-    if use_lapis and (passes_build or peak_build >= lapis_min):
+    # Windowed Wilson assessment per geography (global threshold 0.20; regions 0.30).
+    assess = {"global": windowed_assessment(bands["global"], members, GLOBAL_THRESHOLD, z, n_window)}
+    for rk in regional_keys:
+        assess[rk] = windowed_assessment(bands[rk], members, REGIONAL_THRESHOLD, z, n_window)
+    passes_build = any(a["flagged"] for a in assess.values())
+    peak_freq = max([a["peak"]["p_hat"] for a in assess.values() if a["peak"]] + [0.0])
+
+    freq = {"build": assess, "lapis": {}, "mlr": {}}
+
+    # LAPIS: open-only secondary corroboration (display, not the flag decision).
+    if use_lapis and (passes_build or peak_freq >= lapis_min):
         for rk in regional_keys:
             region_val = REGION_NAMES.get(rk)
             if region_val is None:
@@ -606,8 +652,7 @@ def build_candidate(lineage, ref, builds, mlr, designated_lineages, lineage_to_c
             lin_count = lapis_count(lineage + "*", region_val, date_from)
             total = lapis_count(None, region_val, date_from)
             if lin_count is not None and total:
-                freq["lapis"][rk] = {
-                    "freq": lin_count / total, "n": lin_count, "total": total}
+                freq["lapis"][rk] = {"freq": lin_count / total, "n": lin_count, "total": total}
         g_lin = lapis_count(lineage + "*", None, date_from)
         g_total = lapis_count(None, None, date_from)
         if g_lin is not None and g_total:
@@ -619,13 +664,6 @@ def build_candidate(lineage, ref, builds, mlr, designated_lineages, lineage_to_c
     earliest_dec = gb.earliest_date(members)
     earliest_date = decimal_to_date(earliest_dec)
     first_sequence = f"{earliest_date.year:04d}-{earliest_date.month:02d}-01" if earliest_date else None
-
-    lapis_regional = [v["freq"] for k, v in freq["lapis"].items() if k != "global"]
-    lapis_g = freq["lapis"].get("global", {}).get("freq", 0.0)
-    passes_lapis = (lapis_g > GLOBAL_THRESHOLD
-                    or any(v > REGIONAL_THRESHOLD for v in lapis_regional))
-    passes = passes_build or passes_lapis
-    peak_freq = max([peak_build, lapis_g] + lapis_regional)
 
     return {
         "lineage": lineage,
@@ -641,20 +679,17 @@ def build_candidate(lineage, ref, builds, mlr, designated_lineages, lineage_to_c
         "spike_nuc_rows": [r for r in nuc_rows if r["spike_aa"]],
         "branches": branches,
         "frequency": freq,
-        "trajectory_global": traj_global,
-        "slope_global": trajectory_slope(traj_global),
         "mlr_ga": hier_ga(mlr, lineage),
         "peak_freq": peak_freq,
         "has_spike": len(spike) > 0,
-        "passes_threshold": passes,
+        "passes_threshold": passes_build,
         "passes_build": passes_build,
-        "flagged": passes and len(spike) > 0,
+        "flagged": passes_build and len(spike) > 0,
     }
 
 
-def demarcation_chain(lineage, ref, builds, mlr):
-    """Parent lineage + candidate + child lineages, each with freq + Δga, for the split call."""
-    chain = []
+def demarcation_chain(lineage, ref, builds, mlr, band_lo, band_hi, z, n_window):
+    """Parent + candidate + child lineages, each with the global windowed peak + Δga."""
     options = []
     parent = ref.parent_lineage(lineage)
     if parent:
@@ -663,11 +698,10 @@ def demarcation_chain(lineage, ref, builds, mlr):
     for child in ref.child_lineages(lineage)[:6]:
         options.append(("child", child))
 
-    global_build = builds.get("global")
+    gband = builds["global"].band_tips(band_lo, band_hi)
+    chain = []
     for role, lin in options:
-        members = ref.descendants(lin)
-        cur = global_build.current_freq(members) if global_build else None
-        traj, _ = global_build.trajectory(members) if global_build else ([], [])
+        a = windowed_assessment(gband, ref.descendants(lin), GLOBAL_THRESHOLD, z, n_window)
         ga = hier_ga(mlr, lin)
         par = ref.parent_lineage(lin)
         delta_ga = None
@@ -677,8 +711,9 @@ def demarcation_chain(lineage, ref, builds, mlr):
             "role": role,
             "lineage": lin,
             "parent_lineage": par,
-            "global_freq": cur,
-            "slope_global": trajectory_slope(traj) if traj else None,
+            "peak_freq": a["peak"]["p_hat"] if a["peak"] else None,
+            "peak_date": a["peak"]["date"] if a["peak"] else None,
+            "now_freq": a["current"]["p_hat"] if a["current"] else None,
             "mlr_ga": ga,
             "delta_ga": delta_ga,
         })
@@ -693,16 +728,33 @@ def pct(x):
     return "n/a" if x is None else f"{100 * x:.0f}%"
 
 
-def _region_freq_line(cand, meta):
-    """global X | <Region> Y (⚠low-n) | ... for whatever regions were analyzed."""
+def _fmt_assess(a):
+    """One geography's windowed assessment: peak [n, as-of, lower] · now, or insufficient."""
+    if not a or not a.get("sufficient"):
+        return f"insufficient (n={a.get('band_n', 0) if a else 0})"
+    pk, cur = a["peak"], a["current"]
+    flag = "  ✓ clears threshold" if a["flagged"] else ""
+    return (f"peak {pct(pk['p_hat'])} [n={pk['n']}, as of {pk['date']}, lo {pct(pk['lower'])}]"
+            f" · now {pct(cur['p_hat'])}{flag}")
+
+
+def _geo_order(meta):
+    return ["global"] + list(meta.get("regions", []))
+
+
+def _geo_label(geo):
+    return "global" if geo == "global" else REGION_NAMES.get(geo, geo)
+
+
+def _watch_freq(cand, meta):
+    """Compact per-geography peak line for the watch list."""
     b = cand["frequency"]["build"]
-    region_tips = meta.get("region_tips", {})
-    parts = [f"global {pct(b.get('global'))}"]
-    for rk in meta.get("regions", []):
-        n = region_tips.get(rk, 0)
-        warn = f" ⚠low-n={n}" if n < LOW_REGION_TIPS else ""
-        parts.append(f"{REGION_NAMES.get(rk, rk)} {pct(b.get(rk))}{warn}")
-    return " | ".join(parts)
+    parts = []
+    for geo in _geo_order(meta):
+        a = b.get(geo)
+        if a and a.get("peak"):
+            parts.append(f"{_geo_label(geo)} {pct(a['peak']['p_hat'])}")
+    return ", ".join(parts) if parts else "insufficient data"
 
 
 def write_markdown(path, flagged, watch, suggested_names, meta):
@@ -715,9 +767,15 @@ def write_markdown(path, flagged, watch, suggested_names, meta):
     lines.append(f"_Generated from {src} data. Ref tree updated {meta.get('ref_updated','?')}; "
                  f"global build latest pivot {meta.get('latest_pivot','?')}._\n")
     lines.append(f"Regions analyzed: {region_list}.\n")
-    lines.append("Criteria: >=1 spike mutation vs parent clade AND (>20% global OR >30% in any "
-                 "region). Regional frequency filters tips to that region; data is sparse/lagged, so "
-                 "treat percentages as approximate and cross-check the live resources.\n")
+    w = meta.get("window", {})
+    lines.append(
+        f"Criteria: >=1 spike mutation vs parent clade AND the frequency clears >20% global / "
+        f">30% regional. Frequency is judged by sliding a fixed **N={w.get('n','?')}** window of "
+        f"date-sorted tips across **{w.get('band','?')}** and requiring the **one-sided 95% Wilson "
+        f"lower bound** (Bonferroni m={w.get('m','?')}) to clear the threshold in some window — so a "
+        f"flag means *confidently* over the line, not a point estimate. Regions filter tips to that "
+        f"region; <N tips in band ⇒ \"insufficient\". Effective point-estimate bar at this N is "
+        f"~{w.get('region_bar','?')} regional / ~{w.get('global_bar','?')} global.\n")
     lines.append("Suggested names use the **designation year** (the current year), not the "
                  "lineage's emergence year — so the next name is the first unused letter for "
                  "this year.\n")
@@ -733,7 +791,7 @@ def write_markdown(path, flagged, watch, suggested_names, meta):
     for cand in watch:
         lines.append(
             f"- **{cand['lineage']}** (parent clade {cand['parent_clade']}, "
-            f"{len(cand['spike_mutations'])} spike mut) — {_region_freq_line(cand, meta)}; "
+            f"{len(cand['spike_mutations'])} spike mut) — peak {_watch_freq(cand, meta)}; "
             f"MLR ga {cand['mlr_ga'] if cand['mlr_ga'] is not None else 'n/a'}"
         )
 
@@ -751,8 +809,12 @@ def _render_candidate(lines, cand, suggested, meta, header="## "):
     if cand["is_recombinant"]:
         lines.append("\n> ⚠ Recombinant (X*) lineage — sanity-check the breakpoint and that the "
                      "defining mutations are inherited cleanly, not split across parents.")
-    lines.append("\n**Frequency (Nextstrain 6m build tip-frequencies — headline):**")
-    lines.append(f"- {_region_freq_line(cand, meta)}")
+    lines.append("\n**Frequency (windowed fixed-N tip counts, one-sided 95% Wilson lower bound):**")
+    b = cand["frequency"]["build"]
+    for geo in _geo_order(meta):
+        a = b.get(geo)
+        if a is not None:
+            lines.append(f"- {_geo_label(geo)}: {_fmt_assess(a)}")
     if cand["frequency"]["lapis"]:
         parts = []
         for rk in ["global"] + meta.get("regions", []):
@@ -778,20 +840,18 @@ def _render_candidate(lines, cand, suggested, meta, header="## "):
             lines.append("\n**MLR fitness/frequency:** " + " | ".join(parts))
     lines.append(f"\n**Spike mutations vs parent clade ({len(cand['spike_mutations'])}):** "
                  + (", ".join(cand["spike_mutations"]) or "none"))
-    lines.append(f"\n**Global frequency trend (last 6 pivots):** "
-                 f"{cand['slope_global']:+.2f}")
     lines.append(f"\n**First seen:** {cand.get('first_sequence') or 'unknown'}"
                  f"  ·  WHO: {cand.get('who') or 'n/a'}")
 
     chain = cand.get("demarcation", [])
     if chain:
         lines.append("\n**Where to draw the line (prefer larger fitness differential):**")
-        lines.append("\n| role | lineage | global freq | trend | MLR ga | Δga vs parent |")
-        lines.append("|---|---|---|---|---|---|")
+        lines.append("\n| role | lineage | global peak | as of | now | MLR ga | Δga vs parent |")
+        lines.append("|---|---|---|---|---|---|---|")
         for c in chain:
             lines.append(
-                f"| {c['role']} | {c['lineage']} | {pct(c['global_freq'])} | "
-                f"{('%+.2f' % c['slope_global']) if c['slope_global'] is not None else 'n/a'} | "
+                f"| {c['role']} | {c['lineage']} | {pct(c['peak_freq'])} | "
+                f"{c['peak_date'] or 'n/a'} | {pct(c['now_freq'])} | "
                 f"{c['mlr_ga'] if c['mlr_ga'] is not None else 'n/a'} | "
                 f"{('%+.2f' % c['delta_ga']) if c['delta_ga'] is not None else 'n/a'} |"
             )
@@ -849,6 +909,9 @@ def main():
     parser.add_argument("--output-json", default=os.path.join(REPO_ROOT, "results", "clade_candidates.json"))
     parser.add_argument("--date-from", default=None, help="LAPIS window start (default: 180 days before latest pivot)")
     parser.add_argument("--designation-year", type=int, default=None, help="Year for clade names (default: current year, i.e. the designation year)")
+    parser.add_argument("--window-n", type=int, default=N_WINDOW, help="Tips per fixed-N frequency window")
+    parser.add_argument("--lookback-months", type=float, default=LOOKBACK_YEARS * 12, help="Band start, months before now")
+    parser.add_argument("--lag-days", type=float, default=LAG_YEARS * 365, help="Band end, days before now (reporting-lag guard)")
     parser.add_argument("--lapis-min", type=float, default=0.15, help="Only run LAPIS for candidates at/above this build frequency")
     parser.add_argument("--skip-lapis", action="store_true", help="Skip exact LAPIS frequency queries")
     parser.add_argument("--skip-regional", action="store_true", help="Analyze the global build only")
@@ -894,6 +957,22 @@ def main():
             print(f"  ! skipping {region} build ({exc})", file=sys.stderr)
     latest_pivot = builds["global"].pivots[-1]
 
+    # Windowed-assessment band + one-sided confidence (Bonferroni over effective windows).
+    band_hi = latest_pivot - args.lag_days / 365.0
+    band_lo = latest_pivot - args.lookback_months / 12.0
+    n_window = args.window_n
+    band_days = (band_hi - band_lo) * 365.0
+    m_windows = max(1, round(band_days / WINDOW_COHERENCE_DAYS))
+    z = statistics.NormalDist().inv_cdf(1 - ALPHA / m_windows)
+    # Effective point-estimate bar to flag (where the Wilson lower bound first clears the line).
+    def _bar(thr):
+        for k in range(n_window + 1):
+            if wilson_lower(k, n_window, z) > thr:
+                return k / n_window
+        return 1.0
+    print(f"Window: N={n_window}, band {decimal_to_iso(band_lo)}..{decimal_to_iso(band_hi)}, "
+          f"m={m_windows}, z={z:.2f} (one-sided 95% Bonferroni)", file=sys.stderr)
+
     mlr = {} if args.skip_mlr else load_mlr(MLR_URLS[source], cache_dir, f"mlr_{source}.json")
     use_lapis = (source == "open") and not args.skip_lapis
 
@@ -922,8 +1001,8 @@ def main():
     records = []
     for lineage in candidates_in:
         rec = build_candidate(lineage, ref, builds, mlr, designated_lineages, lineage_to_clade,
-                              use_lapis=use_lapis, lapis_min=args.lapis_min,
-                              date_from=date_from)
+                              use_lapis=use_lapis, lapis_min=args.lapis_min, date_from=date_from,
+                              band_lo=band_lo, band_hi=band_hi, z=z, n_window=n_window)
         if rec is not None:
             records.append(rec)
 
@@ -961,15 +1040,18 @@ def main():
             suggested_names[rec["lineage"]] = name
             rec["suggested_name"] = name
             rec["alternatives"] = [l for l in siblings if l != rec["lineage"]]
-            rec["demarcation"] = demarcation_chain(rec["lineage"], ref, builds, mlr)
+            rec["demarcation"] = demarcation_chain(rec["lineage"], ref, builds, mlr,
+                                                   band_lo, band_hi, z, n_window)
 
     regional_keys = [r for r in builds if r != "global"]
-    region_tips = {r: builds[r].region_effective_n(REGION_NAMES.get(r)) for r in regional_keys}
     meta = {
         "source": source,
         "gisaid_date": gisaid_date,
         "regions": regional_keys,
-        "region_tips": region_tips,
+        "window": {"n": n_window, "m": m_windows, "z": round(z, 2),
+                   "band": f"{decimal_to_iso(band_lo)}..{decimal_to_iso(band_hi)}",
+                   "region_bar": pct(_bar(REGIONAL_THRESHOLD)),
+                   "global_bar": pct(_bar(GLOBAL_THRESHOLD))},
         "ref_updated": ref_updated,
         "latest_pivot": round(latest_pivot, 3),
         "thresholds": {"global": GLOBAL_THRESHOLD, "regional": REGIONAL_THRESHOLD},
