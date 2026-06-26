@@ -40,13 +40,17 @@ python3 scripts/propose_clades.py --data-source gisaid --group blab # global + a
 ```
 
 Everything is fetched live (cached under `results/clade_cache/`; `--refresh` to re-pull): the
-Nextclade reference tree, the Nextstrain 6m builds (region-filtered tip-frequencies), forecasts-ncov
-MLR fitness, and — for **open** only — LAPIS exact frequencies. **gisaid** auto-discovers the
-group's latest dated Groups builds, so the date is handled for you (`--gisaid-date` pins an older
-one). open is GISAID-free but North-America-dominated; gisaid covers all regions and surfaces sweeps
-open misses, but has no LAPIS backstop — lean harder on the per-region `⚠low-n=<n>` warnings (a
-region's latest-pivot estimate can rest on very few effective sequences) and on Cov-Spectrum /
-forecasts cross-checks.
+Nextclade reference tree, the Nextstrain 6m builds, forecasts-ncov MLR fitness, and — for **open**
+only — LAPIS exact frequencies. **gisaid** auto-discovers the group's latest dated Groups builds, so
+the date is handled for you (`--gisaid-date` pins an older one). open is GISAID-free but
+North-America-dominated; gisaid covers all regions and surfaces sweeps open misses.
+
+Frequency is judged conservatively: a fixed-N=50 window of date-sorted tips slides across a
+~6mo→3wk band and a candidate flags only if the **one-sided 95% Wilson lower bound** clears the
+threshold (>20% global / >30% regional) in some window — so each flag is a *confident* majority
+(effective bar ≈46% regional / ≈34% global at N=50), reported as `peak X% [n, as of <date>, lo Y%] ·
+now Z%`. A geography with <50 band tips reads `insufficient`. So a flag already means the data backs
+it; your job is the demarcation/naming judgement, not re-litigating noise.
 
 Outputs:
 - `results/clade_candidates.md` — human-readable dossier (read this)
@@ -68,12 +72,15 @@ than the dossier's 180 days, e.g.
 `https://lapis.cov-spectrum.org/open/v2/sample/aggregated?nextcladePangoLineage=<LIN>*&region=North%20America&dateFrom=<YYYY-MM-DD>`
 (divide by the same query without the lineage filter for the denominator).
 
-Be skeptical when:
-- the build % is much higher than LAPIS % and MLR % (subsampled-build overshoot) — lean on
-  MLR's nowcast/forecast and the trajectory trend;
-- a region's denominator is tiny (the dossier marks `⚠low-n`), especially Europe;
-- the lineage is recombinant (X*) — confirm the breakpoint and that the defining mutations
-  are inherited cleanly.
+Weigh, since a flag already passed the windowed CI:
+- **only one small region clears** (e.g. a 56% Oceania-only majority) — decide whether it warrants a
+  *global* clade name or is just locally dominant; the per-geography lines and `now` values show reach;
+- the **peak is months old and `now` has collapsed** — still designation-worthy retrospectively, but
+  note it in the PR;
+- the lineage is **recombinant (X*)** — confirm the breakpoint and that the defining mutations are
+  inherited cleanly;
+- for **open**, LAPIS is shown as a secondary exact read; large build-vs-LAPIS gaps are expected
+  (LAPIS is raw/country-biased, the build is population-weighted) — prefer the build for the call.
 
 ## Step 3 — Decide the demarcation
 
