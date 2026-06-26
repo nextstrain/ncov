@@ -312,7 +312,8 @@ class RefTree:
 
         Returns (parent_clade, branches) where branches is a top-down list of
         per-step dicts {lineage, nuc, S}; their union is the net set distinguishing
-        the lineage from its parent clade and a human picks the characteristic subset.
+        the lineage from its parent clade — used in full so the clade is exactly
+        specific to the lineage.
         """
         node = self.entry.get(lineage)
         if node is None:
@@ -373,7 +374,8 @@ def annotate_nuc_rows(ref, branches):
 
     Returns a list of {site, alt, nuc, spike_aa} dicts. spike_aa is e.g. 'S:E96D' when
     the nucleotide sits in spike and lines up with a tracked S substitution on the path,
-    else None. The spike-linked rows are the natural characteristic subset for clades.tsv.
+    else None. spike_aa flags which rows satisfy the >=1-spike criterion; the full set
+    of rows is used so the clade is exactly specific to the lineage.
     """
     import re
     s_by_codon = {}
@@ -887,15 +889,15 @@ def _render_candidate(lines, cand, suggested, meta, header="## "):
             + (f"\t# {r['spike_aa']}" if r["spike_aa"] else "")
             for r in rows)
 
-    lines.append("\n**Proposed file edits** (the clades.tsv block lists ALL net mutations vs "
-                 "the parent clade; trim to a characteristic handful — the spike-linked rows, "
-                 "flagged below, are the natural choice):")
+    lines.append("\n**Proposed file edits** (use ALL the clades.tsv nuc rows below — the full net "
+                 "set vs the parent clade — so the clade is exactly specific to this lineage; the "
+                 "spike rows are flagged for the >=1-spike criterion):")
     lines.append("```")
     lines.append(f"# defaults/clades.tsv  (net mutations vs parent clade {cand['parent_clade']})")
     lines.append(f"{suggested}\tclade\t{cand['parent_clade']}")
     lines.append(fmt_rows(cand["nuc_rows"]))
     if cand["spike_nuc_rows"]:
-        lines.append(f"#   suggested characteristic subset (spike-linked): "
+        lines.append(f"#   spike mutations among these: "
                      + ", ".join(r["spike_aa"] for r in cand["spike_nuc_rows"]))
     lines.append(f"\n# defaults/clade_display_names.yml")
     lines.append(f"{suggested}: {suggested} ({lineage})")

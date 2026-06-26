@@ -96,12 +96,14 @@ story," it is fine to **not** designate. Note it on the watch list and move on.
 
 ## Step 4 — Write the five `defaults/` edits
 
-The dossier prints a paste-ready block per candidate. Apply it, then **trim the
-`clades.tsv` nuc rows to the characteristic subset** (existing clades use ~2–4 defining
-mutations, not the full accumulated set — drop homoplasic / unstable sites). Confirm the
-chosen mutations are present in essentially all members of the lineage.
+The dossier prints a paste-ready block per candidate — apply it as-is, keeping **all** the
+defining `clades.tsv` nuc rows (the full net set vs the parent clade). Using the full set makes
+the clade **exactly specific** to the Pango lineage and demarcates precisely at it rather than a
+broader/higher node. The spike rows are flagged so you can cite them for the ≥1-spike criterion
+and the PR; only drop a row for a specific reason (e.g. a known homoplasic/unstable site that
+breaks membership across the lineage).
 
-1. `defaults/clades.tsv` — `<NAME>\tclade\t<PARENT>` + a few `<NAME>\tnuc\t<site>\t<alt>` rows
+1. `defaults/clades.tsv` — `<NAME>\tclade\t<PARENT>` + all the `<NAME>\tnuc\t<site>\t<alt>` rows
 2. `defaults/clade_display_names.yml` — `<NAME>: <NAME> (<Pango>)`
 3. `defaults/clade_hierarchy.tsv` — `<NAME>\t<PARENT>\t<WHO>`
 4. `defaults/clade_emergence_dates.tsv` — `<NAME>\t<YYYY-MM-01>` (first-seen from the dossier)
@@ -119,22 +121,53 @@ are promoting it to a full clade (see PR #1152).
 Confirm the new definition parses and inherits correctly through augur:
 
 ```
-augur shell .  # or use the repo's nextstrain runtime
 scripts/expand-clade-definitions defaults/clades.tsv | grep "^<NAME>"
 ```
 
 (`scripts/expand-clade-definitions` imports `augur.clades.read_in_clade_definitions`; run it
-with a Python that has augur installed.) Ideally also re-run the `clades` rule against the
-local global build and confirm the expected tips pick up `<NAME>` and it renders in Auspice.
+with a Python that has augur installed.) Expect `<NAME>` to resolve to its inherited parent-clade
+chain plus the new mutations, with no error. The full region build in Step 6 is the real visual
+validation — you see the tips pick up `<NAME>` in Auspice.
 
-## Step 6 — Draft the PR
+## Step 6 — Build a trial view and deploy to staging
 
-Open a PR in the house style of #1149 / #1152 / #1158 / #1192. The justification should state:
+Standard practice is to attach a live trial build to a designation PR so reviewers can see the new
+clade in the tree. This is quick — editing `clades.tsv` only reruns the clade-downstream Snakemake
+steps.
+
+1. On the designation branch, rebuild the region(s) where the clade is prominent (the flagging
+   regions from the dossier — at least the strongest, usually plus `global`):
+   ```
+   nextstrain build . --profile nextstrain_profiles/nextstrain-gisaid \
+     auspice/ncov_gisaid_<region>_6m.json        # nextstrain-open for an open designation
+   ```
+2. Rename the rebuilt outputs to a branch-named trial dataset and deploy to staging (needs the
+   nextstrain CLI with deploy access to `s3://nextstrain-staging`):
+   ```
+   for f in auspice/ncov_gisaid_<region>_6m*; do
+     mv "$f" "${f/ncov_gisaid_/ncov_<branch>_}"   # e.g. ncov_designate-26B_<region>_6m*
+   done
+   nextstrain deploy s3://nextstrain-staging auspice/ncov_<branch>_<region>_6m*
+   ```
+   It goes live at `https://nextstrain.org/staging/ncov/<branch>/<region>/6m` (filename `_` → URL
+   `/`). Use the **branch name** as the trial slug. Staging is the standard home for PR-related
+   ephemera. (This is the lightweight local path; the heavier GitHub-Action trial builds are in
+   `docs/dev_docs.md` → "Triggering trial builds".)
+
+## Step 7 — Draft the PR
+
+Open a PR in the house style of #1149 / #1152 / #1158 / #1192 / #1204 / #1206. **Be thorough — not a
+one-line summary.** The justification should state:
 - the new clade name and its Pango lineage, and the parent clade it descends from;
-- the **spike mutations** that define it;
-- the **frequency** evidence with regions and numbers (which criterion arm it meets);
-- the **MLR fitness** (growth advantage) and that it is rising;
-- a one-line note on the demarcation choice (why this lineage and not its parent/child).
+- the defining **spike mutation(s)** (and, since the definition keeps all defining nuc for
+  specificity, a note to that effect if relevant);
+- a **per-region frequency breakdown** pulled straight from `results/clade_candidates.{md,json}`:
+  for each region the clade is notable in, the **peak %, the n=50 window's one-sided 95% lower
+  bound, the as-of date, and the current %**, plus the global number — so reviewers can trace them;
+- the **MLR fitness** (growth advantage) where available;
+- the **demarcation rationale** (why this lineage vs its parent/child alternatives, citing the
+  mutations that differ, which the dossier lists);
+- the **staging trial link(s)** from Step 6.
 
 Keep the dossier's exact numbers in the PR body so reviewers can trace them. Do not push or
 open the PR without the user's go-ahead.
