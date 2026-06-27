@@ -150,11 +150,6 @@ rule auspice_config:
             "data_provenance": data_provenance,
             "colorings": [
                 {
-                    "key": "emerging_lineage",
-                    "title": "Emerging Lineage",
-                    "type": "categorical"
-                },
-                {
                     "key": "pango_lineage",
                     "title": "Pangolin Pango Lineage",
                     "type": "categorical"
@@ -167,16 +162,6 @@ rule auspice_config:
                 {
                     "key": "S1_mutations",
                     "title": "S1 Mutations",
-                    "type": "continuous"
-                },
-                {
-                    "key": "immune_escape",
-                    "title": "Immune Escape vs BA.2",
-                    "type": "continuous"
-                },
-                {
-                    "key": "ace2_binding",
-                    "title": "ACE2 binding vs BA.2",
                     "type": "continuous"
                 },
                 {
@@ -251,7 +236,6 @@ rule auspice_config:
             },
             "filters": [
                 "clade_membership",
-                "emerging_lineage",
                 "pango_lineage",
                 "Nextclade_pango",
                 "region",
