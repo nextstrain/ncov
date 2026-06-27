@@ -137,29 +137,6 @@ def _get_subsampling_settings(wildcards):
     return subsampling_settings
 
 
-def get_priorities(wildcards):
-    subsampling_settings = _get_subsampling_settings(wildcards)
-
-    if "priorities" in subsampling_settings and subsampling_settings["priorities"]["type"] == "proximity":
-        return f"results/{wildcards.build_name}/priorities_{subsampling_settings['priorities']['focus']}.tsv"
-    else:
-        # TODO: find a way to make the list of input files depend on config
-        return config["files"]["include"]
-
-
-def get_priority_argument(wildcards):
-    subsampling_settings = _get_subsampling_settings(wildcards)
-    if "priorities" not in subsampling_settings:
-        return ""
-
-    if subsampling_settings["priorities"]["type"] == "proximity":
-        return "--priority " + shquote(get_priorities(wildcards))
-    elif subsampling_settings["priorities"]["type"] == "file" and "file" in subsampling_settings["priorities"]:
-        return "--priority " + shquote(subsampling_settings["priorities"]["file"])
-    else:
-        return ""
-
-
 def _get_specific_subsampling_setting(setting, optional=False):
     # Note -- this function contains a lot of conditional logic because
     # we have the situation where some config options must define the
@@ -278,12 +255,10 @@ rule subsample:
          - exclude: {params.exclude_argument}
          - include: {params.include_argument}
          - query: {params.query_argument}
-         - priority: {params.priority_argument}
         """
     input:
         metadata = _get_unified_metadata,
         include = config["files"]["include"],
-        priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
         strains="results/{build_name}/sample-{subsample}.txt",
@@ -303,7 +278,6 @@ rule subsample:
         exclude_ambiguous_dates_argument = _get_specific_subsampling_setting("exclude_ambiguous_dates_by", optional=True),
         min_date = _get_specific_subsampling_setting("min_date", optional=True),
         max_date = _get_specific_subsampling_setting("max_date", optional=True),
-        priority_argument = get_priority_argument
     resources:
         # Memory use scales with the number of sequences per group * number of groups.
         # We pin this to a reasonably high value based on Nextstrain production builds.
@@ -321,7 +295,6 @@ rule subsample:
             {params.include_argument} \
             {params.query_argument} \
             {params.exclude_ambiguous_dates_argument} \
-            {params.priority_argument} \
             {params.group_by} \
             {params.group_by_weights} \
             {params.sequences_per_group} \
@@ -356,62 +329,6 @@ rule extract_subsampled_sequences:
             --exclude-all \
             --include {input.strains} \
             --output-sequences {output.subsampled_sequences} 2>&1 | tee {log}
-        """
-
-rule proximity_score:
-    message:
-        """
-        determine priority for inclusion in as phylogenetic context by
-        genetic similiarity to sequences in focal set for build '{wildcards.build_name}'.
-        """
-    input:
-        alignment = _get_unified_alignment,
-        reference = config["files"]["alignment_reference"],
-        focal_alignment = "results/{build_name}/sample-{focus}.fasta"
-    output:
-        proximities = "results/{build_name}/proximity_{focus}.tsv"
-    log:
-        "logs/subsampling_proximity_{build_name}_{focus}.txt"
-    benchmark:
-        "benchmarks/proximity_score_{build_name}_{focus}.txt"
-    params:
-        chunk_size=10000,
-        ignore_seqs = config['refine']['root']
-    resources:
-        # Memory scales at ~0.15 MB * chunk_size (e.g., 0.15 MB * 10000 = 1.5GB).
-        mem_mb=4000
-    conda: config["conda_environment"]
-    shell:
-        r"""
-        python3 scripts/get_distance_to_focal_set.py \
-            --reference {input.reference} \
-            --alignment {input.alignment} \
-            --focal-alignment {input.focal_alignment} \
-            --ignore-seqs {params.ignore_seqs} \
-            --chunk-size {params.chunk_size} \
-            --output {output.proximities} 2>&1 | tee {log}
-        """
-
-rule priority_score:
-    input:
-        proximity = rules.proximity_score.output.proximities,
-        sequence_index = rules.index_sequences.output.sequence_index,
-    output:
-        priorities = "results/{build_name}/priorities_{focus}.tsv"
-    benchmark:
-        "benchmarks/priority_score_{build_name}_{focus}.txt"
-    params:
-        crowding = config["priorities"]["crowding_penalty"],
-        Nweight = 0.003
-    conda: config["conda_environment"]
-    shell:
-        r"""
-        python3 scripts/priorities.py \
-            --sequence-index {input.sequence_index} \
-            --proximities {input.proximity} \
-            --crowding-penalty {params.crowding} \
-            --Nweight {params.Nweight} \
-            --output {output.priorities} 2>&1 | tee {log}
         """
 
 

@@ -87,18 +87,12 @@ When specifying how many sequences you want in a subsampling level (for example,
        group_by: "country year month"
        seq_per_group: 20
        exclude: "--exclude-where 'country={country}' 'region!={region}'"
-       priorities:
-         type: "proximity"
-         focus: "country"
      # Contextual samples from the rest of the world,
      # excluding the current region to avoid resampling.
      global:
        group_by: "country year month"
        seq_per_group: 10
        exclude: "--exclude-where 'region={region}'"
-       priorities:
-         type: "proximity"
-         focus: "country"
 
 For ``country``-level sampling above, we specify that we want a maximum of 1,500 sequences from the country in question (here, Switzerland). Since we set ``group_by`` to “division year month”, all the Swiss sequences will be divided into groups by their division, month, and year of sampling, and the code will try to equally sample from each group to reach 1,500 sequences total.
 
@@ -138,20 +132,12 @@ For cantons this looks like this:
        group_by: "country year month"
        seq_per_group: 10
        exclude: "--exclude-where 'region!=europe'"
-       priorities:
-         type: "proximity"
-         focus: "country"
      # Contextual samples from the rest of the world, excluding the current
      # division to avoid resampling.
      global:
        group_by: "country year month"
        seq_per_group: 5
        exclude: "--exclude-where 'region=europe'"
-       priorities:
-         type: "proximity"
-         focus: "country"
-
-All entries above canton level (the 'contextual' samples) specify priorities. Currently, we have only implemented one type of priority called ``proximity``. It attempts to selected sequences as close as possible to the focal samples specified as ``focus: division``. The argument of the latter has to match the name of one of the other subsamples.
 
 In addition to the ``exclude`` filter, you can also specify strains to keep by providing a ``query``. The ``query`` field uses augur filter's ``--query`` argument (introduced in version 8.0.0) and supports `pandas-style logical operators <https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#indexing-query>`__. For example, the following exclusionary filter,
 

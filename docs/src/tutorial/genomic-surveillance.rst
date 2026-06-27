@@ -107,15 +107,9 @@ The workflow can take several minutes to run. While it is running, you can inves
          query: --query "(custom_data != 'yes') & (country == 'USA')"
          max_sequences: 10
          group_by: division year month
-         priorities:
-           type: proximity
-           focus: custom_sample
        global_context:
          query: --query "(custom_data != 'yes')"
          max_sequences: 10
-         priorities:
-           type: proximity
-           focus: custom_sample
 
 This configuration file is similar to the previous file. Differences are outlined below, broken down per configuration section.
 
