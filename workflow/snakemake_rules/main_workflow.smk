@@ -991,8 +991,8 @@ rule clades:
             --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
 
-rule colors:
-    message: "Constructing colors file"
+rule clade_colors:
+    message: "Constructing clade colors file"
     input:
         ordering = config["files"]["ordering"],
         color_schemes = config["files"]["color_schemes"],
@@ -1001,11 +1001,11 @@ rule colors:
     params:
         clade_recency_argument = _get_clade_recency_argument
     output:
-        colors = "results/{build_name}/colors.tsv"
+        colors = "results/{build_name}/clade_colors.tsv"
     log:
-        "logs/colors_{build_name}.txt"
+        "logs/clade_colors_{build_name}.txt"
     benchmark:
-        "benchmarks/colors_{build_name}.txt"
+        "benchmarks/clade_colors_{build_name}.txt"
     resources:
         # Memory use scales primarily with the size of the metadata file.
         # Compared to other rules, this rule loads metadata as a pandas
@@ -1014,13 +1014,46 @@ rule colors:
     conda: config["conda_environment"]
     shell:
         r"""
-        python3 scripts/assign-colors.py \
+        python3 scripts/assign-clade-colors.py \
             --ordering {input.ordering} \
             --color-schemes {input.color_schemes} \
             --output {output.colors} \
             --clade-node-data {input.clades} \
             {params.clade_recency_argument} \
             --metadata {input.metadata} 2>&1 | tee {log}
+        """
+
+rule lineage_colors:
+    message: "Adding Pango lineage colors that correspond to the clade coloring"
+    input:
+        clade_colors = rules.clade_colors.output.colors,
+        ordering = config["files"]["ordering"],
+        color_schemes = config["files"]["color_schemes"],
+        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
+        clades = rules.clades.output.clade_data,
+        nextclade_dataset = "data/sars-cov-2-nextclade-defaults.zip"
+    params:
+        clade_recency_argument = _get_clade_recency_argument
+    output:
+        colors = "results/{build_name}/colors.tsv"
+    log:
+        "logs/lineage_colors_{build_name}.txt"
+    benchmark:
+        "benchmarks/lineage_colors_{build_name}.txt"
+    resources:
+        mem_mb=lambda wildcards, input: 5 * int(async_run(input['metadata'].size()) / 1024 / 1024)
+    conda: config["conda_environment"]
+    shell:
+        r"""
+        python3 scripts/assign-lineage-colors.py \
+            --input-colors {input.clade_colors} \
+            --clade-node-data {input.clades} \
+            --metadata {input.metadata} \
+            {params.clade_recency_argument} \
+            --color-schemes {input.color_schemes} \
+            --nextclade-dataset {input.nextclade_dataset} \
+            --clade-ordering {input.ordering} \
+            --output {output.colors} 2>&1 | tee {log}
         """
 
 rule recency:
@@ -1227,7 +1260,7 @@ rule export:
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
         node_data = _get_node_data_by_wildcards,
         auspice_config = get_auspice_config,
-        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"].get(w.build_name, {}) else ( config["files"]["colors"] if "colors" in config["files"] else rules.colors.output.colors.format(**w) ),
+        colors = lambda w: config["builds"][w.build_name]["colors"] if "colors" in config["builds"].get(w.build_name, {}) else ( config["files"]["colors"] if "colors" in config["files"] else rules.lineage_colors.output.colors.format(**w) ),
         lat_longs = config["files"]["lat_longs"],
         description = rules.build_description.output.description
     output:

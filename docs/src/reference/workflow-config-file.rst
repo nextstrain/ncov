@@ -944,7 +944,7 @@ colors
 ------
 
 -  type: object
--  description: Parameters for assigning colors in ``scripts/assign-colors.py``
+-  description: Parameters for assigning colors in ``scripts/assign-clade-colors.py``
 -  examples:
 
 .. code:: yaml
