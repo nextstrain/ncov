@@ -983,34 +983,6 @@ rule clades:
             --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
 
-rule emerging_lineages:
-    message: "Adding emerging clade labels"
-    input:
-        tree = rules.refine.output.tree,
-        aa_muts = rules.translate.output.node_data,
-        nuc_muts = rules.ancestral.output.node_data,
-        emerging_lineages = config["files"]["emerging_lineages"],
-        clades = config["files"]["clades"]
-    output:
-        clade_data = "results/{build_name}/emerging_lineages.json"
-    log:
-        "logs/emerging_lineages_{build_name}.txt"
-    benchmark:
-        "benchmarks/emerging_lineages_{build_name}.txt"
-    resources:
-        # Memory use scales primarily with size of the node data.
-        mem_mb=lambda wildcards, input: 3 * int(input.size_mb)
-    conda: config["conda_environment"]
-    shell:
-        r"""
-        augur clades --tree {input.tree} \
-            --mutations {input.nuc_muts} {input.aa_muts} \
-            --clades {input.emerging_lineages} \
-            --membership-name emerging_lineage \
-            --label-name emerging_lineage \
-            --output-node-data {output.clade_data} 2>&1 | tee {log}
-        """
-
 rule colors:
     message: "Constructing colors file"
     input:
@@ -1211,7 +1183,6 @@ def _get_node_data_by_wildcards(wildcards):
         rules.ancestral.output.node_data,
         rules.translate.output.node_data,
         rules.clades.output.clade_data,
-        rules.emerging_lineages.output.clade_data,
         rules.recency.output.node_data,
         rules.traits.output.node_data,
         rules.mlr_lineage_fitness.output.node_data,

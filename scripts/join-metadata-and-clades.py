@@ -38,8 +38,6 @@ column_map = {
     "insertions": "insertions",
     "substitutions": "substitutions",
     "aaSubstitutions": "aaSubstitutions",
-    "immune_escape": "immune_escape",
-    "ace2_binding": "ace2_binding",
 }
 
 preferred_types = {
