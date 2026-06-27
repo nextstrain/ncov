@@ -537,12 +537,6 @@ annotation
 -  default: ``defaults/annotation.gff``
 -  used in rules: ``align``
 
-outgroup
-~~~~~~~~
-
--  type: string
--  description: No longer used.
-
 ordering
 ~~~~~~~~
 
