@@ -53,23 +53,6 @@ rule clean_export_regions:
     shell:
         "rm -f {params}"
 
-# Build specific metadata
-rule extract_meta:
-    input:
-        alignment = rules.build_align.output.alignment,
-        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
-    output:
-        metadata = "results/{build_name}/extracted_metadata.tsv"
-    run:
-        from Bio import SeqIO
-        import pandas as pd
-
-        seq_names = [s.id for s in SeqIO.parse(input.alignment, 'fasta')]
-        all_meta = pd.read_csv(input.metadata, sep='\t', index_col=0, dtype=str)
-        extracted_meta = all_meta.loc[seq_names]
-        extracted_meta.to_csv(output.metadata, sep='\t')
-
-
 # Allows 'normal' run of export to be forced to correct lat-long & ordering
 # Runs an additional script to give a list of locations that need colors and/or lat-longs
 rule export_all_regions:
