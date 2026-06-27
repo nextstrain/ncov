@@ -9,6 +9,7 @@ We also use this change log to document new features that maintain backward comp
 - 29 July 2025: Improved performance of calls to `augur filter`. This requires a minimum Augur version of 31.3.0. [PR 1178](https://github.com/nextstrain/ncov/pull/1178)
 - 28 January 2026: Large JSON files are now automatically minified. This requires a minimum Augur version of 33.0.0. [PR 1194](https://github.com/nextstrain/ncov/pull/1194)
 - 30 January 2026: Simplified code for reading metadata. This requires a minimum Augur version of 32.1.0. [PR 1195](https://github.com/nextstrain/ncov/pull/1195)
+- 26 June 2026: Remove the stale `emerging_lineage`, `immune_escape`, and `ace2_binding` colorings. The latter two were computed from BA.2 deep-mutational-scanning data and are no longer accurate against current strains. [PR 1213](https://github.com/nextstrain/ncov/pull/1213)
 
 ## v17 (17 July 2025)
 
