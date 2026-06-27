@@ -75,4 +75,10 @@ These will run the respective phylogenetic build pipelines starting from the pre
 This will ask for an optional “trial name” and upload intermediate files to  `nextstrain-ncov-private/trial/$TRIAL_NAME` and `nextstrain-staging/files/ncov/open/trial/$TRIAL_NAME`; if you don't supply this you will overwrite the files at `nextstrain-ncov-private` and `nextstrain-data/files/ncov/open`, as well as the trees at `nextstrain.org/ncov/gisaid/REGION` and `nextstrain.org/ncov/open/REGION`
 The GitHub action will follow along with the AWS job so that you can monitor the progress; as of October 2021 each action took around 3 hours.
 
+## Generating the 100k development subsample
+
+The GitHub Action `rebuild-100k` runs weekly (Mondays, via cron) and can also be [triggered manually](https://github.com/nextstrain/ncov/actions).
+It runs the `upload` target with `nextstrain_profiles/100k/config-open.yaml` to produce a roughly 100k-sequence open subsample — a smaller, representative dataset used for development and testing — and uploads the resulting intermediate files.
+See [remote inputs](https://docs.nextstrain.org/projects/ncov/en/latest/reference/remote_inputs.html) for where these files are published.
+
 If you want to test a particular branch, you can select the branch to use for the trial build when running the Github action.
