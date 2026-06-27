@@ -331,51 +331,6 @@ max_date
    -  ``--max-date 2021-04-01``
    -  ``--max-date 2021.25``
 
-priorities
-~~~~~~~~~~
-
--  type: object
--  description: Parameters to prioritize strains selected for the current subsampling rule. Currently, the workflow supports two ``type``\ s of priority, ``proximity`` and ``file``.
--  description [proximity]: ``proximity`` selects samples that are genetically similar to the ``focus`` sample set; the ``focus`` sample set must be a rule in the current subsampling scheme.
--  example [proximity]:
-
-.. code:: yaml
-
-   subsampling:
-     my-scheme:
-       my-first-rule:
-         max_sequences: 10
-       my-second-rule:
-         max_sequences: 10
-         # Prioritize sequences that are genetically similar to
-         # sequences in the sequences selected by the
-         # `my-first-rule` rule.
-         priorities:
-           type: proximity
-           focus: my-first-rule
-
--  description [file]: ``file`` selects samples based on arbitrarily-defined rankings in a TSV file formatted as ``strain\tnumber``. The numbers are only used to sort the samples, and are therefore arbitrary. Higher values = higher priority.
-
--  example [file]:
-
-.. code:: yaml
-
-   subsampling:
-     my-scheme:
-       my-first-rule:
-         max_sequences: 10
-         group_by: "country"
-         priorities:
-           type: "file"
-           file: "path/to/priorities.tsv"
-
-::
-
-   hCoV-19/USA/CZB-1234/2021   8.2
-   hCoV-19/USA/CZB-2345/2021   0
-   hCoV-19/USA/CZB-3456/2021   -3.1
-
-
 Secondary configuration
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -501,7 +456,7 @@ include
 ~~~~~~~
 
 -  type: string
--  description: Path to a file with list of strains (one name per line) to include in the analysis regardless of priorities or subsampling during filtering.
+-  description: Path to a file with list of strains (one name per line) to include in the analysis regardless of subsampling during filtering.
 -  default: ``defaults/include.txt``
 -  used in rules: ``subsample``, ``filter``
 
@@ -527,7 +482,7 @@ alignment_reference
 -  type: string
 -  description: Path to a FASTA-formatted sequence to use for alignment with ``nextclade``
 -  default: ``defaults/reference_seq.fasta``
--  used in rules: ``align``, ``proximity_score`` (subsampling)
+-  used in rules: ``align``
 
 annotation
 ~~~~~~~~~~
@@ -722,29 +677,6 @@ warn_about_duplicates
 -  description: Warn users about duplicate sequences identified when merging input sequences and print a list of duplicates to standard out (and log files). Set this to ``false`` to get an error and stop the workflow when duplicates are detected.
 -  default: ``true``
 
-
-priorities
-----------
-
--  type: object
--  description: Configures how proximities are calculated, which is used by subsampling schemes which specify it.
-- Valid attributes:
-
-.. contents::
-   :local:
-
-crowding_penalty
-~~~~~~~~~~~~~~~~
-
--  type: float
--  description: used when calculating ``priority scores`` during subsampling to decrease the number of identical samples that are included in the tree during random subsampling to provide a broader picture of the viral diversity in your dataset.
--  examples:
-
-.. code:: yaml
-
-   priorities:
-     crowding_penalty: 0.0
-     # You may wish to set `crowding_penalty = 0.0` (default value = `0.1`) if you are interested in seeing as many samples as possible that are closely related to your `focal` set.
 
 .. _title-1:
 
