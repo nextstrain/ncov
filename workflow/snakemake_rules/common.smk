@@ -8,6 +8,50 @@ from shlex import (
     split as shsplitwords,
 )
 from urllib.parse import urlsplit
+import yaml
+
+
+def report_augur_versions(conda_env_file):
+    """Check the globally available version of Augur against the version required in
+    the Conda environment file.
+
+    """
+    with open(conda_env_file, "r") as fh:
+        env = yaml.load(fh, yaml.FullLoader)
+
+    # Check for Conda installation of Augur first.
+    augur_package = [
+        package
+        for package in env["dependencies"]
+        if not isinstance(package, dict) and package.startswith("augur")
+    ] or None
+
+    if augur_package is None:
+        # Check for pip installation of Augur.
+        pip_packages = [
+            package["pip"]
+            for package in env["dependencies"]
+            if isinstance(package, dict) and "pip" in package
+        ] or None
+
+        if pip_packages is not None:
+            augur_package = [
+                package
+                for package in pip_packages[0]
+                if package.startswith("nextstrain-augur")
+            ] or None
+
+    min_augur_version = "unknown"
+    if augur_package is not None and "=" in augur_package[0]:
+        min_augur_version = augur_package[0].split("=")[-1]
+
+    try:
+        from augur.__version__ import __version__ as augur_version
+    except ModuleNotFoundError:
+        augur_version = "not installed"
+
+    return min_augur_version, augur_version
+
 
 # TODO: deduplicate this with the same function in scripts/assign-colors.py.
 # There is no easy way to share functions between the workflow and that file at
