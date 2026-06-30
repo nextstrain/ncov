@@ -6,21 +6,6 @@
   ],
   "colorings": [
     {
-      "key": "emerging_lineage",
-      "title": "Emerging Lineage",
-      "type": "categorical"
-    },
-    {
-        "key": "immune_escape",
-        "title": "Immune Escape vs BA.2",
-        "type": "continuous"
-    },
-    {
-        "key": "ace2_binding",
-        "title": "ACE2 binding vs BA.2",
-        "type": "continuous"
-    },
-    {
       "key": "pango_lineage",
       "title": "PANGO Lineage",
       "type": "categorical"
@@ -150,7 +135,6 @@
   "filters": [
     "recency",
     "clade_membership",
-    "emerging_lineage",
     "region",
     "country",
     "division",

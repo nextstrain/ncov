@@ -601,15 +601,7 @@ clades
 -  type: string
 -  description: Path to `an Augur clade definition file <https://docs.nextstrain.org/en/latest/guides/bioinformatics/defining-clades.html#make-a-tsv-file-containing-your-clade-mutations>`__ where each row is a tab-delimited mapping of clade name to a gene, site (i.e., position), and alternate allele at that site for the corresponding clade.
 -  default: ``defaults/clades.tsv``
--  used in rules: ``emerging_lineages``, ``clades``
-
-emerging_lineages
-~~~~~~~~~~~~~~~~~
-
--  type: string
--  description: Path to `an Augur clade definition file <https://docs.nextstrain.org/en/latest/guides/bioinformatics/defining-clades.html#make-a-tsv-file-containing-your-clade-mutations>`__ for emerging lineages of concern that may be a subset or variation of the lineages defined by the ``clades`` parameter or Pangolin lineages.
--  default: ``defaults/emerging_lineages.tsv``
--  used in rules: ``emerging_lineages``
+-  used in rules: ``clades``
 
 
 Per-Rule configuration
