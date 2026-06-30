@@ -31,9 +31,6 @@ subsampling:
       max_sequences: 10
       sampling_scheme: "--no-probabilistic-sampling"
       exclude: "--exclude-where 'region={region}'"
-      priorities:
-        type: "proximity"
-        focus: "region"
 
 # Override default frequency settings, so we can estimate frequencies from older
 # data with a fixed time range.
