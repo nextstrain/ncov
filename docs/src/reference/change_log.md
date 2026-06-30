@@ -9,6 +9,7 @@ We also use this change log to document new features that maintain backward comp
 - 29 July 2025: Improved performance of calls to `augur filter`. This requires a minimum Augur version of 31.3.0. [PR 1178](https://github.com/nextstrain/ncov/pull/1178)
 - 28 January 2026: Large JSON files are now automatically minified. This requires a minimum Augur version of 33.0.0. [PR 1194](https://github.com/nextstrain/ncov/pull/1194)
 - 30 January 2026: Simplified code for reading metadata. This requires a minimum Augur version of 32.1.0. [PR 1195](https://github.com/nextstrain/ncov/pull/1195)
+- 26 June 2026: Remove the historical 21L (BA.2-rooted) GISAID build variant (the `nextstrain-gisaid-21L` profile and its scheduled workflow). The Nextstrain clade `21L` and the `sars-cov-2-21L` Nextclade dataset are unaffected. [PR 1211](https://github.com/nextstrain/ncov/pull/1211)
 - 26 June 2026: Remove orphan rules `find_clusters` and `extract_meta` (and the `cluster` config block) whose outputs were never consumed. [PR 1209](https://github.com/nextstrain/ncov/pull/1209)
 
 ## v17 (17 July 2025)
