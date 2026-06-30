@@ -17,7 +17,6 @@ my-ncov-analyses/
 
 # old analysis directory
 my_profiles/*
-!my_profiles/README.md
 
 # Downloaded remote files from sources we expect
 /nextstrain-ncov-private/
