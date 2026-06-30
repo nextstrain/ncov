@@ -375,20 +375,24 @@ rule proximity_score:
     benchmark:
         "benchmarks/proximity_score_{build_name}_{focus}.txt"
     params:
-        chunk_size=10000,
         ignore_seqs = config['refine']['root']
     resources:
-        # Memory scales at ~0.15 MB * chunk_size (e.g., 0.15 MB * 10000 = 1.5GB).
-        mem_mb=4000
+        # proximity_score holds dense `chunk_size x n_focal` distance matrices in memory.
+        # The shell below shrinks chunk_size as the focal set grows so those matrices stay
+        # ~2.8 GB regardless of focal size (measured peak ~4 GB incl. baseline + focal data);
+        # total runtime is ~independent of chunk size. mem_mb sits above that worst case.
+        mem_mb=6000
     conda: config["conda_environment"]
     shell:
         r"""
+        n_focal=$(grep -c '^>' {input.focal_alignment} || echo 1)
+        chunk_size=$(python3 -c "n=max(1,$n_focal); print(max(1000, min(10000, 2800000000 // (48 * n))))")
         python3 scripts/get_distance_to_focal_set.py \
             --reference {input.reference} \
             --alignment {input.alignment} \
             --focal-alignment {input.focal_alignment} \
             --ignore-seqs {params.ignore_seqs} \
-            --chunk-size {params.chunk_size} \
+            --chunk-size $chunk_size \
             --output {output.proximities} 2>&1 | tee {log}
         """
 
@@ -403,6 +407,10 @@ rule priority_score:
     params:
         crowding = config["priorities"]["crowding_penalty"],
         Nweight = 0.003
+    resources:
+        # priorities.py loads the per-pool proximity TSV + sequence index into pandas, so
+        # memory scales with the candidate-pool size (empirically ~10x these inputs).
+        mem_mb = lambda wildcards, input: max(4000, int(12 * input.size_mb))
     conda: config["conda_environment"]
     shell:
         r"""
