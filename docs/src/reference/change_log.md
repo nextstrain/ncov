@@ -13,6 +13,7 @@ We also use this change log to document new features that maintain backward comp
 - 26 June 2026: Remove orphan rules `find_clusters` and `extract_meta` (and the `cluster` config block) whose outputs were never consumed. [PR 1209](https://github.com/nextstrain/ncov/pull/1209)
 - 26 June 2026: Remove the stale `emerging_lineage`, `immune_escape`, and `ace2_binding` colorings, along with the now-unused `files.emerging_lineages` config parameter and `defaults/emerging_lineages.tsv`. The latter two colorings were computed from BA.2 deep-mutational-scanning data and are no longer accurate against current strains. [PR 1213](https://github.com/nextstrain/ncov/pull/1213)
 - 26 June 2026: Remove dead scripts, unused default data files, and the no-longer-used `outgroup` config option as part of a workflow cleanup. [PR 1208](https://github.com/nextstrain/ncov/pull/1208)
+- 1 July 2026: Remove the defunct `scripts/curate_metadata/` toolkit (manual geo/annotation curation and submitter-tweet scripts from the 2021–2022 GISAID-download era, not part of the build and dormant for years). [PR 1215](https://github.com/nextstrain/ncov/pull/1215)
 
 ## v17 (17 July 2025)
 
