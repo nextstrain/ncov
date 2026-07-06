@@ -16,6 +16,7 @@ We also use this change log to document new features that maintain backward comp
 - 6 July 2026: Include new clade 26B corresponding to Pango lineage XFG.3.4.1. See [PR 1206](https://github.com/nextstrain/ncov/pull/1206) for the rationale behind this clade update.
 - 6 July 2026: Remove the defunct `scripts/curate_metadata/` toolkit (manual geo/annotation curation and submitter-tweet scripts from the 2021–2022 GISAID-download era, not part of the build and dormant for years). [PR 1215](https://github.com/nextstrain/ncov/pull/1215)
 - 6 July 2026: Removed genetic-proximity (`priorities: type: proximity`) and file-based (`priorities: type: file`) prioritization from the default `region`, `country`, `division`, and `location` schemes, the tutorial, and CI; these now subsample by `group_by` + `seq_per_group`/`max_sequences`. The `priorities` option remains available as an opt-in for niche pseudo-contact-tracing builds, and `proximity_score` now adapts its chunk size to the focal-set size to bound memory and avoid OOM errors. [PR 1210](https://github.com/nextstrain/ncov/pull/1210)
+- 6 July 2026: Color Pango lineages live in Auspice, in correspondence with the clade coloring. Replaces the hard-coded Pango-lineage rows in `defaults/color_ordering.tsv` with dynamic assignment: `scripts/assign-clade-colors.py` colors clades and traits, then `scripts/assign-lineage-colors.py` colors each Pango lineage to match its clade, ordered by the Nextclade reference tree. [PR 1207](https://github.com/nextstrain/ncov/pull/1207)
 
 ## v17 (17 July 2025)
 
