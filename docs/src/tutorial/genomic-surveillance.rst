@@ -5,8 +5,8 @@ Run using a genomic surveillance configuration
 For genomic surveillance applications, you will often **focus** your analysis on a set of data specific to your question of interest.
 For example, an analysis of SARS-CoV-2 circulation in a specific geographic area requires a focal set of sequences and metadata from that area.
 
-In this tutorial, you will learn to define and analyze a focal set of data from a geographic division in the United States using a global genetic context.
-You will also learn how to define a genetic context that prioritizes sequences that are genetically similar to your focal set.
+In this tutorial, you will learn to define and analyze a focal set of data from a geographic division in the United States against a global background of contextual sequences.
+You will also learn how to define that background as contextual samples at regional (USA) and global scales around your focal set.
 
 .. contents:: Table of Contents
    :local:
@@ -107,15 +107,9 @@ The workflow can take several minutes to run. While it is running, you can inves
          query: --query "(custom_data != 'yes') & (country == 'USA')"
          max_sequences: 10
          group_by: division year month
-         priorities:
-           type: proximity
-           focus: custom_sample
        global_context:
          query: --query "(custom_data != 'yes')"
          max_sequences: 10
-         priorities:
-           type: proximity
-           focus: custom_sample
 
 This configuration file is similar to the previous file. Differences are outlined below, broken down per configuration section.
 
@@ -145,12 +139,12 @@ This is a new section that provides a subsampling scheme ``idaho_scheme`` consis
 2. ``usa_context``
 
    - This selects at most 10 sequences from the USA from the ``background_data`` and ``reference_data`` inputs.
-   - Sequences are subsampled evenly across all combinations of ``division``, ``year``, ``month``, with sequences genetically similar to ``custom_sample`` prioritized over other sequences.
+   - Sequences are subsampled evenly across all combinations of ``division``, ``year``, ``month`` to provide a USA-wide background for the focal ``custom_sample``.
 
 3. ``global_context``
 
    - This selects at most 10 sequences outside the USA from the ``background_data`` and ``reference_data`` inputs.
-   - As with the ``usa_context`` above, this rule prioritizes sequences for the global context that are genetically similar to sequences in the ``custom_sample``.
+   - As with the ``usa_context`` above, this provides background context for the focal ``custom_sample``, here drawn from outside the USA to give a global picture.
 
 Visualize the results
 ---------------------
