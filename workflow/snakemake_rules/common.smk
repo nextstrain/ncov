@@ -9,7 +9,7 @@ from shlex import (
 )
 from urllib.parse import urlsplit
 
-# TODO: deduplicate this with the same function in scripts/assign-colors.py.
+# TODO: deduplicate this with the same function in scripts/color_utils.py.
 # There is no easy way to share functions between the workflow and that file at
 # the moment. One approach would be to surface it via Augur's Python API.
 def relative_date(duration: str):
