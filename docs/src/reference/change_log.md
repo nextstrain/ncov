@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+## v18 (6 July 2026)
+
 - 10 October 2025: Add parameter `warning` to display provided string in warning banner in Auspice. This can be defined per build or at the top level config. [PR 1186](https://github.com/nextstrain/ncov/pull/1186)
 - 29 July 2025: Improved performance of calls to `augur filter`. This requires a minimum Augur version of 31.3.0. [PR 1178](https://github.com/nextstrain/ncov/pull/1178)
 - 28 January 2026: Large JSON files are now automatically minified. This requires a minimum Augur version of 33.0.0. [PR 1194](https://github.com/nextstrain/ncov/pull/1194)
@@ -13,10 +15,10 @@ We also use this change log to document new features that maintain backward comp
 - 26 June 2026: Remove orphan rules `find_clusters` and `extract_meta` (and the `cluster` config block) whose outputs were never consumed. [PR 1209](https://github.com/nextstrain/ncov/pull/1209)
 - 26 June 2026: Remove the stale `emerging_lineage`, `immune_escape`, and `ace2_binding` colorings, along with the now-unused `files.emerging_lineages` config parameter and `defaults/emerging_lineages.tsv`. The latter two colorings were computed from BA.2 deep-mutational-scanning data and are no longer accurate against current strains. [PR 1213](https://github.com/nextstrain/ncov/pull/1213)
 - 26 June 2026: Remove dead scripts, unused default data files, and the no-longer-used `outgroup` config option as part of a workflow cleanup. [PR 1208](https://github.com/nextstrain/ncov/pull/1208)
-- 6 July 2026: Include new clade 26B corresponding to Pango lineage XFG.3.4.1. See [PR 1206](https://github.com/nextstrain/ncov/pull/1206) for the rationale behind this clade update.
+- 6 July 2026: Include new clades 26A and 26B corresponding to Pango lineages XFG.1.1 and XFG.3.4.1. See [PR 1204](https://github.com/nextstrain/ncov/pull/1204) and [PR 1206](https://github.com/nextstrain/ncov/pull/1206) for the rationale behind these clades updates.
 - 6 July 2026: Remove the defunct `scripts/curate_metadata/` toolkit (manual geo/annotation curation and submitter-tweet scripts from the 2021–2022 GISAID-download era, not part of the build and dormant for years). [PR 1215](https://github.com/nextstrain/ncov/pull/1215)
-- 6 July 2026: Removed genetic-proximity (`priorities: type: proximity`) and file-based (`priorities: type: file`) prioritization from the default `region`, `country`, `division`, and `location` schemes, the tutorial, and CI; these now subsample by `group_by` + `seq_per_group`/`max_sequences`. The `priorities` option remains available as an opt-in for niche pseudo-contact-tracing builds, and `proximity_score` now adapts its chunk size to the focal-set size to bound memory and avoid OOM errors. [PR 1210](https://github.com/nextstrain/ncov/pull/1210)
-- 6 July 2026: Color Pango lineages live in Auspice, in correspondence with the clade coloring. Replaces the hard-coded Pango-lineage rows in `defaults/color_ordering.tsv` with dynamic assignment: `scripts/assign-clade-colors.py` colors clades and traits, then `scripts/assign-lineage-colors.py` colors each Pango lineage to match its clade, ordered by the Nextclade reference tree. [PR 1207](https://github.com/nextstrain/ncov/pull/1207)
+- 6 July 2026: Removed genetic-proximity (`priorities: type: proximity`) and file-based (`priorities: type: file`) prioritization from the default `region`, `country`, `division`, and `location` schemes, the tutorial, and CI; these now subsample by `group_by` + `seq_per_group`/`max_sequences`. The `priorities` option remains available as an opt-in for niche pseudo-contact-tracing builds, and `proximity_score` now adapts its chunk size to the focal-set size to bound memory and avoid out-of-memory errors. [PR 1210](https://github.com/nextstrain/ncov/pull/1210)
+- 6 July 2026: Color Pango lineages live in during workflow, in correspondence with the clade coloring. Replaces the hard-coded Pango-lineage rows in `defaults/color_ordering.tsv` with dynamic assignment: `scripts/assign-clade-colors.py` colors clades and traits, then `scripts/assign-lineage-colors.py` colors each Pango lineage to match its clade, ordered by the Nextclade reference tree. [PR 1207](https://github.com/nextstrain/ncov/pull/1207)
 
 ## v17 (17 July 2025)
 
