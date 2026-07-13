@@ -124,6 +124,7 @@ linkcheck_ignore = [
     # the top level bucket link 404s
     r'^https://data\.nextstrain\.org$',
     # they block the client, probably anti-scraping measure
+    r'^https://www\.cdc\.gov',
     r'^https://czgenepi\.org/resources',
     r'^https://science\.sciencemag\.org/content/early/2020/06/05/science\.abb9263',
     r'^https://www\.medrxiv\.org',
