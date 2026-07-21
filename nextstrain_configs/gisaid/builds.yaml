@@ -26,7 +26,7 @@ warning: >-
   are continuing at their regular weekly cadence.
 
 files:
-  description: "nextstrain_profiles/nextstrain-gisaid/nextstrain_description.md"
+  description: "nextstrain_configs/gisaid/nextstrain_description.md"
 
 inputs:
   - name: gisaid

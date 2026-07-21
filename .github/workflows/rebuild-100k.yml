@@ -27,7 +27,7 @@ jobs:
           --memory 12GiB \
           . \
             upload \
-            --configfile nextstrain_profiles/100k/config-open.yaml \
+            --configfile nextstrain_configs/100k/config-open.yaml \
             --config "${config[@]}" \
             --set-threads tree=2
       artifact-name: open-build-output

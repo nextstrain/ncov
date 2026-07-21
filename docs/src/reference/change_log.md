@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 9 July 2026: Moved configuration from `nextstrain_profiles` to `nextstrain_configs`. When using Snakemake, `--configfile` should be used instead of `--profile`.
+
 ## v18 (6 July 2026)
 
 - 10 October 2025: Add parameter `warning` to display provided string in warning banner in Auspice. This can be defined per build or at the top level config. [PR 1186](https://github.com/nextstrain/ncov/pull/1186)

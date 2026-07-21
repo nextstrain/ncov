@@ -11,6 +11,24 @@ We maintain a number of publicly-available builds, visible at [nextstrain.org/nc
 
 Visit [the workflow documentation](https://docs.nextstrain.org/projects/ncov) for tutorials and reference material.
 
+## Quick start
+
+1. [Install Nextstrain](https://docs.nextstrain.org/en/latest/install.html).
+2. Download the repository.
+
+    ```sh
+    git clone https://github.com/nextstrain/ncov.git
+    cd ncov
+    ```
+
+3. Run the workflow with a config file.
+
+    ```sh
+    nextstrain build . --configfile …
+    ```
+
+    Refer to the [nextstrain_configs](./nextstrain_configs/) folder for the config files used by [nextstrain.org/ncov](https://nextstrain.org/ncov), or use the [tutorial repo](https://github.com/nextstrain/ncov-tutorial) as a source of starter examples.
+
 ## Download formatted datasets
 
 The hCoV-19 / SARS-CoV-2 genomes were generously shared via GISAID. We gratefully acknowledge the Authors, Originating and Submitting laboratories of the genetic sequence and metadata made available through GISAID on which this research is based.

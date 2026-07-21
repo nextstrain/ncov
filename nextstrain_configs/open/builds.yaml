@@ -28,7 +28,7 @@ warning: >-
   submission portal](https://submit.ncbi.nlm.nih.gov/sarscov2/).
 
 files:
-  description: "nextstrain_profiles/nextstrain-open/nextstrain_description.md"
+  description: "nextstrain_configs/open/nextstrain_description.md"
 
 inputs:
   - name: open
