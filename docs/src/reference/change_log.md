@@ -5,6 +5,8 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 22 July 2026: The workflow now warns when a subsampling set is configured with filters that drop all sequences.
+
 ## v18 (6 July 2026)
 
 - 10 October 2025: Add parameter `warning` to display provided string in warning banner in Auspice. This can be defined per build or at the top level config. [PR 1186](https://github.com/nextstrain/ncov/pull/1186)

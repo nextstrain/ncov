@@ -282,7 +282,6 @@ rule subsample:
         """
     input:
         metadata = _get_unified_metadata,
-        include = config["files"]["include"],
         priorities = get_priorities,
         exclude = config["files"]["exclude"]
     output:
@@ -313,7 +312,6 @@ rule subsample:
         r"""
         augur filter \
             --metadata {input.metadata} \
-            --include {input.include} \
             --exclude {input.exclude} \
             {params.min_date} \
             {params.max_date} \
@@ -327,7 +325,8 @@ rule subsample:
             {params.sequences_per_group} \
             {params.subsample_max_sequences} \
             {params.sampling_scheme} \
-            --output-strains {output.strains} 2>&1 | tee {log}
+            --output-strains {output.strains} \
+            --empty-output-reporting warn 2>&1 | tee {log}
         """
 
 rule extract_subsampled_sequences:
@@ -424,12 +423,12 @@ rule priority_score:
 
 
 def _get_subsampled_files(wildcards):
-    subsampling_settings = _get_subsampling_settings(wildcards)
-
-    return [
+    files = [
         f"results/{wildcards.build_name}/sample-{subsample}.txt"
-        for subsample in subsampling_settings
+        for subsample in _get_subsampling_settings(wildcards)
     ]
+    files.append(config["files"]["include"])
+    return files
 
 rule combine_samples:
     input:
