@@ -3,9 +3,11 @@
 ## Contents
 
  1. [Setup](#setup)
- 1. [Data](#data)
- 1. [Running](#running)
- 1. [Releasing new workflow versions](#releasing-new-workflow-versions)
+ 2. [Data](#data)
+ 3. [Running](#running)
+ 4. [Releasing new workflow versions](#releasing-new-workflow-versions)
+ 5. [Proposing new clade designations](#proposing-new-clade-designations)
+ 6. [Running Core Nextstrain Builds](#running-core-nextstrain-builds)
 
 ## Running
 
@@ -23,6 +25,117 @@ Prior to merging a pull request that introduces a new backward incompatible chan
 
 We do not release new minor versions for new features, but you should document new features in the change log as part of the corresponding pull request under a heading for the date those features are merged.
 
+
+## Proposing new clade designations
+
+Designating a new Nextstrain clade is a judgement call on top of a quantitative threshold:
+a candidate Pango lineage should carry **≥1 spike mutation** relative to its parent clade and
+have risen to **>30% regional** or **>20% global** frequency (see the
+[clade-naming blog post](https://nextstrain.org/blog/2022-04-29-SARS-CoV-2-clade-naming-2022)).
+We keep a strict 1:1 mapping between a Pango lineage and a Nextstrain clade name, and prefer to
+demarcate on the branch with the larger fitness differential.
+
+`scripts/propose_clades.py` automates the *evidence gathering* for this. It runs entirely on
+**open** (GenBank/INSDC) data — which is what we have since GISAID API access was lost (see the
+[2026-02-24 blog post](https://nextstrain.org/blog/2026-02-24-gisaid-joint-response)) and doesn't
+directly edit `defaults/`. It assembles a ranked candidate dossier; a human (or Claude Code, 
+see below) makes the call and writes the edits.
+
+### Running the script
+
+The script runs on **open** or **GISAID** data via `--data-source`, uses only the Python
+standard library, and fetches every input live (cached under `results/clade_cache/`, re-pulled
+with `--refresh`):
+
+```sh
+# Open (GenBank/INSDC): live global + North America + Europe core builds
+python3 scripts/propose_clades.py --data-source open
+
+# GISAID: auto-discovers your group's latest dated 6m builds (global + all 6 regions)
+python3 scripts/propose_clades.py --data-source gisaid --group blab
+```
+
+Both fetch the [Nextclade reference tree](https://nextstrain.org/nextclade/nextstrain/sars-cov-2/wuhan-hu-1/orfs)
+for clean lineage-defining mutations + parent clade, and the Nextstrain 6m builds (via charon
+`getDataset`) for region-filtered tip-frequencies. **open** also queries the
+[LAPIS open API](https://lapis.cov-spectrum.org/open/v2/) for an exact per-lineage read and the
+open [forecasts-ncov MLR](https://nextstrain.github.io/forecasts-ncov/) for fitness; **gisaid**
+uses the GISAID MLR endpoint and skips LAPIS (no API access). GISAID builds come from the group's
+Nextstrain Groups uploads (`groups/<group>/ncov/gisaid/<region>/6m/<date>`), auto-discovered via
+charon `getAvailable` — the latest upload date is chosen automatically (`--gisaid-date` pins an
+older one; `--gisaid-url-template` with `{region}` overrides discovery).
+
+Each geography's frequency is computed over **only the tips from that geography** (global = the
+global build unfiltered; each region = its build filtered to `region == <Region>`, the
+`?f_region=<Region>` equivalent), from the build's **subsample counts**. The build subsample is
+population-weighted (`group_by country/month` + `population_weights`), which is the object historical
+clade frequencies use and is deliberately *less* country-biased than raw GISAID counts (recent "Asia"
+in raw metadata is ~54% Singapore, which the build caps).
+
+Rather than read a single latest-pivot value (which rests on a handful of recent, KDE-extrapolated
+sequences), the threshold is judged as a **one-sided test on a proportion**: slide a **fixed-N=50**
+window of date-sorted tips across a backward-looking band (**~6 months ago → ~3 weeks ago**, the lag
+guard) and flag only if the **one-sided 95% Wilson lower bound** (rough Bonferroni over the
+effective independent windows, `m ≈ band/4wk`) clears the threshold (>20% global / >30% regional) in
+**some** window. Fixing the *sample size* (not the time-width) avoids splitting a real peak across
+under-powered windows; a flag therefore means *confidently* over the line, not a noisy point estimate
+(at N=50 the effective point-estimate bar is ≈46% regional / ≈34% global — `N` is a knob). A geography
+with **< 50** tips in the band reports `insufficient` and never flags. The dossier reports each flag's
+**peak window** (`peak X% [n, as of <date>, lo Y%]`) and the **current** window, so a lineage that was
+dominant months ago still surfaces, with its trajectory.
+
+Useful flags: `--window-n`, `--lookback-months`, `--lag-days`, `--refresh`, `--skip-lapis` /
+`--skip-mlr` / `--skip-regional`, and `--designation-year` (defaults to the current year — the name's
+year is the *designation* year, not emergence). Run `python3 scripts/propose_clades.py --help` for all.
+
+Outputs are written to (git-ignored) `results/`: `clade_candidates.md` (the human-readable dossier)
+and `clade_candidates.json` (the same data, structured, with paste-ready file edits).
+
+### Intended path for Claude Code
+
+This tool is designed to be driven by [Claude Code](https://claude.com/claude-code) via the
+`designate-clades` skill (`.claude/skills/designate-clades/SKILL.md`). The skill walks through the
+full loop:
+
+1. Run `scripts/propose_clades.py` and read `results/clade_candidates.md`.
+2. For each flagged candidate, cross-check against the live resources (the open builds at
+   `nextstrain.org/ncov/open/{global,north-america,europe}/6m`, the Cov-Spectrum lineage page,
+   forecasts-ncov, and the Nextclade reference tree).
+3. Decide the demarcation: among nested candidate lineages, elevate the one where the MLR growth
+   advantage jumps most and frequency is rising; or decline if it is just slicing the current
+   dominant clade finer.
+4. Write the edits (see below) and validate them.
+5. Draft the PR.
+
+Open the skill in a Claude Code session in this repo and ask it to find or designate new clades.
+
+### How a designation PR is made
+
+A designation edits five files in `defaults/` (the dossier prints a paste-ready block per
+candidate; trim the `clades.tsv` nuc rows to a characteristic handful — the spike-linked rows are
+flagged for you):
+
+1. `clades.tsv` — `<NAME>\tclade\t<PARENT>` plus a few `<NAME>\tnuc\t<site>\t<alt>` rows
+2. `clade_display_names.yml` — `<NAME>: <NAME> (<Pango>)`
+3. `clade_hierarchy.tsv` — `<NAME>\t<PARENT>\t<WHO>`
+4. `clade_emergence_dates.tsv` — `<NAME>\t<YYYY-MM-01>` (the lineage's first-seen date)
+5. `color_ordering.tsv` — `clade_membership\t<NAME> (<Pango>)`
+
+Validate that the new definition parses and inherits correctly through Augur (needs a Python
+environment with `augur` installed, e.g. the workflow's conda environment):
+
+```sh
+scripts/expand-clade-definitions defaults/clades.tsv | grep "^<NAME>"
+```
+
+Then open a pull request in the style of
+[#1149](https://github.com/nextstrain/ncov/pull/1149),
+[#1152](https://github.com/nextstrain/ncov/pull/1152),
+[#1158](https://github.com/nextstrain/ncov/pull/1158), and
+[#1192](https://github.com/nextstrain/ncov/pull/1192). The justification should state the new clade
+name and its Pango lineage, the parent clade, the defining spike mutations, the frequency evidence
+(with regions and numbers), the MLR growth advantage, and a one-line note on the demarcation
+choice. Keep the dossier's exact numbers in the PR body so reviewers can trace them.
 
 ## Running Core Nextstrain Builds
 
@@ -63,12 +176,12 @@ snakemake -pf upload deploy \
 ```
 
 
-## Triggering routine builds
+### Triggering routine builds
 
 Typically, everything’s triggered from the  `ncov-ingest` pipeline’s `trigger` command.
 After updating the intermediate files, that command will run the phylogenetic `ncov` pipelines (step 3, above) force-requiring the rules `deploy` and `upload`.
 
-## Triggering trial builds
+### Triggering trial builds
 
 This repository contains GitHub Actions `rebuild-gisaid` and `rebuild-open` which can be manually run [via github.com](https://github.com/nextstrain/ncov/actions).
 These will run the respective phylogenetic build pipelines starting from the preprocessed (filtered) files.
