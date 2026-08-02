@@ -909,6 +909,31 @@ rule distances:
             --output {output}
         """
 
+rule cumulative_distances:
+    input:
+        tree = rules.refine.output.tree,
+        alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
+        distance_maps = ["defaults/distance_maps/S1.json"]
+    params:
+        genes = 'S',
+        attribute_names = 'S1_cumulative_mutations'
+    output:
+        node_data = "results/{build_name}/cumulative_distances.json"
+    log:
+        "logs/cumulative_distances_{build_name}.txt"
+    conda:
+        config["conda_environment"]
+    shell:
+        r"""
+        python3 scripts/root_to_node_distance.py \
+            --tree {input.tree} \
+            --alignment {input.alignments} \
+            --gene-names {params.genes} \
+            --map {input.distance_maps} \
+            --attribute-name {params.attribute_names} \
+            --output {output.node_data} 2>&1 | tee {log}
+        """
+
 rule traits:
     message:
         """
@@ -1197,6 +1222,7 @@ def _get_node_data_by_wildcards(wildcards):
         rules.traits.output.node_data,
         rules.mlr_lineage_fitness.output.node_data,
         rules.distances.output.node_data,
+        rules.cumulative_distances.output.node_data,
         rules.calculate_epiweeks.output.node_data,
     ]
 
