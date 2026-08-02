@@ -98,6 +98,7 @@ def export_population_weights(output):
         "Donetsk": 1,
         "Kherson Region": 1,
         "Lugansk": 2,
+        "Zaporizhzhia Region": 1,
     }
     additional_df = pd.DataFrame.from_dict(additional_countries, orient='index', columns=['weight'])
     additional_df.index.name = 'country'
