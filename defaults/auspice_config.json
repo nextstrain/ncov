@@ -21,11 +21,6 @@
       "type": "continuous"
     },
     {
-      "key": "S1_cumulative_mutations",
-      "title": "S1 mutations (cumulative)",
-      "type": "continuous"
-    },
-    {
       "key": "mlr_lineage_fitness",
       "title": "MLR lineage fitness",
       "type": "continuous"

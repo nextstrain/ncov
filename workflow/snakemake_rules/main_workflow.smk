@@ -884,31 +884,6 @@ rule translate:
             --output {output.node_data} 2>&1 | tee {log}
         """
 
-rule distances:
-    input:
-        tree = rules.refine.output.tree,
-        alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
-        distance_maps = ["defaults/distance_maps/S1.json"]
-    params:
-        genes = 'S',
-        comparisons = ['root'],
-        attribute_names = ['S1_mutations']
-    output:
-        node_data = "results/{build_name}/distances.json"
-    conda:
-        config["conda_environment"]
-    shell:
-        r"""
-        augur distance \
-            --tree {input.tree} \
-            --alignment {input.alignments} \
-            --gene-names {params.genes} \
-            --compare-to {params.comparisons} \
-            --attribute-name {params.attribute_names} \
-            --map {input.distance_maps} \
-            --output {output}
-        """
-
 rule cumulative_distances:
     input:
         tree = rules.refine.output.tree,
@@ -916,7 +891,7 @@ rule cumulative_distances:
         distance_maps = ["defaults/distance_maps/S1.json"]
     params:
         genes = 'S',
-        attribute_names = 'S1_cumulative_mutations'
+        attribute_names = 'S1_mutations'
     output:
         node_data = "results/{build_name}/cumulative_distances.json"
     log:
@@ -1221,7 +1196,6 @@ def _get_node_data_by_wildcards(wildcards):
         rules.recency.output.node_data,
         rules.traits.output.node_data,
         rules.mlr_lineage_fitness.output.node_data,
-        rules.distances.output.node_data,
         rules.cumulative_distances.output.node_data,
         rules.calculate_epiweeks.output.node_data,
     ]
