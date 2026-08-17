@@ -129,6 +129,7 @@ linkcheck_ignore = [
     r'^https://science\.sciencemag\.org/content/early/2020/06/05/science\.abb9263',
     r'^https://www\.medrxiv\.org',
     r'^https://github\.com/signup',
+    r'^https://www\.nytimes\.com',
     # this link is correct but the lack of a top-level dataset means
     # it 404s initially — because the point of this link is showing
     # the community page, allow it to fail here:
