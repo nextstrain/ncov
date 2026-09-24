@@ -138,6 +138,28 @@ def fetch_build(prefix, cache_dir, refresh=False):
     return Build(tree, tf)
 
 
+def load_build_local(main_path):
+    """Build from local auspice JSONs: <name>.json + <name>_tip-frequencies.json sidecar."""
+    if main_path.endswith(".json"):
+        tf_path = main_path[:-len(".json")] + "_tip-frequencies.json"
+    else:
+        tf_path = main_path + "_tip-frequencies.json"
+    with open(main_path) as fh:
+        tree = json.load(fh)
+    with open(tf_path) as fh:
+        tf = json.load(fh)
+    return Build(tree, tf)
+
+
+def build_updated(main_path):
+    """The build's meta.updated (YYYY-MM-DD) if present, else None."""
+    try:
+        with open(main_path) as fh:
+            return json.load(fh).get("meta", {}).get("updated")
+    except Exception:
+        return None
+
+
 def discover_gisaid_prefixes(group, pin_date=None):
     """
     Find this group's GISAID 6m datasets via charon getAvailable.
@@ -925,6 +947,11 @@ def main():
     parser.add_argument("--gisaid-url-template", default=None,
                         help="Override discovery with an explicit dataset-path template containing '{region}', "
                              "e.g. /groups/blab/ncov/gisaid/{region}/6m/2026-06-25")
+    parser.add_argument("--local-dir", default=None,
+                        help="Read GISAID builds from local auspice JSONs in this directory "
+                             "(ncov_gisaid_<region>_6m.json + _tip-frequencies.json) instead of fetching "
+                             "from charon. Verify-link prefixes point at the uploaded group datasets, dated "
+                             "from --gisaid-date or each build's meta.updated. Implies --data-source gisaid.")
     parser.add_argument("--clades", default=os.path.join(REPO_ROOT, "defaults", "clades.tsv"))
     parser.add_argument("--display-names", default=os.path.join(REPO_ROOT, "defaults", "clade_display_names.yml"))
     parser.add_argument("--cache-dir", default=os.path.join(REPO_ROOT, "results", "clade_cache"))
@@ -954,9 +981,38 @@ def main():
     ref = RefTree(ref_json)
     ref_updated = ref_json.get("meta", {}).get("updated", "?")
 
-    source = args.data_source
+    source = "gisaid" if args.local_dir else args.data_source
     gisaid_date = None
-    if source == "open":
+    local_paths = None
+    if args.local_dir:
+        # Read builds straight from local auspice JSONs (no charon fetch). Matches both the
+        # fresh ncov_gisaid_<region>_6m.json and the deployed, date-stamped
+        # ncov_gisaid_<region>_6m_<date>.json (latest date wins; --gisaid-date narrows).
+        # Verify-link prefixes point at the uploaded group datasets, dated from the filename,
+        # --gisaid-date, or the build's meta.updated.
+        import glob, re
+        def _find_local(region):
+            cands = [p for p in glob.glob(os.path.join(args.local_dir, f"ncov_gisaid_{region}_6m*.json"))
+                     if not p.endswith(("_tip-frequencies.json", "_root-sequence.json"))]
+            if args.gisaid_date:
+                cands = [p for p in cands if args.gisaid_date in p] or cands
+            return sorted(cands)[-1] if cands else None
+        local_paths = {}
+        for r in ["global"] + list(REGION_NAMES):
+            p = _find_local(r)
+            if p:
+                local_paths[r] = p
+        if "global" not in local_paths:
+            sys.exit(f"ERROR: no local global build (ncov_gisaid_global_6m*.json) in {args.local_dir}")
+        m = re.search(r"(\d{4}-\d{2}-\d{2})", os.path.basename(local_paths["global"]))
+        gisaid_date = args.gisaid_date or (m.group(1) if m else None) or build_updated(local_paths["global"])
+        if args.gisaid_url_template:
+            prefixes = {r: args.gisaid_url_template.format(region=r) for r in local_paths}
+        elif gisaid_date:
+            prefixes = {r: f"/groups/{args.group}/ncov/gisaid/{r}/6m/{gisaid_date}" for r in local_paths}
+        else:
+            prefixes = {r: None for r in local_paths}  # no verify links without a date
+    elif source == "open":
         prefixes = {r: f"/ncov/open/{r}/6m" for r in OPEN_REGIONS}
     elif args.gisaid_url_template:
         prefixes = {r: args.gisaid_url_template.format(region=r)
@@ -974,18 +1030,24 @@ def main():
         if r == "global":
             continue
         if prefixes.pop(r, None) is not None:
+            if local_paths is not None:
+                local_paths.pop(r, None)
             print(f"Skipping region: {r}", file=sys.stderr)
         else:
             print(f"  ! --skip-regions: '{r}' is not an analyzed region; ignoring", file=sys.stderr)
 
     builds = {}
-    for region, prefix in prefixes.items():
+    for region in prefixes:
         try:
-            print(f"Fetching {source} {region} build ...", file=sys.stderr)
-            builds[region] = fetch_build(prefix, cache_dir)
+            if local_paths is not None:
+                print(f"Loading local {region} build from {local_paths[region]} ...", file=sys.stderr)
+                builds[region] = load_build_local(local_paths[region])
+            else:
+                print(f"Fetching {source} {region} build ...", file=sys.stderr)
+                builds[region] = fetch_build(prefixes[region], cache_dir)
         except Exception as exc:
             if region == "global":
-                sys.exit(f"ERROR: could not load global build {prefix}: {exc}")
+                sys.exit(f"ERROR: could not load global build: {exc}")
             print(f"  ! skipping {region} build ({exc})", file=sys.stderr)
     latest_pivot = builds["global"].pivots[-1]
 
@@ -1090,7 +1152,7 @@ def main():
         sites = [r["site"] for r in rec["nuc_rows"]]
         links = []
         for geo, a in rec["frequency"]["build"].items():
-            if a and a.get("flagged") and geo in prefixes:
+            if a and a.get("flagged") and prefixes.get(geo):
                 region_attr = None if geo == "global" else REGION_NAMES.get(geo)
                 links.append({"geo": geo, "label": _geo_label(geo),
                               "peak": a["peak"]["p_hat"],
