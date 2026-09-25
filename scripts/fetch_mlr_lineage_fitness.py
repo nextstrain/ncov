@@ -11,8 +11,8 @@ from augur.io import write_json
 # that backs the live estimates on https://nextstrain.org/sars-cov-2/forecasts
 # This uses "Nextclade_pango" metadata label to derive sequence counts from
 # GISAID data and estimate relative growth advantages across collapsed Pango
-# lineages. It will be most relevant for 1m, 2m and 6m builds, but is not at all
-# broken for the all-time builds. It would be possible to swap this to key on
+# lineages. It will be most relevant for 2m and 6m builds, but is not at all
+# broken for the 2y and all-time builds. It would be possible to swap this to key on
 # clade instead, but I think the greater detail of lineages is better in this case
 
 def fetch_growth_advantages(mlr_url):

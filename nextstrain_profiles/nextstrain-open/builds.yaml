@@ -47,22 +47,18 @@ builds:
   reference:
     subsampling_scheme: nextstrain_reference
     title: Genomic epidemiology of SARS-CoV-2 with clade-focused subsampling
-  global_1m:
-    subsampling_scheme: nextstrain_global_1m
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past month
   global_2m:
     subsampling_scheme: nextstrain_global_2m
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past 2 months
   global_6m:
     subsampling_scheme: nextstrain_global_6m
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past 6 months
+  global_2y:
+    subsampling_scheme: nextstrain_global_2y
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally over the past 2 years
   global_all-time:
     subsampling_scheme: nextstrain_global_all_time
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused globally since pandemic start
-  africa_1m:
-    subsampling_scheme: nextstrain_region_1m
-    region: Africa
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past month
   africa_2m:
     subsampling_scheme: nextstrain_region_2m
     region: Africa
@@ -71,14 +67,14 @@ builds:
     subsampling_scheme: nextstrain_region_6m
     region: Africa
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past 6 months
+  africa_2y:
+    subsampling_scheme: nextstrain_region_2y
+    region: Africa
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa over the past 2 years
   africa_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: Africa
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Africa since pandemic start
-  asia_1m:
-    subsampling_scheme: nextstrain_region_1m
-    region: Asia
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia over the past month
   asia_2m:
     subsampling_scheme: nextstrain_region_2m
     region: Asia
@@ -87,14 +83,14 @@ builds:
     subsampling_scheme: nextstrain_region_6m
     region: Asia
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia over the past 6 months
+  asia_2y:
+    subsampling_scheme: nextstrain_region_2y
+    region: Asia
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia over the past 2 years
   asia_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: Asia
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Asia since pandemic start
-  europe_1m:
-    subsampling_scheme: nextstrain_region_1m
-    region: Europe
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past month
   europe_2m:
     subsampling_scheme: nextstrain_region_2m
     region: Europe
@@ -103,14 +99,14 @@ builds:
     subsampling_scheme: nextstrain_region_6m
     region: Europe
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past 6 months
+  europe_2y:
+    subsampling_scheme: nextstrain_region_2y
+    region: Europe
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe over the past 2 years
   europe_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: Europe
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Europe since pandemic start
-  north-america_1m:
-    subsampling_scheme: nextstrain_region_1m
-    region: North America
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past month
   north-america_2m:
     subsampling_scheme: nextstrain_region_2m
     region: North America
@@ -119,14 +115,14 @@ builds:
     subsampling_scheme: nextstrain_region_6m
     region: North America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past 6 months
+  north-america_2y:
+    subsampling_scheme: nextstrain_region_2y
+    region: North America
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America over the past 2 years
   north-america_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: North America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on North America since pandemic start
-  oceania_1m:
-    subsampling_scheme: nextstrain_region_1m
-    region: Oceania
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past month
   oceania_2m:
     subsampling_scheme: nextstrain_region_2m
     region: Oceania
@@ -135,14 +131,14 @@ builds:
     subsampling_scheme: nextstrain_region_6m
     region: Oceania
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past 6 months
+  oceania_2y:
+    subsampling_scheme: nextstrain_region_2y
+    region: Oceania
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania over the past 2 years
   oceania_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: Oceania
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on Oceania since pandemic start
-  south-america_1m:
-    subsampling_scheme: nextstrain_region_1m
-    region: South America
-    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past month
   south-america_2m:
     subsampling_scheme: nextstrain_region_2m
     region: South America
@@ -151,6 +147,10 @@ builds:
     subsampling_scheme: nextstrain_region_6m
     region: South America
     title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past 6 months
+  south-america_2y:
+    subsampling_scheme: nextstrain_region_2y
+    region: South America
+    title: Genomic epidemiology of SARS-CoV-2 with subsampling focused on South America over the past 2 years
   south-america_all-time:
     subsampling_scheme: nextstrain_region_all_time
     region: South America
@@ -167,39 +167,6 @@ subsampling:
     clades:
       group_by: "Nextstrain_clade"
       max_sequences: 300
-
-  # Custom subsampling logic for a region over 1m
-  # Grouping by country weighted by population size
-  # 4375 total
-  # 4:1 ratio of recent to early
-  # 4:1 ratio of focal to context
-  nextstrain_region_1m:
-    # Early focal samples for region
-    region_early:
-      group_by: "country year month"
-      group_by_weights: "defaults/population_weights.tsv"
-      max_sequences: 700
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region!={region}'"
-    # Early contextual samples from the rest of the world
-    context_early:
-      group_by: "country year month"
-      max_sequences: 175
-      max_date: "--max-date 1M"
-      exclude: "--exclude-where 'region={region}'"
-    # Recent focal samples for region
-    region_recent:
-      group_by: "country week"
-      group_by_weights: "defaults/population_weights.tsv"
-      max_sequences: 2800
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region!={region}'"
-    # Early contextual samples from the rest of the world
-    context_recent:
-      group_by: "country week"
-      max_sequences: 700
-      min_date: "--min-date 1M"
-      exclude: "--exclude-where 'region={region}'"
 
   # Custom subsampling logic for a region over 2m
   # Grouping by country weighted by population size
@@ -267,6 +234,39 @@ subsampling:
       min_date: "--min-date 6M"
       exclude: "--exclude-where 'region={region}'"
 
+  # Custom subsampling logic for a region over 2y
+  # Grouping by country weighted by population size
+  # 4375 total
+  # 4:1 ratio of recent to early
+  # 4:1 ratio of focal to context
+  nextstrain_region_2y:
+    # Early focal samples for region
+    region_early:
+      group_by: "country year month"
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 700
+      max_date: "--max-date 2Y"
+      exclude: "--exclude-where 'region!={region}'"
+    # Early contextual samples from the rest of the world
+    context_early:
+      group_by: "country year month"
+      max_sequences: 175
+      max_date: "--max-date 2Y"
+      exclude: "--exclude-where 'region={region}'"
+    # Recent focal samples for region
+    region_recent:
+      group_by: "country year month"
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 2800
+      min_date: "--min-date 2Y"
+      exclude: "--exclude-where 'region!={region}'"
+    # Early contextual samples from the rest of the world
+    context_recent:
+      group_by: "country year month"
+      max_sequences: 700
+      min_date: "--min-date 2Y"
+      exclude: "--exclude-where 'region={region}'"
+
   # Custom subsampling logic for a region over all-time
   # Grouping by country weighted by population size
   # 4375 total
@@ -283,20 +283,6 @@ subsampling:
       group_by: "country year month"
       max_sequences: 875
       exclude: "--exclude-where 'region={region}'"
-
-  # Custom subsampling logic for global region over 1m
-  # 5125 total (expect ~3400)
-  # 4:1 ratio of recent to early
-  nextstrain_global_1m:
-    early:
-      group_by: "country year month"
-      group_by_weights: "defaults/population_weights.tsv"
-      max_sequences: 1025
-      max_date: "--max-date 1M"
-    recent:
-      group_by: "country week"
-      max_sequences: 4100
-      min_date: "--min-date 1M"
 
   # Custom subsampling logic for global region over 2m
   # 5125 total (expect ~3400)
@@ -326,6 +312,20 @@ subsampling:
       max_sequences: 4100
       min_date: "--min-date 6M"
 
+  # Custom subsampling logic for global region over 2y
+  # 5125 total (expect ~3400)
+  # 4:1 ratio of recent to early
+  nextstrain_global_2y:
+    early:
+      group_by: "country year month"
+      group_by_weights: "defaults/population_weights.tsv"
+      max_sequences: 1025
+      max_date: "--max-date 2Y"
+    recent:
+      group_by: "country year month"
+      max_sequences: 4100
+      min_date: "--min-date 2Y"
+
   # Custom subsampling logic for global region over all-time
   # 4320 total (expect ~3200)
   nextstrain_global_all_time:
@@ -344,48 +344,48 @@ refine:
 colors:
   default:
     clade_recency: "all"
-  global_1m:
-    clade_recency: "1M"
   global_2m:
     clade_recency: "2M"
   global_6m:
     clade_recency: "6M"
-  africa_1m:
-    clade_recency: "1M"
+  global_2y:
+    clade_recency: "2Y"
   africa_2m:
     clade_recency: "2M"
   africa_6m:
     clade_recency: "6M"
-  asia_1m:
-    clade_recency: "1M"
+  africa_2y:
+    clade_recency: "2Y"
   asia_2m:
     clade_recency: "2M"
   asia_6m:
     clade_recency: "6M"
-  europe_1m:
-    clade_recency: "1M"
+  asia_2y:
+    clade_recency: "2Y"
   europe_2m:
     clade_recency: "2M"
   europe_6m:
     clade_recency: "6M"
-  north-america_1m:
-    clade_recency: "1M"
+  europe_2y:
+    clade_recency: "2Y"
   north-america_2m:
     clade_recency: "2M"
   north-america_6m:
     clade_recency: "6M"
-  oceania_1m:
-    clade_recency: "1M"
+  north-america_2y:
+    clade_recency: "2Y"
   oceania_2m:
     clade_recency: "2M"
   oceania_6m:
     clade_recency: "6M"
-  south-america_1m:
-    clade_recency: "1M"
+  oceania_2y:
+    clade_recency: "2Y"
   south-america_2m:
     clade_recency: "2M"
   south-america_6m:
     clade_recency: "6M"
+  south-america_2y:
+    clade_recency: "2Y"
 
 # if different traits should be reconstructed for some builds, specify here
 # otherwise the default trait config in defaults/parameters.yaml will used
@@ -393,31 +393,28 @@ traits:
   reference:
     sampling_bias_correction: 2.5
     columns: ["region"]
-  global_1m:
-    sampling_bias_correction: 2.5
-    columns: ["region"]
   global_2m:
     sampling_bias_correction: 2.5
     columns: ["region"]
   global_6m:
     sampling_bias_correction: 2.5
     columns: ["region"]
+  global_2y:
+    sampling_bias_correction: 2.5
+    columns: ["region"]
   global_all-time:
     sampling_bias_correction: 2.5
     columns: ["region"]
-  africa_1m:
-    sampling_bias_correction: 2.5
-    columns: ["country"]
   africa_2m:
     sampling_bias_correction: 2.5
     columns: ["country"]
   africa_6m:
     sampling_bias_correction: 2.5
     columns: ["country"]
-  africa_all-time:
+  africa_2y:
     sampling_bias_correction: 2.5
     columns: ["country"]
-  asia_1m:
+  africa_all-time:
     sampling_bias_correction: 2.5
     columns: ["country"]
   asia_2m:
@@ -426,10 +423,10 @@ traits:
   asia_6m:
     sampling_bias_correction: 2.5
     columns: ["country"]
-  asia_all-time:
+  asia_2y:
     sampling_bias_correction: 2.5
     columns: ["country"]
-  europe_1m:
+  asia_all-time:
     sampling_bias_correction: 2.5
     columns: ["country"]
   europe_2m:
@@ -438,22 +435,22 @@ traits:
   europe_6m:
     sampling_bias_correction: 2.5
     columns: ["country"]
+  europe_2y:
+    sampling_bias_correction: 2.5
+    columns: ["country"]
   europe_all-time:
     sampling_bias_correction: 2.5
     columns: ["country"]
-  north-america_1m:
-    sampling_bias_correction: 2.5
-    columns: ["division"]
   north-america_2m:
     sampling_bias_correction: 2.5
     columns: ["division"]
   north-america_6m:
     sampling_bias_correction: 2.5
     columns: ["division"]
-  north-america_all-time:
+  north-america_2y:
     sampling_bias_correction: 2.5
     columns: ["division"]
-  oceania_1m:
+  north-america_all-time:
     sampling_bias_correction: 2.5
     columns: ["division"]
   oceania_2m:
@@ -462,16 +459,19 @@ traits:
   oceania_6m:
     sampling_bias_correction: 2.5
     columns: ["division"]
+  oceania_2y:
+    sampling_bias_correction: 2.5
+    columns: ["division"]
   oceania_all-time:
     sampling_bias_correction: 2.5
     columns: ["division"]
-  south-america_1m:
-    sampling_bias_correction: 2.5
-    columns: ["country"]
   south-america_2m:
     sampling_bias_correction: 2.5
     columns: ["country"]
   south-america_6m:
+    sampling_bias_correction: 2.5
+    columns: ["country"]
+  south-america_2y:
     sampling_bias_correction: 2.5
     columns: ["country"]
   south-america_all-time:
@@ -479,66 +479,59 @@ traits:
     columns: ["country"]
 
 # Define frequencies parameters
-# Target frequencies to "1m", "2m", "6m" and "all-time" builds
-# narrow_bandwidth = 0.019 or 7 days for "1m" and "2m"
-# narrow_bandwidth = 0.038 or 14 days for "6m" and "all-time"
+# Target frequencies to "2m", "6m", "2y" and "all-time" builds
+# narrow_bandwidth = 0.019 or 7 days for "2m"
+# narrow_bandwidth = 0.038 or 14 days for "6m", "2y" and "all-time"
 frequencies:
   default:
     min_date: "2020-01-01"
     narrow_bandwidth: 0.038
-  global_1m:
-    min_date: "1M"
-    narrow_bandwidth: 0.019
   global_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
   global_6m:
     min_date: "6M"
-  africa_1m:
-    min_date: "1M"
-    narrow_bandwidth: 0.019
+  global_2y:
+    min_date: "2Y"
   africa_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
   africa_6m:
     min_date: "6M"
-  asia_1m:
-    min_date: "1M"
-    narrow_bandwidth: 0.019
+  africa_2y:
+    min_date: "2Y"
   asia_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
   asia_6m:
     min_date: "6M"
-  europe_1m:
-    min_date: "1M"
-    narrow_bandwidth: 0.019
+  asia_2y:
+    min_date: "2Y"
   europe_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
   europe_6m:
     min_date: "6M"
-  north-america_1m:
-    min_date: "1M"
-    narrow_bandwidth: 0.019
+  europe_2y:
+    min_date: "2Y"
   north-america_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
   north-america_6m:
     min_date: "6M"
-  oceania_1m:
-    min_date: "1M"
-    narrow_bandwidth: 0.019
+  north-america_2y:
+    min_date: "2Y"
   oceania_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
   oceania_6m:
     min_date: "6M"
-  south-america_1m:
-    min_date: "1M"
-    narrow_bandwidth: 0.019
+  oceania_2y:
+    min_date: "2Y"
   south-america_2m:
     min_date: "2M"
     narrow_bandwidth: 0.019
   south-america_6m:
     min_date: "6M"
+  south-america_2y:
+    min_date: "2Y"
