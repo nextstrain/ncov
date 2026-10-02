@@ -1021,8 +1021,8 @@ frequencies
      default:
        min_date: "6M"
        narrow_bandwidth: 0.038
-     global_1m:
-       min_date: "1M"
+     global_2m:
+       min_date: "2M"
        narrow_bandwidth: 0.019
      global_2020_to_2022:
        min_date: "2020-01-01"

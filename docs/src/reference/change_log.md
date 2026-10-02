@@ -5,6 +5,7 @@ We also use this change log to document new features that maintain backward comp
 
 ## New features since last version update
 
+- 25 September 2026: Replace the `1m` (past month) timespan builds with `2y` (past 2 years) timespan builds in the open and GISAID profiles. Each region now provides `2m`, `6m`, `2y`, and `all-time` views; the `2y` build mirrors the `6m` recent/early subsampling design over a two-year window.
 - 22 July 2026: The workflow now warns when a subsampling set is configured with filters that drop all sequences.
 
 ## v18 (6 July 2026)
