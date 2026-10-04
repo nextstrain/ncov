@@ -676,5 +676,6 @@
       "685": 1
     }
   },
+  "ignored_characters": ["-", "X", "N"],
   "name": "S1"
 }
