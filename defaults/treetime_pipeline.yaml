@@ -1,0 +1,39 @@
+# TreeTime pipeline template, run by rule `treetime_pipeline` in
+# workflow/snakemake_rules/main_workflow.smk. It replaces the former augur
+# refine, ancestral, translate and traits steps.
+#
+# The rule fills in the per-build values that are not listed here: the input
+# files and output paths of every step, the root (`refine.root` in the
+# snakemake config -> `outgroup` of timetree), the trait column and the sampling bias
+# correction (`traits` in the snakemake config -> `mugration`).
+steps:
+  # optimize the branch lengths of the raw tree for the likelihood of the
+  # filtered alignment, as input to the timetree
+  - name: optimize
+    optimize:
+      model: infer
+
+  # augur refine --timetree
+  - name: timetree
+    timetree:
+      clock_rate: 0.0008
+      clock_std_dev: 0.0004
+      clock_filter: 8
+      coalescent: opt
+      confidence: true
+      divergence_units: mutations
+      # polytomies are resolved stochastically; set `keep_polytomies: true` to keep them
+      keep_polytomies: false
+
+  # augur ancestral --infer-ambiguous + explicit_translation.py:
+  # nucleotide and amino acid mutations in one go
+  - name: ancestral
+    ancestral:
+      method_anc: marginal
+      impute_missing_data: true
+      allow_missing_sequences: true
+
+  # augur traits --confidence (sampling_bias_correction is set per build via `traits` in the snakemake config)
+  - name: traits
+    mugration:
+      confidence: true

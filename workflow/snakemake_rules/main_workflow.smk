@@ -766,128 +766,131 @@ rule tree:
             --nthreads {threads} 2>&1 | tee {log}
         """
 
-rule refine:
+rule treetime_pipeline:
     message:
         """
-        Refining tree
-          - estimate timetree
-          - use {params.coalescent} coalescent timescale
-          - estimate {params.date_inference} node dates
+        Running the treetime pipeline
+          - optimize the branch lengths
+          - estimate timetree (rooted on {params.root})
+          - reconstruct ancestral nucleotide sequences, translations and mutations
+          - infer ancestral traits for {params.columns!s}
+            (increase uncertainty of reconstruction by {params.sampling_bias_correction} to partially account for sampling bias)
         """
     input:
         tree = rules.tree.output.tree,
-        alignment = "results/{build_name}/filtered.fasta",
-        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
-    output:
-        tree = "results/{build_name}/tree.nwk",
-        node_data = "results/{build_name}/branch_lengths.json"
-    log:
-        "logs/refine_{build_name}.txt"
-    benchmark:
-        "benchmarks/refine_{build_name}.txt"
-    threads: 1
-    resources:
-        # Multiple sequence alignments can use up to 15 times their disk size in
-        # memory.
-        mem_mb=lambda wildcards, input: 15 * int(input.size_mb)
-    params:
-        root = config["refine"]["root"],
-        clock_rate = config["refine"]["clock_rate"],
-        clock_std_dev = config["refine"]["clock_std_dev"],
-        coalescent = config["refine"]["coalescent"],
-        date_inference = config["refine"]["date_inference"],
-        divergence_unit = config["refine"]["divergence_unit"],
-        clock_filter_iqd=f"--clock-filter-iqd {config['refine']['clock_filter_iqd']}" if config["refine"].get("clock_filter_iqd") else "",
-        keep_polytomies = "--keep-polytomies" if config["refine"].get("keep_polytomies", False) else "--stochastic-resolve",
-        timetree = "" if config["refine"].get("no_timetree", False) else "--timetree"
-    conda: config["conda_environment"]
-    shell:
-        r"""
-        augur refine \
-            --tree {input.tree} \
-            --alignment {input.alignment} \
-            --metadata {input.metadata} \
-            --output-tree {output.tree} \
-            --output-node-data {output.node_data} \
-            --root {params.root} \
-            {params.timetree} \
-            {params.keep_polytomies} \
-            --clock-rate {params.clock_rate} \
-            --clock-std-dev {params.clock_std_dev} \
-            --coalescent {params.coalescent} \
-            --date-inference {params.date_inference} \
-            --divergence-unit {params.divergence_unit} \
-            --date-confidence \
-            --no-covariance \
-            {params.clock_filter_iqd} 2>&1 | tee {log}
-        """
-
-rule ancestral:
-    message:
-        """
-        Reconstructing ancestral sequences and mutations
-          - inferring ambiguous mutations
-        """
-    input:
-        tree = rules.refine.output.tree,
+        filtered_alignment = "results/{build_name}/filtered.fasta",
         alignment = "results/{build_name}/aligned.fasta",
-    output:
-        node_data = "results/{build_name}/nt_muts.json"
-    log:
-        "logs/ancestral_{build_name}.txt"
-    benchmark:
-        "benchmarks/ancestral_{build_name}.txt"
-    params:
-        inference = config["ancestral"]["inference"]
-    resources:
-        # Multiple sequence alignments can use up to 15 times their disk size in
-        # memory.
-        mem_mb=lambda wildcards, input: 15 * int(input.size_mb)
-    conda: config["conda_environment"]
-    shell:
-        r"""
-        augur ancestral \
-            --tree {input.tree} \
-            --alignment {input.alignment} \
-            --output-node-data {output.node_data} \
-            --inference {params.inference} \
-            --infer-ambiguous 2>&1 | tee {log}
-        """
-
-rule translate:
-    message: "Translating amino acid sequences"
-    input:
-        tree = rules.refine.output.tree,
         translations = lambda w: rules.build_align.output.translations,
-        reference = config["files"]["reference"],
+        annotation = config["files"]["annotation_cds"],
+        metadata = "results/{build_name}/metadata_adjusted.tsv.xz",
+        pipeline = "defaults/treetime_pipeline.yaml",
     output:
-        node_data = "results/{build_name}/aa_muts.json",
-        translations = expand("results/{{build_name}}/translations/aligned.gene.{gene}_withInternalNodes.fasta", gene=config.get('genes', ['S']))
+        optimized_tree = "results/{build_name}/tree_optimized.nwk",
+        tree = "results/{build_name}/tree.nwk",
+        branch_lengths = "results/{build_name}/branch_lengths.json",
+        nt_muts = "results/{build_name}/nt_muts.json",
+        traits = "results/{build_name}/traits.json",
+        trait_probabilities = "results/{build_name}/trait_probabilities.tsv",
+        translations = expand("results/{{build_name}}/translations_with_internal_nodes/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S'])),
+        pipeline = "results/{build_name}/treetime_pipeline.yaml",
     params:
-        genes = config.get('genes', 'S')
+        treetime = config.get("treetime_binary", "./treetime"),
+        root = config["refine"]["root"],
+        genes = config.get('genes', ['S']),
+        columns = _get_trait_columns_by_wildcards,
+        sampling_bias_correction = _get_sampling_bias_correction_for_wildcards,
+        translations_template = lambda w: f"results/{w.build_name}/translations/aligned.gene.{{cds}}.fasta",
+        output_translations = lambda w: f"results/{w.build_name}/translations_with_internal_nodes/aligned.gene.{{cds}}.fasta",
     log:
-        "logs/aamuts_{build_name}.txt"
+        "logs/treetime_pipeline_{build_name}.txt"
     benchmark:
-        "benchmarks/aamuts_{build_name}.txt"
+        "benchmarks/treetime_pipeline_{build_name}.txt"
+    threads: 4
     resources:
         # Multiple sequence alignments can use up to 15 times their disk size in
         # memory.
         mem_mb=lambda wildcards, input: 15 * int(input.size_mb)
-    conda: config["conda_environment"]
-    shell:
-        r"""
-        python3 scripts/explicit_translation.py \
-            --tree {input.tree} \
-            --reference {input.reference} \
-            --translations {input.translations:q} \
-            --genes {params.genes} \
-            --output {output.node_data} 2>&1 | tee {log}
-        """
+    run:
+        import os
+        import yaml
+
+        # Relative paths in a treetime config resolve from the folder of the
+        # config file, so give it absolute paths.
+        def path(p):
+            return os.path.abspath(p)
+
+        columns = params.columns
+        if isinstance(columns, str):
+            columns = [columns]
+        if len(columns) != 1:
+            raise ValueError(
+                f"The treetime pipeline reconstructs one trait column per build, got {columns}."
+            )
+
+        with open(input.pipeline, encoding="utf-8") as fh:
+            pipeline = yaml.safe_load(fh)
+        steps = {step["name"]: step for step in pipeline["steps"]}
+
+        optimize = steps["optimize"]["optimize"]
+        optimize.update({
+            "tree": path(input.tree),
+            "alignment": [path(input.filtered_alignment)],
+            "output_tree_nwk": path(output.optimized_tree),
+        })
+
+        # The rule only sets the per-build inputs and outputs; all other
+        # parameters come from the template.
+        timetree = steps["timetree"]["timetree"]
+        timetree.update({
+            "tree": path(output.optimized_tree),
+            "alignment": [path(input.filtered_alignment)],
+            "metadata": path(input.metadata),
+            "outgroup": [params.root],
+            "output_tree_nwk": path(output.tree),
+            "output_node_data": path(output.branch_lengths),
+        })
+
+        ancestral = steps["ancestral"]["ancestral"]
+        ancestral.update({
+            "tree": path(output.tree),
+            "alignment": [path(input.alignment)],
+            "annotation": path(input.annotation),
+            "translations": path(params.translations_template),
+            "cds_selection": list(params.genes),
+            "output_node_data": path(output.nt_muts),
+            "output_translations": path(params.output_translations),
+        })
+
+        mugration = steps["traits"]["mugration"]
+        mugration.update({
+            "tree": path(output.tree),
+            "metadata": path(input.metadata),
+            "attribute": columns[0],
+            "sampling_bias_correction": params.sampling_bias_correction,
+            "output_node_data": path(output.traits),
+            "output_trait_probabilities": path(output.trait_probabilities),
+        })
+
+        with open(output.pipeline, "w", encoding="utf-8") as fh:
+            # Quote all strings: treetime reads YAML 1.1 booleans, so an
+            # unquoted gene name like N would be parsed as false.
+            class QuotedDumper(yaml.SafeDumper):
+                pass
+            QuotedDumper.add_representer(
+                str, lambda d, s: d.represent_scalar("tag:yaml.org,2002:str", s, style='"')
+            )
+            yaml.dump(pipeline, fh, Dumper=QuotedDumper, sort_keys=False)
+
+        shell(
+            "{params.treetime} pipeline"
+            " --config {output.pipeline:q}"
+            " --jobs {threads} 2>&1 | tee {log:q}"
+        )
 
 rule distances:
     input:
-        tree = rules.refine.output.tree,
-        alignments = "results/{build_name}/translations/aligned.gene.S_withInternalNodes.fasta",
+        tree = rules.treetime_pipeline.output.tree,
+        alignments = "results/{build_name}/translations_with_internal_nodes/aligned.gene.S.fasta",
         distance_maps = ["defaults/distance_maps/S1.json"]
     params:
         genes = 'S',
@@ -907,39 +910,6 @@ rule distances:
             --attribute-name {params.attribute_names} \
             --map {input.distance_maps} \
             --output {output}
-        """
-
-rule traits:
-    message:
-        """
-        Inferring ancestral traits for {params.columns!s}
-          - increase uncertainty of reconstruction by {params.sampling_bias_correction} to partially account for sampling bias
-        """
-    input:
-        tree = rules.refine.output.tree,
-        metadata="results/{build_name}/metadata_adjusted.tsv.xz",
-    output:
-        node_data = "results/{build_name}/traits.json"
-    log:
-        "logs/traits_{build_name}.txt"
-    benchmark:
-        "benchmarks/traits_{build_name}.txt"
-    params:
-        columns = _get_trait_columns_by_wildcards,
-        sampling_bias_correction = _get_sampling_bias_correction_for_wildcards
-    resources:
-        # Memory use scales primarily with the size of the metadata file.
-        mem_mb=12000
-    conda: config["conda_environment"]
-    shell:
-        r"""
-        augur traits \
-            --tree {input.tree} \
-            --metadata {input.metadata} \
-            --output {output.node_data} \
-            --columns {params.columns} \
-            --confidence \
-            --sampling-bias-correction {params.sampling_bias_correction} 2>&1 | tee {log}
         """
 
 def _get_clade_files(wildcards):
@@ -968,9 +938,8 @@ rule clade_files:
 rule clades:
     message: "Adding internal clade labels"
     input:
-        tree = rules.refine.output.tree,
-        aa_muts = rules.translate.output.node_data,
-        nuc_muts = rules.ancestral.output.node_data,
+        tree = rules.treetime_pipeline.output.tree,
+        muts = rules.treetime_pipeline.output.nt_muts,
         clades = rules.clade_files.output
     output:
         clade_data = "results/{build_name}/clades.json"
@@ -985,7 +954,7 @@ rule clades:
     shell:
         r"""
         augur clades --tree {input.tree} \
-            --mutations {input.nuc_muts} {input.aa_muts} \
+            --mutations {input.muts} \
             --clades {input.clades} \
             --output-node-data {output.clade_data} 2>&1 | tee {log}
         """
@@ -1079,7 +1048,7 @@ rule recency:
 rule tip_frequencies:
     message: "Estimating censored KDE frequencies for tips"
     input:
-        tree = rules.refine.output.tree,
+        tree = rules.treetime_pipeline.output.tree,
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
     output:
         tip_frequencies_json = "results/{build_name}/tip-frequencies.json"
@@ -1189,12 +1158,11 @@ def _get_node_data_by_wildcards(wildcards):
     # Define inputs shared by all builds.
     wildcards_dict = dict(wildcards)
     inputs = [
-        rules.refine.output.node_data,
-        rules.ancestral.output.node_data,
-        rules.translate.output.node_data,
+        rules.treetime_pipeline.output.branch_lengths,
+        rules.treetime_pipeline.output.nt_muts,
         rules.clades.output.clade_data,
         rules.recency.output.node_data,
-        rules.traits.output.node_data,
+        rules.treetime_pipeline.output.traits,
         rules.mlr_lineage_fitness.output.node_data,
         rules.distances.output.node_data,
         rules.calculate_epiweeks.output.node_data,
@@ -1255,7 +1223,7 @@ def get_auspice_config(w):
 rule export:
     message: "Exporting data files for Auspice"
     input:
-        tree = rules.refine.output.tree,
+        tree = rules.treetime_pipeline.output.tree,
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
         node_data = _get_node_data_by_wildcards,
         auspice_config = get_auspice_config,

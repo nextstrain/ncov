@@ -59,6 +59,8 @@ files:
   reference: "defaults/reference_seq.gb"
   alignment_reference: "defaults/reference_seq.fasta"
   annotation: "defaults/annotation.gff"
+  # GFF3 with CDS features, used by the treetime pipeline
+  annotation_cds: "defaults/annotation.gff3"
   ordering: "defaults/color_ordering.tsv"
   color_schemes: "defaults/color_schemes.tsv"
   auspice_config: "defaults/auspice_config.json"
@@ -116,20 +118,13 @@ combine_sequences_for_subsampling:
   warn_about_duplicates: true
 
 tree:
-  tree-builder-args: "'-ninit 10 -n 4'"
+  tree-builder-args: "'-ninit 10 -n 4 --pathogen'"
 
 # TreeTime settings
+# The root used when estimating the timetree (an outgroup of the treetime
+# pipeline). All other treetime parameters are in defaults/treetime_pipeline.yaml.
 refine:
   root: "Wuhan/Hu-1/2019"
-  clock_rate: 0.0008
-  clock_std_dev: 0.0004
-  coalescent: "opt"
-  date_inference: "marginal"
-  divergence_unit: "mutations"
-  clock_filter_iqd: 8
-
-ancestral:
-  inference: "joint"
 
 colors:
   default:
