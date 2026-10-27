@@ -13,8 +13,8 @@ structure. Output rows are appended to the build's colors.tsv.
 
 import argparse
 import json
-import zipfile
 from collections import Counter, defaultdict
+from pathlib import Path
 
 import pandas as pd
 
@@ -34,9 +34,10 @@ def clade_membership_order(ordering_path):
     return order
 
 
-def lineage_preorder(nextclade_dataset_zip):
+def lineage_preorder(nextclade_dataset):
     """lineage -> pre-order (DFS) index from the dataset's reference tree.json."""
-    tree = json.loads(zipfile.ZipFile(nextclade_dataset_zip).read("tree.json"))["tree"]
+    with open(Path(nextclade_dataset) / "tree.json", encoding="utf-8") as fh:
+        tree = json.load(fh)["tree"]
     order, counter = {}, [0]
 
     def walk(node):
@@ -60,7 +61,7 @@ def main():
     p.add_argument("--clade-recency", type=color_utils.relative_date, metavar="DURATION",
                    help="ISO 8601 duration; restrict to clades with a sequence in this window")
     p.add_argument("--color-schemes", required=True, help="color schemes TSV")
-    p.add_argument("--nextclade-dataset", required=True, help="Nextclade dataset zip (for tree.json structure)")
+    p.add_argument("--nextclade-dataset", required=True, help="Nextclade dataset directory (for tree.json structure)")
     p.add_argument("--clade-ordering", required=True, help="color_ordering.tsv (for clade_membership order)")
     p.add_argument("--input-colors", help="existing colors TSV (clade/geographic) to prepend to the output")
     p.add_argument("--output", required=True, help="output colors TSV (input-colors plus Pango lineage colors)")

@@ -56,10 +56,8 @@ nextclade_dataset: sars-cov-2
 files:
   include: "defaults/include.txt"
   exclude: "defaults/exclude.txt"
-  reference: "defaults/reference_seq.gb"
   alignment_reference: "defaults/reference_seq.fasta"
-  annotation: "defaults/annotation.gff"
-  # GFF3 with CDS features, used by the treetime pipeline
+  # GFF3 with the CDS features of the reference, used by the treetime pipeline
   annotation_cds: "defaults/annotation.gff3"
   ordering: "defaults/color_ordering.tsv"
   color_schemes: "defaults/color_schemes.tsv"

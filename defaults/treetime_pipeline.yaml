@@ -13,12 +13,12 @@ steps:
     optimize:
       model: infer
 
-  # augur refine --timetree
+  # augur refine --timetree, with a preceding branch length optimization
   - name: timetree
     timetree:
       clock_rate: 0.0008
       clock_std_dev: 0.0004
-      clock_filter: 8
+      clock_filter: 4
       coalescent: opt
       confidence: true
       divergence_units: mutations

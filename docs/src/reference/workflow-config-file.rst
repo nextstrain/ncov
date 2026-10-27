@@ -443,9 +443,9 @@ genes
 -----
 
 -  type: array
--  description: A list of genes for which ``nextclade`` should generate amino acid sequences during the alignment process. Gene names must match the names provided in the gene map from the ``annotation`` parameter.
+-  description: A list of genes for which ``nextclade`` should generate amino acid sequences during the alignment process. Gene names must match the names provided in the annotation of the nextclade dataset and in the ``annotation_cds`` file.
 -  default: ``["ORF1a", "ORF1b", "S", "ORF3a", "M", "N"]``
--  used in rules: ``align``, ``build_align``, ``translate``
+-  used in rules: ``align``, ``build_align``, ``treetime_pipeline``
 
 
 active_builds
@@ -513,29 +513,21 @@ exclude
 -  default: ``defaults/exclude.txt``
 -  used in rules: ``subsample``, ``filter``
 
-reference
-~~~~~~~~~
-
--  type: string
--  description: Path to a GenBank-formatted sequence to use for sequence translation
--  default: ``defaults/reference_seq.gb``
--  used in rules: ``translate``
-
 alignment_reference
 ~~~~~~~~~~~~~~~~~~~
 
 -  type: string
--  description: Path to a FASTA-formatted sequence to use for alignment with ``nextclade``
+-  description: Path to a FASTA-formatted reference sequence. (Alignment with ``nextclade`` uses the reference of the nextclade dataset.)
 -  default: ``defaults/reference_seq.fasta``
--  used in rules: ``align``, ``proximity_score`` (subsampling)
+-  used in rules: ``proximity_score`` (subsampling)
 
-annotation
-~~~~~~~~~~
+annotation_cds
+~~~~~~~~~~~~~~
 
 -  type: string
--  description: Path to a GFF-formatted annotation of gene coordinates (e.g., a “gene map”) for use by ``nextclade`` for codon-aware alignment.
--  default: ``defaults/annotation.gff``
--  used in rules: ``align``
+-  description: Path to a GFF3-formatted annotation with the ``CDS`` features (gene coordinates) of the reference, for use by the ``treetime`` ancestral reconstruction and translation.
+-  default: ``defaults/annotation.gff3``
+-  used in rules: ``treetime_pipeline``
 
 ordering
 ~~~~~~~~
@@ -852,7 +844,7 @@ refine
 ------
 
 -  type: object
--  description: Parameters for inference of time trees with ``augur refine``.
+-  description: Parameters for the rooting of the time tree, which is inferred by the ``treetime pipeline`` of the ``treetime_pipeline`` rule. All other TreeTime parameters (clock rate, coalescent model, clock filter, ancestral reconstruction, ...) are set in ``defaults/treetime_pipeline.yaml``; see the TreeTime documentation for their meaning.
 -  Valid attributes:
 
 .. contents::
@@ -862,266 +854,8 @@ root
 ~~~~
 
 -  type: string
--  description: Rooting mechanism or strain name(s) whose sequences should be used to root the time tree. Only one or two (space-delimited) strain names are supported.
+-  description: Strain name(s) whose sequences should be used to root the time tree (passed to TreeTime as the ``outgroup``).
 -  default: ``Wuhan/Hu-1/2019``
--  examples:
-
-   -  ``best``
-   -  ``least-squares``
-   -  ``min_dev``
-   -  ``oldest``
-   -  ``Wuhan/Hu-1/2019``
-
-clock_rate
-~~~~~~~~~~
-
--  type: float
--  description: Fixed clock rate to use for time tree calculations.
--  default: ``0.0008``
-
-clock_std_dev
-~~~~~~~~~~~~~
-
--  type: float
--  description: Standard deviation of the fixed ``clock_rate`` estimate.
--  default: ``0.0004``
-
-coalescent
-~~~~~~~~~~
-
--  type: float or string
--  description: Coalescent timescale in units of inverse clock rate (float), optimized as a scalar (“opt”), or skyline (“skyline”).
--  default: ``skyline``
--  examples:
-
-   -  ``opt``
-   -  ``skyline``
-
-date_inference
-~~~~~~~~~~~~~~
-
--  type: string
--  description: Assign internal nodes to their jointly or marginally most likely dates.
--  default: ``marginal``
--  examples:
-
-   -  ``marginal``
-   -  ``joint``
-
-divergence_unit
-~~~~~~~~~~~~~~~
-
--  type: string
--  description: Units in which sequence divergence is reported.
--  default: ``mutations``
--  examples:
-
-   -  ``mutations``
-   -  ``mutations-per-site``
-
-clock_filter_iqd
-~~~~~~~~~~~~~~~~
-
--  type: integer
--  description: Remove tips that deviate more than this number of interquartile ranges from the root-to-tip by time regression. Disable clock filtering by specifying ``0``
--  default: ``8``
-
-keep_polytomies
-~~~~~~~~~~~~~~~
-
--  type: boolean
--  description: Do not attempt to resolve polytomies.
--  default: ``false``
-
-no_timetree
-~~~~~~~~~~~
-
--  type: boolean
--  description: Do not produce a time tree.
--  default: ``false``
-
-colors
-------
-
--  type: object
--  description: Parameters for assigning colors in ``scripts/assign-clade-colors.py``
--  examples:
-
-.. code:: yaml
-
-   colors:
-     default:
-       clade_recency: "all"
-     global-6m:
-       # Override clade recency colors for "global-6m" build
-       clade_recency: "6M"
-
-Each named traits configuration (``default`` or build-named) supports the following attributes:
-
-.. contents::
-   :local:
-
-clade_recency
-~~~~~~~~~~~~~
-
--  type: string
--  format: `ISO 8601 <https://en.wikipedia.org/wiki/ISO_8601#Durations>`__ duration with optional ``P`` prefix (e.g. ``2M``, ``18M``, ``1Y6M``)
--  description: restrict to clades found in tree within this duration from present
--  default: ``all`` (no restriction)
-
-traits
-------
-
--  type: object
--  description: Parameters for inference of ancestral traits by ``augur traits`` with support for default traits and build-specific traits.
--  examples:
-
-.. code:: yaml
-
-   traits:
-     default:
-       sampling_bias_correction: 2.5
-       columns: ["country"]
-     washington:
-       # Override default sampling bias correction for
-       # "washington" build and continue to use default
-       # trait columns.
-       sampling_bias_correction: 5.0
-
-Each named traits configuration (``default`` or build-named) supports the following attributes:
-
-.. contents::
-   :local:
-
-sampling_bias_correction
-~~~~~~~~~~~~~~~~~~~~~~~~
-
--  type: float
--  description: A rough estimate of how many more events would have been observed if sequences represented an even sample. :doc:`See the documentation for augur traits for more details <augur:usage/cli/traits>`.
--  default: ``2.5``
-
-columns
-~~~~~~~
-
--  type: array
--  description: A list of columns from the metadata for which ancestral trait values should be inferred for ancestral nodes.
--  default: ``["country"]``
-
-
-frequencies
------------
--  type: object
--  description: Parameters for specifying tip frequency calculations via ``augur frequencies``
--  examples:
-
-.. code:: yaml
-
-   frequencies:
-     pivot_interval_units: "weeks"
-     default:
-       min_date: "6M"
-       narrow_bandwidth: 0.038
-     global_2m:
-       min_date: "2M"
-       narrow_bandwidth: 0.019
-     global_2020_to_2022:
-       min_date: "2020-01-01"
-       max_date: "2022-01-01"
-       narrow_bandwidth: 0.076
-
-Each named traits configuration (``default`` or build-named) supports specification of ``min_date``, ``max_date`` and ``narrow_bandwidth``. Other parameters can only be specified across all builds.
-
-.. contents::
-   :local:
-
-min_date
-~~~~~~~~
-
--  type: float or string
--  description: Earliest date to estimate frequencies for. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
--  default: without value supplied, defaults to 1 year before present
-
-max_date
-~~~~~~~~
-
--  type: float or string
--  description: Earliest date to estimate frequencies for. Specifying ``max_date`` overrides ``recent_days_to_censor``. See :doc:`augur filter docs <augur:usage/cli/filter>` for supported date formats.
--  default: without value supplied, defaults to today's date minus ``recent_days_to_censor`` parameter
-
-recent_days_to_censor
-~~~~~~~~~~~~~~~~~~~~~
-
--  type: integer
--  description: How many days back from today's date should samples be hidden from frequencies calculations? This is in place to help with sampling bias where some regions have faster sequencing turnarounds than other regions.
--  default: without value supplied, defaults to ``0``
-
-pivot_interval
-~~~~~~~~~~~~~~
-
--  type: integer
--  description: Number of units between frequency estimates based on the units defined in the ``pivot_interval_units`` parameter. A “pivot” corresponds to a time point when frequencies are estimated.
--  default: ``1``
-
-pivot_interval_units
-~~~~~~~~~~~~~~~~~~~~
-
--  type: string
--  description: Unit of pivot interval spacing for frequency estimation.
--  default: ``weeks``
--  examples:
-
-   -  ``weeks``
-   -  ``months``
-
-narrow_bandwidth
-~~~~~~~~~~~~~~~~
-
--  type: float
--  description: Variance of the KDE normal distribution in numeric floating point years (e.g., one month ~= 30 days ~= 0.08 years). This bandwidth value controls the smoothing of frequency estimates with higher values producing smoother estimates.
--  default: ``0.05``
-
-proportion_wide
-~~~~~~~~~~~~~~~
-
--  type: float
--  description: Proportion of a second KDE normal distribution to add to each initial normal distribution already parameterized by the ``narrow_bandwidth`` parameter.
--  default: ``0.0``
-
-minimal_frequency
-~~~~~~~~~~~~~~~~~
-
--  Unused
-
-stiffness
-~~~~~~~~~
-
--  Unused
-
-inertia
-~~~~~~~
-
--  Unused
-
-
-ancestral
----------
-
--  type: object
--  description: Configuration of augur ancestral command that infers ancestral sequences based on a tree.
-- Valid attributes:
-
-.. contents::
-   :local:
-
-inference
-~~~~~~~~~
-
--  type: string
--  description: Calculate joint or marginal maximum likelihood ancestral sequence states
--  examples
-
-   -  ``joint``
-   -  ``marginal``
 
 
 cluster

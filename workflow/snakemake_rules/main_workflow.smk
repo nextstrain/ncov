@@ -62,15 +62,14 @@ rule combine_input_metadata:
 rule align:
     message:
         """
-        Aligning sequences to {input.reference}
+        Aligning sequences with the nextclade dataset {input.nextclade_dataset}
             - gaps relative to reference are considered real
         """
     input:
         sequences = lambda wildcards: _get_path_for_input("sequences", wildcards.origin),
-        # Annotation used for codon-aware nucleotide alignment
+        # The dataset provides the reference and the annotation used for codon-aware nucleotide alignment
         # <https://docs.nextstrain.org/projects/nextclade/en/stable/user/algorithm/01-sequence-alignment.html>
-        annotation = config["files"]["annotation"],
-        reference = config["files"]["alignment_reference"]
+        nextclade_dataset = "data/sars-cov-2-nextclade-defaults",
     output:
         alignment = "results/aligned_{origin}.fasta.xz",
     params:
@@ -94,8 +93,7 @@ rule align:
             --output /dev/stdout 2> {params.sanitize_log} \
             | nextclade run \
             --jobs={threads} \
-            --input-ref {input.reference} \
-            --input-annotation {input.annotation} \
+            --input-dataset {input.nextclade_dataset} \
             --output-fasta {params.uncompressed_alignment} > {log} 2>&1;
         xz -2 -T {threads} {params.uncompressed_alignment};
         """
@@ -463,14 +461,14 @@ rule prepare_nextclade:
         Downloading reference files for nextclade (used for alignment and qc).
         """
     output:
-        nextclade_dataset = "data/sars-cov-2-nextclade-defaults.zip",
+        nextclade_dataset = directory("data/sars-cov-2-nextclade-defaults"),
     params:
         name = config["nextclade_dataset"],
     conda: config["conda_environment"]
     shell:
         r"""
         nextclade --version
-        nextclade dataset get --name {params.name} --output-zip {output.nextclade_dataset}
+        nextclade dataset get --name {params.name} --output-dir {output.nextclade_dataset}
         """
 
 rule build_align:
@@ -481,7 +479,7 @@ rule build_align:
         """
     input:
         sequences = rules.combine_samples.output.sequences,
-        nextclade_dataset = "data/sars-cov-2-nextclade-defaults.zip",
+        nextclade_dataset = "data/sars-cov-2-nextclade-defaults",
     output:
         alignment = "results/{build_name}/aligned.fasta",
         nextclade_qc = 'results/{build_name}/nextclade_qc.tsv',
@@ -794,7 +792,7 @@ rule treetime_pipeline:
         translations = expand("results/{{build_name}}/translations_with_internal_nodes/aligned.gene.{gene}.fasta", gene=config.get('genes', ['S'])),
         pipeline = "results/{build_name}/treetime_pipeline.yaml",
     params:
-        treetime = config.get("treetime_binary", "./treetime"),
+        treetime = config.get("treetime_binary", "treetime1"),
         root = config["refine"]["root"],
         genes = config.get('genes', ['S']),
         columns = _get_trait_columns_by_wildcards,
@@ -999,7 +997,7 @@ rule lineage_colors:
         color_schemes = config["files"]["color_schemes"],
         metadata="results/{build_name}/metadata_adjusted.tsv.xz",
         clades = rules.clades.output.clade_data,
-        nextclade_dataset = "data/sars-cov-2-nextclade-defaults.zip"
+        nextclade_dataset = "data/sars-cov-2-nextclade-defaults"
     params:
         clade_recency_argument = _get_clade_recency_argument
     output:
