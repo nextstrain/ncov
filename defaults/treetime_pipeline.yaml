@@ -18,10 +18,11 @@ steps:
     timetree:
       clock_rate: 0.0008
       clock_std_dev: 0.0004
-      clock_filter: 4
+      clock_filter: 6
       coalescent: opt
       confidence: true
       divergence_units: mutations
+      prune_filtered_tips: true
       # polytomies are resolved stochastically; set `keep_polytomies: true` to keep them
       keep_polytomies: false
 
